@@ -23,9 +23,17 @@
 
 .field private final mAudioManager:Landroid/media/AudioManager;
 
+.field private mColor:I
+
 .field private mContext:Landroid/content/Context;
 
 .field private final mHandler:Landroid/os/Handler;
+
+.field private mIconColor:I
+
+.field private mState:I
+
+.field final synthetic this$0:Lcom/android/internal/policy/impl/GlobalActions;
 
 
 # direct methods
@@ -70,6 +78,112 @@
 
 
 # virtual methods
+.method color_icon(Landroid/content/Context;)V
+    .locals 5
+
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "link_power"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_0
+
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/internal/policy/impl/GlobalActions$SilentModeAction;->mIconColor:I
+
+    return-void
+
+    :cond_0
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "powericon_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/internal/policy/impl/GlobalActions$SilentModeAction;->mIconColor:I
+
+    return-void
+.end method
+
+.method color_text(Landroid/content/Context;)V
+    .locals 5
+
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "link_power_text"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_0
+
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/internal/policy/impl/GlobalActions$SilentModeAction;->mColor:I
+
+    return-void
+
+    :cond_0
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "power_text_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/internal/policy/impl/GlobalActions$SilentModeAction;->mColor:I
+
+    return-void
+.end method
+
 .method public create(Landroid/content/Context;Landroid/view/View;Landroid/view/ViewGroup;Landroid/view/LayoutInflater;)Landroid/view/View;
     .locals 9
 
@@ -166,6 +280,8 @@
     goto :goto_1
 
     :cond_4
+    invoke-virtual {p0, p1}, Lcom/android/internal/policy/impl/GlobalActions$SilentModeAction;->set_sound_state(Landroid/content/Context;)V
+
     return-object v4
 .end method
 
@@ -313,6 +429,38 @@
     return-void
 .end method
 
+.method set_sound_state(Landroid/content/Context;)V
+    .locals 5
+
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v2
+
+    const-string v3, "power_sound"
+
+    const v1, 0x1
+
+    invoke-static {v2, v3, v1}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v2
+
+    const v4, 0x0
+
+    if-ne v2, v4, :cond_0
+
+    const v2, 0x1
+
+    :goto_0
+    iput v2, p0, Lcom/android/internal/policy/impl/GlobalActions$SilentModeAction;->mState:I
+
+    return-void
+
+    :cond_0
+    const v2, 0x0
+
+    goto :goto_0
+.end method
+
 .method public showBeforeProvisioning()Z
     .locals 1
 
@@ -322,10 +470,17 @@
 .end method
 
 .method public showConditional()Z
-    .locals 1
+    .locals 3
+
+    iget v1, p0, Lcom/android/internal/policy/impl/GlobalActions$SilentModeAction;->mState:I
+
+    const/4 v0, 0x0
+
+    if-ne v1, v0, :cond_0
 
     const/4 v0, 0x1
 
+    :cond_0
     return v0
 .end method
 

@@ -17,8 +17,18 @@
 .end annotation
 
 
+# static fields
+.field protected static rebootMode:I
+
+.field protected static final rebootOptions:[Ljava/lang/String;
+
+
 # instance fields
+.field private mColor:I
+
 .field private final mIcon:Landroid/graphics/drawable/Drawable;
+
+.field private mIconColor:I
 
 .field private final mIconResId:I
 
@@ -30,6 +40,42 @@
 
 
 # direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    const/4 v0, 0x4
+
+    new-array v0, v0, [Ljava/lang/String;
+
+    const/4 v1, 0x0
+
+    const-string v2, "Reboot"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x1
+
+    const-string v2, "Hot Boot"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x2
+
+    const-string v2, "Download"
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x3
+
+    const-string v2, "Recovery"
+
+    aput-object v2, v0, v1
+
+    sput-object v0, Lcom/android/internal/policy/impl/GlobalActions$SinglePressAction;->rebootOptions:[Ljava/lang/String;
+
+    return-void
+.end method
+
 .method protected constructor <init>(II)V
     .locals 1
 
@@ -104,8 +150,114 @@
 
 
 # virtual methods
-.method public create(Landroid/content/Context;Landroid/view/View;Landroid/view/ViewGroup;Landroid/view/LayoutInflater;)Landroid/view/View;
+.method color_icon(Landroid/content/Context;)V
     .locals 5
+
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "link_power"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_0
+
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/internal/policy/impl/GlobalActions$SinglePressAction;->mIconColor:I
+
+    return-void
+
+    :cond_0
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "powericon_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/internal/policy/impl/GlobalActions$SinglePressAction;->mIconColor:I
+
+    return-void
+.end method
+
+.method color_text(Landroid/content/Context;)V
+    .locals 6
+
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "link_power_text"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_0
+
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/internal/policy/impl/GlobalActions$SinglePressAction;->mColor:I
+
+    return-void
+
+    :cond_0
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "power_text_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/internal/policy/impl/GlobalActions$SinglePressAction;->mColor:I
+
+    return-void
+.end method
+
+.method public create(Landroid/content/Context;Landroid/view/View;Landroid/view/ViewGroup;Landroid/view/LayoutInflater;)Landroid/view/View;
+    .locals 11
 
     const v3, 0x1090055
 
@@ -163,6 +315,12 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
+    invoke-virtual {p0, p1}, Lcom/android/internal/policy/impl/GlobalActions$SinglePressAction;->color_text(Landroid/content/Context;)V
+
+    iget v9, p0, Lcom/android/internal/policy/impl/GlobalActions$SinglePressAction;->mColor:I
+
+    invoke-virtual {v1, v9}, Landroid/widget/TextView;->setTextColor(I)V
+
     :goto_1
     return-object v2
 
@@ -183,12 +341,26 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
+    invoke-virtual {p0, p1}, Lcom/android/internal/policy/impl/GlobalActions$SinglePressAction;->color_icon(Landroid/content/Context;)V
+
+    iget v6, p0, Lcom/android/internal/policy/impl/GlobalActions$SinglePressAction;->mIconColor:I
+
+    sget-object v10, Landroid/graphics/PorterDuff$Mode;->MULTIPLY:Landroid/graphics/PorterDuff$Mode;
+
+    invoke-virtual {v0, v6, v10}, Landroid/widget/ImageView;->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
+
     goto :goto_0
 
     :cond_2
     iget v3, p0, Lcom/android/internal/policy/impl/GlobalActions$SinglePressAction;->mMessageResId:I
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(I)V
+
+    invoke-virtual {p0, p1}, Lcom/android/internal/policy/impl/GlobalActions$SinglePressAction;->color_text(Landroid/content/Context;)V
+
+    iget v9, p0, Lcom/android/internal/policy/impl/GlobalActions$SinglePressAction;->mColor:I
+
+    invoke-virtual {v1, v9}, Landroid/widget/TextView;->setTextColor(I)V
 
     const/4 v3, 0x1
 
