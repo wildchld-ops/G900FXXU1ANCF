@@ -599,7 +599,7 @@
     return v1
 
     :cond_1
-    const/4 v1, 0x0
+    const/4 v1, 0x1
 
     goto :goto_0
 .end method

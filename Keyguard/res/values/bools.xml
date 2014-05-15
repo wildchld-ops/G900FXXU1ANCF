@@ -7,6 +7,8 @@
     <bool name="kg_top_align_page_shrink_on_bouncer_visible">true</bool>
     <bool name="kg_show_ime_at_screen_on">true</bool>
     <bool name="kg_use_all_caps">false</bool>
+    <bool name="APKTOOL_DUMMY_000a">false</bool>
+    <bool name="APKTOOL_DUMMY_000b">false</bool>
     <bool name="config_disableMenuKeyInLockScreen">true</bool>
     <bool name="config_homeKeyDoubleClickUseRecent">false</bool>
     <bool name="config_isAlwaysHideStatusBar">false</bool>
@@ -14,7 +16,7 @@
     <bool name="config_isDefaultSvoiceLaunched">true</bool>
     <bool name="config_isWaterRippleEnabled">true</bool>
     <bool name="config_is_JBP_Upgrade">false</bool>
-    <bool name="config_isWaterInkEnabled">false</bool>
+    <bool name="config_isWaterInkEnabled">true</bool>
     <bool name="config_isWaterInkLCD">true</bool>
     <bool name="restrictCPU_Clock_Watercolor">false</bool>
     <bool name="restrictGPU_Freq_Watercolor">false</bool>
@@ -23,6 +25,4 @@
     <bool name="config_isSViewCover">false</bool>
     <bool name="config_isSViewCover2">false</bool>
     <bool name="config_isSPlannerWidget">false</bool>
-    <bool name="APKTOOL_DUMMY_000a">false</bool>
-    <bool name="APKTOOL_DUMMY_000b">false</bool>
 </resources>

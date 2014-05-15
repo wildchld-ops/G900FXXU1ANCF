@@ -12,6 +12,8 @@
 
 .field private mClockTime:Lcom/android/keyguard/sec/SecKeyguardTextClock;
 
+.field private mColor:I
+
 .field private mDate:Landroid/widget/TextView;
 
 .field private mHandler:Landroid/os/Handler;
@@ -87,7 +89,7 @@
 .end method
 
 .method private handleUpdateClock()V
-    .locals 3
+    .locals 4
 
     const-string v1, "SecContextualClock"
 
@@ -115,11 +117,76 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
+    invoke-virtual {p0}, Lcom/android/keyguard/sec/SecContextualClock;->color_stuff()V
+
+    iget v3, p0, Lcom/android/keyguard/sec/SecContextualClock;->mColor:I
+
+    invoke-virtual {v1, v3}, Landroid/widget/TextView;->setTextColor(I)V
+
     return-void
 .end method
 
 
 # virtual methods
+.method color_stuff()V
+    .locals 5
+
+    iget-object v0, p0, Lcom/android/keyguard/sec/SecContextualClock;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "link_lock_colors"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_0
+
+    iget-object v0, p0, Lcom/android/keyguard/sec/SecContextualClock;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_color"
+
+    const v3, -0x100
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/keyguard/sec/SecContextualClock;->mColor:I
+
+    return-void
+
+    :cond_0
+    iget-object v0, p0, Lcom/android/keyguard/sec/SecContextualClock;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "lock_colors"
+
+    const v3, -0x100
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/keyguard/sec/SecContextualClock;->mColor:I
+
+    return-void
+.end method
+
 .method protected onAttachedToWindow()V
     .locals 11
 

@@ -30,6 +30,8 @@
 
 .field private final mCallbacks:Lcom/android/keyguard/CameraWidgetFrame$Callbacks;
 
+.field private mColor:I
+
 .field private mDown:Z
 
 .field private mFakeNavBar:Landroid/view/View;
@@ -566,7 +568,7 @@
 .end method
 
 .method private static inflateGenericWidgetView(Landroid/content/Context;)Landroid/view/View;
-    .locals 4
+    .locals 5
 
     const/4 v3, 0x0
 
@@ -588,6 +590,12 @@
     const v1, 0x7f0200b7
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
+
+    invoke-virtual {p0}, Lcom/android/keyguard/CameraWidgetFrame;->color_stuff()V
+
+    iget v4, p0, Lcom/android/keyguard/CameraWidgetFrame;->mColor:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
 
     sget-object v1, Landroid/widget/ImageView$ScaleType;->CENTER:Landroid/widget/ImageView$ScaleType;
 
@@ -2030,6 +2038,65 @@
 
 
 # virtual methods
+.method color_stuff()V
+    .locals 5
+
+    iget-object v0, p0, Lcom/android/keyguard/CameraWidgetFrame;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "link_lock_colors"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_0
+
+    iget-object v0, p0, Lcom/android/keyguard/CameraWidgetFrame;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/keyguard/CameraWidgetFrame;->mColor:I
+
+    return-void
+
+    :cond_0
+    iget-object v0, p0, Lcom/android/keyguard/CameraWidgetFrame;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "lock_colors"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/keyguard/CameraWidgetFrame;->mColor:I
+
+    return-void
+.end method
+
 .method public onActive(Z)V
     .locals 1
 

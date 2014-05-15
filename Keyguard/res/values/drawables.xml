@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <item type="drawable" name="APKTOOL_DUMMY_0001">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0002">false</item>
     <item type="drawable" name="btn_code_lock_touched_candy_01" />
     <item type="drawable" name="btn_code_lock_touched_candy_02" />
     <item type="drawable" name="btn_code_lock_touched_candy_03" />
@@ -9,6 +11,7 @@
     <item type="drawable" name="btn_code_lock_touched_candy_07" />
     <item type="drawable" name="btn_code_lock_touched_candy_08" />
     <item type="drawable" name="btn_code_lock_touched_candy_09" />
+    <item type="drawable" name="APKTOOL_DUMMY_000c">false</item>
     <item type="drawable" name="camera_default_arrow_00001" />
     <item type="drawable" name="camera_default_arrow_00002" />
     <item type="drawable" name="camera_default_arrow_00003" />
@@ -51,35 +54,6 @@
     <item type="drawable" name="camera_default_arrow_00040" />
     <item type="drawable" name="camera_default_arrow_00041" />
     <item type="drawable" name="camera_default_arrow_00042" />
-    <item type="drawable" name="indicator_code_lock_point_area_default_candy_01" />
-    <item type="drawable" name="indicator_code_lock_point_area_default_candy_02" />
-    <item type="drawable" name="indicator_code_lock_point_area_default_candy_03" />
-    <item type="drawable" name="indicator_code_lock_point_area_default_candy_04" />
-    <item type="drawable" name="indicator_code_lock_point_area_default_candy_05" />
-    <item type="drawable" name="indicator_code_lock_point_area_default_candy_06" />
-    <item type="drawable" name="indicator_code_lock_point_area_default_candy_07" />
-    <item type="drawable" name="indicator_code_lock_point_area_default_candy_08" />
-    <item type="drawable" name="indicator_code_lock_point_area_default_candy_09" />
-    <item type="drawable" name="indicator_code_lock_point_area_default_pattern" />
-    <item type="drawable" name="indicator_code_lock_point_area_green_candy_01" />
-    <item type="drawable" name="indicator_code_lock_point_area_green_candy_02" />
-    <item type="drawable" name="indicator_code_lock_point_area_green_candy_03" />
-    <item type="drawable" name="indicator_code_lock_point_area_green_candy_04" />
-    <item type="drawable" name="indicator_code_lock_point_area_green_candy_05" />
-    <item type="drawable" name="indicator_code_lock_point_area_green_candy_06" />
-    <item type="drawable" name="indicator_code_lock_point_area_green_candy_07" />
-    <item type="drawable" name="indicator_code_lock_point_area_green_candy_08" />
-    <item type="drawable" name="indicator_code_lock_point_area_green_candy_09" />
-    <item type="drawable" name="indicator_code_lock_point_area_green_pattern" />
-    <item type="drawable" name="indicator_code_lock_point_area_red_candy" />
-    <item type="drawable" name="indicator_code_lock_point_area_red_pattern" />
-    <item type="drawable" name="stat_sys_warning">@*android:drawable/stat_sys_warning</item>
-    <item type="drawable" name="ic_media_pause">@*android:drawable/ic_media_pause</item>
-    <item type="drawable" name="ic_media_stop">@*android:drawable/ic_media_stop</item>
-    <item type="drawable" name="ic_contact_picture">@*android:drawable/ic_contact_picture</item>
-    <item type="drawable" name="APKTOOL_DUMMY_0001">false</item>
-    <item type="drawable" name="APKTOOL_DUMMY_0002">false</item>
-    <item type="drawable" name="APKTOOL_DUMMY_000c">false</item>
     <item type="drawable" name="APKTOOL_DUMMY_0040">false</item>
     <item type="drawable" name="APKTOOL_DUMMY_0041">false</item>
     <item type="drawable" name="APKTOOL_DUMMY_0042">false</item>
@@ -110,10 +84,32 @@
     <item type="drawable" name="APKTOOL_DUMMY_00d6">false</item>
     <item type="drawable" name="APKTOOL_DUMMY_00e0">false</item>
     <item type="drawable" name="APKTOOL_DUMMY_00e1">false</item>
+    <item type="drawable" name="indicator_code_lock_point_area_default_candy_01" />
+    <item type="drawable" name="indicator_code_lock_point_area_default_candy_02" />
+    <item type="drawable" name="indicator_code_lock_point_area_default_candy_03" />
+    <item type="drawable" name="indicator_code_lock_point_area_default_candy_04" />
+    <item type="drawable" name="indicator_code_lock_point_area_default_candy_05" />
+    <item type="drawable" name="indicator_code_lock_point_area_default_candy_06" />
+    <item type="drawable" name="indicator_code_lock_point_area_default_candy_07" />
+    <item type="drawable" name="indicator_code_lock_point_area_default_candy_08" />
+    <item type="drawable" name="indicator_code_lock_point_area_default_candy_09" />
     <item type="drawable" name="APKTOOL_DUMMY_00eb">false</item>
+    <item type="drawable" name="indicator_code_lock_point_area_default_pattern" />
     <item type="drawable" name="APKTOOL_DUMMY_00ed">false</item>
+    <item type="drawable" name="indicator_code_lock_point_area_green_candy_01" />
+    <item type="drawable" name="indicator_code_lock_point_area_green_candy_02" />
+    <item type="drawable" name="indicator_code_lock_point_area_green_candy_03" />
+    <item type="drawable" name="indicator_code_lock_point_area_green_candy_04" />
+    <item type="drawable" name="indicator_code_lock_point_area_green_candy_05" />
+    <item type="drawable" name="indicator_code_lock_point_area_green_candy_06" />
+    <item type="drawable" name="indicator_code_lock_point_area_green_candy_07" />
+    <item type="drawable" name="indicator_code_lock_point_area_green_candy_08" />
+    <item type="drawable" name="indicator_code_lock_point_area_green_candy_09" />
     <item type="drawable" name="APKTOOL_DUMMY_00f7">false</item>
+    <item type="drawable" name="indicator_code_lock_point_area_green_pattern" />
+    <item type="drawable" name="indicator_code_lock_point_area_red_candy" />
     <item type="drawable" name="APKTOOL_DUMMY_00fa">false</item>
+    <item type="drawable" name="indicator_code_lock_point_area_red_pattern" />
     <item type="drawable" name="APKTOOL_DUMMY_012e">false</item>
     <item type="drawable" name="APKTOOL_DUMMY_012f">false</item>
     <item type="drawable" name="APKTOOL_DUMMY_014f">false</item>
@@ -245,4 +241,8 @@
     <item type="drawable" name="APKTOOL_DUMMY_0298">false</item>
     <item type="drawable" name="APKTOOL_DUMMY_0299">false</item>
     <item type="drawable" name="APKTOOL_DUMMY_02b0">false</item>
+    <item type="drawable" name="stat_sys_warning">@*android:drawable/stat_sys_warning</item>
+    <item type="drawable" name="ic_media_pause">@*android:drawable/ic_media_pause</item>
+    <item type="drawable" name="ic_media_stop">@*android:drawable/ic_media_stop</item>
+    <item type="drawable" name="ic_contact_picture">@*android:drawable/ic_contact_picture</item>
 </resources>
