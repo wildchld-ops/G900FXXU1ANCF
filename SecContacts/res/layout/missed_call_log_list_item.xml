@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/missed_list" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="11.0dip" android:layout_marginRight="21.0dip" android:layout_marginBottom="12.0dip" android:scaleType="fitXY">
+            <LinearLayout android:orientation="vertical" android:layout_width="232.0dip" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#cc000000" android:shadowDy="2.0" android:shadowRadius="2.0" />
+                <TextView android:textSize="21.0sp" android:textColor="#ffffffff" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#80000000" android:shadowDy="2.0" android:shadowRadius="2.0" />
+            </LinearLayout>
+            <ImageButton android:gravity="center_vertical" android:id="@id/call_button" android:background="@drawable/missed_call_list_icon_bg" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/call" />
+        </RelativeLayout>
+        <View android:id="@id/bottom_divider" android:background="@drawable/noti_list_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="8.0dip" android:scaleType="fitXY" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/missed_list_time" android:paddingLeft="30.0dip" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/missed_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" android:shadowColor="#cc000000" android:shadowDy="2.0" android:shadowRadius="2.0" />
+    </LinearLayout>
+</LinearLayout>

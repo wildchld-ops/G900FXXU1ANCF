@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&amp;lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Щасливий</item>
+        <item>Сумний</item>
+        <item>Підморгувати</item>
+        <item>Висунутий язик</item>
+        <item>Здивований</item>
+        <item>Цілую</item>
+        <item>Пронизливий крик</item>
+        <item>Крутий</item>
+        <item>Розповім за гроші</item>
+        <item>Німий, як могила</item>
+        <item>Зніяковілий</item>
+        <item>Ангел</item>
+        <item>Нерішучий</item>
+        <item>Плакати</item>
+        <item>Запечатані вуста</item>
+        <item>Сміятися</item>
+        <item>Збентежений</item>
+        <item>Серце</item>
+        <item>Божевільний</item>
+        <item>Самовдоволена посмішка</item>
+        <item>Байдуже обличчя</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Викор. розм. шриф. прист.</item>
+        <item>Дуже маленький</item>
+        <item>Маленький</item>
+        <item>Звичайний</item>
+        <item>Великий</item>
+        <item>Величезний</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Викор. розм. шриф. прист.</item>
+        <item>Крихітний</item>
+        <item>Дуже малий</item>
+        <item>Маленький</item>
+        <item>Середній</item>
+        <item>Великий</item>
+        <item>Дуже великий</item>
+        <item>Величезний</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Всі канали</item>
+        <item>Мій канал</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-алфавіт</item>
+        <item>Юнікод</item>
+        <item>Автоматично</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 днів</item>
+        <item>1 день</item>
+        <item>2 дні</item>
+        <item>3 дні</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Обмежено</item>
+        <item>Попередження</item>
+        <item>Довільний</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Завжди</item>
+        <item>Підказка</item>
+        <item>Ніколи</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Оригамі</item>
+        <item>Надпис</item>
+        <item>Популярний</item>
+        <item>Сучасний</item>
+        <item>Рожевий</item>
+        <item>За замовчуванням</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Один раз</item>
+        <item>Кожні 2 хвилини</item>
+        <item>Кожні 15 хвилин</item>
+        <item>Вимкнено</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Ніколи</item>
+        <item>Кожні 2 хвилини</item>
+        <item>Кожні 10 хвилин</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Вітчизняні</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 годину</item>
+        <item>6 годин</item>
+        <item>24 години</item>
+        <item>2 дні</item>
+        <item>Стандартні установки мережі</item>
+        <item>Максимум</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Висока</item>
+        <item>Звичайний</item>
+        <item>Низький</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Негайно</item>
+        <item>1 годину</item>
+        <item>6 годин</item>
+        <item>24 години</item>
+        <item>1 тиж.</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 секунди</item>
+        <item>5 секунд</item>
+        <item>10 секунд</item>
+        <item>20 секунд</item>
+        <item>30 секунд</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Вимкнено</item>
+        <item>Блокування всіх повідомлень</item>
+        <item>Блокування зареєстрованих номерів і фраз</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Повністю збігається з</item>
+        <item>Починається з</item>
+        <item>Завершується на</item>
+        <item>Включення</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Журнали</item>
+        <item>Конт.</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Блокування повідомлень</item>
+        <item>Блокування виклику</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Блокування повідомлень</item>
+        <item>Блок. голосових викликів</item>
+        <item>Блокування відеовикликів</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Зарезервовано.</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Звичайний</item>
+        <item>Високий</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Вибач, я пропустив(-ла) твій виклик.</item>
+        <item>Я спізнююсь, але приїду за хвилину.</item>
+        <item>Як воно?</item>
+        <item>У чому справа?</item>
+        <item>Де ти?</item>
+        <item>Зателефонуй мені, коли отримаєш це повідомлення.</item>
+        <item>Коли зустрінемось?</item>
+        <item>Поговоримо пізніше.</item>
+        <item>Де відбувається зустріч?</item>
+        <item>Який номер?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Португальський (Бразилія)</item>
+        <item>Англійська (Велика Британія)</item>
+        <item>Англійська (США)</item>
+        <item>Французька</item>
+        <item>Німецька</item>
+        <item>Італійська</item>
+        <item>Японська</item>
+        <item>Корейська</item>
+        <item>Китайська (спрощене письмо)</item>
+        <item>Русский</item>
+        <item>Іспанська</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Дуже маленький</item>
+        <item>Маленький</item>
+        <item>Звичайний</item>
+        <item>Великий</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Всі</item>
+        <item>Відправник</item>
+        <item>Вміст</item>
+    </string-array>
+</resources>

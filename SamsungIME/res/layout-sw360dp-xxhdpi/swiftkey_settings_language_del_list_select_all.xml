@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/select_all_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:layout_gravity="center" android:id="@id/myword_delete_checkbox" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/settings_language_delete_select_all_list_header_height" android:layout_marginLeft="@dimen/xt9_words_list_padding" android:layout_marginRight="@dimen/xt9_words_list_padding" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="left|center" android:id="@id/myword_delete_content" android:paddingLeft="@dimen/xt9_words_list_padding" android:paddingRight="@dimen/xt9_words_list_padding" android:layout_width="fill_parent" android:layout_height="@dimen/settings_language_delete_select_all_list_header_height" android:singleLine="true" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">កំពុង​បង្ហាញ %d ទំនាក់​ទំនង</item>
+        <item quantity="one">កំពុងបង្ហាញទំនាក់ទំនង 1</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">បង្ហាញ %d ទំនាក់​ទំនង​ជាមួយ​លេខ​ទូរសព្ទ</item>
+        <item quantity="one">បង្ហាញ 1 ទំនាក់​ទំនង​ជាមួយ​លេខ​ទូរសព្ទ</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d ទំនាក់​ទំនង​ជាមួយ​លេខ​ទូរសព្ទ</item>
+        <item quantity="one">1 ទំនាក់​ទំនង​ជាមួយ​លេខ​ទូរសព្ទ</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d ទំនាក់​ទំនង</item>
+        <item quantity="one">ទំនាក់ទំនង 1</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">បាន​រក​ឃើញ %d</item>
+        <item quantity="one">បាន​រក​ឃើញ 1</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">បាន​រក​ឃើញ %d</item>
+        <item quantity="one">បាន​រក​ឃើញ 1</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d ក្រុម</item>
+        <item quantity="one">1 ក្រុម</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d នាក់​ក្នុង​ក្រុម %2$s</item>
+        <item quantity="one">%1$d នាក់​ក្នុង​ក្រុម %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d នាក់</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">សំបុត្រ​សំឡេង %d</item>
+        <item quantity="one">សំបុត្រ​សំឡេង</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">បាន​ចម្លង​ទំនាក់ទំនង %d។</item>
+        <item quantity="one">បាន​ចម្លង​ទំនាក់ទំនង %d។</item>
+    </plurals>
+</resources>

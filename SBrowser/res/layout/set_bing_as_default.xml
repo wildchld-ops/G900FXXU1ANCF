@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="20.0sp" android:id="@id/bing_set_as_default_dialog_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/set_as_default_page_left_margin" android:layout_marginTop="15.0dip" android:layout_marginRight="17.0dip" android:text="@string/set_bing_as_default_dialog_text" />
+    <com.sec.android.touchwiz.widget.TwCheckBox android:textAppearance="?android:textAppearanceMedium" android:textSize="20.0sp" android:id="@id/bing_set_as_default_dialog_checkbox" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/set_as_default_page_left_margin" android:layout_marginTop="12.0dip" android:layout_marginRight="17.0dip" android:layout_marginBottom="14.0dip" android:text="@string/dont_show_again_checkbox_text" />
+</LinearLayout>

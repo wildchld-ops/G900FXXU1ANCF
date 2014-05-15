@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">%s минутын турш ямар ч өгөгдлийн холболт байхгүй</item>
+        <item quantity="one">%s минутын турш ямар ч өгөгдлийн холболт байхгүй</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Утас Яаралтай тусламжийн буцааж ярих горимд %s минутын турш байна. Энэ горимд байхад өгөгдлийн холболт ашигладаг програмууд ашиглах боломжгүй. Одоо гарах уу?</item>
+        <item quantity="one">Програмуудад өгөгдлийн холболт ашиглах боломжгүй. Энэ горимд байхад утас Яаралтай тусламжийн буцааж ярих горимд %s минутын турш байна. Одоо гарах уу?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Сонгосон үйлдэл Яаралтай тусламжийн буцааж ярих горимд боломжгүй. Утас энэ горимд %s минутын турш байна. Одоо гарах уу?</item>
+        <item quantity="one">Сонгосон үйлдэл Яаралтай тусламжийн буцааж ярих горимд боломжгүй. Утас энэ горимд %s минутын турш байна. Одоо гарах уу?</item>
+    </plurals>
+</resources>

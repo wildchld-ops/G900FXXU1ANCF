@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/user_profile_header" android:background="@drawable/list_section_divider_holo_custom" android:paddingLeft="?list_item_padding_left" android:paddingRight="?list_item_padding_right" android:layout_width="fill_parent" android:layout_height="?list_item_header_height" android:paddingStart="?list_item_padding_left" android:paddingEnd="?list_item_padding_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="@color/header_text_color" android:ellipsize="end" android:id="@id/profile_title" android:paddingLeft="?list_item_header_text_indent" android:paddingRight="?list_item_gap_between_image_and_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_profile_contacts_list_header_upper_case" android:singleLine="true" android:layout_weight="1.0" android:paddingStart="?list_item_header_text_indent" />
+</LinearLayout>

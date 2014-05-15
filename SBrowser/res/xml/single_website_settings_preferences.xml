@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <PreferenceCategory android:key="site_title" />
+    <com.sec.android.app.sbrowser.preferences.ClearWebsiteStorage android:title="@string/webstorage_clear_data_dialog_title" android:key="clear_data" android:dialogMessage="@string/webstorage_clear_data_dialog_message" android:positiveButtonText="@string/webstorage_clear_data_dialog_ok_button" android:negativeButtonText="@string/webstorage_clear_data_dialog_cancel_button" />
+    <CheckBoxPreference android:checked="false" android:title="@string/geolocation_settings_page_title" android:key="location_access" android:summaryOn="@string/geolocation_settings_page_summary_allowed" android:summaryOff="@string/geolocation_settings_page_summary_not_allowed" />
+    <CheckBoxPreference android:checked="false" android:title="@string/website_settings_popup_exceptions" android:key="popup_permission" android:summaryOn="@string/popup_settings_page_summary_allowed" android:summaryOff="@string/popup_settings_page_summary_not_allowed" />
+</PreferenceScreen>

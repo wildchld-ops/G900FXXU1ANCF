@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>ප්‍රීතිමත්</item>
+        <item>කණගාටු</item>
+        <item>නිමීලන</item>
+        <item>දිව දික් කරගෙන</item>
+        <item>පුදුමයි</item>
+        <item>සිඹිමින්</item>
+        <item>යෙලිං</item>
+        <item>සැහැල්ලුවෙන් සිටීම</item>
+        <item>මුදල් මුඛය</item>
+        <item>මුඛයේ පාදය</item>
+        <item>අපහසුතාවයට පති වී</item>
+        <item>සුරංගනාව</item>
+        <item>තීරණය නොකල</item>
+        <item>හඬනවා</item>
+        <item>තොල් තදින් වසා ඇත</item>
+        <item>සිනාවෙමින්</item>
+        <item>ව්‍යාකූල</item>
+        <item>හදවත</item>
+        <item>උන්මාදය</item>
+        <item>සිහින් සිනාව</item>
+        <item>පෝකර් මුහුණ</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>උපා. අකු. විශා. භාවිතා ක.</item>
+        <item>ඉතා කුඩා</item>
+        <item>කුඩා</item>
+        <item>සාමාන්‍ය</item>
+        <item>විශාල</item>
+        <item>සුවිශාල</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>උපා. අකු. විශා. භාවිතා ක.</item>
+        <item>කුඩා</item>
+        <item>වඩා කුඩා</item>
+        <item>කුඩා</item>
+        <item>මධ්‍යම</item>
+        <item>විශාල</item>
+        <item>වඩා විශාල</item>
+        <item>විශාල</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>නාලිකා සියල්ල</item>
+        <item>මගේ නාලිකාව</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM හෝඩිය</item>
+        <item>යුනිකෝඩ්</item>
+        <item>ස්වයංක්‍රීය</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>දවස් 0</item>
+        <item>දවස 1</item>
+        <item>දවස් 2</item>
+        <item>දවස් 3</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>සීමිත</item>
+        <item>අවවාදයයි</item>
+        <item>නිදහස්</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>සැමවිටම</item>
+        <item>පොරොත්තුව</item>
+        <item>කිසිදා නොවේ</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>ඔරිගාමි</item>
+        <item>ලේබලය</item>
+        <item>පොප්</item>
+        <item>මොඩර්න්</item>
+        <item>රෝස</item>
+        <item>සාමාන්‍ය</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>වරක්</item>
+        <item>සෑම විනාඩි 2</item>
+        <item>සෑම විනාඩි 15 ක්</item>
+        <item>අක්‍රියයි</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>කිසිදා නොවේ</item>
+        <item>සෑම විනාඩි 2</item>
+        <item>සෑම විනාඩි 10</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>ගෘහස්ථ</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>පැය 1</item>
+        <item>පැය 6</item>
+        <item>පැය 24</item>
+        <item>දවස් 2</item>
+        <item>ජාල සාමාන්‍යය</item>
+        <item>උපරිම</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>ඉහළ</item>
+        <item>සාමාන්‍ය</item>
+        <item>අඩු</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>ඉක්මනින්</item>
+        <item>පැය 1</item>
+        <item>පැය 6</item>
+        <item>පැය 24</item>
+        <item>සති 1</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>තත්පර 3</item>
+        <item>තත්පර 5</item>
+        <item>තත්පර 10</item>
+        <item>තත්පර 20</item>
+        <item>තත්පර 30</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>අක්‍රියයි</item>
+        <item>සියළු පණිවිඩ අවහිර කරන්න</item>
+        <item>ලියාපදිංචි අංක සහ වාක්‍යාංශ අවහිර කරන්න</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>සමඟ හරියටම සමාන වන</item>
+        <item>සමග ආරම්භ වන</item>
+        <item>සමග අවසන් වන</item>
+        <item>අඩංගු වෙයි</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>ලැයිස්තු</item>
+        <item>සබඳතා</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>පණිවිඩ අවහිරය</item>
+        <item>ඇමතුම් අවහිර කිරීම</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>පණිවිඩ අවහිරය</item>
+        <item>හඬ ඇමතුම් අවහිරය</item>
+        <item>වීඩියෝ ඇමතුම් අවහිරය</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>වෙන් කල.</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>සාමාන්‍ය</item>
+        <item>ඉහළ</item>
+    </string-array>
+    <string-array name="templates">
+        <item>කණගාටුයි, මට ඔබේ ඇමතුම මගහැරුණි.</item>
+        <item>මා ප්‍රමාදයි, නමුත් එතැනට විනාඩි කීපයකින් මා එන්නම්.</item>
+        <item>කොහොමද එහි වැඩකටයුතු?</item>
+        <item>අලුත් තොරතුරු මොනවාද?</item>
+        <item>ඔබ කොහේද?</item>
+        <item>මෙම පණිවිඩය ලැබුණු විගස කරුණාකර මා අමතන්න.</item>
+        <item>අපට හමුවිය හැක්කේ කවදාද?</item>
+        <item>ඔබට ඉක්මනින් කථාකරන්නම්.</item>
+        <item>රැස්වීම කොහේද?</item>
+        <item>අංකය කුමක්ද?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>බ්‍රසීලියානු පෘතුගීසි</item>
+        <item>ඉංග්‍රීසි (UK)</item>
+        <item>ඉංග්‍රීසි (US)</item>
+        <item>ප්‍රංශ</item>
+        <item>ජර්මන්</item>
+        <item>ඉතාලි</item>
+        <item>ජපන්</item>
+        <item>කොරියානු</item>
+        <item>සරළ චීන</item>
+        <item>රුසියානු</item>
+        <item>ස්පාඤ්ඤ</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>ඉතා කුඩා</item>
+        <item>කුඩා</item>
+        <item>සාමාන්‍ය</item>
+        <item>විශාල</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>සියල්ල</item>
+        <item>යවන්නා</item>
+        <item>අන්තර්ගතය</item>
+    </string-array>
+</resources>

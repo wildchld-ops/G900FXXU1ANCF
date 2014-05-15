@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="tab_animation_duration">200</integer>
+    <integer name="shortcut_rvalue">68</integer>
+    <integer name="shortcut_gvalue">134</integer>
+    <integer name="shortcut_bvalue">244</integer>
+    <integer name="sbrowser_max_folder_title_length">2048</integer>
+    <integer name="folder_list_account_text_max_width">258</integer>
+    <integer name="saved_pages_group_posiion">1</integer>
+    <integer name="saved_pages_child_posiion">2</integer>
+    <integer name="portrait_remove_tab_threshold_velocity">3000</integer>
+    <integer name="landscape_remove_tab_threshold_velocity">2000</integer>
+    <integer name="new_mostvisited_header_gravity">3</integer>
+    <integer name="readinglist_search_max_number_of_text">1024</integer>
+    <integer name="sbrowser_multiwindow_actionbar_title_shadowdy">1</integer>
+    <integer name="sbrowser_multiwindow_actionbar_title_shadowradius">2</integer>
+</resources>

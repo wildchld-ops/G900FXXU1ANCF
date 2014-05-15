@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/dialpad_search_dialog_item_layout" android:layout_width="fill_parent" android:layout_height="65.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="@color/dialpad_search_name" android:ellipsize="end" android:gravity="bottom" android:id="@id/dialpad_search_dialog_type" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginLeft="21.0dip" android:layout_marginTop="3.0dip" />
+    <TextView android:textSize="21.0dip" android:textColor="@color/dialpad_search_number" android:ellipsize="end" android:id="@id/dialpad_search_dialog_number" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_marginLeft="21.0dip" android:layout_marginBottom="2.0dip" android:singleLine="true" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="top|left|center" android:orientation="vertical" android:paddingLeft="@dimen/quick_contact_gal_container_left_padding" android:paddingTop="@dimen/quick_contact_gal_container_top_padding" android:paddingRight="@dimen/quick_contact_gal_container_right_padding" android:paddingBottom="@dimen/quick_contact_gal_container_bottom_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/quick_contact_gal_name_text_size" android:textColor="@color/quick_contact_gal_name_color" android:id="@id/gal_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*android:string/unknownName" android:singleLine="true" />
+    <TextView android:textSize="@dimen/quick_contact_gal_title_text_size" android:textColor="@color/quick_contact_gal_title_color" android:id="@id/gal_title" android:paddingTop="@dimen/quick_contact_gal_title_padding_top" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <TextView android:textSize="@dimen/quick_contact_gal_company_text_size" android:textColor="@color/quick_contact_gal_company_color" android:id="@id/gal_company" android:paddingTop="@dimen/quick_contact_gal_company_padding_top" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+</LinearLayout>

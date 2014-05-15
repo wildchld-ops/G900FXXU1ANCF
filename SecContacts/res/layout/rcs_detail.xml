@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/rcs_log_detail_im_seperator" android:background="@drawable/logsdetail_divider" android:paddingTop="@dimen/call_log_list_item_divider_padding" android:paddingBottom="@dimen/call_log_list_item_divider_padding" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="27.0dip" />
+    <Button android:gravity="center_vertical" android:id="@id/rcs_log_detail_im_button" android:background="@drawable/call_detail_buttons_bg" android:paddingTop="5.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:drawableTop="@drawable/rcs_im_selector" android:layout_weight="1.0" android:contentDescription="@string/message" />
+    <View android:id="@id/rcs_log_detail_ft_seperator" android:background="@drawable/logsdetail_divider" android:paddingTop="@dimen/call_log_list_item_divider_padding" android:paddingBottom="@dimen/call_log_list_item_divider_padding" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="27.0dip" />
+    <Button android:gravity="center_vertical" android:id="@id/rcs_log_detail_ft_button" android:background="@drawable/call_detail_buttons_bg" android:paddingTop="5.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:drawableTop="@drawable/rcs_ft_selector" android:layout_weight="1.0" android:contentDescription="@string/message" />
+</merge>

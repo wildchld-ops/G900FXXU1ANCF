@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s কথোপকথনসমূহ</item>
+        <item quantity="one">1 টা কথোপকথন</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s মেছেজ</item>
+        <item quantity="one">1 টা মেচেজ</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d টা কথোপকথন</item>
+        <item quantity="one">%d টা কথোপকথন</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s আৰু %2$d অধিক</item>
+        <item quantity="one">%s আৰু 1 অধিক</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s আৰু %2$d অধিক</item>
+        <item quantity="one">%s আৰু 1 অধিক</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">SIM কাৰ্ডৰ পৰা মেচেজ বিলোপ হৈছে৷</item>
+        <item quantity="one">SIM কাৰ্ডৰ পৰা বাৰ্তা বিলোপ কৰা হৈছে৷</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">SIM কাৰ্ডৰ পৰা মেচেজ প্ৰতিলিপি হৈছে৷</item>
+        <item quantity="one">SIM কাৰ্ডৰ পৰা বাৰ্তা প্ৰতিলিপি হৈছে কৰা হৈছে৷</item>
+    </plurals>
+</resources>

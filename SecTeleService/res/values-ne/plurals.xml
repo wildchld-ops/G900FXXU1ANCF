@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">%s मिनटको लागि कुनै डाटा जडान छैन।</item>
+        <item quantity="one">%s मिनटको लागि कुनै डाटा जडान छैन।</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">%s मिनटको लागि फोन अत्यावश्यक कलब्याक मोडमा हुनेछ। यो मोडमा भएको बेला अनुप्रयोग ले डाटा जडान प्रयोग गर्न सकिदैन। अहिले नै बाहिरिनुहोस्?</item>
+        <item quantity="one">अनुप्रयोग को लागि डाटा जडान प्रयोग गर्न असक्षम भयो। यो मोडमा भएको बेला %s मिनटको लागि फोन अत्यावश्यक कलब्याक मोडमा हुनेछ। अहिले नै बाहिरिनुहोस्?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">अत्यावश्यक कलब्याक मोडमा चयन गरिएको कार्य उपलब्ध छैन। फोन %s मिनटको लागि यो मोडमा हुनेछ। अहिले नै बाहिरिनुहोस्?</item>
+        <item quantity="one">अत्यावश्यक कलब्याक मोडमा चयन गरिएको कार्य उपलब्ध छैन। फोन %s मिनटको लागि यो मोडमा हुनेछ। अहिले नै बाहिरिनुहोस्?</item>
+    </plurals>
+</resources>

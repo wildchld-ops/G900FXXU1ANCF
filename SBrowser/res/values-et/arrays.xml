@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Alati sees</item>
+        <item>Nõudmisel</item>
+        <item>Väljas</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Vaikeleht</item>
+        <item>Hetkel kuvatav leht</item>
+        <item>Kiirjuurdepääs</item>
+        <item>Enim külastatud saidid</item>
+        <item>Muu</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Seade</item>
+        <item>SD kaart</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Ladina-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Hiina (GBK)</item>
+        <item>Hiina (Big5)</item>
+        <item>Jaapani (ISO-2022-JP)</item>
+        <item>Jaapani (SHIFT JIS)</item>
+        <item>Jaapani (EUC-JP)</item>
+        <item>Korea (EUC-KR)</item>
+        <item>Automaatne tuvastamine</item>
+    </string-array>
+</resources>

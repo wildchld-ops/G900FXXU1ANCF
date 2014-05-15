@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/sim_name_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/editor_add_delete_icon_size" android:text="@string/nameLabelsGroup" android:singleLine="true" style="@style/EditorKindTitleTextAppearance"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

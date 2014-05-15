@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/add_bookmark_page_title_layout_padding_horizontal" android:paddingTop="@dimen/add_bookmark_page_title_layout_padding_top" android:paddingRight="@dimen/add_bookmark_page_title_layout_padding_horizontal" android:paddingBottom="@dimen/add_bookmark_page_title_layout_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/add_bookmark_from_bookmarks_page_title" android:id="@id/quick_access_page_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bookmark_title" />
+            <EditText android:textSize="@dimen/add_bookmark_from_bookmarks_page_title" android:ellipsize="end" android:id="@id/quick_access_page_title_input" android:paddingLeft="@dimen/add_bookmark_page_title_padding_left" android:layout_width="fill_parent" android:layout_height="@dimen/add_bookmark_page_title_layout_height" android:layout_marginTop="@dimen/add_bookmark_page_title_margin_top" android:hint="@string/addbookmark_page_title" android:selectAllOnFocus="true" android:maxLength="@integer/sbrowser_max_folder_title_length" android:inputType="textCapSentences|textNoSuggestions" android:privateImeOptions="disableEmoticonInput=true" android:imeOptions="actionDone|flagNoExtractUi" />
+        </LinearLayout>
+        <View style="@style/LineSeperator" />
+        <LinearLayout android:orientation="vertical" android:id="@id/quick_access_page_url_layout" android:paddingLeft="@dimen/add_bookmark_page_title_layout_padding_horizontal" android:paddingTop="@dimen/add_bookmark_page_title_layout_padding_top" android:paddingRight="@dimen/add_bookmark_page_title_layout_padding_horizontal" android:paddingBottom="@dimen/add_bookmark_page_title_layout_padding_bottom" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/add_bookmark_from_bookmarks_page_title" android:id="@id/aquick_access_page_url" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/addbookmark_page_url" />
+            <EditText android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/add_bookmark_from_bookmarks_page_title" android:ellipsize="end" android:id="@id/quick_access_page_url_input" android:paddingLeft="@dimen/add_bookmark_page_title_padding_left" android:layout_width="fill_parent" android:layout_height="@dimen/add_bookmark_page_title_layout_height" android:layout_marginTop="@dimen/add_bookmark_page_title_margin_top" android:hint="@string/addbookmark_page_url" android:selectAllOnFocus="true" android:maxLength="@integer/sbrowser_max_folder_title_length" android:inputType="textUri" android:imeOptions="flagNoExtractUi" />
+        </LinearLayout>
+        <View style="@style/LineSeperator" />
+    </LinearLayout>
+</ScrollView>

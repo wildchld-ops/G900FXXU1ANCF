@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>បើក​ជានិច្ច</item>
+        <item>តាម​តម្រូវការ</item>
+        <item>បិទ</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>ទំព័រ​លំនាំដើម</item>
+        <item>ទំព័រ​បច្ចុប្បន្ន</item>
+        <item>ការចូលប្រើ​លឿន</item>
+        <item>វិបសៃ​ដែល​ចូល​មើល​ច្រើន​បំផុត</item>
+        <item>ដទៃ</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>ឧបករណ៍</item>
+        <item>កាត SD</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>ឡាតាំង-1 (ISO-8859-1)</item>
+        <item>យូនីកូដ (UTF-8)</item>
+        <item>ចិន (GBK)</item>
+        <item>ចិន (Big5)</item>
+        <item>ភាសា​ជប៉ុន (ISO-2022-JP)</item>
+        <item>ភាសា​ជប៉ុន (SHIFT JIS)</item>
+        <item>ភាសា​ជប៉ុន (EUC-JP)</item>
+        <item>កូរ៉េ (EUC-KR)</item>
+        <item>ស្វ័យ​ស្គាល់</item>
+    </string-array>
+</resources>

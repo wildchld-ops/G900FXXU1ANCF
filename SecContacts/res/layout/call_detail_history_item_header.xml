@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/call_detail_list_title" android:background="@drawable/tw_list_section_divider_holo" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/call_detail_list_item_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/calllog_separator_text" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/call_detail_date" android:paddingLeft="@dimen/list_seperator_left_margin" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+</RelativeLayout>

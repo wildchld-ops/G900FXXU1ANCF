@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:id="@id/noContactView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/setup_profile_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <include layout="@layout/user_profile_header_easymode" />
+        <LinearLayout android:id="@id/setup_profile_button" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/user_profile_button_easymode" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/no_contacts_help_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/easymode_noitem_text_margin" android:layout_marginRight="@dimen/easymode_noitem_text_margin" android:layout_below="@id/setup_profile_container">
+        <TextView android:textAppearance="@style/TwMainListNoContactsHelpTextAppearance" android:textSize="@dimen/easymode_noitem_text_size" android:id="@id/no_contacts_help_text_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/easymode_noitem_text_margin" android:text="@string/no_contact_help_text_easymode" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s စကားေျပာျခင္းမ်ား</item>
+        <item quantity="one">စကားေျပာျခင္း ၁ ခု</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">မက္ေဆ့ခ်္ %1$s ခု</item>
+        <item quantity="one">မက္ေဆ့ခ်္ ၁ ခု</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d စကားအျပန္အလွန္ေျပာဆိုမႈမ်ား</item>
+        <item quantity="one">%d ေျပာဆိုျခင္း</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s ႏွင့္ %2$d အထက္</item>
+        <item quantity="one">%s ႏွင့္ ေနာက္ထပ္ ၁ ခု</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s ႏွင့္ %2$d ထက္မ်ားေသာ</item>
+        <item quantity="one">%s ႏွင့္ ေနာက္ထပ္ ၁ ခု</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">SIM ကဒ္မွ ဖ်က္ထားသည့္မက္ေဆ့ခ်္မ်ား။</item>
+        <item quantity="one">SIM ကတ္ မွ မက္ေဆ့ခ်္ကို ဖ်က္ျပီးၿပီ။</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">SIM ကဒ္မွ ကူးယူထားသည့္ မက္ေဆ့ခ်္မ်ား။</item>
+        <item quantity="one">SIM ကတ္ မွ မက္ေဆ့ခ်္အား ကူးယူျပီးၿပီ။</item>
+    </plurals>
+</resources>

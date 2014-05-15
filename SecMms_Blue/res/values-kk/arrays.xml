@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&amp;lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Бақытты</item>
+        <item>Көңілсіз</item>
+        <item>Көз қысу</item>
+        <item>Тілі шығып тұр</item>
+        <item>Таңданған</item>
+        <item>Сүю</item>
+        <item>Бақыру</item>
+        <item>Аса жақсы</item>
+        <item>Ақша ауызды</item>
+        <item>Аяқ ауызды</item>
+        <item>Апалақ-сапалақ</item>
+        <item>Періште</item>
+        <item>Шегіншек</item>
+        <item>Жылау</item>
+        <item>Еріндері тиіп тұр</item>
+        <item>Күлу</item>
+        <item>Ұялған</item>
+        <item>Жүрек</item>
+        <item>Ақылсыз</item>
+        <item>Ақымақ</item>
+        <item>Байсалды түс</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Құрылғы қарпі өлш. пайд-у</item>
+        <item>Ұсақ</item>
+        <item>Кіші</item>
+        <item>Қалыпты</item>
+        <item>Үлкен</item>
+        <item>Ірі</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Құрылғы қарпі өлш. пайд-у</item>
+        <item>Ұсақ</item>
+        <item>Тым кішкентай</item>
+        <item>Кіші</item>
+        <item>Орташа</item>
+        <item>Үлкен</item>
+        <item>Өте үлкен</item>
+        <item>Ірі</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Барлық арна</item>
+        <item>Менің арнам</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM алфавиті</item>
+        <item>Юникод</item>
+        <item>Автоматты түрде</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 күн</item>
+        <item>1 күн</item>
+        <item>2 күн</item>
+        <item>3 күн</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Шектелген</item>
+        <item>Ескерту</item>
+        <item>тегін</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Әрқашан</item>
+        <item>Сұрау</item>
+        <item>Ешқашан</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Оригами</item>
+        <item>Белгі</item>
+        <item>Поп</item>
+        <item>Заманауи</item>
+        <item>Қызғылт</item>
+        <item>Әдепкі</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Бір рет</item>
+        <item>2 минут сайын</item>
+        <item>15 минут сайын</item>
+        <item>Өшірілген</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Ешқашан</item>
+        <item>2 минут сайын</item>
+        <item>10 минут сайын</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Жергілікті</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 сағат</item>
+        <item>6 cағат</item>
+        <item>24 сағат</item>
+        <item>2 күн</item>
+        <item>Желінің әдепкі мәні</item>
+        <item>Максимум</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Жоғары</item>
+        <item>Әдеттегі</item>
+        <item>Төмен</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Дереу</item>
+        <item>1 сағат</item>
+        <item>6 cағат</item>
+        <item>24 сағат</item>
+        <item>1 апта</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 секунд</item>
+        <item>5 секунд</item>
+        <item>10 секунд</item>
+        <item>20 секунд</item>
+        <item>30 секунд</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Өшірілген</item>
+        <item>Барлық хабарларды бұғаттау</item>
+        <item>Тіркелген нөмірлер мен сөз тіркестерін бұғаттау</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Дәл сондай</item>
+        <item>Басталады</item>
+        <item>Аяқталады</item>
+        <item>Ішінде</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Журналдар</item>
+        <item>Конт</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Хабар бұғаттау</item>
+        <item>Қоңырау бұғаттау</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Хабар бұғаттау</item>
+        <item>Дауыстық қоңырау бұғаттау</item>
+        <item>Бейне қоңырау бұғаттау</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Сақталған</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Қалыпты</item>
+        <item>Жоғары</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Кешіріңіз, қоңырауыңызды жіберіп алдым.</item>
+        <item>Кешігіп жатырмын, бірақ сол жерде кішкенеден кейін боламын.</item>
+        <item>Қалай болып жатыр?</item>
+        <item>Не болды?</item>
+        <item>Қайдасыз?</item>
+        <item>Осы хабарды алғанда маған қоңырау шалыңыз.</item>
+        <item>Қашан кездесе аламыз?</item>
+        <item>Сізбен жақында сөйлесемін.</item>
+        <item>Жиналыс қайда болады?</item>
+        <item>Нөмірі қандай?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Бразилиялық португал тілі</item>
+        <item>Ағылшынша (Ұлыбритания)</item>
+        <item>Ағылшын (АҚШ)</item>
+        <item>Француз</item>
+        <item>Неміс</item>
+        <item>Италян</item>
+        <item>Жапон</item>
+        <item>Корей</item>
+        <item>Қарапайым қытай</item>
+        <item>Орыс</item>
+        <item>Испан</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Ұсақ</item>
+        <item>Кіші</item>
+        <item>Қалыпты</item>
+        <item>Үлкен</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Барлығы</item>
+        <item>Жөнелтуші</item>
+        <item>Мазмұн</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/optionmenu_icon_open_in_new_window" android:id="@id/cab_open_new_tab" android:title="@string/contextmenu_openlink_newwindow" android:showAsAction="always" />
+    <item android:icon="@drawable/menu_icon_bookmark_delete_selector" android:id="@id/cab_delete" android:title="@string/scraplist_delete" android:showAsAction="always" />
+    <item android:id="@id/cab_share" android:title="@string/share_link_chooser_title" android:showAsAction="never" />
+    <item android:id="@id/cab_copy" android:title="@string/tooltip_copy" android:showAsAction="never" />
+    <item android:id="@id/cab_add_to_quick_access" android:title="@string/options_menu_add_quick" android:showAsAction="never" />
+    <item android:id="@id/cab_add_bookmark" android:title="@string/bookmark_this_page" android:showAsAction="never" />
+    <item android:id="@id/cab_set_as_homepage" android:title="@string/set_as_homepage" android:showAsAction="never" />
+</menu>

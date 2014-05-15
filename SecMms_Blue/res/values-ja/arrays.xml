@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&amp;lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>ハッピー</item>
+        <item>悲しい</item>
+        <item>ウィンク</item>
+        <item>あっかんべ</item>
+        <item>びっくり</item>
+        <item>キス</item>
+        <item>叫び</item>
+        <item>クール</item>
+        <item>マネーマウス</item>
+        <item>失言</item>
+        <item>困惑</item>
+        <item>エンジェル</item>
+        <item>迷い</item>
+        <item>泣き顔</item>
+        <item>秘密</item>
+        <item>笑顔</item>
+        <item>混乱</item>
+        <item>ハート</item>
+        <item>怒り</item>
+        <item>にやり</item>
+        <item>無表情</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>端末の文字サイズを使用</item>
+        <item>最小</item>
+        <item>小</item>
+        <item>標準</item>
+        <item>大</item>
+        <item>最大</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>端末の文字サイズを使用</item>
+        <item>最小</item>
+        <item>極小</item>
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+        <item>極大</item>
+        <item>最大</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>全てのチャンネル</item>
+        <item>マイチャンネル</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSMアルファベット</item>
+        <item>Unicode</item>
+        <item>自動</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0日</item>
+        <item>1日</item>
+        <item>2日</item>
+        <item>3日</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>制限</item>
+        <item>警告</item>
+        <item>フリー</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>毎回</item>
+        <item>プロンプト</item>
+        <item>なし</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>折り紙</item>
+        <item>ラベル</item>
+        <item>ポップ</item>
+        <item>モダン</item>
+        <item>ピンク</item>
+        <item>初期設定</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>1回のみ</item>
+        <item>2分ごと</item>
+        <item>15分ごと</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>なし</item>
+        <item>2分ごと</item>
+        <item>10分ごと</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>国内</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1時間</item>
+        <item>6時間</item>
+        <item>24時間</item>
+        <item>2日</item>
+        <item>ネットワークの標準設定</item>
+        <item>最大</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>高</item>
+        <item>標準</item>
+        <item>低</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>すぐに送信</item>
+        <item>1時間</item>
+        <item>6時間</item>
+        <item>24時間</item>
+        <item>1週</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3秒</item>
+        <item>5秒</item>
+        <item>10秒</item>
+        <item>20秒</item>
+        <item>30秒</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>OFF</item>
+        <item>全てのメッセージをブロック</item>
+        <item>登録番号とフレーズをブロック</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>完全一致</item>
+        <item>前方一致</item>
+        <item>後方一致</item>
+        <item>部分一致</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>履歴</item>
+        <item>連絡先</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>メッセージブロック</item>
+        <item>通話ブロック</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>メッセージブロック</item>
+        <item>音声通話ブロック</item>
+        <item>テレビ電話ブロック</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>予約済み</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>標準</item>
+        <item>高</item>
+    </string-array>
+    <string-array name="templates">
+        <item>電話に出られなくて申し訳ございません。</item>
+        <item>遅れていますが、すぐにそちらに到着します。</item>
+        <item>お元気ですか？</item>
+        <item>どうしましたか？</item>
+        <item>どこにいますか？</item>
+        <item>このメッセージを受け取ったら、私に電話ください。</item>
+        <item>いつ会えますか？</item>
+        <item>近々また話しましょう。</item>
+        <item>ミーティングはどこで行われますか？</item>
+        <item>番号は何番ですか？</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>ポルトガル語(ブラジル)</item>
+        <item>英語(イギリス)</item>
+        <item>英語​(アメリカ)</item>
+        <item>フランス語</item>
+        <item>ドイツ語</item>
+        <item>イタリア語</item>
+        <item>日本語</item>
+        <item>韓国語</item>
+        <item>簡体字中国語</item>
+        <item>ロシア語</item>
+        <item>スペイン語</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>最小</item>
+        <item>小</item>
+        <item>標準</item>
+        <item>大</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>全て</item>
+        <item>送信元</item>
+        <item>コンテンツ</item>
+    </string-array>
+</resources>

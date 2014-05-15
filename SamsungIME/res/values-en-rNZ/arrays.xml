@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="qwerty_domain_values">
+        <item>.gov</item>
+        <item>.edu</item>
+        <item>.org</item>
+        <item>.net</item>
+        <item>.go.nz</item>
+        <item>.or.nz</item>
+        <item>.co.nz</item>
+        <item>.nz</item>
+    </string-array>
+    <string-array name="phonepad_domain_values">
+        <item>.gov</item>
+        <item>.go.nz</item>
+        <item>.edu</item>
+        <item>.or.nz</item>
+        <item>.org</item>
+        <item>.co.nz</item>
+        <item>.net</item>
+        <item>.nz</item>
+    </string-array>
+</resources>

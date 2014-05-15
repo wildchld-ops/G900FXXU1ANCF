@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.sbrowser.bookmarksDb.ui.BookmarkShowView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/history_select_all" android:background="@drawable/bookmark_sel_all_selector" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/sbrowser_bookmarks_select_all_height">
+        <CheckBox android:layout_gravity="left|center" android:id="@id/delete_all_checkbox" android:focusable="false" android:layout_width="@dimen/sbrowser_bookmark_folder_checkbox_spec" android:layout_height="@dimen/sbrowser_bookmark_folder_checkbox_spec" android:layout_marginLeft="@dimen/sbrowser_bookmark_tag_image_margin_left" android:button="@drawable/bookmarks_cab_check_box" />
+        <TextView android:textSize="@dimen/sbrowser_bookmarks_select_all_text_size" android:textColor="@color/sbrowser_bookmarks_select_all_text_color" android:gravity="left|center" android:layout_gravity="left|center" android:id="@id/select_all_textview" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/sbrowser_bookmarks_select_all_text_margin" android:text="@string/select_all_folder_view" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="sans-serif-light" android:textAlignment="textStart" />
+    </LinearLayout>
+    <com.sec.android.touchwiz.widget.TwExpandableListView android:id="@id/history" android:layout_width="fill_parent" android:layout_height="fill_parent" android:groupIndicator="@drawable/group_indicator_selector" android:divider="@null" android:dividerHeight="0.0dip" />
+    <RelativeLayout android:id="@id/no_history_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/history_no_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="126.0dip" android:layout_height="126.0dip" android:src="@drawable/noitems_browser_synctab" android:scaleType="fitXY" />
+            <TextView android:textSize="19.0dip" android:textColor="@color/noitem_text_color" android:layout_gravity="center_horizontal" android:id="@id/no_history_page_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/history_no_history_title" android:fontFamily="sans-serif-light" />
+        </LinearLayout>
+        <TextView android:textSize="17.0dip" android:textColor="@color/noitem_text_color" android:gravity="center" android:id="@id/no_history_page_subtext" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/noitem_on_history_subtext" android:layout_below="@id/history_no_image" />
+    </RelativeLayout>
+</com.sec.android.app.sbrowser.bookmarksDb.ui.BookmarkShowView>

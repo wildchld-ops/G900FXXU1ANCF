@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="callsettings_int_call_svc_summary">International call prefix has been set to enter %d when you touch and hold 0 on the dialling keypad</string>
+</resources>

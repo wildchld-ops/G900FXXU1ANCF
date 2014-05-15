@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s વાતચીતો</item>
+        <item quantity="one">1 વાતચીત</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s સંદેશા</item>
+        <item quantity="one">1 સંદેશ</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d વાતચીતો</item>
+        <item quantity="one">%d વાતચીત</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s અને %2$d વધારે</item>
+        <item quantity="one">%s અને 1 વધારે</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s અને %2$d વધારે</item>
+        <item quantity="one">%s અને 1 વધારે</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">SIM કાર્ડમાંથી સંદેશાઓ હટાવ્યાં.</item>
+        <item quantity="one">SIM કાર્ડમાંથી સંદેશ હટાવ્યું.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">SIM કાર્ડમાંથી સંદેશાઓ નકલ કર્યા.</item>
+        <item quantity="one">SIM કાર્ડમાંથી સંદેશ નકલ કર્યો.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/tutorial_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/tutorial_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/tutorial_indicator_circle" android:focusable="true" style="@style/TutorialIndicatorCircle" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/bubble" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tutorial_bubble_horizontal_padding" android:layout_marginRight="@dimen/tutorial_bubble_horizontal_padding" android:layout_below="@id/tutorial_indicator">
+            <LinearLayout android:id="@id/tutorial_text_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/indicator_container">
+                <TextView android:id="@id/tutorial_popup_text" style="@style/TutorialPopupTextView" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/indicator_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/indicator_container_margin_bottom">
+                <ImageView android:id="@id/tutorial_indicator_icon" android:paddingLeft="@dimen/tutorial_indicator_icon_padding" android:paddingRight="@dimen/tutorial_indicator_icon_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/help_popup_picker_t_c" android:scaleType="center" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/touch_area" android:layout_width="@dimen/touch_area_width" android:layout_height="@dimen/touch_area_width" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</RelativeLayout>

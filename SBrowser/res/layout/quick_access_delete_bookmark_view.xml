@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/delete_bookmark_container" android:background="@drawable/s_browser_actionbar_edit_mode_bg" android:layout_width="fill_parent" android:layout_height="48.0dip" android:baselineAligned="false" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/bookmark_topview_conatiner" android:background="@drawable/s_browser_actionbar_edit_mode_bg" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="0.5">
+        <ImageView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/bookmark_view" android:background="@drawable/s_browser_icon_favorite" android:layout_width="33.0dip" android:layout_height="28.0dip" android:layout_marginTop="4.0dip" android:scaleType="fitXY" />
+        <TextView android:textSize="10.0dip" android:textColor="@*android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/bookmark_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_bookmark" android:shadowColor="#ff000000" android:shadowDy="1.0" android:shadowRadius="1.0" android:alpha="75.0" android:fontFamily="Roboto" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/delete_topview_conatiner" android:background="@drawable/s_browser_actionbar_edit_mode_bg" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="0.5">
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/delete_view" android:background="@drawable/s_browser_icon_delete" android:layout_width="33.0dip" android:layout_height="28.0dip" android:layout_marginTop="4.0dip" android:scaleType="fitXY" />
+        <TextView android:textSize="10.0dip" android:textColor="@*android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/delete_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wf_opmenu_delete" android:shadowColor="#ff000000" android:shadowDy="1.0" android:shadowRadius="1.0" android:alpha="75.0" android:fontFamily="Roboto" />
+    </LinearLayout>
+</LinearLayout>

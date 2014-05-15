@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/s_browser_icon_search" android:id="@id/search_reading_data" android:title="@string/search_hint" android:showAsAction="always" />
+    <item android:id="@id/reader_delete_from_option" android:title="@string/bookmarksmenu_select" android:showAsAction="never" />
+    <item android:id="@id/reader_delete_from_option_extra" android:title="@string/scraplist_delete" android:showAsAction="never" />
+</menu>

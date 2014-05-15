@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/search_view_layout" layout="@layout/tw_contacts_search_bar" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/search_no_matches_view" android:background="?contact_browser_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/search_header" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/list_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <view android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="?contact_browser_list_padding_left" android:layout_marginRight="?contact_browser_list_padding_right" android:fastScrollEnabled="true" android:layout_marginStart="?contact_browser_list_padding_left" android:layout_marginEnd="?contact_browser_list_padding_right" class="com.android.contacts.common.list.AutoScrollListView" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/search_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+        <com.sec.android.touchwiz.widget.TwLangIndexScrollView android:id="@id/tw_index_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz" />
+        <include android:id="@id/contact_picker_empty_view" layout="@layout/empty_layout" />
+    </FrameLayout>
+</LinearLayout>

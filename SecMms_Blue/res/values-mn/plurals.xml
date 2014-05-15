@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s яриа</item>
+        <item quantity="one">1 яриа</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s зурвас</item>
+        <item quantity="one">1 мессэж</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d харилцан яриа</item>
+        <item quantity="one">%d яриа</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">Дахиад %1$s ба %2$d</item>
+        <item quantity="one">Дахиад %s ба 1</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">Дахиад %1$s ба %2$d</item>
+        <item quantity="one">Дахиад %s ба 1</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">Messages deleted from SIM card</item>
+        <item quantity="one">Зурвасыг SIM картнаас устгасан.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">Messages copied from SIM card</item>
+        <item quantity="one">Зурвасыг SIM картнаас хуулсан.</item>
+    </plurals>
+</resources>

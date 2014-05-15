@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_date_format_day_month_k">"E
+d MMM"</string>
+    <string name="status_bar_date_format_month_day_k">"E
+MMM d"</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">MMM d ,E</string>
+    <string name="abbrev_wday_day_abbrev_month_no_year">d MMM ,E</string>
+    <string name="app_label">ממשק המערכת</string>
+    <string name="status_bar_clear_all_button">מחק</string>
+    <string name="status_bar_do_not_disturb_button">אל תפריע</string>
+    <string name="status_bar_please_disturb_button">הצג הודעות</string>
+    <string name="status_bar_recent_remove_item_title">הסר מהרשימה</string>
+    <string name="status_bar_recent_inspect_item_title">פרטי היישום</string>
+    <string name="status_bar_no_recent_apps">אין יישומים אחרונים</string>
+    <string name="status_bar_accessibility_dismiss_recents">סגור יישומים אחרונים</string>
+    <string name="status_bar_no_notifications_title">אין התראות</string>
+    <string name="status_bar_ongoing_events_title">בתהליך</string>
+    <string name="status_bar_latest_events_title">הודעות</string>
+    <string name="battery_low_title">חבר מטען.</string>
+    <string name="battery_low_subtitle">הסוללה נחלשת.</string>
+    <string name="battery_low_percent_format">%d%% נותרו.</string>
+    <string name="invalid_charger">טעינת USB אינה נתמכת. השתמש במטען שסופק.</string>
+    <string name="battery_low_why">שימוש בסוללה</string>
+    <string name="status_bar_settings_settings_button">הגדרות</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">מצב טיסה</string>
+    <string name="status_bar_settings_auto_rotation">סיבוב מסך אוטומטי</string>
+    <string name="status_bar_settings_mute_label">השתק</string>
+    <string name="status_bar_settings_auto_brightness_label">אוטומטי</string>
+    <string name="status_bar_settings_notifications">הודעות</string>
+    <string name="bluetooth_tethered">מחובר באמצעות התקן נייד מסוג Bluetooth</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">הגדרת שיטות קלט</string>
+    <string name="status_bar_use_physical_keyboard">מקלדת פיזית</string>
+    <string name="usb_device_permission_prompt">לאפשר ליישום %1$s לגשת להתקן USB?</string>
+    <string name="usb_accessory_permission_prompt">לאפשר ליישום %1$s לגשת לאביזר USB?</string>
+    <string name="usb_device_confirm_prompt">לפתוח את %1$s כאשר התקן USB זה מחובר?</string>
+    <string name="usb_accessory_confirm_prompt">לפתוח את %1$s כאשר אביזר USB זה מחובר?</string>
+    <string name="usb_accessory_uri_prompt">אין יישומים מותקנים שפועלים עם אביזר USB זה. למד עוד אודות אביזר זה בכתובת %s.</string>
+    <string name="title_usb_accessory">אביזר USB</string>
+    <string name="label_view">הצג</string>
+    <string name="always_use_device">השתמש בהגדרות ברירת מחדל עבור התקן USB זה</string>
+    <string name="always_use_accessory">השתמש בהגדרות ברירת מחדל עבור אביזר USB זה</string>
+    <string name="usb_debugging_title">לאפשר איתור באגים ב-USB?</string>
+    <string name="usb_debugging_message">"מפתח ה-RSA של המחשב הוא:
+%1$s"</string>
+    <string name="usb_debugging_always">אשר מחשב זה תמיד</string>
+    <string name="compat_mode_on">השתמש בזום למילוי המסך</string>
+    <string name="compat_mode_off">מתח כדי למלא את המסך</string>
+    <string name="compat_mode_help_header">זום לתאימות</string>
+    <string name="compat_mode_help_body">כאשר יישום מעוצב למסך קטן יותר, בקרת זום תופיע ליד השעון.</string>
+    <string name="screenshot_saving_ticker">שומר צילום מסך…</string>
+    <string name="screenshot_saving_title">שומר צילום מסך…</string>
+    <string name="screenshot_saving_text">העתק תצוגת מסך נשמר.</string>
+    <string name="screenshot_saved_title">תמונת המסך צולמה</string>
+    <string name="screenshot_saved_text">הקש כדי לצפות בצילום מסך.</string>
+    <string name="screenshot_failed_title">לא ניתן ללכוד צילום מסך.</string>
+    <string name="screenshot_failed_text">לא ניתן לשמור העתק תצוגת מסך. ייתכן כי אחסון ה-USB בשימוש.</string>
+    <string name="screenshot_failed_due_to_drm_text">לא ניתן ללכוד את המסך. התמונה מוגנת באמצעות DRM.</string>
+    <string name="one_item_will_be_deleted">פריט אחד יימחק.</string>
+    <string name="usb_preference_title">אפשרויות העברת קבצים ב-USB</string>
+    <string name="use_mtp_button_title">טען כנגן מדיה (MTP)</string>
+    <string name="use_ptp_button_title">טען כמצלמה (PTP)</string>
+    <string name="installer_cd_button_title">התקן את יישום העברת הקבצים של Android ל-Mac</string>
+    <string name="accessibility_back">חזור</string>
+    <string name="accessibility_home">בית</string>
+    <string name="accessibility_menu">תפריט</string>
+    <string name="accessibility_recent">יישומים אחרונים</string>
+    <string name="accessibility_ime_switch_button">לחצן החלפת שיטות קלט.</string>
+    <string name="accessibility_compatibility_zoom_button">לחצן זום לתאימות</string>
+    <string name="accessibility_compatibility_zoom_example">השתמש בזום להצגת מסך גדול יותר</string>
+    <string name="accessibility_bluetooth_connected">מחובר ל-Bluetooth</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth מנותק.</string>
+    <string name="accessibility_no_battery">אין סוללה</string>
+    <string name="accessibility_battery_one_bar">עוצמת סוללה של פס אחד</string>
+    <string name="accessibility_battery_two_bars">עוצמת סוללה של שני פסים</string>
+    <string name="accessibility_battery_three_bars">עוצמת סוללה של שלושה פסים</string>
+    <string name="accessibility_battery_full">סוללה מלאה.</string>
+    <string name="accessibility_no_phone">אין אות טלפון</string>
+    <string name="accessibility_phone_one_bar">אות טלפון בעוצמה של פס אחד</string>
+    <string name="accessibility_phone_two_bars">אות טלפון בעוצמה של שני פסים</string>
+    <string name="accessibility_phone_three_bars">אות טלפון בעוצמה של שלושה פסים</string>
+    <string name="accessibility_phone_signal_full">אות טלפון בעוצמה מלאה</string>
+    <string name="accessibility_no_data">אין נתונים</string>
+    <string name="accessibility_data_one_bar">אות נתונים בעוצמה של פס אחד</string>
+    <string name="accessibility_data_two_bars">אות נתונים בעוצמה של שני פסים</string>
+    <string name="accessibility_data_three_bars">אות נתונים בעוצמה של שלושה פסים</string>
+    <string name="accessibility_data_four_bars">אות נתונים בעוצמה של ארבעה פסים</string>
+    <string name="accessibility_data_five_bars">אות נתונים בעוצמה של חמישה פסים</string>
+    <string name="accessibility_data_signal_full">אות נתונים בעוצמה מלאה</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">אין אות Wi-Fi</string>
+    <string name="accessibility_wifi_one_bar">אות Wi-Fi בעוצמה של פס אחד</string>
+    <string name="accessibility_wifi_two_bars">אות Wi-Fi בעוצמה של שני פסים</string>
+    <string name="accessibility_wifi_three_bars">אות Wi-Fi בעוצמה של שלושה פסים</string>
+    <string name="accessibility_wifi_signal_full">אות Wi-Fi בעוצמה מלאה.</string>
+    <string name="accessibility_no_wimax">ללא WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">פס אחד של WiMAX.</string>
+    <string name="accessibility_wimax_two_bars">שני פסים של WiMAX.</string>
+    <string name="accessibility_wimax_three_bars">שלושה פסים של WiMAX.</string>
+    <string name="accessibility_wimax_signal_full">אות ה-WiMAX מלא.</string>
+    <string name="accessibility_no_signal">אין אות</string>
+    <string name="accessibility_not_connected">לא מחובר.</string>
+    <string name="accessibility_zero_bars">אפס פסים.</string>
+    <string name="accessibility_one_bar">פס אחד.</string>
+    <string name="accessibility_two_bars">שני פסים.</string>
+    <string name="accessibility_three_bars">שלושה פסים.</string>
+    <string name="accessibility_phone_four_bars">אות הטלפון בעוצמה של ארבעה פסים</string>
+    <string name="accessibility_phone_five_bars">אות טלפון בעוצמה של חמישה פסים</string>
+    <string name="accessibility_signal_full">אות מלא.</string>
+    <string name="accessibility_desc_on">מופעל</string>
+    <string name="accessibility_desc_off">כבוי</string>
+    <string name="accessibility_desc_connected">מחובר</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">נדידה</string>
+    <string name="accessibility_data_connection_edge">קצה</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">אין SIM</string>
+    <string name="accessibility_bluetooth_tether">שימוש כמודם Bluetooth</string>
+    <string name="accessibility_airplane_mode">מצב טיסה</string>
+    <string name="accessibility_battery_level">הסוללה ב-%d אחוזים.</string>
+    <string name="accessibility_settings_button">הגדרות מערכת</string>
+    <string name="accessibility_notifications_button">הודעות</string>
+    <string name="accessibility_remove_notification">נקה התראות</string>
+    <string name="accessibility_gps_enabled">GPS מופעל</string>
+    <string name="accessibility_gps_acquiring">משיג GPS…</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter מופעל</string>
+    <string name="accessibility_ringer_vibrate">רטט בצלצול</string>
+    <string name="accessibility_ringer_silent">השתק צלצול</string>
+    <string name="accessibility_recents_item_dismissed">%s נדחה.</string>
+    <string name="accessibility_notification_dismissed">הודעה נדחתה.</string>
+    <string name="accessibility_desc_notification_shade">תריס התראות.</string>
+    <string name="accessibility_desc_quick_settings">הגדרות מהירות</string>
+    <string name="accessibility_desc_recent_apps">יישומים אחרונים</string>
+    <string name="accessibility_quick_settings_user">משתמש %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s‏. %2$s</string>
+    <string name="accessibility_quick_settings_mobile">נייד %1$s.‏ %2$s.‏ %3$s.‏</string>
+    <string name="accessibility_quick_settings_battery">סוללה %s.</string>
+    <string name="accessibility_quick_settings_airplane">מצב טיסה %s.</string>
+    <string name="accessibility_quick_settings_bluetooth">Bluetooth ‏%s.</string>
+    <string name="accessibility_quick_settings_alarm">ההתראה הוגדרה ל-%s.</string>
+    <string name="accessibility_sfinder_button">S מחפש</string>
+    <string name="accessibility_qconnect_button">התחברות מהירה</string>
+    <string name="accessibility_qconnect_button_tts">חיבור מהיר</string>
+    <string name="data_usage_disabled_dialog_3g_title">נתוני 2G-3G מושבתים</string>
+    <string name="data_usage_disabled_dialog_4g_title">נתוני 4G מושבתים</string>
+    <string name="data_usage_disabled_dialog_mobile_title">נתונים ניידים מושבתים</string>
+    <string name="data_usage_disabled_dialog_title">נתונים מושבתים</string>
+    <string name="data_usage_disabled_dialog">הגעת למגבלת השימוש בנתונים שצויינה. שימוש נוסף בנתונים עשוי להיות כרוך בתשלום לספק השירות.</string>
+    <string name="data_usage_disabled_dialog_enable">הפעל חיבור נתונים שוב</string>
+    <string name="data_usage_enable_mobile_warning">עבור חיבור באמצעות מנות נתונים ייתכן שיידרשו חיובים נוספים. להמשיך?</string>
+    <string name="data_usage_disable_mobile">להשבית חיבור נתונים נייד?</string>
+    <string name="status_bar_settings_signal_meter_disconnected">אין חיבור אינטרנט</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi מחובר.</string>
+    <string name="gps_notification_searching_text">מחפש באמצעות GPS…</string>
+    <string name="gps_notification_found_text">המיקום נקבע על-ידי GPS</string>
+    <string name="accessibility_clear_all">נקה את כל ההתראות</string>
+    <string name="status_bar_notification_inspect_item_title">פרטי היישום</string>
+    <string name="close_universe">סגור</string>
+    <string name="notifications_off_title">התראות מושבתות</string>
+    <string name="notifications_off_text">הקש כדי להפעיל התראות.</string>
+    <string name="accessibility_rotation_lock_off">המסך יסתובב באופן אוטומטי.</string>
+    <string name="accessibility_rotation_lock_on_landscape">המסך נעול כעת לרוחב.</string>
+    <string name="accessibility_rotation_lock_on_portrait">המסך נעול כעת לאורך.</string>
+    <string name="jelly_bean_dream_name">BeanFlinger</string>
+    <string name="start_dreams">שומר מסך</string>
+    <string name="ethernet_label">אתרנט</string>
+    <string name="quick_settings_airplane_mode_label">מצב טיסה</string>
+    <string name="quick_settings_battery_charging_label">טוען (%d%%)</string>
+    <string name="quick_settings_battery_charged_label">טעון</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth ‏(%d מכשירים)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth כבוי.</string>
+    <string name="quick_settings_brightness_label">בהירות</string>
+    <string name="quick_settings_rotation_unlocked_label">סיבוב אוטומטי</string>
+    <string name="quick_settings_rotation_locked_label">סיבוב נעול</string>
+    <string name="quick_settings_ime_label">שיטת הזנה</string>
+    <string name="quick_settings_location_label">מיקום בשימוש</string>
+    <string name="quick_settings_media_device_label">מכשיר מדיה</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">שיחות חירום בלבד.</string>
+    <string name="quick_settings_settings_label">הגדרות</string>
+    <string name="quick_settings_time_label">שעה</string>
+    <string name="quick_settings_user_label">אני</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">לא מחובר.</string>
+    <string name="quick_settings_wifi_no_network">אין רשת</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_wifi_display_label">"תצוגת
+‏Wi-Fi"</string>
+    <string name="quick_settings_wifi_display_no_connection_label">תצוגת WiFi</string>
+    <string name="quick_settings_brightness_dialog_title">בהירות</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">אוטומטי</string>
+    <string name="status_bar_help_title">הודעות מופיעות כאן</string>
+    <string name="status_bar_help_text">"גש אליהם בכל עת על ידי החלקה למטה.
+החלק למטה שוב למעבר למרכז הבקרה של המערכת."</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">מיקום</string>
+    <string name="quickpanel_silent_mode_text">"מצב
+שקט"</string>
+    <string name="quickpanel_silent_mode_sound">צליל</string>
+    <string name="quickpanel_silent_mode_vibrate">רטט</string>
+    <string name="quickpanel_silent_mode_mute">השתק</string>
+    <string name="quickpanel_rotation_text">"סיבוב
+מסך"</string>
+    <string name="quickpanel_mobile_data_text">"נתונים
+לנייד"</string>
+    <string name="quickpanel_dormant_mode_text">"מצב
+חסימה"</string>
+    <string name="quickpanel_notification_text">התראה</string>
+    <string name="quickpanel_airplane_mode_text">"מצב
+טיסה"</string>
+    <string name="quickpanel_sync_text">סנכרן</string>
+    <string name="quickpanel_power_saving_text">"חיסכון
+בסוללה"</string>
+    <string name="quickpanel_ultra_power_saving_text">"חיסכון מ-
+ רבי בחשמל"</string>
+    <string name="quickpanel_driving_mode_text">"מצב
+דיבורית"</string>
+    <string name="quickpanel_smart_stay_text">"שהות
+חכמה"</string>
+    <string name="quickpanel_smart_scroll_text">"גלילה
+חכמה"</string>
+    <string name="quickpanel_smart_pause_text">"השהיה
+חכמה"</string>
+    <string name="quickpanel_smart_network_text">"רשת
+חכמה"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_wifi_hotspot_text">"Wi-Fi
+נקודה חמה"</string>
+    <string name="quickpanel_multiwindow_text">"חלונות
+מרובים"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_brightness_text">בהירות</string>
+    <string name="quickpanel_airview_text">"תצוגת
+אוויר"</string>
+    <string name="quickpanel_airgesture_text">"מחווה
+באוויר"</string>
+    <string name="quickpanel_ebook_text">"מצב
+קריאה"</string>
+    <string name="quickpanel_personal_mode_text">"מצב
+‘פרטי’"</string>
+    <string name="quickpanel_car_mode_text">"מצב
+‘רכב’"</string>
+    <string name="quickpanel_network_booster_text">"האצת
+הורדה"</string>
+    <string name="quickpanel_toolbox_text">ארגז כלים</string>
+    <string name="quickpanel_touch_sensitivity_text">"רגישות
+מגע"</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">מיקום</string>
+    <string name="quickpanel_silent_mode_sound_content_description">קול</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">רטט</string>
+    <string name="quickpanel_silent_mode_mute_content_description">השתק</string>
+    <string name="quickpanel_rotation_content_description">סיבוב מסך</string>
+    <string name="quickpanel_mobile_data_content_description">נתונים ניידים</string>
+    <string name="quickpanel_dormant_mode_content_description">מצב ‘חסימה’</string>
+    <string name="quickpanel_airplane_mode_content_description">מצב ‘טיסה’</string>
+    <string name="quickpanel_sync_content_description">סנכרן</string>
+    <string name="quickpanel_power_saving_content_description">מצב חיסכון בחשמל</string>
+    <string name="quickpanel_smart_stay_content_description">שהות חכמה</string>
+    <string name="quickpanel_smart_pause_content_description">השהיה חכמה</string>
+    <string name="quickpanel_smart_network_content_description">רשת חכמה</string>
+    <string name="quickpanel_wifi_hotspot_content_description">נקודה חמה ניידת של Wi-Fi</string>
+    <string name="quickpanel_multiwindow_content_description">ריבוי חלונות</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_ebook_content_description">מצב קריאה</string>
+    <string name="quickpanel_personal_mode_content_description">מצב ‘פרטי’</string>
+    <string name="quickpanel_car_mode_content_description">מצב ‘רכב’</string>
+    <string name="quickpanel_network_booster_content_description">מתגבר ההורדה</string>
+    <string name="quickpanel_toolbox_content_description">ארגז כלים</string>
+    <string name="air_gesture_use_popup_title">הפעל Air Gesture</string>
+    <string name="air_gesture_use_popup_msg">לא ניתן להפעיל את המחוות באוויר ואת TalkBack במקביל. TalkBack יושבת.</string>
+    <string name="air_view_use_popup_title">הפעל תצוגת אוויר</string>
+    <string name="air_view_use_popup_msg">לא ניתן להפעיל את תצוגת האוויר ואת האפשרויות להלן במקביל. האפשרויות להלן יושבתו.</string>
+    <string name="multi_window_use_popup_title">הפעל חלונות מרובים</string>
+    <string name="multi_window_use_popup_msg">לא ניתן להפעיל חלונות מרובים ו-TalkBack במקביל. TalkBack יושבת.</string>
+    <string name="smart_pause_use_popup_title">הפעל השהיה חכמה</string>
+    <string name="smart_pause_use_popup_msg">לא ניתן להפעיל השהיה חכמה ואת TalkBack במקביל. TalkBack יושבת.</string>
+    <string name="smart_scroll_use_popup_title">הפעל גלילה חכמה</string>
+    <string name="smart_scroll_use_popup_msg">לא ניתן להפעיל את הגלילה החכמה ואת TalkBack במקביל. TalkBack יושבת.</string>
+    <string name="smart_stay_use_popup_title">הפעל שהות חכמה</string>
+    <string name="smart_stay_use_popup_msg">לא ניתן להפעיל שהות חכמה ואת TalkBack במקביל. TalkBack יושבת.</string>
+    <string name="quickpanel_content_description_led_on">%s מופעל</string>
+    <string name="quickpanel_content_description_led_off">%s מושבת</string>
+    <string name="quickpanel_content_description_led_dim">לא ניתן להפעיל את %s</string>
+    <string name="smart_network">רשת חכמה</string>
+    <string name="smart_network_guide_msg">"הרשת החכמה עוזרת לחסוך בחיי הסוללה.
+
+היא משביתה נתוני טלפון נייד ו-Wi-Fi כשהמסך כבוי כדי שההתקן יצרוך פחות מתח מהסוללה.
+
+עם זאת, ייתכן שתקבל נתוני דחיפה מצטברים בעת הפעלת המסך."</string>
+    <string name="quickpanel_data_roaming_text">נדידת נתונים</string>
+    <string name="data_roaming_dialog_text">ייתכן שיידרשו חיובים נוספים עבור נדידה. להמשיך?</string>
+    <string name="mobile_data_enable_dialog_text">חיבור לרשתות סלולריות עשוי להיות כרוך בחיובים נוספים, בהתאם לתוכנית הנתונים שלך. להמשיך?</string>
+    <string name="quickpanel_edit_current">לוח הודעות</string>
+    <string name="quickpanel_edit_available">לחצנים זמינים</string>
+    <string name="mobile_data_dialog_text">לא תוכל עוד להשתמש ביישומים כגון אינטרנט, דואר אלקטרוני ו-YouTube דרך רשתות סלולריות. להמשיך?</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"אלא אם כן אתה משתמש ב-Wi-Fi, לא תוכל עוד להשתמש באינטרנט, בדואר אלקטרוני או ביישומים אחרים הדורשים חיבור נתונים.
+
+הנתונים בנייד יושבתו."</string>
+    <string name="mobile_data_connect">התחבר</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">לא ניתן להתחבר לרשתות סלולריות כשמצב טיסה מופעל. השבת את מצב הטיסה ונסה שוב.</string>
+    <string name="warning_alert_check">אל תציג שוב</string>
+    <string name="blocking_mode_enable">כשמצב זה מופעל, הודעות על תכונות נבחרות יושבתו. תקבל רק הודעות על שיחות נכנסות מאנשים ברשימת המותרים שלך.</string>
+    <string name="blocking_mode_enable_for_grid_settings">’מצב חסימה‘ משבית התראות עבור תכונות נבחרות. במצב של חסימת שיחות נכנסות, תקבל התראות על שיחות נכנסות רק מאנשים ברשימת אנשי הקשר המותרים שלך. כדי לשנות את הגדרות ’מצב חסימה‘, עבור אל ’הגדרות‘ > ’התאמה אישית‘ > ’מצב חסימה‘.</string>
+    <string name="blocking_mode_enable_wifi">כשמצב זה מופעל, הודעות עבור המאפיינים שנבחרו יושבתו.</string>
+    <string name="blocking_mode_title">מצב חסימה</string>
+    <string name="dormant_mode_off_message">כדי להפעיל את מצב החסימה, הפעל לפחות אחת מהאפשרויות שלהלן.</string>
+    <string name="driving_mode_title">מצב ללא ידיים</string>
+    <string name="driving_mode_on_dialog_msg_1">יש להשבית מצב דיבורית תחת ’הגדרות‘ לאחר סגירת מצב דיבורית ב’קול S‘. אם מצב דיבורית נשאר פעיל, הודעות ופרטי שיחות נכנסות עדיין יושמעו בקול באופן אוטומטי.</string>
+    <string name="driving_mode_on_dialog_msg_2">ניתן לכבות מצב דיבורית על-ידי אמירת הפקודה ”כבה מצב דיבורית“ בדיבורית של ’קול S‘, או על-ידי מעבר אל ’הגדרות‘ או אל לוח ההודעות.</string>
+    <string name="insert_sim_card">הכנס כרטיס SIM</string>
+    <string name="insert_sim_card_message">הכנס כרטיס SIM כדי לגשת לשירותי רשת.</string>
+    <string name="wifi_enable_warning">הפעלת ה-Wi-Fi תנטרל את הנקודה החמה Wi-Fi הניידת. האם להמשיך?</string>
+    <string name="wifi_ap_turning_off">מנטרל נקודה חמה Wi-Fi ניידת…</string>
+    <string name="no_sim_notification_title">אין SIM</string>
+    <string name="no_sim_notification_title_tmo">לא הוכנס כרטיס SIM.</string>
+    <string name="no_sim_notification_text">הכנס כרטיס SIM.</string>
+    <string name="accessibility_power_saving_mode">כדי להפעיל את מצב החיסכון בחשמל, הפעל לפחות פונקציה אחת.</string>
+    <string name="accessibility_power_saving_mode_title">מצב חיסכון בסוללה</string>
+    <string name="accessibility_driving_mode">כדי להפעיל מצב דיבורית, הפעל לפחות פונקציה רלוונטית אחת.</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Network restriction mode will be disabled.</string>
+    <string name="charging_interruption_title">לא ניתן לטעון</string>
+    <string name="charging_interruption_by_terminal_open_text">לא ניתן לטעון את ההתקן. ודא שאתה משתמש בסוללה ומטען המתאימים להתקני סמסונג וכי ההתקן שלך מחובר למטען באופן תקין.</string>
+    <string name="charging_interruption_by_too_high_temperature_text">הטעינה מושהית. טמפרטורת הסוללה גבוהה מדי.</string>
+    <string name="charging_interruption_by_too_low_temperature_text">הטעינה מושהית. טמפרטורת הסוללה נמוכה מדי.</string>
+    <string name="charging_interruption_by_limit_high_temperature_text">"טעינת ההתקן נפסקה. טמפרטורת הסוללה גבוהה מדי. היזהר בעת ניתוק המטען. הוא עלול להיות לוהט.
+
+ייתכן שניתוק המטען וחיבורו מחדש יאפשרו את המשך הטעינה הרגילה. אם התחממות היתר נמשכת, פנה לשירות הלקוחות משום שייתכן שקיימת סכנת אש או פציעה."</string>
+    <string name="full_battery_title">מידע</string>
+    <string name="full_battery_text">סוללה טעונה במלואה.נתק מטען.</string>
+    <string name="low_battery_title">סוללה חלשה</string>
+    <string name="critical_low_battery_title">סוללה חלשה באופן קריטי</string>
+    <string name="low_battery_text">התחבר לשקע כדי לטעון את ההתקן וצא מיישומים שאינם בשימוש במנהל המשימות. המשך שימוש בזמן טעינה עלול למנוע טעינה יעילה.</string>
+    <string name="low_battery_text_charged_via_ta">צא מיישומים שאינם בשימוש במנהל המשימות. המשך שימוש בזמן טעינה עלול למנוע טעינה יעילה.</string>
+    <string name="low_battery_camera_warning_text">אם רמת הסוללה נמוכה מ-%d%%, לא תוכל לפתוח את המצלמה.</string>
+    <string name="critical_low_battery_camera_warning_text">לא ניתן לפתוח את המצלמה. מתח הסוללה הוא %d%% ומטה.</string>
+    <string name="start_force_consume_battery_title">התראה</string>
+    <string name="start_force_consume_battery_text">המתן עד שההתקן יתקרר לפני השימוש בו</string>
+    <string name="stop_force_consume_battery_title">מידע</string>
+    <string name="stop_force_consume_battery_text">ההתקן התקרר</string>
+    <string name="wireless_charging_title">טעינה אלחוטית.</string>
+    <string name="cable_charging_title">טעינה באמצעות כבל</string>
+    <string name="wireless_charging_text">ההתקן נמצא בטווח. טוען כעת באופן אלחוטי…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">מעבר לטעינה אלחוטית לטעינה באמצעות כבלים</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">מעבר מטעינה באמצעות כבלים לטעינה אלחוטית</string>
+    <string name="wireless_charging_spen_warning_text">ההתקן שלך נטען כעת באופן אלחוטי. עט S לא יפעל בטווח של המטען האלחוטי.</string>
+    <string name="incompatible_charger_title">לא בטעינה.</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_dialog_text_for_tablet">The connected charger is incompatible with this tablet. To prevent damage to your tablet, charging has been stopped. To continue charging, use the original charger and cable that were provided with this tablet.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_notification_text">To charge faster, use the original charger</string>
+    <string name="slow_charging_toast_text">To charge faster, use the charger and cable that were provided with this phone</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="water_damage_warning_title">בדוק את כיסוי הטעינה</string>
+    <string name="water_damage_warning_text">להגנה מפני נזקי מים, אטום היטב את מכסה הטעינה לפני השימוש</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">כבה את ההתקן</string>
+    <string name="overheat_poweroff_warning_text">התחממות יתר בהתקן שלך. ההתקן יכבה עכשיו כדי להתקרר.</string>
+    <string name="overheat_poweroff_warning_button_text">אל תכבה את ההתקן</string>
+    <string name="overheat_poweroff_notice_title">ההתקן כובה אוטומטית</string>
+    <string name="overheat_poweroff_notice_text">"ההתקן שלך התחמם יתר על המידה. הוא כבה כדי למנוע נזק.
+
+הסיבה להתחממות יתר עשויה להיות:
+שימוש ממושך ביישומים עתירי גרפיקה, כמו משחקים ויישומי ניווט.
+העברת קבצים גדולים.
+שימוש בהתקן בסביבה חמה."</string>
+    <string name="power_sharing_warning_title">שיתוף אנרגיה</string>
+    <string name="power_sharing_warning_text">רמת הטעינה בסוללה אינה מאפשרת שיתוף אנרגיה. כדי להמשיך בשיתוף אנרגיה, התאם את רמת הטעינה המאפשרת שיתוף אנרגיה לרמת הטעינה הנוכחית בסוללה.</string>
+    <string name="power_sharing_start_toast_text">מתחיל שיתוף אנרגיה…</string>
+    <string name="power_sharing_end_notification_text">שיתוף האנרגיה הסתיים. נתק את הכבל.</string>
+    <string name="face_detection_failure_text">שהות חכמה לא מצליחה לזהות את עיניך.</string>
+    <string name="status_bar_recent_launch_task_manager_title">מנהל המשימות</string>
+    <string name="status_bar_recent_launch_google_button">Google</string>
+    <string name="status_bar_recent_remove_all_button">סגור הכל</string>
+    <string name="screen_capture_fail_for_storage_capacity">אחסון ההתקן מלא. מחק כמה פריטים.</string>
+    <string name="no_such_item">לא ניתן למצוא פריט.</string>
+    <string name="pickup_tutorial_title">נסה התראה חכמה</string>
+    <string name="put_your_phone">לאחר הנחת ההתקן, המסך נכבה.</string>
+    <string name="phone_detect">נניח שיש לך שיחות או הודעות שהוחמצו. הנח את ההתקן ולאחר מכן הרם אותו שוב אחרי שהמסך נכבה.</string>
+    <string name="pick_up_your_phone">הרם את ההתקן</string>
+    <string name="tutorial_complete">ערכת הלימוד הושלמה.</string>
+    <string name="camera_alert">לא ניתן להפעיל מצלמה במהלך שיחה.</string>
+    <string name="stms_version">SM-G900F_EUR_20140228_0507</string>
+    <string name="wifi_cw_ready">China Telecom WLAN connected</string>
+    <string name="wifi_cw_ready_message">You have access to China Telecom WLAN network, consult 10000 to understand billing information, please turn off when not use</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">מסכים</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="quickpanel_ctwap_text">CTWAP</string>
+    <string name="quickpanel_ctnet_text">CTNET</string>
+    <string name="tethering_attention_title">שים לב</string>
+    <string name="tethering_wifi_off_warning">הפעלת נתב אלחוטי נייד תכבה את ה Wi-Fi.</string>
+    <string name="quickpanel_air_view_warning">כדי להפעיל תצוגת אוויר, הפעל לפחות פונקציה אחת.</string>
+    <string name="quickpanel_air_view_warning_pen_support">כדי להפעיל את תצוגת האוויר, הפעל לפחות פונקציה אחת ממצב תצוגת האוויר שנבחר</string>
+    <string name="quickpanel_air_gesture_warning">כדי להפעיל את air gesture, הפעל לפחות פונקציה מתאימה אחת.</string>
+    <string name="quickpanel_air_gesture_warning_continue">הקש והחזק לחצן הגדרה מהירה כדי לעבור להגדרה הרלוונטית.</string>
+    <string name="roaming_title">נדידה</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="gps_donotshow">אל תציג שוב</string>
+    <string name="quickpanel_brightess_level">רמה</string>
+    <string name="quickpanel_brightess_minus">מינוס</string>
+    <string name="reading_mode_title">מצב קריאה</string>
+    <string name="reading_mode_alert">מצב קריאה הופעל. המסך ממוטב כעת לקריאה. מצב זה זמין רק ביישומים נבחרים.</string>
+    <string name="reading_mode_settings">הגדרות</string>
+    <string name="automatic_brightness_message">הגדרות בהירות אוטומטית חלות על המסך הפנימי בלבד</string>
+    <string name="manual_brightness_message">הבהירות הותאמה ידנית. בהירות אוטומטית מושבתת.</string>
+    <string name="flight_mode_message_for_wifi_only">מצב טיסה מאפשר לך לבטל תכונות רשת, כולל Wi-Fi ו-Bluetooth. כדי להשתמש ב-Wi-Fi ו-Bluetooth, הפעל אותם דרך ’הגדרות‘ או דרך לוח ההודעות.</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tutorial_notification_panel_drag_down">השתמש באצבע אחת כדי למשוך כלפי מטה את שורת המצב מהחלק העליון של המסך.</string>
+    <string name="tutorial_notification_panel_drag_down_complete">לוח ההודעות מוצג.</string>
+    <string name="tutorial_quick_panel_drag_down">השתמש בשתי אצבעות כדי למשוך כלפי מטה את שורת המצב מהחלק העליון של המסך.</string>
+    <string name="tutorial_quick_panel_drag_down_complete">לוח ההגדרות המהירות מוצג.</string>
+    <string name="tutorial_expand_notification_panel_drag_down">השתמש בשתי אצבעות כדי למשוך כלפי מטה את אחת מהרשימות מלוח ההודעות.</string>
+    <string name="tutorial_expand_notification_panel_drag_down_complete">מידע נוסף אודות הרשימה שנבחרה מוצג.</string>
+    <string name="tutorial_invaild_action">פעולה לא חוקית. נסה שוב.</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="magnification_text_for_air_view_button">מחוות הגדלה</string>
+    <string name="smartbonding_dialog_title">מתגבר ההורדה</string>
+    <string name="smartbonding_dialog_wifi_text">האץ את ההורדה של קבצים גדולים (מעל ‎%d MB) על ידי שימוש בו-זמני ברשתות Wi-Fi ו-LTE. שים לב, ש‘מתגבר ההורדה’ עשוי להשתמש ב-Wi-Fi בלבד או ב-רשתות LTE בלבד להורדת הקבצים, הכל בהתאם למצב הרשתות.</string>
+    <string name="smartbonding_dialog_mobile_text">האץ את ההורדה של קבצים גדולים (מעל ‎%d MB) על ידי שימוש בו-זמני ברשתות Wi-Fi ו-LTE. שים לב, ש‘מתגבר ההורדה’ עשוי להשתמש ב-Wi-Fi בלבד או ב-רשתות LTE בלבד להורדת הקבצים, הכל בהתאם למצב הרשתות.</string>
+    <string name="smart_bonding_popup_msg">‘מתגבר ההורדה’ יופעל. הורדה באמצעות רשת סלולרית עשויה לגרור תוספת חיובים, בהתאם להסדר שלך עם הספק.</string>
+    <string name="smart_bonding_popup_msg_wifi">Wi-Fi מושבת כרגע. כדי להפעיל את ‘מתגבר ההורדה’, עליך להפעיל הן את Wi-Fi והן את ‘נתונים ניידים’. הורדה באמצעות רשת סלולרית עשויה לגרור תוספת חיובים, בהתאם להסדר שלך עם הספק.</string>
+    <string name="smart_bonding_popup_msg_data">התכונה ‘נתונים ניידים’ מושבתת כרגע. כדי להפעיל את ‘מתגבר ההורדה’, עליך להפעיל הן את Wi-Fi והן את ‘נתונים ניידים’. הורדה באמצעות רשת סלולרית עשויה לגרור תוספת חיובים, בהתאם להסדר שלך עם הספק.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">התכונות Wi-Fi ו-‘נתונים ניידים’ מושבתות כרגע. כדי להפעיל את ‘מתגבר ההורדה’, עליך להפעיל הן את Wi-Fi והן את ‘נתונים ניידים’. הורדה באמצעות רשת סלולרית עשויה לגרור תוספת חיובים, בהתאם להסדר שלך עם הספק.</string>
+    <string name="smart_bonding_popup_msg_roaming">לא ניתן להשתמש ב‘מתגבר ההורדה’ תוך כדי נדידה. מומלץ לבצע הורדות באמצעות רשת Wi-Fi.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">הפעל Wi-Fi</string>
+    <string name="smart_bonding_popup_msg_data_btn">הפעל את ‘נתונים ניידים’</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">מפעיל Wi-Fi וגם ‘נתונים ניידים’</string>
+    <string name="smart_bonding_turn_off_text">לא ניתן להפעיל את ’מתגבר ההורדה‘ כאשר %1$s מופעל. השבת את %2$s ונסה שוב.</string>
+    <string name="smart_bonding_turn_off_text_airplane_mode">לא ניתן להתחבר לרשתות סלולריות כשמצב טיסה מופעל. השבת את מצב הטיסה ונסה שוב.</string>
+    <string name="dialog_battery_data_warning">נתב אלחוטי נייד צורך מתח רב מהסוללה ומגדיל את השימוש בנתונים. להמשיך?</string>
+    <string name="tether_settings_title_wifi">נקודה חמה ניידת</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">הודעה</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="cooling_title">התחממות יתר בהתקן</string>
+    <string name="cooling_body">"התחממות יתר בהתקן שלך. כעת יינקטו צעדים לצנן אותו.
+
+תוכל להמשיך להשתמש בהתקן אולם
+- ייתכן שהמסך יתעמעם.
+- ייתכן שפעולת ההתקן תהיה איטית יותר.
+- ייתכן שהטעינה תיעצר.
+
+סגירת היישום הנוכחי תסייע בצינון ההתקן.
+
+לאחר שההתקן יתקרר, הביצועים יחזרו באופן אוטומטי לרמה הרגילה."</string>
+    <string name="cooling_noti_text">הקש כאן כדי לראות פרטים.</string>
+    <string name="cooling_popup_name">התראת הודעה חדשה</string>
+    <string name="cooling_noti_title">התחממות יתר בהתקן</string>
+    <string name="btn_text_yes">אישור</string>
+    <string name="btn_text_no">ביטול</string>
+    <string name="device_overheating">התחממות יתר בהתקן</string>
+    <string name="colling_noti_text_2">לא ניתן לפתוח יישומים. תוכל להשתמש ביישומים ‘טלפון’ ו‘אנשי קשר’ בלבד.</string>
+    <string name="vol_panel_audio_settings">שנה את הגדרות השמע.</string>
+    <string name="guest_launge_warning_toast_text">לא ניתן להפעיל או להשבית את %s במצב ‘אורח’.</string>
+    <string name="safe_mode_title_vzw">כבה מצב בטוח</string>
+    <string name="safe_mode_popup_body_vzw">האם ברצונך לאתחל את הטלפון כדי לכבות את מצב הבטוח? כל היישומים שלך ישוחזרו.</string>
+    <string name="safe_mode_btn_cancel_vzw">ביטול</string>
+    <string name="safe_mode_off_btn_vzw">כבה מצב בטוח</string>
+    <string name="safe_mode_noti_on_vzw">מצב בטוח מופעל</string>
+    <string name="safe_mode_noti_body_vzw">כבה מצב בטוח על ידי הקשה</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">הקש כאן כדי לברר פרטים נוספים.</string>
+    <string name="cooling_popup_name_VZW">הודעה</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">אישור</string>
+    <string name="btn_text_no_VZW">ביטול</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance will Automatically go back to normal."</string>
+    <string name="recent_menukey_press_description">לחץ לחיצה ארוכה על לחצן ‘אחרונים’ כדי להציג את התפריט.</string>
+    <string name="recent_menukey_press_description_vzw">מקש התפריט הוחלף במקש ’אחרונים‘ כדי לאפשר לך לעבור במהירות בין היישומים שהפעלת לאחרונה. כדי לקבל מידע נוסף, הקש על ’עזרה‘.</string>
+    <string name="recent_menukey_help_button">עזרה</string>
+</resources>

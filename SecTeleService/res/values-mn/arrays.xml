@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Сүлжээний өгөгдмөл тохиргоо</item>
+        <item>Дугаарыг нуух</item>
+        <item>Дугаарыг харуулах</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>Өгөгдмөл</item>
+        <item>Нуух</item>
+        <item>Харуулах</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE / WCDMA</item>
+        <item>LTE</item>
+        <item>Дэлхийн</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>Зөвхөн EVDO</item>
+        <item>EVDO-гүй CDMA</item>
+        <item>CDMA/EVDO автомат</item>
+        <item>GSM / WCDMA auto</item>
+        <item>Зөвхөн WCDMA</item>
+        <item>Зөвхөн GSM</item>
+        <item>GSM / WCDMA preferred</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_automatic_cdma_lte_gsm">
+        <item>CDMA</item>
+        <item>LTE / CDMA</item>
+        <item>GSM / UMTS</item>
+        <item>Automatic</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_lte_global">
+        <item>Дэлхийн</item>
+        <item>LTE / CDMA</item>
+        <item>GSM / UMTS</item>
+        <item>CDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_lte_global_non_cdma">
+        <item>Дэлхийн</item>
+        <item>LTE / CDMA</item>
+        <item>GSM / UMTS</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_global_lte_gsm">
+        <item>Дэлхийн</item>
+        <item>LTE</item>
+        <item>GSM / UMTS</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>Франц</item>
+        <item>Испани</item>
+        <item>Япон</item>
+        <item>Солонгос</item>
+        <item>Хятад</item>
+        <item>Иврит</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Зөвхөн гэр</item>
+        <item>Автомат</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices_home_only">
+        <item>Зөвхөн гэр</item>
+    </string-array>
+    <string-array name="cdma_system_select_sub_choices">
+        <item>Зөвхөн гэр</item>
+        <item>Автомат A</item>
+        <item>Автомат B</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY Off</item>
+        <item>TTY Full</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Ердийн</item>
+        <item>Урт</item>
+    </string-array>
+    <string-array name="dtmf_tone_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="RAD_arr_roaming_auto_dial_help">
+        <item>Роумингаар автоматаар залгах тусламж</item>
+    </string-array>
+    <string-array name="RAD_roaming_auto_dial_settings">
+        <item>Ассн</item>
+        <item>Унтар</item>
+        <item>Үргэлж Солонгос руу залгах</item>
+    </string-array>
+    <string-array name="roaming_mode_entries">
+        <item>Зөвхөн Sprint</item>
+        <item>Автомат</item>
+    </string-array>
+    <string-array name="roaming_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="roaming_network_mode_list">
+        <item>Автомат</item>
+        <item>Зөвхөн WCDMA</item>
+        <item>Зөвхөн GSM</item>
+    </string-array>
+    <string-array name="system_setting_entries">
+        <item>Япон</item>
+        <item>Automatic(Roaming/Japan)</item>
+        <item>GSM/UMTS(Roaming)</item>
+    </string-array>
+</resources>

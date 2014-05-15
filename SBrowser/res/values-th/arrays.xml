@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>เปิดตลอด</item>
+        <item>ตาม​ความ​ต้อง​การ</item>
+        <item>ปิด</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>หน้า​พื้น​ฐาน</item>
+        <item>หน้าปัจจุบัน</item>
+        <item>การเข้าถึงด่วน</item>
+        <item>ไซต์​ที่​เข้า​ชม​บ่อย​ที่​สุด</item>
+        <item>อื่นๆ</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>อุปกรณ์</item>
+        <item>SD ​การ์ด</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>ละ​ติ​น-1 (ISO-8859-1)</item>
+        <item>ยู​นิ​โค้ด​ (UTF-8)</item>
+        <item>จีน (GBK)</item>
+        <item>จีน (Big5)</item>
+        <item>ภาษา​ญี่ปุ่น (ISO-2022-JP)</item>
+        <item>ภาษา​ญี่ปุ่น (SHIFT ​JIS)</item>
+        <item>ภาษา​ญี่ปุ่น (EUC-JP)</item>
+        <item>เกาหลี (EUC-KR)</item>
+        <item>ตรวจ​หา​อัตโนมัติ</item>
+    </string-array>
+</resources>

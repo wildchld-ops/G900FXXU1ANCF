@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_vertical" android:id="@id/horizontal_vertical_additional_rcs_im_divider" android:background="@drawable/logsdetail_divider" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="@dimen/detail_list_item_vertical_divider_height" />
+    <ImageView android:layout_gravity="center" android:id="@id/horizontal_additional_rcs_im_button" android:background="@drawable/contacts_detail_button_bg_selector" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:contentDescription="@string/chat" />
+    <View android:layout_gravity="center_vertical" android:id="@id/horizontal_vertical_additional_rcs_ft_divider" android:background="@drawable/logsdetail_divider" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="@dimen/detail_list_item_vertical_divider_height" />
+    <ImageView android:layout_gravity="center" android:id="@id/horizontal_additional_rcs_ft_button" android:background="@drawable/contacts_detail_button_bg_selector" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:contentDescription="@string/chat" />
+</merge>

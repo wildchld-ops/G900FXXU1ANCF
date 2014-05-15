@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/festival_effect_settings_title" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:key="festival_effect_help" />
+    <PreferenceCategory android:title="@string/allowed_functions" android:key="allowed_functions_category" />
+    <SwitchPreferenceScreen android:title="@string/home_lock_screen_title" android:key="home_lock_screen" android:fragment="com.android.settings.festivaleffect.FestivalEffectGuide">
+        <extra android:name="type" android:value="home_lock_screen" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:title="@string/notification_panel_title" android:key="notification_panel" android:fragment="com.android.settings.festivaleffect.FestivalEffectGuide">
+        <extra android:name="type" android:value="notification_panel" />
+    </SwitchPreferenceScreen>
+    <SwitchPreferenceScreen android:title="@string/weather_widget_title" android:key="weather_widget" android:fragment="com.android.settings.festivaleffect.FestivalEffectGuide">
+        <extra android:name="type" android:value="weather_widget" />
+    </SwitchPreferenceScreen>
+</PreferenceScreen>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:cp="http://schemas.android.com/apk/res/com.android.contacts">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/quickcontact_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/photo_container" android:layout_width="wrap_content" android:layout_height="@dimen/quick_contact_photo_container_height_land">
+            <com.samsung.contacts.widget.ContactPhotoView android:id="@id/photo" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_centerInParent="true" android:contentDescription="@string/attach_photo_dialog_title" cp:frameSize="@dimen/quick_contact_photo_photo_size" cp:framePositionTop="@dimen/quick_contact_photo_from_y_position" cp:framePositionTopWithoutCompanyName="@dimen/quick_contact_photo_from_y_position_without_company_name" />
+            <ImageView android:id="@id/default_photo_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/contacts_default_caller_id" android:scaleType="fitCenter" />
+            <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/quick_contact_text_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingStart="@dimen/quick_contact_text_padding_horizontal" android:paddingEnd="@dimen/quick_contact_text_padding_horizontal">
+                <com.samsung.contacts.widget.StrokeTextView android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/name" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/quickcontact_display_name_text" />
+                <View android:id="@id/name_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/quick_contact_name_empty_view_height" />
+                <com.samsung.contacts.widget.StrokeTextView android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/companyname" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/quickcontact_detail_company_text" />
+            </LinearLayout>
+            <View android:layout_gravity="center_horizontal" android:id="@id/photo_touch_intercept_overlay" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/description_to_view_quick_contact" />
+            <ImageView android:id="@id/quickcontact_star_button" android:clickable="true" android:layout_width="@dimen/quick_contact_star_size" android:layout_height="@dimen/quick_contact_star_size" android:layout_marginLeft="@dimen/quick_contact_star_left_padding_land" android:layout_marginTop="@dimen/quick_contact_star_icon_padding_land" android:layout_marginRight="@dimen/quick_contact_star_right_padding_land" android:layout_alignTop="@id/quickcontact_container" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/btn_container" android:visibility="gone" android:layout_width="@dimen/quick_contact_button_width_land" android:layout_height="fill_parent">
+            <Button android:textAppearance="@style/QuickContactButtonTextStyle" android:ellipsize="marquee" android:id="@id/create_contact" android:background="@drawable/btn_quick_contacts" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/create_contact" android:singleLine="true" android:layout_weight="1.0" />
+            <Button android:textAppearance="@style/QuickContactButtonTextStyle" android:ellipsize="marquee" android:id="@id/update_contact" android:background="@drawable/btn_quick_contacts" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/update_existing" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

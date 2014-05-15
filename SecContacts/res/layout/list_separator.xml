@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="left|center" android:orientation="vertical" android:id="@id/separator_container" android:background="@drawable/tw_list_section_divider_index_holo" android:focusable="false" android:layout_width="fill_parent" android:layout_height="@dimen/detail_sub_title_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/subTitleHeader" />
+    <TextView android:textAppearance="@style/TwMainListDirectoryHeaderCountTextAppearance" android:textColor="@color/sub_title_header" android:gravity="center_vertical" android:id="@id/count" android:paddingRight="@dimen/detail_sub_title_left_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

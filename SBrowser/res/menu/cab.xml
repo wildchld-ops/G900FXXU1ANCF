@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/done_id" android:visible="false" android:title="@string/bookmark_done" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/menu_icon_bookmark_delete_selector" android:id="@id/delete_bookmark_action" android:visible="false" android:title="@string/autofill_delete" android:showAsAction="always" />
+</menu>

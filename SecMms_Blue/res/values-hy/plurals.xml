@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s խոսակցություն</item>
+        <item quantity="one">1 խոսակցություն</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s հաղորդագրություն</item>
+        <item quantity="one">1 հաղորդագրություն</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d խոսակցություն</item>
+        <item quantity="one">%d խոսակցություն</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s և %2$d ավելին</item>
+        <item quantity="one">%s and 1 more</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s և %2$d ավելին</item>
+        <item quantity="one">%s and 1 more</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">SIM քարտից վերացված կոնտակտներ:</item>
+        <item quantity="one">Հաղորդագրությունը վերացվեց SIM քարտից:</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">SIM քարտից պատճենված կոնտակտներ:</item>
+        <item quantity="one">Հաղորդագրությունը պատճենվեց SIM քարտից:</item>
+    </plurals>
+</resources>

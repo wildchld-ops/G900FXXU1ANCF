@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>ಯಾವಾಗಲೂ ಆನ್</item>
+        <item>ಬೇಡಿಕೆಯ ಮೇಲಿದೆ</item>
+        <item>ಆಫ್</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>ಡೀಫಾಲ್ಟ್ ಪುಟ</item>
+        <item>ಪ್ರಸಕ್ತ ಪುಟ</item>
+        <item>ತ್ವರಿತ ಪ್ರವೇಶ</item>
+        <item>ಹೆಚ್ಚು ಭೇಟಿ ನೀಡಿದ ಸೈಟ್‌ಗಳು</item>
+        <item>ಇತರೆ</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>ಸಾಧನ</item>
+        <item>SD ಕಾರ್ಡ್</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>ಲ್ಯಾಟಿನ್-1 (ISO-8859-1)</item>
+        <item>ಯೂನಿಕೋಡ್ (UTF-8)</item>
+        <item>ಚೈನೀಸ್ (GBK)</item>
+        <item>ಚೈನೀಸ್ (ದೊಡ್ಡ5)</item>
+        <item>ಜಪಾನಿಗಳು (ISO-2022-JP)</item>
+        <item>ಜಪಾನಿಗಳು (SHIFT JIS)</item>
+        <item>ಜಪಾನಿಗಳು (EUC-JP)</item>
+        <item>ಕೊರಿಯನ್ (EUC-KR)</item>
+        <item>ಸ್ವಯಂ-ಪತ್ತೆ</item>
+    </string-array>
+</resources>

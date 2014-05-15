@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>លំនាំ​ដើម​បណ្ដាញ</item>
+        <item>លាក់​លេខ</item>
+        <item>បង្ហាញ​លេខ</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>លំនាំ​ដើម</item>
+        <item>លាក់</item>
+        <item>បង្ហាញ</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE / WCDMA</item>
+        <item>LTE</item>
+        <item>Global</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>តែ EVDO</item>
+        <item>CDMA w/o EVDO</item>
+        <item>CDMA/EVDO ស្វ័យ</item>
+        <item>GSM / WCDMA auto</item>
+        <item>WCDMA ប៉ុណ្ណោះ</item>
+        <item>GSM ប៉ុណ្ណោះ</item>
+        <item>GSM / WCDMA preferred</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_automatic_cdma_lte_gsm">
+        <item>CDMA</item>
+        <item>LTE / CDMA</item>
+        <item>GSM / UMTS</item>
+        <item>ស្វ័យ​ប្រវត្តិ</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_lte_global">
+        <item>Global</item>
+        <item>LTE / CDMA</item>
+        <item>GSM / UMTS</item>
+        <item>CDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_lte_global_non_cdma">
+        <item>Global</item>
+        <item>LTE / CDMA</item>
+        <item>GSM / UMTS</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_global_lte_gsm">
+        <item>Global</item>
+        <item>LTE</item>
+        <item>GSM / UMTS</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>បារាំង</item>
+        <item>អេស្ប៉ាញ</item>
+        <item>ជប៉ុន</item>
+        <item>កូរ៉េ</item>
+        <item>ចិន</item>
+        <item>អ៊ីប្រ៊ូវ</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>តែ​គេហ</item>
+        <item>ស្វ័យ​ប្រវត្តិ</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices_home_only">
+        <item>តែ​គេហ</item>
+    </string-array>
+    <string-array name="cdma_system_select_sub_choices">
+        <item>តែ​គេហ</item>
+        <item>A ស្វ័យ​ប្រវត្តិ</item>
+        <item>B ស្វ័យ​ប្រវត្តិ</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY Off</item>
+        <item>TTY Full</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>ធម្មតា</item>
+        <item>វែង</item>
+    </string-array>
+    <string-array name="dtmf_tone_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="RAD_arr_roaming_auto_dial_help">
+        <item>ជំនួយ​ស្វ័យ​ហៅ​ពេល​រ៉ូមីង</item>
+    </string-array>
+    <string-array name="RAD_roaming_auto_dial_settings">
+        <item>បើក</item>
+        <item>បិទ</item>
+        <item>ហៅ​ទៅ​កូរ៉េ​ជានិច្ច</item>
+    </string-array>
+    <string-array name="roaming_mode_entries">
+        <item>Sprint ប៉ុណ្ណោះ</item>
+        <item>ស្វ័យ​ប្រវត្តិ</item>
+    </string-array>
+    <string-array name="roaming_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="roaming_network_mode_list">
+        <item>ស្វ័យ</item>
+        <item>WCDMA ប៉ុណ្ណោះ</item>
+        <item>GSM ប៉ុណ្ណោះ</item>
+    </string-array>
+    <string-array name="system_setting_entries">
+        <item>ជប៉ុន</item>
+        <item>Automatic(Roaming/Japan)</item>
+        <item>GSM/UMTS(Roaming)</item>
+    </string-array>
+</resources>

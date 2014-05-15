@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/list_item" android:background="@drawable/widget_innerline" android:padding="1.0px" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/thumb_frame" android:layout_width="fill_parent" android:layout_height="@dimen/widgetSbookmarkThumbnailHeight">
+        <ImageView android:id="@id/thumb" android:background="@color/widget_thumb_bg" android:layout_width="fill_parent" android:layout_height="@dimen/widgetSbookmarkThumbnailHeight" android:src="@drawable/widget_thumb_img_default" android:scaleType="fitXY" android:cropToPadding="true" />
+        <ImageView android:id="@id/thumb_default" android:background="@color/widget_thumb_bg" android:layout_width="fill_parent" android:layout_height="@dimen/widgetSbookmarkThumbnailHeight" android:src="@drawable/widget_thumb_img_default" android:scaleType="fitCenter" android:cropToPadding="true" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/bookmark_item_list_inner" android:layout_width="fill_parent" android:layout_height="@dimen/widgetSbookmarkTitleHeight" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="0.0dip" android:layout_below="@id/thumb_frame">
+        <TextView android:textSize="14.0dip" android:textColor="@color/widget_title_text" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/label" android:paddingLeft="30.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_toRightOf="@id/favicon" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/favicon" android:layout_width="@dimen/widgetSbookmarkFaviconSize" android:layout_height="@dimen/widgetSbookmarkFaviconSize" android:layout_marginLeft="4.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/widget_thumb_favicon_default" android:scaleType="fitCenter" />
+    </FrameLayout>
+</RelativeLayout>

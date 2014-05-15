@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:id="@id/pre_translate_mode_screen" android:key="pre_translate_mode_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <CheckBoxPreference android:title="@string/prefetch_extarctmode_title" android:key="extract_view" android:summary="@string/prefetch_extarctmode_summaryon" android:defaultValue="false" android:summaryOn="@string/prefetch_extarctmode_summaryon" style="@style/Textsize" />
+    <SwitchPreferenceScreen android:title="@string/prefetch_translationmode_title" android:key="translation_mode" android:summary="@string/prefetch_translationmode_summary" android:fragment="com.sec.android.app.sbrowser.preferences.TranslateModePreferences" />
+</PreferenceScreen>

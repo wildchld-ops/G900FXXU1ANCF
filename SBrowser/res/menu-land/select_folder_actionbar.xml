@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/tw_action_bar_icon_add_folder" android:id="@id/bookmark_create_folder_id" android:title="@string/bookmark_create_folder" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/tw_action_bar_icon_cancel" android:id="@id/bookmark_select_cancel_id" android:visible="false" android:title="@string/bookmark_cancel" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/tw_action_bar_icon_check_selector" android:id="@id/bookmark_select_done_id" android:visible="false" android:title="@string/bookmark_done" android:showAsAction="always|withText" />
+</menu>

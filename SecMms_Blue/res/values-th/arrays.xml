@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>ความ​สุข</item>
+        <item>เศร้า</item>
+        <item>ขยิบ​ตา</item>
+        <item>แลบ​ลิ้น</item>
+        <item>แปลก​ใจ</item>
+        <item>กำลัง​จูบ</item>
+        <item>ตะโกน</item>
+        <item>เท่</item>
+        <item>ปากเป็นรูปเงิน</item>
+        <item>เท้า​อยู่​ใน​ปาก</item>
+        <item>เขิน​อาย</item>
+        <item>นาง​ฟ้า</item>
+        <item>ตัดสิน​ใจ​ไม่​ได้</item>
+        <item>ร้องไห้</item>
+        <item>ปิด​ปาก</item>
+        <item>หัวเราะ</item>
+        <item>สับสน</item>
+        <item>หัวใจ</item>
+        <item>บ้า</item>
+        <item>ยิ้ม​เยาะ</item>
+        <item>หน้า​เฉย</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>ใช้​ขนาด​แบบ​อักษร​ของ​อุปกรณ์</item>
+        <item>จิ๋ว</item>
+        <item>เล็ก</item>
+        <item>ปกติ</item>
+        <item>ใหญ่</item>
+        <item>ใหญ่​มาก</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>ใช้​ขนาด​แบบ​อักษร​ของ​อุปกรณ์</item>
+        <item>จิ๋ว</item>
+        <item>เล็กพิเศษ</item>
+        <item>เล็ก</item>
+        <item>ปานกลาง</item>
+        <item>ใหญ่</item>
+        <item>ใหญ่พิเศษ</item>
+        <item>ใหญ่มาก</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>สถานีทั้งหมด</item>
+        <item>สถานี​ส่วนตัว</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>ชุดตัวอักษร GSM</item>
+        <item>ยู​นิ​โค้ด</item>
+        <item>อัตโนมัติ</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 ​วัน</item>
+        <item>1 ​วัน</item>
+        <item>2 ​วัน</item>
+        <item>3 ​วัน</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>จำกัด</item>
+        <item>เตือน</item>
+        <item>ฟรี</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>ตลอดเวลา</item>
+        <item>เตือน​ก่อน</item>
+        <item>ไม่</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>กระดาษ​พับ​ญี่ปุ่น</item>
+        <item>ป้าย</item>
+        <item>ป็อป</item>
+        <item>ทัน​สมัย</item>
+        <item>สี​ชมพู</item>
+        <item>พื้น​ฐาน</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>ครั้ง​เดียว</item>
+        <item>ทุก 2 ​นาที</item>
+        <item>ทุก 15 ​นาที</item>
+        <item>ปิด</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>ไม่</item>
+        <item>ทุก 2 ​นาที</item>
+        <item>ทุก 10 ​นาที</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>ใน​ประเทศ</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 ชั่วโมง</item>
+        <item>6 ​ชั่วโมง</item>
+        <item>24 ​ชั่วโมง</item>
+        <item>2 ​วัน</item>
+        <item>ค่าพื้นฐานของเครือข่าย</item>
+        <item>สูง​สุด</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>สูง</item>
+        <item>ปกติ</item>
+        <item>ต่ำ</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>ทันที</item>
+        <item>1 ชั่วโมง</item>
+        <item>6 ​ชั่วโมง</item>
+        <item>24 ​ชั่วโมง</item>
+        <item>1 ​วี​ค</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 วินาที</item>
+        <item>5 ​วินาที</item>
+        <item>10 วินาที</item>
+        <item>20 ​วินาที</item>
+        <item>30 ​วินาที</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>ปิด</item>
+        <item>บล็อก​ข้อ​ความ​ทั้ง​หมด</item>
+        <item>บล็อก​หมาย​เลข​และ​วลี​ที่​ลง​ทะเบียน​ไว้</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>เหมือนกันทั้งหมด</item>
+        <item>เริ่มด้วย</item>
+        <item>จบด้วย</item>
+        <item>ส่วนหนึ่งของเบอร์</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>บันทึกล่าสุด</item>
+        <item>รายชื่อ</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>บล็อก​ข้อ​ความ</item>
+        <item>บล็อก​การ​โทร</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>บล็อก​ข้อ​ความ</item>
+        <item>บล็อก​การ​โทร​ปกติ</item>
+        <item>บล็อก​การ​โทรวิดีโอ</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>จอง​ไว้</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>ปกติ</item>
+        <item>สูง</item>
+    </string-array>
+    <string-array name="templates">
+        <item>ขออภัย ฉันไม่ได้รับสายของคุณ</item>
+        <item>ฉันมาสาย แต่ฉันจะไปถึงในไม่ช้านี้</item>
+        <item>เป็นอย่างไรบ้าง?</item>
+        <item>ว่าอย่างไร?</item>
+        <item>คุณอยู่ที่ไหน?</item>
+        <item>โปรดโทรหาฉันเมื่อได้รับข้อความนี้</item>
+        <item>เราจะพบกันที่ไหนดี?</item>
+        <item>แล้วคุยกันใหม่เร็วๆ นี้</item>
+        <item>ประชุมที่ไหน?</item>
+        <item>หมายเลขอะไร?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>โปรตุเกสบราซิล</item>
+        <item>อังกฤษ (สหราชอาณาจักร)</item>
+        <item>ภาษา​อังกฤษ (US)</item>
+        <item>ฝรั่งเศส</item>
+        <item>เยอรมัน</item>
+        <item>อิตาลี</item>
+        <item>ญี่ปุ่น</item>
+        <item>เกาหลี</item>
+        <item>จีน​แบบ​ย่อ</item>
+        <item>ภาษา​รัส​เซีย</item>
+        <item>สเปน</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>จิ๋ว</item>
+        <item>เล็ก</item>
+        <item>ปกติ</item>
+        <item>ใหญ่</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>ทั้ง​หมด</item>
+        <item>ผู้​ส่ง</item>
+        <item>คอน​เทนท์</item>
+    </string-array>
+</resources>

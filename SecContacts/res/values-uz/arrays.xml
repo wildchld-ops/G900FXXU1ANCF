@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="index_string_array">
+        <item>ABDEFGHIJKLMNOPQRSTUVXYZO‘G‘ChShNg</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="interaction_selecter_spinner">
+        <item>%d tanlangan</item>
+        <item>Barchasini tanlash</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Tashkilot</item>
+        <item>Eslatma</item>
+    </string-array>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.RawContactEditorView android:orientation="vertical" android:paddingTop="@dimen/editor_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/editor_account_header_with_dropdown" />
+    <LinearLayout android:orientation="vertical" android:id="@id/body" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/editor_photo_top_padding" android:paddingBottom="@dimen/editor_photo_top_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <include android:id="@id/edit_photo" layout="@layout/item_photo_editor" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <include android:id="@id/edit_name" layout="@layout/structured_name_editor_view" />
+                <include android:id="@id/edit_phonetic_name" layout="@layout/phonetic_name_editor_view" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/sect_fields" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:listDivider" android:showDividers="middle|end|beginning" />
+        <Button android:textSize="@dimen/button_add_field_textsize" android:id="@id/button_add_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/button_add_field_vertical_margin" android:layout_marginBottom="@dimen/button_add_field_vertical_margin" android:minHeight="@dimen/button_add_field_height" android:text="@string/add_field" android:layout_marginStart="@dimen/button_add_field_horizontal_margin" android:layout_marginEnd="@dimen/button_add_field_horizontal_margin" />
+    </LinearLayout>
+</com.android.contacts.editor.RawContactEditorView>

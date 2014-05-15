@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.contacts.detail.ActionsViewContainer android:orientation="horizontal" android:id="@id/actions_view_container" android:nextFocusRight="@id/secondary_action_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/detail_min_line_item_height">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/primary_action_view" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/detail_list_item_common_left_padding" android:layout_width="0.0dip" android:layout_height="fill_parent" android:baselineAligned="false" android:layout_weight="1.0">
+            <TextView android:id="@id/type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/detail_list_item_gap_between_type_data" style="@style/ContactDetailItemType" />
+            <com.samsung.contacts.detail.ExpandableHeightGridView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/connection_icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:horizontalSpacing="@dimen/detail_list_item_expandable_view_spacing" android:verticalSpacing="@dimen/detail_list_item_expandable_view_spacing" android:stretchMode="none" android:columnWidth="@dimen/detail_list_item_expandable_view_column_width" android:numColumns="auto_fit" android:importantForAccessibility="no" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/secondary_action_view_container" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/detail_list_item_secondary_left_padding" android:focusable="true" android:nextFocusLeft="@id/actions_view_container" android:layout_width="@dimen/detail_list_connection_item_button_width" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="right|center" android:id="@id/secondary_action_button" android:duplicateParentState="false" android:layout_width="@dimen/detail_list_item_icon_size" android:layout_height="@dimen/detail_list_item_icon_size" android:layout_marginRight="@dimen/detail_list_item_secondary_right_padding" />
+        </FrameLayout>
+    </com.android.contacts.detail.ActionsViewContainer>
+</FrameLayout>

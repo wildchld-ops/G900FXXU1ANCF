@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/hover_popup_bg_w" android:paddingLeft="20.0dip" android:paddingTop="14.0dip" android:paddingRight="20.0dip" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:id="@id/textPreview_1" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="400.0dip" android:maxLines="4" android:singleLine="false" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:id="@id/textPreview_2" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:maxWidth="400.0dip" android:maxLines="4" android:singleLine="false" />
+</LinearLayout>

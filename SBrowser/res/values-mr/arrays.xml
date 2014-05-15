@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>सदैव चालू</item>
+        <item>मागितल्यावर द्या</item>
+        <item>बंद</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>डिफॉल्ट पृष्ठ</item>
+        <item>सद्य पृष्ठ</item>
+        <item>जलद ऍक्‍सेस</item>
+        <item>जास्त भेट दिलेल्या साइट</item>
+        <item>इतर</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>उपकरण</item>
+        <item>SD कार्ड</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>लॅटिन-1 (ISO-8859-1)</item>
+        <item>युनिकोड (UTF-8)</item>
+        <item>चीनी (GBK)</item>
+        <item>चीनी (बिग5)</item>
+        <item>जपानी (ISO-2022-JP)</item>
+        <item>जपानी (SHIFT JIS)</item>
+        <item>जपानी (EUC-JP)</item>
+        <item>कोरियन (EUC-KR)</item>
+        <item>ऑटो-शोध</item>
+    </string-array>
+</resources>

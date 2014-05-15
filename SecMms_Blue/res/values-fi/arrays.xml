@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&amp;lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Iloinen</item>
+        <item>Surullinen</item>
+        <item>Iskee silmää</item>
+        <item>Kieli ulkona</item>
+        <item>Yllättynyt</item>
+        <item>Suutelee</item>
+        <item>Huutaa kovaa</item>
+        <item>Siisti</item>
+        <item>Rahasuu</item>
+        <item>Puhuu noloja</item>
+        <item>Nolo</item>
+        <item>Enkeli</item>
+        <item>Epävarma</item>
+        <item>Itkee</item>
+        <item>Huuleni ovat sinetöidyt</item>
+        <item>Nauraa</item>
+        <item>Hämmentynyt</item>
+        <item>Sydän</item>
+        <item>Hullu</item>
+        <item>Virne</item>
+        <item>Pokerinaama</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Käytä laitteen fonttik.</item>
+        <item>Erittäin pieni</item>
+        <item>Pieni</item>
+        <item>Normaali</item>
+        <item>Suuri</item>
+        <item>Erittäin suuri</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Käytä laitteen fonttik.</item>
+        <item>Pikkuruinen</item>
+        <item>Erittäin pieni</item>
+        <item>Pieni</item>
+        <item>Keskikokoinen</item>
+        <item>Suuri</item>
+        <item>Erittäin suuri</item>
+        <item>Valtava</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Kaikki kanavat</item>
+        <item>Oma kanava</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-merkistö</item>
+        <item>Unicode-merkistö</item>
+        <item>Automaattinen</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 päivää</item>
+        <item>1 päivä</item>
+        <item>2 päivää</item>
+        <item>3 päivää</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Rajoitettu</item>
+        <item>Varoitus</item>
+        <item>Vapaa</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Aina</item>
+        <item>Kehote</item>
+        <item>Ei koskaan</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Origami</item>
+        <item>Nimi</item>
+        <item>Pop</item>
+        <item>Moderni</item>
+        <item>Vaaleanpunainen</item>
+        <item>Oletus</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Kerran</item>
+        <item>2 minuutin välein</item>
+        <item>15 minuutin välein</item>
+        <item>Pois päältä</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Ei koskaan</item>
+        <item>2 minuutin välein</item>
+        <item>10 minuutin välein</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Kotimaa</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 tunti</item>
+        <item>6 tuntia</item>
+        <item>24 tuntia</item>
+        <item>2 päivää</item>
+        <item>Oletusverkkoasetukset</item>
+        <item>Enintään</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Korkea</item>
+        <item>Normaali</item>
+        <item>Matala</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Heti</item>
+        <item>1 tunti</item>
+        <item>6 tuntia</item>
+        <item>24 tuntia</item>
+        <item>1 vko</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 sekuntia</item>
+        <item>5 sekuntia</item>
+        <item>10 sekuntia</item>
+        <item>20 sekuntia</item>
+        <item>30 sekuntia</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Pois päältä</item>
+        <item>Estä kaikki viestit</item>
+        <item>Estä rekisteröidyt numerot ja ilmaukset</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Täsmälleen sama kuin</item>
+        <item>Alkaa</item>
+        <item>Loppuu</item>
+        <item>Sisältää:</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Lokit</item>
+        <item>Y.tiedot</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Viestien esto</item>
+        <item>Puheluiden esto</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Viestien esto</item>
+        <item>Äänipuheluiden esto</item>
+        <item>Videopuheluiden esto</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Varattu.</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Normaali</item>
+        <item>Korkea</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Anteeksi, etten voinut vastata puheluusi.</item>
+        <item>Olen myöhässä, mutta olen siellä kolmessa minuutissa.</item>
+        <item>Miten menee?</item>
+        <item>Mitä kuuluu?</item>
+        <item>Missä olet?</item>
+        <item>Soita minulle, kun saat tämän viestin.</item>
+        <item>Koska voimme tavata?</item>
+        <item>Jutellaan pian.</item>
+        <item>Missä kokous pidetään?</item>
+        <item>Mikä numero?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Brasilian portugali</item>
+        <item>englanti (Iso-Britannia)</item>
+        <item>Englanti (Yhdysvallat)</item>
+        <item>Ranska</item>
+        <item>Saksa</item>
+        <item>Italia</item>
+        <item>Japani</item>
+        <item>Korea</item>
+        <item>Yksinkertaistettu kiina</item>
+        <item>venäjä</item>
+        <item>Espanja</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Erittäin pieni</item>
+        <item>Pieni</item>
+        <item>Normaali</item>
+        <item>Suuri</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Kaikki</item>
+        <item>Lähettäjä</item>
+        <item>Sisältö</item>
+    </string-array>
+</resources>

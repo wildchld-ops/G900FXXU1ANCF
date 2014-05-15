@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="index_string_array">
+        <item>AÁBCDÐEÉFGHIÍJKLMNOÓPQRSTUÚVWXYÝZÞÆÖ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="interaction_selecter_spinner">
+        <item>%d valið</item>
+        <item>Velja allt</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Fyrirtæki</item>
+        <item>Athugasemd</item>
+    </string-array>
+</resources>

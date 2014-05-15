@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_password_enter_pin_code">បញ្ចូល​កូដ PIN</string>
+    <string name="keyguard_password_enter_puk_code">បញ្ចូល​កូដ PUK និង​ PIN ថ្មី</string>
+    <string name="keyguard_password_enter_puk_prompt">កូដ PUK</string>
+    <string name="keyguard_password_enter_pin_prompt">កូដ PIN ថ្មី</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">ប៉ះ ដើម្បី​បញ្ចូល​ពាក្យ​សម្ងាត់</font></string>
+    <string name="keyguard_password_enter_password_code">បញ្ចូល​ពាក្យ​សម្ងាត់​ ​ដើម្បី​ដោះ​សោ</string>
+    <string name="keyguard_password_enter_pin_password_code">បញ្ចូល​កូដ PIN ដើម្បី​ដោះ​សោ</string>
+    <string name="keyguard_password_wrong_pin_code">កូដ PIN មិន​ត្រឹមត្រូវ។</string>
+    <string name="keyguard_label_text">ដើម្បី​ដោះ​សោ​​ ចុច​ម៉ឺនុយ​ បន្ទាប់មក 0 ។</string>
+    <string name="faceunlock_multiple_failures">បាន​លើស​ការ​ព្យាយាម​ដោះ​សោ​តាម​ទម្រង់​មុខ</string>
+    <string name="keyguard_charged">បាន​បញ្ចូល​​ពេញ</string>
+    <string name="keyguard_plugged_in">កំពុងសាក: %d%%</string>
+    <string name="keyguard_low_battery">ភ្ជាប់​ឧបករណ៍​បញ្ចូល​ថ្ម​។</string>
+    <string name="keyguard_instructions_when_pattern_disabled">ចុច​ម៉ឺនុយ ដើម្បី​ដោះ​សោ។</string>
+    <string name="keyguard_network_locked_message">បណ្ដាញ​ជាប់​សោ</string>
+    <string name="keyguard_missing_sim_message_short">គ្មាន​កាត SIM ទេ</string>
+    <string name="keyguard_missing_sim_message">គ្មាន​ស៊ីមកាត​ក្នុង​ទូរស័ព្ទ។</string>
+    <string name="keyguard_missing_sim_instructions">បញ្ចូល​​​ស៊ី​ម​កាត​។</string>
+    <string name="keyguard_missing_sim_instructions_long">បាត់​ស៊ីមកាត ឬ​មិន​អាច​អាន។ បញ្ចូល​ស៊ីម​កាត។</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">ស៊ីម​កាត​មិន​អាច​ប្រើ​បាន។</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"បាន​បិទ​ស៊ីម​កាត​របស់​អ្នក​ជា​អចិន្ត្រៃយ៍។
+ ទាក់ទង​​ក្រុមហ៊ុន​ផ្ដល់​សេវាកម្ម​ឥត​ខ្សែ​សម្រាប់​ស៊ីម​កាត​ផ្សេង។"</string>
+    <string name="keyguard_sim_locked_message">ស៊ីម​កាត​​ជាប់​សោ។</string>
+    <string name="keyguard_sim_puk_locked_message">ស៊ីម​កាត​ជាប់​កូដ​​ PUK ។</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">កំពុង​ដោះ​សោ​ស៊ីម​កាត...</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. ធាតុ​ក្រាហ្វិក %2$d នៃ %3$d ។</string>
+    <string name="keyguard_accessibility_add_widget">បន្ថែម​ធាតុ​ក្រាហ្វិក​។</string>
+    <string name="keyguard_accessibility_widget_empty_slot">ទទេ</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">បាន​ពង្រីក​ផ្ទៃ​ដោះ​សោ។</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">បាន​បង្រួម​ផ្ទៃ​ដោះ​សោ។</string>
+    <string name="keyguard_accessibility_widget">%1$s ធាតុ​ក្រាហ្វិក។</string>
+    <string name="keyguard_accessibility_user_selector">ឧបករណ៍​ជ្រើស​អ្នក​ប្រើ</string>
+    <string name="keyguard_accessibility_status">ស្ថានភាព</string>
+    <string name="keyguard_accessibility_camera">ម៉ាស៊ីន​ថត</string>
+    <string name="keygaurd_accessibility_media_controls">ពិនិត្យ​មេឌៀ</string>
+    <string name="keyguard_accessibility_widget_reorder_start">បាន​ចាប់ផ្ដើម​តម្រៀប​ធាតុ​ក្រាហ្វិក​ឡើងវិញ។</string>
+    <string name="keyguard_accessibility_widget_reorder_end">បាន​បញ្ចប់​ការ​បង្ហាញ​ធាតុ​ក្រាហ្វិក។</string>
+    <string name="keyguard_accessibility_widget_deleted">បាន​លុប​ធាតុ​ក្រាហ្វិក %1$s ។</string>
+    <string name="keyguard_accessibility_expand_lock_area">ពង្រីក​តំបន់​ដោះ​សោ។</string>
+    <string name="keyguard_accessibility_slide_unlock">រុញ​ដោះ​សោ។</string>
+    <string name="keyguard_accessibility_pattern_unlock">លំនាំ​ដោះ​សោ​។</string>
+    <string name="keyguard_accessibility_face_unlock">ដោះ​សោ​តាម​​ទម្រង់​មុខ។</string>
+    <string name="keyguard_accessibility_pin_unlock">កូដ PIN ដោះ​សោ។</string>
+    <string name="keyguard_accessibility_password_unlock">ពាក្យ​សម្ងាត់​ដោះ​សោ​។</string>
+    <string name="keyguard_accessibility_pattern_area">ផ្ទៃ​លំនាំ។</string>
+    <string name="keyguard_accessibility_slide_area">ផ្ទៃ​រុញ។</string>
+    <string name="keyguard_accessibility_transport_prev_description">ប៊ូតុង​បទ​មុន</string>
+    <string name="keyguard_accessibility_transport_next_description">ប៊ូតុង​បទ​បន្ទាប់</string>
+    <string name="keyguard_accessibility_transport_pause_description">ប៊ូតុង​ផ្អាក</string>
+    <string name="keyguard_accessibility_transport_play_description">ប៊ូតុង​ចាក់</string>
+    <string name="keyguard_accessibility_transport_stop_description">ប៊ូតុង​បញ្ឈប់</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">មេដៃ​ឡើង</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">មេដៃ​ចុះ</string>
+    <string name="keyguard_accessibility_transport_heart_description">បេះដូង</string>
+    <string name="keyguard_accessibility_show_bouncer">ដោះ​សោ ​ដើម្បី​បន្ត</string>
+    <string name="keyguard_accessibility_hide_bouncer">បាន​បោះបង់​ការ​ចាប់ផ្ដើម</string>
+    <string name="keyguard_accessibility_delete_widget_start">ទម្លាក់ %1$s ដើម្បី​លុប។</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s នឹង​មិន​ត្រូវ​បាន​លុប​។</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">បោះ​បង់</string>
+    <string name="keyboardview_keycode_delete">លុប</string>
+    <string name="keyboardview_keycode_done">រួចរាល់</string>
+    <string name="keyboardview_keycode_mode_change">ប្ដូរ​របៀប</string>
+    <string name="keyboardview_keycode_shift">Shift</string>
+    <string name="keyboardview_keycode_enter">Enter</string>
+    <string name="description_target_unlock">ដោះ​​សោ</string>
+    <string name="description_target_camera">ម៉ាស៊ីន​ថត</string>
+    <string name="description_target_silent">ស្ងាត់</string>
+    <string name="description_target_soundon">បើក​សំឡេង</string>
+    <string name="description_target_search">ស្វែងរក</string>
+    <string name="description_direction_up">រុញ​ឡើង​លើ​ដើម្បី %s ។</string>
+    <string name="description_direction_down">រុញ​ចុះក្រោម​សម្រាប់ %s ។</string>
+    <string name="description_direction_left">រុញ​ទៅ​ឆ្វេង​ដើម្បី %s ។</string>
+    <string name="description_direction_right">រុញ​​ទៅ​ស្ដាំ​ដើម្បី %s ។</string>
+    <string name="user_switched">អ្នក​ប្រើ​បច្ចុប្បន្ន %1$s ។</string>
+    <string name="kg_emergency_call_label">ការ​ហៅ​ពេល​អាសន្ន</string>
+    <string name="kg_forgot_pattern_button_text">ភ្លេច​​លំនាំ</string>
+    <string name="kg_wrong_pattern">លំនាំ​មិន​ត្រឹមត្រូវ</string>
+    <string name="kg_wrong_password">ពាក្យសម្ងាត់​ខុស។</string>
+    <string name="kg_wrong_pin">PIN មិន​ត្រឹមត្រូវ</string>
+    <string name="kg_too_many_failed_attempts_countdown">សាកល្បង​ម្ដងទៀត​ក្នុង​ពេល %d វិនាទី។</string>
+    <string name="kg_pattern_instructions">គូរ​លំនាំ​របស់​អ្នក</string>
+    <string name="kg_sim_pin_instructions">បញ្ចូល​កូដ PIN ស៊ីម​កាត</string>
+    <string name="kg_pin_instructions">វាយបញ្ចូល PIN។</string>
+    <string name="kg_password_instructions">វាយបញ្ចូល​ពាក្យសម្ងាត់។</string>
+    <string name="kg_puk_enter_puk_hint">ឥឡូវ​ស៊ីមកាត​ត្រូវ​បាន​បិទ។ បញ្ចូល​កូដ PUK ដើម្បី​បន្ត។ ចំពោះ​ព័ត៌មាន​លម្អិត​ទាក់ទង​ក្រុមហ៊ុន​បញ្ជូន​របស់​អ្នក។</string>
+    <string name="kg_puk_enter_pin_hint">បញ្ចូល​កូដ PIN ដែល​ចង់​បាន</string>
+    <string name="kg_enter_confirm_pin_hint">បញ្ជាក់​កូដ PIN ដែល​ចង់​បាន</string>
+    <string name="kg_sim_unlock_progress_dialog_message">កំពុង​ដោះ​សោ​​ស៊ីម​កាត...</string>
+    <string name="kg_password_wrong_pin_code">PIN មិន​ត្រឹមត្រូវ</string>
+    <string name="kg_invalid_sim_pin_hint">បញ្ចូល​កូដ PIN ដែល​មាន​ពី ៤ ដល់ ៨ លេខ។</string>
+    <string name="kg_invalid_sim_puk_hint">កូដ PUK គួរ​តែ​មាន​​ ៨ លេខ ឬ​​ច្រើន​ជាង​នេះ។</string>
+    <string name="kg_invalid_puk">បញ្ចូល​កូដ PUK ម្ដង​ទៀត។ ការ​ព្យាយាម​ដដែល​ច្រើន​ដឹង​នឹង​បិទ​ស៊ីម​កាត​ជា​អចិន្ត្រៃយ៍។</string>
+    <string name="kg_invalid_confirm_pin_hint">កូដ PIN មិន​ដូច​គ្នា</string>
+    <string name="kg_login_too_many_attempts">ព្យាយាម​លំនាំ​ច្រើន​ពេក</string>
+    <string name="kg_login_instructions">ដើម្បី​ដោះ​សោ ចូល​ក្នុង​គណនី Google ។</string>
+    <string name="kg_login_username_hint">ឈ្មោះ​អ្នក​ប្រើ (អ៊ី​ម៉ែ​ល​)</string>
+    <string name="kg_login_password_hint">ពាក្យសម្ងាត់</string>
+    <string name="kg_login_submit_button">ចូល</string>
+    <string name="kg_login_invalid_input">ឈ្មោះ​អ្នកប្រើ ឬ​ពាក្យ​សម្ងាត់​មិន​ត្រឹមត្រូវ។</string>
+    <string name="kg_login_account_recovery_hint">"ភ្លេច​ឈ្មោះ​អ្នកប្រើ ឬ​ពាក្យ​សម្ងាត់​របស់​អ្នក?
+មើល "<b>google.com/accounts/recovery</b> ។</string>
+    <string name="kg_login_checking_password">កំពុង​ពិនិត្យ​មើល​គណនី...</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"អ្នក​បាន​វាយបញ្ចូល PIN មិនត្រឹមត្រូវ %d ដង។
+
+សាកល្បង​ម្ដងទៀត​ក្នុង​ពេល %d វិនាទី។"</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"អ្នក​បាន​វាយបញ្ចូល​ពាក្យសម្ងាត់​មិនត្រឹមត្រូវ %d ដង។
+
+សាកល្បង​ម្ដងទៀត​ក្នុង​ពេល %d វិនាទី។"</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"អ្នក​បាន​គូស​លំនាំ​ដោះសោ​របស់​អ្នក​មិន​ត្រឹមត្រូវ%d ដង។
+
+សាកល្បង​ម្តងទៀត​ក្នុង​ពេល %d វិនាទី។"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">អ្នក​បាន​ព្យាយាម​ដោះ​សោ​ទូរស័ព្ទ​មិន​ត្រឹមត្រូវ​ចំនួន %d ដង។ បន្ទាប់​ពី​ការ​ព្យាយាម​មិន​ជោគជ័យ​​ច្រើន​ជាង %d ដង ទូរស័ព្ទ​នឹង​ត្រូវ​បាន​កំណត់​ទៅ​លំនាំដើម​ដូច​ចេញ​ពី​រោងចក្រ ហើយ​ទិន្នន័យ​អ្នកប្រើ​នឹង​បាត់បង់។</string>
+    <string name="kg_failed_attempts_now_wiping">អ្នក​បាន​ព្យាយាម​ដោះ​សោ​ទូរស័ព្ទ​មិន​ត្រឹមត្រូវ​ចំនួន %d ដង។ ឥឡូវ​ទូរស័ព្ទ​នឹង​កំណត់​ទៅ​លំនាំ​ដើម​ដូច​ចេញ​ពី​រោងចក្រ។</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"អ្នក​បាន​គូរ​លំនាំ​ដោះ​​សោ​របស់​អ្នក​មិន​ត្រឹមត្រូវ​ចំនួន %d ដង។ បន្ទាប់​ពី​ការ​ព្យាយាម​មិន​ជោគជ័យ​​ច្រើនជាង %d ដង អ្នក​នឹង​ត្រូវ​បាន​​ស្នើ​ឲ្យ​ដោះ​សោ​ទូរស័ព្ទ​របស់​អ្នក​ដោយ​ប្រើ​គណនី​អ៊ីមែល។
+
+ ព្យាយាម​ម្ដង​ទៀត​ក្នុង​រយៈ​ពេល %d វិនាទី។"</string>
+    <string name="kg_text_message_separator">" — "</string>
+    <string name="kg_reordering_delete_drop_target_text">លុប​ចេញ</string>
+    <string name="keyguard_transport_prev_description">ប៊ូតុង​បទ​មុន</string>
+    <string name="keyguard_transport_next_description">ប៊ូតុង​បទ​បន្ទាប់</string>
+    <string name="keyguard_transport_pause_description">ប៊ូតុង​ផ្អាក</string>
+    <string name="keyguard_transport_play_description">ប៊ូតុង​ចាក់</string>
+    <string name="keyguard_transport_stop_description">ប៊ូតុង​បញ្ឈប់</string>
+    <string name="keyguard_carrier_default">គ្មាន​សេវា​។</string>
+    <string name="kg_alternative_password_instructions">វាយបញ្ចូល​ពាក្យសម្ងាត់​ជំនួស។</string>
+    <string name="kg_alternative_password_failed">ពាក្យសម្ងាត់​ជំនួស​មិន​ត្រឹមត្រូវ។</string>
+    <string name="kg_spass_multiple_failures">បាន​ដល់​ការប៉ុនប៉ង​អតិបរមា។ វាយបញ្ចូល​ពាក្យសម្ងាត់​ជំនួស។</string>
+</resources>

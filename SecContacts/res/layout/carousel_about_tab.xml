@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" class="com.android.contacts.detail.CarouselTab"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+        <View android:id="@id/photo_overlay" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+        <View android:id="@id/label_background" android:background="#7f000000" android:layout_width="fill_parent" android:layout_height="@dimen/detail_tab_carousel_tab_label_height" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" />
+        <View android:id="@id/alpha_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/detail_tab_carousel_tab_label_height" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/detail_tab_carousel_tab_label_color" android:gravity="left|center" android:id="@id/label" android:paddingLeft="@dimen/detail_tab_carousel_tab_label_indent" android:layout_width="fill_parent" android:layout_height="@dimen/detail_tab_carousel_tab_label_height" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:paddingStart="@dimen/detail_tab_carousel_tab_label_indent" android:layout_alignParentStart="true" style="@android:style/Widget.Holo.ActionBar.TabView" />
+    </RelativeLayout>
+</view>

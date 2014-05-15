@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Nuk ka lidhje të dhënash për %s minuta.</item>
+        <item quantity="one">Nuk ka lidhje të dhënash për %s minutë.</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Telefoni do të jetë në regjim Thirrjeje nga urgjenca për %s minuta. Aplikacionet që përdorin lidhjet me të dhënat nuk mund të përdoret kur është në këtë regjim. Të dilet tani?</item>
+        <item quantity="one">Nuk mund ta përdorë lidhjen e të dhënave për aplikacionet. Telefoni do të jetë në regjimin Thirrje nga urgjenca për %s minuta ndërkohë që është në këtë regjim. Të dilet tani?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Veprimi i zgjedhur nuk është i mundur në regjimin Thirrje nga urgjenca. Telefoni do të jetë në këtë regjim për %s minuta. Të dilet tani?</item>
+        <item quantity="one">Veprimi i zgjedhur nuk është i mundur në regjimin Thirrje nga urgjenca. Telefoni do të jetë në këtë regjim për %s minuta. Të dilet tani?</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="contact_tile_column_count">5</integer>
+    <integer name="contact_tile_column_count_in_favorites">5</integer>
+    <integer name="snippet_length_before_tokenize">60</integer>
+    <integer name="top_space_dialer">297</integer>
+    <integer name="top_space_chooser">195</integer>
+</resources>

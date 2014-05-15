@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/PAGE_MENU" android:visible="false">
+        <item android:icon="@drawable/home_menu" android:id="@id/goto_homepage_id" android:title="@string/title_homepage" />
+        <item android:icon="@drawable/options_menu_new_window" android:id="@id/new_window_id" android:title="@string/options_menu_new_window" />
+        <item android:id="@id/go_to_webpage" android:title="@string/options_menu_go_to_website" />
+        <item android:icon="@drawable/options_menu_private_mode" android:id="@id/new_incognito_window_id" android:title="@string/incognitotab" />
+        <item android:icon="@drawable/add_bookmark_menu" android:id="@id/pin_tab_id" android:title="@string/options_menu_add_quick" />
+        <item android:icon="@drawable/options_menu_add_shortcut" android:id="@id/add_shortcut_id" android:title="@string/options_menu_add_shortcut" />
+        <item android:icon="@drawable/options_menu_scrap" android:id="@id/save_page_id" android:title="@string/options_menu_scrap" />
+        <item android:icon="@drawable/options_menu_share" android:id="@id/share_id" android:title="@string/options_menu_share" />
+        <item android:icon="@drawable/options_menu_find_on_page" android:id="@id/find_on_page_id" android:title="@string/options_menu_find_on_page" />
+        <item android:icon="@drawable/options_menu_private_mode" android:id="@id/private_mode_id" android:title="@string/options_menu_private_mode" />
+        <item android:icon="@drawable/options_menu_desktop_view" android:id="@id/desktop_view_id" android:title="@string/options_menu_desktop_view" android:checkable="true" />
+        <item android:icon="@drawable/options_menu_brightness" android:id="@id/bright_id" android:title="@string/options_menu_brightness" />
+        <item android:icon="@drawable/options_menu_print" android:id="@id/print_id" android:title="@string/options_menu_print" />
+        <item android:icon="@drawable/options_menu_settings" android:id="@id/settings_id" android:title="@string/options_menu_settings" />
+        <item android:icon="@drawable/options_menu_help" android:id="@id/help_id" android:title="@string/options_menu_help" />
+        <item android:icon="@drawable/options_menu_exit" android:id="@id/exit_menu_id" android:title="@string/exit_internet" />
+    </group>
+    <group android:id="@id/TAB_MANAGER_MENU" android:visible="false">
+        <item android:icon="@drawable/options_menu_private_mode" android:id="@id/tab_manager_new_incognito_tab" android:title="@string/incognitotab" />
+        <item android:icon="@drawable/options_menu_sync_tab" android:id="@id/tab_manager_sync_tabs" android:title="@string/sync_open_pages" />
+        <item android:icon="@drawable/options_menu_close_all" android:id="@id/tab_manager_close_all" android:title="@string/close_all" />
+    </group>
+</menu>

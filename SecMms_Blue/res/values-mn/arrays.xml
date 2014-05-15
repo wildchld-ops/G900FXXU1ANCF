@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>Жаргалтай</item>
+        <item>Гунигтай</item>
+        <item>Нүд ирмэх</item>
+        <item>Хэлээ гаргасан</item>
+        <item>Гайхсан</item>
+        <item>Үнсэх</item>
+        <item>Орилох</item>
+        <item>Янзтай</item>
+        <item>Мөнгөний ам</item>
+        <item>Хөлөө амандаа хийсэн</item>
+        <item>Ичсэн</item>
+        <item>Сахиусан тэнгэр</item>
+        <item>Шийдээгүй</item>
+        <item>Уйлж байна</item>
+        <item>Уруулаа жимийсэн</item>
+        <item>Инээж байна</item>
+        <item>Гайхсан</item>
+        <item>Зүрх</item>
+        <item>Уурласан</item>
+        <item>Мушийсан</item>
+        <item>Гөлийсөн</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Төхөөр үсгийн хэмж хэрэгл</item>
+        <item>Жижиг</item>
+        <item>Бага</item>
+        <item>Хэвийн</item>
+        <item>Том</item>
+        <item>Маш том</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Төхөөр үсгийн хэмж хэрэгл</item>
+        <item>Бяцхан</item>
+        <item>Хэт бага</item>
+        <item>Бага</item>
+        <item>Дунд</item>
+        <item>Том</item>
+        <item>Хэт том</item>
+        <item>Маш том</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Бүх суваг</item>
+        <item>Миний суваг</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM цагаан толгой</item>
+        <item>Unicode</item>
+        <item>Автомат</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 хоног</item>
+        <item>1 хоног</item>
+        <item>2 хоног</item>
+        <item>3 хоног</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Хязгаарлагдсан</item>
+        <item>Анхааруулга</item>
+        <item>Үнэ төлбөргүй</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Үргэлж</item>
+        <item>Шуурхай</item>
+        <item>Хэзээ ч үгүй</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Оригами</item>
+        <item>Шошго</item>
+        <item>Үлээх</item>
+        <item>Орчин үеийн</item>
+        <item>Ягаан</item>
+        <item>Өгөгдмөл</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Дотоодын сүлжээнд байгаа үед автоматаар илгээ</item>
+        <item>Одоо илгээх</item>
+        <item>Ноорог зурвас болгон хадгал</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Нэг удаа</item>
+        <item>2 минут тутамд</item>
+        <item>15 минут тутамд</item>
+        <item>Идэвхгүй</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Хэзээ ч үгүй</item>
+        <item>2 минут тутамд</item>
+        <item>10 минут тутамд</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Дотоодын</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 цаг</item>
+        <item>6 цаг</item>
+        <item>24 цаг</item>
+        <item>2 хоног</item>
+        <item>Сүлжээний өгөгдмөл тохиргоо</item>
+        <item>Дээд хязгаар</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Өндөр</item>
+        <item>Ердийн</item>
+        <item>Бага</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Даруй</item>
+        <item>1 цаг</item>
+        <item>6 цаг</item>
+        <item>24 цаг</item>
+        <item>1 д/х</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 секунд</item>
+        <item>5 секунд</item>
+        <item>10 секунд</item>
+        <item>20 секунд</item>
+        <item>30 секунд</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Идэвхгүй</item>
+        <item>Бүх зурвас хаах</item>
+        <item>Бүртгэгдсэн дугаарууд ба хэлцүүдийг хаа</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Яг үүнтэй ижил</item>
+        <item>Эхэлнэ</item>
+        <item>Дуусна</item>
+        <item>Багтах зүйлс:</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Бүртгэл</item>
+        <item>Харилц-д</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Зурвас хаах</item>
+        <item>Дуудлага хаах</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Зурвас хаах</item>
+        <item>Дуут дуудлага хаах</item>
+        <item>Видео дуудлага хаах</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Нөөцлөгдсөн</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Ердийн</item>
+        <item>Өндөр</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Уучлаарай, би таны дуудлагыг аваагүй байна.</item>
+        <item>Би хэдэн минут хоцорч очно.</item>
+        <item>Сонин сайхан юу байна вэ?</item>
+        <item>Юу болов?</item>
+        <item>Та хаана байна вэ?</item>
+        <item>Энэ зурвасыг аваад над руу залгаарай.</item>
+        <item>Хэзээ уулзаж болох вэ?</item>
+        <item>Би тантай удахгүй ярина.</item>
+        <item>Хурал хаана болох вэ?</item>
+        <item>Дугаар нь хэд вэ?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Бразилын португал хэл</item>
+        <item>Англи (Британи)</item>
+        <item>English (US)</item>
+        <item>Франц</item>
+        <item>Герман</item>
+        <item>Итали</item>
+        <item>Япон</item>
+        <item>Солонгос</item>
+        <item>Хялбаршуулсан хятад</item>
+        <item>Орос</item>
+        <item>Испани</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Жижиг</item>
+        <item>Бага</item>
+        <item>Хэвийн</item>
+        <item>Том</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Бүгд</item>
+        <item>Илгээгч</item>
+        <item>Агуулга</item>
+    </string-array>
+</resources>

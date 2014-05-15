@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/undobar" android:background="@drawable/tw_toast_frame_holo_light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/undobar_height" android:layout_marginLeft="@dimen/undobar_popup_margin" android:layout_marginRight="@dimen/undobar_popup_margin">
+        <TextView android:textSize="@dimen/undobar_text_size" android:textColor="@color/undo_bar_text_color" android:layout_gravity="center_vertical" android:id="@id/undobar_message" android:paddingLeft="18.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="sans-serif-light" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="right|center" android:id="@id/undobar_divider" android:layout_width="@dimen/undobar_divider_width" android:layout_height="wrap_content" android:src="@drawable/tw_undo_popup_line_holo_light" android:scaleType="fitXY" />
+            <LinearLayout android:gravity="right|center" android:orientation="horizontal" android:id="@id/undobar_button" android:background="@drawable/undobar_button" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:gravity="center_vertical" android:id="@id/undoImage" android:layout_width="@dimen/undobar_image_width" android:layout_height="@dimen/undobar_image_height" android:layout_marginLeft="12.0dip" android:src="@drawable/tw_undo_popup_back_holo_light" />
+                <TextView android:textSize="@dimen/undobar_text_size" android:textColor="@color/undo_bar_text_color" android:gravity="left|center" android:id="@id/Undo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="18.0dip" android:text="@string/undo" android:fontFamily="sans-serif-light" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

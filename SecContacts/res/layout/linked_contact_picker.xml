@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" class="com.android.contacts.widget.FullHeightLinearLayout" style="@style/ContactPickerLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/list_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:layout_gravity="bottom|left|center" android:id="@id/link_another_contact_explain_layout" android:paddingLeft="@dimen/linked_explain_text_horizontal_padding" android:paddingRight="@dimen/linked_explain_text_horizontal_padding" android:paddingBottom="@dimen/linked_explain_text_bottom_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/linked_explain_text_size" android:textColor="@color/link_another_contact_explain_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/link_another_contact_explain" />
+    </LinearLayout>
+    <Button android:id="@id/linked_contact_list_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/link_another_contact" />
+</view>

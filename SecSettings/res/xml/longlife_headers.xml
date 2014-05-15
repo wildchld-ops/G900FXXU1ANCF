@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:id="@id/header_edit_application" android:title="@string/safetycare_edit_application" android:summary="@string/safetycare_add_or_remove_application">
+        <intent android:targetPackage="com.sec.android.emergencylauncher" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.emergencylauncher.EditModeActivity" />
+    </header>
+    <header android:id="@id/category_longlife_settings" android:title="@string/safetycare_connectivity_and_sound" />
+    <header android:icon="@drawable/ic_settings_airplane_mode" android:id="@id/airplane_mode" android:title="@string/airplane_mode" android:fragment="com.android.settings.AirplaneModeSettings" />
+    <header android:icon="@drawable/ic_settings_wireless" android:id="@id/wifi_settings" android:title="@string/wifi_settings_title" android:fragment="com.android.settings.wifi.WifiSettings" />
+    <header android:icon="@drawable/ic_settings_location" android:id="@id/location_settings" android:title="@string/location_settings_title" android:fragment="com.android.settings.location.LocationSettings" />
+    <header android:icon="@drawable/ic_settings_sound" android:id="@id/sound_settings" android:title="@string/sound_settings" android:fragment="com.android.settings.SoundSettings" />
+    <header android:id="@id/category_longlife_about" android:title="@string/safetycare_about" />
+    <header android:id="@id/about_emergencymode" android:title="@string/safetycare_about_emergency_mode">
+        <intent android:targetPackage="com.sec.android.emergencylauncher" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.emergencylauncher.LearnAboutActivity" />
+    </header>
+</preference-headers>

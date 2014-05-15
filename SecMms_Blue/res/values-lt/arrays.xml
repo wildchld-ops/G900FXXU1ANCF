@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&amp;lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Laimingas</item>
+        <item>Liūdnas</item>
+        <item>Mirkčioja</item>
+        <item>Iškištas liežuvis</item>
+        <item>Nustebęs</item>
+        <item>Bučiniai</item>
+        <item>Šūksnis</item>
+        <item>Šaunu</item>
+        <item>Anga pinigams mesti</item>
+        <item>Nusišnekėjimai</item>
+        <item>Drovus</item>
+        <item>Angelas</item>
+        <item>Neapsisprendęs</item>
+        <item>Verkia</item>
+        <item>Suspaustos lūpos</item>
+        <item>Juokiasi</item>
+        <item>Sumišęs</item>
+        <item>Širdis</item>
+        <item>Piktas</item>
+        <item>Šypsnis</item>
+        <item>Abejingas</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Naudoti įreng.šrifto dyd.</item>
+        <item>Mažytis</item>
+        <item>Mažas</item>
+        <item>Įprastas</item>
+        <item>Didelis</item>
+        <item>Milžiniškas</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Naudoti įreng.šrifto dyd.</item>
+        <item>Mažytis</item>
+        <item>Itin mažas</item>
+        <item>Mažas</item>
+        <item>Vidutinis</item>
+        <item>Didelis</item>
+        <item>Itin didelis</item>
+        <item>Milžiniškas</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Visi kanalai</item>
+        <item>Mano kanalas</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM abėcėlė</item>
+        <item>Unikodas</item>
+        <item>Automatinis</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 dienų</item>
+        <item>1 diena</item>
+        <item>2 dienos</item>
+        <item>3 dienos</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Apribota</item>
+        <item>Perspėjimas</item>
+        <item>Laisva</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Visada</item>
+        <item>Raginimas</item>
+        <item>Niekada</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Origamis</item>
+        <item>Etiketė</item>
+        <item>Popmuzika</item>
+        <item>Moderni</item>
+        <item>Rausva</item>
+        <item>Numatytasis</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Vieną kartą</item>
+        <item>Kas 2 min.</item>
+        <item>Kas 15 min.</item>
+        <item>Išjungti</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Niekada</item>
+        <item>Kas 2 min.</item>
+        <item>Kas 10 min.</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Namų</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 valanda</item>
+        <item>6 valandos</item>
+        <item>24 val.</item>
+        <item>2 dienos</item>
+        <item>Numatytasis tinklas</item>
+        <item>Maksimalus</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Didelė</item>
+        <item>Įprastas</item>
+        <item>Maža</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Nedelsiant</item>
+        <item>1 valanda</item>
+        <item>6 valandos</item>
+        <item>24 val.</item>
+        <item>1 sav.</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 sekundės</item>
+        <item>5 sekundės</item>
+        <item>10 sekundžių</item>
+        <item>20 sekundžių</item>
+        <item>30 sekundžių</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Išjungti</item>
+        <item>Blokuoti visas žinutes</item>
+        <item>Blokuoti registruotus numerius ir frazes</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Lygiai taip pat kaip</item>
+        <item>Pradedama nuo</item>
+        <item>Baigiasi (kuo)</item>
+        <item>Įtraukia</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Žurnalai</item>
+        <item>Adresat.</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Žinučių blokavimas</item>
+        <item>Skambučių blokavimas</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Žinučių blokavimas</item>
+        <item>Balso skambučių blokavim.</item>
+        <item>Vaizdo skambučių blokav.</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Rezervuota.</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Įprastas</item>
+        <item>Aukšta</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Deja, praleidau jūsų skambutį.</item>
+        <item>Vėluoju, greitai būsiu.</item>
+        <item>Kaip sekasi?</item>
+        <item>Kaip tu?</item>
+        <item>Kur esi?</item>
+        <item>Kai gausite šią žinutę, paskambinkite man.</item>
+        <item>Kada galime susitikti?</item>
+        <item>Netrukus pasikalbėsime.</item>
+        <item>Kur vyksta susitikimas?</item>
+        <item>Koks numeris?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Brazilų portugalų kalba</item>
+        <item>Anglų kalba (JK)</item>
+        <item>Anglų k. (JAV)</item>
+        <item>Prancūzų</item>
+        <item>Vokiečių</item>
+        <item>Italų</item>
+        <item>Japonų</item>
+        <item>Korėjiečių</item>
+        <item>Supaprastinta kinų</item>
+        <item>Russian</item>
+        <item>Ispanų</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Mažytis</item>
+        <item>Mažas</item>
+        <item>Įprastas</item>
+        <item>Didelis</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Visos</item>
+        <item>Siuntėjas</item>
+        <item>Turinys</item>
+    </string-array>
+</resources>

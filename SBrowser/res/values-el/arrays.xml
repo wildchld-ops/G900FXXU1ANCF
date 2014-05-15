@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Πάντα ενεργοποίηση</item>
+        <item>Κατ’απαίτηση</item>
+        <item>Off</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Προεπιλεγμένη σελίδα</item>
+        <item>Τρέχουσα σελίδα</item>
+        <item>Γρήγορη πρόσβαση</item>
+        <item>Δημοφιλέστερες τοποθεσίες</item>
+        <item>Άλλο</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Συσκευή</item>
+        <item>Κάρτα SD</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Λατινικά-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Κινεζικά (GBK)</item>
+        <item>Κινεζικά (Big5)</item>
+        <item>Ιαπωνικά (ISO-2022-JP)</item>
+        <item>Ιαπωνικά (SHIFT JIS)</item>
+        <item>Ιαπωνικά (EUC-JP)</item>
+        <item>Κορεατικά (EUC-KR)</item>
+        <item>Αυτόματος εντοπισμός</item>
+    </string-array>
+</resources>

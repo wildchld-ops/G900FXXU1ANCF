@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="21.0dip" android:paddingBottom="42.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/knox1" android:background="@drawable/list_item_background" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/security_home_icon_security" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/primary_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/text" android:layout_width="108.0dip" android:layout_height="16.0dip" android:layout_marginTop="10.0dip" android:text="@string/knox_1" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/knox2" android:background="@drawable/list_item_background" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/security_home_icon_security_02" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/primary_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/text2" android:layout_width="108.0dip" android:layout_height="16.0dip" android:layout_marginTop="10.0dip" android:text="@string/knox_2" />
+    </LinearLayout>
+</LinearLayout>

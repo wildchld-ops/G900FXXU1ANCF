@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_location_search" android:id="@id/action_search" android:title="@string/search_map" android:showAsAction="ifRoom|collapseActionView" android:actionViewClass="android.widget.SearchView" />
+    <item android:icon="@drawable/ic_menu_my_location" android:id="@id/menuLocateMe" android:title="@string/my_location_option" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_menu_favorite" android:id="@id/action_favorite" android:title="@string/favorite_location_option" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_menu_recent" android:id="@id/action_recent" android:title="@string/recent_location_option" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/icon_popup_media" android:id="@id/action_geocodded_media" android:title="@string/geo_coded_media_option_vzw" />
+    <item android:icon="@drawable/icon_popup_contact_address" android:id="@id/action_get_contact_address" android:title="@string/get_contact_location" />
+    <item android:icon="@drawable/ic_menu_droppin" android:id="@id/menuSetPin" android:title="@string/location_option_menu_drop_pin" />
+    <item android:icon="@drawable/icon_popup_location_refresh" android:id="@id/menuRefreshLoc" android:title="@string/refresh_location" />
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:id="@id/general_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="4"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:textSize="@dimen/autofill_notification_text_size" android:layout_gravity="fill_horizontal" android:id="@id/top_checkbox_notification" android:visibility="gone" android:layout_columnSpan="4" />
+    <LinearLayout android:layout_gravity="fill_horizontal" android:orientation="vertical" android:id="@id/top_notifications" android:visibility="gone" android:layout_columnSpan="4" />
+    <TextView android:textSize="@dimen/autofill_steady_text_size" android:textStyle="bold" android:id="@id/cc_billing_label" android:layout_marginLeft="@dimen/autofill_steady_margin" android:layout_columnSpan="2" />
+    <Space android:layout_gravity="fill" android:layout_columnSpan="2" />
+    <Spinner android:layout_gravity="fill_horizontal" android:id="@id/cc_billing_spinner" android:padding="@dimen/autofill_menu_item_padding" android:layout_margin="@dimen/autofill_steady_margin" android:dropDownVerticalOffset="@dimen/autofill_spinner_offset" android:layout_columnSpan="4" />
+    <TextView android:textSize="@dimen/autofill_steady_text_size" android:textStyle="bold" android:id="@id/cc_label" android:layout_marginLeft="@dimen/autofill_steady_margin" android:layout_columnSpan="2" />
+    <Space android:layout_gravity="fill" android:layout_columnSpan="2" />
+    <Spinner android:layout_gravity="fill_horizontal" android:id="@id/cc_spinner" android:padding="@dimen/autofill_menu_item_padding" android:layout_margin="@dimen/autofill_steady_margin" android:dropDownVerticalOffset="@dimen/autofill_spinner_offset" android:layout_columnSpan="4" />
+    <TextView android:textSize="@dimen/autofill_steady_text_size" android:textStyle="bold" android:id="@id/billing_label" android:layout_marginLeft="@dimen/autofill_steady_margin" android:layout_columnSpan="2" />
+    <Space android:layout_gravity="fill" android:layout_columnSpan="2" />
+    <Spinner android:layout_gravity="fill_horizontal" android:id="@id/billing_spinner" android:padding="@dimen/autofill_menu_item_padding" android:visibility="gone" android:layout_margin="@dimen/autofill_steady_margin" android:dropDownVerticalOffset="@dimen/autofill_spinner_offset" android:layout_columnSpan="4" />
+    <TextView android:textSize="@dimen/autofill_steady_text_size" android:textStyle="bold" android:id="@id/shipping_label" android:layout_marginLeft="@dimen/autofill_steady_margin" android:layout_columnSpan="2" />
+    <Space android:layout_gravity="fill" android:layout_columnSpan="2" />
+    <Spinner android:layout_gravity="fill_horizontal" android:id="@id/address_spinner" android:padding="@dimen/autofill_menu_item_padding" android:layout_margin="@dimen/autofill_steady_margin" android:dropDownVerticalOffset="@dimen/autofill_spinner_offset" android:layout_columnSpan="4" />
+    <TextView android:textSize="@dimen/autofill_steady_text_size" android:textStyle="bold" android:id="@id/email_label" android:layout_marginLeft="@dimen/autofill_steady_margin" android:layout_columnSpan="2" />
+    <Space android:layout_gravity="fill" android:layout_columnSpan="2" />
+    <Spinner android:layout_gravity="fill_horizontal" android:id="@id/email_spinner" android:padding="@dimen/autofill_menu_item_padding" android:layout_margin="@dimen/autofill_steady_margin" android:dropDownVerticalOffset="@dimen/autofill_spinner_offset" android:layout_columnSpan="4" />
+    <CheckBox android:textSize="@dimen/autofill_notification_text_size" android:layout_gravity="fill_horizontal" android:id="@id/save_locally_checkbox" android:visibility="gone" android:layout_columnSpan="4" />
+    <LinearLayout android:layout_gravity="fill_horizontal" android:orientation="vertical" android:id="@id/bottom_notifications" android:visibility="gone" android:layout_columnSpan="4" />
+    <View android:id="@id/line_bottom" android:background="#ffd9d9dc" android:layout_height="1.0dip" android:layout_columnSpan="4" />
+    <Button android:textSize="@dimen/autofill_notification_text_size" android:gravity="left" android:id="@id/terms_info" android:background="?android:selectableItemBackground" android:padding="10.0dip" android:visibility="gone" android:text="@string/autofill_terms_of_service" android:layout_columnSpan="4" />
+</GridLayout>

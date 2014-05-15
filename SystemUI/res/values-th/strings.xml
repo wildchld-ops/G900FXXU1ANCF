@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_date_format_day_month_k">"E
+d MMM"</string>
+    <string name="status_bar_date_format_month_day_k">"E
+MMM d"</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">E, MMM d</string>
+    <string name="abbrev_wday_day_abbrev_month_no_year">E, d ​MMM</string>
+    <string name="app_label">UI ​ของ​ระบบ</string>
+    <string name="status_bar_clear_all_button">ลบทั้งหมด</string>
+    <string name="status_bar_do_not_disturb_button">ห้าม​รบกวน</string>
+    <string name="status_bar_please_disturb_button">แสดง​การ​แจ้ง​เตือน</string>
+    <string name="status_bar_recent_remove_item_title">ลบ​ออก​จากรายการ</string>
+    <string name="status_bar_recent_inspect_item_title">ข้อ​มูล​แอพส์</string>
+    <string name="status_bar_no_recent_apps">ไม่มีแอพล่าสุด</string>
+    <string name="status_bar_accessibility_dismiss_recents">ปิดแอปพลิเคชันล่าสุด</string>
+    <string name="status_bar_no_notifications_title">ไม่​มี​การ​แจ้ง​เตือน</string>
+    <string name="status_bar_ongoing_events_title">ดำเนิน​การ</string>
+    <string name="status_bar_latest_events_title">การแจ้งเตือน</string>
+    <string name="battery_low_title">ต่อเครื่องชาร์จ</string>
+    <string name="battery_low_subtitle">แบตเตอรี่เหลือน้อย</string>
+    <string name="battery_low_percent_format">%d%% ​ที่​เหลือ</string>
+    <string name="invalid_charger">ไม่​รอง​รับ​การ​ชาร์จ USB ​ใช้​เครื่อง​ชาร์จ​ที่​ให้​มา</string>
+    <string name="battery_low_why">ใช้​แบตเตอรี่</string>
+    <string name="status_bar_settings_settings_button">การตั้งค่า</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">"โหมด
+การบิน"</string>
+    <string name="status_bar_settings_auto_rotation">หมุน​หน้า​จอ​อัตโนมัติ</string>
+    <string name="status_bar_settings_mute_label">ปิด​เสียง</string>
+    <string name="status_bar_settings_auto_brightness_label">ออโต้</string>
+    <string name="status_bar_settings_notifications">การ​แจ้ง​เตือน</string>
+    <string name="bluetooth_tethered">ผูก​ล่าม Bluetooth ​แล้ว</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">ตั้ง​ค่า​วิธี​เขียน</string>
+    <string name="status_bar_use_physical_keyboard">แป้น​พิมพ์​จริง</string>
+    <string name="usb_device_permission_prompt">อนุญาต​ให้​แอ​พพลิ​เค​ชั่น %1$s ​เข้า​ถึง​อุปกรณ์ USB?</string>
+    <string name="usb_accessory_permission_prompt">อนุญาต​ให้​แอ​พพลิ​เค​ชั่น %1$s ​เข้า​ถึง​อุปกรณ์​เสริม USB?</string>
+    <string name="usb_device_confirm_prompt">เปิด %1$s ​เมื่อ​เชื่อม​ต่อ​อุปกรณ์ USB ​นี้?</string>
+    <string name="usb_accessory_confirm_prompt">เปิด %1$s ​เมื่อ​เชื่อม​ต่อ​อุปกรณ์​เสริม USB ​นี้?</string>
+    <string name="usb_accessory_uri_prompt">ไม่​มี​แอ​พพลิ​เค​ชั่น​ที่​ติด​ตั้ง​ไว้​ที่​ทำ​งาน​กับ​อุปกรณ์​เสริม USB ​นี้​ได้ เรียน​รู้​เพิ่ม​เติม​เกี่ยว​กับ​อุปกรณ์​เสริม​นี้​ที่ %s</string>
+    <string name="title_usb_accessory">อุปกรณ์​เสริม USB</string>
+    <string name="label_view">แสดง</string>
+    <string name="always_use_device">ใช้​ตาม​ค่า​พื้น​ฐาน​สำหรับ​อุปกรณ์ USB ​นี้</string>
+    <string name="always_use_accessory">ใช้​ตาม​ค่า​พื้น​ฐาน​สำหรับ​อุปกรณ์​เสริม USB ​นี้</string>
+    <string name="usb_debugging_title">เปิด​ใช้​งาน​การ​แก้ไข​จุด​บกพร่อง USB?</string>
+    <string name="usb_debugging_message">"ลายนิ้วมือคีย์ RSA ของ PC คือ:
+%1$s"</string>
+    <string name="usb_debugging_always">อนุญาต PC นี้เสมอ</string>
+    <string name="compat_mode_on">ซูม​เพื่อ​เติม​หน้า​จอ</string>
+    <string name="compat_mode_off">ยืด​เพื่อ​เติม​หน้จ​อ</string>
+    <string name="compat_mode_help_header">การ​ใช้​การ​ซูม​ร่วม​กัน</string>
+    <string name="compat_mode_help_body">เมื่อ​แอพส์​ได้​รับ​การ​ออก​แบบ​ขึ้น​ สำหรับ​หน้า​จอ​ขนาด​เล็ก การ​ควบ​คุม​การ​ซูม​ จะ​ปรากฏ​ขึ้น​โดย​นาฬิกา</string>
+    <string name="screenshot_saving_ticker">กำลังบันทึกภาพหน้าจอ…</string>
+    <string name="screenshot_saving_title">กำลังบันทึกภาพหน้าจอ…</string>
+    <string name="screenshot_saving_text">กำลังบันทึกภาพหน้าจอ</string>
+    <string name="screenshot_saved_title">จับภาพหน้าจอแล้ว</string>
+    <string name="screenshot_saved_text">แตะเพื่อดูภาพหน้าจอ</string>
+    <string name="screenshot_failed_title">จับภาพหน้าจอไม่ได้</string>
+    <string name="screenshot_failed_text">ไม่สามารถบันทึกภาพหน้าจอ ที่เก็บข้อมูล USB อาจถูกใช้อยู่</string>
+    <string name="screenshot_failed_due_to_drm_text">ไม่​สามารถ​จับ​ภาพ​หน้า​จอ ภาพ​ที่​มี​การ​ป้องกัน DRM</string>
+    <string name="one_item_will_be_deleted">1 ​รายการ​จะ​ถูก​ลบ</string>
+    <string name="usb_preference_title">ทาง​เลือก​การ​ถ่าย​โอน​ไฟล์ USB</string>
+    <string name="use_mtp_button_title">ติด​ตั้ง​เป็น​เครื่อง​เล่น​มี​เดีย​ (MTP)</string>
+    <string name="use_ptp_button_title">ติด​ตั้ง​เป็น​กล้อง​ถ่าย​รูป (PTP)</string>
+    <string name="installer_cd_button_title">ติด​ตั้ง​แอ​พพลิ​เค​ชั่น​การ​ถ่าย​โอน​ไฟล์ Android ​สำหรับ Mac</string>
+    <string name="accessibility_back">กลับ</string>
+    <string name="accessibility_home">บ้าน</string>
+    <string name="accessibility_menu">เมนู</string>
+    <string name="accessibility_recent">แอพส์​ล่า​สุด</string>
+    <string name="accessibility_ime_switch_button">สลับ​ปุ่ม​วิธี​เขียน</string>
+    <string name="accessibility_compatibility_zoom_button">ปุ่ม​การ​ซูม​ร่วม​กัน</string>
+    <string name="accessibility_compatibility_zoom_example">ซูม​เพื่อ​ขยาย​หน้า​จอ​ให้​ใหญ่​ขึ้น</string>
+    <string name="accessibility_bluetooth_connected">เชื่อม​ต่อ​กับ Bluetooth ​แล้ว</string>
+    <string name="accessibility_bluetooth_disconnected">หยุด​เชื่อม​ต่อ​กับบลูทูธ​แล้ว</string>
+    <string name="accessibility_no_battery">"ไม่​มี
+​แบตเตอรี่"</string>
+    <string name="accessibility_battery_one_bar">แถบ​หนึ่ง​แถบ​ของ​พลังงาน​แบตเตอรี่</string>
+    <string name="accessibility_battery_two_bars">แถบ​สอง​แถบ​ของ​พลังงาน​แบตเตอรี่</string>
+    <string name="accessibility_battery_three_bars">แถบ​สาม​แถบ​ของ​พลังงาน​แบตเตอรี่</string>
+    <string name="accessibility_battery_full">แบตเตอรี่​เต็ม</string>
+    <string name="accessibility_no_phone">ไม่​มี​สัญญาณ​โทรศัพท์</string>
+    <string name="accessibility_phone_one_bar">แถบ​หนึ่ง​แถบ​ของ​สัญญาณ​โทรศัพท์</string>
+    <string name="accessibility_phone_two_bars">แถบ​สอง​แถบ​ของ​สัญญาณ​โทรศัพท์</string>
+    <string name="accessibility_phone_three_bars">แถบ​สาม​แถบ​ของ​สัญญาณ​โทรศัพท์</string>
+    <string name="accessibility_phone_signal_full">สัญญาณ​โทรศัพท์​เต็ม</string>
+    <string name="accessibility_no_data">ไม่​มี​ข้อมูล</string>
+    <string name="accessibility_data_one_bar">แถบ​หนึ่ง​แถบ​ของ​สัญญาณ​ข้อมูล</string>
+    <string name="accessibility_data_two_bars">แถบ​สอง​แถบ​ของ​สัญญาณ​ข้อมูล</string>
+    <string name="accessibility_data_three_bars">แถบ​สาม​แถบ​ของ​สัญญาณ​ข้อมูล</string>
+    <string name="accessibility_data_four_bars">แถบ​สี่​แถบ​ของ​สัญญาณ​ข้อมูล</string>
+    <string name="accessibility_data_five_bars">แถบ​ห้า​แถบ​ของ​สัญญาณ​ข้อมูล</string>
+    <string name="accessibility_data_signal_full">สัญญาณ​ข้อมูล​เต็ม</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">ไม่​มี​สัญญาณ Wi-Fi</string>
+    <string name="accessibility_wifi_one_bar">แถบ​หนึ่ง​แถบ​ของ​สัญญาณ Wi-Fi</string>
+    <string name="accessibility_wifi_two_bars">แถบ​สอง​แถบ​ของ​สัญญาณ Wi-Fi</string>
+    <string name="accessibility_wifi_three_bars">แถบ​สาม​แถบ​ของ​สัญญาณ Wi-Fi</string>
+    <string name="accessibility_wifi_signal_full">สัญญาณ Wi-Fi ​เต็ม</string>
+    <string name="accessibility_no_wimax">ไม่มีสัญญาณ WiMAX</string>
+    <string name="accessibility_wimax_one_bar">สัญญาณ WiMAX หนึ่งขีด</string>
+    <string name="accessibility_wimax_two_bars">สัญญาณ WiMAX สองขีด</string>
+    <string name="accessibility_wimax_three_bars">สัญญาณ WiMAX สามขีด</string>
+    <string name="accessibility_wimax_signal_full">สัญญาณ WiMAX เต็ม</string>
+    <string name="accessibility_no_signal">ไม่​มี​สัญญาณ</string>
+    <string name="accessibility_not_connected">ไม่​ได้​เชื่อม​ต่อ</string>
+    <string name="accessibility_zero_bars">ศูนย์ขีด</string>
+    <string name="accessibility_one_bar">หนึ่งขีด</string>
+    <string name="accessibility_two_bars">สองขีด</string>
+    <string name="accessibility_three_bars">สามขีด</string>
+    <string name="accessibility_phone_four_bars">แถบ​สี่​แถบ​ของ​สัญญาณ​โทรศัพท์</string>
+    <string name="accessibility_phone_five_bars">แถบ​ห้า​แถบ​ของ​สัญญาณ​โทรศัพท์</string>
+    <string name="accessibility_signal_full">สัญญาณเต็ม</string>
+    <string name="accessibility_desc_on">เปิด</string>
+    <string name="accessibility_desc_off">ปิด</string>
+    <string name="accessibility_desc_connected">เชื่อม​ต่อ​แล้ว</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">โรม​มิ่ง</string>
+    <string name="accessibility_data_connection_edge">เหลี่ยม</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">ไม่มี</string>
+    <string name="accessibility_bluetooth_tether">การเชื่อมโยงเครือข่ายด้วยบลูทูธ</string>
+    <string name="accessibility_airplane_mode">"โหมด
+การบิน"</string>
+    <string name="accessibility_battery_level">แบตเตอรี่​อยู่​ที่ %d ​เปอร์เซ็นต์</string>
+    <string name="accessibility_settings_button">การ​ตั้ง​ค่า​ระบบ</string>
+    <string name="accessibility_notifications_button">การ​แจ้ง​เตือน</string>
+    <string name="accessibility_remove_notification">ลบการ​แจ้ง</string>
+    <string name="accessibility_gps_enabled">GPS ​เปิด</string>
+    <string name="accessibility_gps_acquiring">กำลัง​รับ GPS…</string>
+    <string name="accessibility_tty_enabled">เปิด​ใช้​งาน TeleTypewriter</string>
+    <string name="accessibility_ringer_vibrate">การ​สั่น​ของ​เสียง​เรียก​เข้า</string>
+    <string name="accessibility_ringer_silent">ปิด​เสียง​เรียก​เข้า</string>
+    <string name="accessibility_recents_item_dismissed">%s ถูกนำออกไปแล้ว</string>
+    <string name="accessibility_notification_dismissed">ปิดการแจ้งเตือนแล้ว</string>
+    <string name="accessibility_desc_notification_shade">หน้าต่างแจ้งเตือน</string>
+    <string name="accessibility_desc_quick_settings">การตั้งค่าด่วน</string>
+    <string name="accessibility_desc_recent_apps">แอพส์​ล่า​สุด</string>
+    <string name="accessibility_quick_settings_user">ผู้ใช้ %s</string>
+    <string name="accessibility_quick_settings_wifi">%1$s%2$s</string>
+    <string name="accessibility_quick_settings_mobile">มือถือ %1$s%2$s%3$s</string>
+    <string name="accessibility_quick_settings_battery">แบตเตอรี่ %s</string>
+    <string name="accessibility_quick_settings_airplane">โหมดใช้งานบนเครื่องบิน %s</string>
+    <string name="accessibility_quick_settings_bluetooth">บลูทูธ %s</string>
+    <string name="accessibility_quick_settings_alarm">การ​เตือน​ที่​ตั้ง​สำหรับ %s</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">เชื่อมต่อด่วน</string>
+    <string name="accessibility_qconnect_button_tts">เชื่อมต่อด่วน</string>
+    <string name="data_usage_disabled_dialog_3g_title">ปิด​ใช้​งาน​ข้อมูล 2G-3G</string>
+    <string name="data_usage_disabled_dialog_4g_title">ปิด​ใช้​งาน​ข้อมูล 4G</string>
+    <string name="data_usage_disabled_dialog_mobile_title">ปิด​ใช้​งาน​ข้อมูล​มือ​ถือ</string>
+    <string name="data_usage_disabled_dialog_title">ปิด​ใช้​งาน​ข้อมูล</string>
+    <string name="data_usage_disabled_dialog">ถึง​ขีด​จำกัด​การ​ใช้​ข้อมูล​ที่​กำหนด ข้อมูล​เพิ่ม​เติม​อาจ​มี​ค่า​ใช้​จ่าย​เกิด​ขึ้น​จาก​ผู้​ให้​บริการ</string>
+    <string name="data_usage_disabled_dialog_enable">ใช้​การ​เชื่อม​ต่อ​ข้อมูล​อีก</string>
+    <string name="data_usage_enable_mobile_warning">การ​เชื่อม​ต่อ​กับ​ใช้​แพ็กเกจดาต้าอาจ​มี​ค่า​ใช้​จ่าย​เพิ่ม​เติม​เกิด​ขึ้น ทำ​ต่อ?</string>
+    <string name="data_usage_disable_mobile">ปิด​ใช้​งาน​การ​เชื่อม​ต่อ​ข้อมูล​มือ​ถือ?</string>
+    <string name="status_bar_settings_signal_meter_disconnected">ไม่​มี​การ​ต่อ​อินเตอร์​เน็ต</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">เชื่อม​ต่อ Wi-Fi ​แล้ว</string>
+    <string name="gps_notification_searching_text">กำลัง​ค้น​หา​โดย​ใช้ GPS…</string>
+    <string name="gps_notification_found_text">ตั้ง​ค่า​ตำแหน่ง​โดย GPS</string>
+    <string name="accessibility_clear_all">ล้าง​การ​แจ้ง​เตือน​ทั้ง​หมด</string>
+    <string name="status_bar_notification_inspect_item_title">ข้อ​มูล​แอพส์</string>
+    <string name="close_universe">ปิด</string>
+    <string name="notifications_off_title">ปิดใช้งานการแจ้งเตือน</string>
+    <string name="notifications_off_text">แตะเพื่อเปิดใช้การแจ้งเตือน</string>
+    <string name="accessibility_rotation_lock_off">หน้าจอจะหมุนโดยอัตโนมัติ</string>
+    <string name="accessibility_rotation_lock_on_landscape">ขณะนี้หน้าจอถูกล็อกให้วางในแนวนอน</string>
+    <string name="accessibility_rotation_lock_on_portrait">ขณะนี้หน้าจอถูกล็อกให้วางในแนวตั้ง</string>
+    <string name="jelly_bean_dream_name">BeanFlinger</string>
+    <string name="start_dreams">เดย์ดรีม</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">โหมดใช้งานบนเครื่องบิน</string>
+    <string name="quick_settings_battery_charging_label">กำลังชาร์จ, %d%%</string>
+    <string name="quick_settings_battery_charged_label">ชาร์จ​เต็ม​แล้ว</string>
+    <string name="quick_settings_bluetooth_label">บลู​ทู​ธ</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">บลูทูธ (%d อุปกรณ์)</string>
+    <string name="quick_settings_bluetooth_off_label">ปิด Bluetooth</string>
+    <string name="quick_settings_brightness_label">ความ​สว่าง</string>
+    <string name="quick_settings_rotation_unlocked_label">หมุนอัตโนมัติ</string>
+    <string name="quick_settings_rotation_locked_label">ล็อกการหมุนแล้ว</string>
+    <string name="quick_settings_ime_label">ทางเลือกการเขียน</string>
+    <string name="quick_settings_location_label">สถานที่ที่ใช้งาน</string>
+    <string name="quick_settings_media_device_label">อุปกรณ์สื่อ</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">โทร​ฉุก​เฉิน​เท่า​นั้น</string>
+    <string name="quick_settings_settings_label">การตั้งค่า</string>
+    <string name="quick_settings_time_label">เวลา</string>
+    <string name="quick_settings_user_label">ฉัน</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">ไม่​ได้​เชื่อม​ต่อ</string>
+    <string name="quick_settings_wifi_no_network">ไม่​มี​เครือ​ข่าย</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_wifi_display_label">"การ​แสดง​ผล
+Wi-Fi"</string>
+    <string name="quick_settings_wifi_display_no_connection_label">จอแสดงผลไร้สาย</string>
+    <string name="quick_settings_brightness_dialog_title">ความ​สว่าง</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">ออโต้</string>
+    <string name="status_bar_help_title">การแจ้งเตือนจะแสดงขึ้นที่นี่</string>
+    <string name="status_bar_help_text">"เข้าถึงได้ทุกเมื่อด้วยการกวาดนิ้วลง
+กวาดนิ้วลงอีกครั้งสำหรับการควบคุมระบบ"</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">บลู​ทู​ธ</string>
+    <string name="quickpanel_gps_text">ตำแหน่ง</string>
+    <string name="quickpanel_silent_mode_text">"โหมด
+​ปิด​เสียง"</string>
+    <string name="quickpanel_silent_mode_sound">เสียง</string>
+    <string name="quickpanel_silent_mode_vibrate">สั่น</string>
+    <string name="quickpanel_silent_mode_mute">ปิด​เสียง</string>
+    <string name="quickpanel_rotation_text">"การหมุน
+หน้าจอ"</string>
+    <string name="quickpanel_mobile_data_text">"ข้อมูล
+​มือ​ถือ"</string>
+    <string name="quickpanel_dormant_mode_text">"โหมด
+การห้าม"</string>
+    <string name="quickpanel_notification_text">การ​แจ้ง​เตือน</string>
+    <string name="quickpanel_airplane_mode_text">"โหมด
+การบิน"</string>
+    <string name="quickpanel_sync_text">ซิงค์</string>
+    <string name="quickpanel_power_saving_text">"ประหยัด
+พลังงาน"</string>
+    <string name="quickpanel_ultra_power_saving_text">"ประหยัด ไฟ
+สูงสุด"</string>
+    <string name="quickpanel_driving_mode_text">"โหมด Hands-free
+"</string>
+    <string name="quickpanel_smart_stay_text">พักหน้าจอ อัจฉริยะ</string>
+    <string name="quickpanel_smart_scroll_text">"เลื่อน
+อัจฉริยะ"</string>
+    <string name="quickpanel_smart_pause_text">"การพัก
+อัจฉริยะ"</string>
+    <string name="quickpanel_smart_network_text">"เครือข่าย
+สมาร์ท"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_wifi_hotspot_text">"ฮอตสปอต
+Wi-Fi"</string>
+    <string name="quickpanel_multiwindow_text">"มัลติ
+วินโดว์"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_brightness_text">ความ​สว่าง</string>
+    <string name="quickpanel_airview_text">"แอร์
+วิว"</string>
+    <string name="quickpanel_airgesture_text">"การใช้งาน
+โดยไม่สัมผัส"</string>
+    <string name="quickpanel_ebook_text">"โหมด
+การอ่าน"</string>
+    <string name="quickpanel_personal_mode_text">"โหมด
+ส่วนตัว"</string>
+    <string name="quickpanel_car_mode_text">"โหมด
+รถยนต์"</string>
+    <string name="quickpanel_network_booster_text">"ดาวน์โหลด
+บูสเตอร์"</string>
+    <string name="quickpanel_toolbox_text">"กล่อง
+เครื่องมือ"</string>
+    <string name="quickpanel_touch_sensitivity_text">"ความไว
+การสัมผัส"</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">ตำแหน่ง</string>
+    <string name="quickpanel_silent_mode_sound_content_description">เสียง</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">ระบบสั่น</string>
+    <string name="quickpanel_silent_mode_mute_content_description">ปิดเสียง</string>
+    <string name="quickpanel_rotation_content_description">การหมุนหน้าจอ</string>
+    <string name="quickpanel_mobile_data_content_description">ข้อมูล​มือ​ถือ</string>
+    <string name="quickpanel_dormant_mode_content_description">โหมดการห้าม</string>
+    <string name="quickpanel_airplane_mode_content_description">โหมดการบิน</string>
+    <string name="quickpanel_sync_content_description">ซิงค์</string>
+    <string name="quickpanel_power_saving_content_description">โหมดประหยัดพลังงาน</string>
+    <string name="quickpanel_smart_stay_content_description">การพักหน้าจออัจฉริยะ</string>
+    <string name="quickpanel_smart_pause_content_description">การพักอัจฉริยะ</string>
+    <string name="quickpanel_smart_network_content_description">สมาร์ทเน็ตเวิร์ค</string>
+    <string name="quickpanel_wifi_hotspot_content_description">ฮอตสปอต Wi-Fi แบบพกพา</string>
+    <string name="quickpanel_multiwindow_content_description">มัลติวินโดว์</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_ebook_content_description">โหมดการอ่าน</string>
+    <string name="quickpanel_personal_mode_content_description">โหมดส่วนตัว</string>
+    <string name="quickpanel_car_mode_content_description">โหมดรถยนต์</string>
+    <string name="quickpanel_network_booster_content_description">"ดาวน์โหลด
+บูสเตอร์"</string>
+    <string name="quickpanel_toolbox_content_description">กล่องเครื่องมือ</string>
+    <string name="air_gesture_use_popup_title">เปิดใช้ การใช้งานโดยไม่สัมผัส</string>
+    <string name="air_gesture_use_popup_msg">ไม่สามารถใช้งานโดยไม่สัมผัส และ TalkBack พร้อมกันได้ TalkBack จะถูกปิดใช้งาน</string>
+    <string name="air_view_use_popup_title">ใช้งานแอร์วิว</string>
+    <string name="air_view_use_popup_msg">ไม่สามารถเปิดใช้งานทั้งแอร์วิวและตัวเลือกด้านล่างพร้อมกันได้ ตัวเลือกด้านล่าง จะถูกปิดใช้งาน</string>
+    <string name="multi_window_use_popup_title">เปิดใช้งานมัลติวินโดว์</string>
+    <string name="multi_window_use_popup_msg">ไม่สามารถเปิดใช้งานมัลติวินโดว์และ TalkBack ทั้งคู่ได้ TalkBack จะถูกปิดใช้งาน</string>
+    <string name="smart_pause_use_popup_title">เปิดใช้งานการพักอัจฉริยะ</string>
+    <string name="smart_pause_use_popup_msg">ไม่สามารถเปิดใช้งานทั้ง TalkBack และการพักอัจฉริยะพร้อมกันได้ TalkBack จะถูกปิดใช้งาน</string>
+    <string name="smart_scroll_use_popup_title">เปิดใช้งานการเลื่อนอัจฉริยะ</string>
+    <string name="smart_scroll_use_popup_msg">ไม่สามารถเปิดใช้งานทั้ง TalkBack และการเลื่อนอัจฉริยะพร้อมกันได้ TalkBack จะถูกปิดใช้งาน</string>
+    <string name="smart_stay_use_popup_title">เปิดใช้ การพักหน้าจออัจฉริยะ</string>
+    <string name="smart_stay_use_popup_msg">ไม่สามารถเปิดใช้งานทั้ง TalkBack และ การพักหน้าจออัจฉริยะ พร้อมกันได้ TalkBack จะถูกปิดใช้งาน</string>
+    <string name="quickpanel_content_description_led_on">%s ถูกเปิดใช้งานแล้ว</string>
+    <string name="quickpanel_content_description_led_off">ปิดใช้งาน %s</string>
+    <string name="quickpanel_content_description_led_dim">ไม่สามารถเปิดใช้งาน %s ได้</string>
+    <string name="smart_network">เครือข่ายอัจฉริยะ</string>
+    <string name="smart_network_guide_msg">"เครือข่ายอัจฉริยะช่วยประหยัด อายุการใช้งานแบตเตอรี่
+
+ข้อมูลมือถือและ Wi-Fi จะถูกปิดใช้งานเมื่อหน้าจอปิดอยู่ เพื่อให้อุปกรณ์ใช้แบตเตอรี่น้อยลง
+
+อย่างไรก็ตาม คุณอาจได้รับข้อมูลพุชสะสม เมื่อเปิดหน้าจอ"</string>
+    <string name="quickpanel_data_roaming_text">โรม​มิ่ง​ข้อมูล</string>
+    <string name="data_roaming_dialog_text">การ​โรม​มิ่ง​จะ​มี​ค่า​ใช้​จ่าย​พิเศษ ดำเนิน​การ​ต่อ?</string>
+    <string name="mobile_data_enable_dialog_text">การเชื่อมต่อกับเครือข่ายมือถือ อาจมีค่าใช้จ่ายพิเศษ ขึ้นอยู่กับแผนข้อมูลของคุณ ดำเนินการต่อ?</string>
+    <string name="quickpanel_edit_current">แผงแจ้ง…</string>
+    <string name="quickpanel_edit_available">ปุ่มที่ใช้งานได้</string>
+    <string name="mobile_data_dialog_text">คุณจะไม่สามารถใช้แอพพลิเคชั่น เช่น อินเตอร์เน็ต อีเมล์ และ YouTube ผ่านเครือข่ายมือถือได้อีก ดำเนินการต่อ?</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"หากคุณไม่ใช้ Wi-Fi คุณจะไม่สามารถใช้อินเตอร์เน็ต อีเมล์ หรือแอพอื่นๆ ที่ต้องมีการเชื่อมต่อข้อมูลได้อีกต่อไป
+
+ข้อมูลมือถือจะถูกปิดใช้งาน"</string>
+    <string name="mobile_data_connect">เชื่อมต่อ</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">ไม่สามารถเชื่อมต่อกับเครือข่ายมือถือเมื่อเปิดใช้งานโหมดการบิน ปิดใช้งานโหมดการบินแล้วลองอีกครั้ง</string>
+    <string name="warning_alert_check">ห้าม​แสดง​อีก</string>
+    <string name="blocking_mode_enable">เมื่อเปิดใช้งานโหมดนี้ การแจ้งเตือนสำหรับคุณสมบัติที่เลือก จะถูกปิดใช้งาน คุณจะได้รับการแจ้งเตือนสำหรับการโทรเข้า จากบุคคลที่อยู่ในรายการอนุญาตเท่านั้น</string>
+    <string name="blocking_mode_enable_for_grid_settings">โหมดการห้าม จะปิดใช้งานการแจ้งเตือน สำหรับคุณสมบัติที่เลือก เมื่อการโทรเข้าถูกบล็อค คุณจะได้รับการแจ้งเตือน สำหรับการโทรเข้าจากบุคคลที่อยู่ ในรายชื่อที่อนุญาตเท่านั้น เมื่อต้องการเปลี่ยนการตั้งค่าโหมดการห้าม ให้ไปที่ การตั้งค่า > การปรับแต่งส่วนตัว > โหมดการห้าม</string>
+    <string name="blocking_mode_enable_wifi">เมื่อเปิดใช้งานโหมดนี้ การแจ้งเตือนสำหรับคุณสมบัติที่เลือก จะถูกปิดใช้งาน</string>
+    <string name="blocking_mode_title">โหมดการห้าม</string>
+    <string name="dormant_mode_off_message">เปิดใช้งานตัวเลือกด้านล่าง อย่างน้อยหนึ่งตัวเลือก เพื่อเปิดใช้งานโหมดการห้าม</string>
+    <string name="driving_mode_title">โหมดแฮนด์ฟรี</string>
+    <string name="driving_mode_on_dialog_msg_1">ต้องปิดการใช้งานโหมดแฮนด์ฟรี ใน การตั้งค่า หลังจากที่คุณปิด S Voice Hands-Free แล้ว หากโหมด Hands-free ยังคงเปิดใช้งานอยู่ การแจ้งเตือนและข้อมูลการโทรเข้า จะยังคงถูกอ่านโดยอัตโนมัติ</string>
+    <string name="driving_mode_on_dialog_msg_2">คุณสามารถปิดโหมด Hands-free ได้โดยการพูดว่า “ปิดโหมด Hands-free” ใน S Voice Hands-free หรือโดยการไปที่ การตั้งค่า หรือ แผงการแจ้งเตือน</string>
+    <string name="insert_sim_card">ใส่ SIM ​การ์ด</string>
+    <string name="insert_sim_card_message">"ใส่ SIM ​การ์ด​เพื่อ​ใช้​งาน
+​​เครือ​ข่าย"</string>
+    <string name="wifi_enable_warning">การเปิด Wi-Fi จะปิดฮอตสปอต Wi-Fi แบบพกพา ดำเนินการต่อ?</string>
+    <string name="wifi_ap_turning_off">กำลังปิดใช้งานฮอตสปอต Wi-Fi แบบพกพา…</string>
+    <string name="no_sim_notification_title">ไม่มี</string>
+    <string name="no_sim_notification_title_tmo">ไม่​ได้​เสียบ SIM ​การ์ด</string>
+    <string name="no_sim_notification_text">ใส่ SIM ​การ์ด</string>
+    <string name="accessibility_power_saving_mode">เมื่อเปิดใช้โหมดประหยัดพลังงาน ให้เปิดใช้งานอย่างน้อยหนึ่งฟังก์ชั่น</string>
+    <string name="accessibility_power_saving_mode_title">โหมดประหยัด พลังงาน</string>
+    <string name="accessibility_driving_mode">ในการเปิดใช้งานโหมด Hands-free ให้เปิดใช้งานอย่างน้อย หนึ่งฟังก์ชั่นที่เกี่ยวข้อง</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Network restriction mode will be disabled.</string>
+    <string name="charging_interruption_title">ไม่สามารถชาร์จได้</string>
+    <string name="charging_interruption_by_terminal_open_text">ไม่สามารถชาร์จอุปกรณ์ของคุณ ตรวจสอบว่าคุณใช้แบตเตอรี่ และเครื่องชาร์จที่ใช้งานร่วมกับ Samsung ได้ และเชื่อมต่ออุปกรณ์ของคุณ กับเครื่องชาร์จอย่างถูกต้อง</string>
+    <string name="charging_interruption_by_too_high_temperature_text">หยุด​การ​ชาร์จ อุณหภูมิ​แบตเตอรี่​สูง​เกิน​ไป</string>
+    <string name="charging_interruption_by_too_low_temperature_text">หยุด​การ​ชาร์จ อุณหภูมิ​แบตเตอรี่​ต่ำ​เกิน​ไป</string>
+    <string name="charging_interruption_by_limit_high_temperature_text">"อุปกรณ์หยุดชาร์จแล้ว อุณหภูมิแบตเตอรี่สูงเกินไป โปรดถอดเครื่องชาร์จออกด้วยความระมัดระวัง เพราะอาจร้อนจัด
+
+การถอดเครื่องชาร์จออกและต่อกับเครื่องชาร์จอีกครั้งจะช่วยให้การชาร์จทำงานต่อตามปกติ ถ้าเครื่องยังร้อนจัด โปรดติดต่อฝ่ายบริการลูกค้า เนื่องจากอาจมีความเสี่ยงต่อการเกิดเพลิงไหม้หรือการได้รับบาดเจ็บ"</string>
+    <string name="full_battery_title">ข้อมูล</string>
+    <string name="full_battery_text">"แบตเตอรี่​ชาร์จ​เต็ม​แล้ว
+​ถอด​ชาร์จ​เจอร์"</string>
+    <string name="low_battery_title">แบตเตอรี่​ต่ำ</string>
+    <string name="critical_low_battery_title">แบตเตอรี่​เหลือ​น้อย​มาก</string>
+    <string name="low_battery_text">เชื่อมต่อปลั๊กซอคเก็ต เพื่อชาร์จอุปกรณ์และออกจากแอพพลิเคชั่น ที่ไม่ใช้งานในตัวจัดการงาน การใช้งานต่อขณะชาร์จ อาจทำให้การชาร์จไม่มีประสิทธิภาพ</string>
+    <string name="low_battery_text_charged_via_ta">"ออกจากแอพพลิเคชั่นที่ไม่ใช้งานในตัว
+จัดการงาน การใช้งานต่อขณะชาร์จ
+อาจทำให้การชาร์จไม่มีประสิทธิภาพ"</string>
+    <string name="low_battery_camera_warning_text">ถ้าแบตเตอรี่ต่ำกว่า %d%% คุณจะไม่สามารถ เปิดกล้องได้</string>
+    <string name="critical_low_battery_camera_warning_text">ไม่สามารถเปิดกล้องได้ พลังงานแบตเตอรี่ เหลือ %d%% หรือน้อยกว่า</string>
+    <string name="start_force_consume_battery_title">การ​เตือน</string>
+    <string name="start_force_consume_battery_text">รอจนอุปกรณ์ของคุณเย็นลง ก่อนจะใช้</string>
+    <string name="stop_force_consume_battery_title">ข้อมูล</string>
+    <string name="stop_force_consume_battery_text">อุปกรณ์เย็นลงแล้ว</string>
+    <string name="wireless_charging_title">การชาร์จแบบไร้สาย</string>
+    <string name="cable_charging_title">การชาร์จแบบต่อสาย</string>
+    <string name="wireless_charging_text">คุณวางอุปกรณ์อยู่ภายในช่วงแล้ว ขณะนี้กำลังทำการชาร์จแบบไร้สาย…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">สลับจากการชาร์จแบบไร้สายมาเป็นการชาร์จแบบต่อสาย</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">สลับจากการชาร์จแบบต่อสายมาเป็นการชาร์จแบบไร้สาย</string>
+    <string name="wireless_charging_spen_warning_text">อุปกรณ์ของคุณ กำลังชาร์จแบบไร้สาย S Pen จะไม่ทำงานภายในระยะของ ที่ชาร์จแบบไร้สาย</string>
+    <string name="incompatible_charger_title">ไม่​ได้​ชาร์จ</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_dialog_text_for_tablet">The connected charger is incompatible with this tablet. To prevent damage to your tablet, charging has been stopped. To continue charging, use the original charger and cable that were provided with this tablet.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_notification_text">To charge faster, use the original charger</string>
+    <string name="slow_charging_toast_text">To charge faster, use the charger and cable that were provided with this phone</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="water_damage_warning_title">ตรวจสอบฝาครอบที่ชาร์จ</string>
+    <string name="water_damage_warning_text">ปิดฝาครอบที่ชาร์จให้สนิทก่อนใช้งานเพื่อป้องกันความเสียหายจากน้ำ</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">ปิดเครื่องอุปกรณ์</string>
+    <string name="overheat_poweroff_warning_text">เนื่องจากอุปกรณ์ของคุณร้อนเกินไป อุปกรณ์จะปิดเพื่อให้เครื่องเย็นลง</string>
+    <string name="overheat_poweroff_warning_button_text">อย่าปิดเครื่อง</string>
+    <string name="overheat_poweroff_notice_title">อุปกรณ์ปิดเครื่องโดยอัตโนมัติ</string>
+    <string name="overheat_poweroff_notice_text">"อุปกรณ์ของคุณร้อนเกินไป ปิดอุปกรณ์เพื่อป้องกันความเสียหาย
+
+อุปกรณ์ร้อนเกินไปอาจมีสาเหตุดังนี้:
+การใช้แอพพลิเคชั่นที่มีกราฟิกมาก เช่น เกม และแอพพลิเคชั่นการนำทาง เป็นเวลานาน
+การโอนไฟล์ขนาดใหญ่
+การใช้อุปกรณ์ในสภาพแวดล้อมที่ร้อน"</string>
+    <string name="power_sharing_warning_title">การแชร์พลังงาน</string>
+    <string name="power_sharing_warning_text">พลังงานแบตเตอรี่ของคุณ ต่ำกว่าข้อจำกัดการแชร์พลังงาน ปรับข้อจำกัดการแชร์พลังงานให้ต่ำกว่า ระดับพลังงานแบตเตอรี่ในปัจจุบัน เพื่อแชร์พลังงานแบตเตอรี่ต่อไป</string>
+    <string name="power_sharing_start_toast_text">กำลังเริ่มแชร์พลังงาน…</string>
+    <string name="power_sharing_end_notification_text">สิ้นสุดการแชร์พลังงานแล้ว โปรดถอดสายเคเบิล</string>
+    <string name="face_detection_failure_text">การพักหน้าจออัจฉริยะ ตรวจจับดวงตาของคุณไม่ได้</string>
+    <string name="status_bar_recent_launch_task_manager_title">การจัดการงาน</string>
+    <string name="status_bar_recent_launch_google_button">Google</string>
+    <string name="status_bar_recent_remove_all_button">ปิดหมด</string>
+    <string name="screen_capture_fail_for_storage_capacity">พื้นที่​จัด​เก็บ​ภาย​ใน​เครื่อง​เต็ม ลบ​บาง​รายการ</string>
+    <string name="no_such_item">ไม่​สามารถ​ค้น​หา​รายการ</string>
+    <string name="pickup_tutorial_title">ลองใช้การเตือนอัจฉริยะ</string>
+    <string name="put_your_phone">หลัง​จาก​ที่​วาง​อุปกรณ์​ลง หน้า​จอ​จะ​ดับ</string>
+    <string name="phone_detect">ถ้าคุณไม่ได้รับสาย ข้อความ ให้วางอุปกรณ์ลง หยิบขึ้นมาอีกครั้ง เมื่อหน้าจอปิดลง</string>
+    <string name="pick_up_your_phone">ยก​อุปกรณ์​ของ​คุณ​ขึ้น</string>
+    <string name="tutorial_complete">การฝึกใช้งานเสร็จสิ้น</string>
+    <string name="camera_alert">"ใช้​กล้อง​ระหว่าง
+​โทร​ไม่​ได้"</string>
+    <string name="stms_version">SM-G900F_EUR_20140228_0507</string>
+    <string name="wifi_cw_ready">China Telecom WLAN connected</string>
+    <string name="wifi_cw_ready_message">You have access to China Telecom WLAN network, consult 10000 to understand billing information, please turn off when not use</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">ยินยอม</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="quickpanel_ctwap_text">CTWAP</string>
+    <string name="quickpanel_ctnet_text">CTNET</string>
+    <string name="tethering_attention_title">เรียน</string>
+    <string name="tethering_wifi_off_warning">การเปิดใช้งานฮอตสปอต Wi-Fi แบบพกพาจะเป็นการปิด Wi-Fi</string>
+    <string name="quickpanel_air_view_warning">เปิดใช้งานอย่างน้อยหนึ่งฟังก์ชั่น เพื่อเปิดใช้งานแอร์วิว</string>
+    <string name="quickpanel_air_view_warning_pen_support">เมื่อต้องการเปิดใช้แอร์วิว ให้เปิดใช้อย่างน้อยหนึ่งฟังก์ชั่นจากโหมดแอร์วิวที่เลือก</string>
+    <string name="quickpanel_air_gesture_warning">ในการเปิดใช้งาน การใช้งานโดยไม่สัมผัส ให้เปิดใช้งานฟังก์ชั่น ที่เกี่ยวข้องอย่างน้อยหนึ่งฟังก์ชั่น</string>
+    <string name="quickpanel_air_gesture_warning_continue">สัมผัสปุ่มการตั้งค่าด่วนค้างไว้ เพื่อไปที่การตั้งค่าที่เกี่ยวข้อง</string>
+    <string name="roaming_title">โรม​มิ่ง</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="gps_donotshow">ห้าม​แสดง​อีก</string>
+    <string name="quickpanel_brightess_level">ระดับ</string>
+    <string name="quickpanel_brightess_minus">การลบ</string>
+    <string name="reading_mode_title">โหมดการอ่าน</string>
+    <string name="reading_mode_alert">เปิดใช้งานโหมดการอ่านแล้ว หน้าจอจะถูกทำให้เหมาะสม สำหรับการอ่าน โหมดนี้ใช้งานได้กับ บางแอพพลิเคชั่นเท่านั้น</string>
+    <string name="reading_mode_settings">การตั้งค่า</string>
+    <string name="automatic_brightness_message">การตั้งค่าความสว่าง แบบอัตโนมัติใช้ได้ กับหน้าจอภายในเท่านั้น</string>
+    <string name="manual_brightness_message">ปรับความสว่างด้วยตนเองแล้ว การปรับความสว่างอัตโนมัติ จะถูกปิดใช้งาน</string>
+    <string name="flight_mode_message_for_wifi_only">โหมดการบินให้คุณปิดคุณสมบัติเครือข่าย รวมทั้ง Wi-Fi และ Bluetooth ในการใช้ Wi-Fi และ Bluetooth ให้เปิดทั้งคู่ใน การตั้งค่า หรือแผงการแจ้งเตือน</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tutorial_notification_panel_drag_down">ใช้หนึ่งนิ้วมือเพื่อดึงแถบสถานะ ลงจากด้านบนของหน้าจอ</string>
+    <string name="tutorial_notification_panel_drag_down_complete">แสดงแผงการแจ้งเตือน</string>
+    <string name="tutorial_quick_panel_drag_down">ใช้สองนิ้วเพื่อดึงแถบสถานะ ลงจากด้านบนของหน้าจอ</string>
+    <string name="tutorial_quick_panel_drag_down_complete">แสดงแผงการตั้งค่าด่วน</string>
+    <string name="tutorial_expand_notification_panel_drag_down">ใช้สองนิ้วมือเพื่อดึงรายการหนึ่ง จากรายการต่างๆ ลงมาจากแผงการแจ้งเตือน</string>
+    <string name="tutorial_expand_notification_panel_drag_down_complete">แสดงข้อมูลเพิ่มเติมเกี่ยวกับ รายการที่เลือก</string>
+    <string name="tutorial_invaild_action">การทำงานไม่ถูกต้อง ลองใหม่</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="magnification_text_for_air_view_button">ท่าทางการขยาย</string>
+    <string name="smartbonding_dialog_title">"ดาวน์โหลด
+บูสเตอร์"</string>
+    <string name="smartbonding_dialog_wifi_text">ดาวน์โหลดไฟล์ขนาดใหญ่ (ใหญ่กว่า %d MB) ได้เร็วขึ้น โดยใช้ทั้งเครือข่าย Wi-Fi และ LTE ไปพร้อมๆ กัน โปรดทราบว่าตัวขยายดาวน์โหลดอาจใช้เฉพาะเครือข่าย Wi-Fi หรือ LTE ในการดาวน์โหลดไฟล์ ขึ้นอยู่กับสถานะของเครือข่ายมือถือ</string>
+    <string name="smartbonding_dialog_mobile_text">ดาวน์โหลดไฟล์ขนาดใหญ่ (ใหญ่กว่า %d MB) ได้เร็วขึ้น โดยใช้ทั้งเครือข่าย Wi-Fi และ LTE ไปพร้อมๆ กัน โปรดทราบว่าตัวขยายดาวน์โหลดอาจใช้เฉพาะเครือข่าย Wi-Fi หรือ LTE ในการดาวน์โหลดไฟล์ ขึ้นอยู่กับสถานะของเครือข่ายมือถือ</string>
+    <string name="smart_bonding_popup_msg">ตัวขยายดาวน์โหลด จะถูกเปิดใช้งาน การดาวน์โหลดผ่านเครือข่ายมือถือ อาจมีค่าใช้จ่ายเพิ่มเติม โดยขึ้นอยู่กับแผน การชำระเงินของคุณ</string>
+    <string name="smart_bonding_popup_msg_wifi">ขณะนี้ Wi-Fi ปิดอยู่ ต้องเปิดทั้ง Wi-Fi และข้อมูลมือถือเพื่อเปิดใช้งานตัวขยายดาวน์โหลด การดาวน์โหลดผ่านเครือข่ายมือถือ อาจมีค่าใช้จ่ายเพิ่มเติม โดยขึ้นอยู่กับแผนการชำระเงินของคุณ</string>
+    <string name="smart_bonding_popup_msg_data">ขณะนี้ข้อมูล​มือ​ถือปิดอยู่ ต้องเปิดทั้ง Wi-Fi และข้อมูลมือถือเพื่อเปิดใช้งานตัวขยายดาวน์โหลด การดาวน์โหลดผ่านเครือข่ายมือถือ อาจมีค่าใช้จ่ายเพิ่มเติม โดยขึ้นอยู่กับแผนการชำระเงินของคุณ</string>
+    <string name="smart_bonding_popup_msg_wifi_data">ขณะนี้ Wi-Fi และข้อมูล​มือ​ถือปิดอยู่ ต้องเปิดทั้ง Wi-Fi และข้อมูลมือถือ เพื่อเปิดใช้งานดาวน์โหลดบูสเตอร์ การดาวน์โหลดผ่านเครือข่ายมือถือ อาจมีค่าใช้จ่ายเพิ่มเติม โดยขึ้นอยู่กับแผนการชำระเงินของคุณ</string>
+    <string name="smart_bonding_popup_msg_roaming">ไม่สามารถใช้ดาวน์โหลดบูสเตอร์ ขณะโรมมิ่ง เราแนะนำให้ดาวน์โหลดผ่านเครือข่าย Wi-Fi</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">เปิด Wi-Fi</string>
+    <string name="smart_bonding_popup_msg_data_btn">เปิดข้อมูลมือถือ</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">เปิด Wi-Fi และข้อมูลมือถือ</string>
+    <string name="smart_bonding_turn_off_text">ไม่สามารถใช้ดาวน์โหลดบูสเตอร์ ขณะเปิดใช้งาน %1$s ปิดใช้งาน %2$s แล้วลองอีกครั้ง</string>
+    <string name="smart_bonding_turn_off_text_airplane_mode">ไม่สามารถเชื่อมต่อกับเครือข่ายมือถือเมื่อเปิดใช้งานโหมดการบิน ปิดใช้งานโหมดการบินแล้วลองอีกครั้ง</string>
+    <string name="dialog_battery_data_warning">ฮอตสปอ​ต​ Wi-Fi ​แบบ​พก​พา จะ​ใช้​พลังงาน​แบตเตอรี่​จำนวน​มาก​และ​เพิ่ม​การ​ใช้​งาน​ข้อมูล​ของ​คุณ ดำเนิน​การ​ต่อ?</string>
+    <string name="tether_settings_title_wifi">ฮอตสปอ​ต​แบบ​พก​พา</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">ประกาศ</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="cooling_title">อุปกรณ์ร้อนเกินไป</string>
+    <string name="cooling_body">"อุปกรณ์ของคุณร้อนเกินไป จะมีการดำเนินขั้นตอนเพื่อทำให้อุปกรณ์เย็นลง
+
+คุณยังสามารถใช้อุปกรณ์ของคุณได้ แต่
+- หน้าจออาจหรี่ลง
+- อุปกรณ์อาจช้าลง
+- การชาร์จอาจหยุดพัก
+
+การปิดแอพปัจจุบันจะช่วยทำให้อุปกรณ์ของคุณเย็นลง
+
+หลังจากอุปกรณ์เย็นลงแล้ว ประสิทธิภาพจะกลับเป็นปกติโดยอัตโนมัติ"</string>
+    <string name="cooling_noti_text">สัมผัสที่นี่เพื่อดูรายละเอียด</string>
+    <string name="cooling_popup_name">การ​แจ้ง​เตือน</string>
+    <string name="cooling_noti_title">อุปกรณ์ร้อนเกินไป</string>
+    <string name="btn_text_yes">ตกลง</string>
+    <string name="btn_text_no">ยก​เลิก</string>
+    <string name="device_overheating">อุปกรณ์ร้อนเกินไป</string>
+    <string name="colling_noti_text_2">ไม่สามารถเปิดแอพพลิเคชั่น คุณสามารถใช้ได้เฉพาะแอพพลิเคชั่น โทรศัพท์ และ รายชื่อ เท่านั้น</string>
+    <string name="vol_panel_audio_settings">เปลี่ยน​การ​ตั้ง​ค่า​ระบบ​เสียง​ของ​คุณ</string>
+    <string name="guest_launge_warning_toast_text">ไม่สามารถเปิดใช้งานหรือปิดใช้งาน %s ขณะอยู่ในโหมดแขก</string>
+    <string name="safe_mode_title_vzw">ปิดโหมดความปลอดภัย</string>
+    <string name="safe_mode_popup_body_vzw">คุณต้องการที่จะเริ่มการทำงานของโทรศัพท์ของคุณเพื่อจะปิดโหมดความปลอดภัย? แอพพลิเคชันทั้งหมดของคุณจะถูกเรียกคืน</string>
+    <string name="safe_mode_btn_cancel_vzw">ยก​เลิก</string>
+    <string name="safe_mode_off_btn_vzw">ปิดโหมดความปลอดภัย</string>
+    <string name="safe_mode_noti_on_vzw">Safe Mode Is On</string>
+    <string name="safe_mode_noti_body_vzw">แตะเพื่อปิดโหมดความปลอดภัย</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">สัมผัสที่นี่เพื่อเรียนรู้เพิ่มเติม</string>
+    <string name="cooling_popup_name_VZW">การแจ้ง</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">ตกลง</string>
+    <string name="btn_text_no_VZW">ยก​เลิก</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance will Automatically go back to normal."</string>
+    <string name="recent_menukey_press_description">กดปุ่มล่าสุดค้างไว้เพื่อดูเมนู</string>
+    <string name="recent_menukey_press_description_vzw">ปุ่มเมนูถูกแทนที่ด้วยปุ่มล่าสุด เพื่อให้คุณเปลี่ยนระหว่างแอพพลิเคชั่นคุณที่ใช้ล่าสุดได้อย่างรวดเร็ว สัมผัส วิธีใช้ เพื่อดูข้อมูลเพิ่มเติม</string>
+    <string name="recent_menukey_help_button">ช่วย</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">عرض %d جهة اتصال</item>
+        <item quantity="one">يتم الآن عرض جهة اتصال واحدة</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">عرض %d جهة (جهات) اتصال مزودة بأرقام هواتف</item>
+        <item quantity="one">عرض جهة اتصال واحدة مزودة برقم هاتف</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d اسم مزود بأرقام هواتف</item>
+        <item quantity="one">اسم مزود برقم هاتف</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d جهات اتصال</item>
+        <item quantity="one">جهة اتصال واحدة</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">تم العثور على %d</item>
+        <item quantity="one">تم العثور على ١‎</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">تم العثور على %d</item>
+        <item quantity="one">تم العثور على ١‎</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">تم دمجها من %0$d من المصادر</item>
+        <item quantity="one">لم يتم دمجها</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d مجموعات</item>
+        <item quantity="one">مجموعة واحدة</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d أشخاص في المجموعة %2$s</item>
+        <item quantity="one">%1$d شخص في المجموعة %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d شخص</item>
+        <item quantity="one">%1$d من الأشخاص</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d رسائل بريد صوتي</item>
+        <item quantity="one">البريد الصوتي</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">تم نسخ %d جهة اتصال.</item>
+        <item quantity="one">تم نسخ جهة الاتصال %d.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:title="@string/general" />
+    <header android:id="@id/account" android:title="@string/account" android:key="account" android:fragment="com.sec.android.app.sbrowser.preferences.AccountPreferences" />
+    <header android:id="@id/set_home_page" android:title="@string/pref_content_homepage" android:key="set_home_page" android:fragment="com.sec.android.app.sbrowser.preferences.SetHomePagePreference" />
+    <header android:id="@id/auto_fill_settings" android:title="@string/autofill_title_long" android:key="enable_autofill" android:fragment="com.sec.android.app.sbrowser.preferences.AutoFillSettingsPreferences" />
+    <header android:title="@string/advanced" />
+    <header android:id="@id/privacy" android:title="@string/title_privacy" android:key="privacy" android:fragment="com.sec.android.app.sbrowser.preferences.PrivacyPreferences" />
+    <header android:id="@id/accessibility" android:title="@string/font_size_title" android:key="accessibility" android:fragment="com.sec.android.app.sbrowser.preferences.AccessibilityPreferences" />
+    <header android:id="@id/privacy_security" android:title="@string/pref_contentsettings_title" android:key="privacy_security" android:fragment="com.sec.android.app.sbrowser.preferences.PrivacySecurityPreferencesFragment" />
+    <header android:id="@id/bandwidth_management" android:title="@string/bandwidth_managementl_title" android:key="bandwidth_management" android:fragment="com.sec.android.app.sbrowser.preferences.BandwidthPreferences" />
+</preference-headers>

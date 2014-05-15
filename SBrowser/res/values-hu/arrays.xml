@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Mindig bekapcsolva</item>
+        <item>Igény szerint</item>
+        <item>Ki</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Alapértelmezett oldal</item>
+        <item>Jelenlegi oldal</item>
+        <item>Gyors elérés</item>
+        <item>Leggyakrabban látogatott helyek</item>
+        <item>Egyéb</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Eszköz</item>
+        <item>SD-kártya</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Kínai (GBK)</item>
+        <item>Kínai (Big5)</item>
+        <item>Japán (ISO-2022-JP)</item>
+        <item>Japán (SHIFT JIS)</item>
+        <item>Japán (EUC-JP)</item>
+        <item>Koreai (EUC-KR)</item>
+        <item>Automatikus észlelés</item>
+    </string-array>
+</resources>

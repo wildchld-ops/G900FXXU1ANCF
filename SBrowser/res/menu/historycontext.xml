@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/CONTEXT_MENU">
+        <item android:id="@id/new_window_context_menu_id" android:title="@string/contextmenu_openlink_newwindow" />
+        <item android:id="@id/cluster_by_website_context_menu_id" />
+        <item android:id="@id/cluster_by_category_context_menu_id" />
+        <item android:id="@id/delete_context_menu_id" android:title="@string/scraplist_delete" />
+        <item android:id="@id/copy_url_context_menu_id" android:title="@string/action_copy" />
+        <item android:id="@id/share_link_context_menu_id" android:title="@string/options_menu_share" />
+        <item android:id="@id/save_to_bookmarks_menu_id" android:title="@string/bookmark_this_page" />
+        <item android:id="@id/homepage_context_menu_id" android:title="@string/set_as_homepage" />
+    </group>
+</menu>

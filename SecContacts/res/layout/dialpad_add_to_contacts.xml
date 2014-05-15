@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/dialpad_add_to_contacts" android:background="@drawable/tw_btn_default_holo" android:focusable="true" android:nextFocusDown="@id/digits_container" android:clickable="true" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/dialer_add_contact_add_icon" android:scaleType="fitCenter" />
+    <TextView android:textSize="25.0dip" android:textColor="#fff5f5f5" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/recentCalls_addToContact" android:singleLine="true" />
+</LinearLayout>

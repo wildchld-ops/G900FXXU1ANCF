@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <PreferenceScreen android:enabled="false" android:key="contextual_desc" android:summary="@string/contextual_desc_summary" />
+    <CheckBoxPreference android:title="@string/contextual_pref_title" android:key="overlay_pref" android:defaultValue="false" style="@style/Textsize" />
+</PreferenceScreen>

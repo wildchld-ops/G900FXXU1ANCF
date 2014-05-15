@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.contacts.detail.ActionsViewContainer android:orientation="horizontal" android:id="@id/actions_view_container" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/detail_min_line_item_height">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/primary_action_view" android:paddingLeft="@dimen/detail_list_item_common_left_padding" android:paddingRight="@dimen/detail_list_item_common_right_padding" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@id/type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/detail_list_item_gap_between_type_data" style="@style/ContactDetailItemType" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/primary_data_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/presence_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginRight="4.0dip" android:scaleType="centerInside" android:layout_marginEnd="4.0dip" />
+                    <TextView android:id="@id/data" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/ContactDetailItemData" />
+                    <View android:layout_gravity="center_vertical" android:id="@id/blacklist_indicator" android:background="@drawable/log_rejected_call" android:visibility="gone" android:layout_width="@dimen/detail_list_item_indicator_width" android:layout_height="@dimen/detail_list_item_indicator_height" android:layout_marginLeft="@dimen/detail_list_item_indicator_side_margin" />
+                    <View android:layout_gravity="center_vertical" android:id="@id/primary_indicator" android:background="@drawable/contacts_detail_list_check" android:visibility="gone" android:layout_width="@dimen/detail_list_item_indicator_width" android:layout_height="@dimen/detail_list_item_indicator_height" android:layout_marginLeft="@dimen/detail_list_item_indicator_side_margin" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/primary_action_button" android:visibility="gone" android:layout_width="@dimen/detail_list_item_icon_size" android:layout_height="@dimen/detail_list_item_icon_size" android:scaleType="centerInside" />
+        </LinearLayout>
+    </com.android.contacts.detail.ActionsViewContainer>
+</FrameLayout>

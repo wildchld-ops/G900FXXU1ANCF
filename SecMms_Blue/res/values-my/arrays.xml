@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>ေပ်ာ္ရႊင္ေသာ</item>
+        <item>၀မ္းနည္းသည္</item>
+        <item>မ်က္ေစ့မွိတ္ျပေနျခင္း</item>
+        <item>လွ်ာထုတ္ထားသည္</item>
+        <item>အ့ံၾသခဲ့သည္</item>
+        <item>နမ္းျခင္း</item>
+        <item>ေအာ္ျခင္း</item>
+        <item>ေအးေအးေဆးေဆး</item>
+        <item>ေငြေၾကးပါးစပ္</item>
+        <item>ပါးစပ္ထဲတြင္ေျခေထာက္</item>
+        <item>အ႐ွက္ရေသာ</item>
+        <item>နတ္သမီး</item>
+        <item>မဆုံးျဖတ္ရေသးပါ</item>
+        <item>ငုိေနသည္</item>
+        <item>ႏႈတ္ခမ္းမ်ားကို ခ်ိပ္ပိတ္ထားပါသည္</item>
+        <item>ရယ္ေနသည္</item>
+        <item>႐ႈပ္ေထြးေနပါသည္</item>
+        <item>အသဲ</item>
+        <item>စိတ္ဆိုးေနပါသည္</item>
+        <item>ေလွာင္ျပံဳး</item>
+        <item>ပိုကာမ်က္ႏွာ</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>ကိရိယာ ဖြန္႔ ဆိုက္မ်ားကိုသံုးပါ</item>
+        <item>အေသးဆံုး</item>
+        <item>အေသး</item>
+        <item>ပံုမွန္</item>
+        <item>အႀကီး</item>
+        <item>အႀကီးဆံုး</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>ကိရိယာေဖာင့္ဆိုက္မ်ားကို သံုးပါ</item>
+        <item>အေသးဆံုး</item>
+        <item>အလြန္ေသး</item>
+        <item>အေသး</item>
+        <item>အလတ္</item>
+        <item>အႀကီး</item>
+        <item>အလြန္ႀကီး</item>
+        <item>အႀကီးဆံုး</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>အသံလႊင့္လႈိင္းမ်ားအားလုံး</item>
+        <item>ကၽြန္မ၏ အသံလႊင့္လိႈင္း</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM အက္ကၡရာ</item>
+        <item>ယူနီကုဒ္</item>
+        <item>အလုိအေလ်ာက္</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>၀ ရက္</item>
+        <item>1 ရက္</item>
+        <item>၂ ရက္</item>
+        <item>၃ ရက္</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>ကန္႔သတ္ထားေသာ</item>
+        <item>သတိေပးခ်က္</item>
+        <item>အခမဲ့</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>အၿမဲတမ္း</item>
+        <item>ခ်က္ခ်င္း</item>
+        <item>ဘယ္ေတာ့မွ</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>ေအာ္ရီဂါမီ</item>
+        <item>တံဆိပ္</item>
+        <item>ေပါ့ပ္</item>
+        <item>ေမာ္ဒန္</item>
+        <item>ပန္းေရာင္</item>
+        <item>ႀကိဳတင္စီစဥ္ထားမႈ</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>ျပည္တြင္းသံုးထဲ ေရာက္လွ်င္ အလိုလို ပို႔ပါ</item>
+        <item>ယခု ပို႔ပါ</item>
+        <item>စာၾကမ္းအျဖစ္ သိမ္းပါ</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>တစ္ႀကိမ္</item>
+        <item>၂ မိနစ္တုိင္း</item>
+        <item>၁၅ မိနစ္တုိင္း</item>
+        <item>ပိတ္</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>ဘယ္ေတာ့မွ</item>
+        <item>၂ မိနစ္တုိင္း</item>
+        <item>၁၀ မိနစ္တုိင္း</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>ျပည္တြင္း</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 နာရီ</item>
+        <item>၆ နာရီ</item>
+        <item>၂၄ နာရီ</item>
+        <item>၂ ရက္</item>
+        <item>ၾကိဳတင္စီစဥ္ထားေသာ ကြန္ယက္</item>
+        <item>အမ်ားဆံုး</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>၀</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>ျမင့္ေသာ</item>
+        <item>ပုံမွန္</item>
+        <item>နည္းေနပါသည္</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>၀</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>ခ်က္ခ်င္း</item>
+        <item>1 နာရီ</item>
+        <item>၆ နာရီ</item>
+        <item>၂၄ နာရီ</item>
+        <item>ရက္သတၱပတ္ ၁ ပတ္</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>၀</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>၃ စကၠန္႔</item>
+        <item>၅ စကၠန္႔</item>
+        <item>၁၀ စကၠန္႔</item>
+        <item>စကၠန္႔ ၂၀</item>
+        <item>၃၀ စကၠန္႔</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>ပိတ္</item>
+        <item>မက္ေဆ့ခ်္ အားလံုးကို ပိတ္ဆီးထားပါ</item>
+        <item>မွတ္ပံုတင္ထားသည့္ နံပါတ္မ်ားႏွင့္ စကားစုမ်ား ပိတ္ဆီးပါ</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>ႏွင့္ အတိအက်တူပါသည္</item>
+        <item>ႏွင့္ စတင္</item>
+        <item>ႏွင့္ဆံုးပါသည္။</item>
+        <item>ပါ၀င္သည္မ်ား</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>မွတ္တမ္းမ်ား</item>
+        <item>အဆက္အသြယ္မ်ား</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>မက္ေဆ့ခ်္ ပိတ္ပင္ထားျခင္း</item>
+        <item>ဖုန္းေခၚျခင္းအား ပိတ္ဆီးျခင္း</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>မက္ေဆ့ခ်္ ပိတ္ပင္ထားျခင္း</item>
+        <item>အသံ ေခၚမႈ ပိတ္ဆီးျခင္း</item>
+        <item>ဗီဒီယိုေခၚဆိုမႈ ပိတ္ဆီးျခင္း</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>သီးသန္႔ေနရာ ဖယ္ထားၿပိး</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>ပုံမွန္</item>
+        <item>ျမင္ေသာ</item>
+    </string-array>
+    <string-array name="templates">
+        <item>ေဆာရီးပဲ၊ ခင္ဗ်ာ ဖုန္းေခၚတာ ကၽြန္ေတာ္ လြတ္သြားတယ္။</item>
+        <item>ကၽြန္ေတာ္ ေနာက္က်ေနတယ္၊ ဒါေပမဲ့၊ မိနစ္ပိုင္းအတြင္း ေရာက္ေတာ့မယ္။</item>
+        <item>အေျခအေန ဘယ္လိုလဲ?</item>
+        <item>ဘယ္ႏွယ္လဲ?</item>
+        <item>ခင္ဗ်ား ဘယ္မွာလဲ?</item>
+        <item>ဤမဲဆဲဇ္ကို ရသည့္အခါမွာ ကၽြန္ေတာ့္ကို ဖုန္းဆက္ပါ။</item>
+        <item>ကၽြန္ေတာ္တို႔ ဘယ္ေတာ့ ေတြ႔ႏိုင္လဲ?</item>
+        <item>ကၽြန္ေတာ္ မၾကာခင္ ခင္ဗ်ားႏွင့္ စကားေျပာမယ္။</item>
+        <item>အစည္းအေဝး ဘယ္မွာလဲ?</item>
+        <item>နံပါတ္ ဘယ္ေလာက္နည္း?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>ဘရာဇီး ေပၚတူဂီ</item>
+        <item>အဂၤလိပ္ (UK)</item>
+        <item>အဂၤလိပ္ (US)</item>
+        <item>ျပင္သစ္</item>
+        <item>ဂ်ာမန္</item>
+        <item>အီတလီ</item>
+        <item>ဂ်ပန္</item>
+        <item>ကိုရီးယား</item>
+        <item>ရိုးရွင္းထားေသာ တရုပ္စကား</item>
+        <item>ရုရွား</item>
+        <item>စပိန္</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>အေသးဆံုး</item>
+        <item>အေသး</item>
+        <item>ပံုမွန္</item>
+        <item>အႀကီး</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>အားလုံး</item>
+        <item>ေပးပုိ႔သူ</item>
+        <item>ပါ၀င္သည့္အရာ</item>
+    </string-array>
+</resources>

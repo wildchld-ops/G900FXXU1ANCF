@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/qwerty_keypad_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/input_main" android:background="@drawable/qwerty_keypad_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/one_hand_left_area_layout" android:layout_width="126.0px" android:layout_height="fill_parent" android:layout_marginLeft="0.0px" android:layout_marginTop="140.0px" android:layout_marginRight="@dimen/one_hand_left_right_view_horizontal_gap_arrow" android:layout_marginBottom="235.0px">
+            <ImageView android:id="@id/one_hand_left_area" android:paddingLeft="24.0px" android:paddingTop="147.0px" android:paddingRight="0.0px" android:paddingBottom="147.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/one_hand_left_btn_9_xml" android:maxWidth="102.0px" android:maxHeight="69.0px" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/emoticonView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.diotek.ime.implement.view.emoticon.EmoticonLayout android:layout_gravity="center" android:id="@id/emoticonLayout" android:paddingTop="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.diotek.ime.implement.view.KeyboardView android:layout_gravity="center" android:id="@id/keyboardView" android:paddingTop="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/one_hand_right_area_layout" android:layout_width="126.0px" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/one_hand_left_right_view_horizontal_gap_arrow" android:layout_marginTop="140.0px" android:layout_marginRight="0.0px" android:layout_marginBottom="235.0px">
+            <ImageView android:id="@id/one_hand_right_area" android:paddingLeft="0.0px" android:paddingTop="147.0px" android:paddingRight="24.0px" android:paddingBottom="147.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/one_hand_right_btn_9_xml" android:maxWidth="102.0px" android:maxHeight="69.0px" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/one_hand_dim_view" android:background="#7f000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

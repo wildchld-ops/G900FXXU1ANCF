@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>খুশী</item>
+        <item>দুঃখ</item>
+        <item>চোখটেপা</item>
+        <item>জিভ বার করা</item>
+        <item>বিস্মিত</item>
+        <item>চুম্বন</item>
+        <item>ইয়েলিং</item>
+        <item>শান্ত</item>
+        <item>অর্থ লিপ্সা</item>
+        <item>বিব্রত করার মত কিছু বলা</item>
+        <item>অপ্রস্তুত</item>
+        <item>দেবদূত</item>
+        <item>স্থির হয়নি</item>
+        <item>ক্রন্দনরত</item>
+        <item>মুখ বন্ধ রেখে গোপনীয়তা বজায়</item>
+        <item>হাস্যরত</item>
+        <item>বিশৃঙ্খলিত</item>
+        <item>হার্ট</item>
+        <item>ম্যাড</item>
+        <item>স্মার্ক</item>
+        <item>পোকার ফেস</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>ডিভাইস ফন্ট আকার ব্যবহার করুন</item>
+        <item>ক্ষুদ্র</item>
+        <item>ছোট</item>
+        <item>স্বাভাবিক</item>
+        <item>বড়</item>
+        <item>বিশাল</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>ডিভাইস ফন্ট আকার ব্যবহার করুন</item>
+        <item>ক্ষুদ্র</item>
+        <item>অতিরিক্ত ছোট</item>
+        <item>ছোট</item>
+        <item>মাঝারি</item>
+        <item>বড়</item>
+        <item>অতিরিক্ত বড়</item>
+        <item>বিশাল</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>সমস্ত চ্যানেল</item>
+        <item>আমার চ্যানেল</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM অক্ষরমালা</item>
+        <item>ইউনিকোড</item>
+        <item>স্বয়ংক্রিয়</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 দিন</item>
+        <item>1 দিন</item>
+        <item>2 দিন</item>
+        <item>3 দিন</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>নিষিদ্ধ</item>
+        <item>সাবধানতা</item>
+        <item>বিনামূল্যে</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>সর্বদা</item>
+        <item>প্রম্পট</item>
+        <item>কখনো না</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>অরিগামি</item>
+        <item>লেবেল</item>
+        <item>পপ</item>
+        <item>আধুনিক</item>
+        <item>গোলাপী</item>
+        <item>ডিফল্ট</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>একবার</item>
+        <item>প্রতি 2 মিনিটে</item>
+        <item>প্রতি 15 মিনিটে</item>
+        <item>বন্ধ</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>কখনো না</item>
+        <item>প্রতি 2 মিনিটে</item>
+        <item>প্রতি 10 মিনিটে</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>ডোমেস্টিক</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 ঘন্টা</item>
+        <item>6 ঘন্টা</item>
+        <item>24 ঘন্টা</item>
+        <item>2 দিন</item>
+        <item>নেটওয়ার্ক ডিফল্ট</item>
+        <item>সর্বাধিক</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>উচ্চ</item>
+        <item>সাধারণ</item>
+        <item>নীচু</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>এখনই</item>
+        <item>1 ঘন্টা</item>
+        <item>6 ঘন্টা</item>
+        <item>24 ঘন্টা</item>
+        <item>1 সপ্তাহ</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 সেকেন্ড</item>
+        <item>5 সেকেন্ড</item>
+        <item>10 সেকেন্ড</item>
+        <item>20 সেকেন্ড</item>
+        <item>30 সেকেন্ড</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>বন্ধ</item>
+        <item>সব বার্তা অবরোধ</item>
+        <item>নিবন্ধিভুক্ত নম্বর ও বাক্যাংশ অবরোধ করুন</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>এর মতো একেবারে একরকম</item>
+        <item>এর দ্বারা শুরু</item>
+        <item>এর দ্বারা সমাপ্তি</item>
+        <item>অন্তর্ভুক্ত</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>লগস</item>
+        <item>পরিচিতি</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>বার্তা অবরুদ্ধ</item>
+        <item>কল অবরুদ্ধ</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>বার্তা অবরুদ্ধ</item>
+        <item>ভয়েস কল অবরোধ</item>
+        <item>ভিডিও কল অবরুদ্ধ</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>সংরক্ষিত করা হয়েছে।</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>সাধারণ</item>
+        <item>উচ্চ</item>
+    </string-array>
+    <string-array name="templates">
+        <item>দুঃখিত, আমি আপনার কল মিস করেছি।</item>
+        <item>আমার দেরি হয়ে গেছে, কিন্তু আমি কয়েক মিনিটের মধ্যে ওখানে যাচ্ছি৷</item>
+        <item>কেমন চলছে?</item>
+        <item>কেমন চলছে?</item>
+        <item>আপনি কোথায়?</item>
+        <item>এই বার্তা পেলে অনুগ্রহ করে আমাকে কল করুন৷</item>
+        <item>আমরা কখন সাক্ষাত্‍ করতে পারব?</item>
+        <item>আমি আপনার সাথে শীঘ্রই কথা বলব৷</item>
+        <item>মিটিং কোথায়?</item>
+        <item>নম্বরটি কি?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>ব্রাজিলীয় পর্তুগিজ</item>
+        <item>ইংরাজি (UK)</item>
+        <item>ইংরেজি (US)</item>
+        <item>ফ্রেঞ্চ</item>
+        <item>জার্মান</item>
+        <item>ইটালিয়ান</item>
+        <item>জাপানিজ</item>
+        <item>কোরিয়ান</item>
+        <item>সরলীকৃত চাইনিজ</item>
+        <item>রুশ</item>
+        <item>স্প্যানিশ</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>ক্ষুদ্র</item>
+        <item>ছোট</item>
+        <item>স্বাভাবিক</item>
+        <item>বড়</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>সমস্ত</item>
+        <item>প্রেরক</item>
+        <item>বিষয়বস্তু</item>
+    </string-array>
+</resources>

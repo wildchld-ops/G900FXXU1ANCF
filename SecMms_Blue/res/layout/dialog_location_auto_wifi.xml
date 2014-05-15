@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/loc_message" android:paddingTop="0.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/loc_wifi_dialog_text" />
+        <com.sec.android.touchwiz.widget.TwCheckBox android:textAppearance="?android:textAppearanceMedium" android:id="@id/do_not_ask_again" android:paddingLeft="40.0dip" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/loc_wifi_dialog_do_not_ask_again" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:layout_width="0.0px" android:layout_height="0.0px" />
+    <ViewStub android:id="@id/tab_navigator_stub" android:layout="@layout/tab_navigator_main" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/sbrowser_parent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/fragment_container" android:background="@*android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/sbrowser_quicklaunch_container" android:background="@color/light_background_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/sbrowser_pinnedmostvisited_container" android:background="@color/light_background_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/sbrowser_content_container" android:background="@color/light_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/sbrowser_content_view_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/ph_content_view_holder" />
+        </FrameLayout>
+        <ImageView android:id="@id/sbrowser_control_content_transition" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height_no_shadow" android:src="@drawable/sbrowser_control_content_fade" />
+        <ViewStub android:id="@id/air_browse_layout" android:layout="@layout/air_browse_view_layout" android:inflatedId="@id/air_browse_linear_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/tab_animation_layout" android:layout="@layout/tab_animation_view_layout" android:inflatedId="@id/tab_animation_linear_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.sec.android.app.sbrowser.common.ChromeViewAnimation android:id="@id/chromeview_to_chromeview_rotation_animator" android:background="#ffeeeeee" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.sec.android.app.sbrowser.common.SnapshotView android:id="@id/chromeview_to_chromeview_rotation_animator_before_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.sec.android.app.sbrowser.common.WebLiveProxy android:id="@id/chromeview_to_chromeview_rotation_animator_after_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.sec.android.app.sbrowser.common.ChromeViewAnimation> -
+<com.sec.android.app.sbrowser.toolbar.ui.ControlContainer android:orientation="vertical" android:id="@id/sbrowser_control_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/sbrowser_control_container_height">
+            <include android:id="@id/sbrowser_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/toolbar" />
+            <ViewStub android:id="@id/find_toolbar_stub" android:layout="@layout/find_toolbar" android:inflatedId="@id/subTree" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height_no_shadow" />
+        </com.sec.android.app.sbrowser.toolbar.ui.ControlContainer>
+        <FrameLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/sbrowser_bottom_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/sbrowser_bottombar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/bottombar" />
+            <include android:id="@id/sbrowser_bottombar_easymode" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/bottombar_easymode" />
+        </FrameLayout>
+        <ViewStub android:layout_gravity="bottom" android:id="@id/sbrowser_undo_container" android:layout="@layout/undobar_stub_bookmarks" android:inflatedId="@id/sbrowser_undo_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</merge>

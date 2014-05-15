@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>आनंदी</item>
+        <item>दुःखी</item>
+        <item>डोळे मिचकावणे</item>
+        <item>चिडवणे</item>
+        <item>आश्चर्यचकित झालेले</item>
+        <item>चुंबन घेणे</item>
+        <item>ओरडणे</item>
+        <item>छान</item>
+        <item>पैज लावायची का</item>
+        <item>घोडचूक</item>
+        <item>गोंधळलेला</item>
+        <item>देवदूत</item>
+        <item>अनिश्चित</item>
+        <item>रडत</item>
+        <item>तोंड बंद आहे</item>
+        <item>हसणारा</item>
+        <item>गोंधळले</item>
+        <item>हृदय</item>
+        <item>वेडा</item>
+        <item>स्मर्क</item>
+        <item>पोकर चेहरा</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>उपकरण फोन्ट आकार वापरा</item>
+        <item>सूक्ष्म</item>
+        <item>लहान</item>
+        <item>सामान्य</item>
+        <item>मोठे</item>
+        <item>प्रचंड</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>उपकरण फोन्ट आकार वापरा</item>
+        <item>सूक्ष्म</item>
+        <item>जास्‍त लहान</item>
+        <item>लहान</item>
+        <item>मध्यम</item>
+        <item>मोठे</item>
+        <item>अधिक मोठे</item>
+        <item>प्रचंड</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>सर्व चॅनल</item>
+        <item>माझा चॅनेल</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-अक्षरमाला</item>
+        <item>यूनिकोड</item>
+        <item>स्वयंचलित</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 दिवस</item>
+        <item>1 दिवस</item>
+        <item>2 दिवस</item>
+        <item>3 दिवस</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>प्रतिबंधित</item>
+        <item>धोक्याचा इशारा</item>
+        <item>मोफत</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>नेहमी</item>
+        <item>तत्पर</item>
+        <item>कधी नाही</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>ओरिगामि</item>
+        <item>लेबल</item>
+        <item>पॉप</item>
+        <item>मॉडर्न</item>
+        <item>गुलाबी</item>
+        <item>डिफॉल्ट</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>एकदा</item>
+        <item>दर 2 मिनिटांनी</item>
+        <item>दर 15 मिनिटांनी</item>
+        <item>बंद</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>कधी नाही</item>
+        <item>दर 2 मिनिटांनी</item>
+        <item>दर 10 मिनिटांनी</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>देशांतर्गत</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 तास</item>
+        <item>6 तास</item>
+        <item>24 तास</item>
+        <item>2 दिवस</item>
+        <item>नेटवर्क डिफॉल्ट</item>
+        <item>अधिकतम</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>उंच</item>
+        <item>सामान्य</item>
+        <item>कमी</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>तात्काळ</item>
+        <item>1 तास</item>
+        <item>6 तास</item>
+        <item>24 तास</item>
+        <item>1 आठवडा</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 सेकंद</item>
+        <item>5 सेकंद</item>
+        <item>10 सेकंद</item>
+        <item>20 सेकंद</item>
+        <item>30 सेकंद</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>बंद</item>
+        <item>सर्व संदेश ब्लॉक करा</item>
+        <item>नोंदणीकृत नंबर्स आणि फ्रेजेस ब्लॉक करा</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>अगदी त्याचप्रमाणे</item>
+        <item>याने प्रारंभ होते</item>
+        <item>याने समाप्त होते</item>
+        <item>समाविष्ट करणे</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>नोंदी</item>
+        <item>संपर्क</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>मेसेज ब्लॉक</item>
+        <item>कॉल ब्लॉक</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>मेसेज ब्लॉक</item>
+        <item>व्हॉईस कॉल ब्लॉक</item>
+        <item>व्हिडियो कॉल ब्लॉक</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>आरक्षित.</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>सर्वसाधारण</item>
+        <item>उंच</item>
+    </string-array>
+    <string-array name="templates">
+        <item>माफ करा, मी तुमचा कॉल घेऊ शकलो नाही.</item>
+        <item>मला उशीर झाला आहे,पण मी काही मिनिटातच तिथे असेन.</item>
+        <item>कसे चालू आहे?</item>
+        <item>कसे आहात?</item>
+        <item>आपण कोठे आहात?</item>
+        <item>हा संदेश मिळाल्या नंतर कृपया मला कॉल करा.</item>
+        <item>आपण कधी भेटायचे आहे?</item>
+        <item>लककरच आपल्याशी बोलेन.</item>
+        <item>बैठक कुठे आहे?</item>
+        <item>नंबर कोणता आहे?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>ब्राझिलियन पोर्तुगीज</item>
+        <item>इंग्लिश (UK)</item>
+        <item>इंग्लिश (US)</item>
+        <item>फ्रेंच</item>
+        <item>जर्मन</item>
+        <item>इटालियन</item>
+        <item>जपानी</item>
+        <item>कोरियन</item>
+        <item>सिंपलीफाइड चायनीझ</item>
+        <item>रशियन</item>
+        <item>स्पॅनिश</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>सूक्ष्म</item>
+        <item>लहान</item>
+        <item>सामान्य</item>
+        <item>मोठे</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>सर्व</item>
+        <item>पाठवणारा</item>
+        <item>सामग्री</item>
+    </string-array>
+</resources>

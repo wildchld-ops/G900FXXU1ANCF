@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s beszélgetés</item>
+        <item quantity="one">1 beszélgetés</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s üzenet</item>
+        <item quantity="one">1 üzenet</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d beszélgetés</item>
+        <item quantity="one">%d beszélgetés</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s és még %2$d</item>
+        <item quantity="one">%s és még 1</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s és még %2$d</item>
+        <item quantity="one">%s és még 1</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">A SIM-kártyáról törölt üzenetek.</item>
+        <item quantity="one">Törölte az üzenetet a SIM kártyáról.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">A SIM-kártyáról átmásolt üzenetek.</item>
+        <item quantity="one">Üzenet átmásolva a SIM kártyáról.</item>
+    </plurals>
+</resources>

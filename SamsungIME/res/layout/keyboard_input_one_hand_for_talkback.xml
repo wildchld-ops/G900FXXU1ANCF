@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/input_main" android:background="@drawable/qwerty_keypad_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/one_hand_left_area_layout" android:layout_width="88.0px" android:layout_height="fill_parent" android:layout_marginLeft="0.0px" android:layout_marginRight="@dimen/one_hand_left_right_view_horizontal_gap_arrow">
+        <ImageView android:id="@id/one_hand_left_area" android:paddingLeft="18.0px" android:paddingTop="192.0px" android:paddingRight="0.0px" android:paddingBottom="250.0px" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/one_hand_left_btn_9_xml" android:maxWidth="68.0px" android:maxHeight="48.0px" android:contentDescription="@string/accessibility_description_left_handed" />
+    </LinearLayout>
+    <com.diotek.ime.implement.view.KeyboardView android:id="@id/keyboardView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <LinearLayout android:id="@id/one_hand_right_area_layout" android:layout_width="88.0px" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/one_hand_left_right_view_horizontal_gap_arrow" android:layout_marginRight="0.0px">
+        <ImageView android:id="@id/one_hand_right_area" android:paddingLeft="0.0px" android:paddingTop="192.0px" android:paddingRight="18.0px" android:paddingBottom="250.0px" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/one_hand_right_btn_9_xml" android:maxWidth="68.0px" android:maxHeight="48.0px" android:contentDescription="@string/accessibility_description_right_handed" />
+    </LinearLayout>
+    <ImageView android:id="@id/one_hand_dim_view" android:background="#7f000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

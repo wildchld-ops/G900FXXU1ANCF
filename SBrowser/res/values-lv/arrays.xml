@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Vienmēr ieslēgts</item>
+        <item>Pēc pieprasījuma</item>
+        <item>Izslēgt</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Noklusējuma lapa</item>
+        <item>Pašreizējā lapa</item>
+        <item>Ātrā piekļuve</item>
+        <item>Biežāk apmeklētās vietnes</item>
+        <item>Cits</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Ierīce</item>
+        <item>SD karte</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latīņu-1 (ISO-8859-1)</item>
+        <item>Unikods (UTF-8)</item>
+        <item>Ķīniešu (GBK)</item>
+        <item>Ķīniešu (Big5)</item>
+        <item>Japāņu (ISO-2022-JP)</item>
+        <item>Japāņu (SHIFT JIS)</item>
+        <item>Japāņu (EUC-JP)</item>
+        <item>Korejiešu (EUC-KR)</item>
+        <item>Automātiski noteikt</item>
+    </string-array>
+</resources>

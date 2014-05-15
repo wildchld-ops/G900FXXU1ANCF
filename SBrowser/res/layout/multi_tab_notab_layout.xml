@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/empty_view_popup" android:background="@drawable/internet_no_item_popup_bg_holo_light" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="6.0dip" android:maxWidth="308.0dip" android:text="@string/create_new_tab_text" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/no_tab_icon" android:background="@drawable/internet_ic_no_item" android:clickable="false" android:layout_width="126.0dip" android:layout_height="126.0dip" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <TextView android:textSize="@dimen/sbrowser_multiwindow_nowindow_text_size" android:textColor="#ff000000" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_manager_no_window" android:alpha="0.7" android:fontFamily="Roboto_Light" />
+    </LinearLayout>
+</RelativeLayout>

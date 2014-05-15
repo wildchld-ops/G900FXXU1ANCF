@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/auto_link_item_padding_side" android:layout_width="fill_parent" android:layout_height="@dimen/auto_link_sub_title_height" style="@style/contactsSubTitleBackground">
+        <TextView android:gravity="left|center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/auto_link_sort_by" style="@style/LinkContactHeaderStyle" />
+        <Spinner android:layout_gravity="center_vertical" android:id="@id/auto_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/dropdown_height" style="?android:attr/actionDropDownStyle" />
+    </LinearLayout>
+    <ListView android:id="@*android:id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+    <include android:id="@id/auto_link_empty_layout" layout="@layout/empty_layout" />
+</LinearLayout>

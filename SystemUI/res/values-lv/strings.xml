@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_date_format_day_month_k">"E
+d. MMM"</string>
+    <string name="status_bar_date_format_month_day_k">"E
+d. MMM"</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">E, MMM d</string>
+    <string name="abbrev_wday_day_abbrev_month_no_year">E, d MMM</string>
+    <string name="app_label">Sist. UI</string>
+    <string name="status_bar_clear_all_button">Nodzēst</string>
+    <string name="status_bar_do_not_disturb_button">Netraucēt</string>
+    <string name="status_bar_please_disturb_button">Rādīt paziņojumus</string>
+    <string name="status_bar_recent_remove_item_title">Noņemt no saraksta</string>
+    <string name="status_bar_recent_inspect_item_title">Informācija par programmu</string>
+    <string name="status_bar_no_recent_apps">Nav nesen lietotu programmu</string>
+    <string name="status_bar_accessibility_dismiss_recents">Nerādīt nesen izmantotās lietotnes</string>
+    <string name="status_bar_no_notifications_title">Nav paziņojumu</string>
+    <string name="status_bar_ongoing_events_title">Notiekošs</string>
+    <string name="status_bar_latest_events_title">Paziņojumi</string>
+    <string name="battery_low_title">Pievienojiet lādētāju.</string>
+    <string name="battery_low_subtitle">Akumulators drīz izlādēsies.</string>
+    <string name="battery_low_percent_format">Atlicis: %d%%</string>
+    <string name="invalid_charger">USB uzlāde netiek atbalstīta. Izmantojiet komplektācijā iekļauto lādētāju.</string>
+    <string name="battery_low_why">Akumulatora lietojums</string>
+    <string name="status_bar_settings_settings_button">Iestatījumi</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Lidojuma režīms</string>
+    <string name="status_bar_settings_auto_rotation">Automātiski pagriezt ekrānu</string>
+    <string name="status_bar_settings_mute_label">Izsl. sk.</string>
+    <string name="status_bar_settings_auto_brightness_label">Auto.</string>
+    <string name="status_bar_settings_notifications">Paziņojumi</string>
+    <string name="bluetooth_tethered">Bluetooth piesaistīts</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Ievades metožu iestatīšana</string>
+    <string name="status_bar_use_physical_keyboard">Fiziskā tastatūra</string>
+    <string name="usb_device_permission_prompt">Vai atļaut programmai %1$s piekļūt USB ierīcei?</string>
+    <string name="usb_accessory_permission_prompt">Vai ļaut programmai %1$s piekļūt USB piederumam?</string>
+    <string name="usb_device_confirm_prompt">Vai atvērt %1$s, ja ir pievienota šī USB ierīce?</string>
+    <string name="usb_accessory_confirm_prompt">Vai atvērt %1$s, ja ir pievienots šis USB piederums?</string>
+    <string name="usb_accessory_uri_prompt">Nav instalētu programmu, kas darbotos ar šo USB piederumu. Uzziniet vairāk par šo piederumu vietnē %s.</string>
+    <string name="title_usb_accessory">USB piederums</string>
+    <string name="label_view">Skatīt</string>
+    <string name="always_use_device">Izmantot pēc noklusējuma šai USB ierīcei</string>
+    <string name="always_use_accessory">Izmantot pēc noklusējuma šim USB piederumam</string>
+    <string name="usb_debugging_title">Vai atļaut USB atkļūdošanu?</string>
+    <string name="usb_debugging_message">"Datora RSA atslēgas pirksta nospiedums ir:
+%1$s"</string>
+    <string name="usb_debugging_always">Vienmēr atļaut šim datoram</string>
+    <string name="compat_mode_on">Tuvināt, lai pielāg. ekr.</string>
+    <string name="compat_mode_off">Izstiepiet, lai piel.ekr.</string>
+    <string name="compat_mode_help_header">Saderības tālummaiņa</string>
+    <string name="compat_mode_help_body">Ja programma ir paredzēta mazākam ekrānam, blakus pulkstenim tiks parādīta tālummaiņas vadīkla.</string>
+    <string name="screenshot_saving_ticker">Saglabā ekrānuzņēmumu…</string>
+    <string name="screenshot_saving_title">Saglabā ekrānuzņēmumu…</string>
+    <string name="screenshot_saving_text">Ekrānuzņēmums tiek saglabāts.</string>
+    <string name="screenshot_saved_title">Ekrānuzņēmums ir uzņemts</string>
+    <string name="screenshot_saved_text">Pieskarieties, lai skatītu ekrānuzņēmumu.</string>
+    <string name="screenshot_failed_title">Nevar veikt ekrānuzņēmumu.</string>
+    <string name="screenshot_failed_text">Nevar saglabāt ekrānuzņēmumu. Iespējams, ierīces iekšējā atmiņa tiek lietota.</string>
+    <string name="screenshot_failed_due_to_drm_text">Nevar tvert ekrānu. Ar DRM aizsargāts attēls.</string>
+    <string name="one_item_will_be_deleted">Tiks izdzēsts 1 objekts.</string>
+    <string name="usb_preference_title">USB failu pārsūtīš. iespējas</string>
+    <string name="use_mtp_button_title">Pievienot kā multivides atskaņotāju (MTP)</string>
+    <string name="use_ptp_button_title">Pievienot kā kameru (PTP)</string>
+    <string name="installer_cd_button_title">Instalēt Android failu pārsūtīšanas programmu operētājsistēmai Mac</string>
+    <string name="accessibility_back">Atpakaļ</string>
+    <string name="accessibility_home">Mājas</string>
+    <string name="accessibility_menu">Izvēlne</string>
+    <string name="accessibility_recent">Nesen lietotās programmas</string>
+    <string name="accessibility_ime_switch_button">Nospiediet ievades metodes pogu.</string>
+    <string name="accessibility_compatibility_zoom_button">Saderības tālummaiņas poga</string>
+    <string name="accessibility_compatibility_zoom_example">Tālummainīt uz lielāku ekrānu</string>
+    <string name="accessibility_bluetooth_connected">Izveidots savienojums ar Bluetooth</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth atvienots.</string>
+    <string name="accessibility_no_battery">Nav akumulatora</string>
+    <string name="accessibility_battery_one_bar">Viens akumulatora uzlādes līmeņa stabiņš</string>
+    <string name="accessibility_battery_two_bars">Divi akumulatora uzlādes līmeņa stabiņi</string>
+    <string name="accessibility_battery_three_bars">Trīs akumulatora uzlādes līmeņa stabiņi</string>
+    <string name="accessibility_battery_full">Akumulators pilns.</string>
+    <string name="accessibility_no_phone">Nav tālruņa signāla</string>
+    <string name="accessibility_phone_one_bar">Viens tālruņa signāla stabiņš</string>
+    <string name="accessibility_phone_two_bars">Divi tālruņa signāla stabiņi</string>
+    <string name="accessibility_phone_three_bars">Trīs tālruņa signāla stabiņi</string>
+    <string name="accessibility_phone_signal_full">Pilns tālruņa signāls</string>
+    <string name="accessibility_no_data">Nav datu</string>
+    <string name="accessibility_data_one_bar">Viens datu signāla stabiņš</string>
+    <string name="accessibility_data_two_bars">Divi datu signāla stabiņi</string>
+    <string name="accessibility_data_three_bars">Trīs datu signāla stabiņi</string>
+    <string name="accessibility_data_four_bars">Četri datu signāla stabiņi</string>
+    <string name="accessibility_data_five_bars">Pieci datu signāla stabiņi</string>
+    <string name="accessibility_data_signal_full">Pilns datu signāls</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">Nav Wi-Fi signāla</string>
+    <string name="accessibility_wifi_one_bar">Viens Wi-Fi signāla stabiņš</string>
+    <string name="accessibility_wifi_two_bars">Divi Wi-Fi signāla stabiņi</string>
+    <string name="accessibility_wifi_three_bars">Trīs Wi-Fi signāla stabiņi</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi signāls ir pilns.</string>
+    <string name="accessibility_no_wimax">Bez WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX viena josla.</string>
+    <string name="accessibility_wimax_two_bars">WiMAX divas joslas.</string>
+    <string name="accessibility_wimax_three_bars">WiMAX trīs joslas.</string>
+    <string name="accessibility_wimax_signal_full">WiMAX signāls pilns.</string>
+    <string name="accessibility_no_signal">Bez signāla</string>
+    <string name="accessibility_not_connected">Nav savienots.</string>
+    <string name="accessibility_zero_bars">Nulle joslu</string>
+    <string name="accessibility_one_bar">Viena josla</string>
+    <string name="accessibility_two_bars">Divas joslas</string>
+    <string name="accessibility_three_bars">Trīs joslas</string>
+    <string name="accessibility_phone_four_bars">Četri tālruņa signāla stabiņi</string>
+    <string name="accessibility_phone_five_bars">Pieci tālruņa signāla stabiņi</string>
+    <string name="accessibility_signal_full">Pilna piekļuve signālam</string>
+    <string name="accessibility_desc_on">Ieslēgt</string>
+    <string name="accessibility_desc_off">Izslēgt</string>
+    <string name="accessibility_desc_connected">Savienots.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Viesabonēšana</string>
+    <string name="accessibility_data_connection_edge">Apmale</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Nav SIM</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth piesaiste</string>
+    <string name="accessibility_airplane_mode">Lidojuma režīms</string>
+    <string name="accessibility_battery_level">Akumulatora uzlādes līmenis ir %d%%.</string>
+    <string name="accessibility_settings_button">Sistēmas iestatījumi</string>
+    <string name="accessibility_notifications_button">Paziņojumi</string>
+    <string name="accessibility_remove_notification">Notīrīt paziņojumus</string>
+    <string name="accessibility_gps_enabled">GPS ir ieslēgts</string>
+    <string name="accessibility_gps_acquiring">Iegūst GPS…</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter ir aktivizēts</string>
+    <string name="accessibility_ringer_vibrate">Zvana signāla vibrācija</string>
+    <string name="accessibility_ringer_silent">Izslēgt zvana signālu</string>
+    <string name="accessibility_recents_item_dismissed">Lietotne %s vairs netiek rādīta.</string>
+    <string name="accessibility_notification_dismissed">Paziņojums netiek rādīts.</string>
+    <string name="accessibility_desc_notification_shade">Paziņojumu panelis</string>
+    <string name="accessibility_desc_quick_settings">Ātrie iestatījumi</string>
+    <string name="accessibility_desc_recent_apps">Nesen lietotās programmas</string>
+    <string name="accessibility_quick_settings_user">Lietotājs: %s</string>
+    <string name="accessibility_quick_settings_wifi">%1$s. %2$s</string>
+    <string name="accessibility_quick_settings_mobile">Mobilo sakaru tīkls. %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">Akumulatora statuss: %s</string>
+    <string name="accessibility_quick_settings_airplane">Lidojuma režīma statuss: %s</string>
+    <string name="accessibility_quick_settings_bluetooth">Bluetooth statuss: %s</string>
+    <string name="accessibility_quick_settings_alarm">Modinātājs ir iestatīts uz %s.</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">Ātrais savien.</string>
+    <string name="accessibility_qconnect_button_tts">Ātrais savienojums</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G-3G dati ir deaktivizēti</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G dati ir deaktivizēti</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Mobilie dati ir deaktivizēti</string>
+    <string name="data_usage_disabled_dialog_title">Dati ir deaktivizēti</string>
+    <string name="data_usage_disabled_dialog">Sasniegts norādītais datu lietošanas ierobežojums. Par turpmāku datu lietošanu pakalpojumu sniedzējs var aprēķināt maksu.</string>
+    <string name="data_usage_disabled_dialog_enable">Vēlreiz aktivizēt datu sav.</string>
+    <string name="data_usage_enable_mobile_warning">Par savienojuma izveidi, izmantojot pakešu datus, var tikt piemērota papildu maksa. Vai turpināt?</string>
+    <string name="data_usage_disable_mobile">Vai deaktivizēt mobilo datu savienojumu?</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Nav interneta savienojuma</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Izveidots Wi-Fi sav.</string>
+    <string name="gps_notification_searching_text">Meklē, izmantojot GPS…</string>
+    <string name="gps_notification_found_text">GPS iestatītā atrašanās vieta</string>
+    <string name="accessibility_clear_all">Notīrīt visus paziņojums</string>
+    <string name="status_bar_notification_inspect_item_title">Informācija par programmu</string>
+    <string name="close_universe">Aizvērt</string>
+    <string name="notifications_off_title">Paziņojumi deaktivizēti</string>
+    <string name="notifications_off_text">Pieskarieties, lai aktivizētu paziņojumus.</string>
+    <string name="accessibility_rotation_lock_off">Ekrāns tiks pagriezts automātiski.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Ekrāns tagad ir bloķēts ainavas orientācijā.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Ekrāns tagad ir bloķēts portreta orientācijā.</string>
+    <string name="jelly_bean_dream_name">BeanFlinger</string>
+    <string name="start_dreams">Ekrānsaudzētājs</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">Lidojuma režīms</string>
+    <string name="quick_settings_battery_charging_label">Notiek uzlāde, %d%%</string>
+    <string name="quick_settings_battery_charged_label">Uzlādēts.</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d ierīce(-es))</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth izslēgts</string>
+    <string name="quick_settings_brightness_label">Spilgtums</string>
+    <string name="quick_settings_rotation_unlocked_label">Automātiska pagriešana</string>
+    <string name="quick_settings_rotation_locked_label">Pagriešana bloķēta</string>
+    <string name="quick_settings_ime_label">Ievades metode</string>
+    <string name="quick_settings_location_label">Izmantotā atrašanās vieta</string>
+    <string name="quick_settings_media_device_label">Multivides ierīce</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Tikai ārkārtas zvani.</string>
+    <string name="quick_settings_settings_label">Iestatījumi</string>
+    <string name="quick_settings_time_label">Laiks</string>
+    <string name="quick_settings_user_label">Mans</string>
+    <string name="quick_settings_wifi_label">WiFi</string>
+    <string name="quick_settings_wifi_not_connected">Nav savienots.</string>
+    <string name="quick_settings_wifi_no_network">Nav tīkla</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_wifi_display_label">"Wi-Fi
+displejs"</string>
+    <string name="quick_settings_wifi_display_no_connection_label">Bezvadu attēlošana</string>
+    <string name="quick_settings_brightness_dialog_title">Spilgtums</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Auto.</string>
+    <string name="status_bar_help_title">Šeit tiek rādīti paziņojumi</string>
+    <string name="status_bar_help_text">"Piekļūstiet tiem jebkurā laikā, velkot uz leju.
+Vēlreiz velciet, lai tiktu parādītas sistēmas vadīklas."</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">Atrašanās vieta</string>
+    <string name="quickpanel_silent_mode_text">"Klusuma
+režīms"</string>
+    <string name="quickpanel_silent_mode_sound">Skaņa</string>
+    <string name="quickpanel_silent_mode_vibrate">Vibrēt</string>
+    <string name="quickpanel_silent_mode_mute">Bez skaņas</string>
+    <string name="quickpanel_rotation_text">"Ekrāna
+pagrieš."</string>
+    <string name="quickpanel_mobile_data_text">"Mobilie
+dati"</string>
+    <string name="quickpanel_dormant_mode_text">"Bloķēšanas
+rež."</string>
+    <string name="quickpanel_notification_text">Paziņojums</string>
+    <string name="quickpanel_airplane_mode_text">"Lidojuma
+režīms"</string>
+    <string name="quickpanel_sync_text">Sinhr.</string>
+    <string name="quickpanel_power_saving_text">"Enerģijas
+taup."</string>
+    <string name="quickpanel_ultra_power_saving_text">"Īp.
+enerģ. taup."</string>
+    <string name="quickpanel_driving_mode_text">"Brīvroku
+režīms"</string>
+    <string name="quickpanel_smart_stay_text">"Viedā
+sekošana"</string>
+    <string name="quickpanel_smart_scroll_text">"Viedā
+ritin."</string>
+    <string name="quickpanel_smart_pause_text">"Viedā
+pauze"</string>
+    <string name="quickpanel_smart_network_text">"Viedais
+tīkls"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_wifi_hotspot_text">"Wi-Fi
+tīklājs"</string>
+    <string name="quickpanel_multiwindow_text">"Vairāk-
+logu"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_brightness_text">Spilgtums</string>
+    <string name="quickpanel_airview_text">"Skats no
+augšas"</string>
+    <string name="quickpanel_airgesture_text">"Gaisa
+žests"</string>
+    <string name="quickpanel_ebook_text">"Lasīš.
+režīms"</string>
+    <string name="quickpanel_personal_mode_text">"Privātais
+rež."</string>
+    <string name="quickpanel_car_mode_text">"Autom.
+rež."</string>
+    <string name="quickpanel_network_booster_text">"Lejupiel.
+paātr."</string>
+    <string name="quickpanel_toolbox_text">Rīkjosla</string>
+    <string name="quickpanel_touch_sensitivity_text">"Skāriena
+jutība"</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">Atrašanās vieta</string>
+    <string name="quickpanel_silent_mode_sound_content_description">Skaņa</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">Vibrācija</string>
+    <string name="quickpanel_silent_mode_mute_content_description">Izslēgt skaņu</string>
+    <string name="quickpanel_rotation_content_description">Pagriezt ekrānu</string>
+    <string name="quickpanel_mobile_data_content_description">Mobilie dati</string>
+    <string name="quickpanel_dormant_mode_content_description">Bloķēšanas režīms</string>
+    <string name="quickpanel_airplane_mode_content_description">Lidojuma režīms</string>
+    <string name="quickpanel_sync_content_description">Sinhronizēšana</string>
+    <string name="quickpanel_power_saving_content_description">Enerģijas taupīšanas režīms</string>
+    <string name="quickpanel_ultra_power_saving_content_description">Īpašais enerģijas taupīšanas režīms</string>
+    <string name="quickpanel_smart_stay_content_description">Viedā uzturēšanās</string>
+    <string name="quickpanel_smart_pause_content_description">Viedā pauze</string>
+    <string name="quickpanel_smart_network_content_description">Viedais tīkls</string>
+    <string name="quickpanel_wifi_hotspot_content_description">Pārvietojams Wi-Fi tīklājs</string>
+    <string name="quickpanel_multiwindow_content_description">Vairāklogu</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_ebook_content_description">Lasīšanas režīms</string>
+    <string name="quickpanel_personal_mode_content_description">Privātais režīms</string>
+    <string name="quickpanel_car_mode_content_description">Automašīnas režīms</string>
+    <string name="quickpanel_network_booster_content_description">Lejupielādes paātrinātājs</string>
+    <string name="quickpanel_toolbox_content_description">Rīkjosla</string>
+    <string name="air_gesture_use_popup_title">Aktivizēt gaisa žestu</string>
+    <string name="air_gesture_use_popup_msg">Gaisa žestu un pakalpojumu TalkBack nevar aktivizēt vienlaicīgi. Pakalpojums TalkBack tiks deaktivizēts.</string>
+    <string name="air_view_use_popup_title">Aktiv. skatu no augšas</string>
+    <string name="air_view_use_popup_msg">Skatu no augšas un tālāk minētās iespējas nevar aktivizēt vienlaikus. Tālāk norādītās iespējas tiks deaktivizētas.</string>
+    <string name="multi_window_use_popup_title">Aktivizēt vairāklogu režīmu</string>
+    <string name="multi_window_use_popup_msg">Vairāklogu režīmu un funkciju TalkBack vienlaikus nevar aktivizēt. Pakalpojums TalkBack tiks deaktivizēts.</string>
+    <string name="smart_pause_use_popup_title">Aktivizēt viedo pauzi</string>
+    <string name="smart_pause_use_popup_msg">Viedo pauzi un TalkBack nevar aktivizēt vienlaikus. Pakalpojums TalkBack tiks deaktivizēts.</string>
+    <string name="smart_scroll_use_popup_title">Aktivizēt viedo ritināšanu</string>
+    <string name="smart_scroll_use_popup_msg">Viedo ritināšanu un TalkBack nevar aktivizēt vienlaikus. Pakalpojums TalkBack tiks deaktivizēts.</string>
+    <string name="smart_stay_use_popup_title">Aktivizēt viedo sekošanu</string>
+    <string name="smart_stay_use_popup_msg">Viedo sekošanu un TalkBack nevar aktivizēt vienlaikus. Pakalpojums TalkBack tiks deaktivizēts.</string>
+    <string name="quickpanel_content_description_led_on">Programma %s ir aktivizēta.</string>
+    <string name="quickpanel_content_description_led_off">Programma %s ir deaktivizēta.</string>
+    <string name="quickpanel_content_description_led_dim">Programmu %s nevar aktivizēt.</string>
+    <string name="smart_network">Viedais tīkls</string>
+    <string name="smart_network_guide_msg">"Viedais tīkls palīdz pagarināt akumulatora darbības laiku.
+
+Kad ekrāns tiek izslēgts, tas deaktivizē mobilos datus un Wi-Fi, lai ierīce patērētu mazāk akumulatora enerģijas.
+
+Taču, ieslēdzot ekrānu, iespējams, saņemsit uzkrājušos pašpiegādes datus."</string>
+    <string name="quickpanel_data_roaming_text">Datu viesabonēšana</string>
+    <string name="data_roaming_dialog_text">Par viesabonēšanu tiks piemērota papildu maksa. Vai turpināt?</string>
+    <string name="mobile_data_enable_dialog_text">Savienojuma izveide ar mobilajiem tīkliem var radīt papildu izmaksas atkarībā no jūsu datu plāna. Vai turpināt?</string>
+    <string name="quickpanel_edit_current">Paziņojumu panelis</string>
+    <string name="quickpanel_edit_available">Pieejamās pogas</string>
+    <string name="mobile_data_dialog_text">Jūs vairs nevarēsit lietot tādas programmas kā internets, e-pasts un YouTube, izmantojot mobilos tīklus. Vai turpināt?</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"Ja vien neizmantojat Wi-Fi, jūs vairs nevarēsit izmantot internetu, e-pastu vai citas programmas, kurām nepieciešams datu savienojums.
+
+Mobilie dati tiks deaktivizēti."</string>
+    <string name="mobile_data_connect">Savienot</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">Nevar izveidot savienojumu ar mobilajiem tīkliem, kamēr ir aktivizēts lidojuma režīms. Deaktivizējiet lidojuma režīmu un mēģiniet vēlreiz.</string>
+    <string name="warning_alert_check">Vairs nerādīt</string>
+    <string name="blocking_mode_enable">Ja ir aktivizēts šis režīms, izvēlēto funkciju paziņojumi tiek deaktivizēti. Jūs saņemsit paziņojumus par ienākošajiem zvaniem tikai no tām personām, kas ir atļauto sarakstā.</string>
+    <string name="blocking_mode_enable_for_grid_settings">Bloķēšanas režīms deaktivizē izvēlēto funkciju paziņojumus. Ja ienākošie zvani būs bloķēti, jūs saņemsit paziņojumus tikai par ienākošajiem zvaniem no personām, kas ir atļauto kontaktu sarakstā. Lai mainītu bloķēšanas režīma iestatījumus, dodieties uz Iestatījumi> Personalizēšana> Bloķēšanas režīms.</string>
+    <string name="blocking_mode_enable_wifi">Kad šis režīms ir aktivizēts, izvēlēto funkciju paziņojumi tiek deaktivizēti.</string>
+    <string name="blocking_mode_title">Bloķēšanas režīms</string>
+    <string name="dormant_mode_off_message">Lai aktivizētu bloķēšanas režīmu, aktivizējiet vienu no zemāk esošajām iespējām.</string>
+    <string name="driving_mode_title">Brīvroku režīms</string>
+    <string name="driving_mode_on_dialog_msg_1">Kad aizverat S Voice brīvroku režīmu, izvēlnē Iestatījumi deaktivizējiet brīvroku režīmu. Ja brīvroku režīms tomēr ir aktivizēts, paziņojumi un ienākošo zvanu informācija joprojām tiks nolasīta automātiski.</string>
+    <string name="driving_mode_on_dialog_msg_2">Brīvroku režīmu varat izslēgt, S Voice brīvroku režīmā izrunājot komandu “Izslēgt brīvroku režīmuv” vai atverot izvēlni Iestatījumi vai paziņojumu paneli.</string>
+    <string name="insert_sim_card">SIM kartes ievietoš.</string>
+    <string name="insert_sim_card_message">Lai piekļūtu tīkla pakalpojumiem, ievietojiet SIM karti.</string>
+    <string name="wifi_enable_warning">Aktivizējot Wi-Fi, tiks deaktivizēts pārvietojamais Wi-Fi tīklājs. Vai turpināt?</string>
+    <string name="wifi_ap_turning_off">Deaktivizē pārvietojamo Wi-Fi tīklāju…</string>
+    <string name="no_sim_notification_title">Nav SIM</string>
+    <string name="no_sim_notification_title_tmo">Nav ievietota SIM karte.</string>
+    <string name="no_sim_notification_text">Ievietojiet SIM karti.</string>
+    <string name="accessibility_power_saving_mode">Lai aktivizētu enerģijas taupīšanas režīmu, aktivizējiet vismaz vienu funkciju.</string>
+    <string name="accessibility_power_saving_mode_title">Enerģijas taupīšanas režīms</string>
+    <string name="accessibility_driving_mode">Lai aktivizētu brīvroku režīmu, aktivizējiet vismaz vienu atbilstošu funkciju.</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Network restriction mode will be disabled.</string>
+    <string name="charging_interruption_title">Nevar uzlādēt</string>
+    <string name="charging_interruption_by_terminal_open_text">Nevar uzlādēt jūsu ierīci. Pārliecinieties, ka jūs lietojat ar Samsung savietojamu akumulatoru un lādētāju un ka jūsu ierīce ir pareizi savienota ar lādētāju.</string>
+    <string name="charging_interruption_by_too_high_temperature_text">Uzlāde apturēta. Akumulatora temperatūra ir par augstu.</string>
+    <string name="charging_interruption_by_too_low_temperature_text">Uzlāde apturēta. Akumulatora temperatūra ir par zemu.</string>
+    <string name="charging_interruption_by_limit_high_temperature_text">"Ierīces uzlāde ir apturēta. Akumulatora temperatūra ir pārāk augsta. Esiet uzmanīgs, atvienojot lādētāju. Tas var būt ļoti karsts.
+
+Atvienojot un vēlreiz pievienojot lādētāju, uzlāde var tikt turpināta kā parasti. Ja pārkaršana turpinās, sazinieties ar klientu apkalpošanas centru, jo pastāv aizdegšanās vai savainošanās risks."</string>
+    <string name="full_battery_title">Informācija</string>
+    <string name="full_battery_text">"Akumulators ir pilnībā uzlādēts.
+Atvienojiet lādētāju."</string>
+    <string name="low_battery_title">Zems akum. uzlād. līm.</string>
+    <string name="critical_low_battery_title">Gandrīz tukšs akumulators</string>
+    <string name="low_battery_text">Lai uzlādētu ierīci, pievienojiet to kontaktrozetei, un Uzdevumu pārvaldniekā izejiet no nelietotajām programmām. Ierīces lietošana uzlādes laikā var traucēt efektīvai uzlādei.</string>
+    <string name="low_battery_text_charged_via_ta">Uzdevumu pārvaldniekā izejiet no nelietotajām programmām. Ierīces lietošana uzlādes laikā var traucēt efektīvai uzlādei.</string>
+    <string name="low_battery_camera_warning_text">Ja akumulatora uzlādes līmenis ir zem %d%%, kameru nevar atvērt.</string>
+    <string name="critical_low_battery_camera_warning_text">Nevar atvērt kameru. Akumulatora uzlādes līmenis ir %d%% vai mazāks.</string>
+    <string name="start_force_consume_battery_title">Brīdinājums</string>
+    <string name="start_force_consume_battery_text">Pirms ierīces lietošanas uzgaidiet, līdz tā atdziest.</string>
+    <string name="stop_force_consume_battery_title">Informācija</string>
+    <string name="stop_force_consume_battery_text">Ierīce ir atdzisusi.</string>
+    <string name="wireless_charging_title">Uzlāde bezvadu režīmā.</string>
+    <string name="cable_charging_title">Uzlāde ar kabeli</string>
+    <string name="wireless_charging_text">Ierīce ir novietota darbības diapazonā. Notiek uzlāde bezvadu režīmā…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">Pārslēgšanās no bezvadu uzlādes uz uzlādi ar kabeli</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">Pārslēgšanās no uzlādes ar kabeli uz bezvadu uzlādi</string>
+    <string name="wireless_charging_spen_warning_text">Jūsu ierīce tagad tiek uzlādēta bezvadu režīmā. S Pen nedarbosies bezvadu lādētāja darbības diapazonā.</string>
+    <string name="incompatible_charger_title">Netiek uzlādēts.</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_dialog_text_for_tablet">The connected charger is incompatible with this tablet. To prevent damage to your tablet, charging has been stopped. To continue charging, use the original charger and cable that were provided with this tablet.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_notification_text">To charge faster, use the original charger</string>
+    <string name="slow_charging_toast_text">To charge faster, use the charger and cable that were provided with this phone</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="water_damage_warning_title">Pārbaudīt uzlādes pārsegu</string>
+    <string name="water_damage_warning_text">Lai pasargātu ierīci no ūdens radītiem bojājumiem, pirms lietošanas cieši aizveriet uzlādes vietas pārsegu.</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">Izslēgt ierīci</string>
+    <string name="overheat_poweroff_warning_text">Ierīce sāk pārkarst. Tā tagad tiks izslēgta, lai to atdzesētu.</string>
+    <string name="overheat_poweroff_warning_button_text">Neizslēgt</string>
+    <string name="overheat_poweroff_notice_title">Ierīce tika automātiski izslēgta</string>
+    <string name="overheat_poweroff_notice_text">"Ierīce ir pārkarsusi. Tā tika izslēgta, lai novērstu bojājumus.
+
+Pārkaršanu var izraisīt:
+Ilgstoša intensīvas grafikas, piemēram, spēļu un navigācijas programmu, lietošana.
+Lielu failu pārsūtīšana.
+Ierīces lietošana karstā vidē."</string>
+    <string name="power_sharing_warning_title">Enerģijas kopīgošana</string>
+    <string name="power_sharing_warning_text">Akumulatora pašreizējais uzlādes līmenis ir zemāks par enerģijas koplietošanas limitu. Lai turpinātu koplietot enerģiju, pielāgojiet enerģijas koplietošanas limitu, lai tas būtu zemāks par pašreizējo akumulatora uzlādes līmeni.</string>
+    <string name="power_sharing_start_toast_text">Sāk enerģijas koplietošanu…</string>
+    <string name="power_sharing_end_notification_text">Enerģijas koplietošana ir beigusies. Atvienojiet kabeli.</string>
+    <string name="face_detection_failure_text">Viedā sekošana nevar noteikt jūsu acis.</string>
+    <string name="status_bar_recent_launch_task_manager_title">Uzdev. pārv.</string>
+    <string name="status_bar_recent_launch_google_button">Google</string>
+    <string name="status_bar_recent_remove_all_button">Aizvērt visu</string>
+    <string name="screen_capture_fail_for_storage_capacity">Ierīces krātuve ir pilna. Izdzēsiet dažus objektus.</string>
+    <string name="no_such_item">Nevar atrast objektu.</string>
+    <string name="pickup_tutorial_title">Izmēģiniet viedo signālu</string>
+    <string name="put_your_phone">Kad noliksit ierīci, tās ekrāns tiks izslēgts.</string>
+    <string name="phone_detect">Pieņemsim, ka jums ir neatbildēti zvani vai ziņas. Nolieciet ierīci, un, kad ekrāns ir izslēdzies, paceliet to.</string>
+    <string name="pick_up_your_phone">Paceliet ierīci</string>
+    <string name="tutorial_complete">Apmācība pabeigta.</string>
+    <string name="camera_alert">"Zvana laikā nevar
+startēt kameru."</string>
+    <string name="stms_version">SM-G900F_EUR_20140228_0507</string>
+    <string name="wifi_cw_ready">China Telecom WLAN connected</string>
+    <string name="wifi_cw_ready_message">You have access to China Telecom WLAN network, consult 10000 to understand billing information, please turn off when not use</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">Piekrist</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="quickpanel_ctwap_text">CTWAP</string>
+    <string name="quickpanel_ctnet_text">CTNET</string>
+    <string name="tethering_attention_title">Uzmanību</string>
+    <string name="tethering_wifi_off_warning">Aktivizējot pārvietojamo Wi-Fi tīklāju, tiks izslēgts Wi-Fi.</string>
+    <string name="quickpanel_air_view_warning">Lai aktivizētu skatu no augšas, aktivizējiet vismaz vienu funkciju.</string>
+    <string name="quickpanel_air_view_warning_pen_support">Lai aktivizētu skatu no augšas, aktivizējiet vismaz vienu izvēlētā Skata no augšas režīma funkciju.</string>
+    <string name="quickpanel_air_gesture_warning">Lai aktivizētu gaisa žestu, aktivizējiet vismaz vienu atbilstošu funkciju.</string>
+    <string name="quickpanel_air_gesture_warning_continue">Nospiediet un turiet ātrās iestatīšanas pogu, lai atvērtu atbilstošos iestatījumus.</string>
+    <string name="roaming_title">Viesabonēšana</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="gps_donotshow">Vairs nerādīt</string>
+    <string name="quickpanel_brightess_level">Līmenis</string>
+    <string name="quickpanel_brightess_minus">Mīnus</string>
+    <string name="reading_mode_title">Lasīšanas režīms</string>
+    <string name="reading_mode_alert">Tika aktivizēts lasīšanas režīms. Ekrāns tagad ir optimizēts lasīšanai. Šis režīms ir pieejams tikai atsevišķās programmās.</string>
+    <string name="reading_mode_settings">Iestatījumi</string>
+    <string name="automatic_brightness_message">Automātiskā spilgtuma iestatījumi tiek izmantoti tikai iekšējam ekrānam</string>
+    <string name="manual_brightness_message">Spilgtums pielāgots manuāli. Automātiskais spilgtums deaktivizēts.</string>
+    <string name="flight_mode_message_for_wifi_only">Lidojuma režīms ļauj izslēgt tīkla funkcijas, tostarp Wi-Fi un Blutooth. Lai lietotu Wi-Fi un Bluetooth, ieslēdziet šīs funkcijas sadaļā Iestatījumi vai paziņojumu panelī.</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tutorial_notification_panel_drag_down">Izmantojiet vienu pirkstu, lai pavilktu uz leju ekrāna augšdaļā esošo statusa joslu.</string>
+    <string name="tutorial_notification_panel_drag_down_complete">Tiek parādīts paziņojumu panelis.</string>
+    <string name="tutorial_quick_panel_drag_down">Izmantojiet divus pirkstus, lai pavilktu uz leju ekrāna augšdaļā esošo statusa joslu.</string>
+    <string name="tutorial_quick_panel_drag_down_complete">Tiek parādīts ātrās iestatīšanas panelis.</string>
+    <string name="tutorial_expand_notification_panel_drag_down">Izmantojiet divus pirkstus, lai pavilktu uz leju vienu no paziņojumu panelī esošajiem sarakstiem.</string>
+    <string name="tutorial_expand_notification_panel_drag_down_complete">Tiek parādīta papildinformācija par izvēlēto sarakstu.</string>
+    <string name="tutorial_invaild_action">Nederīga darbība. Mēģiniet vēlreiz.</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="magnification_text_for_air_view_button">Palielināšanas žesti</string>
+    <string name="smartbonding_dialog_title">Lejupielādes paātrinātājs</string>
+    <string name="smartbonding_dialog_wifi_text">Lejupielādējiet lielus failus ātrāk (vismaz %d MB), vienlaikus izmantojot Wi-Fi un LTE tīklu. Ņemiet vērā, ka atkarībā no tīklu statusa, lejupielādes paātrinātājs failu lejupielādei var izmantot tikai Wi-Fi vai LTE tīklu.</string>
+    <string name="smartbonding_dialog_mobile_text">Lejupielādējiet lielus failus ātrāk (vismaz %d MB), vienlaikus izmantojot Wi-Fi un LTE tīklu. Ņemiet vērā, ka atkarībā no tīklu statusa, lejupielādes paātrinātājs failu lejupielādei var izmantot tikai Wi-Fi vai LTE tīklu.</string>
+    <string name="smart_bonding_popup_msg">Tiks aktivizēts lejupielādes paātrinātājs. Lejupielāde, izmantojot mobilos tīklus, var radīt papildu izmaksas atkarībā no jūsu tarifu plāna.</string>
+    <string name="smart_bonding_popup_msg_wifi">Wi-Fi ir izslēgts. Lai aktivizētu lejupielādes paātrinātāju, jābūt ieslēgtam gan Wi-Fi, gan mobilajiem datiem. Lejupielāde, izmantojot mobilos tīklus, var radīt papildu izmaksas atkarībā no jūsu tarifu plāna.</string>
+    <string name="smart_bonding_popup_msg_data">Mobilie dati pašlaik ir izslēgti. Lai aktivizētu lejupielādes paātrinātāju, jābūt ieslēgtam gan Wi-Fi, gan mobilajiem datiem. Lejupielāde, izmantojot mobilos tīklus, var radīt papildu izmaksas atkarībā no jūsu tarifu plāna.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Wi-Fi un mobilo datu pārraide pašlaik ir izslēgta. Lai aktivizētu lejupielādes paātrinātāju, jābūt ieslēgtam gan Wi-Fi, gan mobilajiem datiem. Lejupielāde, izmantojot mobilos tīklus, var radīt papildu izmaksas atkarībā no jūsu tarifu plāna.</string>
+    <string name="smart_bonding_popup_msg_roaming">Viesabonēšanas laikā nevar izmantot lejupielādes paātrinātāju. Ieteicams lejupielādei izmantot Wi-Fi tīklu.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Ieslēgt Wi-Fi</string>
+    <string name="smart_bonding_popup_msg_data_btn">Ieslēgt mobilos datus</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Ieslēgt Wi-Fi un mobilos datus</string>
+    <string name="smart_bonding_turn_off_text">Nevar lietot lejupielādes paātrinātāju, ja ir aktivizēts režīms %1$s. Deaktivizējiet režīmu %2$s un mēģiniet vēlreiz.</string>
+    <string name="smart_bonding_turn_off_text_airplane_mode">Nevar izveidot savienojumu ar mobilajiem tīkliem, kamēr ir aktivizēts lidojuma režīms. Deaktivizējiet lidojuma režīmu un mēģiniet vēlreiz.</string>
+    <string name="dialog_battery_data_warning">Pārvietojamais Wi-Fi tīklājs patērē daudz akumulatora enerģijas un palielina datu lietošanas apjomu. Vai turpināt?</string>
+    <string name="tether_settings_title_wifi">Pārvietojams tīklājs</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">Paziņojums</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="cooling_title">Ierīce sāk pārkarst</string>
+    <string name="cooling_body">"Ierīce sāk pārkarst. Tiks veiktas darbības, lai to atvēsinātu.
+
+Jūs varat turpināt lietot savu ierīci, bet
+- ekrāns var kļūt tumšāks;.
+- ierīce var darboties lēnāk;
+- var tikt apturēta uzlāde.
+
+Ja aizvērsit šobrīd atvērto programmu, tas palīdzēs atvēsināt ierīci.
+
+Kad ierīce būs atdzisusi, veiktspēja automātiski atgriezīsies parastā režīmā."</string>
+    <string name="cooling_noti_text">Pieskarieties šeit, lai skatītu datus.</string>
+    <string name="cooling_popup_name">Paziņojums</string>
+    <string name="cooling_noti_title">Ierīce sāk pārkarst</string>
+    <string name="btn_text_yes">Labi</string>
+    <string name="btn_text_no">Atcelt</string>
+    <string name="device_overheating">Ierīce sāk pārkarst</string>
+    <string name="colling_noti_text_2">Nevar atvērt programmas. Šobrīd var izmantot tikai programmu Tālrunis un Kontakti.</string>
+    <string name="vol_panel_audio_settings">mainīt skaņas iestatījumus.</string>
+    <string name="guest_launge_warning_toast_text">Viesa režīmā nevar aktivizēt vai deaktivizēt %s.</string>
+    <string name="safe_mode_title_vzw">Izslēgt drošo režīmu</string>
+    <string name="safe_mode_popup_body_vzw">Vai vēlaties restartēt tālruni, lai izslēgtu drošo režīmu? Visu lietojumprogrammu darbība tiks atjaunota.</string>
+    <string name="safe_mode_btn_cancel_vzw">Atcelt</string>
+    <string name="safe_mode_off_btn_vzw">Izslēgt drošo režīmu</string>
+    <string name="safe_mode_noti_on_vzw">Drošais režīms ir ieslēgts</string>
+    <string name="safe_mode_noti_body_vzw">Pieskarties, lai izslēgtu drošo režīmu</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">Lai uzzinātu vairāk, pieskarieties šeit.</string>
+    <string name="cooling_popup_name_VZW">Paziņojums</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">Labi</string>
+    <string name="btn_text_no_VZW">Atcelt</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance will Automatically go back to normal."</string>
+    <string name="recent_menukey_press_description">Nospiediet un turiet pēdējo lietoto programmu taustiņu, lai skatītu izvēlni.</string>
+    <string name="recent_menukey_press_description_vzw">Izvēlnes taustiņš ir aizstāts ar pēdējo lietoto programmu taustiņu, ļaujot ātri pārslēgties starp biežāk lietotajām programmām. Pieskarieties pie Palīdzība, lai skatītu plašāku informāciju.</string>
+    <string name="recent_menukey_help_button">Palīdz.</string>
+</resources>

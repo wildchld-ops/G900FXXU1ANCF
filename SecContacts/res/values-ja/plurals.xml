@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">%d件の連絡先を表示</item>
+        <item quantity="one">1件の連絡先を表示</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">電話番号が登録された連絡先を%d件表示</item>
+        <item quantity="one">電話番号が登録された連絡先を1件表示</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">電話番号がある%d件の連絡先</item>
+        <item quantity="one">電話番号がある1件の連絡先</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d件の連絡先</item>
+        <item quantity="one">1件の連絡先</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d件見つかりました。</item>
+        <item quantity="one">1件見つかりました。</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d件見つかりました。</item>
+        <item quantity="one">1件見つかりました。</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">%0$d件の連絡先が結合されました</item>
+        <item quantity="one">結合する連絡先はありません</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$dグループ</item>
+        <item quantity="one">1グループ</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%2$sグループの%1$d人</item>
+        <item quantity="one">%2$sグループの%1$d人</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d人</item>
+        <item quantity="one">%1$d人</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">留守番電話%d件</item>
+        <item quantity="one">留守番電話</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d件の連絡先をコピーしました。</item>
+        <item quantity="one">%d件の連絡先をコピーしました。</item>
+    </plurals>
+</resources>

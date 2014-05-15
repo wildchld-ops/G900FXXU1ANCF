@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/sbrowser_toolbar_main_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/basic_bottom_bar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/ph_toolbar_backward" android:paddingLeft="6.0dip" android:paddingTop="8.0dip" android:paddingRight="6.0dip" android:paddingBottom="8.0dip" android:visibility="visible" android:nextFocusUp="@id/sbrowser_content_view_holder" android:layout_width="0.0dip" android:layout_height="@dimen/sbrowser_bottombar_height" android:layout_weight="1.0" android:title="@string/backward" android:contentDescription="@string/backward" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/ph_toolbar_forward" android:paddingLeft="6.0dip" android:paddingTop="8.0dip" android:paddingRight="6.0dip" android:paddingBottom="8.0dip" android:layout_width="0.0dip" android:layout_height="@dimen/sbrowser_bottombar_height" android:layout_weight="1.0" android:title="@string/forward" android:contentDescription="@string/forward" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/ph_bottombar_home" android:paddingLeft="6.0dip" android:paddingTop="8.0dip" android:paddingRight="6.0dip" android:paddingBottom="8.0dip" android:layout_width="0.0dip" android:layout_height="@dimen/sbrowser_bottombar_height" android:layout_weight="1.0" android:contentDescription="@string/home" />
+        <FrameLayout android:id="@id/ph_reader_list_layout" android:layout_width="0.0dip" android:layout_height="@dimen/sbrowser_bottombar_height" android:layout_weight="1.0">
+            <ImageButton android:layout_gravity="center_vertical" android:id="@id/ph_reader_list" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/options_menu_scrap_list" />
+        </FrameLayout>
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/ph_toolbar_bookmarks" android:paddingLeft="6.0dip" android:paddingTop="8.0dip" android:paddingRight="6.0dip" android:paddingBottom="8.0dip" android:layout_width="0.0dip" android:layout_height="@dimen/sbrowser_bottombar_height" android:layout_weight="1.0" android:title="@string/accessibility_button_bookmarks" android:contentDescription="@string/accessibility_button_bookmarks" android:nextFocusForward="@id/sbrowser_url_bar" />
+    </LinearLayout>
+</RelativeLayout>

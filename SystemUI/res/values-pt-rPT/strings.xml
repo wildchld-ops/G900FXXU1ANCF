@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_date_format_day_month_k">"E
+d MMM"</string>
+    <string name="status_bar_date_format_month_day_k">"E
+MMM d"</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">E MMM d</string>
+    <string name="abbrev_wday_day_abbrev_month_no_year">E, d MMM</string>
+    <string name="app_label">IU sistema</string>
+    <string name="status_bar_clear_all_button">Limpar</string>
+    <string name="status_bar_do_not_disturb_button">Não incomodar</string>
+    <string name="status_bar_please_disturb_button">Mostrar notificações</string>
+    <string name="status_bar_recent_remove_item_title">Remover da lista</string>
+    <string name="status_bar_recent_inspect_item_title">Informações da aplicação</string>
+    <string name="status_bar_no_recent_apps">Não há aplicações recentes</string>
+    <string name="status_bar_accessibility_dismiss_recents">Rejeitar aplicações recentes</string>
+    <string name="status_bar_no_notifications_title">Sem notificações</string>
+    <string name="status_bar_ongoing_events_title">Em curso</string>
+    <string name="status_bar_latest_events_title">Notificações</string>
+    <string name="battery_low_title">Ligar carregador.</string>
+    <string name="battery_low_subtitle">A bateria está a ficar fraca.</string>
+    <string name="battery_low_percent_format">Restam %d%%.</string>
+    <string name="invalid_charger">Carregamento USB não suportado. Utilize o carregador fornecido.</string>
+    <string name="battery_low_why">Utilização da bateria</string>
+    <string name="status_bar_settings_settings_button">Definições</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Modo de voo</string>
+    <string name="status_bar_settings_auto_rotation">Rotação automática do ecrã</string>
+    <string name="status_bar_settings_mute_label">Silen.</string>
+    <string name="status_bar_settings_auto_brightness_label">Automático</string>
+    <string name="status_bar_settings_notifications">Notificações</string>
+    <string name="bluetooth_tethered">Bluetooth ancorado</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Configurar métodos de introdução</string>
+    <string name="status_bar_use_physical_keyboard">Teclado físico</string>
+    <string name="usb_device_permission_prompt">Permitir que a aplicação %1$s aceda ao dispositivo USB?</string>
+    <string name="usb_accessory_permission_prompt">Permitir que a aplicação %1$s aceda ao acessório USB?</string>
+    <string name="usb_device_confirm_prompt">Abrir %1$s quando este dispositivo USB for ligado?</string>
+    <string name="usb_accessory_confirm_prompt">Abrir %1$s quando este acessório USB for ligado?</string>
+    <string name="usb_accessory_uri_prompt">Nenhuma aplicação instalada funciona com este acessório USB. Mais informações sobre este acessório em %s.</string>
+    <string name="title_usb_accessory">Acessório USB</string>
+    <string name="label_view">Ver</string>
+    <string name="always_use_device">Utilizar como padrão com este dispositivo USB</string>
+    <string name="always_use_accessory">Utilizar como predefinição com este acessório USB</string>
+    <string name="usb_debugging_title">Permitir depuração de USB?</string>
+    <string name="usb_debugging_message">"A impressão digital da chave RSA do PC é:
+%1$s"</string>
+    <string name="usb_debugging_always">Permitir sempre este PC</string>
+    <string name="compat_mode_on">Zoom p/ preencher ecrã</string>
+    <string name="compat_mode_off">Alargar p/ preencher ecrã</string>
+    <string name="compat_mode_help_header">Zoom de compatibilidade</string>
+    <string name="compat_mode_help_body">Quando uma aplicação foi concebida para um ecrã mais pequeno, é apresentado um comando de zoom junto do relógio.</string>
+    <string name="screenshot_saving_ticker">A guardar captura de ecrã…</string>
+    <string name="screenshot_saving_title">A guardar captura de ecrã…</string>
+    <string name="screenshot_saving_text">A captura de ecrã está a ser guardada.</string>
+    <string name="screenshot_saved_title">Captura de ecrã capturada</string>
+    <string name="screenshot_saved_text">Tocar para ver captura de ecrã.</string>
+    <string name="screenshot_failed_title">Impossível capturar captura de ecrã.</string>
+    <string name="screenshot_failed_text">Impossível guardar captura de ecrã. O armazenamento USB pode estar a ser usado.</string>
+    <string name="screenshot_failed_due_to_drm_text">Impossível capturar ecrã. Imagem protegida por DRM.</string>
+    <string name="one_item_will_be_deleted">1 item será eliminado.</string>
+    <string name="usb_preference_title">Opções transf. USB ficheiros</string>
+    <string name="use_mtp_button_title">Montar como leitor multimédia (MTP)</string>
+    <string name="use_ptp_button_title">Montar como câmara (PTP)</string>
+    <string name="installer_cd_button_title">Instalar aplicação de transferência de ficheiros para Mac</string>
+    <string name="accessibility_back">Voltar</string>
+    <string name="accessibility_home">Pessoal</string>
+    <string name="accessibility_menu">Menu</string>
+    <string name="accessibility_recent">Aplicações recentes</string>
+    <string name="accessibility_ime_switch_button">Botão de mudança de método de entrada.</string>
+    <string name="accessibility_compatibility_zoom_button">Botão Zoom de compatibilidade</string>
+    <string name="accessibility_compatibility_zoom_example">Zoom para ecrã maior</string>
+    <string name="accessibility_bluetooth_connected">Ligado ao Bluetooth</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth desligado.</string>
+    <string name="accessibility_no_battery">Sem bateria</string>
+    <string name="accessibility_battery_one_bar">Uma barra de carga da bateria</string>
+    <string name="accessibility_battery_two_bars">Duas barras de carga da bateria</string>
+    <string name="accessibility_battery_three_bars">Três barras de carga da bateria</string>
+    <string name="accessibility_battery_full">Bateria cheia.</string>
+    <string name="accessibility_no_phone">Sem sinal de telefone</string>
+    <string name="accessibility_phone_one_bar">Uma barra de sinal de telefone</string>
+    <string name="accessibility_phone_two_bars">Duas barras de sinal de telefone</string>
+    <string name="accessibility_phone_three_bars">Três barras de sinal de telefone</string>
+    <string name="accessibility_phone_signal_full">Sinal de telefone completo</string>
+    <string name="accessibility_no_data">Sem dados</string>
+    <string name="accessibility_data_one_bar">Uma barra de sinal de dados</string>
+    <string name="accessibility_data_two_bars">Duas barras de sinal de dados</string>
+    <string name="accessibility_data_three_bars">Três barras de sinal de dados</string>
+    <string name="accessibility_data_four_bars">Quatro barras de sinal de dados</string>
+    <string name="accessibility_data_five_bars">Cinco barras de sinal de dados</string>
+    <string name="accessibility_data_signal_full">Sinal de dados completo</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">Sem sinal de Wi-Fi</string>
+    <string name="accessibility_wifi_one_bar">Uma barra de sinal de Wi-Fi</string>
+    <string name="accessibility_wifi_two_bars">Duas barras de sinal de Wi-Fi</string>
+    <string name="accessibility_wifi_three_bars">Três barras de sinal de Wi-Fi</string>
+    <string name="accessibility_wifi_signal_full">Sinal de Wi-Fi completo.</string>
+    <string name="accessibility_no_wimax">Sem WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">Uma barra de WiMAX.</string>
+    <string name="accessibility_wimax_two_bars">Duas barras de WiMAX.</string>
+    <string name="accessibility_wimax_three_bars">Três barras de WiMAX.</string>
+    <string name="accessibility_wimax_signal_full">Sinal WiMAX completo.</string>
+    <string name="accessibility_no_signal">Nenhum sinal</string>
+    <string name="accessibility_not_connected">Desligado.</string>
+    <string name="accessibility_zero_bars">Zero barras.</string>
+    <string name="accessibility_one_bar">Uma barra.</string>
+    <string name="accessibility_two_bars">Duas barras.</string>
+    <string name="accessibility_three_bars">Três barras.</string>
+    <string name="accessibility_phone_four_bars">Quatro barras de sinal de telefone</string>
+    <string name="accessibility_phone_five_bars">Cinco barras de sinal de telefone</string>
+    <string name="accessibility_signal_full">Sinal completo.</string>
+    <string name="accessibility_desc_on">Ligar</string>
+    <string name="accessibility_desc_off">Desligar</string>
+    <string name="accessibility_desc_connected">Ligado.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3,5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Roaming</string>
+    <string name="accessibility_data_connection_edge">Margem</string>
+    <string name="accessibility_data_connection_wifi">Wi Fi</string>
+    <string name="accessibility_no_sim">Sem SIM</string>
+    <string name="accessibility_bluetooth_tether">Ancoragem Bluetooth</string>
+    <string name="accessibility_airplane_mode">Modo de voo</string>
+    <string name="accessibility_battery_level">A bateria está nos %d por cento.</string>
+    <string name="accessibility_settings_button">Definições de sistema</string>
+    <string name="accessibility_notifications_button">Notificações</string>
+    <string name="accessibility_remove_notification">Limpar notificações</string>
+    <string name="accessibility_gps_enabled">GPS ligado</string>
+    <string name="accessibility_gps_acquiring">A adquirir GPS…</string>
+    <string name="accessibility_tty_enabled">Teleimpressora activada</string>
+    <string name="accessibility_ringer_vibrate">Vibração de tom de toque</string>
+    <string name="accessibility_ringer_silent">Silenciar tom de toque</string>
+    <string name="accessibility_recents_item_dismissed">%s ignorado.</string>
+    <string name="accessibility_notification_dismissed">Notificação ignorada.</string>
+    <string name="accessibility_desc_notification_shade">Painel de notificações.</string>
+    <string name="accessibility_desc_quick_settings">Definições rápidas</string>
+    <string name="accessibility_desc_recent_apps">Aplicações recentes</string>
+    <string name="accessibility_quick_settings_user">Utilizador %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s. %2$s</string>
+    <string name="accessibility_quick_settings_mobile">Dispositivo Móvel %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">Bateria %s.</string>
+    <string name="accessibility_quick_settings_airplane">Modo de Avião %s.</string>
+    <string name="accessibility_quick_settings_bluetooth">Bluetooth %s.</string>
+    <string name="accessibility_quick_settings_alarm">Alarme definido para %s.</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">Ligação rápida</string>
+    <string name="accessibility_qconnect_button_tts">Ligação Rápida</string>
+    <string name="data_usage_disabled_dialog_3g_title">Dados 2G-3G desactivados</string>
+    <string name="data_usage_disabled_dialog_4g_title">Dados 4G desactivados</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Dados móveis desactivados</string>
+    <string name="data_usage_disabled_dialog_title">Dados desactivados</string>
+    <string name="data_usage_disabled_dialog">Atingido limite especificado de utilização de dados. A utilização de dados adicional pode implicar a cobrança de taxas pelo fornecedor de serviços.</string>
+    <string name="data_usage_disabled_dialog_enable">Activar novam. ligação dados</string>
+    <string name="data_usage_enable_mobile_warning">O acesso à rede através de pacotes de dados pode implicar a cobrança de taxas adicionais. Continuar?</string>
+    <string name="data_usage_disable_mobile">Desactivar ligação de dados móvel?</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Sem ligação à Internet</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Ligado a Wi-Fi.</string>
+    <string name="gps_notification_searching_text">A procurar GPS utilizado…</string>
+    <string name="gps_notification_found_text">Localização por GPS</string>
+    <string name="accessibility_clear_all">Limpar todas as notificações</string>
+    <string name="status_bar_notification_inspect_item_title">Informações da aplicação</string>
+    <string name="close_universe">Fechar</string>
+    <string name="notifications_off_title">Notificações desactivadas</string>
+    <string name="notifications_off_text">Tocar para activar notificações.</string>
+    <string name="accessibility_rotation_lock_off">O ecrã irá rodar automaticamente.</string>
+    <string name="accessibility_rotation_lock_on_landscape">O ecrã está bloqueado na orientação horizontal.</string>
+    <string name="accessibility_rotation_lock_on_portrait">O ecrã está bloqueado na orientação vertical.</string>
+    <string name="jelly_bean_dream_name">BeanFlinger</string>
+    <string name="start_dreams">Protecção de ecrã</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">Modo de avião</string>
+    <string name="quick_settings_battery_charging_label">A carregar, %d%%</string>
+    <string name="quick_settings_battery_charged_label">Carregada.</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d Dispositivos)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth desligado</string>
+    <string name="quick_settings_brightness_label">Brilho</string>
+    <string name="quick_settings_rotation_unlocked_label">Rodar automat.</string>
+    <string name="quick_settings_rotation_locked_label">Rotação Bloqueada</string>
+    <string name="quick_settings_ime_label">Método introdução</string>
+    <string name="quick_settings_location_label">Localização em utilização</string>
+    <string name="quick_settings_media_device_label">Dispositivo multimédia</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Apenas chamadas de emergência.</string>
+    <string name="quick_settings_settings_label">Definições</string>
+    <string name="quick_settings_time_label">Hora</string>
+    <string name="quick_settings_user_label">Eu</string>
+    <string name="quick_settings_wifi_label">Wi Fi</string>
+    <string name="quick_settings_wifi_not_connected">Desligado.</string>
+    <string name="quick_settings_wifi_no_network">Sem rede</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_wifi_display_label">"Ecrã
+Wi-Fi"</string>
+    <string name="quick_settings_wifi_display_no_connection_label">Display Sem Fios</string>
+    <string name="quick_settings_brightness_dialog_title">Brilho</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Automático</string>
+    <string name="status_bar_help_title">As notificações são apresentadas aqui</string>
+    <string name="status_bar_help_text">"Pode aceder em qualquer altura, deslizando rapidamente para baixo com o dedo.
+Deslize novamente para baixo para aceder aos controlos do sistema."</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">Localiz.</string>
+    <string name="quickpanel_silent_mode_text">"Modo
+silencioso"</string>
+    <string name="quickpanel_silent_mode_sound">Som</string>
+    <string name="quickpanel_silent_mode_vibrate">Vibrar</string>
+    <string name="quickpanel_silent_mode_mute">Silenciar</string>
+    <string name="quickpanel_rotation_text">"Rotação
+do ecrã"</string>
+    <string name="quickpanel_mobile_data_text">"Dados
+móveis"</string>
+    <string name="quickpanel_dormant_mode_text">"Modo
+Bloqueio"</string>
+    <string name="quickpanel_notification_text">Notificação</string>
+    <string name="quickpanel_airplane_mode_text">"Modo
+de voo"</string>
+    <string name="quickpanel_sync_text">Sincron.</string>
+    <string name="quickpanel_power_saving_text">"Econ.
+energia"</string>
+    <string name="quickpanel_ultra_power_saving_text">"U. econ.
+energia"</string>
+    <string name="quickpanel_driving_mode_text">"Modo
+mãos-livres"</string>
+    <string name="quickpanel_smart_stay_text">"Susp.
+intelig"</string>
+    <string name="quickpanel_smart_scroll_text">"Desloc
+intel"</string>
+    <string name="quickpanel_smart_pause_text">"Pausa
+intel"</string>
+    <string name="quickpanel_smart_network_text">"Rede
+Inteligente"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_wifi_hotspot_text">"PA
+Wi-Fi"</string>
+    <string name="quickpanel_multiwindow_text">"Multi-
+-janela"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_brightness_text">Brilho</string>
+    <string name="quickpanel_airview_text">"Vista
+aérea"</string>
+    <string name="quickpanel_airgesture_text">"Air
+Gesture"</string>
+    <string name="quickpanel_ebook_text">"Modo
+leitura"</string>
+    <string name="quickpanel_personal_mode_text">"Modo
+privado"</string>
+    <string name="quickpanel_car_mode_text">"Modo
+condução"</string>
+    <string name="quickpanel_network_booster_text">"Intens.
+trf."</string>
+    <string name="quickpanel_toolbox_text">Caixa ferram.</string>
+    <string name="quickpanel_touch_sensitivity_text">"Sensib.
+toque"</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">Localização</string>
+    <string name="quickpanel_silent_mode_sound_content_description">Som</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">Vibração</string>
+    <string name="quickpanel_silent_mode_mute_content_description">Silenciar</string>
+    <string name="quickpanel_rotation_content_description">Rotação do ecrã</string>
+    <string name="quickpanel_mobile_data_content_description">Dados móveis</string>
+    <string name="quickpanel_dormant_mode_content_description">Modo de bloqueio</string>
+    <string name="quickpanel_airplane_mode_content_description">Modo de voo</string>
+    <string name="quickpanel_sync_content_description">Sincronizar</string>
+    <string name="quickpanel_power_saving_content_description">Modo de economia de energia</string>
+    <string name="quickpanel_ultra_power_saving_content_description">Modo de ultra-economia de energia</string>
+    <string name="quickpanel_smart_stay_content_description">Permanência inteligente</string>
+    <string name="quickpanel_smart_pause_content_description">Pausa inteligente</string>
+    <string name="quickpanel_smart_network_content_description">Rede inteligente</string>
+    <string name="quickpanel_wifi_hotspot_content_description">Hotspot Wi-Fi portátil</string>
+    <string name="quickpanel_multiwindow_content_description">Multi janela</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_ebook_content_description">Modo de leitura</string>
+    <string name="quickpanel_personal_mode_content_description">Modo privado</string>
+    <string name="quickpanel_car_mode_content_description">Modo de automóvel</string>
+    <string name="quickpanel_network_booster_content_description">Intensificador de transferências</string>
+    <string name="quickpanel_toolbox_content_description">Caixa de ferramentas</string>
+    <string name="air_gesture_use_popup_title">Activar Air gesture</string>
+    <string name="air_gesture_use_popup_msg">Não é possível activar Gesto no ar e TalkBack. O TalkBack será desactivado.</string>
+    <string name="air_view_use_popup_title">Activar vista aérea</string>
+    <string name="air_view_use_popup_msg">Impossível activar a vista aérea e as opções abaixo. As opções abaixo serão desactivadas.</string>
+    <string name="multi_window_use_popup_title">Activar multi-janela</string>
+    <string name="multi_window_use_popup_msg">Multi-janela e TalkBack não podem estar activados em simultâneo. O TalkBack estará desactivado.</string>
+    <string name="smart_pause_use_popup_title">Activar pausa inteligente</string>
+    <string name="smart_pause_use_popup_msg">A pausa inteligente e o TalkBack não podem estar activados em simultâneo. O TalkBack será desactivado.</string>
+    <string name="smart_scroll_use_popup_title">Activar deslocamento inteligente</string>
+    <string name="smart_scroll_use_popup_msg">O deslocamento inteligente e o TalkBack não podem estar activados em simultâneo. O TalkBack será desactivado.</string>
+    <string name="smart_stay_use_popup_title">Activar permanência inteligente</string>
+    <string name="smart_stay_use_popup_msg">A permanência inteligente e o TalkBack não podem estar activados em simultâneo. O TalkBack será desactivado.</string>
+    <string name="quickpanel_content_description_led_on">%s activado.</string>
+    <string name="quickpanel_content_description_led_off">%s desactivado.</string>
+    <string name="quickpanel_content_description_led_dim">%s não pode ser activado.</string>
+    <string name="smart_network">Rede inteligente</string>
+    <string name="smart_network_guide_msg">"A rede inteligente ajuda a poupar a bateria.
+
+Desactiva os dados móveis e o Wi-Fi quando o ecrã está desligado, para que o dispositivo consuma menos bateria.
+
+No entanto, pode receber mensagens por difusão acumuladas quando voltar a ligar o ecrã."</string>
+    <string name="quickpanel_data_roaming_text">Dados em roaming</string>
+    <string name="data_roaming_dialog_text">O roaming implica a cobrança de taxas extra. Continuar?</string>
+    <string name="mobile_data_enable_dialog_text">A ligação a redes móveis pode implicar a cobrança de taxas extra dependendo do seu tarifário de dados. Continuar?</string>
+    <string name="quickpanel_edit_current">Painel de notificações</string>
+    <string name="quickpanel_edit_available">Botões disponíveis</string>
+    <string name="mobile_data_dialog_text">Deixará de poder utilizar aplicações, tais como Internet, E-mail e YouTube através de redes móveis. Continuar?</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"A não ser que utilize Wi-Fi, deixará de poder utilizar a Internet, o E-mail ou outras aplicações que exijam uma ligação de dados.
+
+Os dados móveis serão desactivados."</string>
+    <string name="mobile_data_connect">Ligar</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">Impossível ligar às redes móveis enquanto o modo de Voo estiver activado. Desactive o modo de Voo e tente novamente.</string>
+    <string name="warning_alert_check">Não mostrar novamen.</string>
+    <string name="blocking_mode_enable">Quando este modo está activo, as notificações de funções seleccionadas serão inactivadas. Apenas receberá notificações de chamadas recebidas de pessoas que constam na lista autorizada.</string>
+    <string name="blocking_mode_enable_for_grid_settings">O modo de bloqueio desactiva as notificações para determinadas funções. Quando as chamadas recebidas forem bloqueadas, receberá apenas notificações de chamadas recebidas das pessoas que constam da sua lista de contactos autorizados. Para alterar as suas definições de Modo de bloqueio, vá para Definições > Personalização > Modo de bloqueio.</string>
+    <string name="blocking_mode_enable_wifi">Quando este modo está activo, as notificações das funções seleccionadas estão desactivadas.</string>
+    <string name="blocking_mode_title">Modo de Bloqueio</string>
+    <string name="dormant_mode_off_message">Para activar o Modo de bloqueio, active pelo menos uma das opções abaixo.</string>
+    <string name="driving_mode_title">Modo mãos-livres</string>
+    <string name="driving_mode_on_dialog_msg_1">O Modo mãos-livres tem de ser desactivado nas Definições depois de ter fechado Mão-livres S Voice. Se o Modo mãos-livres permanecer activado, as notificações e as informações de chamadas recebidas continuam a ser lidas automaticamente em voz alta.</string>
+    <string name="driving_mode_on_dialog_msg_2">Pode desligar o Modo mãos-livres dizendo “Desligar o Modo mãos-livres” no modo Mãos-livres S Voice ou acedendo a Definições ou ao painel de notificações.</string>
+    <string name="insert_sim_card">Inserir cartão SIM</string>
+    <string name="insert_sim_card_message">Insira o cartão SIM para aceder aos serviços de rede.</string>
+    <string name="wifi_enable_warning">Se ligar o Wi-Fi irá desactivar o PA Móvel. Continuar?</string>
+    <string name="wifi_ap_turning_off">A desactivar PA Móvel…</string>
+    <string name="no_sim_notification_title">Sem SIM</string>
+    <string name="no_sim_notification_title_tmo">Nenhum cartão SIM inserido.</string>
+    <string name="no_sim_notification_text">Introduza cartão SIM.</string>
+    <string name="accessibility_power_saving_mode">Para activar o Modo de economia de energia, active pelo menos uma função.</string>
+    <string name="accessibility_power_saving_mode_title">Modo de economia de energia</string>
+    <string name="accessibility_driving_mode">Para activar o Modo mãos-livres, active pelo menos uma função relevante.</string>
+    <string name="accessibility_toddler_mode_activate">No Modo de restrição de rede, pode utilizar todas as suas aplicações sem se ligar à rede. Pode também receber chamadas e mensagens SMS. O Modo de restrição de rede será activado.</string>
+    <string name="accessibility_toddler_mode_deactivate">O Modo de restrição de rede será desactivado.</string>
+    <string name="charging_interruption_title">Impossível carregar</string>
+    <string name="charging_interruption_by_terminal_open_text">Impossível carregar o seu dispositivo. Certifique-se de que está a utilizar uma bateria e um carregador Samsung compatíveis e que o dispositivo está ligado correctamente ao carregador.</string>
+    <string name="charging_interruption_by_too_high_temperature_text">Carregamento em pausa. Temperatura da bateria demasiado elevada.</string>
+    <string name="charging_interruption_by_too_low_temperature_text">Carregamento em pausa. Temperatura da bateria demasiado baixa.</string>
+    <string name="charging_interruption_by_limit_high_temperature_text">"O dispositivo deixou de carregar. A temperatura da bateria está demasiado alta. Tenha cuidado quando desligar o carregador. Pode estar muito quente.
+
+Desligar e ligar novamente o carregador pode permitir que o carregamento continue normalmente. Se o sobreaquecimento persistir, contacte os serviços de apoio ao cliente, porque pode haver o risco de incêndio ou ferimentos."</string>
+    <string name="full_battery_title">Informações</string>
+    <string name="full_battery_text">"Bateria completamente carregada.
+Desligue o carregador."</string>
+    <string name="low_battery_title">Bateria fraca</string>
+    <string name="critical_low_battery_title">Bateria muitíssimo fraca</string>
+    <string name="low_battery_text">Ligue a uma tomada para carregar o dispositivo e saia das aplicações não utilizadas no Gestor de tarefas. A continuação da utilização durante a carga pode impedir uma carga eficiente.</string>
+    <string name="low_battery_text_charged_via_ta">Saia das aplicações não utilizadas no Gestor de tarefas. A continuação da utilização durante a carga pode impedir uma carga eficiente.</string>
+    <string name="low_battery_camera_warning_text">Se a carga da bateria descer abaixo de %d%%, não será possível abrir a Câmara.</string>
+    <string name="critical_low_battery_camera_warning_text">Impossível abrir Câmara. A carga da bateria é %d%% ou menos.</string>
+    <string name="start_force_consume_battery_title">Alerta</string>
+    <string name="start_force_consume_battery_text">Aguarde até o seu dispositivo ter arrefecido antes de o utilizar.</string>
+    <string name="stop_force_consume_battery_title">Informações</string>
+    <string name="stop_force_consume_battery_text">O dispositivo arrefeceu.</string>
+    <string name="wireless_charging_title">Carga sem fios.</string>
+    <string name="cable_charging_title">Carga por cabo</string>
+    <string name="wireless_charging_text">Colocou o dispositivo no raio de alcance. A carregar agora sem fios…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">A mudar da tarifa de rede sem fios para a tarifa por cabo</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">A mudar da tarifa por cabo para a tarifa de rede sem fios</string>
+    <string name="wireless_charging_spen_warning_text">O seu dispositivo está agora a carregar sem fios. A S Pen não funcionará se estiver no raio de alcance do carregador sem fios.</string>
+    <string name="incompatible_charger_title">Não está a carregar.</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_dialog_text_for_tablet">The connected charger is incompatible with this tablet. To prevent damage to your tablet, charging has been stopped. To continue charging, use the original charger and cable that were provided with this tablet.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_notification_text">To charge faster, use the original charger</string>
+    <string name="slow_charging_toast_text">To charge faster, use the charger and cable that were provided with this phone</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="water_damage_warning_title">Verif. tampa carregamento</string>
+    <string name="water_damage_warning_text">Para proteger de danos causados pela água, sele com firmeza a tampa de carregamento antes de utilizar o dispositivo.</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">Desligar o seu dispositivo</string>
+    <string name="overheat_poweroff_warning_text">O seu dispositivo está a sobreaquecer. Por isso, vai ser desligado para arrefecer.</string>
+    <string name="overheat_poweroff_warning_button_text">Não desligar</string>
+    <string name="overheat_poweroff_notice_title">Dispositivo desligado automaticamente</string>
+    <string name="overheat_poweroff_notice_text">"O seu dispositivo sofreu um sobreaquecimento. Foi desligado para prevenir danos.
+
+O sobreaquecimento pode ser causado por:
+Utilização de aplicações com muitos gráficos, como os jogos e as aplicações de navegação, durante períodos de tempo longos.
+Transferência de ficheiros grandes.
+Utilização do dispositivo num ambiente quente."</string>
+    <string name="power_sharing_warning_title">Partilha de energia</string>
+    <string name="power_sharing_warning_text">A energia da sua bateria é inferior ao limite de partilha de energia. Para continuar a partilhar a energia, altere o limite de partilha de energia para um valor inferior ao nível de energia actual da bateria.</string>
+    <string name="power_sharing_start_toast_text">A iniciar a Partilha de energia…</string>
+    <string name="power_sharing_end_notification_text">A partilha de energia terminou. Desligue o cabo.</string>
+    <string name="face_detection_failure_text">Perm. inteligente não detecta olhos.</string>
+    <string name="status_bar_recent_launch_task_manager_title">Gest. tarefas</string>
+    <string name="status_bar_recent_launch_google_button">Google</string>
+    <string name="status_bar_recent_remove_all_button">Fechar todas</string>
+    <string name="screen_capture_fail_for_storage_capacity">Armazenamento do dispositivo cheio. Elimine alguns itens.</string>
+    <string name="no_such_item">Impossível encontrar item.</string>
+    <string name="pickup_tutorial_title">Experimentar o alerta inteligente</string>
+    <string name="put_your_phone">Depois de pousar o seu dispositivo, o ecrã desliga-se.</string>
+    <string name="phone_detect">Suponha que perdeu chamadas ou mensagens. Pouse o seu dispositivo e, em seguida, pegue novamente nele quando o ecrã se tiver desligado.</string>
+    <string name="pick_up_your_phone">Levante o seu dispositivo</string>
+    <string name="tutorial_complete">Tutorial concluído.</string>
+    <string name="camera_alert">"Impossível iniciar a câmara
+durante chamadas."</string>
+    <string name="stms_version">SM-G900F_EUR_20140228_0507</string>
+    <string name="wifi_cw_ready">China Telecom WLAN connected</string>
+    <string name="wifi_cw_ready_message">You have access to China Telecom WLAN network, consult 10000 to understand billing information, please turn off when not use</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">Concordo</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="quickpanel_ctwap_text">CTWAP</string>
+    <string name="quickpanel_ctnet_text">CTNET</string>
+    <string name="tethering_attention_title">Atenção</string>
+    <string name="tethering_wifi_off_warning">A activação do PA Móvel irá desactivar o Wi-Fi.</string>
+    <string name="quickpanel_air_view_warning">Para activar a vista aérea, active pelo menos uma função.</string>
+    <string name="quickpanel_air_view_warning_pen_support">Para activar a vista aérea, active pelo menos uma função do Modo de vista aérea seleccionado.</string>
+    <string name="quickpanel_air_gesture_warning">Para activar Air Gesture, active pelo menos uma função relevante.</string>
+    <string name="quickpanel_air_gesture_warning_continue">Toque sem soltar um botão de definição rápida para ir para as definições relevantes.</string>
+    <string name="roaming_title">Roaming</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="gps_donotshow">Não mostrar novamente</string>
+    <string name="quickpanel_brightess_level">Nível</string>
+    <string name="quickpanel_brightess_minus">Menos</string>
+    <string name="reading_mode_title">Modo de leitura</string>
+    <string name="reading_mode_alert">O modo de leitura foi activado. O ecrã está agora optimizado para leitura. Este modo só está disponível em aplicações seleccionadas.</string>
+    <string name="reading_mode_settings">Definições</string>
+    <string name="automatic_brightness_message">As definições de brilho automático só são aplicadas ao ecrã interno</string>
+    <string name="manual_brightness_message">Brilho ajustado manualmente. Brilho automático desactivado.</string>
+    <string name="flight_mode_message_for_wifi_only">O Modo de voo permite-lhe desligar as funções de rede, incluindo Wi-Fi e Bluetooth. Para utilizar Wi-Fi e Bluetooth, ligue-os em Definições ou no painel de notificação.</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tutorial_notification_panel_drag_down">Utilize um dedo para puxar para baixo a barra de estado da parte superior do ecrã.</string>
+    <string name="tutorial_notification_panel_drag_down_complete">O painel de notificação é apresentado.</string>
+    <string name="tutorial_quick_panel_drag_down">Utilize dois dedos para puxar para baixo a barra de estado da parte superior do ecrã.</string>
+    <string name="tutorial_quick_panel_drag_down_complete">O painel de definição rápida é apresentado.</string>
+    <string name="tutorial_expand_notification_panel_drag_down">Utilize dois dedos para puxar para baixo uma das listas do painel de notificação.</string>
+    <string name="tutorial_expand_notification_panel_drag_down_complete">São apresentadas mais informações sobre a lista seleccionada.</string>
+    <string name="tutorial_invaild_action">Acção inválida. Tente novamente.</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="magnification_text_for_air_view_button">Gestos de ampliação</string>
+    <string name="smartbonding_dialog_title">Intensificador transferências</string>
+    <string name="smartbonding_dialog_wifi_text">Transfira ficheiros grandes (mais de %d MB) com mais rapidez, utilizando simultaneamente redes Wi-Fi e LTE. Note que, dependendo dos estados das redes, o Intensificador de transferências pode utilizar apenas redes Wi-Fi ou LTE para transferir ficheiros.</string>
+    <string name="smartbonding_dialog_mobile_text">Transfira ficheiros grandes (mais de %d MB) com mais rapidez, utilizando simultaneamente redes Wi-Fi e LTE. Note que, dependendo dos estados das redes, o Intensificador de transferências pode utilizar apenas redes Wi-Fi ou LTE para transferir ficheiros.</string>
+    <string name="smart_bonding_popup_msg">Será activado o Intensificador de transferências. A transferência através de redes móveis pode implicar a cobrança de taxas adicionais dependendo do seu plano tarifário.</string>
+    <string name="smart_bonding_popup_msg_wifi">Actualmente o Wi-Fi está desligado. Para activar o Intensificador de transferências, o Wi-Fi e os Dados móveis têm de estar ambos ligados. A transferência através de redes móveis pode implicar a cobrança de taxas adicionais dependendo do seu plano tarifário.</string>
+    <string name="smart_bonding_popup_msg_data">Actualmente os dados móveis estão desligados. Para activar o Intensificador de transferências, o Wi-Fi e os Dados móveis têm de estar ambos ligados. A transferência através de redes móveis pode implicar a cobrança de taxas adicionais dependendo do seu plano tarifário.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Actualmente os Dados móveis e Wi-Fi estão desligados. Para activar o Intensificador de transferências, o Wi-Fi e os Dados móveis têm de estar ambos ligados. A transferência através de redes móveis pode implicar a cobrança de taxas adicionais dependendo do seu plano tarifário.</string>
+    <string name="smart_bonding_popup_msg_roaming">Impossível utilizar o Intensificador de transferências em roaming. Recomendamos que faça a transferência através de uma rede Wi-Fi.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Ligar Wi-Fi</string>
+    <string name="smart_bonding_popup_msg_data_btn">Ligar Dados móveis</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Ligar Wi-Fi e Dados móveis</string>
+    <string name="smart_bonding_turn_off_text">Impossível utilizar o Intensificador de transferências enquanto %1$s estiver activado. Desactive %2$s e tente de novo.</string>
+    <string name="smart_bonding_turn_off_text_airplane_mode">Impossível ligar às redes móveis enquanto o modo de Voo estiver activado. Desactive o modo de Voo e tente novamente.</string>
+    <string name="dialog_battery_data_warning">O PA Móvel consome demasiada bateria e aumenta a utilização de dados. Continuar?</string>
+    <string name="tether_settings_title_wifi">PA Móvel</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">Notificação</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="cooling_title">Sobreaquecimento do dispositivo</string>
+    <string name="cooling_body">"O seu dispositivo está a sobreaquecer. Serão tomadas medidas para o arrefecer.
+
+Pode continuar a utilizar o seu dispositivo mas
+- o ecrã pode tornar-se mais escuro.
+- o dispositivo pode tornar-se mais lento.
+- a carga pode ser colocada em pausa.
+
+O fecho da aplicação actual ajudará a arrefecer o seu dispositivo.
+
+Depois de o dispositivo arrefecer, o desempenho regressa automaticamente ao normal."</string>
+    <string name="cooling_noti_text">Toque aqui para ver detalhes.</string>
+    <string name="cooling_popup_name">Notificação</string>
+    <string name="cooling_noti_title">Sobreaquecimento do dispositivo</string>
+    <string name="btn_text_yes">OK</string>
+    <string name="btn_text_no">Canc.</string>
+    <string name="device_overheating">Sobreaquecimento do dispositivo</string>
+    <string name="colling_noti_text_2">Impossível abrir aplicações. Só pode utilizar as aplicações Telefone e Contactos.</string>
+    <string name="vol_panel_audio_settings">alterar as definições de áudio.</string>
+    <string name="guest_launge_warning_toast_text">Impossível activar ou desactivar %s no Modo Convidado.</string>
+    <string name="safe_mode_title_vzw">Desligue o Modo de Segurança</string>
+    <string name="safe_mode_popup_body_vzw">Pretende reiniciar o seu telefone para desligar o Modo de Segurança? Todas as suas aplicações serão repostas.</string>
+    <string name="safe_mode_btn_cancel_vzw">Canc.</string>
+    <string name="safe_mode_off_btn_vzw">Desligue o Modo de Segurança</string>
+    <string name="safe_mode_noti_on_vzw">O Modo de Segurança está ativado</string>
+    <string name="safe_mode_noti_body_vzw">Toque para desligar o Modo de Segurança.</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">Toque aqui para obter mais informações.</string>
+    <string name="cooling_popup_name_VZW">Notificaç</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">OK</string>
+    <string name="btn_text_no_VZW">Canc.</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance will Automatically go back to normal."</string>
+    <string name="recent_menukey_press_description">Prima, sem soltar, a tecla recente para ver o menu.</string>
+    <string name="recent_menukey_press_description_vzw">A tecla de menu foi substituída pela tecla recente, para lhe permitir que alterne rapidamente entre as aplicações que utilizou mais recentemente. Toque em Ajuda para mais informações.</string>
+    <string name="recent_menukey_help_button">Ajuda</string>
+</resources>

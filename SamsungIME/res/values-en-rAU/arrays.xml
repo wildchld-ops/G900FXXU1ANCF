@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="qwerty_domain_values">
+        <item>.gov</item>
+        <item>.edu</item>
+        <item>.org</item>
+        <item>.net</item>
+        <item>.gov.au</item>
+        <item>.net.au</item>
+        <item>.org.au</item>
+        <item>.com.au</item>
+    </string-array>
+    <string-array name="phonepad_domain_values">
+        <item>.gov</item>
+        <item>.gov.au</item>
+        <item>.edu</item>
+        <item>.net.au</item>
+        <item>.org</item>
+        <item>.org.au</item>
+        <item>.net</item>
+        <item>.com.au</item>
+    </string-array>
+</resources>

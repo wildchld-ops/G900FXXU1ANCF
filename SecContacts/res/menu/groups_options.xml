@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/tw_action_bar_icon_add" android:id="@id/menu_group_add" android:title="@string/insertGroupDescription" android:showAsAction="always" />
+    <item android:id="@id/menu_group_delete" android:title="@string/delete_group_dialog_title" />
+    <item android:icon="@drawable/tw_action_bar_icon_change_order" android:id="@id/menu_group_change_order" android:title="@string/change_order" />
+    <item android:icon="@drawable/tw_action_bar_icon_help_holo" android:id="@id/menu_group_help" android:title="@string/menu_help" />
+</menu>

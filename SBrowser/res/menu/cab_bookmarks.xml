@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/optionmenu_icon_open_in_new_window" android:id="@id/cab_open" android:title="@string/contextmenu_openlink_newwindow" android:showAsAction="always" />
+    <item android:icon="@drawable/menu_icon_bookmark_delete_selector" android:id="@id/cab_delete" android:title="@string/bookmarks_options_menu_delete" android:showAsAction="always" />
+    <item android:icon="@drawable/optionmenu_icon_share" android:id="@id/cab_share" android:title="@string/share_link_chooser_title" android:showAsAction="never" />
+    <item android:icon="@drawable/optionmenu_icon_edit" android:id="@id/cab_edit" android:title="@string/contextmenu_edit" android:showAsAction="never" />
+    <item android:icon="@drawable/optionmenu_icon_edit" android:id="@id/cab_edit_folder" android:title="@string/contextmenu_edit" android:showAsAction="always" />
+    <item android:icon="@drawable/menu_icon_bookmark_move_to_folder_selector" android:id="@id/cab_move" android:title="@string/move_to_folder_title" android:showAsAction="never" />
+    <item android:icon="@drawable/add_bookmark_menu" android:id="@id/cab_add_quick" android:title="@string/options_menu_add_quick" android:showAsAction="never" />
+    <item android:icon="@drawable/optionmenu_icon_home" android:id="@id/cab_add_shortcut" android:title="@string/options_menu_add_shortcut" android:showAsAction="never" />
+    <item android:icon="@drawable/home_menu" android:id="@id/cab_set_as_homepage" android:title="@string/set_as_homepage" android:showAsAction="never" />
+</menu>

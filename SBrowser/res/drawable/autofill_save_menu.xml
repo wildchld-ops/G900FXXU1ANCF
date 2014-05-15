@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:layout_width="@dimen/autofill_actionbar_button_width" android:layout_height="@dimen/autofill_actionbar_button_height" android:drawable="@drawable/tw_action_bar_icon_check_disabled_holo_light" />
+    <item android:state_enabled="true" android:layout_width="@dimen/autofill_actionbar_button_width" android:layout_height="@dimen/autofill_actionbar_button_height" android:drawable="@drawable/tw_action_bar_icon_check_holo_light" />
+</selector>

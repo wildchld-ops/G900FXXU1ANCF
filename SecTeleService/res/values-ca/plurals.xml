@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Sense connexió de dades durant %s minuts</item>
+        <item quantity="one">Sense connexió de dades durant %s minut</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">"El telèfon estarà en mode de retrotrucada d'emergència durant %s minuts. No es poden utilitzar aplicacions que utilitzin connexió de dades en aquest mode. Sortir ara?"</item>
+        <item quantity="one">"No es pot utilitzar la connexió de dades per a les aplicacions. El telèfon estarà en mode de retrotrucada d'emergència durant %s minuts. Sortir ara?"</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">"L'acció seleccionada no està disponible en mode de retrotrucada d'emergència. El telèfon estarà en aquest mode durant %s minuts. Sortir ara?"</item>
+        <item quantity="one">"L'acció seleccionada no està disponible en mode de retrotrucada d'emergència. El telèfon estarà en aquest mode durant %s minut. Sortir ara?"</item>
+    </plurals>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/select_contact_info_row_container" android:background="@drawable/list_item_background" android:paddingLeft="@dimen/sendcontactinfo_item_left_padding" android:paddingRight="@dimen/sendcontactinfo_item_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/select_contact_info_row_container_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.touchwiz.widget.TwCheckBox android:id="@id/checkbox" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/select_contact_info_left_container" android:paddingLeft="@dimen/sendcontactinfo_item_left_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/checkbox" android:layout_centerVertical="true">
+        <TextView android:id="@id/type" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SelectContactInfoItemType" />
+        <TextView android:id="@id/data" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SelectContactInfoItemData" />
+    </LinearLayout>
+</RelativeLayout>

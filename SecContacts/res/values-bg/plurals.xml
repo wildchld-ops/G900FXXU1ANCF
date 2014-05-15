@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">Показване на %d записа</item>
+        <item quantity="one">Показване на 1 запис</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">Показани %d записа с телефонни номера</item>
+        <item quantity="one">Показан 1 запис с телефонен номер</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d записа с телефонни номера</item>
+        <item quantity="one">1 запис с телефонен номер</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d записа</item>
+        <item quantity="one">1 запис</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d намерени</item>
+        <item quantity="one">1 намерен</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d намерени</item>
+        <item quantity="one">1 намерен</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">обединено от %0$d източник/а</item>
+        <item quantity="one">без обединяване</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d групи</item>
+        <item quantity="one">1 група</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d хора в групата %2$s</item>
+        <item quantity="one">%1$d човек в групата %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d души</item>
+        <item quantity="one">%1$d човек</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d гласови пощи</item>
+        <item quantity="one">Гласова поща</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d записа са копирани.</item>
+        <item quantity="one">%d запис е копиран.</item>
+    </plurals>
+</resources>

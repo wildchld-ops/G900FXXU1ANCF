@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">କୌଣସି ଡାଟା ସଂଯୋଜନ ନାହିଁ %s ମିନିଟ୍ ପାଇଁ।</item>
+        <item quantity="one">କୌଣସି ଡାଟା ସଂଯୋଜନ ନାହିଁ %s ମିନିଟ୍ ପାଇଁ।</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">%s ମିନିଟ୍ ପାଇଁ ଫୋନ୍ ଜରୁରୀକାଳିନ କଲ୍‌ବ୍ୟାକ୍ ମୋଡ୍‌ରେ ରହିବ । ଆପ୍ଳିକେସନଗୁଡିକ ବ୍ୟବହାର ଡାଟା ସଂଯୋଜନ ବ୍ୟବହୃତ ହୋଇପାରିବ ନାହିଁ ଏହି ମୋଡ୍‌ରେ ଥିବା ସମୟରେ । ବର୍ତ୍ତମାନ ପ୍ରସ୍ଥାନ କରିବେ?</item>
+        <item quantity="one">ଆପ୍ଳିକେସନଗୁଡିକ ପାଇଁ ଡାଟା ବ୍ୟବହାର କରିବାକୁ ଅସମର୍ଥ । ଏହି ମୋଡ୍‌ ବେଳେ %s ପାଇଁ ଫୋନ୍ ଜରୁରୀକାଳିନ କଲ୍‌ବ୍ୟାକ୍ ମୋଡ୍‌ରେ ରହିବ । ବର୍ତ୍ତମାନ ପ୍ରସ୍ଥାନ କରିବେ?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">ଜରୁରୀକାଳିନ କଲ୍‌ବ୍ୟାକ୍ ମୋଡ୍‌ରେ ମନୋନିତ କ୍ରିୟା ଉପଲବ୍ଧ ନାହିଁ । %s ମିନିଟ୍ ପାଇଁ ଫୋନ୍ ଏହି ମୋଡ୍‌ରେ ରହିବ । ବର୍ତ୍ତମାନ ପ୍ରସ୍ଥାନ କରିବେ?</item>
+        <item quantity="one">ଜରୁରୀକାଳିନ କଲ୍‌ବ୍ୟାକ୍ ମୋଡ୍‌ରେ ମନୋନିତ କ୍ରିୟା ଉପଲବ୍ଧ ନାହିଁ । %s ମିନିଟ୍ ପାଇଁ ଫୋନ୍ ଏହି ମୋଡ୍‌ରେ ରହିବ । ବର୍ତ୍ତମାନ ପ୍ରସ୍ଥାନ କରିବେ?</item>
+    </plurals>
+</resources>

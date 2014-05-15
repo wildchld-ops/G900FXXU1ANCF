@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s ବାର୍ତ୍ତାଳାପଗୁଡିକ</item>
+        <item quantity="one">1 ବାର୍ତ୍ତାଳାପ</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s ସନ୍ଦେଶ</item>
+        <item quantity="one">1 ସନ୍ଦେଶ</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d ବାର୍ତ୍ତାଳାପ</item>
+        <item quantity="one">%d ବାର୍ତ୍ତାଳାପ</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s ଏବଂ %2$d ଅଧିକ</item>
+        <item quantity="one">%s ଏବଂ 1 ଅଧିକ</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s ଏବଂ %2$d ଅଧିକ</item>
+        <item quantity="one">%s ଏବଂ 1 ଅଧିକ</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">SIM କାର୍ଡ୍ ଠାରୁ ସନ୍ଦେଶଗୁଡିକ ବିଲୋପିତ ହୋଇଛି।</item>
+        <item quantity="one">SIM କାର୍ଡ୍ ଠାରୁ ସନ୍ଦେଶଗୁଡିକ ବିଲୋପିତ ହୋଇଛି।</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">SIM କାର୍ଡ୍ ଠାରୁ ସନ୍ଦେଶଗୁଡିକ କପି ହୋଇଛି।</item>
+        <item quantity="one">SIM କାର୍ଡ୍ ଠାରୁ ସନ୍ଦେଶଗୁଡିକ କପି ହୋଇଛି।</item>
+    </plurals>
+</resources>

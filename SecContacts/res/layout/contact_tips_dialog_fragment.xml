@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/contact_tips_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:textAppearance="@style/TwMainListContactTipsDialogTextAppearance" android:id="@id/contact_tips_create_contact_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/contact_tips_create_contact_with_image" />
+            <ImageView android:layout_gravity="center" android:id="@id/contact_tips_create_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:src="@drawable/swipe_tips_create" />
+            <TextView android:textAppearance="@style/TwMainListContactTipsDialogTextAppearance" android:id="@id/contact_tips_call_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/contact_tips_call" />
+            <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                <ImageView android:id="@id/contact_tips_call_image" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/log_no_item_01" android:layout_alignParentLeft="true" />
+                <TextView android:textAppearance="@style/TwMainListContactTipsDialogImageTextAppearance" android:ellipsize="end" android:gravity="right" android:id="@id/contact_tips_image_text_call" android:layout_width="65.0dip" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:text="@string/call" android:singleLine="true" android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+            <TextView android:textAppearance="@style/TwMainListContactTipsDialogTextAppearance" android:id="@id/contact_tips_message_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/contact_tips_message" />
+            <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                <ImageView android:id="@id/contact_tips_message_image" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/log_no_item_02" android:layout_alignParentLeft="true" />
+                <TextView android:textAppearance="@style/TwMainListContactTipsDialogImageTextAppearance" android:ellipsize="end" android:gravity="left" android:id="@id/contact_tips_image_text_message" android:layout_width="90.0dip" android:layout_height="fill_parent" android:layout_marginLeft="200.0dip" android:layout_marginTop="20.0dip" android:text="@string/message" android:singleLine="true" android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:id="@id/contact_tips_do_not_show_again_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
+            <com.sec.android.touchwiz.widget.TwCheckBox android:id="@id/contact_tips_do_not_show_again_check_box" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" />
+            <TextView android:textAppearance="@style/TwMainListContactTipsDialogTextAppearance" android:id="@id/text" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_tips_naver_show_again" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

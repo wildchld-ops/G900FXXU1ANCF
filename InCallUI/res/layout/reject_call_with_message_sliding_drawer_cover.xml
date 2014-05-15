@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SlidingDrawer android:id="@id/reject_call_with_message_sliding_drawer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:bottomOffset="0.0dip" android:topOffset="25.0dip" android:allowSingleTap="false" android:handle="@id/reject_call_with_message_handle" android:content="@id/reject_call_with_message_content_all"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/reject_call_with_message_handle" android:background="@drawable/call_incoming_reject_handle" android:focusable="true" android:layout_width="fill_parent" android:layout_height="56.0dip" android:contentDescription="@string/reject_call_with_msg">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/reject_call_with_message_open_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_reject_with_message_open" />
+        <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:id="@id/reject_call_with_message_handler" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip">
+            <ImageView android:id="@id/reject_call_with_message_handle_icon" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_reject_with_message_icon" />
+            <TextView android:textSize="15.0dip" android:textStyle="normal" android:textColor="@color/reject_with_message_handle_text_color" android:id="@id/reject_call_with_message_handle_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/reject_call_with_msg" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/reject_call_with_message_content_all" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.incallui.RejectCallWithMessageContent android:orientation="vertical" android:id="@id/reject_call_with_message_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <com.android.incallui.RejectCallWithMessageContentIconMode android:orientation="vertical" android:id="@id/reject_call_with_message_content_icon_mode" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </LinearLayout>
+</SlidingDrawer>

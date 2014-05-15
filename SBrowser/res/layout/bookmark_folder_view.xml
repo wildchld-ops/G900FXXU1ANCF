@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/bookmark_list_selector" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/folder_icon" android:layout_width="@dimen/sbrowser_bookmark_folder_image_width" android:layout_height="@dimen/sbrowser_bookmark_folder_image_height" android:layout_marginLeft="@dimen/sbrowser_bookmark_folder_image_margin_left" android:layout_marginRight="@dimen/sbrowser_bookmark_folder_image_margin_right" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/bookmark_folder_title" android:gravity="center_vertical" android:id="@id/bookmark_folder_title" android:paddingRight="@dimen/sbrowser_bookmark_create_folder_radio_button_margin_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:singleLine="true" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="right|center" android:id="@id/radio_button" android:visibility="gone" android:layout_width="@dimen/sbrowser_bookmark_create_folder_radio_button_width" android:layout_height="@dimen/sbrowser_bookmark_create_folder_radio_button_height" android:layout_marginRight="@dimen/sbrowser_bookmark_create_folder_radio_button_margin_right" android:src="@drawable/radio_button_inactive" />
+</LinearLayout>

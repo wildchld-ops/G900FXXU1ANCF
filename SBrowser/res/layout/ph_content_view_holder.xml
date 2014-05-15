@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sec.android.app.sbrowser.common.SBrowserPhoneCVHolder android:id="@id/sbrowser_content_view_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" app:spaceBetweenTabs="20.0dip" app:gutterPercentage="0.03"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.sec.android.app.sbrowser" />

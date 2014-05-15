@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">%s मिनिटांसाठी डेटा कनेक्शन नाही.</item>
+        <item quantity="one">%s मिनिटासाठी डेटा कनेक्शन नाही.</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">%s मिनिटांसाठी फोन संकटकाळ कॉलबॅक मोडमध्ये राहील. या मोडमध्ये असताना डेटा कनेक्शन वापरणारी एप्लिकेशन वापरता येऊ शकत नाहीत. आता निर्गमन करायचे?</item>
+        <item quantity="one">एप्लिकेशन साठी डेटा कनेक्शन वापरण्यास असमर्थ. %s मिनिटांसाठी या मोडमध्ये असताना हा फोन संकटकाळ कॉलबॅक मोडमध्ये राहील. आता निर्गमन करायचे?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">निवडलेली क्रिया संकटकाळ कॉलबॅक मोडमध्ये अनुपलब्ध. %s मिनिटांसाठी हा फोन या मोडमध्ये राहा. आता निर्गमन करायचे?</item>
+        <item quantity="one">निवडलेली क्रिया संकटकाळ कॉलबॅक मोडमध्ये अनुपलब्ध. %s मिनिटासाठी हा फोन या मोडमध्ये राहील. आता निर्गमन करायचे?</item>
+    </plurals>
+</resources>

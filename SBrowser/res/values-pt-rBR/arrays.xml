@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_engines">
+        <item>google_br</item>
+        <item>bing_pt_BR</item>
+        <item>yahoo_br</item>
+        <item>uol</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>Sempre ligado</item>
+        <item>Quando pedido</item>
+        <item>Desativado</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Página padrão</item>
+        <item>Página atual</item>
+        <item>Acesso rápido</item>
+        <item>Sites mais visitados</item>
+        <item>Outros</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Dispositivo</item>
+        <item>Cartão SD</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latino-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chinês (GBK)</item>
+        <item>Chinês (Big5)</item>
+        <item>Japonês (ISO-2022-JP)</item>
+        <item>Japonês (SHIFT JIS)</item>
+        <item>Japonês (EUC-JP)</item>
+        <item>Coreano (EUC-KR)</item>
+        <item>Detecção automática</item>
+    </string-array>
+</resources>

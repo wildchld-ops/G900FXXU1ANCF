@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s συζητήσεις</item>
+        <item quantity="one">1 συζήτηση</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s μηνύματα</item>
+        <item quantity="one">1 μήνυμα</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d συνομιλίες</item>
+        <item quantity="one">%d συνομιλία</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s και %2$d ακόμη</item>
+        <item quantity="one">%s και 1 ακόμη</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s και %2$d ακόμη</item>
+        <item quantity="one">%s και 1 ακόμη</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">Διαγράφηκαν μηνύματα από την κάρτα SIM.</item>
+        <item quantity="one">Το μήνυμα διαγράφηκε από την κάρτα SIM.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">Αντιγράφηκαν μηνύματα από την κάρτα SIM.</item>
+        <item quantity="one">Το μήνυμα αντιγράφηκε από την κάρτα SIM.</item>
+    </plurals>
+</resources>

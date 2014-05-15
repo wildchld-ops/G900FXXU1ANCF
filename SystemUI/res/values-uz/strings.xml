@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_date_format_day_month_k">"E
+d MMM"</string>
+    <string name="status_bar_date_format_month_day_k">"E
+MMM d"</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">MMM d, E</string>
+    <string name="app_label">Tizim FI</string>
+    <string name="status_bar_clear_all_button">Tozalash</string>
+    <string name="status_bar_do_not_disturb_button">Bezovta qilmang</string>
+    <string name="status_bar_please_disturb_button">Bildirishnomani ko‘rsat</string>
+    <string name="status_bar_recent_remove_item_title">"Ro'yxatdan olib tashlash"</string>
+    <string name="status_bar_recent_inspect_item_title">"Ilova ma'lumoti"</string>
+    <string name="status_bar_no_recent_apps">Oxirgi ilovalar yo‘q</string>
+    <string name="status_bar_accessibility_dismiss_recents">Ilovalarni oxirgi foydalanganlar ro‘yxatidan olib tashlash</string>
+    <string name="status_bar_no_notifications_title">Eslatmalar yo‘q</string>
+    <string name="status_bar_ongoing_events_title">Hozirda bajarilmoqda</string>
+    <string name="status_bar_latest_events_title">"Ma'lumotnomalar"</string>
+    <string name="battery_low_title">Zaryadlash qurilmasini ulang.</string>
+    <string name="battery_low_percent_format">%d%% qoldi.</string>
+    <string name="invalid_charger">USB zaryadlash qo‘llab-quvvatlanmaydi. Berilgan zaryadlash vositasidan foydalaning.</string>
+    <string name="battery_low_why">Batareya ishlatilishi</string>
+    <string name="status_bar_settings_settings_button">Parametrlar</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Uchish rejimi</string>
+    <string name="status_bar_settings_auto_rotation">Ekranni avtomatik aylantirish</string>
+    <string name="status_bar_settings_mute_label">Ovozsiz</string>
+    <string name="status_bar_settings_auto_brightness_label">Avtomatik</string>
+    <string name="status_bar_settings_notifications">Bildirishnomalar</string>
+    <string name="bluetooth_tethered">Bluetooth bog‘landi</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Kiritish usullarini o‘rnatish</string>
+    <string name="status_bar_use_physical_keyboard">Moddiy klaviatura</string>
+    <string name="usb_device_permission_prompt">%1$s ilovasiga USB-qurilmaga kirish uchun ruxsat berilsinmi?</string>
+    <string name="usb_accessory_permission_prompt">%1$s ilovasiga USB aksessuariga kirish uchun ruxsat berilsinmi?</string>
+    <string name="usb_device_confirm_prompt">Ushbu USB-qurilma ulanganda, %1$s ochilsinmi?</string>
+    <string name="usb_accessory_confirm_prompt">Ushbu USB aksessuari ulanganda, %1$s ochilsinmi?</string>
+    <string name="usb_accessory_uri_prompt">"USB aksessuari bilan o‘rnatilgan ilovalar ishlamaydi. Ushbu aksessuar haqida %sda qo‘shimcha ma'lumotlarni oling."</string>
+    <string name="title_usb_accessory">USB aksessuari</string>
+    <string name="label_view">Ko‘rib chiqish</string>
+    <string name="always_use_device">Ushbu USB-qurilma uchun birlamchi holat ishlatilsin</string>
+    <string name="always_use_accessory">"Ushbu USB aksessuari u-n birl. o'rn. sif. ishlatish"</string>
+    <string name="usb_debugging_title">USB vositalariga ruxsat berilsinmi?</string>
+    <string name="usb_debugging_message">"ShK RSA tugmasining barmoq izi:
+%1$s"</string>
+    <string name="usb_debugging_always">Ushbu ShKga doim ruxsat berish</string>
+    <string name="compat_mode_on">Ekranni to‘ldirish uchun masshtabni o‘zgartiring</string>
+    <string name="compat_mode_off">Ekranni to‘ldirish uchun cho‘zing</string>
+    <string name="compat_mode_help_header">Masshtabni mos ravishda o‘zgartirish</string>
+    <string name="compat_mode_help_body">Ilova kichikroq ekranga moslashtirilganda, masshtabni nazorat qilish vositasi soat yonida paydo bo‘ladi.</string>
+    <string name="screenshot_saving_ticker">Ekran rasmi saqlanmoqda…</string>
+    <string name="screenshot_saving_title">Ekran rasmi saqlanmoqda…</string>
+    <string name="screenshot_saving_text">Ekran rasmi saqlanmoqda.</string>
+    <string name="screenshot_saved_title">Olingan ekran rasmi</string>
+    <string name="screenshot_saved_text">Ekran rasmlarini ko‘rib chiqish uchun teging.</string>
+    <string name="screenshot_failed_title">Ekranni suratga olib bo‘lmaydi.</string>
+    <string name="screenshot_failed_text">Ekran rasmini saqlab bo‘lmaydi. USB-ichki xotira band bo‘lishi mumkin.</string>
+    <string name="screenshot_failed_due_to_drm_text">Ekranni rasmga olib bo‘lmadi. DRM himoyalangan tasvir.</string>
+    <string name="one_item_will_be_deleted">1 element yo‘q qilinadi.</string>
+    <string name="usb_preference_title">USB fayl uzatish opsiyalari</string>
+    <string name="use_mtp_button_title">Media pleyeri sifatida montajlash (MTP)</string>
+    <string name="use_ptp_button_title">Kamera sifatida montajlash (PTP)</string>
+    <string name="installer_cd_button_title">Mac uchun Android fayl uzatish ilovasini o‘rnatish</string>
+    <string name="accessibility_back">Orqaga</string>
+    <string name="accessibility_home">Asosiy</string>
+    <string name="accessibility_menu">Menyu</string>
+    <string name="accessibility_recent">Oxirgi ilovalar</string>
+    <string name="accessibility_ime_switch_button">Kiritish usuli tugmasini o‘tkazing.</string>
+    <string name="accessibility_compatibility_zoom_button">Masshtabni mos tarzda o‘zgartirish tugmasi</string>
+    <string name="accessibility_compatibility_zoom_example">Kattaroq ekranga kattalashtirish</string>
+    <string name="accessibility_bluetooth_connected">Bluetoothga ulangan</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth uzildi.</string>
+    <string name="accessibility_no_battery">Batareya yo‘q</string>
+    <string name="accessibility_battery_one_bar">Batareya quvvati uchun bir panel</string>
+    <string name="accessibility_battery_two_bars">Batareya quvvati uchun ikki panel</string>
+    <string name="accessibility_battery_three_bars">Batareya quvvati uchun uchta panel</string>
+    <string name="accessibility_battery_full">Batareya to‘la.</string>
+    <string name="accessibility_no_phone">Telefon signali yo‘q</string>
+    <string name="accessibility_phone_one_bar">Telefon signalining bir paneli</string>
+    <string name="accessibility_phone_two_bars">Telefon signalining ikki paneli</string>
+    <string name="accessibility_phone_three_bars">Telefon signalining uch paneli</string>
+    <string name="accessibility_phone_signal_full">To‘liq telefon signali</string>
+    <string name="accessibility_no_data">Ma’lumotlar yo‘q</string>
+    <string name="accessibility_data_one_bar">"Ma'lumot signalining bir paneli"</string>
+    <string name="accessibility_data_two_bars">"Ma'lumot signalining ikki paneli"</string>
+    <string name="accessibility_data_three_bars">"Ma'lumot signalining uch paneli"</string>
+    <string name="accessibility_data_four_bars">Ma’lumot signalining to‘rt paneli</string>
+    <string name="accessibility_data_five_bars">Ma’lumot signalining besh paneli</string>
+    <string name="accessibility_data_signal_full">"To‘liq ma'lumot signali"</string>
+    <string name="accessibility_wifi_off">Wi-Fi Off</string>
+    <string name="accessibility_no_wifi">Wi-Fi signali yo‘q</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi signalining bir paneli</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi signalining ikki paneli</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi signalining uch paneli</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi signali to‘la.</string>
+    <string name="accessibility_no_signal">Signal yo‘q</string>
+    <string name="accessibility_not_connected">Ulanmagan.</string>
+    <string name="accessibility_phone_four_bars">Telefon signalining to‘rt paneli</string>
+    <string name="accessibility_phone_five_bars">Telefon signalining besh paneli</string>
+    <string name="accessibility_desc_on">Yoq.</string>
+    <string name="accessibility_desc_off">O‘ch.</string>
+    <string name="accessibility_desc_connected">Ulangan.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Rouming</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">SIM-karta yo‘q</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth bog‘lanishi</string>
+    <string name="accessibility_airplane_mode">Uchish rejimi</string>
+    <string name="accessibility_battery_level">Batareya quvvati %d foiz.</string>
+    <string name="accessibility_settings_button">Tizim parametrlari</string>
+    <string name="accessibility_notifications_button">Bildirishnomalar</string>
+    <string name="accessibility_remove_notification">"Eslatmalarni o'chirish"</string>
+    <string name="accessibility_gps_enabled">GPS yoqilgan</string>
+    <string name="accessibility_gps_acquiring">GPS olinmoqda…</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter yoqilgan</string>
+    <string name="accessibility_ringer_vibrate">Rington vibratsiyasi</string>
+    <string name="accessibility_ringer_silent">Rington ovozini o‘chirish</string>
+    <string name="accessibility_desc_quick_settings">Tezkor parametrlar</string>
+    <string name="accessibility_desc_recent_apps">Oxirgi ilovalar</string>
+    <string name="accessibility_quick_settings_alarm">Budilnik %sga qo‘yilgan.</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">Tez ulanish</string>
+    <string name="accessibility_qconnect_button_tts">Tez ulanish</string>
+    <string name="data_usage_disabled_dialog_3g_title">"2G-3G ma'lumoti o‘chirilgan"</string>
+    <string name="data_usage_disabled_dialog_4g_title">"4G ma'lumoti o‘chirilgan"</string>
+    <string name="data_usage_disabled_dialog_mobile_title">"Mobil ma'lumot o‘chirilgan"</string>
+    <string name="data_usage_disabled_dialog_title">"Ma'lumot o‘chirildi"</string>
+    <string name="data_usage_disabled_dialog">"Ma'lumotlardan foydalanishning belgilangan chegarasiga yetildi. Ma'lumotlardan qo‘shimcha ravishda foydalanish uchun xizmat ta'minotchisi tomonidan to‘lov olinishi mumkin."</string>
+    <string name="data_usage_disabled_dialog_enable">"Ma'lum. ulanishini qayta yoq"</string>
+    <string name="data_usage_enable_mobile_warning">Paketli ma’lumot orqali ulanish uchun qo‘shimcha to‘lov olinishi mumkin. Davom ettirilsinmi?</string>
+    <string name="data_usage_disable_mobile">"Mobil ma'lumot ulanishi o‘chirilsinmi?"</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Internet ulanishi yo‘q</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi ulangan.</string>
+    <string name="gps_notification_searching_text">GPS yordamida qidirilmoqda…</string>
+    <string name="gps_notification_found_text">GPS tomonidan o‘rnatilgan joylashish</string>
+    <string name="accessibility_clear_all">Barcha bildirishnomalarni tozalash</string>
+    <string name="status_bar_notification_inspect_item_title">"Ilova ma'lumoti"</string>
+    <string name="close_universe">Yopish</string>
+    <string name="notifications_off_title">Bildirishnoma o‘chirildi</string>
+    <string name="notifications_off_text">Bildirishnomalarni yoqish uchun teging.</string>
+    <string name="accessibility_rotation_lock_off">Ekran avtomatik ravishda buriladi.</string>
+    <string name="start_dreams">Ekran lavhasi</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_battery_charged_label">Zaryadlangan.</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth o‘chirilgan</string>
+    <string name="quick_settings_brightness_label">Ravshanlik</string>
+    <string name="quick_settings_ime_label">Kiritish usuli</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Faqat favqulodda qo‘ng‘iroqlar.</string>
+    <string name="quick_settings_settings_label">Parametrlar</string>
+    <string name="quick_settings_time_label">Vaqt</string>
+    <string name="quick_settings_user_label">Men</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">Ulanmagan.</string>
+    <string name="quick_settings_wifi_no_network">Tarmoq yo‘q</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi Off</string>
+    <string name="quick_settings_wifi_display_label">"Wi-Fi
+displeyi"</string>
+    <string name="quick_settings_brightness_dialog_title">Ravshanlik</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Avtomatik</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">Joylashuv</string>
+    <string name="quickpanel_silent_mode_text">"Ovozsiz
+rejim"</string>
+    <string name="quickpanel_silent_mode_sound">Ovoz</string>
+    <string name="quickpanel_silent_mode_vibrate">Vibratsiya</string>
+    <string name="quickpanel_silent_mode_mute">Ovozsiz</string>
+    <string name="quickpanel_rotation_text">"Ekran
+aylanishi"</string>
+    <string name="quickpanel_mobile_data_text">"Mobil
+internet"</string>
+    <string name="quickpanel_dormant_mode_text">"Bloklash
+rejimi"</string>
+    <string name="quickpanel_notification_text">Bildir-noma</string>
+    <string name="quickpanel_airplane_mode_text">"Parvoz
+rejimi"</string>
+    <string name="quickpanel_sync_text">Sinx-sh</string>
+    <string name="quickpanel_power_saving_text">"Quvvat
+tejash"</string>
+    <string name="quickpanel_ultra_power_saving_text">"U. quvvat
+tejash"</string>
+    <string name="quickpanel_driving_mode_text">"Masofali
+rejim"</string>
+    <string name="quickpanel_smart_stay_text">"Smart
+turish"</string>
+    <string name="quickpanel_smart_scroll_text">"Smart
+aylantir"</string>
+    <string name="quickpanel_smart_pause_text">"Smart
+pauza"</string>
+    <string name="quickpanel_smart_network_text">"Smart
+tarmoq"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_wifi_hotspot_text">"Wi-Fi
+faol nuqt"</string>
+    <string name="quickpanel_multiwindow_text">"Ko‘p
+oyna"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_brightness_text">Ravshanlik</string>
+    <string name="quickpanel_airview_text">"Muallaq
+rejim"</string>
+    <string name="quickpanel_airgesture_text">"Muallaq
+ishora"</string>
+    <string name="quickpanel_ebook_text">"O‘qish
+rejimi"</string>
+    <string name="quickpanel_personal_mode_text">"Maxfiy
+rejim"</string>
+    <string name="quickpanel_car_mode_text">"Avtom.
+rjm"</string>
+    <string name="quickpanel_network_booster_text">"Yuk/ol.
+stimul"</string>
+    <string name="quickpanel_toolbox_text">"Asboblar
+paneli"</string>
+    <string name="quickpanel_touch_sensitivity_text">Tegish sezgirligi</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">Joylashuv</string>
+    <string name="quickpanel_silent_mode_sound_content_description">Ovoz</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">Vibratsiya</string>
+    <string name="quickpanel_silent_mode_mute_content_description">Ovozni o‘chirish</string>
+    <string name="quickpanel_rotation_content_description">Ekranni aylantirish</string>
+    <string name="quickpanel_mobile_data_content_description">Mobil ma’lumot</string>
+    <string name="quickpanel_dormant_mode_content_description">Bloklash rejimi</string>
+    <string name="quickpanel_airplane_mode_content_description">Uchish rejimi</string>
+    <string name="quickpanel_sync_content_description">Sinxronlash</string>
+    <string name="quickpanel_power_saving_content_description">Quvvat tejash rejimi</string>
+    <string name="quickpanel_ultra_power_saving_content_description">Ultra quvvat tejash rejimi</string>
+    <string name="quickpanel_smart_stay_content_description">Smart turish</string>
+    <string name="quickpanel_smart_pause_content_description">Smart pauza</string>
+    <string name="quickpanel_smart_network_content_description">Smart tarmoq</string>
+    <string name="quickpanel_wifi_hotspot_content_description">Portativ Wi-Fi faol nuqta</string>
+    <string name="quickpanel_multiwindow_content_description">Ko‘p oyn</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_ebook_content_description">O‘qish rejimi</string>
+    <string name="quickpanel_personal_mode_content_description">Maxfiy rejim</string>
+    <string name="quickpanel_car_mode_content_description">Avtomobil rejimi</string>
+    <string name="quickpanel_network_booster_content_description">Yuklab olish stimulyatori</string>
+    <string name="quickpanel_toolbox_content_description">Asboblar paneli</string>
+    <string name="air_gesture_use_popup_title">Havodagi ishorani yoqish</string>
+    <string name="air_gesture_use_popup_msg">Havodagi ishora va TalkBackning har ikkalasini yoqib bo‘lmaydi. TalkBack o‘chiriladi</string>
+    <string name="air_view_use_popup_title">Muallaq rejimni yoq</string>
+    <string name="air_view_use_popup_msg">Bir vaqtda ham Muallaq rejimni ham quyidagi opsiyalarni yoqib bo‘lmaydi. Quyidagi opsiyalar o‘chiriladi</string>
+    <string name="multi_window_use_popup_title">Ko‘p oynani yoqish</string>
+    <string name="multi_window_use_popup_msg">Ko‘p oynali rejim va TalkBackni bir vaqtda yoqib bo‘lmaydi. TalkBack o‘chiriladi</string>
+    <string name="smart_pause_use_popup_title">Smart pauzani yoqish</string>
+    <string name="smart_pause_use_popup_msg">Smart pauza va TalkBackning har ikkisini yoqib bo‘lmaydi. TalkBack o‘chiriladi.</string>
+    <string name="smart_scroll_use_popup_title">Smart aylantirishni yoqish</string>
+    <string name="smart_scroll_use_popup_msg">Smart aylantirish va TalkBackning har ikkisini yoqib bo‘lmaydi. TalkBack o‘chiriladi.</string>
+    <string name="smart_stay_use_popup_title">Smart turishni yoqish</string>
+    <string name="smart_stay_use_popup_msg">Smart turish va TalkBackning har ikkisini yoqib bo‘lmaydi. TalkBack o‘chiriladi.</string>
+    <string name="quickpanel_content_description_led_on">%s yoqilgan.</string>
+    <string name="quickpanel_content_description_led_off">%s o‘chirilgan.</string>
+    <string name="quickpanel_content_description_led_dim">%sni yoqib bo‘lmayapti.</string>
+    <string name="smart_network">Smart tarmoq</string>
+    <string name="smart_network_guide_msg">"Smart tarmoq batareya quvvatini tejash uchun lozim.
+
+Bu ekran o‘chganida, Wi-Fi va mobil ma’lumotni o‘chiradi, natijada qurilma batareya quvvatini kamroq sarflaydi.
+
+ Lekin ekranni yoqqaningizda, yig‘ilib qolgan ma’lumotni olishingiz mumkin."</string>
+    <string name="quickpanel_data_roaming_text">Ma’lumotlar roumingi</string>
+    <string name="data_roaming_dialog_text">Rouming qo‘shimcha xarajatlarga olib keladi. Davom ettirilsinmi?</string>
+    <string name="mobile_data_enable_dialog_text">Mobil tarmoqqa ulanish, tarif rejangizga ko‘ra, qo‘shimcha to‘lov olinishi mumkin. Davom ettirilsinmi?</string>
+    <string name="quickpanel_edit_current">Bildirishnoma paneli</string>
+    <string name="quickpanel_edit_available">Mavjud tugmalar</string>
+    <string name="mobile_data_dialog_text">Endi Siz mobil tarmoqlar orqali Internet, E-pochta va YouTube kabi ilovalardan foydalana olmaysiz. Davom ettirilsinmi?</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"Wi-Fi ulanishidan foydalanmasangiz, Internet, e-pochta yoki ma‘lumot ulanishini talab qiluvchi boshqa ilovalardan foydalana olmaysiz.
+
+Mobil ma’lumot o‘chiriladi"</string>
+    <string name="mobile_data_connect">Ulanish</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">Uchish rejimi yoqilganda, mobil tarmoqlarga ulanib bo‘lmaydi. Uchish rejimini o‘chiring va qayta urinib ko‘ring.</string>
+    <string name="warning_alert_check">Boshqa ko‘rsatma</string>
+    <string name="blocking_mode_enable">Ushbu rejim yoqilganda, tanlangan xususiyatlar bildirishnomalarini o‘chiring. Siz faqat ruxsat berilganlar ro‘yxatingizdagi odamlardangina bildirishnomalarni olasiz.</string>
+    <string name="blocking_mode_enable_for_grid_settings">Bloklash rejimi tanlangan funksiyalar uchun bildirishnomalarni bloklaydi. Kiruvchi qo‘ng‘iroqlar bloklanganda, Siz faqat ruxsat berilgan kontaktlaringizdagi odamlardan kiruvchi qo‘ng‘iroqlar haqidagi bildirishnomalarni olasiz. Bloklash rejimi parametrlarini o‘zgartirish uchun Parametrlar > Shaxsiylashtirish > Bloklash rejimi.</string>
+    <string name="blocking_mode_enable_wifi">Ushbu rejim yoqilganda, tanlangan funksiyalar uchun bildirishnomalar o‘chiriladi.</string>
+    <string name="blocking_mode_title">Bloklash rejimi</string>
+    <string name="dormant_mode_off_message">Bloklash rejimini yoqish uchun, hech bo‘lmaganda, quyidagi opsiyalardan birini yoqing.</string>
+    <string name="driving_mode_title">Dinamik rejim</string>
+    <string name="driving_mode_on_dialog_msg_1">S Voice Masovaflini yopganingizdan so‘ng Masofaviy rejim Parametrlarda o‘chirilishi lozim. Agar Masofali rejim yoqilgan bo‘lsa, bildirishnomalar va kiruvchi qo‘ng‘iroq ma’lumotlari avtomatik ravishda ovoz chiqarib o‘qiladi</string>
+    <string name="driving_mode_on_dialog_msg_2">S Voice Masofalida “Masofali rejim o‘chirilsin” deyish yoki Parametrlar yoki bildirishnoma paneliga o‘tish orqali Masofali rejimni o‘chirishingiz mumkin.</string>
+    <string name="insert_sim_card">SIM-karta kiriting</string>
+    <string name="insert_sim_card_message">Tarmoq xizmatlariga kirish uchun SIM-karta kiriting.</string>
+    <string name="wifi_enable_warning">Wi-Fini yoqish portativ Wi-Fi faol nuqtasini o‘chiradi. Davom ettirilsinmi?</string>
+    <string name="wifi_ap_turning_off">Portativ Wi-Fi faol nuqta o‘chirilmoqda…</string>
+    <string name="no_sim_notification_title">SIM-karta yo‘q</string>
+    <string name="no_sim_notification_title_tmo">SIM-karta kiritilmagan.</string>
+    <string name="no_sim_notification_text">SIM-karta kiriting.</string>
+    <string name="accessibility_power_saving_mode">Quvvat tejash rejimini yoqish uchun, kamida bitta funksiyani yoqing.</string>
+    <string name="accessibility_power_saving_mode_title">Quvvat tejash rejimi</string>
+    <string name="accessibility_driving_mode">Masofaviy rejimni yoqish uchun kamida bitta mos funksiyani yoqing.</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Network restriction mode will be disabled.</string>
+    <string name="charging_interruption_title">Zaryadlab bo‘lmaydi</string>
+    <string name="charging_interruption_by_terminal_open_text">Qurilmangizni zaryadlab bo‘lmaydi. Siz Samsungga mos batareya va zaryadlash qurilmasidan foydalanayotganingizga va qurilmangiz zaryadlash qurilmasiga to‘g‘ri ulanganligiga ishonch hosil qiling.</string>
+    <string name="charging_interruption_by_too_high_temperature_text">Zaryadlash to‘xtatib turilmoqda. Batareya harorati juda yuqori.</string>
+    <string name="charging_interruption_by_too_low_temperature_text">Zaryadlash to‘xtatib turilmoqda. Batareya harorati juda past.</string>
+    <string name="charging_interruption_by_limit_high_temperature_text">"Qurilmani zaryadlash to‘xtatildi. Batareya harorati juda yuqori. Zaryadlash qurilmasini ehtiyotkorlik bilan chiqaring. U juda issiq bo‘lishi mumkin.
+
+Zaryadlash qurilmasini chiqarish va qayta ulash zaryadlashni normal davom ettirishga imkon berishi mumkin. Agar qizib ketsa, mijozlarga xizmat ko‘rsatish markazi bilan bog‘laning, chunki yong‘in yoki zarar yetish ehtimoli mavjud."</string>
+    <string name="full_battery_title">Ma’lumot</string>
+    <string name="full_battery_text">"Batareya to‘la zaryadlangan.
+Zaryadlash vositasini chiqaring."</string>
+    <string name="low_battery_title">Batareya quvvati kam.</string>
+    <string name="critical_low_battery_title">Batareya quvvati kritik darajada past</string>
+    <string name="low_battery_text">Qurilmani zaryadlash uchun quvvat manbaiga ulaning va Vazifalar menejerida ishlatilmayotgan ilovalardan chiqing. Zaryadlash jarayonida foydalanishni davom ettirish zaryadlash samaradorligini kamaytirishi mumkin.</string>
+    <string name="low_battery_text_charged_via_ta">Ishlatilmayotgan ilovalardan Topshiriqlar menejerida chiqing. Zaryadlash jarayonida foydalanishni davom ettirish zaryadlash samaradorligini kamaytirishi mumkin.</string>
+    <string name="low_battery_camera_warning_text">Agar batareya quvvati %d%% dan pastga tushib ketsa, Kamerani ochish imkoniga ega bo‘lmaysiz.</string>
+    <string name="critical_low_battery_camera_warning_text">Kamerani ochib bo‘lmaydi. Batareya quvvati %d%% yoki kamroq.</string>
+    <string name="start_force_consume_battery_title">Signal</string>
+    <string name="start_force_consume_battery_text">Qurilmangizdan foydalanishdan oldin u soviganligiga ishonch hosil qiling.</string>
+    <string name="stop_force_consume_battery_title">Ma’lumot</string>
+    <string name="stop_force_consume_battery_text">Qurilma sovidi.</string>
+    <string name="wireless_charging_title">Simsiz zaryadlash.</string>
+    <string name="cable_charging_title">Kabel bilan zaryadlash</string>
+    <string name="wireless_charging_text">Qurilmani quyidagi diapazonda o‘rnatdingiz. Hozirda simsiz zaryadlanmoqda…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">Simsiz zaryadlashdan kabelli zaryadlashga o‘tish</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">Kabelli zaryadlashdan simsiz zaryadlashga o‘tish</string>
+    <string name="wireless_charging_spen_warning_text">Endi qurilmangiz simsiz zaryadlanmoqda. S Pen simsiz zaryadlash qurilmasi doirasida ishlamaydi</string>
+    <string name="incompatible_charger_title">Zaryadlanmayapti.</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_dialog_text_for_tablet">The connected charger is incompatible with this tablet. To prevent damage to your tablet, charging has been stopped. To continue charging, use the original charger and cable that were provided with this tablet.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_notification_text">To charge faster, use the original charger</string>
+    <string name="slow_charging_toast_text">To charge faster, use the charger and cable that were provided with this phone</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="water_damage_warning_title">Zaryad. uya qop-ni teksh</string>
+    <string name="water_damage_warning_text">Suv zarar yetkazmasligi uchun foydalanishdan oldin zaryadlash uyasi qopqog‘ini mahkamlab yoping.</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">Qurilmani o‘chirish</string>
+    <string name="overheat_poweroff_warning_text">Qurilmangiz qizib ketdi. Sovitish uchun u o‘chiriladi.</string>
+    <string name="overheat_poweroff_warning_button_text">Quvvat o‘chirilmasin</string>
+    <string name="overheat_poweroff_notice_title">Qurilma avtomatik ravishda o‘chadi</string>
+    <string name="overheat_poweroff_notice_text">"Qurilmangiz qizib ketdi. Zarar yetmasligi uchun u o‘chirildi.
+
+Quyidagilar qizib ketishga sabab bo‘lishi mumkin:
+O‘yin va navigatsiya ilovalari kabi grafik ko‘p ishlatiladigan ilovalardan uzoq muddat davomida foydalanish.
+Katta fayllarni uzatish.
+Qurilmangizdan issiq joyda foydalanish."</string>
+    <string name="power_sharing_warning_title">Quvvat ulashish</string>
+    <string name="power_sharing_warning_text">Batareya quvvati quvvat ulashish cheklovidan kamroq. Quvvat ulashishni davom ettirish uchun quvvat ulashish cheklovini batareyaning joriy quvvat darajasidan pastroqqa o‘rnating.</string>
+    <string name="power_sharing_start_toast_text">Quvvat ulashish boshlanmoqda…</string>
+    <string name="power_sharing_end_notification_text">Quvvatni ulashish yakunlandi. Kabelni uzing.</string>
+    <string name="face_detection_failure_text">Smart turish ko‘zni aniqlay olmayapti.</string>
+    <string name="status_bar_recent_launch_task_manager_title">Tops. menejer</string>
+    <string name="status_bar_recent_launch_google_button">Google</string>
+    <string name="status_bar_recent_remove_all_button">Barchasini yopish</string>
+    <string name="screen_capture_fail_for_storage_capacity">"Qurilma xotirasi to‘la. Ba'zi elementlarni o'chiring."</string>
+    <string name="no_such_item">Elementni topib bo‘lmaydi.</string>
+    <string name="pickup_tutorial_title">Smart signalni sinab ko‘ring</string>
+    <string name="put_your_phone">Qurilmangizni joyiga qo‘yganingizdan so‘ng, ekran o‘chadi.</string>
+    <string name="phone_detect">Faraz qiling, Sizda o‘tkazib yuborilgan qo‘ng‘iroqlar yoki xabarlar mavjud. Qurilmangizni qo‘ying, uning ekrani o‘chganida uni joyidan oling.</string>
+    <string name="pick_up_your_phone">Qurilmangizni ko‘taring</string>
+    <string name="tutorial_complete">Ko‘rsatma yakunlandi.</string>
+    <string name="camera_alert">Qo‘ng‘iroq mobaynida Kamerani ishga tushirib bo‘lmaydi.</string>
+    <string name="stms_version">SM-G900F_EUR_20140228_0507</string>
+    <string name="wifi_cw_ready">China Telecom WLAN connected</string>
+    <string name="wifi_cw_ready_message">You have access to China Telecom WLAN network, consult 10000 to understand billing information, please turn off when not use</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">Roziman</string>
+    <string name="quickpanel_ctwap_text">CTWAP</string>
+    <string name="quickpanel_ctnet_text">CTNET</string>
+    <string name="tethering_attention_title">Diqqat</string>
+    <string name="tethering_wifi_off_warning">Portativ Wi-Fi faol nuqtani yoqish Wi-Fini o‘chiradi.</string>
+    <string name="quickpanel_air_view_warning">Muallaq rejimni faollashtirish uchun kamida bitta funksiyani yoqing.</string>
+    <string name="quickpanel_air_view_warning_pen_support">Muallaq ko‘rinishni yoqish uchun tanlangan Muallaq rejimdan kamida bitta funksiyani yoqing.</string>
+    <string name="quickpanel_air_gesture_warning">Havodagi ishorani yoqish uchun kamida bitta tegishli funksiyani yoqing.</string>
+    <string name="quickpanel_air_gesture_warning_continue">Tezkor sozlash tugmasini bosib turing va tegishli parametrlarni oching.</string>
+    <string name="roaming_title">Rouming</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="gps_donotshow">Boshqa ko‘rsatilmasin</string>
+    <string name="quickpanel_brightess_level">Daraja</string>
+    <string name="quickpanel_brightess_minus">Minus</string>
+    <string name="reading_mode_title">O‘qish rejimi</string>
+    <string name="reading_mode_alert">O‘qish rejimi yoqildi. Ayni vaqtda ekran o‘qish uchun optimallashtirilgan. Ushbu rejimdan faqat tanlangan ilovalarda foydalanish mumkin.</string>
+    <string name="reading_mode_settings">Parametrlar</string>
+    <string name="automatic_brightness_message">Avtomatik ravshanlik parametrlari faqatgina ichki ekranga qo‘llanildi</string>
+    <string name="manual_brightness_message">Yorqinlik qo‘lda sozlanadi. Yorqinlikni avtomatik sozlash o‘chirilgan.</string>
+    <string name="flight_mode_message_for_wifi_only">Uchish rejimi Sizga Wi-Fi va Blutooth kabi tarmoq funksiyalarini o‘chirish imkonini beradi. Wi-Fi va Bluetoothdan foydalanish uchun Parametrlar yoki bildirishnoma panelida ularni yoqing</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tutorial_notification_panel_drag_down">Holat satrini bitta barmoq yordamida ekran yuqorisidan pastga bosing.</string>
+    <string name="tutorial_notification_panel_drag_down_complete">Bildirishnoma paneli ko‘rsatilgan.</string>
+    <string name="tutorial_quick_panel_drag_down">Holat satrini ikkita barmoq yordamida ekran yuqorisidan pastga bosing.</string>
+    <string name="tutorial_quick_panel_drag_down_complete">Tezkor sozlash paneli ko‘rsatilgan.</string>
+    <string name="tutorial_expand_notification_panel_drag_down">Bildirishnoma panelidagi ro‘yxatlardan birini ikkita barmoq yordamida pastga bosing.</string>
+    <string name="tutorial_expand_notification_panel_drag_down_complete">Tanlangan ro‘yxat haqida ko‘proq ma’lumot ko‘rsatilgan.</string>
+    <string name="tutorial_invaild_action">Noto‘g‘ri harakat. Qayta urinib ko‘ring.</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="magnification_text_for_air_view_button">Kattalashtirish ishoralari</string>
+    <string name="smartbonding_dialog_title">Yuklab olish stimulyatori</string>
+    <string name="smartbonding_dialog_wifi_text">Wi-Fi va LTE tarmoqlardan bir vaqtda foydalanish orqali katta fayllarni (%d Mbdan ortiq) tezda yuklab oling. Yodingizda bo‘lsin, tarmoqlar holatiga ko‘ra, Yuklab olish stimulyatori fayllarni yuklab olish uchun faqat Wi-Fi yoki LTE tarmoqlardan foydalanadi.</string>
+    <string name="smartbonding_dialog_mobile_text">Wi-Fi va LTE tarmoqlardan bir vaqtda foydalanish orqali katta fayllarni (%d Mbdan ortiq) tezda yuklab oling. Yodingizda bo‘lsin, tarmoqlar holatiga ko‘ra, Yuklab olish stimulyatori fayllarni yuklab olish uchun faqat Wi-Fi yoki LTE tarmoqlardan foydalanadi.</string>
+    <string name="smart_bonding_popup_msg">Yuklab olish stimulyatori yoqildi. Mobil tarmoqlar orqali yuklab olish, to‘lov rejangiz asosida, qo‘shimcha to‘lov olinishiga olib kelishi mumkin.</string>
+    <string name="smart_bonding_popup_msg_wifi">Ayni vaqtda Wi-Fi o‘chirilgan. Yuklab olish stimulyatorini yoqish uchun Wi-Fi va Mobil ma’lumotning har ikkalasi yoqilgan bo‘lishi lozim. Mobil tarmoqlar orqali yuklab olish, to‘lov rejangiz asosida, qo‘shimcha to‘lov olinishiga olib kelishi mumkin.</string>
+    <string name="smart_bonding_popup_msg_data">Ayni vaqtda mobil ma’lumot o‘chirilgan. Yuklab olish stimulyatorini yoqish uchun Wi-Fi va Mobil ma’lumotning har ikkalasi yoqilgan bo‘lishi lozim. Mobil tarmoqlar orqali yuklab olish, to‘lov rejangiz asosida, qo‘shimcha to‘lov olinishiga olib kelishi mumkin.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Ayni vaqtda Wi-Fi va mobil ma’lumot o‘chirilgan. Yuklab olish stimulyatorini yoqish uchun Wi-Fi va Mobil ma’lumotning har ikkalasi yoqilgan bo‘lishi lozim. Mobil tarmoqlar orqali yuklab olish, to‘lov rejangiz asosida, qo‘shimcha to‘lov olinishiga olib kelishi mumkin.</string>
+    <string name="smart_bonding_popup_msg_roaming">Rouming vaqtida Yuklab olish stimulyatoridan foydalanib bo‘lmaydi. Biz Wi-Fi tarmoq orqali yuklab olishni tavsiya qilamiz.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Wi-Fini yoqish</string>
+    <string name="smart_bonding_popup_msg_data_btn">Monil ma’lumotni yoqish</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Wi-Fi va Mobil ma’lumotni yoqish</string>
+    <string name="smart_bonding_turn_off_text">%1$s yoqilganligida Yuklab olish stimulyatorini foydalanib bo‘lmaydi. %2$sni o‘chiring va qayta urinib ko‘ring.</string>
+    <string name="smart_bonding_turn_off_text_airplane_mode">Uchish rejimi yoqilganda, mobil tarmoqlarga ulanib bo‘lmaydi. Uchish rejimini o‘chiring va qayta urinib ko‘ring.</string>
+    <string name="dialog_battery_data_warning">"Portativ Wi-Fi faol nuqta ko‘proq batareya quvvatini yeydi va ma'lumot ishlatilishini oshiradi. Davom ettirilsinmi?"</string>
+    <string name="tether_settings_title_wifi">Portativ faol nuqta</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">Eslatma</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="cooling_title">Qurilma qizib ketmoqda</string>
+    <string name="cooling_body">"Qurilmangiz qizib ketmoqda. Uning haroratini pasaytirish uchun bir nechta narsa bajariladi.
+
+Qurilmangizdan foydalanishda davom etishingiz mumkin, lekin
+- ekran qorayishi mumkin.
+- qurilma tezligi pasayishi mumkin.
+- zaryadlash to‘xtatib turilishi mumkin.
+
+Joriy ilovani yopish qurilmangiz haroratini pasaytirishi mumkin.
+
+Qurilma harorati pasaygandan so‘ng ishlash tezligi avtomatik ravishda normalga qaytariladi."</string>
+    <string name="cooling_noti_text">Tafsilotlarni ko‘rish uchun bu yerga teging.</string>
+    <string name="cooling_popup_name">Xabarnoma</string>
+    <string name="cooling_noti_title">Qurilma qizib ketmoqda</string>
+    <string name="btn_text_yes">OK</string>
+    <string name="btn_text_no">Bekor q.</string>
+    <string name="device_overheating">Qurilma qizib ketmoqda</string>
+    <string name="colling_noti_text_2">Ilovalarni ochib bo‘lmaydi. Siz faqatgina Telefon va Kontaktlar ilovalaridan foydalanishingiz mumkin.</string>
+    <string name="vol_panel_audio_settings">audio parametrlarini o‘zgartirish.</string>
+    <string name="guest_launge_warning_toast_text">Mehmon rejimida %sni yoqish yoki o‘chirish mumkin emas.</string>
+    <string name="safe_mode_title_vzw">"Xavfsiz rejimni o'chiring"</string>
+    <string name="safe_mode_popup_body_vzw">"Xafsiz rejimni o'chirish uchun telefoningizni qayta yuklashni istaysizmi? Sizning barcha ilovalaringiz qayta tiklanadi."</string>
+    <string name="safe_mode_btn_cancel_vzw">Bekor q.</string>
+    <string name="safe_mode_off_btn_vzw">"Xavfsiz rejimni o'chiring"</string>
+    <string name="safe_mode_noti_on_vzw">Xavfsiz rejim yoqilgan</string>
+    <string name="safe_mode_noti_body_vzw">"Xavfsiz rejimni o'chirish uchun teging"</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">Qo‘shimcha ma’lumot olish uchun bu yerga teging.</string>
+    <string name="cooling_popup_name_VZW">Bildir-noma</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">OK</string>
+    <string name="btn_text_no_VZW">Bekor q.</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance will Automatically go back to normal."</string>
+    <string name="recent_menukey_press_description">Menyuni ko‘rib chiqish uchun oxirgi tugmani bosib turing.</string>
+    <string name="recent_menukey_press_description_vzw">Sizga ko‘p foydalanadigan ilovalaringizni tezda almashtirish imkonini berish uchun menyu tugmasi oxirgi tugmasi bilan almashtirildi. Qo‘shimcha ma’lumot olish uchun Yordamga teging.</string>
+    <string name="recent_menukey_help_button">Yordam</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:id="@id/floating_layout" android:focusable="true" android:focusableInTouchMode="true" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.samsung.contacts.impl.HelpFloatingChildLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@*android:id/content" android:background="@drawable/tw_dialog_middle_holo" android:padding="@dimen/quick_contact_content_padding" android:layout_width="@dimen/quick_contact_content_width" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/quickcontact_photo_container" />
+        </LinearLayout>
+        <include layout="@layout/quickcontact_track" />
+        <View android:id="@id/line_after_track" style="@style/QuickContactTrackBarStyle" />
+        <android.support.v4.view.ViewPager android:id="@id/item_list_pager" android:layout_width="fill_parent" android:layout_height="130.0dip" />
+    </LinearLayout>
+</view>

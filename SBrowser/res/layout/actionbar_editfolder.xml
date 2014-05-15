@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:actionBarDivider" android:showDividers="middle" android:dividerPadding="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/bookmark_cancel_id_action" android:background="?android:actionBarItemBackground" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="18.0dip" android:textColor="@color/add_bookmark_enabled" android:gravity="center" android:id="@id/bookmark_cancel_id_action_text" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/bookmark_cancel" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/bookmark_save_id_action" android:background="?android:actionBarItemBackground" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="18.0dip" android:textColor="@color/add_bookmark_enabled" android:gravity="center" android:id="@id/save_textview_bookmark" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/bookmark_edit_save" />
+    </LinearLayout>
+</LinearLayout>

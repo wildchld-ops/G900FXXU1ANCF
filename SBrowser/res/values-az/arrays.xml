@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Həmişə aktivdir</item>
+        <item>Tələb olunur</item>
+        <item>Qeyri-işlək</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Susmaya görə səhifə</item>
+        <item>Cari səhifə</item>
+        <item>Cəld çıxış</item>
+        <item>Ən çox daxil olunan saytlar</item>
+        <item>Başqa</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Cihaz</item>
+        <item>SD kartı</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unikod (UTF-8)</item>
+        <item>Çin dili (GBK)</item>
+        <item>Çin dili (Big5)</item>
+        <item>Yaponca (ISO-2022-JP)</item>
+        <item>Yaponca (SHIFT JIS)</item>
+        <item>Yaponca (EUC-JP)</item>
+        <item>Koreya (EUC-KR)</item>
+        <item>Avto-aşkarlama</item>
+    </string-array>
+</resources>

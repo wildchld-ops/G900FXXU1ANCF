@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Altijd aan</item>
+        <item>Op aanvraag</item>
+        <item>Uit</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Standaardpagina</item>
+        <item>Huidige pagina</item>
+        <item>Snelle toegang</item>
+        <item>Meest bezochte sites</item>
+        <item>Overig</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Apparaat</item>
+        <item>SD-kaart</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chinees (GBK)</item>
+        <item>Chinees (Big5)</item>
+        <item>Japans (ISO-2022-JP)</item>
+        <item>Japans (SHIFT JIS)</item>
+        <item>Japans (EUC-JP)</item>
+        <item>Koreaans (EUC-KR)</item>
+        <item>Automatisch detecteren</item>
+    </string-array>
+</resources>

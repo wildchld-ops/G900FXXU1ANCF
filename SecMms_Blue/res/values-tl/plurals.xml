@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s (na) pag-uusap</item>
+        <item quantity="one">1 pag-uusap</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s (na) mensahe</item>
+        <item quantity="one">1 mensahe</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d (na) pag-uusap</item>
+        <item quantity="one">%d (na) pag-uusap</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s at %2$d pa</item>
+        <item quantity="one">%s and 1 more</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s at %2$d pa</item>
+        <item quantity="one">%s at 1 pa</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">Na-delete na ang mga mensahe sa SIM card.</item>
+        <item quantity="one">Natanggal ang mensahe sa SIM card.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">Nakopya na ang mga mensahe mula sa SIM card.</item>
+        <item quantity="one">Nakopya ang mensahe mula sa USIM card.</item>
+    </plurals>
+</resources>

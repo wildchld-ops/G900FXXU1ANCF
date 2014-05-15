@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_password_enter_pin_code">PIN кодыг бичнэ үү</string>
+    <string name="keyguard_password_enter_puk_code">PUK-г бичээд шинэ PIN код оруулна уу</string>
+    <string name="keyguard_password_enter_puk_prompt">PUK код</string>
+    <string name="keyguard_password_enter_pin_prompt">Шинэ PIN код</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Нууц үг бичих бол хүрнэ үү</font></string>
+    <string name="keyguard_password_enter_password_code">Тайлах нууц үгийг бичнэ үү</string>
+    <string name="keyguard_password_enter_pin_password_code">Тайлах PIN-г оруулна уу</string>
+    <string name="keyguard_password_wrong_pin_code">Буруу PIN код.</string>
+    <string name="keyguard_label_text">Тайлах бол Цэсийг дараад 0.</string>
+    <string name="faceunlock_multiple_failures">Нүүрээр түгжээ тайлах оролдлогын тоо дээд хэмжээнээс хэтэрсэн</string>
+    <string name="keyguard_charged">Цэнэглэгдэв</string>
+    <string name="keyguard_plugged_in">Цэнэглэж байна, %d%%</string>
+    <string name="keyguard_low_battery">Цэнэглэгчээ холбоно уу.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Тайлх бол цэсийг дарна уу.</string>
+    <string name="keyguard_network_locked_message">Сүлжээ түгжигдсэн</string>
+    <string name="keyguard_missing_sim_message_short">SIM карт байхгүй</string>
+    <string name="keyguard_missing_sim_message">Утсанд SIM карт байхгүй.</string>
+    <string name="keyguard_missing_sim_instructions">SIM картыг оруулна уу.</string>
+    <string name="keyguard_missing_sim_instructions_long">SIM карт байхгүй эсвэл унших боломжгүй. SIM карт оруулна уу.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Ашиглаж болохгүй SIM карт.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"Таны SIM карт бүрмөсөн идэвхгүй болов.
+ Өөр SIM карт авах бол өөрийн утасгүй үйлчилгээний нийлүүлэгчтэй холбогдоно уу."</string>
+    <string name="keyguard_sim_locked_message">SIM карт түгжигдсэн.</string>
+    <string name="keyguard_sim_puk_locked_message">SIM картны PUK-түгжигдсэн.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">SIM картны түгжээг гаргаж байна…</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. %3$d. -н %2$d виджет</string>
+    <string name="keyguard_accessibility_add_widget">Виджет нэмэх.</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Хоосон</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">Тайлах хэсэг нээгдсэн.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">Тайлах хэсэг хаагдсан.</string>
+    <string name="keyguard_accessibility_widget">%1$s виджет.</string>
+    <string name="keyguard_accessibility_user_selector">Хэрэглэгч сонгоч</string>
+    <string name="keyguard_accessibility_status">Статус</string>
+    <string name="keyguard_accessibility_camera">Камер</string>
+    <string name="keygaurd_accessibility_media_controls">Медиа контрол</string>
+    <string name="keyguard_accessibility_widget_reorder_start">Виджет дахин эрэмбэлж эхлэв.</string>
+    <string name="keyguard_accessibility_widget_reorder_end">Виджетийг дахин эрэмбэлж дуусав.</string>
+    <string name="keyguard_accessibility_widget_deleted">%1$s виджет устсан.</string>
+    <string name="keyguard_accessibility_expand_lock_area">Түгжээгүй хэсгийг өргөсгөх.</string>
+    <string name="keyguard_accessibility_slide_unlock">Тайлах гулсуулалт.</string>
+    <string name="keyguard_accessibility_pattern_unlock">Тайлах хээ.</string>
+    <string name="keyguard_accessibility_face_unlock">Нүүрээр тайлах</string>
+    <string name="keyguard_accessibility_pin_unlock">Тайлах пин.</string>
+    <string name="keyguard_accessibility_password_unlock">Тайлах нууц үг.</string>
+    <string name="keyguard_accessibility_pattern_area">Хээний хэсэг.</string>
+    <string name="keyguard_accessibility_slide_area">Гулсуулах хэсэг.</string>
+    <string name="keyguard_accessibility_transport_prev_description">Өмнөх бичлэг товч</string>
+    <string name="keyguard_accessibility_transport_next_description">Дараагийн бичлэг товч</string>
+    <string name="keyguard_accessibility_transport_pause_description">Түр зогсоох товч</string>
+    <string name="keyguard_accessibility_transport_play_description">Тоглуулах товч</string>
+    <string name="keyguard_accessibility_transport_stop_description">Зогсоох товч</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Сайн</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Онцгүй</string>
+    <string name="keyguard_accessibility_transport_heart_description">Зүрх</string>
+    <string name="keyguard_accessibility_show_bouncer">Үргэлжлүүлэхийн тулд түгжээг тайлна уу</string>
+    <string name="keyguard_accessibility_hide_bouncer">Эхлүүлэхийг цуцалсан</string>
+    <string name="keyguard_accessibility_delete_widget_start">Устгахын тулд %1$s-г тавина уу.</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s устахгүй.</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">АБВ</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">Цуцлах</string>
+    <string name="keyboardview_keycode_delete">Устгах</string>
+    <string name="keyboardview_keycode_done">Дуусгах</string>
+    <string name="keyboardview_keycode_mode_change">Горим өөрчлөх</string>
+    <string name="keyboardview_keycode_shift">Шифт</string>
+    <string name="keyboardview_keycode_enter">Оруулах</string>
+    <string name="description_target_unlock">Тайлах</string>
+    <string name="description_target_camera">Камер</string>
+    <string name="description_target_silent">Чимээгүй</string>
+    <string name="description_target_soundon">Дуунууд идэвхтэй</string>
+    <string name="description_target_search">Хайх</string>
+    <string name="description_direction_up">%s-г гулсуулах.</string>
+    <string name="description_direction_down">%s хийх бол доош гулсуулах.</string>
+    <string name="description_direction_left">%s хийх зүүнлүү гулсуулах.</string>
+    <string name="description_direction_right">%s хийх бол баруунлуу гулсуулах.</string>
+    <string name="user_switched">Одоогийн хэрэглэгч %1$s.</string>
+    <string name="kg_emergency_call_label">Яаралтай дуудлага</string>
+    <string name="kg_forgot_pattern_button_text">Хээг мартсан</string>
+    <string name="kg_wrong_pattern">Буруу хээ</string>
+    <string name="kg_wrong_password">Нууц үг буруу</string>
+    <string name="kg_wrong_pin">PIN буруу</string>
+    <string name="kg_too_many_failed_attempts_countdown">%d секундын дараа дахин оролдоно уу.</string>
+    <string name="kg_pattern_instructions">Хээг зурах</string>
+    <string name="kg_sim_pin_instructions">SIM PIN оруулна уу</string>
+    <string name="kg_pin_instructions">PIN оруулна уу</string>
+    <string name="kg_password_instructions">Нууц үгээ оруулна уу</string>
+    <string name="kg_puk_enter_puk_hint">SIM идэвхгүй байна. Үргэлжлүүлэх бол PUK кодыг оруулна уу. Дэлгэрэнгүй мэдээллийг оператороос асууна ууу</string>
+    <string name="kg_puk_enter_pin_hint">Хүссэн PIN кодоо оруулна уу</string>
+    <string name="kg_enter_confirm_pin_hint">Хүссэн PIN кодоо дахин оруулна уу</string>
+    <string name="kg_sim_unlock_progress_dialog_message">SIM картны түгжээг гаргаж байна…</string>
+    <string name="kg_password_wrong_pin_code">Буруу PIN код.</string>
+    <string name="kg_invalid_sim_pin_hint">4-8 тооноос бүтэх PIN-г бичнэ үү.</string>
+    <string name="kg_invalid_sim_puk_hint">PUK код 8-с цөөнгүй тооноос бүтнэ.</string>
+    <string name="kg_invalid_puk">Зөв PUK кодыг дахин оруулна уу. Давтан оролдвол SIM нь бүрмөсөн идэвхгүй болгоно.</string>
+    <string name="kg_invalid_confirm_pin_hint">PIN кодууд таарахгүй байна</string>
+    <string name="kg_login_too_many_attempts">Хээ оруулах оролдлого хэт олон</string>
+    <string name="kg_login_instructions">Түгжээг тайлах бол Google акаунтаараа нэвтэрнэ үү.</string>
+    <string name="kg_login_username_hint">Хэрэглэгчийн нэр (имэйл)</string>
+    <string name="kg_login_password_hint">Нууц үг</string>
+    <string name="kg_login_submit_button">Нэвтрэх</string>
+    <string name="kg_login_invalid_input">Хэрэглэгчийн нэр эсвэл нууц үг буруу.</string>
+    <string name="kg_login_account_recovery_hint">"Хэрэглэгчийн нэр нууц үгээ мартсан уу?
+"<b>google.com/accounts/recovery</b>-д зочилно уу.</string>
+    <string name="kg_login_checking_password">Акаунт шалгаж байна…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Та PIN кодоо %d удаа буруу бичив. 
+
+%d секундын дараа дахин оролдоно уу."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Та PIN кодоо %d удаа буруу бичив. 
+
+%d секундын дараа дахин оролдоно уу."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Та тайлах хээг %d удаа буруу зурлаа. 
+
+%d секундын дараа дахин оролдоно уу."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">Та утсыг тайлах гэж %d удаа буруу оролдлоо. %d удаа дахин буруу оролдвол утас үйлдвэрийн үндсэн утгаараа тохируулагдах ба хэрэглэгчийн дата бүхэлдээ устана.</string>
+    <string name="kg_failed_attempts_now_wiping">Та утсыг тайлах гэж %d удаа буруу оролдлоо. Утас одоо үйлдвэрийн үндсэн утгаараа тохируулагдах болно.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"Та тайлах хээг %d удаа буруу зурлаа. %d удаа дахин буруу оруулбал, та утсаа тайлахын тулд имэйл акаунтаа ашиглах шаардлагатай болно.
+
+ %d секундын дараа дахин оролдоно уу."</string>
+    <string name="kg_text_message_separator">" — "</string>
+    <string name="kg_reordering_delete_drop_target_text">Устгах</string>
+    <string name="keyguard_transport_prev_description">Өмнөх дуу товч</string>
+    <string name="keyguard_transport_next_description">Дараагийн дуу товч</string>
+    <string name="keyguard_transport_pause_description">Түр зогсох товч</string>
+    <string name="keyguard_transport_play_description">Тоглуулах товч</string>
+    <string name="keyguard_transport_stop_description">Зогсоох товч</string>
+    <string name="keyguard_carrier_default">Үйлчилгээ байхгүй.</string>
+</resources>

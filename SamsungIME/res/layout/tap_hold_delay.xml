@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="19.0sp" android:textColor="#ffffffff" android:id="@id/perform_longpress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/settings_hold_delay_custom_text" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="7.0dip" android:layout_marginBottom="12.0dip" android:layout_weight="1.0">
+        <com.diotek.ime.implement.setting.TapAndHoldView android:id="@id/tapandholdview" android:background="@drawable/tap_hold_box_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:attr/borderlessButtonStyle">
+        <Button android:enabled="true" android:id="@id/longpress_cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_hold_delay_custom_cancel" android:layout_weight="1.0" style="@android:attr/buttonBarButtonStyle" />
+        <Button android:enabled="false" android:id="@id/longpress_save" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_hold_delay_custom_save" android:layout_weight="1.0" style="@android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

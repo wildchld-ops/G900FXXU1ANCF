@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Luôn bật</item>
+        <item>Theo yêu cầu</item>
+        <item>Tắt</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Trang mặc định</item>
+        <item>Trang hiện thời</item>
+        <item>Truy cập nhanh</item>
+        <item>Trang web được ghé thăm nhiều nhất</item>
+        <item>Khác</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Thiết bị</item>
+        <item>Thẻ nhớ SD</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chinese (GBK)</item>
+        <item>Chinese (Big5)</item>
+        <item>Japanese (ISO-2022-JP)</item>
+        <item>Japanese (SHIFT JIS)</item>
+        <item>Japanese (EUC-JP)</item>
+        <item>Korean (EUC-KR)</item>
+        <item>Tự phát hiện</item>
+    </string-array>
+</resources>

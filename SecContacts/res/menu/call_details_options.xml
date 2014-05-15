@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/tw_action_bar_icon_add" android:id="@id/menu_add_to_contacts" android:visible="true" android:title="@string/save_contact" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/header_icon_delete" android:id="@id/menu_delete" android:visible="true" android:title="@string/delete" android:showAsAction="ifRoom" />
+    <item android:id="@id/menu_view_contact" android:visible="false" android:title="@string/menu_viewContact" android:showAsAction="never" />
+    <item android:id="@id/menu_copy_to_dialing_screen" android:visible="false" android:title="@string/copy_to_dialing_screen" android:showAsAction="never" />
+    <item android:icon="@drawable/tw_action_bar_icon_send_numbr" android:id="@id/menu_send_number" android:visible="false" android:title="@string/send_number" android:showAsAction="never" />
+    <item android:id="@id/menu_recorded_calls" android:visible="false" android:title="@string/recorded_calls" android:showAsAction="never" />
+    <item android:icon="@drawable/tw_action_bar_icon_addtoreject_holo" android:id="@id/menu_add_reject_list" android:visible="false" android:title="@string/add_2_block_list" android:showAsAction="never" />
+    <item android:icon="@drawable/tw_action_bar_icon_removereject_holo" android:id="@id/menu_remove_reject_list" android:visible="false" android:title="@string/delete_from_block_list" android:showAsAction="never" />
+    <item android:icon="@drawable/tw_action_bar_icon_removereject_holo" android:id="@id/menu_block_settings" android:visible="false" android:title="@string/block_settings" android:showAsAction="never" />
+    <item android:icon="@drawable/header_icon_delete" android:id="@id/menu_delete_history" android:visible="false" android:title="@string/delete_all_logs_for_this_number" android:showAsAction="never" />
+    <item android:icon="@drawable/tw_action_bar_icon_add" android:id="@id/menu_context_add_to_white_list" android:visible="false" android:title="@string/menu_white_list_setting" android:showAsAction="never" />
+    <item android:icon="@drawable/tw_action_bar_icon_add" android:id="@id/menu_context_add_to_black_list" android:visible="false" android:title="@string/menu_black_list_setting" android:showAsAction="never" />
+</menu>

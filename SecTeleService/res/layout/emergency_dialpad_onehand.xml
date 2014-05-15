@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_gravity="center_horizontal" android:id="@id/dialpad" android:layout_width="260.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:layout_height="0.0px" android:layout_marginBottom="@dimen/emergency_dialpad_margin" android:layout_weight="1.0">
+        <ImageButton android:id="@id/one" android:layout_marginRight="@dimen/emergency_dialpad_margin" android:src="@drawable/incall_dial_num_1_onehand" android:contentDescription="@string/description_image_button_one" style="@style/OneHandEmergencyDialpadButtonStyle" />
+        <ImageButton android:id="@id/two" android:layout_marginRight="@dimen/emergency_dialpad_margin" android:src="@drawable/incall_dial_num_2_onehand" android:contentDescription="@string/description_image_button_two" style="@style/OneHandEmergencyDialpadButtonStyle" />
+        <ImageButton android:id="@id/three" android:src="@drawable/incall_dial_num_3_onehand" android:contentDescription="@string/description_image_button_three" style="@style/OneHandEmergencyDialpadButtonStyle" />
+    </TableRow>
+    <TableRow android:layout_height="0.0px" android:layout_marginBottom="@dimen/emergency_dialpad_margin" android:layout_weight="1.0">
+        <ImageButton android:id="@id/four" android:layout_marginRight="@dimen/emergency_dialpad_margin" android:src="@drawable/incall_dial_num_4_onehand" android:contentDescription="@string/description_image_button_four" style="@style/OneHandEmergencyDialpadButtonStyle" />
+        <ImageButton android:id="@id/five" android:layout_marginRight="@dimen/emergency_dialpad_margin" android:src="@drawable/incall_dial_num_5_onehand" android:contentDescription="@string/description_image_button_five" style="@style/OneHandEmergencyDialpadButtonStyle" />
+        <ImageButton android:id="@id/six" android:src="@drawable/incall_dial_num_6_onehand" android:contentDescription="@string/description_image_button_six" style="@style/OneHandEmergencyDialpadButtonStyle" />
+    </TableRow>
+    <TableRow android:layout_height="0.0px" android:layout_marginBottom="@dimen/emergency_dialpad_margin" android:layout_weight="1.0">
+        <ImageButton android:id="@id/seven" android:layout_marginRight="@dimen/emergency_dialpad_margin" android:src="@drawable/incall_dial_num_7_onehand" android:contentDescription="@string/description_image_button_seven" style="@style/OneHandEmergencyDialpadButtonStyle" />
+        <ImageButton android:id="@id/eight" android:layout_marginRight="@dimen/emergency_dialpad_margin" android:src="@drawable/incall_dial_num_8_onehand" android:contentDescription="@string/description_image_button_eight" style="@style/OneHandEmergencyDialpadButtonStyle" />
+        <ImageButton android:id="@id/nine" android:src="@drawable/incall_dial_num_9_onehand" android:contentDescription="@string/description_image_button_nine" style="@style/OneHandEmergencyDialpadButtonStyle" />
+    </TableRow>
+    <TableRow android:layout_height="0.0px" android:layout_weight="1.0">
+        <ImageButton android:id="@id/star" android:layout_marginRight="@dimen/emergency_dialpad_margin" android:src="@drawable/incall_dial_num_star_onehand" android:contentDescription="@string/description_image_button_star" style="@style/OneHandEmergencyDialpadButtonStyle" />
+        <ImageButton android:id="@id/zero" android:layout_marginRight="@dimen/emergency_dialpad_margin" android:src="@drawable/call_dial_onehand_btn_00" android:contentDescription="@string/description_image_button_zero" style="@style/OneHandEmergencyDialpadButtonStyle" />
+        <ImageButton android:id="@id/pound" android:layout_marginRight="0.0dip" android:src="@drawable/incall_dial_num_pound_onehand" android:contentDescription="@string/description_image_button_pound" style="@style/OneHandEmergencyDialpadButtonStyle" />
+    </TableRow>
+</TableLayout>

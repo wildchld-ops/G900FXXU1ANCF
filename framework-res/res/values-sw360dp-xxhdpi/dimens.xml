@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tw_compactmenu_width">308.0dip</dimen>
+    <dimen name="tw_switch_text_size">17.0dip</dimen>
+    <dimen name="tw_clipboard_port_height">253.0dip</dimen>
+    <dimen name="tw_clipboard_land_height">178.0dip</dimen>
+    <dimen name="tw_clipboard_panel_port_height">222.0dip</dimen>
+    <dimen name="tw_clipboard_panel_land_height">147.0dip</dimen>
+    <dimen name="tw_clipitem_width">172.0dip</dimen>
+    <dimen name="tw_clipitem_height">93.0dip</dimen>
+    <dimen name="tw_clipboard_html_image_width">82.0dip</dimen>
+    <dimen name="tw_clipboard_html_image_height">76.0dip</dimen>
+    <dimen name="tw_clipitem_width_land">141.0dip</dimen>
+    <dimen name="tw_clipitem_height_land">60.0dip</dimen>
+    <dimen name="tw_clipboard_html_image_width_land">52.0dip</dimen>
+    <dimen name="tw_clipboard_html_image_height_land">47.0dip</dimen>
+    <dimen name="tw_progressbar_horizontal_height_size">6.0dip</dimen>
+    <dimen name="tw_seekbar_height_size">6.0dip</dimen>
+    <dimen name="tw_progressbar_large_wh_size">72.0dip</dimen>
+    <dimen name="tw_progressbar_medium_wh_size">34.0dip</dimen>
+    <dimen name="tw_progressbar_smalltitle_wh_size">16.0dip</dimen>
+    <dimen name="tw_seekbar_thumboffset">15.0dip</dimen>
+    <dimen name="tw_text_size_primary">21.0sp</dimen>
+    <dimen name="tw_text_size_secondary">15.0dip</dimen>
+    <dimen name="s_view_cover_window_width">334.0dip</dimen>
+    <dimen name="s_view_cover_window_height">318.0dip</dimen>
+</resources>

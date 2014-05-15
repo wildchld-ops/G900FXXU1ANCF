@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/tw_action_bar_icon_delete" android:id="@id/menu_delete" android:orderInCategory="1" android:title="@string/menu_removeStar" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/tw_action_bar_icon_sharevia" android:id="@id/menu_share_via" android:orderInCategory="2" android:title="@string/share_name_card" android:showAsAction="never" />
+    <item android:icon="@drawable/tw_action_bar_icon_home" android:id="@id/menu_create_contact_shortcut" android:orderInCategory="2" android:title="@string/menu_add_shortcut_to_home" android:showAsAction="never" />
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/parentLayout" android:layout_width="fill_parent" android:layout_height="@dimen/reading_list_readingImage_new_impl_height" android:layout_marginBottom="@dimen/reading_list_layout_margin_bottom">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/mainLayout" android:background="@drawable/reading_list_selector" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/readingImage" android:visibility="visible" android:layout_width="@dimen/reading_list_readingImage_new_impl_width" android:layout_height="@dimen/reading_list_readingImage_new_impl_height" android:scaleType="centerCrop" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/readingTitle" android:paddingLeft="@dimen/reading_list_txtDescription_padding_left" android:paddingRight="@dimen/reading_list_txtDescription_padding_right" android:layout_width="fill_parent" android:layout_height="@dimen/reading_list_readingImage_new_impl_height">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/reading_list_txtDescription_font_size" android:textColor="@color/reading_list_txt_title" android:ellipsize="end" android:id="@id/reading_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/reading_list_txtTitle_margin_bottom" android:maxLines="1" android:lineSpacingExtra="3.0dip" android:fontFamily="sans-serif" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/readingImageR" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="17.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/reader_icon_list" />
+                        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/reading_list_txtURL_font_size" android:textColor="@color/reading_list_txt_url" android:ellipsize="end" android:id="@id/reading_url" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:lineSpacingExtra="3.0dip" />
+                    </LinearLayout>
+                    <TextView android:textSize="@dimen/reading_list_txtDesc_font_size" android:textColor="@color/reading_list_txt_description" android:ellipsize="end" android:id="@id/reading_description" android:layout_width="fill_parent" android:layout_height="@dimen/reading_list_txtDescription_height_5_line" android:layout_marginTop="@dimen/reading_list_txtURL_margin_bottom" android:maxLines="5" android:lineSpacingExtra="3.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/reading_img_check_box" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <CheckBox android:id="@id/ckid" android:focusable="false" android:visibility="visible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="15.0dip" android:checked="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/reading_list_divider_shadow_color2" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="@dimen/reading_list_bottom_layout_height" android:alpha="0.3" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/reading_list_divider_shadow_color" android:layout_width="fill_parent" android:layout_height="@dimen/reading_list_bottom_layout_height" />
+    <FrameLayout android:background="@drawable/readinglist_focus_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/reading_list_layout_margin_bottom" />
+</FrameLayout>

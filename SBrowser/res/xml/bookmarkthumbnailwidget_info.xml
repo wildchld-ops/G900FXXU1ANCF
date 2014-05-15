@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="@dimen/widgetSbookmarkMinWidth" android:minHeight="@dimen/widgetSbookmarkMinHeight" android:updatePeriodMillis="0" android:initialLayout="@layout/bookmarkthumbnailwidget" android:previewImage="@drawable/sbookmark_widget_preview" android:resizeMode="horizontal|vertical" android:minResizeWidth="@dimen/widgetSbookmarkResizeMinHeight" android:minResizeHeight="@dimen/widgetSbookmarkResizeMinWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

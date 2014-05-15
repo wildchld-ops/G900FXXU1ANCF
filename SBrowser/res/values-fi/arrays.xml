@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Aina käytössä</item>
+        <item>Tarvittaessa</item>
+        <item>Ei käytössä</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Oletussivu</item>
+        <item>Nykyinen sivu</item>
+        <item>Pikakäyttö</item>
+        <item>Useimmin katsotut sivustot</item>
+        <item>Muu</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Laite</item>
+        <item>SD-kort.</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latinalainen-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Kiina (GBK)</item>
+        <item>Kiina (Big5)</item>
+        <item>Japanil. (ISO-2022-JP)</item>
+        <item>Japanilainen (SHIFT JIS)</item>
+        <item>Japanilainen (EUC-JP)</item>
+        <item>Korea (EUC-KR)</item>
+        <item>Automaattinen tunnistus</item>
+    </string-array>
+</resources>

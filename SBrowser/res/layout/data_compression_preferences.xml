@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <PreferenceCategory android:title="@string/pref_image_quality_title">
+        <CheckBoxPreference android:id="@id/pref_image_quality_menu_btn0" android:title="@string/pref_image_quality_menu_str0" android:key="pref_image_quality_menu_0" android:widgetLayout="@drawable/custom_radio_btn" />
+        <CheckBoxPreference android:id="@id/pref_image_quality_menu_btn1" android:title="@string/pref_image_quality_menu_str1" android:key="pref_image_quality_menu_1" android:widgetLayout="@drawable/custom_radio_btn" />
+        <CheckBoxPreference android:id="@id/pref_image_quality_menu_btn2" android:title="@string/pref_image_quality_menu_str2" android:key="pref_image_quality_menu_2" android:widgetLayout="@drawable/custom_radio_btn" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_data_compression_rate_title">
+        <com.sec.android.app.sbrowser.preferences.DataCompressionView android:title="@string/font_size_preview" android:selectable="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

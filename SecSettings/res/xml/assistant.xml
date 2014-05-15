@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assistant-list>
+    <button name="@string/add_favorite" resource="@drawable/assistant_menu_icon_general_favorite" action="com.android.settings.Favorite" />
+</assistant-list>

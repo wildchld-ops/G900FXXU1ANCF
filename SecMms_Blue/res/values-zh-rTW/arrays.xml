@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>開心</item>
+        <item>悲哀</item>
+        <item>眨眼</item>
+        <item>吐舌頭</item>
+        <item>驚訝</item>
+        <item>親吻</item>
+        <item>大叫</item>
+        <item>冷酷</item>
+        <item>見錢眼開</item>
+        <item>太多話了</item>
+        <item>尷尬</item>
+        <item>天使</item>
+        <item>未決定</item>
+        <item>大哭</item>
+        <item>閉嘴</item>
+        <item>大笑</item>
+        <item>困惑</item>
+        <item>心型</item>
+        <item>憤怒</item>
+        <item>得意地笑</item>
+        <item>面無表情</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>使用裝置字型大小</item>
+        <item>細小</item>
+        <item>小</item>
+        <item>正常</item>
+        <item>大</item>
+        <item>超大</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>使用裝置字型大小</item>
+        <item>極小</item>
+        <item>特小</item>
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+        <item>特大</item>
+        <item>極大</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>所有頻道</item>
+        <item>我的頻道</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM 字母表</item>
+        <item>Unicode</item>
+        <item>自動</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 天</item>
+        <item>1 天</item>
+        <item>2 天</item>
+        <item>3 天</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>限制</item>
+        <item>警告</item>
+        <item>可用</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>永遠</item>
+        <item>提示</item>
+        <item>永不</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>摺紙</item>
+        <item>標籤</item>
+        <item>流行</item>
+        <item>現代</item>
+        <item>粉紅</item>
+        <item>預設</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>一次</item>
+        <item>每 2 分鐘</item>
+        <item>每 15 分鐘</item>
+        <item>關</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>永不</item>
+        <item>每 2 分鐘</item>
+        <item>每 10 分鐘</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>國內</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 小時</item>
+        <item>6 小時</item>
+        <item>24小時</item>
+        <item>2 天</item>
+        <item>網路預設</item>
+        <item>最大</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>高</item>
+        <item>正常</item>
+        <item>低</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>立即</item>
+        <item>1 小時</item>
+        <item>6 小時</item>
+        <item>24小時</item>
+        <item>1週</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 秒</item>
+        <item>5 秒</item>
+        <item>10 秒</item>
+        <item>20 秒</item>
+        <item>30 秒</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>關</item>
+        <item>封鎖所有訊息</item>
+        <item>封鎖註冊的號碼與詞語</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>完全一樣</item>
+        <item>開始</item>
+        <item>結束</item>
+        <item>包括</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>記錄</item>
+        <item>連絡人</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>訊息封鎖</item>
+        <item>來電封鎖</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>訊息封鎖</item>
+        <item>語音通話封鎖</item>
+        <item>視訊通話封鎖</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>已保留</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>正常</item>
+        <item>高</item>
+    </string-array>
+    <string-array name="templates">
+        <item>抱歉，我漏接您的來電。</item>
+        <item>我遲到了，幾分鐘後到。</item>
+        <item>近來好嗎？</item>
+        <item>怎麼了？</item>
+        <item>你在哪裡？</item>
+        <item>請您收到此訊息時請打電話給我。</item>
+        <item>幾點可以碰面？</item>
+        <item>稍後回覆。</item>
+        <item>會議幾點舉行？</item>
+        <item>號碼幾號？</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>巴西葡萄牙語</item>
+        <item>英文(英式)</item>
+        <item>英語(美式)</item>
+        <item>法文</item>
+        <item>德文</item>
+        <item>義大利文</item>
+        <item>日文</item>
+        <item>韓文</item>
+        <item>簡體中文</item>
+        <item>俄文</item>
+        <item>西班牙語</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>細小</item>
+        <item>小</item>
+        <item>正常</item>
+        <item>大</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>全部</item>
+        <item>寄件人</item>
+        <item>內容</item>
+    </string-array>
+</resources>

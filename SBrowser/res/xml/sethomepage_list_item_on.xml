@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/sethomepage_list_item_on" android:layout_width="30.0dip" android:layout_height="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/sethomepage_checkbox_on_selector" />
+</LinearLayout>

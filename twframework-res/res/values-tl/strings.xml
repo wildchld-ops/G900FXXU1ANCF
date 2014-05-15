@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">I-clear notification</string>
+    <string name="status_bar_no_notifications_title">Walang mga notification</string>
+    <string name="status_bar_ongoing_events_title">Kasalukuyan</string>
+    <string name="status_bar_latest_events_title">Mga Notification</string>
+    <string name="indicator_wifi">Wi-Fi</string>
+    <string name="indicator_bt">Bluetooth</string>
+    <string name="indicator_vibration">Pag-vibrate</string>
+    <string name="indicator_sound">Tahimik</string>
+    <string name="quickpanel_mute">I-mute</string>
+    <string name="quickpanel_speaker">Speaker</string>
+    <string name="quickpanel_end">TAPUSIN</string>
+    <string name="no_missed_event">Wala kang mga napalampas na kaganapan.</string>
+    <string name="schedule_format">Mayroon kang %s (na) napalampas na iskedyul.</string>
+    <string name="quickpanel_save">I-save</string>
+    <string name="quickpanel_rec">REC</string>
+    <string name="quickpanel_pause">I-pause</string>
+    <string name="quickpanel_paused">I-pause</string>
+    <string name="quickpanel_standby">Naka-standby</string>
+    <string name="indicator_gps">GPS</string>
+    <string name="indicator_rotation_lock">Pag-ikot</string>
+    <string name="indicator_orientation">"Auto
+rotation"</string>
+    <string name="quick_settings_error">Error</string>
+    <string name="status_bar_ongoing_text_call">Call</string>
+    <string name="phone_m_format">Mayroon kang %d (na) hindi nasagot na tawag.</string>
+    <string name="mms_m_format">Mayroon kang %d (na) bagong mensahe.</string>
+    <string name="tw_seekbarsplit_seekbar_control">Kontrol sa seek</string>
+</resources>

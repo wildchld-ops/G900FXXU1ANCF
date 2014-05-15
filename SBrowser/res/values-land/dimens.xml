@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sbrowser_bookmark_fav_image_margin_left_for_history">8.0dip</dimen>
+    <dimen name="sbrowser_bookmark_thumbnail_horizontal_spacing">17.0dip</dimen>
+    <dimen name="sbrowser_bookmark_thumbnail_vertical_spacing">9.0dip</dimen>
+    <dimen name="sbrowser_bookmark_listing_margin_left">16.0dip</dimen>
+    <dimen name="sbrowser_bookmark_grid_view_margin_left">16.0dip</dimen>
+    <dimen name="reading_list_action_search_padding_top">2.0dip</dimen>
+    <dimen name="reorder_bookmark_grid_view_text_padding_left">5.0dip</dimen>
+</resources>

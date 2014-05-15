@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="normalkey_shadowcolor">#ff000000</color>
+    <color name="functionkey_shadowcolor">#ff000000</color>
+    <color name="functionkey_kor_range_highlight_shadowcolor">#ff000000</color>
+    <color name="functionkey_labelcolor">#ffe2e2e2</color>
+    <color name="normalkey_labelcolor">#ffe2e2e2</color>
+    <color name="pressedkey_labelcolor">#ff122438</color>
+    <color name="disablekey_labelcolor">#7fe2e2e2</color>
+    <color name="popup_normalkey_labelcolor">#ffffffff</color>
+    <color name="popup_pressedkey_labelcolor">#ff2d5a8c</color>
+    <color name="normalkey_extra_labelcolor">#ffe2e2e2</color>
+    <color name="spacekey_labelcolor">#ffb6b6b6</color>
+    <color name="range_normalkey_highlight_labelcolor">#ff30e7ff</color>
+    <color name="hwr_range_text_color">#ff8d8d8d</color>
+    <color name="hwr_normalkey_shadowcolor">#ff000000</color>
+    <color name="hwr_functionkey_shadowcolor">#ff000000</color>
+    <color name="hwr_preesedkey_shadowcolor">#ffffffff</color>
+    <color name="hwr_normalkey_labelcolor">#ffe2e2e2</color>
+    <color name="hwr_functionkey_labelcolor">#ffe2e2e2</color>
+    <color name="hwr_pressedkey_labelcolor">#ff122438</color>
+    <color name="hwr_disablekey_labelcolor">#7fe2e2e2</color>
+    <color name="vohwr_baseline_color">#ffffffff</color>
+    <color name="candidate_text_color">#ffffffff</color>
+    <color name="candidate_pressed_text_color">#ff122438</color>
+    <color name="candidate_inputed_text_color">#ffffffff</color>
+    <color name="candidate_highlight_text_color">#ff4fb5ff</color>
+    <color name="candidate_button_text_color">#ffe2e2e2</color>
+    <color name="candidate_button_disable_text_color">#ff949494</color>
+    <color name="hwr_setting_dialog_text_color">#ffb7b7b7</color>
+    <color name="hwr_setting_dialog_line_color">#ff506371</color>
+    <color name="settings_pressed_text_white">#ffffffff</color>
+    <color name="settings_default_text_black">#ff141414</color>
+    <color name="settings_default_subtext_black">#ff364f67</color>
+    <color name="pen_color_black">#ff000000</color>
+    <color name="pen_color_red">#ffff0000</color>
+    <color name="pen_color_blue">#ff00a5f3</color>
+    <color name="pen_color_green">#ff009a04</color>
+    <color name="pen_color_brown">#ffa44324</color>
+    <color name="phoneticpell_select_color">#ff4eaaed</color>
+    <color name="preview_text_color">#ff2d5a8c</color>
+    <color name="xt9_words_list_no_words_color">#ff414141</color>
+    <color name="xt9_words_list_color">#ffd7d7d7</color>
+    <color name="phonepad_text_labelcolor_month_press">#ff2d5a8c</color>
+    <color name="tutorial_title_color">#ff1a87a6</color>
+    <color name="tutorial_helptext_color">#ff9cafb8</color>
+    <color name="tutorial_title_color_white">#ffffffff</color>
+    <color name="tutorial_helptext_color_white">#ff000000</color>
+    <color name="tutorial_helptext_icon_color_white">#ff000000</color>
+    <color name="tutorial_helptext_icon_color">#ff00a5f3</color>
+    <color name="tutorial_line">#ff464646</color>
+    <color name="voice_input_text_color">#ffffffff</color>
+    <color name="toast_text_color">#ff47d6f0</color>
+    <color name="discoverability_popup_text_color">#ff2d5a8c</color>
+    <color name="hwr_tutorial_text_color">#ff1a87a6</color>
+    <color name="hwr_tutorial_sub_text_color">#ff9cafb8</color>
+    <color name="hwr_tutorial_text_contents_color">#ff7e7e7e</color>
+    <color name="hwr_tutorial_line">#ff464646</color>
+    <color name="hwr_tutorial_text_color_white">#ff000000</color>
+    <color name="hwr_tutorial_guide_text_color">#fff0f0f0</color>
+    <color name="hwr_tutorial_guide_text_color_white">#ff000000</color>
+    <color name="hwr_popup_guide_text_color_white">#ff000000</color>
+    <color name="hwr_popup_guide_text_color">#ffdfdfdf</color>
+    <color name="hwr_popup_guide_sub_text_color">#ff888888</color>
+    <color name="keyboard_composing_timer_space_color">#ffafed19</color>
+    <color name="privacy_hyperlink">#ff00a5f3</color>
+    <color name="soft_func_kbd_symbol_mode_symbol_labelcolor">#ffe2e2e2</color>
+    <color name="soft_func_kbd_symbol_mode_page_labelcolor">#ffe2e2e2</color>
+    <color name="phrase_settings_text_color">#fff5f5f5</color>
+    <item type="color" name="APKTOOL_DUMMY_0043">false</item>
+    <item type="color" name="APKTOOL_DUMMY_004a">false</item>
+    <item type="color" name="APKTOOL_DUMMY_004b">false</item>
+    <item type="color" name="APKTOOL_DUMMY_004c">false</item>
+    <item type="color" name="APKTOOL_DUMMY_004d">false</item>
+    <item type="color" name="APKTOOL_DUMMY_004e">false</item>
+    <item type="color" name="APKTOOL_DUMMY_004f">false</item>
+    <item type="color" name="APKTOOL_DUMMY_0050">false</item>
+    <item type="color" name="APKTOOL_DUMMY_0051">false</item>
+    <item type="color" name="APKTOOL_DUMMY_0052">false</item>
+    <item type="color" name="APKTOOL_DUMMY_0053">false</item>
+    <item type="color" name="APKTOOL_DUMMY_0054">false</item>
+    <item type="color" name="APKTOOL_DUMMY_0055">false</item>
+    <item type="color" name="APKTOOL_DUMMY_0056">false</item>
+    <item type="color" name="APKTOOL_DUMMY_0057">false</item>
+    <item type="color" name="APKTOOL_DUMMY_0058">false</item>
+</resources>

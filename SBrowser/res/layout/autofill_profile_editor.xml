@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="13.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="fill_parent" android:layout_height="10.0dip" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/autofill_profile_editor_heading" style="@style/AutofillProfileTextView" />
+        <View android:layout_width="fill_parent" android:layout_height="12.0dip" />
+        <TextView android:text="@string/autofill_profile_editor_name" style="@style/AutofillProfileTextView" />
+        <EditText android:id="@id/autofill_profile_editor_name_edit" android:paddingLeft="9.0dip" android:layout_height="38.0dip" android:layout_marginTop="5.0dip" android:inputType="textPersonName|textCapWords" style="@style/AutofillProfileEditText" />
+        <TextView android:text="@string/autofill_profile_editor_company_name" style="@style/AutofillProfileTextView" />
+        <EditText android:id="@id/autofill_profile_editor_company_name_edit" android:paddingLeft="9.0dip" android:layout_height="38.0dip" android:layout_marginTop="5.0dip" android:inputType="textCapWords" style="@style/AutofillProfileEditText" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip">
+            <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/autofill_profile_editor_address_line_1" style="@style/AutofillProfileTextView" />
+            <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/autofill_profile_editor_address_line_1_hint" style="@style/AutofillProfileTextViewHint" />
+        </LinearLayout>
+        <EditText android:id="@id/autofill_profile_editor_address_line_1_edit" android:paddingLeft="9.0dip" android:layout_height="38.0dip" android:layout_marginTop="5.0dip" android:inputType="textCapWords" style="@style/AutofillProfileEditText" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip">
+            <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/autofill_profile_editor_address_line_2" style="@style/AutofillProfileTextView" />
+            <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/autofill_profile_editor_address_line_2_hint" style="@style/AutofillProfileTextViewHint" />
+        </LinearLayout>
+        <EditText android:id="@id/autofill_profile_editor_address_line_2_edit" android:paddingLeft="9.0dip" android:layout_height="38.0dip" android:layout_marginTop="5.0dip" android:inputType="textCapWords" style="@style/AutofillProfileEditText" />
+        <TextView android:text="@string/autofill_profile_editor_city" style="@style/AutofillProfileTextView" />
+        <EditText android:id="@id/autofill_profile_editor_city_edit" android:paddingLeft="9.0dip" android:layout_height="38.0dip" android:layout_marginTop="5.0dip" android:inputType="textCapWords" style="@style/AutofillProfileEditText" />
+        <TextView android:text="@string/autofill_profile_editor_state" style="@style/AutofillProfileTextView" />
+        <EditText android:id="@id/autofill_profile_editor_state_edit" android:paddingLeft="9.0dip" android:layout_height="38.0dip" android:layout_marginTop="5.0dip" android:inputType="textCapWords" style="@style/AutofillProfileEditText" />
+        <TextView android:text="@string/autofill_profile_editor_zip_code" style="@style/AutofillProfileTextView" />
+        <EditText android:id="@id/autofill_profile_editor_zip_code_edit" android:paddingLeft="9.0dip" android:layout_height="38.0dip" android:layout_marginTop="5.0dip" android:inputType="textCapCharacters" style="@style/AutofillProfileEditText" />
+        <TextView android:text="@string/autofill_profile_editor_country" style="@style/AutofillProfileTextView" />
+        <EditText android:id="@id/autofill_profile_editor_country_edit" android:paddingLeft="9.0dip" android:layout_height="38.0dip" android:layout_marginTop="5.0dip" android:inputType="textCapWords" style="@style/AutofillProfileEditText" />
+        <TextView android:text="@string/autofill_profile_editor_phone_number" style="@style/AutofillProfileTextView" />
+        <EditText android:id="@id/autofill_profile_editor_phone_number_edit" android:paddingLeft="9.0dip" android:layout_height="38.0dip" android:layout_marginTop="5.0dip" android:inputType="phone" style="@style/AutofillProfileEditText" />
+        <TextView android:text="@string/autofill_profile_editor_email_address" style="@style/AutofillProfileTextView" />
+        <EditText android:id="@id/autofill_profile_editor_email_address_edit" android:paddingLeft="9.0dip" android:layout_height="38.0dip" android:layout_marginTop="5.0dip" android:inputType="textEmailAddress" android:imeOptions="actionDone|flagNoExtractUi" style="@style/AutofillProfileEditText" />
+    </LinearLayout>
+</ScrollView>

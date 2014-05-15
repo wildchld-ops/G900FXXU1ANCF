@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">%s منٹوں کیلئے کوئی ڈیٹا کنکشن نہیں۔</item>
+        <item quantity="one">%s منٹ کیلئے کوئی ڈیٹا کنکشن نہیں۔</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">فون %s منٹ کیلئے ایمرجنسی کال بیک موڈ میں ہوگا۔ جب اس موڈ میں ہو تو ڈیٹا استعمال کرنے والی ایپلیکیشنز استعمال نہیں ہوسکتیں۔ اب باہر نکلیں؟</item>
+        <item quantity="one">ایپلیکیشنز کے لئے ڈیٹا کنکشن استعمال کرنے سے قاصر۔ جب اس موڈ میں ہو تو فون %s منٹ کیلئے ایمرجنسی کال بیک موڈ میں ہوگا۔ اب باہر نکلیں؟</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">منتخب کردہ عمل ایمرجنسی کال بیک موڈ میں دستیاب نہیں۔ فون %s منٹوں کے لئے اس موڈ میں ہوگا۔ اب باہر نکلیں؟</item>
+        <item quantity="one">منتخب کردہ عمل ایمرجنسی کال بیک موڈ میں دستیاب نہیں۔ فون %s منٹ کے لئے اس موڈ میں ہوگا۔ اب باہر نکلیں؟</item>
+    </plurals>
+</resources>

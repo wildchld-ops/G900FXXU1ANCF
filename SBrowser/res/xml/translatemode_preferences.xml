@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:id="@id/pre_translate_mode_screen" android:key="pre_translate_mode_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <PreferenceScreen android:enabled="false" android:key="translated_desc" />
+    <PreferenceCategory android:title="Language">
+        <ListPreference android:entries="@array/pref_translate_choices" android:title="@string/pref_translate_mode_title" android:key="translate_state" android:widgetLayout="@layout/round_more_icon" android:defaultValue="en-UK" android:dialogTitle="@string/pref_translate_mode_title" android:entryValues="@array/pref_translate_values" />
+        <PreferenceScreen android:enabled="false" android:key="translated_summery" />
+    </PreferenceCategory>
+</PreferenceScreen>

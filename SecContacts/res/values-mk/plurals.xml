@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">Се прикажуваат %d контакти</item>
+        <item quantity="one">Се прикажува 1 контакт</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">Се прикажуваат %d контакти со телефонски број</item>
+        <item quantity="one">Се прикажува 1 контакт со телефонски број</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d контакти со телефонски броеви</item>
+        <item quantity="one">1 контакт со телефонски број</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d контакти</item>
+        <item quantity="one">1 контакт</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d се најдени</item>
+        <item quantity="one">1 е најден</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d се најдени</item>
+        <item quantity="one">1 е најден</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d групи</item>
+        <item quantity="one">1 група</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d луѓе во групата %2$s</item>
+        <item quantity="one">%1$d лице во групата %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d луѓе</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d говорни пошти</item>
+        <item quantity="one">Говорна пошта</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d контакти се ископирани.</item>
+        <item quantity="one">%d контакт е копиран.</item>
+    </plurals>
+</resources>

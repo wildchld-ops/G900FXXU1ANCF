@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.android.contacts.widget.FullHeightLinearLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/search_view_layout" layout="@layout/tw_contacts_search_bar" />
+    <fragment android:id="@id/list_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" class="com.android.contacts.list.JoinContactListFragment" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/search_no_matches_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/search_header" />
+    </FrameLayout>
+    <include android:id="@id/empty" android:visibility="gone" layout="@layout/tw_common_empty_item_layout" />
+</view>

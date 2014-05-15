@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bookmark_thumb_selector" android:padding="5.0dip" android:layout_width="@dimen/sbrowser_bookmark_grid_item_width" android:layout_height="@dimen/sbrowser_bookmark_grid_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/thumb_frame" android:layout_width="@dimen/sbrowser_bookmark_thumbnail_image_width" android:layout_height="@dimen/sbrowser_bookmark_thumbnail_image_height">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/folder_icon" android:background="@drawable/bookmark_thumbnail_border" android:padding="1.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/sbrowser_bookmark_thumbnail_image_margin_bottom" android:src="@drawable/thumbnails_image" android:scaleType="fitXY" android:cropToPadding="true" />
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/sbrowser_bookmark_thumbnail_title_text_font_size" android:ellipsize="end" android:gravity="left" android:id="@id/bookmark_folder_title" android:layout_width="wrap_content" android:layout_height="@dimen/sbrowser_bookmark_thumbnail_title_height" android:layout_marginRight="@dimen/sbrowser_bookmark_thumbnail_title_text_margin_right" android:singleLine="true" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s biseda</item>
+        <item quantity="one">1 bisedë</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s mesazhe</item>
+        <item quantity="one">1 mesazh</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d biseda</item>
+        <item quantity="one">%d bisedë</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s dhe %2$d më shumë</item>
+        <item quantity="one">%s and 1 more</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s dhe %2$d më shumë</item>
+        <item quantity="one">%s and 1 more</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">Mesazhet u fshinë nga karta SIM.</item>
+        <item quantity="one">Mesazhi u fshi nga karta SIM.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">Mesazhet u kopjuan nga karta SIM.</item>
+        <item quantity="one">Mesazhi u kopjua nga karta SIM.</item>
+    </plurals>
+</resources>

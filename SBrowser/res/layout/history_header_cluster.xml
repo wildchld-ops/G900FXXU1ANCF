@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="top" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@drawable/img_darkshade_up" />
+    <LinearLayout android:orientation="horizontal" android:background="#ffd3d3d3" android:layout_width="fill_parent" android:layout_height="51.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginBottom="2.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="#ffe1e1e1" android:layout_gravity="center_vertical" android:id="@id/classifcation_type" android:paddingLeft="5.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/bookmark_header_cluster_website" android:lines="1" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0sp" android:textColor="#ffe1e1e1" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/category" android:paddingLeft="17.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/bookmark_header_cluster_computers" android:lines="1" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center" android:id="@id/groupit_options_menu" android:visibility="visible" android:layout_width="30.0dip" android:layout_height="18.0dip" android:layout_marginRight="17.0dip" android:src="@drawable/ic_menu" android:scaleType="fitXY" />
+        <TextView android:id="@id/tvGroup" android:paddingLeft="16.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.0" style="@style/BookmarkExpandableTextStyle" />
+        <ImageView android:id="@id/expand_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="bottom" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@drawable/img_darkshade_up" />
+</LinearLayout>

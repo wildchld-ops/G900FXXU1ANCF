@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>التشغيل دوما</item>
+        <item>حسب الطلب</item>
+        <item>إيقاف التشغيل</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>الصفحة الافتراضية</item>
+        <item>الصفحة الحالية</item>
+        <item>الوصول السريع</item>
+        <item>المواقع الأكثر زيارة</item>
+        <item>آخر</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>الجهاز</item>
+        <item>بطاقة SD</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>اللاتينية-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>الصينية (GBK)</item>
+        <item>الصينية (Big5)</item>
+        <item>اليابانية (ISO-2022-JP)</item>
+        <item>اليابانية (SHIFT JIS)</item>
+        <item>اليابانية (EUC-JP)</item>
+        <item>الكورية (EUC-KR)</item>
+        <item>اكتشاف تلقائي</item>
+    </string-array>
+</resources>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>خوشحال</item>
+        <item>غمگين</item>
+        <item>چشمک</item>
+        <item>زبانک انداختن</item>
+        <item>متعجب</item>
+        <item>بوس کردن</item>
+        <item>فریاد زدن</item>
+        <item>آرام</item>
+        <item>فقط پول</item>
+        <item>پا در دهان</item>
+        <item>خجالتی</item>
+        <item>فرشته</item>
+        <item>نامعلوم</item>
+        <item>درحال گريه</item>
+        <item>لب های بسته</item>
+        <item>درحال خنده</item>
+        <item>گيج</item>
+        <item>قلب</item>
+        <item>دیوانه</item>
+        <item>لبخند رضایت</item>
+        <item>چهره جدی</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>استفاده از اندازه قلم</item>
+        <item>بسیار کوچک</item>
+        <item>کوچک</item>
+        <item>عادی</item>
+        <item>بزرگ</item>
+        <item>بسیار بزرگ</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>استفاده از اندازه قلم</item>
+        <item>بیش از حد کوچک</item>
+        <item>بسیار کوچک</item>
+        <item>کوچک</item>
+        <item>معمولی</item>
+        <item>بزرگ</item>
+        <item>بسیار بزرگ</item>
+        <item>فوق العاده بزرگ</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>همه کانال ها</item>
+        <item>کانال من</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>الفبای GSM</item>
+        <item>یونیکد</item>
+        <item>خودکار</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 روز</item>
+        <item>1 روز</item>
+        <item>2روز</item>
+        <item>3 روز</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>محدود</item>
+        <item>هشدار</item>
+        <item>آزاد</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>هميشه</item>
+        <item>اعلان</item>
+        <item>هرگز</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>اریگامی</item>
+        <item>برچسب</item>
+        <item>پاپ</item>
+        <item>مدرن</item>
+        <item>صورتی</item>
+        <item>پیش فرض</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>یکبار</item>
+        <item>هر 2 دقیقه</item>
+        <item>هر 15 دقیقه</item>
+        <item>خاموش</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>هرگز</item>
+        <item>هر 2 دقیقه</item>
+        <item>هر10 دقیقه</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>داخلی</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 ساعت</item>
+        <item>6 ساعت</item>
+        <item>24 ساعت</item>
+        <item>2روز</item>
+        <item>پیش فرض شبکه</item>
+        <item>حداکثر</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>بالا</item>
+        <item>عادی</item>
+        <item>پايين</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>فوری</item>
+        <item>1 ساعت</item>
+        <item>6 ساعت</item>
+        <item>24 ساعت</item>
+        <item>1 هفته</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3ثانیه</item>
+        <item>5 ثانيه</item>
+        <item>10ثانیه</item>
+        <item>20ثانیه</item>
+        <item>30ثانیه</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>خاموش</item>
+        <item>انسداد همه پیام ها</item>
+        <item>فقط شماره ها و عبارت های ثبت شده مسدود شود</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>دقیقا مانند</item>
+        <item>شروع با</item>
+        <item>پایان با</item>
+        <item>شامل</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>گزارشات</item>
+        <item>مخاطب</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>انسداد پیام</item>
+        <item>انسداد تماس</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>انسداد پیام</item>
+        <item>انسداد تماس صوتی</item>
+        <item>انسداد تماس ویدیویی</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>رزرو شده است.</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>عادی</item>
+        <item>بالا</item>
+    </string-array>
+    <string-array name="templates">
+        <item>متأسفم، نتوانستم به تماست جواب بدهم.</item>
+        <item>دیر می رسم. اما ظرف چند دقیقه آنجا خواهم بود.</item>
+        <item>اوضاع چطور است؟</item>
+        <item>چه خبر؟</item>
+        <item>کجا هستید؟</item>
+        <item>لطفاً وقتی این پیام را دریافت کردی، با من تماس بگیر.</item>
+        <item>چه وقت می توانیم یکدیگر را ملاقات کنیم؟</item>
+        <item>به زودی با تو حرف می زنم.</item>
+        <item>جلسه کجاست؟</item>
+        <item>شماره چیست؟</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>برزیلی پرتغالی</item>
+        <item>انگلیسی (بریتانیایی)</item>
+        <item>انگلیسی (آمریکا)</item>
+        <item>فرانسوی</item>
+        <item>آلمانی</item>
+        <item>ایتالیایی</item>
+        <item>ژاپنی</item>
+        <item>کره ای</item>
+        <item>چینی ساده شده</item>
+        <item>روسی</item>
+        <item>اسپانیایی</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>بسیار کوچک</item>
+        <item>کوچک</item>
+        <item>عادی</item>
+        <item>بزرگ</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>همه</item>
+        <item>ارسال کننده</item>
+        <item>محتوا</item>
+    </string-array>
+</resources>

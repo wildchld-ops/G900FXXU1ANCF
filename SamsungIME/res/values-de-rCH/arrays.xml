@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="qwerty_domain_values">
+        <item>.gov</item>
+        <item>.edu</item>
+        <item>.org</item>
+        <item>.net</item>
+        <item>.go.ch</item>
+        <item>.or.ch</item>
+        <item>.co.ch</item>
+        <item>.ch</item>
+    </string-array>
+    <string-array name="phonepad_domain_values">
+        <item>.gov</item>
+        <item>.go.ch</item>
+        <item>.edu</item>
+        <item>.or.ch</item>
+        <item>.org</item>
+        <item>.co.ch</item>
+        <item>.net</item>
+        <item>.ch</item>
+    </string-array>
+</resources>

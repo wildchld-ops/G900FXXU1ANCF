@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.samsung.dialer.calllog.CallDetailDeleteActivity$ItemView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/call_log_divider" android:background="@drawable/tw_list_divider_holo_detail" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:id="@id/call_detail_list_title" android:background="@color/contacts_app_background_color" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/call_detail_list_item_title">
+        <TextView android:textAppearance="@style/SubTitleTextViewStyle" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/call_detail_date" android:background="@drawable/list_header_item_background" android:paddingLeft="@dimen/list_seperator_left_margin" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/call_detail_item" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="66.0dip">
+        <com.sec.android.touchwiz.widget.TwCheckBox android:id="@id/selection_checkbox" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/list_item_checkbox_margin_left" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/log_type_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="9.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="9.0dip" android:layout_toRightOf="@id/selection_checkbox" />
+        <RelativeLayout android:id="@id/itemlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/log_type_icon" android:layout_centerVertical="true">
+            <RelativeLayout android:id="@id/call_type_icon_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/call_type_icon" android:layout_width="20.0dip" android:layout_height="18.0dip" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/sim_type_icon" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_toRightOf="@id/call_type_icon" android:layout_centerVertical="true" />
+                <TextView android:textAppearance="@style/calldetail_time_text" android:gravity="left" android:id="@id/call_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_toRightOf="@id/sim_type_icon" />
+            </RelativeLayout>
+            <TextView android:textAppearance="@style/calldetail_duration_text" android:gravity="left" android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:minHeight="18.0dip" android:layout_below="@id/call_type_icon_layout" android:layout_alignLeft="@id/call_type_icon_layout" />
+            <TextView android:textAppearance="@style/calldetail_duration_text" android:gravity="right" android:id="@id/cdnip_number" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:minHeight="18.0dip" android:layout_toRightOf="@id/duration" android:layout_below="@id/call_type_icon_layout" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <ImageButton android:id="@id/photoring_imageview" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="36.0dip" android:layout_marginRight="9.0dip" android:src="@drawable/logs_list_icon_chaton_attache" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/voicemail_status" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/history">
+        <include layout="@layout/playback_layout" />
+    </FrameLayout>
+</LinearLayout>

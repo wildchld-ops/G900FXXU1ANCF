@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/parent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/date_picker_margin_top" android:layout_marginBottom="@dimen/date_picker_margin_top">
+        <NumberPicker android:id="@id/month" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="@dimen/date_picker_layout_width" android:layout_height="wrap_content" />
+        <NumberPicker android:id="@id/day" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="@dimen/date_picker_layout_width" android:layout_height="wrap_content" />
+        <NumberPicker android:id="@id/year" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="@dimen/date_picker_layout_width" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.sec.android.touchwiz.widget.TwCheckBox android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/date_picker_checkbox_text_size" android:id="@id/yearToggle" android:paddingLeft="@dimen/date_picker_checkbox_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/popup_horizontal_padding" android:layout_marginBottom="@dimen/date_picker_checkbox_margin_bottom" android:text="@string/date_year_toggle" />
+</LinearLayout>

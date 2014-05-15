@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">Po shfaq %d kontakte</item>
+        <item quantity="one">Shfaqet 1 kontakt</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">Po afishon %d kontakte me numra telefoni</item>
+        <item quantity="one">Po afishon 1 kontakt me numër telefoni</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d kontakte me numra telefoni</item>
+        <item quantity="one">1 kontakt me numër telefoni</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d kontakte</item>
+        <item quantity="one">1 kontakt</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d gjetur</item>
+        <item quantity="one">1 gjetur</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d gjetur</item>
+        <item quantity="one">1 gjetur</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d grupe</item>
+        <item quantity="one">1 grup</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d njerëz në grupin %2$s</item>
+        <item quantity="one">%1$d person në grupin %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d vetë</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d posta zanore</item>
+        <item quantity="one">Posta zanore</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d kontakte u kopjuan.</item>
+        <item quantity="one">%d kontakt u kopjua.</item>
+    </plurals>
+</resources>

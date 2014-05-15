@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/select_history" android:title="@string/bookmarksmenu_select" />
+    <item android:icon="@drawable/tw_action_bar_icon_delete_holo_light" android:id="@id/delete_history" android:title="@string/scraplist_delete" />
+    <item android:icon="@drawable/tw_action_bar_icon_delete_holo_light" android:id="@id/clear_history_menu_id" android:title="@string/clear_history" />
+    <item android:icon="@drawable/tw_action_bar_icon_delete_holo_light" android:id="@id/clear_today_history_menu_id" android:visible="false" android:title="@string/clear_today_history" />
+</menu>

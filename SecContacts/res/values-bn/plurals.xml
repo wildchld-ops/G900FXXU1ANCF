@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">%d পরিচিতি প্রদর্শন করা হচ্ছে</item>
+        <item quantity="one">1 টি পরিচিতি প্রদর্শন করা হচ্ছে</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">ফোন নম্বর সহ %dটি পরিচিতি প্রদর্শন করা হচ্ছে</item>
+        <item quantity="one">ফোন নম্বর সহ 1 টি পরিচিতি প্রদর্শন করা হচ্ছে</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">ফোন নম্বর সহ %dটি পরিচিতি</item>
+        <item quantity="one">ফোন নম্বর সহ 1টি পরিচিতি</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d পরিচিতি</item>
+        <item quantity="one">1 পরিচিতি</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d খোঁজ পাওয়া গেছে</item>
+        <item quantity="one">1 খোঁজ পাওয়া গেছে</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d খোঁজ পাওয়া গেছে</item>
+        <item quantity="one">1 খোঁজ পাওয়া গেছে</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d গোষ্ঠী</item>
+        <item quantity="one">1 টি গোষ্ঠী</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">গোষ্ঠী %2$s-তে %1$d জন লোক</item>
+        <item quantity="one">গোষ্ঠী %2$s-তে %1$d জন ব্যক্তি</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d জন ব্যক্তি</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%dটি ভয়েস মেল</item>
+        <item quantity="one">ভয়েস মেল</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d টি পরিচিতি অনুলিপি হয়েছে।</item>
+        <item quantity="one">%dটি পরিচিতি অনুলিপি করা হয়েছে।</item>
+    </plurals>
+</resources>

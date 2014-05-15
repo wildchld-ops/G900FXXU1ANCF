@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/pref_development_opengl" android:key="enable_hardware_opengl" android:defaultValue="true" />
+    <CheckBoxPreference android:enabled="false" android:title="@string/pref_development_hardware_accel_skia" android:key="enable_hardware_accel_skia" android:defaultValue="false" />
+    <ListPreference android:entries="@array/pref_development_ua_choices" android:title="@string/pref_development_uastring" android:key="user_agent" android:defaultValue="0" android:entryValues="@array/pref_development_ua_values" />
+    <CheckBoxPreference android:title="@string/pref_content_webgl" android:key="enable_webgl" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_development_visual_indicator" android:key="enable_visual_indicator" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/multitab_dragdrop_enabled" android:key="multitab_dragdrop_enabled" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/pref_development_cpu_upload_path" android:key="enable_cpu_upload_path" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/pref_development_error_console" android:key="javascript_console" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_development_single_column_rendering" android:key="small_screen" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/pref_development_viewport" android:key="wide_viewport" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_development_normal_rendering" android:key="normal_layout" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/pref_development_trace" android:key="enable_tracing" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/pref_enable_lighttouch_title" android:key="enable_light_touch" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/pref_development_nav_dump" android:key="enable_nav_dump" android:defaultValue="false" />
+    <EditTextPreference android:singleLine="true" android:title="@string/js_engine_flags" android:key="js_engine_flags" />
+    <Preference android:title="@string/pref_development_reset_prelogin" android:key="reset_prelogin" />
+    <CheckBoxPreference android:title="@string/pref_enable_blockzoom_title" android:key="enable_blockzoom" android:defaultValue="false" />
+    <CheckBoxPreference android:title="Enable Reader" android:key="enable_reader" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/enable_kikin" android:key="kikin_enabled" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_web_touch_debug_title" android:key="enable_web_touch_debug" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/autohide_enable" android:key="autohide_enabled" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/autohide_enable_engine" android:key="autohide_enabled_engine" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/remotedebug_enable_engine" android:key="remote_debug_enabled_engine" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/edgeglow_enabled_engine" android:key="edgeglow_enabled_engine" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/enable_double_tap_patent" android:key="enable_double_tap_patent" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/placeholder_enable" android:key="placeholder_enabled" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/tab_swipe" android:key="tabswipe_enabled" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/smallwindow_enable" android:key="smallwindow_enabled" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/uicompositor_enable" android:key="uicompositor_enabled" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/parallel_canvas_enable" android:key="parallel_canvas_enabled" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/tab_manager_perspective_ux_enabled" android:key="tab_manager_perspective_ux_enabled" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/tab_manager_single_activity_enabled" android:key="tab_manager_single_activity_enabled" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/tab_manager_compress_bitmaps_enabled" android:key="tab_manager_compress_bitmaps_enabled" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/session_cache_enabled" android:key="session_cache_enabled" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/popUp_zoomer_enable" android:key="popup_zoomer_enabled" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/enable_power_saving" android:key="power_saving_enable" />
+    <CheckBoxPreference android:title="@string/debug_enable_data_compression" android:key="data_compression_enable" android:defaultValue="false" />
+    <ListPreference android:entries="@array/frame_rate_choices" android:title="Hide ToolBar Animation Changing" android:key="frame_rate" android:summary="Change Animation Delay" android:defaultValue="100ms Frame Rate" android:dialogTitle="Hide Toolbar Animation Frame Rates" android:entryValues="@array/frame_rate_values" />
+    <CheckBoxPreference android:title="hidetoolbar : very smooth animation at top most page area" android:key="top_most_scroll_handle" android:defaultValue="true" />
+</PreferenceScreen>

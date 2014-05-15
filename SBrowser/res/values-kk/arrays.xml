@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Әрдайым қосулы</item>
+        <item>Талап етілгенде</item>
+        <item>Өшірулі</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Әдепкі бет</item>
+        <item>Ағымдағы бет</item>
+        <item>Жылдам қатынас</item>
+        <item>Көп кіретін сайттар</item>
+        <item>Басқа</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Құрылғы</item>
+        <item>SD карта</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Латын-1 (ISO-8859-1)</item>
+        <item>Юникод (UTF-8)</item>
+        <item>Қытай (GBK)</item>
+        <item>Қытай (Big5)</item>
+        <item>Жапон (ISO-2022-JP)</item>
+        <item>Жапон (SHIFT JIS)</item>
+        <item>Жапон (EUC-JP)</item>
+        <item>Корей (EUC-KR)</item>
+        <item>Автоматты анықтау</item>
+    </string-array>
+</resources>

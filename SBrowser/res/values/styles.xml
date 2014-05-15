@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@*android:style/Theme.Light.NoTitleBar.Fullscreen" />
+    <style name="AppBaseTheme.Light" parent="@*android:style/Theme.DeviceDefault.Light" />
+    <style name="AppTheme" parent="@style/AppBaseTheme.Light" />
+    <style name="MainBaseTheme" parent="@style/AppTheme" />
+    <style name="MainTheme" parent="@style/MainBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="AppBaseThemeWithOutFullScreen" parent="@*android:style/Theme.DeviceDefault.Light" />
+    <style name="AppThemeWithOutFullScreen" parent="@style/AppBaseThemeWithOutFullScreen" />
+    <style name="MainBaseThemeWithOutFullScreen" parent="@style/AppThemeWithOutFullScreen" />
+    <style name="MainThemeWithOutFullScreen" parent="@style/MainBaseThemeWithOutFullScreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="MainThemeActionBar" parent="@style/MainBaseTheme">
+        <item name="android:windowBackground">@*android:color/white</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="MultiTabActivityTheme" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:actionBarSize">@dimen/tab_manager_toolbar_height</item>
+    </style>
+    <style name="SettingsTheme" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:actionBarNonExtended">true</item>
+    </style>
+    <style name="ReaderTheme" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@*android:color/white</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
+    <style name="AutoFillFormDeleteTheme" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
+    <style name="TabManagerActivityTheme" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="AutofillProfileTextView" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">2.0dip</item>
+    </style>
+    <style name="AutofillProfileTextViewHint" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="AutofillProfileEditText" parent="@style/AutofillProfileTextView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">256</item>
+        <item name="android:imeOptions">actionNext|flagNoExtractUi</item>
+    </style>
+    <style name="PreferenceHeaderSwitchText" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:textColor">@color/preference_header_text_color</item>
+    </style>
+    <style name="ActionBarStyle" parent="@*android:style/Widget.Holo.ActionBar">
+        <item name="android:visibility">gone</item>
+        <item name="android:displayOptions">none</item>
+    </style>
+    <style name="DialogWhenLarge" parent="@*android:style/Theme.Holo.Light.DialogWhenLarge">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="BookmarkWidgetConfigureTheme" parent="@*android:style/Theme.Holo.DialogWhenLarge" />
+    <style name="AlertInfoButton" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:textSize">@dimen/alert_infobar_button_text_size</item>
+        <item name="android:textColor">@drawable/webalert_button_text</item>
+        <item name="android:background">@drawable/webalert_button_bg</item>
+        <item name="android:paddingLeft">@dimen/alert_infobar_button_padding</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingRight">@dimen/alert_infobar_button_padding</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">60.0dip</item>
+        <item name="android:minHeight">36.0dip</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="AlertInfoText" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:textSize">@dimen/alert_infobar_text_size</item>
+        <item name="android:textColor">@color/alert_infobar_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Textsize" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:textSize">@dimen/alert_infobar_text_size</item>
+        <item name="android:textColor">@color/text_size_view</item>
+    </style>
+    <style name="SBrowserSubActivityTheme" parent="@*android:style/Theme.DeviceDefault" />
+    <style name="ComboViewActivityTheme" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:actionBarStyle">@style/BookmarkActionBarStyle</item>
+        <item name="android:actionBarSize">48.0dip</item>
+    </style>
+    <style name="BookmarkActionBarStyle" parent="@*android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:background">@drawable/tw_action_bar_tab_bg_holo_dark</item>
+        <item name="android:backgroundStacked">@drawable/tw_action_bar_tab_bg_holo_dark</item>
+    </style>
+    <style name="LineSeperator" parent="@*android:style/Theme.Dialog">
+        <item name="android:background">@drawable/tw_list_divider_holo_light</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="LineSeperatorExpandableListView" parent="@*android:style/Theme.Dialog">
+        <item name="android:background">#ff000000</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/sbrowser_bookmark_listview_divider_height</item>
+    </style>
+    <style name="BookmarkTheme" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionModeCloseDrawable">@drawable/reading_list_trick_mark_selector</item>
+    </style>
+    <style name="BookmarkTheme2" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionModeCloseButtonStyle">@style/CabModeActionButton</item>
+    </style>
+    <style name="CabModeActionButton" parent="@*android:style/Widget.DeviceDefault.ActionButton.CloseMode">
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="DeleteSyncTabTheme" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionModeCloseButtonStyle">@style/NoClose</item>
+    </style>
+    <style name="NoClose" parent="@*android:style/Widget.DeviceDefault.Light.ActionButton.CloseMode">
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="AddBookmarkTheme" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
+    <style name="ReadingListListTheme" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarStyle">@style/ReaderListActionBarStyle</item>
+        <item name="android:actionModeCloseDrawable">@drawable/reading_list_trick_mark_selector</item>
+        <item name="android:actionBarSize">48.0dip</item>
+    </style>
+    <style name="ReaderListActionBarStyle" parent="@*android:style/Widget.DeviceDefault.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/ReadingListAppearance</item>
+    </style>
+    <style name="ReaderListActionBarStyleForCAB" parent="@*android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/tw_action_bar_tab_bg_holo_dark</item>
+        <item name="android:titleTextStyle">@style/ReadingListAppearance</item>
+    </style>
+    <style name="ReadingListAppearance" parent="@*android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textSize">22.0sp</item>
+    </style>
+    <style name="ReaderListActionBarCloseButtonStyle" parent="@*android:style/Widget.DeviceDefault.ActionButton.CloseMode">
+        <item name="android:background">@drawable/readinglist_action_mode_selector</item>
+    </style>
+    <style name="ReadingListDropDown" parent="@*android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/toolbar_bg_selector</item>
+    </style>
+    <style name="SelectFolderTheme" parent="@style/AddBookmarkTheme" />
+    <style name="Theme_Dialog_WebSelect">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@*android:style/Animation.InputMethod</item>
+        <item name="android:background">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="WebClipTheme" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
+    <style name="SuggestionLineMedium" parent="@*android:style/TextAppearance.Holo.Medium">
+        <item name="android:textSize">@dimen/suggestion_medium_text_size</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="SuggestionLineSmall" parent="@*android:style/TextAppearance.Holo.Small">
+        <item name="android:textSize">@dimen/suggestion_small_text_size</item>
+        <item name="android:textColor">#ff3b93e8</item>
+    </style>
+    <style name="Theme.Transparent" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="BookmarkExpandableTextStyle" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ffeeeeee</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">0.1</item>
+    </style>
+    <style name="BookmarkTipsActivityTheme" parent="@*android:style/Theme.DeviceDefault.Dialog.NoActionBar">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="bookmark_create_folder" parent="@*android:style/TextAppearance.Holo.Medium">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="bookmark_select_folder_title" parent="@*android:style/Theme.DeviceDefault">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CommonDialogActivityTheme" parent="@*android:style/Theme.DeviceDefault.Light" />
+    <style name="AutoFillContainerTheme" parent="@style/CommonDialogActivityTheme" />
+    <style name="UndoBar">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/undobar</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/undobar_height</item>
+        <item name="android:layout_marginBottom">45.0dip</item>
+        <item name="android:divider">@drawable/undobar_divider</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">10.0dip</item>
+    </style>
+    <style name="UndoBarMessage">
+        <item name="android:textSize">@dimen/undobar_text_size</item>
+        <item name="android:textColor">@color/undo_bar_text_color</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">18.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="UndoBarButton">
+        <item name="android:textSize">@dimen/undobar_text_size</item>
+        <item name="android:textColor">@color/undo_bar_text_color</item>
+        <item name="android:background">@drawable/undobar_button</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingRight">18.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">-1.0dip</item>
+        <item name="android:text">@string/undo</item>
+        <item name="android:drawableLeft">@drawable/tw_undo_popup_back_holo_light</item>
+        <item name="android:drawablePadding">12.0dip</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="DataChargingTheme">
+        <item name="android:windowBackground">@*android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@*android:style/Animation</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <item type="style" name="APKTOOL_DUMMY_003a">false</item>
+    <item type="style" name="APKTOOL_DUMMY_003b">false</item>
+    <item type="style" name="APKTOOL_DUMMY_003c">false</item>
+    <item type="style" name="APKTOOL_DUMMY_003d">false</item>
+    <item type="style" name="APKTOOL_DUMMY_003e">false</item>
+    <item type="style" name="APKTOOL_DUMMY_003f">false</item>
+</resources>

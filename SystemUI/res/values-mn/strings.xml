@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Системийн UI</string>
+    <string name="status_bar_clear_all_button">Арилгах</string>
+    <string name="status_bar_do_not_disturb_button">Бүү үймүүл</string>
+    <string name="status_bar_please_disturb_button">Мэдэгдлүүд харуулах</string>
+    <string name="status_bar_recent_remove_item_title">Жагсаалтаас хасах</string>
+    <string name="status_bar_recent_inspect_item_title">Програмын мэдээлэл</string>
+    <string name="status_bar_no_recent_apps">Сүүлийн програмууд байхгүй</string>
+    <string name="status_bar_accessibility_dismiss_recents">Сүүлийн апп-уудыг хаах</string>
+    <string name="status_bar_no_notifications_title">Мэдэгдэл алга</string>
+    <string name="status_bar_ongoing_events_title">Үргэлжилсэн</string>
+    <string name="status_bar_latest_events_title">Мэдэгдлүүд</string>
+    <string name="battery_low_title">Цэнэглэгч залгах</string>
+    <string name="battery_low_subtitle">Батерей дуусаж байна.</string>
+    <string name="battery_low_percent_format">%d%% үлдсэн.</string>
+    <string name="invalid_charger">USB-ээр цэнэглэхийг дэмждэггүй. Хамт ирсэн цэнэглэгчийг ашигла.</string>
+    <string name="battery_low_why">Зай ашиглалт</string>
+    <string name="status_bar_settings_settings_button">Тохиргоо</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Нислэгийн горим</string>
+    <string name="status_bar_settings_auto_rotation">Дэлгэц автоматаар эргүүлэх</string>
+    <string name="status_bar_settings_mute_label">Дуу хаа</string>
+    <string name="status_bar_settings_auto_brightness_label">АВТОМАТ</string>
+    <string name="status_bar_settings_notifications">Мэдэгдлүүд</string>
+    <string name="bluetooth_tethered">Bluetooth-ээр холбогдсон</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Оруулах аргууд тохируулах</string>
+    <string name="status_bar_use_physical_keyboard">Биет гар товчлуур</string>
+    <string name="usb_device_permission_prompt">%1$s програмд USB төхөөрөмжид нэвтрэхийг зөвшөөрөх үү?</string>
+    <string name="usb_accessory_permission_prompt">%1$s програмд USB нэмэлт төхөөрөмжид нэвтрэхийг зөвшөөрөх үү?</string>
+    <string name="usb_device_confirm_prompt">Энэ USB төхөөрөмж холбогдоход %1$s-г нээх үү?</string>
+    <string name="usb_accessory_confirm_prompt">Энэ USB нэмэлт төхөөрөмж холбогдоход %1$s-г нээх үү?</string>
+    <string name="usb_accessory_uri_prompt">Суулгасан ямар ч програм энэ USB нэмэлт төхөөрөмжтэй ажилладаггүй. Энэ нэмэлт хэрэгслийн талаар илүү их зүйлийг %s-с олж мэднэ үү.</string>
+    <string name="title_usb_accessory">USB нэмэлт хэрэгсэл</string>
+    <string name="label_view">Харах</string>
+    <string name="always_use_device">Өгөгдмөл байхад энэ USB төхөөрөмжид ашиглах</string>
+    <string name="always_use_accessory">Өгөгдмөл байхад энэ USB нэмэлт төхөөрөмжид ашигла</string>
+    <string name="usb_debugging_title">USB алдаа илр. зөвшр?</string>
+    <string name="usb_debugging_message">"PC-ний RSA түлхүүр хурууны хээ нь:
+%1$s"</string>
+    <string name="usb_debugging_always">Энэ PC-г үргэлж зөвшөөр</string>
+    <string name="compat_mode_on">Томруулж дэлгэц дүүргэх</string>
+    <string name="compat_mode_off">Сунгаж дэлгэц дүүргэх</string>
+    <string name="compat_mode_help_header">Нийцүүлэхийн тулд ойртуулах/холдуулах</string>
+    <string name="compat_mode_help_body">Програмыг жижиг дэлгэцэд зориулж хийсэн үед ойртуулж/холдуулах хяналт цагийн дэргэд гарч ирнэ</string>
+    <string name="screenshot_saving_ticker">Дэлгэцийн зураг хадгалж байна…</string>
+    <string name="screenshot_saving_title">Дэлгэцийн зураг хадгалж байна…</string>
+    <string name="screenshot_saving_text">Дэлгэцийн зураг хадгалж байна</string>
+    <string name="screenshot_saved_title">Дэлгэцний агшинг авсан.</string>
+    <string name="screenshot_saved_text">Дэлгэцийн зураг харахын тулд товш</string>
+    <string name="screenshot_failed_title">Дэлгэцийн зураг авах боломжгүй</string>
+    <string name="screenshot_failed_text">Дэлгэцийн зураг хадгалах боломжгүй. USB хадгалалт ашиглаж байж магадгүй.</string>
+    <string name="screenshot_failed_due_to_drm_text">Дэлгэцийн зураг авах боломжгүй. DRM хамгаалалттай зураг.</string>
+    <string name="one_item_will_be_deleted">1 зүйл устгана</string>
+    <string name="usb_preference_title">USB файл дамжуулах сонголтууд</string>
+    <string name="use_mtp_button_title">Медиа тоглуулагчаар оруулах (MTP)</string>
+    <string name="use_ptp_button_title">Камер мэт оруулах (PTP)</string>
+    <string name="installer_cd_button_title">Mac-т зориулсан Android файлын дамжуулалтын програм суулгах</string>
+    <string name="accessibility_back">Буцах</string>
+    <string name="accessibility_home">Гэр</string>
+    <string name="accessibility_menu">Цэс</string>
+    <string name="accessibility_recent">Сүүлийн програмууд</string>
+    <string name="accessibility_ime_switch_button">Оруулах арга шилжүүлэх товч</string>
+    <string name="accessibility_compatibility_zoom_button">Нийцлийн ойртуулж/холдуулах товч</string>
+    <string name="accessibility_compatibility_zoom_example">Том дэлгэц болгон ойртуулах</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth-д холбогдсон</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth салгагдсан.</string>
+    <string name="accessibility_no_battery">Зай алга</string>
+    <string name="accessibility_battery_one_bar">Зайн тэжээлийн нэг зураас</string>
+    <string name="accessibility_battery_two_bars">Зайн тэжээлийн хоёр зураас</string>
+    <string name="accessibility_battery_three_bars">Зайн тэжээлийн гурван зураас</string>
+    <string name="accessibility_battery_full">Зай дүүрэн.</string>
+    <string name="accessibility_no_phone">Утасны дохио байхгүй</string>
+    <string name="accessibility_phone_one_bar">Утасны дохионы нэг зураас</string>
+    <string name="accessibility_phone_two_bars">Утасны дохионы хоёр зураас</string>
+    <string name="accessibility_phone_three_bars">Утасны дохионы гурван зураас</string>
+    <string name="accessibility_phone_signal_full">Утасны дохио дүүрэн</string>
+    <string name="accessibility_no_data">Өгөгдөл алга</string>
+    <string name="accessibility_data_one_bar">Өгөгдлийн дохионы нэг зураас</string>
+    <string name="accessibility_data_two_bars">Өгөгдлийн дохионы хоёр зураас</string>
+    <string name="accessibility_data_three_bars">Өгөгдлийн дохионы гурван зураас</string>
+    <string name="accessibility_data_four_bars">Өгөгдлийн дохионы дөрвөн зураас</string>
+    <string name="accessibility_data_five_bars">Өгөгдлийн дохионы таван зураас</string>
+    <string name="accessibility_data_signal_full">Өгөгдлийн дохио дүүрэн</string>
+    <string name="accessibility_wifi_off">Wi-Fi Off</string>
+    <string name="accessibility_no_wifi">Wi-Fi дохио байхгүй</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi дохионы нэг зураас</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi дохионы хоёр зураас</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi дохионы гурван зураас</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi дохио дүүрэн</string>
+    <string name="accessibility_no_wimax">WiMAX байхгүй.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX нэг багана.</string>
+    <string name="accessibility_wimax_two_bars">WiMAX хоёр баганатай.</string>
+    <string name="accessibility_wimax_three_bars">WiMAX гурван баганатай.</string>
+    <string name="accessibility_wimax_signal_full">WiMAX дохио дүүрэн.</string>
+    <string name="accessibility_no_signal">Дохио алга</string>
+    <string name="accessibility_not_connected">Холбогдоогүй</string>
+    <string name="accessibility_zero_bars">Тэг баганатай.</string>
+    <string name="accessibility_one_bar">Нэг баганатай.</string>
+    <string name="accessibility_two_bars">Хоёр багана.</string>
+    <string name="accessibility_three_bars">Гурван баганатай.</string>
+    <string name="accessibility_phone_four_bars">Утасны дохионы дөрвөн зураас</string>
+    <string name="accessibility_phone_five_bars">Утасны дохионы таван зураас</string>
+    <string name="accessibility_signal_full">Дохио дүүрэн.</string>
+    <string name="accessibility_desc_on">Идэвхтэй</string>
+    <string name="accessibility_desc_off">Идэвхгүй</string>
+    <string name="accessibility_desc_connected">Холбогдсон</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Роуминг</string>
+    <string name="accessibility_data_connection_edge">Зах</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">SIM алга</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth холболт</string>
+    <string name="accessibility_airplane_mode">Нислэгийн горим</string>
+    <string name="accessibility_battery_level">Зай %d хувьтай байна</string>
+    <string name="accessibility_settings_button">Системийн тохиргоо</string>
+    <string name="accessibility_notifications_button">Мэдэгдлүүд</string>
+    <string name="accessibility_remove_notification">Мэдэгдлүүд цэвэрлэх</string>
+    <string name="accessibility_gps_enabled">GPS асаасан</string>
+    <string name="accessibility_gps_acquiring">GPS авч байна…</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter идэвхжсэн</string>
+    <string name="accessibility_ringer_vibrate">Хонхны дууны чичиргээ</string>
+    <string name="accessibility_ringer_silent">Хонхны дуу чимээгүй болгох</string>
+    <string name="accessibility_recents_item_dismissed">%s байхгүй.</string>
+    <string name="accessibility_notification_dismissed">Мэдэгдэл хаагдсан.</string>
+    <string name="accessibility_desc_notification_shade">Мэдэгдлийн хураангуй самбар</string>
+    <string name="accessibility_desc_quick_settings">Түргэн тохиргоо</string>
+    <string name="accessibility_desc_recent_apps">Сүүлийн програмууд</string>
+    <string name="accessibility_quick_settings_user">Хэрэглэгч %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s. %2$s</string>
+    <string name="accessibility_quick_settings_mobile">Мобайл %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">Батерей %s.</string>
+    <string name="accessibility_quick_settings_airplane">Нислэгийн горим %s.</string>
+    <string name="accessibility_quick_settings_bluetooth">Блютүүт %s.</string>
+    <string name="accessibility_quick_settings_alarm">%s-д дохиолол тохируулсан.</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">Түргэн холболт</string>
+    <string name="accessibility_qconnect_button_tts">Түргэн холболт</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G-3G өгөгдөл идэвхгүй болсон</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G өгөгдлийг идэвхгүй болгосон</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Хөдөлгөөнт өгөгдлийг идэвхгүй болгосон</string>
+    <string name="data_usage_disabled_dialog_title">Өгөгдлийг идэвхгүй болгосон</string>
+    <string name="data_usage_disabled_dialog">Заасан өгөгдлийн ашиглалтын хязгаарт хүрсэн. Нэмэлт өгөгдлийн ашиглалтад үйлчилгээ үзүүлэгч төлбөр ногдуулж болно.</string>
+    <string name="data_usage_disabled_dialog_enable">Өгөгд холболт ахин идэвхжүүл</string>
+    <string name="data_usage_enable_mobile_warning">Багц өгөгдлөөр дамжуулан холбогдоход нэмэлт төлбөр гарч болзошгүй. Үргэлжлүүлэх үү?</string>
+    <string name="data_usage_disable_mobile">Хөдөлгөөнт өгөгдлийн холболтыг хаах уу?</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Интернэт холболт байхгүй</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi холбогдсон.</string>
+    <string name="gps_notification_searching_text">GPS ашиглан хайж байна…</string>
+    <string name="gps_notification_found_text">Байрлалыг GPS-ээр тогтоосон</string>
+    <string name="accessibility_location_active">Байршлын хүсэлтүүд идэвхтэй</string>
+    <string name="accessibility_clear_all">Бүх мэдэгдлийг цэвэрлэх</string>
+    <string name="status_bar_notification_inspect_item_title">Програмын мэдээлэл</string>
+    <string name="close_universe">Хаах</string>
+    <string name="notifications_off_title">Мэдэгдэл идэвхгүй болсон</string>
+    <string name="notifications_off_text">Мэдэгдэл идэвхжүүлэхийн тулд товш</string>
+    <string name="accessibility_rotation_lock_off">Дэлгэц автоматаар эргэнэ</string>
+    <string name="accessibility_rotation_lock_on_landscape">Дэлгэц хэвтээ чиглэлд түгжигдсэн.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Дэлгэц босоо чиглэлээр түгжигдсэн.</string>
+    <string name="jelly_bean_dream_name">BeanFlinger</string>
+    <string name="start_dreams">Өдрийн зүүд</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">Нислэгийн горим</string>
+    <string name="quick_settings_battery_charging_label">Цэнэглэж байна, %d%%</string>
+    <string name="quick_settings_battery_charged_label">Цэнэглэгдсэн</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Блютүүт (%d төхөөрөмж)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth идэвхгүй.</string>
+    <string name="quick_settings_brightness_label">Тодрол</string>
+    <string name="quick_settings_rotation_unlocked_label">Автомат эргэх</string>
+    <string name="quick_settings_rotation_locked_label">Эргүүлэлт түгжигдсэн</string>
+    <string name="quick_settings_ime_label">Оролтын арга</string>
+    <string name="quick_settings_location_label">Байршил</string>
+    <string name="quick_settings_location_off_label">Байршил идэвхгүй</string>
+    <string name="quick_settings_media_device_label">Медиа төхөөрөмж</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Зөвхөн яаралтай тусламжийн дуудлага.</string>
+    <string name="quick_settings_settings_label">Тохиргоо</string>
+    <string name="quick_settings_time_label">Цаг</string>
+    <string name="quick_settings_user_label">Би</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">Холбогдоогүй</string>
+    <string name="quick_settings_wifi_no_network">Сүлжээ алга</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi Off</string>
+    <string name="quick_settings_wifi_display_label">"Wi-Fi
+дэлгэц"</string>
+    <string name="quick_settings_wifi_display_no_connection_label">Утасгүй дэлгэц</string>
+    <string name="quick_settings_brightness_dialog_title">Тодрол</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Автомат</string>
+    <string name="ssl_ca_cert_warning">Сүлжээ хянагдаж байж болзошгүй</string>
+    <string name="status_bar_help_title">Мэдэгдэл энд харагдана</string>
+    <string name="status_bar_help_text">"Доош татаад тэдгээрт хандана уу.
+Дахин доош татаад систем контролд хандана уу."</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">Байрлал</string>
+    <string name="quickpanel_silent_mode_text">"Чимээгүй
+горим"</string>
+    <string name="quickpanel_silent_mode_sound">Дуутай</string>
+    <string name="quickpanel_silent_mode_vibrate">Чичиргээ</string>
+    <string name="quickpanel_silent_mode_mute">Дуу хаах</string>
+    <string name="quickpanel_rotation_text">"Дэлгэц
+эргүүлэх"</string>
+    <string name="quickpanel_mobile_data_text">"Мобайл
+сүлжээ"</string>
+    <string name="quickpanel_notification_text">Мэдэгдэл</string>
+    <string name="quickpanel_airplane_mode_text">"Нислэгийн
+горим"</string>
+    <string name="quickpanel_sync_text">Тааруулалт</string>
+    <string name="quickpanel_power_saving_text">"Тэжээл
+хэмнэх"</string>
+    <string name="quickpanel_ultra_power_saving_text">"Хэт тэж.л
+хэмнэх"</string>
+    <string name="quickpanel_smart_pause_text">"Ухаал
+түр зогс"</string>
+    <string name="quickpanel_smart_network_text">"Ухаалаг
+сүлжээ"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_wifi_hotspot_text">"Wi-Fi
+голомт"</string>
+    <string name="quickpanel_multiwindow_text">"Олон
+цонх"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_brightness_text">Тодрол</string>
+    <string name="quickpanel_airview_text">"Агаарын
+харагдац"</string>
+    <string name="quickpanel_ebook_text">"Унших
+горим"</string>
+    <string name="quickpanel_personal_mode_text">"Хувийн
+горим"</string>
+    <string name="quickpanel_car_mode_text">"Машин
+горим"</string>
+    <string name="quickpanel_network_booster_text">"Таталт
+хурдасгч"</string>
+    <string name="quickpanel_toolbox_text">Багажнууд</string>
+    <string name="quickpanel_touch_sensitivity_text">Илүү мэдрэмтгий</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">Байрлал</string>
+    <string name="quickpanel_silent_mode_sound_content_description">Дуу</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">Чичиргээ</string>
+    <string name="quickpanel_silent_mode_mute_content_description">Дуу хаах</string>
+    <string name="quickpanel_rotation_content_description">Дэлгэцийн эргэлт</string>
+    <string name="quickpanel_mobile_data_content_description">Мобайл сүлжээ</string>
+    <string name="quickpanel_dormant_mode_content_description">Хаах горим</string>
+    <string name="quickpanel_airplane_mode_content_description">Нислэгийн горим</string>
+    <string name="quickpanel_sync_content_description">Тааруулах</string>
+    <string name="quickpanel_power_saving_content_description">Тэжээл хэмнэх горим</string>
+    <string name="quickpanel_smart_stay_content_description">Ухаалаг сааталт</string>
+    <string name="quickpanel_smart_pause_content_description">Ухаалаг түр зогсолт</string>
+    <string name="quickpanel_smart_network_content_description">Ухаалаг сүлжээ</string>
+    <string name="quickpanel_wifi_hotspot_content_description">Зөөврийн Wi-Fi голомт</string>
+    <string name="quickpanel_multiwindow_content_description">Олон цонх</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_ebook_content_description">Унших горим</string>
+    <string name="quickpanel_personal_mode_content_description">Хувийн горим</string>
+    <string name="quickpanel_car_mode_content_description">Автомашины горим</string>
+    <string name="quickpanel_network_booster_content_description">Таталт хурдасгагч</string>
+    <string name="quickpanel_toolbox_content_description">Багажны хайрцаг</string>
+    <string name="air_gesture_use_popup_title">Агаарын дохио зангааг идэвхжүүл</string>
+    <string name="air_gesture_use_popup_msg">Агаарын биеийн хөдөлгөөний дохио ба TalkBack-ийг хоёуланг нь идэвхжүүлэх боломжгүй. TalkBack идэвхгүй болно</string>
+    <string name="air_view_use_popup_title">Агаар харагдац идэвхжүүл</string>
+    <string name="air_view_use_popup_msg">Агаарын харагдац ба доорх сонголтыг хоёуланг нь зэрэг идэвхжүүлж болохгүй. Доор сонголтууд идэвхгүй болно</string>
+    <string name="multi_window_use_popup_title">Олон цонх идэвхжүүлэх</string>
+    <string name="multi_window_use_popup_msg">Олон цонх болон TalkBack хоёулаа зэрэг идэвхжих боломжгүй. TalkBack нь идэвхгүй болно.</string>
+    <string name="smart_pause_use_popup_title">Ухаалаг түр зогсолтыг идэвхжүүлэх</string>
+    <string name="smart_pause_use_popup_msg">Ухаалаг түр зогсолт ба TalkBack-ийг хоёуланг нь идэвхжүүлэх боломжгүй. TalkBack идэвхгүй болно.</string>
+    <string name="smart_scroll_use_popup_title">Ухаалаг хуйлаас идэвхжүүлэх</string>
+    <string name="smart_scroll_use_popup_msg">Ухаалаг хуйлаас болон TalkBack хоёр хоёулаа зэрэг идэвхжүүлэх боломжгүй. TalkBack идэвхгүй болно.</string>
+    <string name="smart_stay_use_popup_title">Ухаал сааталт идэвхжүүл</string>
+    <string name="smart_stay_use_popup_msg">Ухаалаг сааталт ба TalkBack-ийг хоёуланг нь идэвхжүүлэх боломжгүй. TalkBack идэвхгүй болно.</string>
+    <string name="quickpanel_content_description_led_on">%s идэвхжүүлсэн.</string>
+    <string name="quickpanel_content_description_led_off">%s идэвхгүй болсон.</string>
+    <string name="quickpanel_content_description_led_dim">%s-г идэвхжүүлэх боломжгүй.</string>
+    <string name="smart_network">Ухаалаг сүлжээ</string>
+    <string name="smart_network_guide_msg">"Ухаалаг сүлжээ нь зайн цэнэг дуусах хугацааг хэмнэхэд тусалдаг.
+
+Энэ нь дэлгэц унтархад хөдөлгөөнт өгөгдөл болон Wi-Fi-г идэвхгүй болгодог учир төхөөрөмж зай бага зарцуулдаг.
+
+Гэвч та дэлгэцийг асаахад хуримтлагдсан шахах өгөгдөл хүлээн авч болно."</string>
+    <string name="quickpanel_data_roaming_text">Өгөгдлийн роуминг хийх</string>
+    <string name="data_roaming_dialog_text">Роумингтай үед нэмэлт төлбөр гарна. Үргэлжлүүлэх үү?</string>
+    <string name="mobile_data_enable_dialog_text">Хөдөлгөөнт сүлжээгээр холбогдоход таны өгөгдлийн багцаас хамаарч нэмэлт төлбөр гарч болно. Үргэлжлүүлэх үү?</string>
+    <string name="quickpanel_edit_current">Мэдэгдлийн самбар</string>
+    <string name="quickpanel_edit_available">Боломжтой товчнууд</string>
+    <string name="mobile_data_dialog_text">Та хөдөлгөөнт сүлжээгээр Интернэт, Э-шуудан, YouTube зэрэг програмыг ашиглах боломжгүй болно. Үргэлжлүүлэх үү?</string>
+    <string name="data_usage_disable_mobile_vzw_1">Та Wi-Fi хэрэглэхгүй бол интернэт, э-шуудан эсвэл өгөгдлийн холболт шаарддаг бусад програмыг ашиглах боломжгүй болно.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Хөдөлгөөнт өгөгдлийн холболтыг унтраах уу?</string>
+    <string name="data_usage_disable_mobile_vzw">"Та Wi-Fi хэрэглэхгүй бол интернэт, э-шуудан эсвэл өгөгдлийн холболт шаарддаг бусад програмыг ашиглах боломжгүй болно.
+
+Хөдөлгөөнт өгөгдөл идэвхгүй болно"</string>
+    <string name="mobile_data_connect">Холбох</string>
+    <string name="mobile_data_connection_dialog_text">Хөдөлгөөнт өгөгдлийн холболт одоогоор идэвхгүй болсон байна. Та хөдөлгөөнт сүлжээгээр дамжуулан Вэб хөтөч, Э-шуудан болон YouTube зэрэг өгөгдлийн програмууд ашиглахын тулд Хөдөлгөөнт өгөгдөлд холбогдох шаардлагатай. Та холболт тогтоомоор байна уу?</string>
+    <string name="mobile_data_enable_toast_text">Нислэгийн горим идэвхжүүлсэн үед хөдөлгөөнт сүлжээ рүү холбогдох боломжгүй. Нислэгийн горимыг идэвхгүй болгоод ахин оролд.</string>
+    <string name="warning_alert_check">Дахин бүү харуул</string>
+    <string name="blocking_mode_enable">Энэ горимыг идэвхжүүлэхэд, сонгосон функцуудын мэдэгдлүүд идэвхгүй болно. Та зөвхөн таны зөвшөөрсөн жагсаалтад байгаа хүмүүсээс ирсэн дуудлагын мэдэгдлүүд хүлээн авна.</string>
+    <string name="blocking_mode_enable_for_grid_settings">Хаах горим нь сонгосон функцуудын мэдэгдлүүдийг идэвхгүй болгоно. Ирсэн дуудлагыг хаасан үед та зөвхөн өөрийн зөвшөөрөгдсөн харилцагчдад буй хүмүүсээс ирсэн дуудлагын мэдэгдлүүдийг хүлээн авна. Хаах горимын тохиргоогоо өөрчлөхийн тулд, Тохиргоо > Өөриймшүүлэлт > Хаах горим руу оч.</string>
+    <string name="blocking_mode_enable_wifi">Энэ горим идэвхжсэн үед, сонгосон функцын мэдэгдэл идэвхгүй болно</string>
+    <string name="blocking_mode_title">Хаах горим</string>
+    <string name="dormant_mode_off_message">Хаах горим идэвхжүүлэхийн тулд, доорх сонголтуудаас дор хаяж нэгийг идэвхжүүл</string>
+    <string name="driving_mode_title">Гар чөлөөтэй байх горим</string>
+    <string name="driving_mode_on_dialog_msg_1">Таныг S Voice Гар чөлөөтэй байх горимыг хаасны дараа Тохиргоон дотор Гар чөлөөтэй байх горимыг идэвхгүй болгох ёстой. Хэрэв Гар чөлөөтэй байх горим идэвхжсэн хэвээр үлдвэл, мэдэгдэл болон ирсэн дуудлагын мэдээллийг автоматаар чанга уншсаар байна</string>
+    <string name="driving_mode_on_dialog_msg_2">Та S Voice Гар чөлөөтэй байх горим дотор “Гар чөлөөтэй байх горимыг унтраа” гэж хэлэх буюу Тохиргоо эсвэл мэдэгдлийн самбар руу очиж Гар чөлөөтэй байх горимыг идэвхгүй болгож болно</string>
+    <string name="insert_sim_card">SIM карт хийх</string>
+    <string name="insert_sim_card_message">Сүлжээний үйлчилгээнд хандахын тулд SIM картыг оруул</string>
+    <string name="wifi_enable_warning">Wi-Fi-г асаах нь Зөөврийн Wi-Fi голомтыг идэвхгүй болгоно. Үргэлжлүүлэх үү?</string>
+    <string name="wifi_ap_turning_off">Зөөврийн Wi-Fi голомт идэвхгүй болгож байна…</string>
+    <string name="no_sim_notification_title">SIM алга</string>
+    <string name="no_sim_notification_title_tmo">SIM карт хийгээгүй байна</string>
+    <string name="no_sim_notification_text">SIM картыг оруулах</string>
+    <string name="accessibility_power_saving_mode">Тэжээл хэмнэх горимыг идэвхжүүлэхийн тулд дор хаяж нэг функц идэвхжүүл</string>
+    <string name="accessibility_power_saving_mode_title">Тэжээл хэмнэх горим</string>
+    <string name="accessibility_driving_mode">Гар чөлөөтэй байх горимыг идэвхжүүлэхийн тулд дор хаяж нэг холбогдох функц идэвхжүүл</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Network restriction mode will be disabled.</string>
+    <string name="charging_interruption_title">Цэнэглэх боломжгүй</string>
+    <string name="charging_interruption_by_terminal_open_text">Таны төхөөрөмжийг цэнэглэх боломжгүй. Та Samsung-ийн нийцтэй зай, цэнэглэгч хэрэглэж байгаа бөгөөд таны төхөөрөмж цэнэглэгчид зөв холбогдсон эсэхийг нягтал.</string>
+    <string name="charging_interruption_by_too_high_temperature_text">Цэнэглэхийг түр зогсоосон. Зайн температур хэт өндөр байна.</string>
+    <string name="charging_interruption_by_too_low_temperature_text">Цэнэглэхийг түр зогсоосон. Зайн температур хэт бага байна.</string>
+    <string name="charging_interruption_by_limit_high_temperature_text">"Төхөөрөмж цэнэглэхийг зогсоосон. Зайн температур хэт өндөр байна. Цэнэглэгчийг салгахдаа болгоомжтой бай. Энэ нь их халсан байж болно.
+
+Цэнэглэгчийг салгаж, дахин залгахад хэвийн үргэлжлүүлэн цэнэглэж болно. Хэрэв хэт халалтын асуудал арилахгүй бол, гал эсвэл осол гарч болзошгүй учраас үйлчилгээний албанд ханд."</string>
+    <string name="full_battery_title">Мэдээлэл</string>
+    <string name="full_battery_text">"Зай бүрэн цэнэглэгдсэн.
+Цэнэглэгчийг салга."</string>
+    <string name="low_battery_title">Зай бага</string>
+    <string name="critical_low_battery_title">Зай маш бага</string>
+    <string name="low_battery_text">Төхөөрөмж цэнэглэхийн тулд залгуурт холбож, Үүрэг зохицуулагч дахь хэрэглээгүй програмуудыг хаа. Цэнэглэж байхдаа үргэлжлүүлэн ашиглавал үр ашигтай цэнэглэхэд хориглож болно.</string>
+    <string name="low_battery_text_charged_via_ta">Үүрэг зохицуулагч дахь хэрэглээгүй програмуудаас гар. Цэнэглэж байхдаа үргэлжлүүлэн ашиглавал үр ашигтай цэнэглэхэд хориглож болно.</string>
+    <string name="low_battery_camera_warning_text">Хэрэв зай %d%%-с доош болбол та Камерыг нээх боломжгүй болно</string>
+    <string name="critical_low_battery_camera_warning_text">Камерыг нээх боломжгүй. Зайн тэжээл нь %d%% буюу түүнээс бага байна.</string>
+    <string name="start_force_consume_battery_title">Дохио</string>
+    <string name="start_force_consume_battery_text">Төхөөрөмжөө ашиглахаас өмнө хөрөхийг нь хүлээ</string>
+    <string name="stop_force_consume_battery_title">Мэдээлэл</string>
+    <string name="stop_force_consume_battery_text">Төхөөрөмж хөрсөн</string>
+    <string name="wireless_charging_title">Утасгүй цэнэглэх</string>
+    <string name="cable_charging_title">Кабелиар цэнэглэх</string>
+    <string name="wireless_charging_text">Та төхөөрөмжийг хүрээн дотор байрлуулсан. Одоо утасгүй цэнэглэж байна…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">Утасгүй цэнэглэхээс кабелиар цэнэглэх рүү шилжүүлж байна</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">Кабелиар цэнэглэхээс утасгүй цэнэглэх рүү шилжүүлж байна</string>
+    <string name="wireless_charging_spen_warning_text">Таны төхөөрөмж одоо утасгүй цэнэглэгдэж байна. S Pen нь утасгүй цэнэглэгчийн хүрээнд ажиллахгүй</string>
+    <string name="incompatible_charger_title">Цэнэглээгүй байна</string>
+    <string name="incompatible_charger_dialog_text">Холбосон цэнэглэгч нь энэ утастай нийцэхгүй байна. Таны утсанд гэмтэл учруулахаас сэргийлж, цэнэглэлтийг зогсоосон. Үргэлжлүүлэн цэнэглэхийн тулд, энэ утсыг дагалдан ирсэн оригинал цэнэглэгч болон кабель ашигла.</string>
+    <string name="incompatible_charger_dialog_text_for_tablet">The connected charger is incompatible with this tablet. To prevent damage to your tablet, charging has been stopped. To continue charging, use the original charger and cable that were provided with this tablet.</string>
+    <string name="incompatible_charger_notification_text">Цэнэглэх боломжгүй. Оригинал цэнэглэгч ашигла.</string>
+    <string name="slow_charging_title">Удаан цэнэглэх</string>
+    <string name="slow_charging_dialog_text">Холбосон цэнэглэгч цэнэглэхдээ илүү удна. Илүү хурдан цэнэглэхийн тулд, энэ утастай хамт ирсэн оригинал цэнэглэгч болон кабель ашигла.</string>
+    <string name="slow_charging_dialog_text_for_tablet">Холбогдсон цэнэглэгч цэнэглэхдээ илүү удна эсвэл ерөөсөө цэнэглэхгүй. Илүү хурдан цэнэглэхийн тулд, энэ таблеттай хамт ирсэн оригинал цэнэглэгч болон кабель ашигла.</string>
+    <string name="slow_charging_notification_text">Хурдан цэнэглэхийн тулд, оригинал цэнэглэгч ашигла</string>
+    <string name="slow_charging_toast_text">Түргэн цэнэглэхийн тулд энэ утастай хамт ирсэн цэнэглэгч болон кабель ашигла</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="water_damage_warning_title">Цэнэглэх хаалтыг шалгах</string>
+    <string name="water_damage_warning_text">Усанд гэмтээхээс хамгаалахын тулд ашиглахаас өмнө цэнэглэх хаалтыг сайтар битүүмжил</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">Төхөөрөмжийг унтраа</string>
+    <string name="overheat_poweroff_warning_text">Таны төхөөрөмж хэт халж байна. Энэ нь хөрөхийн тулд одоо унтрах болно.</string>
+    <string name="overheat_poweroff_warning_button_text">Бүү унтраа</string>
+    <string name="overheat_poweroff_notice_title">Төхөөрөмж автоматаар унтарлаа</string>
+    <string name="overheat_poweroff_notice_text">"Таны төхөөрөмж хэт халсан. Энэ нь гэмтлээс урьдчилан сэргийлэхийн тулд унтарсан.
+
+Хэт халалт нь дараахаас шалтгаалж болно:
+Тоглоомнууд, залуурын програмууд зэрэг эрчимт графиктай програмуудыг удаан хугацааны турш ашиглах.
+Том файлууд дамжуулах.
+Төхөөрөмжөө халуун орчинд ашиглах."</string>
+    <string name="power_sharing_warning_title">Тэжээл хуваалцах</string>
+    <string name="power_sharing_warning_text">Таны зайн цэнэг тэжээл хуваалцах хязгаараас бага байна. Тэжээл үргэлжлүүлэн хуваалцахын тулд тэжээл хуваалцах хязгаарыг одоогийн зайн цэнэгийн түвшнээс доогуур тохируул.</string>
+    <string name="power_sharing_start_toast_text">Тэжээл хуваалцахыг эхлүүлж байна…</string>
+    <string name="power_sharing_end_notification_text">Тэжээл хуваалцахыг дуусгасан. Кабелийг салга.</string>
+    <string name="face_detection_failure_text">Ухаалаг сааталт таны нүдийг илрүүлэхгүй</string>
+    <string name="status_bar_recent_launch_task_manager_title">Үүрэг зохицгч</string>
+    <string name="status_bar_recent_launch_google_button">Google</string>
+    <string name="status_bar_recent_remove_all_button">Бүгдийг хаах</string>
+    <string name="screen_capture_fail_for_storage_capacity">Төхөөрөмжийн хадгалалт дүүрэн. Зарим зүйлийг устга.</string>
+    <string name="no_such_item">Зүйл олох боломжгүй.</string>
+    <string name="pickup_tutorial_title">Ухаалаг дохиог туршиж үзэх</string>
+    <string name="put_your_phone">Төхөөрөмжөө доош тавьсны дараа, дэлгэц унтарна.</string>
+    <string name="phone_detect">Танд аваагүй дуудлага эсвэл зурвас байгаа гэж бодъё. Төхөөрөмжийг доош тавиад, дараа нь дэлгэц унтарсны дараа буцаан ав.</string>
+    <string name="pick_up_your_phone">Төхөөрөмжөө авах</string>
+    <string name="tutorial_complete">Зааварлагч дууссан.</string>
+    <string name="camera_alert">Дуудлагын үеэр камерыг эхлүүлэх боломжгүй.</string>
+    <string name="stms_version">SM-G900F_EUR_20140228_0507</string>
+    <string name="wifi_cw_ready">China Telecom WLAN холбогдсон</string>
+    <string name="wifi_cw_ready_message">Та China Telecom WLAN сүлжээнд хандах эрхтэй, нэхэмжлэлийн мэдээллийг ойлгохын тулд 10000-тай зөвлөлд, ашиглаагүй үед унтраана уу</string>
+    <string name="location_title">Бие даасан GPS зөвшөөрөл</string>
+    <string name="location_3rdparty_gps_dialogtext">Энэ тохиргоог сонгосноор та аливаа гуравдагч этгээдийг вэб хандалтаар эсвэл таны төхөөрөмж эсвэл бусад аливаа хэрэгсэлдээ суулгаж, татан авах ба/буюу хавсаргахаар сонгосон програм хангамж буюу нэмэлт эд ангиудаар байрлалын бүх мэдээлэлд нэвтрэхийг зөвшөөрч байна. Энэ функцыг идэвхжүүлснээр энэ төхөөрөмжийн хэрэглэгчдэд зарим эрсдэл учруулж болзошгүй. Өгөгдлийн ашиглалтын төлбөр гарна</string>
+    <string name="agree">Зөвшөөрнө</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="quickpanel_ctwap_text">CTWAP</string>
+    <string name="quickpanel_ctnet_text">CTNET</string>
+    <string name="tethering_attention_title">Хэнд</string>
+    <string name="tethering_wifi_off_warning">Зөөврийн Wi-Fi голомтыг идэвхжүүлбэл Wi-Fi-г унтраана</string>
+    <string name="quickpanel_air_view_warning">Агаарын харагдцыг идэвхжүүлэхийн тулд дор хаяж нэг функц идэвхжүүл</string>
+    <string name="quickpanel_air_view_warning_pen_support">Агаарын харагдцыг идэвхжүүлэхийн тулд сонгосон Агаарын харагдцын горимоос дор хаяж нэг функц идэвхжүүл</string>
+    <string name="quickpanel_air_gesture_warning">Агаарын дохио зангааг идэвхжүүлэхийн тулд дор хаяж нэг холбогдох функц идэвхжүүл</string>
+    <string name="quickpanel_air_gesture_warning_continue">Түргэн тохиргооны товчлуур дээр удаан дарж холбогдох тохиргоо луу оч</string>
+    <string name="roaming_title">Роуминг</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="gps_donotshow">Дахин бүү харуул</string>
+    <string name="quickpanel_brightess_level">Түвшин</string>
+    <string name="quickpanel_brightess_minus">Хасах</string>
+    <string name="reading_mode_title">Унших горим</string>
+    <string name="reading_mode_alert">Унших горим идэвхжсэн. Дэлгэц одоо уншихад тохиромжтой болж оновчлогдсон. Энэ горим нь зөвхөн сонгосон програмуудад боломжтой байна.</string>
+    <string name="reading_mode_settings">Тохиргоо</string>
+    <string name="manual_brightness_message">Цайралтыг гараар тохируулсан. Автомат цайралт идэвхгүй болсон</string>
+    <string name="flight_mode_message_for_wifi_only">Нислэгийн горим нь танд сүлжээний функцууд, үүний дотор Wi-Fi болон Bluetooth-г идэвхгүй болгохыг зөвшөөрдөг. Wi-Fi болон Bluetooth ашиглахын тулд, Тохиргоо эсвэл мэдэгдлийн самбараас тэдгээрийг идэвхжүүл</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tutorial_notification_panel_drag_down">Дэлгэцийн оройгоос төлвийн мөрийг доош татахдаа нэг хуруугаа ашигла.</string>
+    <string name="tutorial_notification_panel_drag_down_complete">Мэдэгдлийн самбар харагдана.</string>
+    <string name="tutorial_quick_panel_drag_down">Дэлгэцийн оройгоос төлвийн мөрийг доош татахдаа хоёр хуруугаа ашигла.</string>
+    <string name="tutorial_quick_panel_drag_down_complete">Шуурхай тохиргооны самбар харагдана.</string>
+    <string name="tutorial_expand_notification_panel_drag_down">Мэдэгдлийн самбарын жагсаалтуудын нэгийг доош татахдаа хоёр хуруугаа ашигла.</string>
+    <string name="tutorial_expand_notification_panel_drag_down_complete">Сонгосон жагсаалтын тухай илүү их мэдээлэл харагдана.</string>
+    <string name="tutorial_invaild_action">Хүчингүй үйлдэл. Ахин оролд.</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="magnification_text_for_air_view_button">Томруулах хөдөлгөөнүүд</string>
+    <string name="smartbonding_dialog_title">Таталтыг хурдасгагч</string>
+    <string name="smartbonding_dialog_wifi_text">Wi-Fi, LTE сүлжээнүүдийг зэрэг ашиглан том файлуудыг (%d Мбайтаас дээш) түргэн татаж ав. Сүлжээнүүдийн төлвөөс хамаарч, Таталт хурдасгагч нь файлууд татаж авхдаа зөвхөн Wi-Fi эсвэл LTE сүлжээ ашиглаж болохыг анхаар.</string>
+    <string name="smartbonding_dialog_mobile_text">Wi-Fi, LTE сүлжээнүүдийг зэрэг ашиглан том файлуудыг (%d Мбайтаас дээш) түргэн татаж ав. Сүлжээнүүдийн төлвөөс хамаарч, Таталт хурдасгагч нь файлууд татаж авхдаа зөвхөн Wi-Fi эсвэл LTE сүлжээ ашиглаж болохыг анхаар.</string>
+    <string name="smart_bonding_popup_msg">Таталтыг хурдасгагч идэвхжинэ. Хөдөлгөөнт сүлжээгээр татаж авахад таны төлбөрийн багцаас хамаарч нэмэлт төлбөр гарч болно.</string>
+    <string name="smart_bonding_popup_msg_wifi">Wi-Fi одоогоор унтарсан байна. Таталтыг хурдасгагчийг идэвхжүүлэхийн тулд, Wi-Fi, Хөдөлгөөнт өгөгдөл хоёрыг асаах ёстой. Хөдөлгөөнт сүлжээгээр татаж авахад таны төлбөрийн багцаас хамаарч нэмэлт төлбөр гарч болно.</string>
+    <string name="smart_bonding_popup_msg_data">Мобайл өгөгдөл одоогоор унтарсан байна. Таталт хурдасгагчийг идэвхжүүлэхийн тулд, Wi-Fi, Мобайл өгөгдөл хоёрыг асаах ёстой. Мобайл сүлжээгээр татаж авахад таны төлбөрийн багцаас хамаарч нэмэлт төлбөр гарч болно.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Wi-Fi, Хөдөлгөөнт өгөгдөл одоогоор унтарсан байна. Таталтыг хурдасгагчийг идэвхжүүлэхийн тулд, Wi-Fi, Хөдөлгөөнт өгөгдөл хоёрыг асаах ёстой. Хөдөлгөөнт сүлжээгээр татаж авахад таны төлбөрийн багцаас хамаарч нэмэлт төлбөр гарч болно.</string>
+    <string name="smart_bonding_popup_msg_roaming">Роумингтай үед Таталт хурдасгагч ашиглах боломжгүй. Бид танд Wi-Fi сүлжээгээр татаж авахыг зөвлөж байна.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Wi-Fi-г асаах</string>
+    <string name="smart_bonding_popup_msg_data_btn">Хөдөлгөөнт өгөгдөл асаах</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Wi-Fi, Мобайл өгөгдөл идэвхж</string>
+    <string name="smart_bonding_turn_off_text">%1$s-г идэвхтэй үед Таталт хурдасгагчийг ашиглах боломжгүй. %2$s-г идэвхгүй болгож дахин оролд.</string>
+    <string name="smart_bonding_turn_off_text_airplane_mode">Нислэгийн горим идэвхжүүлсэн үед хөдөлгөөнт сүлжээ рүү холбогдох боломжгүй. Нислэгийн горимыг идэвхгүй болгоод ахин оролд.</string>
+    <string name="dialog_battery_data_warning">Зөөврийн Wi-Fi бүс зайн тэжээл их хэрэглэх бөгөөд таны өгөгдлийн ашиглалтыг нэмэгдүүлнэ. Үргэлжлүүлэх үү?</string>
+    <string name="tether_settings_title_wifi">Зөөврийн голомт</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">Мэдэгдэл</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="cooling_title">Төхөөрөмж хэт халах</string>
+    <string name="cooling_body">"Таны төхөөрөмж хэт халж байна. Үүнийг хөргөх алхмуудыг гүйцэтгэнэ.
+
+Та төхөөрөмжөө ашиглах боломжтой хэвээр байх боловч
+- дэлгэц бүдгэрч болно.
+- төхөөрөмж удааширч болно.
+- цэнэглэлт түр зогсож болно.
+
+Одоогийн програмыг хаах нь таны төхөөрөмжийг хөргөхөд тусална.
+
+Төхөөрөмж хөрсний дараа, ажиллагаа автоматаар эргээд хэвийн болно."</string>
+    <string name="cooling_noti_text">Дэлгэрэнгүй мэдээлэл харахын тулд энд товш</string>
+    <string name="cooling_popup_name">Мэдэгдэл</string>
+    <string name="cooling_noti_title">Төхөөрөмж хэт халах</string>
+    <string name="btn_text_yes">OK</string>
+    <string name="btn_text_no">Цуцлах</string>
+    <string name="device_overheating">Төхөөрөмж хэт халах</string>
+    <string name="colling_noti_text_2">Програмууд нээх боломжгүй. Та зөвхөн Утас ба Харилцагчид програмуудыг ашиглах боломжтой.</string>
+    <string name="vol_panel_audio_settings">аудио тохиргоог өөрчлөх</string>
+    <string name="guest_launge_warning_toast_text">Зочны горимд байхад %s-г идэвхжүүлэх буюу идэвхгүй болгох боломжгүй.</string>
+    <string name="safe_mode_title_vzw">Найдвартай горимыг унтраах</string>
+    <string name="safe_mode_popup_body_vzw">Найдвартай горимыг унтраахын тулд утсаа унтрааж асаахыг хүсэж байна уу? Таны бүх аппууд шинээр сэргэх болно.</string>
+    <string name="safe_mode_btn_cancel_vzw">Цуцлах</string>
+    <string name="safe_mode_off_btn_vzw">Найдвартай горимыг унтраах</string>
+    <string name="safe_mode_noti_on_vzw">Найдвартай горимд байна.</string>
+    <string name="safe_mode_noti_body_vzw">Найдвартай горимыг унтраахын тулд товш.</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">Илүү ихийг олж мэдэхийн тулд энд товш.</string>
+    <string name="cooling_popup_name_VZW">Мэдэгдэл</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">OK</string>
+    <string name="btn_text_no_VZW">Цуцлах</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance will Automatically go back to normal."</string>
+    <string name="recent_menukey_press_description">Цэсийг харахын тулд сүүлийн товчлуур дээр дараад барь.</string>
+    <string name="recent_menukey_press_description_vzw">Танд хамгийн сүүлд хэрэглэсэн програмуудынхаа хооронд түргэн шилжих боломж өгөхийн тулд цэсний товчлуурыг сүүлийн товчлуураар орлуулсан. Илүү их мэдээлэл хүсвэл Тусламжийг товш.</string>
+    <string name="recent_menukey_help_button">Тусламж</string>
+</resources>

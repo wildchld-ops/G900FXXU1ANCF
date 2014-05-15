@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="index_string_array">
+        <item>АӘБВГҒДЕЁЖЗИЙКҚЛМНҢОӨПРСТУҰҮФХҺЦЧШЩЪЫІЬЭЮЯ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="interaction_selecter_spinner">
+        <item>%d таңдалды</item>
+        <item>Бәрін бөлектеу</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Ұйым</item>
+        <item>Ескерту</item>
+    </string-array>
+</resources>

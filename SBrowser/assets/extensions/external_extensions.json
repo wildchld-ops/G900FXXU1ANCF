@@ -1,0 +1,10 @@
+// This json file will contain a list of extensions that will be included
+// in the installer.
+
+{       
+	"eejfmbcmibkckfdcliolijbnilhdhido":
+	{
+		"external_crx": "/data/data/com.sec.android.app.sbrowser25/app_chrome/extensions/Sync.crx",
+		"external_version": "1.0"
+	}
+}

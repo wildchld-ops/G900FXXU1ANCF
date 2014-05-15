@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:background="@color/dialpad_edittext_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dialpad_edittext_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.dialer.dialpad.EllipsisTextView android:textSize="@dimen/dialpad_digits_text_size" android:typeface="sans" android:textColor="@color/dialpad_edittext_text_color" android:gravity="center" android:id="@id/digits" android:background="@*android:color/transparent" android:nextFocusRight="@id/overflow_menu" android:layout_width="@dimen/dialpad_edittext_digits_width" android:layout_height="@dimen/dialpad_edittext_digits_height" android:cursorVisible="false" android:singleLine="true" android:maxLength="100" />
+    <EditText android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center" android:id="@id/recipients" android:background="@*android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:minHeight="48.0dip" android:hint="@string/to_hint" android:maxLines="3" android:maxLength="2000" android:autoText="true" android:layout_weight="1.0" />
+</LinearLayout>

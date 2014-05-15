@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.google.android.apps.chrome"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <CheckBoxPreference android:title="@string/search_suggestions_title" android:key="search_suggestions" android:summary="@string/search_suggestions_summary" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/network_predictions_title" android:key="network_predictions" android:summary="@string/network_predictions_summary" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_security_save_form_data" android:key="save_formdata" android:summary="@string/pref_security_save_form_data_summary" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_security_remember_passwords" android:key="remember_passwords" android:summary="@string/pref_security_remember_passwords_summary" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" android:defaultValue="true" />
+    <PreferenceScreen android:title="@string/clear_personal_data" android:key="ShowClearBrowsingData" android:fragment="com.sec.android.app.sbrowser.preferences.ClearBrowsingDataDialogFragment" />
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/tutorial_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/bubble" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tutorial_bubble_horizontal_padding" android:layout_marginRight="@dimen/tutorial_bubble_horizontal_padding">
+        <LinearLayout android:id="@id/tutorial_text_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/tutorial_popup_text" style="@style/TutorialPopupTextView" />
+        </LinearLayout>
+        <ImageView android:id="@id/tutorial_indicator_icon" android:paddingLeft="@dimen/tutorial_indicator_icon_padding_left" android:paddingRight="@dimen/tutorial_indicator_icon_padding_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tutorial_popup_indicator_vertical_margin" android:src="@drawable/help_popup_picker_b_c" android:scaleType="center" android:layout_below="@id/tutorial_text_container" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/tutorial_indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/bubble" android:layout_alignParentLeft="true">
+        <ImageView android:id="@id/tutorial_indicator_circle" android:layout_width="@dimen/quick_contact_button_width" android:layout_height="@dimen/quick_contact_button_height" android:soundEffectsEnabled="false" style="@style/TutorialIndicatorCircle" />
+        <ImageView android:id="@id/tutorial_indicator_circle_second" android:layout_width="@dimen/quick_contact_button_width" android:layout_height="@dimen/quick_contact_button_height" style="@style/TutorialIndicatorCircle" />
+    </LinearLayout>
+</RelativeLayout>

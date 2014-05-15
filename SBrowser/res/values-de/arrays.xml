@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Immer ein</item>
+        <item>Bei Bedarf</item>
+        <item>Aus</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Standardseite</item>
+        <item>Aktuelle Seite</item>
+        <item>Schnellzugriff</item>
+        <item>Häufig besuchte Seiten</item>
+        <item>Andere</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Gerät</item>
+        <item>SD-Karte</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chinesisch (GBK)</item>
+        <item>Chinesisch (Big5)</item>
+        <item>Japanisch (ISO-2022-JP)</item>
+        <item>Japanisch (SHIFT JIS)</item>
+        <item>Japanisch (EUC-JP)</item>
+        <item>Koreanisch (EUC-KR)</item>
+        <item>Automatische Erkennung</item>
+    </string-array>
+</resources>

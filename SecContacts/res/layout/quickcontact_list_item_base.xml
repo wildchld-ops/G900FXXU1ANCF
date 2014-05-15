@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_vertical" android:id="@id/vertical_divider" android:background="@drawable/quick_popup_list_divider" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/detail_vertical_divider_vertical_margin" android:layout_marginBottom="@dimen/detail_vertical_divider_vertical_margin" />
+    <ImageView android:id="@id/secondary_action_button" android:background="?android:selectableItemBackground" android:paddingLeft="12.0dip" android:paddingTop="17.0dip" android:paddingRight="12.0dip" android:paddingBottom="16.0dip" android:nextFocusLeft="@id/actions_view_container" android:duplicateParentState="false" android:layout_width="@dimen/quick_contact_list_secondary_button_width" android:layout_height="@dimen/quick_contact_list_item_min_height" />
+</merge>

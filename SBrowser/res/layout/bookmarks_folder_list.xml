@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/path_indicator_background" android:background="@drawable/myfiles_list_subtitle_tab_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/path_indicator_text_button" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/path_indicator_button_text_size" android:textColor="@color/path_indicator_button_text_dim_color" android:gravity="center_vertical" android:id="@id/path_indicator_button" android:paddingLeft="@dimen/path_indicator_button_padding_left" android:paddingRight="@dimen/path_indicator_button_padding_right" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:includeFontPadding="false" />
+        <ImageView android:id="@id/path_indicator_arrow" android:background="@drawable/myfiles_list_subtitle_arrow" android:layout_width="11.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toLeftOf="@id/path_indicator_button" />
+    </FrameLayout>
+</FrameLayout>

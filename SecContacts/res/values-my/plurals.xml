@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">%d အဆက္အသြယ္မ်ားျပသပါ</item>
+        <item quantity="one">အဆက္အသြယ္ ၁ ခု ျပသေနပါသည္</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">အဆက္အသြယ္ %d ဦးကို ဖုန္းနံပါတ္ျဖင့္ ေဖၚျပေနပါသည္</item>
+        <item quantity="one">အဆက္အသြယ္ ၁ ဦးကို ဖုန္းနံပါတ္ျဖင့္ ေဖၚျပေနပါသည္</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d ဆက္သြယ္ရန္လူမ်ားႏွင့္ ဖုန္းနံပါတ္မ်ား</item>
+        <item quantity="one">ဆက္သြယ္ရန္လူ ၁ ဦးႏွင့္ ဖုန္းနံပါတ္</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d အဆက္အသြယ္မ်ား</item>
+        <item quantity="one">အဆက္အသြယ္ ၁ ဦး</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d ခု ေတြ႔သည္</item>
+        <item quantity="one">၁ ခု ေတြ႔သည္</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d ခု ေတြ႔သည္</item>
+        <item quantity="one">၁ ခု ေတြ႔သည္</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">အုပ္စု %0$d စု</item>
+        <item quantity="one">အုပ္စု ၁ စု</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">အုပ္စု %2$s ထဲတြင္ လူ %1$d ဦး ရွိသည္</item>
+        <item quantity="one">%2$s အုပ္စုထဲတြင္ %1$d ေယာက္</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d လူအမ်ား</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d အသံေမးလ္မ်ား</item>
+        <item quantity="one">အသံေမးလ္</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d အဆက္အသြယ္ ကူးယူၿပီးၿပီ။</item>
+        <item quantity="one">%d အဆက္အသြယ္ ကူးယူၿပီးၿပီ။</item>
+    </plurals>
+</resources>

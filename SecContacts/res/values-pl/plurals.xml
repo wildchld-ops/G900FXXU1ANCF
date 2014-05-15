@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">Wyświetlanie %d kontaktów</item>
+        <item quantity="one">Wyświetlanie kontaktów: 1</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">Wyświetlanie kontaktów z numerami telefonów: %d</item>
+        <item quantity="one">Wyświetlanie kontaktów z numerami telefonów: 1</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Kontakty z numerem telefonu: %d</item>
+        <item quantity="one">1 kontakt z numerem telefonu</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Kontaktów: %d</item>
+        <item quantity="one">1 kontakt</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Znaleziono: %d</item>
+        <item quantity="one">Znaleziono: 1</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Znaleziono: %d</item>
+        <item quantity="one">Znaleziono: 1</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">scalono z %0$d źródeł</item>
+        <item quantity="one">nie scalono</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">Grup: %0$d</item>
+        <item quantity="one">Grup: 1</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">Osób: %1$d w grupie %2$s</item>
+        <item quantity="one">Osób: %1$d w grupie %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">Osób: %d</item>
+        <item quantity="one">%1$d osoba</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Wiadomości głosowych: %d</item>
+        <item quantity="one">Poczta głosowa</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">Skopiowano kontaktów: %d.</item>
+        <item quantity="one">%d kontakt skopiowany.</item>
+    </plurals>
+</resources>

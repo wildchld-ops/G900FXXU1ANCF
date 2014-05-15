@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/tw_sub_action_bar_bg_holo" android:layout_width="fill_parent" android:layout_height="@dimen/create_button_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/add_contact_container" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="21.0sp" android:textColor="@color/primary_text_color" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/add_primary_contact" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/create_button" android:duplicateParentState="true" android:layout_width="@dimen/create_button_width" android:layout_height="@dimen/create_button_height" android:src="@drawable/tw_action_bar_icon_add_contact" android:scaleType="center" />
+    </LinearLayout>
+</RelativeLayout>

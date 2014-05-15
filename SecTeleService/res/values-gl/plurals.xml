@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Sen conexión de datos durante %s minutos</item>
+        <item quantity="one">Sen conexión de datos durante %s minuto(s)</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">O teléfono estará en modo Devolver chamada de urxencia durante %s minutos. Non se poden usar aplicacións que utilizan conexións de datos mentres está neste modo. Saír agora?</item>
+        <item quantity="one">Non se pode usar a conexión de datos para as aplicacións. O teléfono estará en modo Devolver chamada de urxencia durante %s minutos mentres está neste modo. Saír agora?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">A acción seleccionada non está dispoñible en modo Devolver chamadas de urxencia. O teléfono permanecerá neste modo durante %s minutos. Saír agora?</item>
+        <item quantity="one">A acción seleccionada non está dispoñible en modo Devolver chamada de urxencia. O teléfono permanecerá neste modo durante %s minuto. Saír agora?</item>
+    </plurals>
+</resources>

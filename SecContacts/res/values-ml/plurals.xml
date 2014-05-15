@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">%d കോണ്ടാക്ടുകള്‍ ഡിസ്പ്ലേ ചെയ്യുന്നു</item>
+        <item quantity="one">1 കോണ്ടാക്ട് ഡിസ്പ്ലേ ചെയ്യുന്നു</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">ഫോണ്‍ നമ്പറുകളോടുകൂടി %d കോണ്ടാക്ടുകള്‍ ഡിസ്പ്ലേ ചെയ്യുന്നു</item>
+        <item quantity="one">ഫോണ്‍ നമ്പറോടുകൂടി 1 കോണ്ടാക്ട് ഡിസ്പ്ലേ ചെയ്യുന്നു</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">ഫോണ്‍ നമ്പറുകളോടുകൂടിയ %d കോണ്ടാക്ടുകള്‍</item>
+        <item quantity="one">ഫോണ്‍ നമ്പറോടുകൂടിയ 1 കോണ്ടാക്ട്</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d കോണ്ടാക്ടുകള്‍</item>
+        <item quantity="one">1 കോണ്‍‌ടാക്‍ട്</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d കണ്ടെത്തി</item>
+        <item quantity="one">1 കണ്ടെത്തി</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d കണ്ടെത്തി</item>
+        <item quantity="one">1 കണ്ടെത്തി</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d ഗ്രൂപ്പുകള്‍</item>
+        <item quantity="one">1 ഗ്രൂപ്പ്</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%2$s ഗ്രൂപ്പില്‍ %1$d ആളുകള്‍</item>
+        <item quantity="one">%2$s ഗ്രൂപ്പില്‍ %1$d വ്യക്തി</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d ആള്‍</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d വോയ്‌സ് മെയിലുകള്‍</item>
+        <item quantity="one">വോയ്സ് മെയില്‍</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d കോണ്‍‌ടാക്‍ടുകള്‍ പകര്‍ത്തി.</item>
+        <item quantity="one">%d കോണ്‍‌ടാക്‍ട് പകര്‍ത്തി.</item>
+    </plurals>
+</resources>

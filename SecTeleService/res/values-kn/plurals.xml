@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">%s ನಿಮಿಷಗಳಿಗಾಗಿ ಡೇಟಾ ಸಂಪರ್ಕ ಇಲ್ಲ.</item>
+        <item quantity="one">%s ನಿಮಿಷಕ್ಕಾಗಿ ಡೇಟಾ ಸಂಪರ್ಕ ಇಲ್ಲ.</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">ಫೋನ್ %s ನಿಮಿಷಗಳವರೆಗೆ ತುರ್ತು ಕಾಲ್‌ಬ್ಯಾಕ್ ಮೋಡ್‌ನಲ್ಲಿರುವುದು. ಈ ಮೋಡ್‌ನಲ್ಲಿರುವಾಗ ಡೇಟಾ ಸಂಪರ್ಕ ಬಳಸುವ ಅನ್ವಹಿಸುವಿಕೆಗಳನ್ನು ಬಳಸಲಾಗುವುದಿಲ್ಲ. ಈಗ ನಿರ್ಗಮಿಸುವುದೆ?</item>
+        <item quantity="one">ಅನ್ವಹಿಸುವಿಕೆಗಳಿಗಾಗಿ ಡೇಟಾ ಸಂಪರ್ಕ ಬಳಸಲು ಅಸಮರ್ಥ. ಫೋನ್ ಈ ಮೋಡ್‌ನಲ್ಲಿರುವಾಗ %s ನಿಮಿಷಗಳಿಗಾಗಿ ತುರ್ತು ಕಾಲ್‌ಬ್ಯಾಕ್ ಮೋಡ್‌ನಲ್ಲಿರುವುದು. ಈಗ ನಿರ್ಗಮಿಸುವುದೆ?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">ತುರ್ತು ಕಾಲ್‌ಬ್ಯಾಕ್ ಮೋಡ್‌ನಲ್ಲಿ ಆರಿಸಿದ ಕ್ರಿಯೆ ಲಭ್ಯವಿಲ್ಲ. ಫೋನ್ %s ನಿಮಿಷಗಳವರೆಗೆ ಈ ಮೋಡ್‌ನಲ್ಲಿರುವುದು. ಈಗ ನಿರ್ಗಮಿಸುವುದೆ?</item>
+        <item quantity="one">ತುರ್ತು ಕಾಲ್‌ಬ್ಯಾಕ್ ಮೋಡ್‌ನಲ್ಲಿ ಆರಿಸಿದ ಕ್ರಿಯೆ ಲಭ್ಯವಿಲ್ಲ. ಫೋನ್ %s ನಿಮಿಷಕ್ಕಾಗಿ ಈ ಮೋಡ್‌ನಲ್ಲಿರುವುದು. ಈಗ ನಿರ್ಗಮಿಸುವುದೆ?</item>
+    </plurals>
+</resources>

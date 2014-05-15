@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">বিজ্ঞপ্তি সাফাই</string>
+    <string name="status_bar_no_notifications_title">কোনও বিজ্ঞপ্তি নেই</string>
+    <string name="status_bar_ongoing_events_title">চলমান</string>
+    <string name="status_bar_latest_events_title">বিজ্ঞপ্তি</string>
+    <string name="indicator_wifi">Wi-Fi</string>
+    <string name="indicator_bt">ব্লুটুথ</string>
+    <string name="indicator_vibration">কম্পণ</string>
+    <string name="indicator_sound">নীরব</string>
+    <string name="quickpanel_mute">নীরব</string>
+    <string name="quickpanel_speaker">স্পিকার</string>
+    <string name="quickpanel_end">শেষ</string>
+    <string name="no_missed_event">আপনার কোনও মিসড্ ঘটনা নেই।</string>
+    <string name="schedule_format">আপনি একটি %s নির্ধারিত সময়সূচি মিস করেছেন।</string>
+    <string name="quickpanel_save">সংরক্ষণ</string>
+    <string name="quickpanel_rec">REC</string>
+    <string name="quickpanel_pause">পজ</string>
+    <string name="quickpanel_paused">পজ</string>
+    <string name="quickpanel_standby">স্থিতাবস্থা</string>
+    <string name="indicator_gps">GPS</string>
+    <string name="indicator_rotation_lock">আবর্তন</string>
+    <string name="indicator_orientation">"স্বতঃ
+আবর্তন"</string>
+    <string name="quick_settings_error">ত্রুটি।</string>
+    <string name="status_bar_ongoing_text_call">কল</string>
+    <string name="phone_m_format">আপনি %dটি মিসড কল পেয়েছেন।</string>
+    <string name="mms_m_format">আপনি %dটি নতুন বার্তা পেয়েছেন।</string>
+    <string name="tw_seekbarsplit_seekbar_control">নিয়ন্ত্রণ খুঁজুন</string>
+</resources>

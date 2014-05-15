@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_error_flight_mode_enabled">Unable to connect to mobile networks while Airplane mode is enabled. Connect to Wi-Fi network instead, or disable Airplane mode and try again</string>
+</resources>

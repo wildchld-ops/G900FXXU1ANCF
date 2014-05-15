@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>همیشه روشن</item>
+        <item>براساس تقاضا</item>
+        <item>خاموش</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>صفحه پیش فرض</item>
+        <item>صفحه فعلی</item>
+        <item>دسترسی سریع</item>
+        <item>سایت‌های بیشتر بازدید شده</item>
+        <item>متفرقه</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>دستگاه</item>
+        <item>کارت حافظه</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>لاتین-1 (ISO-8859-1)</item>
+        <item>یونیکد (UTF-8)</item>
+        <item>چینی (GBK)</item>
+        <item>چینی (Big5)</item>
+        <item>ژاپنی (ISO-2022-JP)</item>
+        <item>ژاپنی (SHIFT JIS)</item>
+        <item>ژاپنی (EUC-JP)</item>
+        <item>کره ای (EUC-KR)</item>
+        <item>تشخیص خودکار</item>
+    </string-array>
+</resources>

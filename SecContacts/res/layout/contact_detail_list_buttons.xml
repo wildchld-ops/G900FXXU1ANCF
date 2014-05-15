@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/contacts_detail_button_bg" android:layout_width="fill_parent" android:layout_height="@dimen/detail_list_buttons_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/horizontal_left_button" android:background="@drawable/contacts_detail_button_bg_selector" android:paddingTop="@dimen/detail_list_buttons_padding_top" android:paddingBottom="@dimen/detail_list_buttons_padding_bottom" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <View android:layout_gravity="center_vertical" android:id="@id/horizontal_vertical_divider" android:background="@drawable/logsdetail_divider" android:layout_width="1.0dip" android:layout_height="@dimen/detail_list_item_vertical_divider_height" />
+    <ImageView android:layout_gravity="center" android:id="@id/horizontal_middle_button" android:background="@drawable/contacts_detail_button_bg_selector" android:paddingTop="@dimen/detail_list_buttons_padding_top" android:paddingBottom="@dimen/detail_list_buttons_padding_bottom" android:focusable="true" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <View android:layout_gravity="center_vertical" android:id="@id/horizontal_vertical_second_divider" android:background="@drawable/logsdetail_divider" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="@dimen/detail_list_item_vertical_divider_height" />
+    <ImageView android:layout_gravity="center" android:id="@id/horizontal_right_button" android:background="@drawable/contacts_detail_button_bg_selector" android:paddingTop="@dimen/detail_list_buttons_padding_top" android:paddingBottom="@dimen/detail_list_buttons_padding_bottom" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <include layout="@layout/contact_detail_list_buttons_rcs" />
+</LinearLayout>

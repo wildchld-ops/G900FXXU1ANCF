@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>מופעל תמיד</item>
+        <item>לפי דרישה</item>
+        <item>כבוי</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>דף ברירת מחדל</item>
+        <item>דף נוכחי</item>
+        <item>גישה מהירה</item>
+        <item>האתרים השכיחים ביותר</item>
+        <item>אחר</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>התקן</item>
+        <item>כרטיס SD חיצוני</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode ‏(UTF-8)</item>
+        <item>סינית (GBK)</item>
+        <item>סינית (Big5)</item>
+        <item>יפנית (ISO-2022-JP)</item>
+        <item>יפנית (SHIFT JIS)</item>
+        <item>יפנית (EUC-JP)</item>
+        <item>קוריאנית (EUC-KR)</item>
+        <item>גלוי אוטומטי</item>
+    </string-array>
+</resources>

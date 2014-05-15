@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">%d харилцагчийг харуулж байна</item>
+        <item quantity="one">1 харилцагч харуулж байна</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">Утасны дугаартай %d харилцагч харуулж байна</item>
+        <item quantity="one">Утасны дугаартай 1 харилцагч харуулж байна</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Утасны дугаартай %d харилцагч</item>
+        <item quantity="one">Утасны дугаартай 1 харилцагч</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d харилцагч</item>
+        <item quantity="one">1 харилцагч</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d олдсон</item>
+        <item quantity="one">1 олдсон</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d олдсон</item>
+        <item quantity="one">1 олдсон</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d бүлэг</item>
+        <item quantity="one">1 бүлэг</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%2$s бүлэгт %1$d хүн</item>
+        <item quantity="one">%2$s бүлэгт %1$d хүн</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d хүн</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d дуут шуудан</item>
+        <item quantity="one">Дуут шуудан</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d харилцагч хуулагдсан</item>
+        <item quantity="one">%d харилцагч хуулагдсан</item>
+    </plurals>
+</resources>

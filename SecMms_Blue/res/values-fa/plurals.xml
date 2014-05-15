@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s گفتگو</item>
+        <item quantity="one">۱ گفتگو</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s پیام</item>
+        <item quantity="one">1 پیام</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d گفتگو</item>
+        <item quantity="one">%d گفتگو</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s و %2$d بیشتر</item>
+        <item quantity="one">%s و 1 مورد دیگر</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s و %2$d بیشتر</item>
+        <item quantity="one">%s و 1 مورد دیگر</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">پیام ها از سیم کارت حذف شدند.</item>
+        <item quantity="one">پیام از سیم کارت حذف شد.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">پیام ها از سیم کارت کپی شد.</item>
+        <item quantity="one">پیام از سیم کارت کپی شد.</item>
+    </plurals>
+</resources>

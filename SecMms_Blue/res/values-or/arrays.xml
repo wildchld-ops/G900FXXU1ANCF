@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>ଖୁସି</item>
+        <item>ଦୁଃଖିତ</item>
+        <item>ୱିକିଂଙ୍ଗ୍</item>
+        <item>ଟଙ୍ଗ୍ ଷ୍ଟିକିଂ ଆଉଟ୍</item>
+        <item>ଆଶ୍ଚର୍ଯ୍ୟ ହୋଇଛନ୍ତି</item>
+        <item>କିସିଂ</item>
+        <item>ୟେଲିଂ</item>
+        <item>ଶାନ୍ତ</item>
+        <item>ମନି ମାଉଥ୍‍</item>
+        <item>ଫୁଟ୍ ଇନ୍ ମାଉଥ୍</item>
+        <item>ବିହ୍ୱଳ</item>
+        <item>କୋଣ</item>
+        <item>ଅନିର୍ଣ୍ଣିତ</item>
+        <item>କାନ୍ଦୁଛି</item>
+        <item>ଓଠ ସିଲ୍ ହୋଇଛି</item>
+        <item>ହସୁଛି</item>
+        <item>ଦ୍ଵନ୍ଦହୋଇଛି</item>
+        <item>ହୃଦୟ</item>
+        <item>ପାଗଳ</item>
+        <item>କୃତ୍ରିମ ହସ</item>
+        <item>ପୋକର୍ ମୁଖ</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>ଫଣ୍ଟ ଆକାର ଡିଭାଇସ୍ ବ୍ୟବହାର</item>
+        <item>କ୍ଷୁଦ୍ରତ୍ତମ</item>
+        <item>କ୍ଷୁଦ୍ର</item>
+        <item>ସାଧାରଣ</item>
+        <item>ବୃହତ୍ତ</item>
+        <item>ବୃହତ୍ତମ</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>ଫଣ୍ଟ ଆକାର ଡିଭାଇସ୍ ବ୍ୟବହାର</item>
+        <item>କ୍ଷୁଦ୍ରତ୍ତମ</item>
+        <item>କ୍ଷୁଦ୍ରତ୍ତର</item>
+        <item>କ୍ଷୁଦ୍ର</item>
+        <item>ମଧ୍ୟମ</item>
+        <item>ବୃହତ୍ତ</item>
+        <item>ବୃହତ୍ତର</item>
+        <item>ବୃହତ୍ତମ</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>ସମସ୍ତ ଚ୍ୟାନେଲ୍‌ଗୁଡିକ</item>
+        <item>ମୋ ଚ୍ୟାନେଲ୍‌</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM ଅକ୍ଷରସମୂହ</item>
+        <item>ୟୁନିକୋଡ୍</item>
+        <item>ସ୍ଵତଃସ୍ପୃତ</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 ଦିନ</item>
+        <item>1 ଦିନ</item>
+        <item>2 ଦିନ</item>
+        <item>3 ଦିନ</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>ପ୍ରତିବନ୍ଧିତ</item>
+        <item>ସତର୍କବାଣୀ</item>
+        <item>ମୁକ୍ତ</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>ସର୍ବଦା</item>
+        <item>ତ୍ଵରିତ</item>
+        <item>କେବେ ବି ନୁହେଁ</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>ଓରିଗାମି</item>
+        <item>ଲେବଲ୍</item>
+        <item>ପପ୍</item>
+        <item>ମଡର୍ନ୍</item>
+        <item>ଗୋଲାପୀ</item>
+        <item>ଡିଫଲ୍ଟ୍</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>ଥରେ</item>
+        <item>ପ୍ରତ୍ୟେକ 2 ମିନିଟ୍</item>
+        <item>ପ୍ରତ୍ୟେକ 15 ମିନିଟ୍</item>
+        <item>ଅଫ୍</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>କେବେ ବି ନୁହେଁ</item>
+        <item>ପ୍ରତ୍ୟେକ 2 ମିନିଟ୍</item>
+        <item>ପ୍ରତ୍ୟେକ 10 ମିନିଟ୍</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>ଘରୋଇ</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 ଘଣ୍ଟା</item>
+        <item>6 ଘଣ୍ଟା</item>
+        <item>24 ଘଣ୍ଟା</item>
+        <item>2 ଦିନ</item>
+        <item>ନେଟୱାର୍କ ଡିଫଲ୍ଟ</item>
+        <item>ସର୍ବାଧିକ</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>ଉଚ୍ଚ</item>
+        <item>ସାଧାରଣ</item>
+        <item>ନିମ୍ନ</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>ତୁରନ୍ତ</item>
+        <item>1 ଘଣ୍ଟା</item>
+        <item>6 ଘଣ୍ଟା</item>
+        <item>24 ଘଣ୍ଟା</item>
+        <item>1 ସ.</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 ସେକେଣ୍ଡ୍</item>
+        <item>5 ସେକେଣ୍ଡ୍</item>
+        <item>10 ସେକେଣ୍ଡ୍</item>
+        <item>20 ସେକେଣ୍ଡ୍</item>
+        <item>30 ସେକେଣ୍ଡ୍</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>ଅଫ୍</item>
+        <item>ସମସ୍ତ ସନ୍ଦେଶସମୂହ ଅବରୋଧ</item>
+        <item>ପଞ୍ଜିକୃତ ସଂଖ୍ୟା ଏବଂ ଖଣ୍ଡବାକ୍ୟସମୂହ ଅବରୋଧ</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>ସମ ଭାବରେ</item>
+        <item>ସହିତ ଆରମ୍ଭ ହେଉଛି</item>
+        <item>ସହିତ ଶେଷ</item>
+        <item>ଅନ୍ତର୍ଭୁକ୍ତ କରେ</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>ଲଗ୍‌ଗୁଡିକ</item>
+        <item>ସମ୍ପର୍କ.</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>ସନ୍ଦେଶ ଅବରୋଧ</item>
+        <item>କଲ୍ ଅବରୋଧ</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>ସନ୍ଦେଶ ଅବରୋଧ</item>
+        <item>ଭଏସ୍ କଲ୍ ଅବରୋଧ</item>
+        <item>ଭିଡିଓ କଲ୍ ଅବରୋଧ</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>ସଂରକ୍ଷିତ।</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>ସାଧାରଣ</item>
+        <item>ଉଚ୍ଚ</item>
+    </string-array>
+    <string-array name="templates">
+        <item>ଦୁଃଖିତ, ମୁଁ ଆପଣଙ୍କର କଲ୍ ହରାଇଛି।</item>
+        <item>ମୁଁ ବିଳମ୍ଵିତ ଅଛି, କିନ୍ତୁ କିଛି ସମୟ ମଧ୍ୟରେ ସେଠାରେ ପହଞ୍ଚିବି।</item>
+        <item>କିପରି ଚାଲିଛି?</item>
+        <item>କ’ଣ ଚାଲିଛି?</item>
+        <item>ଆପଣ କେଉଁଠାରେ ଅଛନ୍ତି?</item>
+        <item>ଆପଣ ଏହି ସନ୍ଦେଶ ପ୍ରାପ୍ତ କଲେ ଦୟାକରି ମୋତେ କଲ୍ କରିବେ।</item>
+        <item>ଆମେ କେବେ ମିଶି ପାରିବା?</item>
+        <item>ମୁଁ ଆପଣଙ୍କ ସହିତ ଖୁବ୍‌ ଶୀଘ୍ର କଥା ହେବି।</item>
+        <item>ମିଟିଂ କେଉଁଠାରେ ଅଛି?</item>
+        <item>ଫୋନ୍ ନମ୍ୱରଟି କଣ?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>ବ୍ରାଜିଲିଆନ୍ ପର୍ତ୍ତୁଗୀଜ୍</item>
+        <item>ଇଂରାଜୀ (UK)</item>
+        <item>ଇଂରାଜୀ (US)</item>
+        <item>ଫରାସୀ</item>
+        <item>ଜର୍ମାନ୍</item>
+        <item>ଇଟାଲୀଆନ</item>
+        <item>ଜାପାନୀସ</item>
+        <item>କୋରିଆନ୍</item>
+        <item>ସରଳୀକୃତ ଚୀନିୟ</item>
+        <item>ରୁଷିୟ</item>
+        <item>ସ୍ପାନିଶ</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>କ୍ଷୁଦ୍ରତ୍ତମ</item>
+        <item>କ୍ଷୁଦ୍ର</item>
+        <item>ସାଧାରଣ</item>
+        <item>ବୃହତ୍ତ</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>ସମସ୍ତ</item>
+        <item>ପ୍ରେରକ</item>
+        <item>ସୂଚୀ</item>
+    </string-array>
+</resources>

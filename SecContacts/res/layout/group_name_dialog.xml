@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/group_editor_createname_left_padding" android:paddingTop="@dimen/group_editor_createname_top_padding" android:paddingRight="@dimen/group_editor_createname_right_padding" android:paddingBottom="@dimen/group_editor_createname_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/group_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/group_edit_field_hint_text" android:singleLine="true" android:inputType="textCapSentences" />
+</FrameLayout>

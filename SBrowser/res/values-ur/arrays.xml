@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>ھمیشہ آن</item>
+        <item>مطالبے پر</item>
+        <item>بند</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>طے شدہ صفحہ</item>
+        <item>حالیہ صفحہ</item>
+        <item>فوری رسائی</item>
+        <item>اکثر ملاحظہ کردہ سائٹس</item>
+        <item>مزید</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>آلہ</item>
+        <item>SD کارڈ</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>لاطینی-1 (ISO-8859-1)</item>
+        <item>یونیکوڈ (UTF-8)</item>
+        <item>چینی (GBK)</item>
+        <item>چینی (Big5)</item>
+        <item>جاپانی (ISO-2022-JP)</item>
+        <item>جاپانی (SHIFT JIS)</item>
+        <item>جاپانی (EUC-JP)</item>
+        <item>کورین (EUC-KR)</item>
+        <item>خودکار-سراغ</item>
+    </string-array>
+</resources>

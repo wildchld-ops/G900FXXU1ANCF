@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>Hạnh phúc</item>
+        <item>Buồn</item>
+        <item>Nháy mắt</item>
+        <item>Lè lưỡi</item>
+        <item>Ngạc nhiên</item>
+        <item>Hôn</item>
+        <item>Mắng nhiếc</item>
+        <item>Tuyệt</item>
+        <item>Ngậm tiền</item>
+        <item>Lỡ lời</item>
+        <item>Ngượng ngùng</item>
+        <item>Thiên thần</item>
+        <item>Chưa quyết định</item>
+        <item>Khóc</item>
+        <item>Giữ bí mật</item>
+        <item>Cười to</item>
+        <item>Bối rối</item>
+        <item>Trái tim</item>
+        <item>Tức điên</item>
+        <item>Cười ngớ ngẩn</item>
+        <item>Mặt hề</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Sử dụng cỡ chữ của thiết bị</item>
+        <item>Rất nhỏ</item>
+        <item>Nhỏ</item>
+        <item>Bình thường</item>
+        <item>Lớn</item>
+        <item>Siêu lớn</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Sử dụng cỡ chữ của thiết bị</item>
+        <item>Rất nhỏ</item>
+        <item>Nhỏ hơn</item>
+        <item>Nhỏ</item>
+        <item>Trung bình</item>
+        <item>Lớn</item>
+        <item>Lớn hơn</item>
+        <item>Rất lớn</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Tất cả các kênh</item>
+        <item>Kênh của bạn</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Ký tự GSM</item>
+        <item>Unicode</item>
+        <item>Tự động</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 ngày</item>
+        <item>1 ngày</item>
+        <item>2 ngày</item>
+        <item>3 ngày</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Hạn chế</item>
+        <item>Cảnh báo</item>
+        <item>Tự do</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Luôn luôn</item>
+        <item>Hỏi trước</item>
+        <item>Không bao giờ</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Xếp giấy</item>
+        <item>Nhãn</item>
+        <item>Bật ra</item>
+        <item>Hiện đại</item>
+        <item>Hồng</item>
+        <item>Mặc định</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Tự động gửi khi ở trong vùng phủ sóng trong nước</item>
+        <item>Gửi ngay</item>
+        <item>Lưu thành tin nhắn nháp</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Một lần</item>
+        <item>Mỗi 2 phút</item>
+        <item>Mỗi 15 phút</item>
+        <item>Tắt</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Không bao giờ</item>
+        <item>Mỗi 2 phút</item>
+        <item>Mỗi 10 phút</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Trong nước</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 giờ</item>
+        <item>6 giờ</item>
+        <item>24 giờ</item>
+        <item>2 ngày</item>
+        <item>Mặc định mạng</item>
+        <item>Tối đa</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Cao</item>
+        <item>Bình thường</item>
+        <item>Thấp</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Ngay lập tức</item>
+        <item>1 giờ</item>
+        <item>6 giờ</item>
+        <item>24 giờ</item>
+        <item>1 tuần</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 giây</item>
+        <item>5 giây</item>
+        <item>10 giây</item>
+        <item>20 giây</item>
+        <item>30 giây</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Tắt</item>
+        <item>Chặn mọi tin nhắn</item>
+        <item>Chặn các số và cụm từ đã đăng ký</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Chính xác</item>
+        <item>Bắt đầu với</item>
+        <item>Kết thúc với</item>
+        <item>Bao gồm</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Nhật ký</item>
+        <item>Danh bạ</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Chặn tin nhắn</item>
+        <item>Chặn cuộc gọi</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Chặn tin nhắn</item>
+        <item>Chặn cuộc gọi thoại</item>
+        <item>Chặn cuộc gọi video</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Được bảo toàn.</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Bình thường</item>
+        <item>Cao</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Rất tiếc, tôi đã lỡ cuộc gọi của bạn.</item>
+        <item>Tôi đến muộn, nhưng sẽ có mặt ở đó sau vài phút.</item>
+        <item>Bạn thế nào rồi?</item>
+        <item>Có chuyện gì vậy?</item>
+        <item>Bạn đang ở đâu?</item>
+        <item>Vui lòng gọi cho tôi khi nhận được tin nhắn này.</item>
+        <item>Khi nào chúng ta gặp nhau?</item>
+        <item>Tôi sẽ nói chuyện với bạn sau.</item>
+        <item>Họp ở đâu?</item>
+        <item>Số bao nhiêu?</item>
+    </string-array>
+    <string-array name="sprint_templates">
+        <item>Không thể nói chuyện. Hãy gửi tin nhắn.</item>
+        <item>Hãy gọi tôi</item>
+        <item>Bạn đang ở đâu?</item>
+        <item>Bạn nói chuyện được không?</item>
+        <item>Đừng quên</item>
+        <item>Bạn bắt máy được không?</item>
+        <item>Cảm ơn!</item>
+        <item>Gặp tôi ở</item>
+        <item>Đi ăn trưa thôi.</item>
+        <item>Gửi từ điện thoại của tôi.</item>
+        <item>Đã hủy cuộc họp.</item>
+        <item>Tôi phải làm việc muộn.</item>
+        <item>Tôi đang trong cuộc gọi hội thảo.</item>
+        <item>Tôi sẽ ở đó lúc</item>
+        <item>Bắt đầu lúc mấy giờ?</item>
+        <item>Đến lượt bạn gọi!</item>
+        <item>I love you!</item>
+        <item>Ôm và hôn - OXOXO</item>
+        <item>Crazy 4 you!</item>
+        <item>Mắt cười quá!</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Brazilian Portuguese</item>
+        <item>English (UK)</item>
+        <item>English (US)</item>
+        <item>Tiếng Pháp</item>
+        <item>Tiếng Đức</item>
+        <item>Tiếng Ý</item>
+        <item>Tiếng Nhật</item>
+        <item>Tiếng Hàn Quốc</item>
+        <item>Simplified Chinese</item>
+        <item>Russian</item>
+        <item>Tiếng Tây Ban Nha</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Rất nhỏ</item>
+        <item>Nhỏ</item>
+        <item>Bình thường</item>
+        <item>Lớn</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Tất cả</item>
+        <item>Người gửi</item>
+        <item>Nội dung</item>
+    </string-array>
+</resources>

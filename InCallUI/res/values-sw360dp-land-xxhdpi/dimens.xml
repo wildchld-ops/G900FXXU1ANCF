@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dtmf_dialer_field_height">97.0dip</dimen>
+</resources>

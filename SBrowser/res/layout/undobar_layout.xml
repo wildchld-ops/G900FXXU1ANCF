@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="@dimen/undobar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom|center" android:id="@id/undobar" android:background="@drawable/tw_toast_frame_holo_light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/undobar_height" style="@style/UndoBar">
+        <TextView android:id="@id/undobar_message" style="@style/UndoBarMessage" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/undobar_divider" android:layout_width="@dimen/undobar_divider_width" android:layout_height="@dimen/undobar_divider_height" android:src="@drawable/life_times_toast_delete_divider" android:scaleType="fitXY" />
+        <Button android:id="@id/undobar_button" style="@style/UndoBarButton" />
+    </LinearLayout>
+</merge>

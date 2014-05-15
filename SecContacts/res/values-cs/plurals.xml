@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">Zobrazování %d kontaktů</item>
+        <item quantity="one">Zobrazení 1 kontaktu</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">Zobrazuji %d kontaktů s telefonními čísly</item>
+        <item quantity="one">Zobrazuji 1 kontakt s telefonním číslem</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d kontaktů s telefonními čísly</item>
+        <item quantity="one">1 kontakt s telefonním číslem</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d kontaktů</item>
+        <item quantity="one">1 kontakt</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Nalezeno %d</item>
+        <item quantity="one">Nalezen 1</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Nalezeno %d</item>
+        <item quantity="one">Nalezen 1</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">sloučeno ze %0$d zdrojů</item>
+        <item quantity="one">sloučení se nezdařilo</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d skupin</item>
+        <item quantity="one">1 skupina</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d osob ve skupině %2$s</item>
+        <item quantity="one">%1$d osoba ve skupině %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d osob</item>
+        <item quantity="one">%1$d uživatel</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d hlasových zpráv</item>
+        <item quantity="one">Hlasová schránka</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">Zkopírováno kontaktů: %d.</item>
+        <item quantity="one">Počet zkopírovaných kontaktů: %d.</item>
+    </plurals>
+</resources>

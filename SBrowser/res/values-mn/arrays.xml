@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Үргэлж идэвхтэй</item>
+        <item>Захиалгаар</item>
+        <item>Идэвхгүй</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Өгөгдмөл хуудас</item>
+        <item>Одоогийн хуудас</item>
+        <item>Түргэн хандалт</item>
+        <item>Хамгийн их зочилсон сайтууд</item>
+        <item>Бусад</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Төхөөрөмж</item>
+        <item>SD карт</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Латин-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Хятад (GBK)</item>
+        <item>Хятад (Big5)</item>
+        <item>Япон (ISO-2022-JP)</item>
+        <item>Япон (SHIFT JIS)</item>
+        <item>Япон (EUC-JP)</item>
+        <item>Солонгос (EUC-KR)</item>
+        <item>Автоматаар илрүүлэх</item>
+    </string-array>
+</resources>

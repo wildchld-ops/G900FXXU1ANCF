@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/tw_search_bar" android:background="?contact_browser_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/tw_sub_action_bar_bg_holo" android:focusable="true" android:visibility="gone" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/search_header_height_easymode">
+        <ImageButton android:id="@id/menu_button" android:visibility="gone" android:layout_width="@dimen/create_button_width" android:layout_height="fill_parent" android:scaleType="center" />
+        <SearchView android:id="@id/search_view" android:layout_width="0.0dip" android:layout_height="@dimen/search_bar_height_easymode" android:layout_weight="1.0" android:iconifiedByDefault="false" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/easymode_create_button_layout" android:background="@drawable/easymode_contacts_list_create_contact_button" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/easymode_add_button_height" android:layout_marginLeft="@dimen/easymode_add_button_padding_horizontal" android:layout_marginTop="@dimen/easymode_add_button_padding_vertical" android:layout_marginRight="@dimen/easymode_add_button_padding_horizontal" android:layout_marginBottom="@dimen/easymode_add_button_padding_vertical">
+        <ImageView android:layout_width="@dimen/easymode_add_icon_size" android:layout_height="@dimen/easymode_add_icon_size" android:layout_marginRight="@dimen/easymode_add_icon_margin_right" android:src="@drawable/easymode_icon_add_contact" />
+        <TextView android:paddingRight="@dimen/easymode_add_text_padding_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/create_contact" style="@style/TextAppearance_Button_Easy" />
+    </LinearLayout>
+</LinearLayout>

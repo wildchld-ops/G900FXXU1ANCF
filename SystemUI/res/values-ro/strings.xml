@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_date_format_day_month_k">"E
+d MMM"</string>
+    <string name="status_bar_date_format_month_day_k">"E
+MMM d"</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">E, MMM d</string>
+    <string name="abbrev_wday_day_abbrev_month_no_year">E, d MMM</string>
+    <string name="app_label">UI sistem</string>
+    <string name="status_bar_clear_all_button">Golire</string>
+    <string name="status_bar_do_not_disturb_button">Nu deranjaţi</string>
+    <string name="status_bar_please_disturb_button">Afişare notificări</string>
+    <string name="status_bar_recent_remove_item_title">Eliminare din listă</string>
+    <string name="status_bar_recent_inspect_item_title">Informaţii aplicaţie</string>
+    <string name="status_bar_no_recent_apps">Nicio aplicaţie recentă</string>
+    <string name="status_bar_accessibility_dismiss_recents">Renunţaţi la aplicaţiile recente</string>
+    <string name="status_bar_no_notifications_title">Fără notificări</string>
+    <string name="status_bar_ongoing_events_title">În desfăşurare</string>
+    <string name="status_bar_latest_events_title">Notificări</string>
+    <string name="battery_low_title">Conectare încărcător</string>
+    <string name="battery_low_subtitle">Bateria este descărcată.</string>
+    <string name="battery_low_percent_format">%d%% rămas</string>
+    <string name="invalid_charger">Încărcarea prin USB nu este acceptată. Utilizaţi încărcătorul furnizat.</string>
+    <string name="battery_low_why">Utilizare baterie</string>
+    <string name="status_bar_settings_settings_button">Setări</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Mod Avion</string>
+    <string name="status_bar_settings_auto_rotation">Rotire automată ecran</string>
+    <string name="status_bar_settings_mute_label">Mut</string>
+    <string name="status_bar_settings_auto_brightness_label">Automat</string>
+    <string name="status_bar_settings_notifications">Notificări</string>
+    <string name="bluetooth_tethered">Bluetooth cu acces la Internet</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Configurare metode de introducere</string>
+    <string name="status_bar_use_physical_keyboard">Tastatură fizică</string>
+    <string name="usb_device_permission_prompt">Permiteţi aplicaţiei %1$s să acceseze dispozitivul USB?</string>
+    <string name="usb_accessory_permission_prompt">Permiteţi aplicaţiei %1$s să acceseze accesoriul USB?</string>
+    <string name="usb_device_confirm_prompt">Deschideţi %1$s când acest dispozitiv USB este conectat?</string>
+    <string name="usb_accessory_confirm_prompt">Deschideţi %1$s când acest accesoriu USB este conectat?</string>
+    <string name="usb_accessory_uri_prompt">Nicio aplicaţie instalată nu funcţionează cu acest accesoriu USB. Aflaţi mai multe despre acest accesoriu la %s.</string>
+    <string name="title_usb_accessory">Accesoriu USB</string>
+    <string name="label_view">Vizualizare</string>
+    <string name="always_use_device">Utilizaţi implicit pentru acest dispozitiv USB</string>
+    <string name="always_use_accessory">Utilizaţi implicit pentru acest accesoriu USB</string>
+    <string name="usb_debugging_title">Permiteţi depanarea USB?</string>
+    <string name="usb_debugging_message">"Amprenta pentru cheia RSA a PC-ului este:
+%1$s"</string>
+    <string name="usb_debugging_always">Acest PC este permis întotdeauna</string>
+    <string name="compat_mode_on">Mărire pt. umpl. ecran</string>
+    <string name="compat_mode_off">Extindere pt. umpl. ecran</string>
+    <string name="compat_mode_help_header">Zoom de compatibilitate</string>
+    <string name="compat_mode_help_body">Când o aplicaţie a fost proiectată pentru un ecran mai mic, un control de zoom va apărea lângă ceas.</string>
+    <string name="screenshot_saving_ticker">Se salvează captura de ecran…</string>
+    <string name="screenshot_saving_title">Se salvează captura de ecran…</string>
+    <string name="screenshot_saving_text">Captura de ecran este în curs de salvare.</string>
+    <string name="screenshot_saved_title">Captură ecran efectuată</string>
+    <string name="screenshot_saved_text">Atingeţi pentru a vizualiza captura de ecran.</string>
+    <string name="screenshot_failed_title">Nu se poate efectua captura de ecran.</string>
+    <string name="screenshot_failed_text">Nu se poate salva captura de ecran. Este posibil ca spaţiul de stocare USB să fie în uz.</string>
+    <string name="screenshot_failed_due_to_drm_text">Imposibil de capturat ecranul. Imagine protejată prin drepturi DRM.</string>
+    <string name="one_item_will_be_deleted">1 element va fi şters.</string>
+    <string name="usb_preference_title">Opţ. transf. fişiere prin USB</string>
+    <string name="use_mtp_button_title">Instalare ca player media (MTP)</string>
+    <string name="use_ptp_button_title">Instalare ca şi cameră foto (PTP)</string>
+    <string name="installer_cd_button_title">Instalare aplicaţie Transfer de fişiere Android pentru Mac</string>
+    <string name="accessibility_back">Înapoi</string>
+    <string name="accessibility_home">Acasă</string>
+    <string name="accessibility_menu">Meniu</string>
+    <string name="accessibility_recent">Aplicaţii recente</string>
+    <string name="accessibility_ime_switch_button">Buton pentru comutarea metodei de introducere</string>
+    <string name="accessibility_compatibility_zoom_button">Buton zoom pentru compatibilitate</string>
+    <string name="accessibility_compatibility_zoom_example">Zoom pe ecran mai mare</string>
+    <string name="accessibility_bluetooth_connected">Conectat la Bluetooth</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth deconectat</string>
+    <string name="accessibility_no_battery">Nicio baterie</string>
+    <string name="accessibility_battery_one_bar">Energie baterie: o bară</string>
+    <string name="accessibility_battery_two_bars">Energie baterie: două bare</string>
+    <string name="accessibility_battery_three_bars">Energie baterie: trei bare</string>
+    <string name="accessibility_battery_full">Baterie plină</string>
+    <string name="accessibility_no_phone">Telefon: fără semnal</string>
+    <string name="accessibility_phone_one_bar">Semnal telefon: o bară</string>
+    <string name="accessibility_phone_two_bars">Semnal telefon: două bare</string>
+    <string name="accessibility_phone_three_bars">Semnal telefon: trei bare</string>
+    <string name="accessibility_phone_signal_full">Semnal telefon: complet</string>
+    <string name="accessibility_no_data">Nu există date</string>
+    <string name="accessibility_data_one_bar">Semnal de date: o bară</string>
+    <string name="accessibility_data_two_bars">Semnal de date: două bare</string>
+    <string name="accessibility_data_three_bars">Semnal de date: trei bare</string>
+    <string name="accessibility_data_four_bars">Semnal de date: patru bare</string>
+    <string name="accessibility_data_five_bars">Semnal de date: cinci bare</string>
+    <string name="accessibility_data_signal_full">Semnal de date: complet</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">Fără semnal Wi-Fi</string>
+    <string name="accessibility_wifi_one_bar">Semnal Wi-Fi: o bară</string>
+    <string name="accessibility_wifi_two_bars">Semnal Wi-Fi: două bare</string>
+    <string name="accessibility_wifi_three_bars">Semnal Wi-Fi: trei bare</string>
+    <string name="accessibility_wifi_signal_full">Semnalul Wi-Fi este complet.</string>
+    <string name="accessibility_no_wimax">Fără WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX o bară.</string>
+    <string name="accessibility_wimax_two_bars">WiMAX două bare.</string>
+    <string name="accessibility_wimax_three_bars">WiMAX trei bare.</string>
+    <string name="accessibility_wimax_signal_full">WiMAX semnal complet.</string>
+    <string name="accessibility_no_signal">Fără semnal</string>
+    <string name="accessibility_not_connected">Neconectat</string>
+    <string name="accessibility_zero_bars">Nicio bară.</string>
+    <string name="accessibility_one_bar">O bară.</string>
+    <string name="accessibility_two_bars">Două bare.</string>
+    <string name="accessibility_three_bars">Trei bare.</string>
+    <string name="accessibility_phone_four_bars">Semnal telefon: patru bare</string>
+    <string name="accessibility_phone_five_bars">Semnal telefon: cinci bare</string>
+    <string name="accessibility_signal_full">Semnal complet.</string>
+    <string name="accessibility_desc_on">Pornit</string>
+    <string name="accessibility_desc_off">Oprit</string>
+    <string name="accessibility_desc_connected">Conectat</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Roaming</string>
+    <string name="accessibility_data_connection_edge">Margine</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Fără SIM</string>
+    <string name="accessibility_bluetooth_tether">Tethering prin Bluetooth</string>
+    <string name="accessibility_airplane_mode">Mod Avion</string>
+    <string name="accessibility_battery_level">Bateria se află la %d de procente.</string>
+    <string name="accessibility_settings_button">Setări de sistem</string>
+    <string name="accessibility_notifications_button">Notificări</string>
+    <string name="accessibility_remove_notification">Ştergere notificări</string>
+    <string name="accessibility_gps_enabled">GPS activat</string>
+    <string name="accessibility_gps_acquiring">Se obţine semnalul GPS…</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter activat</string>
+    <string name="accessibility_ringer_vibrate">Vibraţie ton de sonerie</string>
+    <string name="accessibility_ringer_silent">Ton sonerie silenţios</string>
+    <string name="accessibility_recents_item_dismissed">%s a fost eliminată.</string>
+    <string name="accessibility_notification_dismissed">Notificarea a fost închisă.</string>
+    <string name="accessibility_desc_notification_shade">Fereastră pentru notificări.</string>
+    <string name="accessibility_desc_quick_settings">Setări rapide</string>
+    <string name="accessibility_desc_recent_apps">Aplicaţii recente</string>
+    <string name="accessibility_quick_settings_user">Utilizatorul %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s. %2$s</string>
+    <string name="accessibility_quick_settings_mobile">Semnal mobil: %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">Baterie %s.</string>
+    <string name="accessibility_quick_settings_airplane">Mod Avion %s.</string>
+    <string name="accessibility_quick_settings_bluetooth">Bluetooth %s.</string>
+    <string name="accessibility_quick_settings_alarm">Alarmă setată pentru %s</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">Conect. rapidă</string>
+    <string name="accessibility_qconnect_button_tts">Conectare rapidă</string>
+    <string name="data_usage_disabled_dialog_3g_title">Date 2G-3G dezactivate</string>
+    <string name="data_usage_disabled_dialog_4g_title">Date 4G dezactivate</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Date mobile dezactivate</string>
+    <string name="data_usage_disabled_dialog_title">Date dezactivate</string>
+    <string name="data_usage_disabled_dialog">S-a atins limita specificată pentru utilizarea datelor. Utilizarea datelor suplimentare poate genera costuri din partea furnizorului de servicii.</string>
+    <string name="data_usage_disabled_dialog_enable">Reactivare conexiune de date</string>
+    <string name="data_usage_enable_mobile_warning">Conectarea folosind pachetele de date poate genera costuri suplimentare. Continuaţi?</string>
+    <string name="data_usage_disable_mobile">Dezactivaţi conexiunea de date mobilă?</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Fără conexiune Internet</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi conectat</string>
+    <string name="gps_notification_searching_text">Se caută utilizând serviciul GPS…</string>
+    <string name="gps_notification_found_text">Locaţie setată de GPS</string>
+    <string name="accessibility_clear_all">Ştergere totală notificări</string>
+    <string name="status_bar_notification_inspect_item_title">Informaţii aplicaţie</string>
+    <string name="close_universe">Închide</string>
+    <string name="notifications_off_title">Notificări dezactivate</string>
+    <string name="notifications_off_text">Atingeţi pentru a activa notificările.</string>
+    <string name="accessibility_rotation_lock_off">Ecranul se va roti automat.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Ecranul este blocat în orientarea de tip peisaj.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Ecranul este blocat în orientarea de tip portret.</string>
+    <string name="jelly_bean_dream_name">BeanFlinger</string>
+    <string name="start_dreams">Daydream</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">Mod Avion</string>
+    <string name="quick_settings_battery_charging_label">Se încarcă, %d%%</string>
+    <string name="quick_settings_battery_charged_label">Încărcată</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d dispozitive)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth dezactivat</string>
+    <string name="quick_settings_brightness_label">Luminozitate</string>
+    <string name="quick_settings_rotation_unlocked_label">Rotire automată</string>
+    <string name="quick_settings_rotation_locked_label">Rotire blocată</string>
+    <string name="quick_settings_ime_label">Metodă introducere</string>
+    <string name="quick_settings_location_label">Locaţie în uz</string>
+    <string name="quick_settings_media_device_label">Dispozitiv media</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Numai apeluri de urgenţă</string>
+    <string name="quick_settings_settings_label">Setări</string>
+    <string name="quick_settings_time_label">Oră</string>
+    <string name="quick_settings_user_label">Eu</string>
+    <string name="quick_settings_wifi_label">WiFi</string>
+    <string name="quick_settings_wifi_not_connected">Neconectat</string>
+    <string name="quick_settings_wifi_no_network">Nicio reţea</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_wifi_display_label">"Afişaj
+Wi-Fi"</string>
+    <string name="quick_settings_wifi_display_no_connection_label">Ecran wireless</string>
+    <string name="quick_settings_brightness_dialog_title">Luminozitate</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Automat</string>
+    <string name="status_bar_help_title">Notificările se afişează aici</string>
+    <string name="status_bar_help_text">"Accesaţi-le oricând glisând în jos.
+Glisaţi în jos din nou pentru comenzile sistemului."</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">Locaţie</string>
+    <string name="quickpanel_silent_mode_text">"Mod
+silenţios"</string>
+    <string name="quickpanel_silent_mode_sound">Sunet</string>
+    <string name="quickpanel_silent_mode_vibrate">Vibrare</string>
+    <string name="quickpanel_silent_mode_mute">Silenţios</string>
+    <string name="quickpanel_rotation_text">"Rotire
+ecran"</string>
+    <string name="quickpanel_mobile_data_text">"Date
+mobile"</string>
+    <string name="quickpanel_dormant_mode_text">"Mod
+Blocare"</string>
+    <string name="quickpanel_notification_text">Notificare</string>
+    <string name="quickpanel_airplane_mode_text">"Mod
+Avion"</string>
+    <string name="quickpanel_sync_text">Sincron.</string>
+    <string name="quickpanel_power_saving_text">"Econom.
+energie"</string>
+    <string name="quickpanel_ultra_power_saving_text">"Ec. max.
+energie"</string>
+    <string name="quickpanel_driving_mode_text">"Modul
+Mâini lib."</string>
+    <string name="quickpanel_smart_stay_text">"Repaus
+intelig."</string>
+    <string name="quickpanel_smart_scroll_text">"Derul.
+intelig."</string>
+    <string name="quickpanel_smart_pause_text">"Întrer.
+intel."</string>
+    <string name="quickpanel_smart_network_text">"Reţea
+inteligentă"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_wifi_hotspot_text">"Hotspot
+Wi-Fi"</string>
+    <string name="quickpanel_multiwindow_text">"Feres.
+multiple"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_brightness_text">Luminozitate</string>
+    <string name="quickpanel_airview_text">"Viz.prin
+gesturi"</string>
+    <string name="quickpanel_airgesture_text">"Air
+gesture"</string>
+    <string name="quickpanel_ebook_text">"Modul
+Citire"</string>
+    <string name="quickpanel_personal_mode_text">"Mod
+Privat"</string>
+    <string name="quickpanel_car_mode_text">"Mod
+Maşină"</string>
+    <string name="quickpanel_network_booster_text">"Acceler.
+descărc."</string>
+    <string name="quickpanel_toolbox_text">Casetă instr.</string>
+    <string name="quickpanel_touch_sensitivity_text">"Sensib.
+atingere"</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">Locaţie</string>
+    <string name="quickpanel_silent_mode_sound_content_description">Sunet</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">Vibraţie</string>
+    <string name="quickpanel_silent_mode_mute_content_description">Dezactivare sunet</string>
+    <string name="quickpanel_rotation_content_description">Rotire ecran</string>
+    <string name="quickpanel_mobile_data_content_description">Date mobile</string>
+    <string name="quickpanel_dormant_mode_content_description">Modul Blocare</string>
+    <string name="quickpanel_airplane_mode_content_description">Modul Avion</string>
+    <string name="quickpanel_sync_content_description">Sincronizare</string>
+    <string name="quickpanel_power_saving_content_description">Modul Economisire energie</string>
+    <string name="quickpanel_ultra_power_saving_content_description">Modul Economisire maximă a energiei</string>
+    <string name="quickpanel_smart_stay_content_description">Ecran activ inteligent</string>
+    <string name="quickpanel_smart_pause_content_description">Întrerupere inteligentă</string>
+    <string name="quickpanel_smart_network_content_description">Reţea inteligentă</string>
+    <string name="quickpanel_wifi_hotspot_content_description">Hotspot portabil Wi-Fi</string>
+    <string name="quickpanel_multiwindow_content_description">Ferestre multiple</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_ebook_content_description">Modul Citire</string>
+    <string name="quickpanel_personal_mode_content_description">Modul Privat</string>
+    <string name="quickpanel_car_mode_content_description">Modul Maşină</string>
+    <string name="quickpanel_network_booster_content_description">Accelerator pentru descărcare</string>
+    <string name="quickpanel_toolbox_content_description">Casetă de instrumente</string>
+    <string name="air_gesture_use_popup_title">Activare air gesture</string>
+    <string name="air_gesture_use_popup_msg">Air Gesture şi TalkBack nu pot fi activate simultan. Opţiunea TalkBack va fi dezactivată.</string>
+    <string name="air_view_use_popup_title">Activare vizual. etichetă</string>
+    <string name="air_view_use_popup_msg">Vizualizare etichetă şi opţiunile de mai jos nu pot fi activate simultan. Opţiunile de mai jos vor fi dezactivate.</string>
+    <string name="multi_window_use_popup_title">Activaţi ferestrele multiple</string>
+    <string name="multi_window_use_popup_msg">Opţiunile Ferestre multiple şi TalkBack nu pot fi activate simultan. Opţiunea TalkBack va fi dezactivată.</string>
+    <string name="smart_pause_use_popup_title">Activaţi întreruperea inteligentă</string>
+    <string name="smart_pause_use_popup_msg">Întreruperea inteligentă şi TalkBack nu pot fi activate simultan. TalkBack va fi dezactivat.</string>
+    <string name="smart_scroll_use_popup_title">Activaţi derularea inteligentă</string>
+    <string name="smart_scroll_use_popup_msg">Derularea inteligentă şi TalkBack nu pot fi activate simultan. TalkBack va fi dezactivat.</string>
+    <string name="smart_stay_use_popup_title">Porniţi ecranul activ inteligent</string>
+    <string name="smart_stay_use_popup_msg">Ecranul activ inteligent şi TalkBack nu pot fi activate simultan. TalkBack va fi dezactivat.</string>
+    <string name="quickpanel_content_description_led_on">Aplicaţia %s a fost activată.</string>
+    <string name="quickpanel_content_description_led_off">Aplicaţia %s a fost dezactivată.</string>
+    <string name="quickpanel_content_description_led_dim">%s nu se poate activa.</string>
+    <string name="smart_network">Reţea inteligentă</string>
+    <string name="smart_network_guide_msg">"Reţeaua inteligentă ajută la conservarea bateriei.
+
+Funcţia dezactivează datele mobile şi Wi-Fi când ecranul este oprit, pentru a reducere consumul de energie pe dispozitiv.
+
+Totuşi, este posibil să primiţi date push acumulate când porniţi ecranul."</string>
+    <string name="quickpanel_data_roaming_text">Roaming date</string>
+    <string name="data_roaming_dialog_text">Roamingul va genera costuri suplimentare. Continuaţi?</string>
+    <string name="mobile_data_enable_dialog_text">Conectarea la reţelele mobile poate genera costuri suplimentare, în funcţie de planul de date. Continuaţi?</string>
+    <string name="quickpanel_edit_current">Panoul de notificare</string>
+    <string name="quickpanel_edit_available">Butoane disponibile</string>
+    <string name="mobile_data_dialog_text">Nu veţi mai putea utiliza aplicaţii precum Internetul, E-mailul sau YouTube prin intermediul reţelelor mobile. Continuaţi?</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"Dacă nu utilizaţi o conexiune Wi-Fi, nu veţi mai putea să utilizaţi Internetul, E-mailul sau alte aplicaţii care necesită o conexiune de date.
+
+Datele mobile vor fi dezactivate."</string>
+    <string name="mobile_data_connect">Conectare</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">Imposibil de conectat la reţelele mobile când modul Avion este activat. Dezactivaţi modul Avion şi încercaţi din nou.</string>
+    <string name="warning_alert_check">Nu se afiş. din nou</string>
+    <string name="blocking_mode_enable">Când este activat acest mod, notificările pentru funcţiile selectate vor fi dezactivate. Veţi primi notificări doar pentru apelurile primite de la persoanele de pe lista dvs. de contacte permise.</string>
+    <string name="blocking_mode_enable_for_grid_settings">Modul Blocare dezactivează notificările pentru caracteristicile selectate. Dacă apelurile primite sunt blocate, veţi primi notificări doar pentru apelurile primite de la persoanele de pe lista de contacte permise. Pentru a schimba setările modului Blocare, accesaţi Setări > Personalizare > Modul Blocare.</string>
+    <string name="blocking_mode_enable_wifi">Când este activat acest mod, notificările vor fi dezactivate pentru funcţiile selectate.</string>
+    <string name="blocking_mode_title">Mod Blocare</string>
+    <string name="dormant_mode_off_message">Pentru a activa modul Blocare, activaţi cel puţin o opţiune de mai jos.</string>
+    <string name="driving_mode_title">Modul Mâini libere</string>
+    <string name="driving_mode_on_dialog_msg_1">Modul Mâini libere trebuie să fie dezactivat din meniul Setări după ce închideţi Mâini libere cu S Voice. Dacă modul Mâini libere rămâne activat, informaţiile despre notificări şi apelurile primite vor fi citite în continuare automat.</string>
+    <string name="driving_mode_on_dialog_msg_2">Puteţi dezactiva modul Mâini libere rostind „Dezactivaţi modul Mâini libere” în modul Mâini libere cu S Voice sau accesând meniul Setări ori panoul de notificare.</string>
+    <string name="insert_sim_card">Introd. cartela SIM</string>
+    <string name="insert_sim_card_message">Introduceţi cartela SIM pentru a accesa serviciile de reţea.</string>
+    <string name="wifi_enable_warning">Activarea Wi-Fi va dezactiva hotspotul portabil Wi-Fi. Continuaţi?</string>
+    <string name="wifi_ap_turning_off">Se dezactivează hotspotul portabil Wi-Fi…</string>
+    <string name="no_sim_notification_title">Fără SIM</string>
+    <string name="no_sim_notification_title_tmo">Nu există cartelă SIM introdusă.</string>
+    <string name="no_sim_notification_text">Introduceţi cartela SIM.</string>
+    <string name="accessibility_power_saving_mode">Pentru activarea modului Economisire energie, activaţi cel puţin o funcţie.</string>
+    <string name="accessibility_power_saving_mode_title">Modul de economisire al energiei</string>
+    <string name="accessibility_driving_mode">Pentru activarea modului Mâini libere, activaţi cel puţin o funcţie relevantă.</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Network restriction mode will be disabled.</string>
+    <string name="charging_interruption_title">Nu se poate încărca</string>
+    <string name="charging_interruption_by_terminal_open_text">Dispozitivul nu se poate încărca. Asiguraţi-vă că utilizaţi o baterie şi un încărcător compatibil Samsung şi că dispozitivul este conectat corect la încărcător.</string>
+    <string name="charging_interruption_by_too_high_temperature_text">Încărcare întreruptă. Temperatura bateriei este prea ridicată.</string>
+    <string name="charging_interruption_by_too_low_temperature_text">Încărcare întreruptă. Temperatura bateriei este prea scăzută.</string>
+    <string name="charging_interruption_by_limit_high_temperature_text">"Încărcarea dispozitivului s-a oprit. Temperatura bateriei este prea ridicată. Aveţi grijă când deconectaţi încărcătorul. Poate fi fierbinte.
+
+Este posibil ca deconectarea şi reconectarea încărcătorului să permită continuarea normală a încărcării. Dacă supraîncălzirea persistă, contactaţi serviciul de relaţii cu clienţii, întrucât poate exista un pericol de incendiu sau rănire."</string>
+    <string name="full_battery_title">Informaţii</string>
+    <string name="full_battery_text">"Baterie încărcată complet.
+Deconectaţi încărcătorul."</string>
+    <string name="low_battery_title">Baterie descărcată</string>
+    <string name="critical_low_battery_title">Baterie epuizată</string>
+    <string name="low_battery_text">Conectaţi la o priză de curent pentru a încărca dispozitivul şi ieşiţi din aplicaţiile neutilizate folosind Managerul de activităţi. Continuarea utilizării în timpul încărcării poate împiedica o încărcare eficientă.</string>
+    <string name="low_battery_text_charged_via_ta">Ieşiţi din aplicaţiile neutilizate folosind Managerul de activităţi. Continuarea utilizării în timpul încărcării poate împiedica o încărcare eficientă.</string>
+    <string name="low_battery_camera_warning_text">Dacă bateria scade sub %d%%, nu veţi putea deschide Camera.</string>
+    <string name="critical_low_battery_camera_warning_text">Nu se poate deschide Camera. Nivelul bateriei este de %d%% sau mai puţin.</string>
+    <string name="start_force_consume_battery_title">Avertizare</string>
+    <string name="start_force_consume_battery_text">Aşteptaţi până când temperatura dispozitivului scade înainte de a-l utiliza.</string>
+    <string name="stop_force_consume_battery_title">Informaţii</string>
+    <string name="stop_force_consume_battery_text">Dispozitivul s-a răcit.</string>
+    <string name="wireless_charging_title">Încărcare wireless</string>
+    <string name="cable_charging_title">Încărcare prin cablu</string>
+    <string name="wireless_charging_text">Aţi amplasat dispozitivul în raza de acoperire. Acum se încarcă wireless…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">Se comută de la încărcarea wireless la încărcarea prin cablu</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">Se comută de la încărcarea prin cablu la încărcarea wireless</string>
+    <string name="wireless_charging_spen_warning_text">Dispozitivul se încarcă acum wireless. S Pen nu va funcţiona în raza de acţiune a încărcătorului wireless.</string>
+    <string name="incompatible_charger_title">Nu se încarcă.</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_dialog_text_for_tablet">The connected charger is incompatible with this tablet. To prevent damage to your tablet, charging has been stopped. To continue charging, use the original charger and cable that were provided with this tablet.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_notification_text">To charge faster, use the original charger</string>
+    <string name="slow_charging_toast_text">To charge faster, use the charger and cable that were provided with this phone</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="water_damage_warning_title">Verif. capacul de încărc.</string>
+    <string name="water_damage_warning_text">Pentru protecţia împotriva deteriorărilor produse de apă, etanşaţi bine capacul de încărcare înainte de utilizare.</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">Oprire dispozitiv</string>
+    <string name="overheat_poweroff_warning_text">Dispozitivul se supraîncălzeşte. Acesta se va opri pentru a se răci.</string>
+    <string name="overheat_poweroff_warning_button_text">Nu opriţi</string>
+    <string name="overheat_poweroff_notice_title">Dispozitivul s-a oprit automat</string>
+    <string name="overheat_poweroff_notice_text">"Dispozitivul s-a supraîncălzit. Pentru a preveni daunele, acesta s-a oprit.
+
+Supraîncălzirea poate fi cauzată de:
+utilizarea îndelungată a aplicaţiilor cu un nivel intens de grafică, de exemplu, jocuri şi aplicaţii de navigare;
+transferul fişierelor mari;
+utilizarea dispozitivului într-un mediu cu temperatură ridicată."</string>
+    <string name="power_sharing_warning_title">Partajare energie</string>
+    <string name="power_sharing_warning_text">Nivelul bateriei este mai redus decât limita pentru partajarea energiei. Pentru a continua să partajaţi energie, reduceţi limita de partajare a energiei sub nivelul actual al bateriei.</string>
+    <string name="power_sharing_start_toast_text">Se porneşte Partajarea energiei…</string>
+    <string name="power_sharing_end_notification_text">Partajarea energiei s-a încheiat. Deconectaţi cablul.</string>
+    <string name="face_detection_failure_text">Ecranul activ intelig. nu detectează ochii.</string>
+    <string name="status_bar_recent_launch_task_manager_title">Manager apl.</string>
+    <string name="status_bar_recent_launch_google_button">Google</string>
+    <string name="status_bar_recent_remove_all_button">Închidere totală</string>
+    <string name="screen_capture_fail_for_storage_capacity">Spaţiu de stocare pe dispozitiv plin. Ştergeţi câteva elemente.</string>
+    <string name="no_such_item">Imposibil de găsit elementul</string>
+    <string name="pickup_tutorial_title">Încercaţi alerta inteligentă</string>
+    <string name="put_your_phone">După ce lăsaţi jos dispozitivul, ecranul se va stinge.</string>
+    <string name="phone_detect">Să presupunem că aveţi apeluri nepreluate sau mesaje. Lăsaţi jos dispozitivul, apoi ridicaţi-l din nou după oprirea ecranului.</string>
+    <string name="pick_up_your_phone">Ridicaţi dispozitivul</string>
+    <string name="tutorial_complete">Tutorial finalizat.</string>
+    <string name="camera_alert">"Imposibil de pornit aparat foto
+în timpul apelului"</string>
+    <string name="stms_version">SM-G900F_EUR_20140228_0507</string>
+    <string name="wifi_cw_ready">China Telecom WLAN connected</string>
+    <string name="wifi_cw_ready_message">You have access to China Telecom WLAN network, consult 10000 to understand billing information, please turn off when not use</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">De acord</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="quickpanel_ctwap_text">CTWAP</string>
+    <string name="quickpanel_ctnet_text">CTNET</string>
+    <string name="tethering_attention_title">Atenţie</string>
+    <string name="tethering_wifi_off_warning">Activarea hotspotului portabil Wi-Fi va dezactiva Wi-Fi.</string>
+    <string name="quickpanel_air_view_warning">Pentru a activa vizualizare etichetă, activaţi cel puţin o funcţie.</string>
+    <string name="quickpanel_air_view_warning_pen_support">Pentru a activa vizualizarea prin gesturi, activaţi cel puţin o funcţie din modul Vizualizare prin gesturi selectat.</string>
+    <string name="quickpanel_air_gesture_warning">Pentru a activa air gesture, activaţi cel puţin o funcţie relevantă.</string>
+    <string name="quickpanel_air_gesture_warning_continue">Atingeţi lung un buton de setare rapidă pentru a accesa setările relevante.</string>
+    <string name="roaming_title">Roaming</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="gps_donotshow">Nu se afişează din nou</string>
+    <string name="quickpanel_brightess_level">Nivel</string>
+    <string name="quickpanel_brightess_minus">Minus</string>
+    <string name="reading_mode_title">Mod Citire</string>
+    <string name="reading_mode_alert">Modul Citire a fost activat. Ecranul este acum optimizat pentru citire. Acest mod este disponibil numai în anumite aplicaţii.</string>
+    <string name="reading_mode_settings">Setări</string>
+    <string name="automatic_brightness_message">Setările de luminozitate automată sunt aplicate numai ecranului interior</string>
+    <string name="manual_brightness_message">Luminozitatea a fost ajustată manual. Luminozitatea automată a fost dezactivată.</string>
+    <string name="flight_mode_message_for_wifi_only">Modul Avion vă permite să dezactivaţi caracteristicile de reţea, inclusiv Wi-Fi şi Bluetooth. Pentru a utiliza Wi-Fi şi Bluetooth, activaţi-le din Setări sau din panoul de notificare.</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tutorial_notification_panel_drag_down">Utilizaţi un deget pentru a trage în jos bara de stare din partea de sus a ecranului.</string>
+    <string name="tutorial_notification_panel_drag_down_complete">Se afişează panoul de notificare.</string>
+    <string name="tutorial_quick_panel_drag_down">Utilizaţi două degete pentru a trage în jos bara de stare din partea de sus a ecranului.</string>
+    <string name="tutorial_quick_panel_drag_down_complete">Se afişează panoul pentru setări rapide.</string>
+    <string name="tutorial_expand_notification_panel_drag_down">Utilizaţi două degete pentru a trage în jos una dintre listele din panoul de notificare.</string>
+    <string name="tutorial_expand_notification_panel_drag_down_complete">Se afişează mai multe informaţii despre lista selectată.</string>
+    <string name="tutorial_invaild_action">Acţiune nevalidă. Încercaţi din nou.</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="magnification_text_for_air_view_button">Gesturi pentru mărire</string>
+    <string name="smartbonding_dialog_title">Accelerator pentru descărcare</string>
+    <string name="smartbonding_dialog_wifi_text">Descărcaţi mai rapid fişierele mari (peste %d MB) utilizând simultan reţelele Wi-Fi şi LTE. Reţineţi că, în funcţie de starea reţelelor, Acceleratorul pentru descărcare poate utiliza numai reţeaua Wi-Fi sau numai pe cea LTE pentru descărcarea fişierelor.</string>
+    <string name="smartbonding_dialog_mobile_text">Descărcaţi mai rapid fişierele mari (peste %d MB) utilizând simultan reţelele Wi-Fi şi LTE. Reţineţi că, în funcţie de starea reţelelor, Acceleratorul pentru descărcare poate utiliza numai reţeaua Wi-Fi sau numai pe cea LTE pentru descărcarea fişierelor.</string>
+    <string name="smart_bonding_popup_msg">Va fi activat Acceleratorul pentru descărcare. Descărcarea prin reţele mobile poate genera costuri suplimentare, în funcţie de planul tarifar.</string>
+    <string name="smart_bonding_popup_msg_wifi">Conexiunea Wi-Fi este dezactivată în prezent. Pentru a activa Acceleratorul pentru descărcare, atât reţeaua Wi-Fi, cât şi cea de Date mobile trebuie activate. Descărcarea prin reţele mobile poate genera costuri suplimentare, în funcţie de planul tarifar.</string>
+    <string name="smart_bonding_popup_msg_data">Datele mobile sunt dezactivate în prezent. Pentru a activa Acceleratorul pentru descărcare, atât reţeaua Wi-Fi, cât şi cea de Date mobile trebuie activate. Descărcarea prin reţele mobile poate genera costuri suplimentare, în funcţie de planul tarifar.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Conexiunea Wi-Fi şi cea de Date mobile sunt dezactivate în prezent. Pentru a activa Acceleratorul pentru descărcare, atât reţeaua Wi-Fi, cât şi cea de Date mobile trebuie activate. Descărcarea prin reţele mobile poate genera costuri suplimentare, în funcţie de planul tarifar.</string>
+    <string name="smart_bonding_popup_msg_roaming">Acceleratorul pentru descărcare nu poate fi utilizat în timp ce sunteţi în roaming. Vă recomandăm să descărcaţi printr-o reţea Wi-Fi.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Activare Wi-Fi</string>
+    <string name="smart_bonding_popup_msg_data_btn">Activare date mobile</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Activare Wi-Fi şi Date mobile</string>
+    <string name="smart_bonding_turn_off_text">Acceleratorul pentru descărcare nu poate fi utilizat în timp ce s-a activat %1$s. Dezactivaţi %2$s şi încercaţi din nou.</string>
+    <string name="smart_bonding_turn_off_text_airplane_mode">Imposibil de conectat la reţelele mobile când modul Avion este activat. Dezactivaţi modul Avion şi încercaţi din nou.</string>
+    <string name="dialog_battery_data_warning">Hotspotul portabil Wi-Fi consumă mult din energia bateriei şi creşte volumul de date utilizat. Continuaţi?</string>
+    <string name="tether_settings_title_wifi">Hotspot portabil</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">Notificare</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="cooling_title">Supraîncălzire dispozitiv</string>
+    <string name="cooling_body">"Dispozitivul se supraîncălzeşte. Se vor lua măsuri pentru răcirea acestuia.
+
+Puteţi utiliza în continuare dispozitivul, dar
+- luminozitatea ecranului se poate reduce.
+- viteza dispozitivului poate fi redusă.
+- încărcarea se poate întrerupe.
+
+Închiderea aplicaţiei actuale poate contribui la răcirea dispozitivului.
+
+După răcirea dispozitivului, performanţa va reveni automat la normal."</string>
+    <string name="cooling_noti_text">Atingeţi aici pentru a vedea detaliile.</string>
+    <string name="cooling_popup_name">Notificare</string>
+    <string name="cooling_noti_title">Supraîncălzire dispozitiv</string>
+    <string name="btn_text_yes">OK</string>
+    <string name="btn_text_no">Anul.</string>
+    <string name="device_overheating">Supraîncălzire dispozitiv</string>
+    <string name="colling_noti_text_2">Aplicaţiile nu pot fi deschise. Puteţi utiliza doar aplicaţiile Telefon şi Contacte.</string>
+    <string name="vol_panel_audio_settings">schimbare setări audio</string>
+    <string name="guest_launge_warning_toast_text">Funcţia %s nu se poate activa sau dezactiva în modul Invitat.</string>
+    <string name="safe_mode_title_vzw">Dezactivaţi Modul de siguranţă</string>
+    <string name="safe_mode_popup_body_vzw">Doriţi să reporniţi telefonul pentru a dezactiva Modul de siguranţă? Toate aplicaţiile dvs. vor fi restaurate.</string>
+    <string name="safe_mode_btn_cancel_vzw">Anul.</string>
+    <string name="safe_mode_off_btn_vzw">Dezactivare Mod de siguranţă</string>
+    <string name="safe_mode_noti_on_vzw">Modul de siguranţă este activat.</string>
+    <string name="safe_mode_noti_body_vzw">Atingeţi pentru a dezactiva Modul de siguranţă.</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">Atingeţi aici pentru a afla mai multe.</string>
+    <string name="cooling_popup_name_VZW">Notificare</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">OK</string>
+    <string name="btn_text_no_VZW">Anul.</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance will Automatically go back to normal."</string>
+    <string name="recent_menukey_press_description">Menţineţi apăsat butonul recente pentru a vizualiza meniul.</string>
+    <string name="recent_menukey_press_description_vzw">Tasta meniu a fost înlocuită cu tasta recente, pentru a vă permite să treceţi rapid între aplicaţiile pe care le-aţi utilizat cel mai recent. Atingeţi Ajutor pentru mai multe informaţii.</string>
+    <string name="recent_menukey_help_button">Ajut.</string>
+</resources>

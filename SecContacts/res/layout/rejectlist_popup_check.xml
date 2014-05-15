@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/auto_reject_confirm" android:paddingLeft="@dimen/popup_horizontal_padding" android:paddingTop="@dimen/popup_vertical_paddingTop" android:paddingRight="@dimen/popup_horizontal_padding" android:paddingBottom="@dimen/popup_vertical_paddingBottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/contact_tips_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/reject_list_tips_do_not_show_top_margin">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/reject_list_tips_dialog_text_size" android:id="@id/contact_tips_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/manage_reject_list_in_call_settings" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:id="@id/confirm_show_again_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.sec.android.touchwiz.widget.TwCheckBox android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/reject_list_tips_dialog_text_size" android:id="@id/confirm_show_again_checkbox" android:focusable="true" android:clickable="true" android:duplicateParentState="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_tips_naver_show_again" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

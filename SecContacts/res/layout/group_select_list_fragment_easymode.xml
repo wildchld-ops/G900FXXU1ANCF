@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:layout_gravity="center" android:id="@id/button_create_group" android:layout_width="fill_parent" android:layout_height="@dimen/editor_button_height_easymode" android:layout_marginLeft="@dimen/group_select_list_row_text_margin_left" android:layout_marginTop="@dimen/button_create_group_margin_vertical" android:layout_marginRight="@dimen/group_select_list_row_text_margin_left" android:layout_marginBottom="@dimen/button_create_group_margin_vertical" android:text="@string/menu_create" style="@style/EasyButtonStyle" />
+    <View android:id="@id/group_select_list_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="@dimen/group_select_list_divider_height" />
+    <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+</LinearLayout>

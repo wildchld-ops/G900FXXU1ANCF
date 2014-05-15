@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">%d ಸಂಪರ್ಕಗಳನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತಿದೆ</item>
+        <item quantity="one">1 ಸಂಪರ್ಕ ಪ್ರದರ್ಶಿಸುತ್ತಿದೆ</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">ಫೋನ್ ಸಂಖ್ಯೆಗಳೊಂದಿಗೆ %d ಸಂಪರ್ಕಗಳನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತಿದೆ</item>
+        <item quantity="one">ಫೋನ್ ಸಂಖ್ಯೆಯೊಂದಿಗೆ 1 ಸಂಪರ್ಕವನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತಿದೆ</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">ಫೋನ್ ಸಂಖ್ಯೆಗಳೊಂದಿಗಿನ %d ಸಂಪರ್ಕಗಳು</item>
+        <item quantity="one">ಫೋನ್ ಸಂಖ್ಯೆಯೊಂದಿಗೆ 1 ಸಂಪರ್ಕ</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d ಸಂಪರ್ಕಗಳು</item>
+        <item quantity="one">1 ಸಂಪರ್ಕ</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d ಸಿಕ್ಕಿದೆ</item>
+        <item quantity="one">1 ಸಿಕ್ಕಿದೆ</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d ಸಿಕ್ಕಿದೆ</item>
+        <item quantity="one">1 ಸಿಕ್ಕಿದೆ</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d ಗುಂಪುಗಳು</item>
+        <item quantity="one">1 ಗುಂಪು</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%2$s ಗುಂಪಿನಲ್ಲಿ %1$d ಜನರು</item>
+        <item quantity="one">%2$s ಗುಂಪಿನಲ್ಲಿ %1$d ವ್ಯಕ್ತಿ</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d ಜನ</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d ಧ್ವನಿಮೇಲ್‌ಗಳು</item>
+        <item quantity="one">ಧ್ವನಿಮೇಲ್‌</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d ಸಂಪರ್ಕಗಳನ್ನು ನಕಲು ಮಾಡಲಾಗಿದೆ.</item>
+        <item quantity="one">%d ಸಂಪರ್ಕ ನಕಲಿಸಲಾಗಿದೆ.</item>
+    </plurals>
+</resources>

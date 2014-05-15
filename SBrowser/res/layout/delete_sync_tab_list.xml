@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/select_all_view" android:background="@drawable/delete_sync_tab_select_all_selector" android:focusable="true" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <CheckBox android:layout_gravity="center_vertical" android:id="@id/select_all_chcekbox" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="@dimen/sbrowser_bookmark_folder_checkbox_spec" android:layout_height="@dimen/sbrowser_bookmark_folder_checkbox_spec" android:layout_marginLeft="@dimen/sbrowser_bookmarks_select_all_text_margin" android:button="@drawable/delete_sync_tab_custom_checkbox" />
+        <TextView android:textSize="@dimen/sbrowser_bookmarks_select_all_text_size" android:textColor="@color/sbrowser_bookmarks_select_all_text_color" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/deviceName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sbrowser_bookmarks_select_all_text_margin" android:text="@string/common_select_all" android:singleLine="true" android:fontFamily="sans-serif-light" />
+    </LinearLayout>
+    <ListView android:id="@id/deleteSyncTabListView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/tw_list_divider_holo_light" android:dividerHeight="@dimen/sbrowser_bookmark_listview_divider_height" android:splitMotionEvents="false" />
+</LinearLayout>

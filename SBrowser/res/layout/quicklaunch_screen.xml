@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/page_indicator_lyt" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_marginLeft="11.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="11.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="@color/most_visited_title_color" android:id="@id/mostvisited_header" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/most_visited_sites_title" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/page_nav" android:visibility="invisible" android:layout_width="11.0dip" android:layout_height="23.0dip" android:src="@drawable/internet_most_visit_arrow_right" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <GridView android:gravity="center" android:id="@id/mostvisited_view" android:focusable="true" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gridview_portrait_margin_left" android:layout_marginTop="@dimen/gridview_portrait_margin_top" android:layout_marginRight="@dimen/gridview_portrait_margin_right" android:horizontalSpacing="@dimen/gridview_portrait_horizontal_spacing" android:verticalSpacing="@dimen/gridview_portrait_vertical_spacing" android:stretchMode="columnWidth" android:columnWidth="12.0dip" android:numColumns="2" />
+    <TextView android:textColor="#ff000000" android:gravity="center" android:id="@id/no_most_visited_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

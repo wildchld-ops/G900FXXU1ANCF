@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:custom="http://schemas.android.com/apk/res/com.sec.android.app.sbrowser" xmlns:app="http://schemas.android.com/apk/res/">
+    <PreferenceCategory android:layout="@layout/preferences_category_account_layout" android:title="@string/account" android:key="account_category" android:summary="@string/account_preferences">
+        <CheckBoxPreference android:title="@string/settings_sync_internet" android:key="sync_internet_data" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" android:defaultValue="true" style="@style/Textsize" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sync_internet_data" android:key="sync_internet_data_category">
+        <com.sec.android.app.sbrowser.preferences.AccountSyncCheckBoxPreference android:title="@string/sync_bookmarks" android:key="sync_bookmarks" android:widgetLayout="@layout/preference_accountsync_layout" android:defaultValue="true" custom:pref="sync_bookmarks" style="@style/Textsize" />
+        <com.sec.android.app.sbrowser.preferences.AccountSyncCheckBoxPreference android:title="@string/sync_open_pages" android:key="sync_open_pages" android:widgetLayout="@layout/preference_accountsync_layout" android:defaultValue="true" custom:pref="sync_open_pages" style="@style/Textsize" />
+    </PreferenceCategory>
+</PreferenceScreen>

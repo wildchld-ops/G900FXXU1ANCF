@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="update_value">
+        <item>@string/disable_text</item>
+        <item>Samo prek Wi-Fi</item>
+        <item>Kadar koli je na voljo</item>
+    </array>
+    <string-array name="clock_size_key">
+        <item>Majhna</item>
+        <item>Običajna</item>
+        <item>Velika</item>
+    </string-array>
+    <string-array name="lock_screen_unlock_effect_entries">
+        <item>Brez</item>
+        <item>Učinek valovanja</item>
+        <item>Svetlobni učinek</item>
+        <item>Particle effect</item>
+    </string-array>
+    <string-array name="auto_power_off_entries">
+        <item>Izključeno</item>
+        <item>1 ura</item>
+        <item>2 ur</item>
+        <item>3 ure</item>
+        <item>4 ure</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Europe</item>
+        <item>Africa</item>
+        <item>Azija</item>
+        <item>Avstralija</item>
+        <item>Tihi ocean</item>
+        <item>Vse</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 sekund</item>
+        <item>30 sekund</item>
+        <item>1 minuta</item>
+        <item>2 minuti</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="screen_timeout_for_device_lock_entries">
+        <item>15 sekund</item>
+        <item>30 sekund</item>
+        <item>1 minuta</item>
+        <item>3 minute</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Nikoli</item>
+        <item>15 sekund</item>
+        <item>30 sekund</item>
+        <item>1 minuta</item>
+        <item>2 minuti</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="device_lock_timeout_entries">
+        <item>Takoj s tipko za vklop ali ko poteče časovna omejitev zaslona</item>
+        <item>15 sekund</item>
+        <item>30 sekund</item>
+        <item>1 minuta</item>
+        <item>3 minute</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>30 minut</item>
+        <item>1 ura</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Takoj</item>
+        <item>5 sekund</item>
+        <item>15 sekund</item>
+        <item>30 sekund</item>
+        <item>1 minuta</item>
+        <item>2 minuti</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Drobna</item>
+        <item>Majhna</item>
+        <item>Običajna</item>
+        <item>Velika</item>
+        <item>Ogromna</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Zelo počasi</item>
+        <item>Počasi</item>
+        <item>Normalno</item>
+        <item>Hitro</item>
+        <item>Nekoliko hitreje</item>
+        <item>Precej hitreje</item>
+        <item>Zelo hitro</item>
+        <item>Izjemno hitro</item>
+        <item>Najhitreje</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Skoraj prazna</item>
+        <item>Nizka</item>
+        <item>Normalno</item>
+        <item>Visoka</item>
+        <item>Zelo visoko</item>
+    </string-array>
+    <string-array name="tts_pitch_values">
+        <item>50</item>
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>150</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Pregledujem…</item>
+        <item>Povezujem…</item>
+        <item>Overjam …</item>
+        <item>Pridobivanje naslova IP …</item>
+        <item>Povezano</item>
+        <item>Preloženo</item>
+        <item>Prekinjam</item>
+        <item>Prekinjeno</item>
+        <item>Neuspešno</item>
+        <item>Blokirano.</item>
+        <item>Preverjanje kakovosti vaše internetne povezave …</item>
+        <item>Povezano.</item>
+        <item>CW Disconnected</item>
+        <item>CW Registering</item>
+        <item>CW Registered</item>
+        <item>CW Register Fail</item>
+        <item>CW PPP Setup</item>
+        <item>CW PPP Fail</item>
+        <item>CW Deiniting</item>
+        <item>CW Ready</item>
+        <item>CW Stopping WLAN</item>
+        <item>Connected. CW Register Fail.</item>
+        <item>Connected. CW PPP Fail.</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Pregledujem…</item>
+        <item>Povezujem z %s …</item>
+        <item>Overjanje z %s …</item>
+        <item>Pridobivanje naslova IP od omrežja %s …</item>
+        <item>Povezano z %1$s.</item>
+        <item>Preloženo</item>
+        <item>Prekinjam povezavo z %s …</item>
+        <item>Prekinjeno</item>
+        <item>Neuspešno</item>
+        <item>Blokirano.</item>
+        <item>Preverjanje kakovosti vaše internetne povezave …</item>
+    </string-array>
+    <string-array name="wifi_ap_security">
+        <item>Odprto omrežje</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_ap_security_testmode">
+        <item>Odprto omrežje</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Potisni gumb.</item>
+        <item>Koda PIN iz enakovredne naprave</item>
+        <item>Koda PIN iz te naprave</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Povezan.</item>
+        <item>Povabljen.</item>
+        <item>Povezava ni uspela</item>
+        <item>Pritisnite tukaj za povezavo.</item>
+        <item>Izven dovoljenega obsega.</item>
+        <item>Povezano z drugo napravo</item>
+    </string-array>
+    <string-array name="wifi_ap_timeout">
+        <item>Brez zakasnitve zaslona</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>20 minut</item>
+        <item>30 minut</item>
+        <item>60 minut</item>
+    </string-array>
+    <string-array name="wifi_ap_connection_mode">
+        <item>Vse naprave</item>
+        <item>Samo naprave z dovoljenjem</item>
+    </string-array>
+    <string-array name="wifi_ap_channel">
+        <item>Samodejno</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_ap_tx_power_mode_entries">
+        <item>Standardno</item>
+        <item>Visoko</item>
+    </string-array>
+    <string-array name="wifi_ap_maxclient">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minuti</item>
+        <item>5 minut</item>
+        <item>1 h</item>
+        <item>Brez zakasnitve zaslona</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries_for_vzw">
+        <item>2 minuti</item>
+        <item>5 minut</item>
+        <item>1 h</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Šibko</item>
+        <item>Dobro</item>
+        <item>Dober</item>
+        <item>Močno</item>
+        <item>Zelo močno</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Vedno</item>
+        <item>Samo ko je vključen</item>
+        <item>Nikoli (poveča uporabo podatkov)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Vedno</item>
+        <item>Samo ko je vključen</item>
+        <item>Nikoli</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_values">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="wifi_ap_list_priority_entries">
+        <item>Abecedni vrstni red</item>
+        <item>Moč signala</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Samodejno</item>
+        <item>Samo 5 GHz</item>
+        <item>Samo 2,4 GHz</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wifi_preferred_band_entries">
+        <item>Samodejno</item>
+        <item>Uporabi pasovno širino 5 GHz</item>
+        <item>Uporabi pasovno širino 2,4 GHz</item>
+    </string-array>
+    <string-array name="wifi_signal_strength_entries">
+        <item>Zelo močno</item>
+        <item>Močno</item>
+        <item>Dober</item>
+        <item>Vse</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Čas uporabe</item>
+        <item>Prični štetje</item>
+        <item>Ime programa</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_phase1_entries">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Brez</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Brez</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>Izključeno</item>
+        <item>Potisni gumb.</item>
+        <item>Koda PIN iz dostopne točke</item>
+        <item>Koda PIN iz te naprave</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statični</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Brez</item>
+        <item>Ročno</item>
+    </string-array>
+    <string-array name="wifi_connection_settings">
+        <item>Normalno</item>
+        <item>Downtown</item>
+        <item>Domači</item>
+    </string-array>
+    <string-array name="wifi_connection_settings_summary">
+        <item>To je najbolj splošna nastavitev povezave Wi-Fi.</item>
+        <item>Če ste v območju s številnimi omrežji Wi-Fi, se bo povezava Wi-Fi redno znova vzpostavljala, da bo moč signala boljša.</item>
+        <item>Če ste na območju z malo omrežji Wi-Fi, se povezava Wi-Fi vzdržuje, kolikor dolgo je mogoče.</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Izključeno</item>
+        <item>Opozorilo</item>
+        <item>Vibriranje</item>
+    </string-array>
+    <string-array name="emergency_tone_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Brez</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP ali CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>LTE</item>
+        <item>eHRPD</item>
+        <item>Ni določeno</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Brez</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Notranji pomnilnik naprave</item>
+        <item>Odstranljiva kartica SD</item>
+        <item>Privzeto</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Lokacija</item>
+        <item>Osebno</item>
+        <item>Sporočanje</item>
+        <item>Medij</item>
+        <item>Naprava</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>coarse location</item>
+        <item>fine location</item>
+        <item>GPS</item>
+        <item>Vibriranje</item>
+        <item>Branje stikov</item>
+        <item>modify contacts</item>
+        <item>Branje dnevnika klicev</item>
+        <item>modify call log</item>
+        <item>read calendar</item>
+        <item>modify calendar</item>
+        <item>wi-fi scan</item>
+        <item>Obvestilo</item>
+        <item>cell scan</item>
+        <item>call phone</item>
+        <item>read SMS</item>
+        <item>write SMS</item>
+        <item>sprejemanje SMS-a.</item>
+        <item>receive emergency SMS</item>
+        <item>receive MMS</item>
+        <item>receive WAP push</item>
+        <item>Pošlji SMS</item>
+        <item>read ICC SMS</item>
+        <item>write ICC SMS</item>
+        <item>modify settings</item>
+        <item>draw on top</item>
+        <item>Obvestila o dostopu</item>
+        <item>Fotoaparat</item>
+        <item>Posnemi zvok</item>
+        <item>play audio</item>
+        <item>read clipboard</item>
+        <item>modify clipboard</item>
+        <item>media buttons</item>
+        <item>audio focus</item>
+        <item>master volume</item>
+        <item>voice volume</item>
+        <item>Glasnost zvonjenja</item>
+        <item>Glasnost medija</item>
+        <item>Glasnost alarma</item>
+        <item>notification volume</item>
+        <item>bluetooth volume</item>
+        <item>keep awake</item>
+        <item>monitor location</item>
+        <item>monitor high power location</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Lokacija</item>
+        <item>Lokacija</item>
+        <item>Lokacija</item>
+        <item>Vibriranje</item>
+        <item>Branje stikov</item>
+        <item>Modify contacts</item>
+        <item>Branje dnevnika klicev</item>
+        <item>Modify call log</item>
+        <item>Read calendar</item>
+        <item>Modify calendar</item>
+        <item>Lokacija</item>
+        <item>Post notification</item>
+        <item>Lokacija</item>
+        <item>Call phone</item>
+        <item>Receive SMS/MMS</item>
+        <item>Send SMS/MMS</item>
+        <item>Receive SMS/MMS</item>
+        <item>Receive SMS/MMS</item>
+        <item>Receive SMS/MMS</item>
+        <item>Receive SMS/MMS</item>
+        <item>Pošlji SMS/MMS</item>
+        <item>Receive SMS/MMS</item>
+        <item>Pošlji SMS/MMS</item>
+        <item>Modify settings</item>
+        <item>Draw on top</item>
+        <item>Obvestila o dostopu</item>
+        <item>Fotoaparat</item>
+        <item>Posnemi zvok</item>
+        <item>Play audio</item>
+        <item>Read clipboard</item>
+        <item>Modify clipboard</item>
+        <item>Media buttons</item>
+        <item>Audio focus</item>
+        <item>Master volume</item>
+        <item>Voice volume</item>
+        <item>Glasnost zvonjenja</item>
+        <item>Glasnost medija</item>
+        <item>Glasnost alarma</item>
+        <item>Notification volume</item>
+        <item>Bluetooth volume</item>
+        <item>Keep awake</item>
+        <item>Lokacija</item>
+        <item>Location</item>
+    </string-array>
+    <string-array name="long_press_timeout_titles_selector">
+        <item>Kratek (0,5 s)</item>
+        <item>Srednji (1,0 s)</item>
+        <item>Dolg (1,5 s)</item>
+        <item>Po meri</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Kratko</item>
+        <item>Srednja</item>
+        <item>Dolgo</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Privzeto</item>
+        <item>Sans serif</item>
+        <item>Sans serif condensed</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Zelo majhna</item>
+        <item>Majhna</item>
+        <item>Običajna</item>
+        <item>Velika</item>
+        <item>Zelo velika</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Brez</item>
+        <item>Oris</item>
+        <item>Padajoče senčenje</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50 %</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Belo na črnem</item>
+        <item>Črno na belem</item>
+        <item>Rumeno na črnem</item>
+        <item>Rumeno na modri</item>
+        <item>Po meri</item>
+    </string-array>
+    <string-array name="select_runtime_titles">
+        <item>Dalvik</item>
+        <item>Umetnost</item>
+        <item>ART (debug)</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Nikoli ne preveri</item>
+        <item>Preveri samo za vsebino DRM</item>
+        <item>Vedno preveri</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Nikoli ne uporabi preverjanja HDCP</item>
+        <item>Preverjanje HDCP uporabi samo za vsebino DRM</item>
+        <item>Vedno uporabi preverjanje HDCP</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animacija je izključena.</item>
+        <item>Merilo animacije 0.5x</item>
+        <item>Merilo animacije 1x</item>
+        <item>Merilo animacije 1.5x</item>
+        <item>Merilo animacije 2x</item>
+        <item>Merilo animacije 5x</item>
+        <item>Merilo animacije 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animacija je izključena.</item>
+        <item>Merilo animacije 0.5x</item>
+        <item>Merilo animacije 1x</item>
+        <item>Merilo animacije 1.5x</item>
+        <item>Merilo animacije 2x</item>
+        <item>Merilo animacije 5x</item>
+        <item>Merilo animacije 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animacija je izključena.</item>
+        <item>Merilo animacije 0.5x</item>
+        <item>Merilo animacije 1x</item>
+        <item>Merilo animacije 1.5x</item>
+        <item>Merilo animacije 2x</item>
+        <item>Merilo animacije 5x</item>
+        <item>Merilo animacije 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Brez</item>
+        <item>720x480 mdpi</item>
+        <item>720x480 mdpi (secure)</item>
+        <item>1280x720 tvdpi</item>
+        <item>1280x720 tvdpi (secure)</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1920x1080 xhdpi (secure)</item>
+        <item>1280x720 tvdpi and 1920x1080 xhdpi</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Brez</item>
+        <item>Logcat</item>
+        <item>Systrace (Graphics)</item>
+        <item>Call stack on glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Izključeno</item>
+        <item>Označi površino nepravokotnih izrezkov z modro</item>
+        <item>Označi preizkušene ukaze risanja z zeleno</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Skrij</item>
+        <item>Pokaži na zaslonu kot stolpce</item>
+        <item>Pokaži na zaslonu kot vrstice</item>
+        <item>Pokaži v v adb shell dumpsys gfxinfo</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Izključeno</item>
+        <item>Prikaz prekoračenih območij</item>
+        <item>Prikaz območij za barvno slepe</item>
+        <item>Prikaz števca prekoračitev</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standardna omejitev</item>
+        <item>Brez procesov v ozadju</item>
+        <item>Največ 1 proces</item>
+        <item>Največ 2 procesa</item>
+        <item>Največ 3 procesi</item>
+        <item>Največ 4 procesi</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>Omrežje L2TP/IPSec VPN s ključi v vnaprejšnji skupni rabi</item>
+        <item>Omrežje L2TP/IPSec VPN s certifikati</item>
+        <item>Omrežje IPSec VPN s ključi v vnaprejšnji skupni rabi in preverjanjem pristnosti XAuth</item>
+        <item>Omrežje IPSec VPN s certifikati in preverjanjem pristnosti XAuth</item>
+        <item>Omrežje IPSec VPN s certifikati in hibridnim preverjanjem pristnosti</item>
+        <item>IPsec VPN z IKEv2 in preverjanje pristnosti s ključem v vnaprejšnji skupni rabi</item>
+        <item>IPsec VPN z IKEv2 in preverjanje pristnosti s certifikatom</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Prekinjeno</item>
+        <item>Inicializacija</item>
+        <item>Povezujem…</item>
+        <item>Povezano.</item>
+        <item>Zakasnitev.</item>
+        <item>Neuspešno</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Vprašaj</item>
+        <item>Nikoli ne dovoli</item>
+        <item>Vedno dovoli</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Običajna</item>
+        <item>Zmeren</item>
+        <item>Nizek</item>
+        <item>critical</item>
+    </string-array>
+    <string-array name="allshare_download_to">
+        <item>Naprava</item>
+        <item>Kartica SD</item>
+    </string-array>
+    <string-array name="allshare_download_to_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="allshare_download_from">
+        <item>Vedno sprejmi</item>
+        <item>Vedno vprašaj</item>
+        <item>Vedno zavrni</item>
+    </string-array>
+    <string-array name="allshare_download_from_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="allshare_contents_share">
+        <item>Videoposnetki</item>
+        <item>Fotografije</item>
+        <item>Glasba</item>
+    </string-array>
+    <string-array name="cpa_authentication_entries">
+        <item>CHAP</item>
+        <item>PAP</item>
+    </string-array>
+    <string-array name="wifi_connect_entries">
+        <item>Samodejno</item>
+        <item>Ročno</item>
+        <item>Vedno vprašaj</item>
+    </string-array>
+    <string-array name="key_backlight_entries">
+        <item>Vedno izključeno</item>
+        <item>3 sekunde</item>
+        <item>5 sekund</item>
+        <item>10 sekund</item>
+        <item>15 sekund</item>
+    </string-array>
+    <string-array name="allow_list_entries">
+        <item>Brez</item>
+        <item>Vse vizitke</item>
+        <item>Priljubljene</item>
+        <item>Po meri</item>
+    </string-array>
+    <string-array name="signature_settings_verification_level_entries">
+        <item>Visoka</item>
+        <item>Srednja</item>
+        <item>Nizka</item>
+    </string-array>
+    <string-array name="data_service_entries">
+        <item>Kartica SIM 1</item>
+        <item>Kartica SIM 2</item>
+        <item>Mobile data Off</item>
+    </string-array>
+    <string-array name="prefered_call_entries">
+        <item>Trenutno omrežje</item>
+        <item>Vedno vprašaj</item>
+        <item>Kartica SIM 1</item>
+        <item>Kartica SIM 2</item>
+    </string-array>
+    <string-array name="register_icon_entries_v1">
+        <item>Kartica SIM 1</item>
+        <item>Kartica SIM 2</item>
+        <item>Domači</item>
+        <item>Služba</item>
+        <item>Srce</item>
+    </string-array>
+    <string-array name="register_icon_entries">
+        <item>Kartica SIM 1</item>
+        <item>Kartica SIM 2</item>
+        <item>Klic</item>
+        <item>SMS</item>
+        <item>MMS</item>
+        <item>Internet</item>
+        <item>Domači</item>
+        <item>Služba</item>
+        <item>Srce</item>
+    </string-array>
+    <string-array name="customizedkey_popup">
+        <item>Zamenjaj bližnjico</item>
+        <item>Ponastavitev prilagojene tipke</item>
+    </string-array>
+    <string-array name="silent_mode_entries">
+        <item>Zvok</item>
+        <item>Vibriranje</item>
+        <item>Utišaj</item>
+    </string-array>
+    <string-array name="torchlight_timeout_entries">
+        <item>15 sekund</item>
+        <item>30 sekund</item>
+        <item>1 minuta</item>
+        <item>2 minuti</item>
+        <item>10 minut</item>
+    </string-array>
+    <string-array name="selinux_seculevel_entries">
+        <item>Visoka</item>
+        <item>Običajna</item>
+    </string-array>
+    <string-array name="time_interval_entries">
+        <item>3 minute</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>30 minut</item>
+        <item>1 ura</item>
+    </string-array>
+    <string-array name="shortcut_entries">
+        <item>Dostopnost</item>
+        <item>TalkBack</item>
+    </string-array>
+    <string-array name="shortcut_entries_no_talkback">
+        <item>Dostopnost</item>
+    </string-array>
+    <string-array name="earthquake_magnitude_entries">
+        <item>Vse</item>
+        <item>M4.0+</item>
+        <item>M5.0+</item>
+    </string-array>
+    <string-array name="safetycare_emergency_message_interval_entries">
+        <item>Enkrat</item>
+        <item>Vsakih 10 minut</item>
+        <item>Every 20 minutes</item>
+    </string-array>
+    <string-array name="data_usage_display_unit">
+        <item>MB/GB (auto change)</item>
+        <item>MB only</item>
+        <item>GB only</item>
+    </string-array>
+    <string-array name="update_duration_entries">
+        <item>Sproti</item>
+        <item>15 minut</item>
+        <item>30 minut</item>
+        <item>1 ura</item>
+        <item>2 ur</item>
+    </string-array>
+    <string-array name="pattern_type_entries">
+        <item>Klasično</item>
+        <item>Poltoni</item>
+        <item>Več barv</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 sekunde</item>
+        <item>6 sekund</item>
+        <item>Vedno izključeno</item>
+        <item>Vedno vključeno</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Vrh</item>
+        <item>Srednje</item>
+        <item>Dno</item>
+    </string-array>
+    <string-array name="contents_type_entries">
+        <item>Novice</item>
+        <item>Delnica</item>
+        <item>Facebook</item>
+    </string-array>
+    <string-array name="contents_type_entries_weibo">
+        <item>Novice</item>
+        <item>Delnica</item>
+        <item>Weibo</item>
+    </string-array>
+    <string-array name="sliding_speed_entries">
+        <item>Počasi</item>
+        <item>Normalna</item>
+        <item>Hitro</item>
+    </string-array>
+    <string-array name="facebook_auto_refresh_entries">
+        <item>Brez</item>
+        <item>Vsakih 30 minut</item>
+        <item>Vsako uro</item>
+        <item>Vsaki 2 uri</item>
+        <item>Vsake 4 ure</item>
+    </string-array>
+    <string-array name="bluetooth_class_of_device_entries">
+        <item>Slušalke</item>
+        <item>Računalnik</item>
+        <item>Telefon</item>
+        <item>HID (tipkovnica, miška itd.)</item>
+        <item>Vse naprave</item>
+    </string-array>
+    <string-array name="audio_output_entries">
+        <item>Stereo</item>
+        <item>Prostorski zvok</item>
+    </string-array>
+    <string-array name="selinux_seculevel_summaries">
+        <item>Visoka: blokira znane in morebitne grožnje.</item>
+        <item>Običajna: blokira znane grožnje.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_date_format_day_month_k">"E
+d MMM"</string>
+    <string name="status_bar_date_format_month_day_k">"E
+MMM d"</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">E MMM d</string>
+    <string name="abbrev_wday_day_abbrev_month_no_year">E d MMM</string>
+    <string name="app_label">UI συστήμ.</string>
+    <string name="status_bar_clear_all_button">Διαγραφή</string>
+    <string name="status_bar_do_not_disturb_button">Μην ενοχλείτε</string>
+    <string name="status_bar_please_disturb_button">Εμφάνιση ειδοποιήσεων</string>
+    <string name="status_bar_recent_remove_item_title">Κατάργηση από τη λίστα</string>
+    <string name="status_bar_recent_inspect_item_title">Πληροφορίες εφαρμογών</string>
+    <string name="status_bar_no_recent_apps">Καμία πρόσφατη εφαρμογή</string>
+    <string name="status_bar_accessibility_dismiss_recents">Παράβλεψη πρόσφατων εφαρμογών</string>
+    <string name="status_bar_no_notifications_title">Δεν υπάρχουν ειδοπ.</string>
+    <string name="status_bar_ongoing_events_title">Σε εξέλιξη</string>
+    <string name="status_bar_latest_events_title">Ειδοποιήσεις</string>
+    <string name="battery_low_title">Συνδέστε φορτιστή.</string>
+    <string name="battery_low_subtitle">Η στάθμη της μπαταρίας είναι χαμηλή.</string>
+    <string name="battery_low_percent_format">Απομένουν %d%%.</string>
+    <string name="invalid_charger">Η φόρτιση μέσω USB δεν υποστηρίζεται. Μπορείτε να χρησιμοποιήσετε τον παρεχόμενο φορτιστή.</string>
+    <string name="battery_low_why">Χρήση μπαταρίας</string>
+    <string name="status_bar_settings_settings_button">Ρυθμίσεις</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Λειτουργία πτήσης</string>
+    <string name="status_bar_settings_auto_rotation">Αυτόματη περιστροφή οθόνης</string>
+    <string name="status_bar_settings_mute_label">Σίγαση</string>
+    <string name="status_bar_settings_auto_brightness_label">Auto</string>
+    <string name="status_bar_settings_notifications">Ειδοποιήσ.</string>
+    <string name="bluetooth_tethered">Το Bluetooth συνδέθηκε μέσω tethering</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Ρύθμιση μεθόδων εισαγωγής</string>
+    <string name="status_bar_use_physical_keyboard">Φυσικό πληκτρολόγιο</string>
+    <string name="usb_device_permission_prompt">Να επιτρέπεται στην εφαρμογή %1$s η πρόσβαση σε συσκευή USB;</string>
+    <string name="usb_accessory_permission_prompt">Να επιτρέπεται στην εφαρμογή %1$s η πρόσβαση σε αξεσουάρ USB;</string>
+    <string name="usb_device_confirm_prompt">Άνοιγμα %1$s όταν αυτή η συσκευή USB είναι συνδεδεμένη;</string>
+    <string name="usb_accessory_confirm_prompt">Άνοιγμα %1$s όταν αυτό το αξεσουάρ USB είναι συνδεδεμένο;</string>
+    <string name="usb_accessory_uri_prompt">Καμία εγκαταστημένη εφαρμογή δεν λειτουργεί με αυτό το αξεσουάρ USB. Μάθετε περισσότερα για αυτό το αξεσουάρ στη διεύθυνση %s.</string>
+    <string name="title_usb_accessory">Αξεσουάρ USB</string>
+    <string name="label_view">Προβολή</string>
+    <string name="always_use_device">Χρήση από προεπιλογή για αυτήν τη συσκευή USB</string>
+    <string name="always_use_accessory">Χρήση από προεπιλογή για αυτό το αξεσουάρ USB</string>
+    <string name="usb_debugging_title">Να επιτρέπεται ο εντοπισμός προβλημάτων USB;</string>
+    <string name="usb_debugging_message">"Το αποτύπωμα για το κλειδί RSA του PC είναι:
+%1$s"</string>
+    <string name="usb_debugging_always">Να επιτρέπεται πάντα αυτός ο υπολογιστής</string>
+    <string name="compat_mode_on">Ζουμ για κάλυψη πλ. οθ.</string>
+    <string name="compat_mode_off">Παραμόρ. για κάλ. πλ. οθ.</string>
+    <string name="compat_mode_help_header">Ζουμ συμβατότητας</string>
+    <string name="compat_mode_help_body">Εάν μια εφαρμογή έχει σχεδιαστεί για μικρότερες οθόνες, θα εμφανιστεί ένα στοιχείο ελέγχου ζουμ δίπλα από το ρολόι.</string>
+    <string name="screenshot_saving_ticker">Αποθήκευση στιγμιοτύπου οθόνης…</string>
+    <string name="screenshot_saving_title">Αποθήκευση στιγμιοτύπου οθόνης…</string>
+    <string name="screenshot_saving_text">Γίνεται αποθήκευση του στιγμιοτύπου.</string>
+    <string name="screenshot_saved_title">Καταγρ. στιγμιοτ. οθόνης</string>
+    <string name="screenshot_saved_text">Πατήστε για προβολή στιγμιοτύπου οθόνης.</string>
+    <string name="screenshot_failed_title">Δεν είναι δυνατή η λήψη στιγμιοτύπου.</string>
+    <string name="screenshot_failed_text">Δεν είναι δυνατή η αποθήκευση στιγμιότυπου. Η συσκευή αποθήκευσης USB ενδέχεται να βρίσκεται σε χρήση.</string>
+    <string name="screenshot_failed_due_to_drm_text">Δεν είναι δυνατή η αποτύπωση οθόνης. Η εικόνα διαθέτει προστασία δικαιωμάτων DRM.</string>
+    <string name="one_item_will_be_deleted">Θα γίνει διαγραφή 1 στοιχείου.</string>
+    <string name="usb_preference_title">Επιλογές μεταφ. αρχείων με USB</string>
+    <string name="use_mtp_button_title">Σύνδεση ως Media player (MTP)</string>
+    <string name="use_ptp_button_title">Σύνδεση ως κάμερα (PTP)</string>
+    <string name="installer_cd_button_title">Εγκατάσταση εφαρμογής μεταφοράς αρχείων Android για Mac</string>
+    <string name="accessibility_back">Πίσω</string>
+    <string name="accessibility_home">Σπίτι</string>
+    <string name="accessibility_menu">Μενού</string>
+    <string name="accessibility_recent">Πρόσφατες εφαρμογές</string>
+    <string name="accessibility_ime_switch_button">Κουμπί αλλαγής μεθόδου εισαγωγής.</string>
+    <string name="accessibility_compatibility_zoom_button">Κουμπί συμβατότητας ζουμ</string>
+    <string name="accessibility_compatibility_zoom_example">Ζουμ για μεγαλύτερη οθόνη</string>
+    <string name="accessibility_bluetooth_connected">Συνδεδεμένο με Bluetooth</string>
+    <string name="accessibility_bluetooth_disconnected">Αποσυνδεδεμένο Bluetooth.</string>
+    <string name="accessibility_no_battery">Χωρίς μπαταρία</string>
+    <string name="accessibility_battery_one_bar">Μία γραμμή ισχύος μπαταρίας</string>
+    <string name="accessibility_battery_two_bars">Δύο γραμμές ισχύος μπαταρίας</string>
+    <string name="accessibility_battery_three_bars">Τρεις γραμμές ισχύος μπαταρίας</string>
+    <string name="accessibility_battery_full">Πλήρως φορτισμένη μπαταρία.</string>
+    <string name="accessibility_no_phone">Καθόλου σήμα τηλεφώνου</string>
+    <string name="accessibility_phone_one_bar">Μία γραμμή σήματος τηλεφώνου</string>
+    <string name="accessibility_phone_two_bars">Δύο γραμμές σήματος τηλεφώνου</string>
+    <string name="accessibility_phone_three_bars">Τρεις γραμμές σήματος τηλεφώνου</string>
+    <string name="accessibility_phone_signal_full">Πλήρες σήμα τηλεφώνου</string>
+    <string name="accessibility_no_data">Δεν υπάρχουν δεδομένα</string>
+    <string name="accessibility_data_one_bar">Μία γραμμή σήματος δεδομένων</string>
+    <string name="accessibility_data_two_bars">Δύο γραμμές σήματος δεδομένων</string>
+    <string name="accessibility_data_three_bars">Τρεις γραμμές σήματος δεδομένων</string>
+    <string name="accessibility_data_four_bars">Τέσσερις γραμμές σήματος δεδομένων</string>
+    <string name="accessibility_data_five_bars">Πέντε γραμμές σήματος δεδομένων</string>
+    <string name="accessibility_data_signal_full">Πλήρες σήμα δεδομένων</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">Δεν υπάρχει σήμα Wi-Fi</string>
+    <string name="accessibility_wifi_one_bar">Μία γραμμή σήματος Wi-Fi</string>
+    <string name="accessibility_wifi_two_bars">Δύο γραμμές σήματος Wi-Fi</string>
+    <string name="accessibility_wifi_three_bars">Τρεις γραμμές σήματος Wi-Fi</string>
+    <string name="accessibility_wifi_signal_full">Πλήρες σήμα Wi-Fi.</string>
+    <string name="accessibility_no_wimax">Δεν υπάρχει σήμα WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">Σήμα WiMAX μία γραμμή.</string>
+    <string name="accessibility_wimax_two_bars">Σήμα WiMAX δύο γραμμές.</string>
+    <string name="accessibility_wimax_three_bars">Σήμα WiMAX τρεις γραμμές.</string>
+    <string name="accessibility_wimax_signal_full">Πλήρες σήμα WiMAX.</string>
+    <string name="accessibility_no_signal">Κανένα σήμα</string>
+    <string name="accessibility_not_connected">Χωρίς σύνδεση.</string>
+    <string name="accessibility_zero_bars">Μηδέν γραμμές.</string>
+    <string name="accessibility_one_bar">Μία γραμμή.</string>
+    <string name="accessibility_two_bars">Δύο γραμμές.</string>
+    <string name="accessibility_three_bars">Τρεις γραμμές.</string>
+    <string name="accessibility_phone_four_bars">Τέσσερις γραμμές σήματος τηλεφώνου</string>
+    <string name="accessibility_phone_five_bars">Πέντε γραμμές σήματος τηλεφώνου</string>
+    <string name="accessibility_signal_full">Πλήρες σήμα.</string>
+    <string name="accessibility_desc_on">Ενεργό</string>
+    <string name="accessibility_desc_off">Ανενεργό</string>
+    <string name="accessibility_desc_connected">Συνδέθηκε.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Περιαγωγή</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Δεν βρέθηκε SIM</string>
+    <string name="accessibility_bluetooth_tether">Tethering μέσω Bluetooth</string>
+    <string name="accessibility_airplane_mode">Λειτουργία πτήσης</string>
+    <string name="accessibility_battery_level">Ποσοστό μπαταρίας: %d τοις εκατό.</string>
+    <string name="accessibility_settings_button">Ρυθμίσεις συστήματος</string>
+    <string name="accessibility_notifications_button">Ειδοποιήσ.</string>
+    <string name="accessibility_remove_notification">Διαγραφή ειδοποιήσεων</string>
+    <string name="accessibility_gps_enabled">Ενεργοποιημένο GPS</string>
+    <string name="accessibility_gps_acquiring">Λήψη GPS…</string>
+    <string name="accessibility_tty_enabled">Ενεργοποίηση TeleTypewriter</string>
+    <string name="accessibility_ringer_vibrate">Δόνηση ήχου κλήσης</string>
+    <string name="accessibility_ringer_silent">Σίγαση ήχου κλήσης</string>
+    <string name="accessibility_recents_item_dismissed">Απορρίφθηκαν %s.</string>
+    <string name="accessibility_notification_dismissed">Η ειδοποίηση έχει απορριφθεί.</string>
+    <string name="accessibility_desc_notification_shade">Πλαίσιο σκίασης ειδοποιήσεων.</string>
+    <string name="accessibility_desc_quick_settings">Γρήγορες ρυθμίσεις</string>
+    <string name="accessibility_desc_recent_apps">Πρόσφατες εφαρμογές</string>
+    <string name="accessibility_quick_settings_user">Χρήστης %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s. %2$s</string>
+    <string name="accessibility_quick_settings_mobile">Κινητό %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">Μπαταρία %s.</string>
+    <string name="accessibility_quick_settings_airplane">Λειτουργία πτήσης %s.</string>
+    <string name="accessibility_quick_settings_bluetooth">Bluetooth %s.</string>
+    <string name="accessibility_quick_settings_alarm">Το ξυπνητήρι ρυθμίστηκε για %s.</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">Γρήγορη σύνδεση</string>
+    <string name="accessibility_qconnect_button_tts">Γρήγορη σύνδεση</string>
+    <string name="data_usage_disabled_dialog_3g_title">Απενεργοποιήθηκαν δεδομένα 2G-3G</string>
+    <string name="data_usage_disabled_dialog_4g_title">Απενεργοποιήθηκαν δεδομένα 4G</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Απενεργοποιήθηκαν δεδομένα κινητής τηλεφωνίας</string>
+    <string name="data_usage_disabled_dialog_title">Απενεργοποιήθηκαν δεδομένα</string>
+    <string name="data_usage_disabled_dialog">Συμπληρώθηκε καθορισμένο όριο χρήσης δεδομένων. Επιπλέον χρήση δεδομένων ενδέχεται να επιφέρει χρεώσεις από τον παροχέα υπηρεσιών.</string>
+    <string name="data_usage_disabled_dialog_enable">Ενεργ. σύνδεσης δεδομ. ξανά</string>
+    <string name="data_usage_enable_mobile_warning">Ενδέχεται να υπάρχουν επιπλέον χρεώσεις για τη σύνδεση μέσω πακέτου δεδομένων. Συνέχεια;</string>
+    <string name="data_usage_disable_mobile">Απενεργοποίηση σύνδεσης δεδομένων κινητής τηλεφωνίας;</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Χωρίς σύνδεση Internet</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Συνδέθηκε Wi-Fi.</string>
+    <string name="gps_notification_searching_text">Αναζήτηση με χρήση GPS…</string>
+    <string name="gps_notification_found_text">Η τοποθεσία ορίστηκε από GPS</string>
+    <string name="accessibility_clear_all">Διαγραφή όλων των ειδοποιήσεων</string>
+    <string name="status_bar_notification_inspect_item_title">Πληροφορίες εφαρμογών</string>
+    <string name="close_universe">Κλείσιμο</string>
+    <string name="notifications_off_title">Απενερ. οι ειδοποιήσεις</string>
+    <string name="notifications_off_text">Πατήστε για την ενεργοποίηση ειδοποιήσεων.</string>
+    <string name="accessibility_rotation_lock_off">Η οθόνη θα περιστρέφεται αυτόματα.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Η οθόνη έχει κλειδωθεί σε οριζόντιο προσανατολισμό.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Η οθόνη έχει κλειδωθεί σε κατακόρυφο προσανατολισμό.</string>
+    <string name="jelly_bean_dream_name">BeanFlinger</string>
+    <string name="start_dreams">Ονειροπόληση</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">Λειτουργία πτήσης</string>
+    <string name="quick_settings_battery_charging_label">Φόρτιση, %d%%</string>
+    <string name="quick_settings_battery_charged_label">Φορτισμένο.</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d συσκευές)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth ανενεργό</string>
+    <string name="quick_settings_brightness_label">Φωτεινότητα</string>
+    <string name="quick_settings_rotation_unlocked_label">Αυτόματη περιστροφή</string>
+    <string name="quick_settings_rotation_locked_label">Η περιστροφή είναι κλειδωμένη</string>
+    <string name="quick_settings_ime_label">Μέθοδος εισαγωγής</string>
+    <string name="quick_settings_location_label">Τοποθεσία σε χρήση</string>
+    <string name="quick_settings_media_device_label">Συσκευή μέσων</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Μόνο επείγουσες κλήσεις.</string>
+    <string name="quick_settings_settings_label">Ρυθμίσεις</string>
+    <string name="quick_settings_time_label">Ώρα</string>
+    <string name="quick_settings_user_label">Εγώ</string>
+    <string name="quick_settings_wifi_label">WiFi</string>
+    <string name="quick_settings_wifi_not_connected">Χωρίς σύνδεση.</string>
+    <string name="quick_settings_wifi_no_network">Χωρίς δίκτυο</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_wifi_display_label">"Εμφάνιση
+Wi-Fi"</string>
+    <string name="quick_settings_wifi_display_no_connection_label">Ασύρματη οθόνη</string>
+    <string name="quick_settings_brightness_dialog_title">Φωτεινότητα</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Auto</string>
+    <string name="status_bar_help_title">Οι ειδοποιήσεις εμφανίζονται εδώ</string>
+    <string name="status_bar_help_text">"Μεταβείτε σε αυτές ανά πάσα στιγμή σύροντας προς τα κάτω.
+Σύρετε ξανά προς τα κάτω για τα στοιχεία ελέγχου συστήματος."</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">Τοποθεσία</string>
+    <string name="quickpanel_silent_mode_text">"Αθόρυβη
+λειτ."</string>
+    <string name="quickpanel_silent_mode_sound">Ήχος</string>
+    <string name="quickpanel_silent_mode_vibrate">Δόνηση</string>
+    <string name="quickpanel_silent_mode_mute">Σίγαση</string>
+    <string name="quickpanel_rotation_text">"Περιστρ.
+οθόνης"</string>
+    <string name="quickpanel_mobile_data_text">"Δεδομ.
+κινητού"</string>
+    <string name="quickpanel_dormant_mode_text">"Λειτουρ.
+αποκλ."</string>
+    <string name="quickpanel_notification_text">Ειδοποίηση</string>
+    <string name="quickpanel_airplane_mode_text">"Λειτ.
+πτήσης"</string>
+    <string name="quickpanel_sync_text">Συγχρον.</string>
+    <string name="quickpanel_power_saving_text">"Εξοικ.
+ενέργ."</string>
+    <string name="quickpanel_ultra_power_saving_text">"Εξ.ενέργ.
+Ultra"</string>
+    <string name="quickpanel_driving_mode_text">"Λειτουρ.
+hands-free"</string>
+    <string name="quickpanel_smart_stay_text">"Έξυπνη
+διαμονή"</string>
+    <string name="quickpanel_smart_scroll_text">"Έξυπνη
+κύλιση"</string>
+    <string name="quickpanel_smart_pause_text">"Έξυπνη
+παύση"</string>
+    <string name="quickpanel_smart_network_text">"Έξυπνο
+δίκτυο"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_wifi_hotspot_text">"Σημείο
+πρ.Wi-Fi"</string>
+    <string name="quickpanel_multiwindow_text">"Πολλά
+παράθυρα"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_brightness_text">Φωτεινότητα</string>
+    <string name="quickpanel_airview_text">"Προβολή
+χωρίς επαφή"</string>
+    <string name="quickpanel_airgesture_text">"Air
+gesture"</string>
+    <string name="quickpanel_ebook_text">"Λειτ.
+ανάγν."</string>
+    <string name="quickpanel_personal_mode_text">"Απόρρητη
+λειτ."</string>
+    <string name="quickpanel_car_mode_text">"Λειτ.
+αυτοκ."</string>
+    <string name="quickpanel_network_booster_text">"Ενίσχυση
+λήψεων"</string>
+    <string name="quickpanel_toolbox_text">Εργαλ.</string>
+    <string name="quickpanel_touch_sensitivity_text">"Ευαισθ.
+αφής"</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">Τοποθεσία</string>
+    <string name="quickpanel_silent_mode_sound_content_description">Ήχος</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">Δόνηση</string>
+    <string name="quickpanel_silent_mode_mute_content_description">Σίγαση</string>
+    <string name="quickpanel_rotation_content_description">Περιστροφή οθόνης</string>
+    <string name="quickpanel_mobile_data_content_description">Δεδομένα κινητής τηλεφωνίας</string>
+    <string name="quickpanel_dormant_mode_content_description">Λειτουργία αποκλεισμού</string>
+    <string name="quickpanel_airplane_mode_content_description">Λειτουργία πτήσης</string>
+    <string name="quickpanel_sync_content_description">Συγχρονισμός</string>
+    <string name="quickpanel_power_saving_content_description">Λειτουργία εξοικονόμησης ενέργειας</string>
+    <string name="quickpanel_ultra_power_saving_content_description">Λειτουργία εξοικονόμησης ενέργειας Ultra</string>
+    <string name="quickpanel_smart_stay_content_description">Έξυπνη αναμονή</string>
+    <string name="quickpanel_smart_pause_content_description">Έξυπνη παύση</string>
+    <string name="quickpanel_smart_network_content_description">Έξυπνο δίκτυο</string>
+    <string name="quickpanel_wifi_hotspot_content_description">Φορητό σημείο πρόσβασης Wi-Fi</string>
+    <string name="quickpanel_multiwindow_content_description">Λειτουργία πολλών παραθύρων</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_ebook_content_description">Λειτουργία ανάγνωσης</string>
+    <string name="quickpanel_personal_mode_content_description">Απόρρητη λειτουργία</string>
+    <string name="quickpanel_car_mode_content_description">Λειτουργία αυτοκινήτου</string>
+    <string name="quickpanel_network_booster_content_description">Ενίσχυση λήψεων</string>
+    <string name="quickpanel_toolbox_content_description">Εργαλειοθήκη</string>
+    <string name="air_gesture_use_popup_title">Ενεργοποίηση Air gesture</string>
+    <string name="air_gesture_use_popup_msg">Δεν είναι δυνατή η ταυτόχρονη ενεργοποίηση των λειτουργιών Air gesture και TalkBack. Το TalkBack θα απενεργοποιηθεί.</string>
+    <string name="air_view_use_popup_title">Ενεργ.πρβ χωρίς επαφή</string>
+    <string name="air_view_use_popup_msg">Δεν είναι δυνατή η ταυτόχρονη ενεργοποίηση της προβολής χωρίς επαφή και των παρακάτω επιλογών. Οι ακόλουθες επιλογές θα απενεργοποιηθούν.</string>
+    <string name="multi_window_use_popup_title">Ενεργοποίηση πολλαπλών παραθύρων</string>
+    <string name="multi_window_use_popup_msg">Δεν είναι δυνατή η ταυτόχρονη ενεργοποίηση των λειτουργιών πολλαπλών παραθύρων και TalkBack. Το TalkBack θα απενεργοποιηθεί.</string>
+    <string name="smart_pause_use_popup_title">Ενεργοποίηση έξυπνης παύσης</string>
+    <string name="smart_pause_use_popup_msg">Δεν είναι δυνατή η ταυτόχρονη ενεργοποίηση των λειτουργιών έξυπνης παύσης και TalkBack. Το TalkBack θα απενεργοποιηθεί.</string>
+    <string name="smart_scroll_use_popup_title">Ενεργοποίηση έξυπνης κύλισης</string>
+    <string name="smart_scroll_use_popup_msg">Δεν είναι δυνατή η ταυτόχρονη ενεργοποίηση των λειτουργιών έξυπνης κύλισης και TalkBack. Το TalkBack θα απενεργοποιηθεί.</string>
+    <string name="smart_stay_use_popup_title">Ενεργοποίηση έξυπνης αναμονής</string>
+    <string name="smart_stay_use_popup_msg">Δεν είναι δυνατή η ταυτόχρονη ενεργοποίηση των λειτουργιών έξυπνης αναμονής και TalkBack. Το TalkBack θα απενεργοποιηθεί.</string>
+    <string name="quickpanel_content_description_led_on">Η εφαρμογή %s ενεργοποιήθηκε.</string>
+    <string name="quickpanel_content_description_led_off">Η εφαρμογή %s απενεργοποιήθηκε.</string>
+    <string name="quickpanel_content_description_led_dim">Δεν είναι δυνατή η ενεργοποίηση της εφαρμογής %s.</string>
+    <string name="smart_network">Έξυπνο δίκτυο</string>
+    <string name="smart_network_guide_msg">"Η δυνατότητα «Έξυπνο δίκτυο» συμβάλλει στη διατήρηση της ζωής της μπαταρίας.
+
+Απενεργοποιεί τα δεδομένα κινητής τηλεφωνίας και το Wi-Fi κατά την απενεργοποίηση της οθόνης, ώστε η συσκευή να καταναλώνει λιγότερη μπαταρία.
+
+Ωστόσο, μπορεί να γίνει λήψη αθροιστικών δεδομένων push κατά την ενεργοποίηση της οθόνης."</string>
+    <string name="quickpanel_data_roaming_text">Περιαγωγή δεδομένων</string>
+    <string name="data_roaming_dialog_text">Η περιαγωγή θα επιφέρει επιπλέον χρεώσεις. Συνέχεια;</string>
+    <string name="mobile_data_enable_dialog_text">Η σύνδεση σε δίκτυα κινητής τηλεφωνίας ενδέχεται να επιφέρει πρόσθετες χρεώσεις ανάλογα με το πρόγραμμα δεδομένων που διαθέτετε. Συνέχεια;</string>
+    <string name="quickpanel_edit_current">Πίνακας ειδοποιήσεων</string>
+    <string name="quickpanel_edit_available">Διαθέσιμα κουμπιά</string>
+    <string name="mobile_data_dialog_text">Δεν θα μπορείτε να χρησιμοποιήσετε εφαρμογές όπως το Internet, το Email και το YouTube μέσω δικτύων κινητής τηλεφωνίας. Συνέχεια;</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"Αν δεν χρησιμοποιείτε το δίκτυο Wi-Fi, δε θα έχετε τη δυνατότητα να χρησιμοποιήσετε το Internet, το email ή άλλες εφαρμογές που απαιτούν σύνδεση δεδομένων.
+
+Τα δεδομένα κινητής τηλεφωνίας θα απενεργοποιηθούν."</string>
+    <string name="mobile_data_connect">Σύνδεση</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">Δεν είναι δυνατή η σύνδεση σε δίκτυα κινητής τηλεφωνίας, όσο είναι ενεργοποιημένη η λειτουργία πτήσης. Απενεργοποιήστε τη λειτουργία πτήσης και δοκιμάστε ξανά.</string>
+    <string name="warning_alert_check">Να μην εμφαν. ξανά</string>
+    <string name="blocking_mode_enable">Κατά την ενεργοποίηση αυτής της λειτουργίας, απενεργοποιούνται οι ειδοποιήσεις επιλεγμένων λειτουργιών. Θα λαμβάνετε μόνο ειδοποιήσεις για εισερχόμενες κλήσεις από άτομα που βρίσκονται στη λίστα επιτρεπόμενων.</string>
+    <string name="blocking_mode_enable_for_grid_settings">Η λειτουργία αποκλεισμού απενεργοποιεί τις ειδοποιήσεις για επιλεγμένες λειτουργίες. Αν αποκλείσετε τις εισερχόμενες κλήσεις, θα λαμβάνετε ειδοποιήσεις μόνο για εισερχόμενες κλήσεις από άτομα που βρίσκονται στις επιτρεπόμενες επαφές σας. Για να αλλάξετε τις ρυθμίσεις της λειτουργίας αποκλεισμού, μεταβείτε στη διαδρομή Ρυθμίσεις > Εξατομίκευση > Λειτουργία αποκλεισμού.</string>
+    <string name="blocking_mode_enable_wifi">Όταν η λειτουργία είναι ενεργή, απενεργοποιούνται οι ειδοποιήσεις για τις επιλεγμένες δυνατότητες.</string>
+    <string name="blocking_mode_title">Λειτουργία αποκλεισμού</string>
+    <string name="dormant_mode_off_message">Για την ενεργοποίηση της λειτουργίας αποκλεισμού, ενεργοποιήστε τουλάχιστον μία από τις παρακάτω επιλογές.</string>
+    <string name="driving_mode_title">Λειτουργία hands-free</string>
+    <string name="driving_mode_on_dialog_msg_1">Η λειτουργία hands-free πρέπει να απενεργοποιηθεί στις Ρυθμίσεις, αφού κλείσετε το S Voice Hands-free. Αν η λειτουργία hands-free παραμείνει ενεργοποιημένη, η ανάγνωση των ειδοποιήσεων και των στοιχείων εισερχόμενων κλήσεων θα συνεχίσει να γίνεται αυτόματα.</string>
+    <string name="driving_mode_on_dialog_msg_2">Μπορείτε να απενεργοποιήσετε τη λειτουργία hands-free, λέγοντας «Απενεργοποίηση λειτουργίας hands-free» στο S Voice Hands-free ή μεταβαίνοντας στις Ρυθμίσεις ή τον πίνακα ειδοποιήσεων.</string>
+    <string name="insert_sim_card">Εισάγετε κάρτα SIM</string>
+    <string name="insert_sim_card_message">Εισάγετε την κάρτα SIM για παροχή πρόσβασης στις υπηρεσίες δικτύου.</string>
+    <string name="wifi_enable_warning">Η ενεργοποίηση του Wi-Fi θα απενεργοποιήσει το φορητό σημείο πρόσβασης Wi-Fi . Συνέχεια;</string>
+    <string name="wifi_ap_turning_off">Απενεργοποίηση του φορητού σημείου πρόσβασης Wi-Fi…</string>
+    <string name="no_sim_notification_title">Δεν βρέθηκε SIM</string>
+    <string name="no_sim_notification_title_tmo">Μη διαθέσ. κάρτα SIM.</string>
+    <string name="no_sim_notification_text">Εισάγετε κάρτα SIM.</string>
+    <string name="accessibility_power_saving_mode">Για την ενεργοποίηση της λειτουργίας εξοικονόμησης ενέργειας, ενεργοποιήστε τουλάχιστον μία λειτουργία.</string>
+    <string name="accessibility_power_saving_mode_title">Λειτουργία εξοικονόμησης ενέργειας</string>
+    <string name="accessibility_driving_mode">Για την ενεργοποίηση της λειτουργίας hands-free, ενεργοποιήστε τουλάχιστον μία σχετική λειτουργία.</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Network restriction mode will be disabled.</string>
+    <string name="charging_interruption_title">Δεν είναι δυνατή η φόρτιση</string>
+    <string name="charging_interruption_by_terminal_open_text">Αδύνατη η φόρτιση της συσκευής σας. Βεβαιωθείτε ότι χρησιμοποιείτε μπαταρία και φορτιστή που είναι συμβατά με συσκευές Samsung και ότι η συσκευή σας είναι συνδεδεμένη σωστά με το φορτιστή.</string>
+    <string name="charging_interruption_by_too_high_temperature_text">Η φόρτιση διακόπηκε. Η θερμοκρασία της μπαταρίας είναι πολύ υψηλή.</string>
+    <string name="charging_interruption_by_too_low_temperature_text">Η φόρτιση διακόπηκε. Η θερμοκρασία της μπαταρίας είναι πολύ χαμηλή.</string>
+    <string name="charging_interruption_by_limit_high_temperature_text">"Η φόρτιση της συσκευής διακόπηκε. Η θερμοκρασία της μπαταρίας είναι πολύ υψηλή. Να είστε προσεκτικοί κατά την αποσύνδεση του φορτιστή. Μπορεί να είναι πολύ ζεστός.
+
+Η αποσύνδεση και επανασύνδεση του φορτιστή μπορεί να επιτρέψει τη συνέχιση τη φόρτισης. Αν η υπερθέρμανση εξακολουθεί να εμφανίζεται, επικοινωνήστε με τις υπηρεσίες εξυπηρέτησης πελατών, καθώς υπάρχει κίνδυνος πυρκαγιάς ή τραυματισμού."</string>
+    <string name="full_battery_title">Πληροφορίες</string>
+    <string name="full_battery_text">"Μπαταρία πλήρως φορτισμένη.
+Αποσύνδεση φορτιστή."</string>
+    <string name="low_battery_title">Χαμηλή μπαταρία</string>
+    <string name="critical_low_battery_title">Εξαιρετικά χαμηλή στάθμη μπαταρίας</string>
+    <string name="low_battery_text">Συνδέστε τη συσκευή στην πρίζα για να αρχίσει η φόρτιση και πραγματοποιήστε έξοδο από τις μη χρησιμοποιούμενες εφαρμογές από τη «Διαχείριση εφαρμογών». Η συνέχιση της χρήσης κατά τη φόρτιση ενδέχεται να εμποδίσει την αποτελεσματική φόρτιση.</string>
+    <string name="low_battery_text_charged_via_ta">Πραγματοποιήστε έξοδο από τις μη χρησιμοποιούμενες εφαρμογές από τη «Διαχείριση εφαρμογών». Η συνέχιση της χρήσης κατά τη φόρτιση ενδέχεται να εμποδίσει την αποτελεσματική φόρτιση.</string>
+    <string name="low_battery_camera_warning_text">Αν το επίπεδο της μπαταρίας είναι χαμηλότερο από %d%%, δεν θα είναι δυνατό το άνοιγμα της Κάμερας.</string>
+    <string name="critical_low_battery_camera_warning_text">Δεν είναι δυνατό το άνοιγμα της Κάμερας. Η ισχύς της μπαταρίας βρίσκεται στο %d%% ή χαμηλότερα.</string>
+    <string name="start_force_consume_battery_title">Ειδοποίηση</string>
+    <string name="start_force_consume_battery_text">Περιμένετε να μειωθεί η θερμοκρασία της συσκευής σας πριν τη χρησιμοποιήσετε.</string>
+    <string name="stop_force_consume_battery_title">Πληροφορίες</string>
+    <string name="stop_force_consume_battery_text">Η συσκευή έχει κρυώσει.</string>
+    <string name="wireless_charging_title">Ασύρματη φόρτιση.</string>
+    <string name="cable_charging_title">Φόρτιση μέσω καλωδίου</string>
+    <string name="wireless_charging_text">Τοποθετήσατε τη συσκευή εντός εμβέλειας. Γίνεται φόρτιση ασύρματα…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">Αλλαγή από ασύρματη φόρτιση σε ενσύρματη φόρτιση</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">Αλλαγή από ενσύρματη φόρτιση σε ασύρματη φόρτιση</string>
+    <string name="wireless_charging_spen_warning_text">Η συσκευή σας φορτίζεται ασύρματα. Το S Pen δεν θα λειτουργεί όταν βρίσκεται εντός της εμβέλειας του ασύρματου φορτιστή.</string>
+    <string name="incompatible_charger_title">Δεν φορτίζει.</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_dialog_text_for_tablet">The connected charger is incompatible with this tablet. To prevent damage to your tablet, charging has been stopped. To continue charging, use the original charger and cable that were provided with this tablet.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_notification_text">To charge faster, use the original charger</string>
+    <string name="slow_charging_toast_text">To charge faster, use the charger and cable that were provided with this phone</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="water_damage_warning_title">Έλεγχος καλύμ. φόρτισης</string>
+    <string name="water_damage_warning_text">Για προστασία από βλάβες νερού, κλείστε καλά το κάλυμμα της υποδοχής φόρτισης πριν τη χρήση.</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">Απενεργοποίηση συσκευής</string>
+    <string name="overheat_poweroff_warning_text">Η συσκευή σας έχει υπερθερμανθεί. Θα γίνει απενεργοποίηση μέχρι να κρυώσει.</string>
+    <string name="overheat_poweroff_warning_button_text">Μην κάνετε απενεργοποίηση</string>
+    <string name="overheat_poweroff_notice_title">Η συσκευή απενεργοποιήθηκε αυτόματα</string>
+    <string name="overheat_poweroff_notice_text">"Η συσκευή σας έχει υπερθερμανθεί. Θα απενεργοποιηθεί για την αποφυγή τυχόν βλάβης.
+
+Η υπερθέρμανση μπορεί να οφείλεται:
+Στη χρήση εφαρμογών με υψηλές απαιτήσεις γραφικών, όπως παιχνίδια και εφαρμογές πλοήγησης, για παρατεταμένες χρονικές περιόδους.
+Στη μεταφορά μεγάλων αρχείων.
+Στη χρήση της συσκευής σε ιδιαίτερα θερμό περιβάλλον."</string>
+    <string name="power_sharing_warning_title">Κοινή χρήση ισχύος</string>
+    <string name="power_sharing_warning_text">Η ενέργεια της μπαταρίας βρίσκεται σε επίπεδο χαμηλότερο από το όριο κοινής χρήσης ισχύος. Για να συνεχίσετε με την κοινή χρήση ισχύος, ρυθμίστε το όριο κοινής χρήσης ισχύος σε επίπεδο χαμηλότερο από το τρέχον επίπεδο ενέργειας της μπαταρίας.</string>
+    <string name="power_sharing_start_toast_text">Έναρξη της κοινής χρήσης ισχύος…</string>
+    <string name="power_sharing_end_notification_text">Η κοινή χρήση ισχύος έληξε. Αποσυνδέστε το καλώδιο.</string>
+    <string name="face_detection_failure_text">Η έξυπνη αναμ. δεν εντόπ. τα μάτια σας.</string>
+    <string name="status_bar_recent_launch_task_manager_title">Διαχ. εργασ.</string>
+    <string name="status_bar_recent_launch_google_button">Google</string>
+    <string name="status_bar_recent_remove_all_button">Κλ. Όλων</string>
+    <string name="screen_capture_fail_for_storage_capacity">Η συσκευή αποθήκευσης είναι πλήρης. Διαγράψτε ορισμένα στοιχεία.</string>
+    <string name="no_such_item">Δεν είναι δυνατή η εύρεση στοιχείου.</string>
+    <string name="pickup_tutorial_title">Δοκιμάστε την έξυπνη ειδοποίηση</string>
+    <string name="put_your_phone">Μόλις αφήσετε τη συσκευή σας, η οθόνη θα απενεργοποιηθεί.</string>
+    <string name="phone_detect">Ας υποθέσουμε ότι έχετε αναπάντητες κλήσεις και μηνύματα. Αφήστε τη συσκευή σας και σηκώστε την ξανά μόλις απενεργοποιηθεί η οθόνη.</string>
+    <string name="pick_up_your_phone">Σηκώστε τη συσκευή σας</string>
+    <string name="tutorial_complete">Ο οδηγός εκμάθησης ολοκληρώθηκε.</string>
+    <string name="camera_alert">"Δεν είναι δυνατή η εκκίνηση κάμερας
+κατά την κλήση."</string>
+    <string name="stms_version">SM-G900F_EUR_20140228_0507</string>
+    <string name="wifi_cw_ready">China Telecom WLAN connected</string>
+    <string name="wifi_cw_ready_message">You have access to China Telecom WLAN network, consult 10000 to understand billing information, please turn off when not use</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">Αποδοχή</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="quickpanel_ctwap_text">CTWAP</string>
+    <string name="quickpanel_ctnet_text">CTNET</string>
+    <string name="tethering_attention_title">Προσοχή</string>
+    <string name="tethering_wifi_off_warning">Η ενεργοποίηση του φορητού σημείου πρόσβασης Wi-Fi θα απενεργοποιήσει το Wi-Fi.</string>
+    <string name="quickpanel_air_view_warning">Για την ενεργοποίηση της προβολής χωρίς επαφή, ενεργοποιήστε τουλάχιστον μία λειτουργία.</string>
+    <string name="quickpanel_air_view_warning_pen_support">Για την ενεργοποίηση της προβολής χωρίς επαφή, ενεργοποιήστε τουλάχιστον μία λειτουργία από την επιλεγμένη λειτουργία Προβολής χωρίς επαφή.</string>
+    <string name="quickpanel_air_gesture_warning">Για την ενεργοποίηση του air gesture, ενεργοποιήστε τουλάχιστον μία σχετική λειτουργία.</string>
+    <string name="quickpanel_air_gesture_warning_continue">Πατήστε παρατεταμένα ένα κουμπί γρήγορης ρύθμισης για να μεταβείτε στις σχετικές ρυθμίσεις.</string>
+    <string name="roaming_title">Περιαγωγή</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="gps_donotshow">Να μην εμφαν. ξανά αυτό το μήνυμα</string>
+    <string name="quickpanel_brightess_level">Eπίπεδο</string>
+    <string name="quickpanel_brightess_minus">Μείον</string>
+    <string name="reading_mode_title">Λειτουργία ανάγνωσης</string>
+    <string name="reading_mode_alert">Η λειτουργία ανάγνωσης ενεργοποιήθηκε. Η οθόνη έχει βελτιστοποιηθεί για ανάγνωση. Αυτή η λειτουργία είναι διαθέσιμη σε επιλεγμένες μόνο εφαρμογές.</string>
+    <string name="reading_mode_settings">Ρυθμίσεις</string>
+    <string name="automatic_brightness_message">Οι ρυθμίσεις αυτόματης φωτεινότητας εφαρμόζονται μόνο στην εσωτερική οθόνη</string>
+    <string name="manual_brightness_message">Η φωτεινότητα προσαρμόστηκε με μη αυτόματο τρόπο. Η αυτόματη φωτεινότητα απενεργοποιήθηκε.</string>
+    <string name="flight_mode_message_for_wifi_only">Η λειτουργία πτήσης σάς επιτρέπει να απενεργοποιείτε τις λειτουργίες δικτύου, συμπεριλαμβανομένου του Wi-Fi και του Bluetooth. Για να χρησιμοποιήσετε το Wi-Fi και το Bluetooth, ενεργοποιήστε τα από τις Ρυθμίσεις ή από το πλαίσιο ειδοποιήσεων.</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tutorial_notification_panel_drag_down">Χρησιμοποιήστε ένα δάχτυλο, για να τραβήξετε προς τα κάτω τη γραμμή κατάστασης από το επάνω μέρος της οθόνης.</string>
+    <string name="tutorial_notification_panel_drag_down_complete">Εμφανίζεται το πλαίσιο ειδοποιήσεων.</string>
+    <string name="tutorial_quick_panel_drag_down">Χρησιμοποιήστε δύο δάχτυλα, για να τραβήξετε προς τα κάτω τη γραμμή κατάστασης από το επάνω μέρος της οθόνης.</string>
+    <string name="tutorial_quick_panel_drag_down_complete">Εμφανίζεται ο πίνακας γρήγορης πρόσβασης.</string>
+    <string name="tutorial_expand_notification_panel_drag_down">Χρησιμοποιήστε δύο δάχτυλα, για να τραβήξετε προς τα κάτω μία από τις λίστες από τον πίνακα ειδοποιήσεων.</string>
+    <string name="tutorial_expand_notification_panel_drag_down_complete">Εμφανίζονται περισσότερες πληροφορίες σχετικά με την επιλεγμένη λίστα.</string>
+    <string name="tutorial_invaild_action">Μη έγκυρη ενέργεια. Δοκιμάστε ξανά.</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="magnification_text_for_air_view_button">Χειρονομίες μεγέθυνσης</string>
+    <string name="smartbonding_dialog_title">Ενίσχυση λήψεων</string>
+    <string name="smartbonding_dialog_wifi_text">Πραγματοποιήστε πιο γρήγορη λήψη μεγάλων αρχείων (μεγαλύτερα από %d MB) χρησιμοποιώντας ταυτόχρονα δίκτυα Wi-Fi και LTE. Σημειώστε ότι ανάλογα με την κατάσταση των δικτύων, η Ενίσχυση λήψεων ενδέχεται να χρησιμοποιήσει μόνο το δίκτυο Wi-Fi ή LTE για τη λήψη αρχείων.</string>
+    <string name="smartbonding_dialog_mobile_text">Πραγματοποιήστε πιο γρήγορη λήψη μεγάλων αρχείων (μεγαλύτερα από %d MB) χρησιμοποιώντας ταυτόχρονα δίκτυα Wi-Fi και LTE. Σημειώστε ότι ανάλογα με την κατάσταση των δικτύων, η Ενίσχυση λήψεων ενδέχεται να χρησιμοποιήσει μόνο το δίκτυο Wi-Fi ή LTE για τη λήψη αρχείων.</string>
+    <string name="smart_bonding_popup_msg">Η Ενίσχυση λήψεων θα ενεργοποιηθεί. Η λήψη μέσω δικτύων κινητής τηλεφωνίας ενδέχεται να επιφέρει πρόσθετες χρεώσεις, ανάλογα με το πρόγραμμα χρέωσης που διαθέτετε.</string>
+    <string name="smart_bonding_popup_msg_wifi">Αυτήν τη στιγμή, το Wi-Fi είναι απενεργοποιημένο. Για να ενεργοποιήσετε την Ενίσχυση λήψεων, θα πρέπει να είναι ενεργοποιημένα τα δίκτυα Wi-Fi και κινητής τηλεφωνίας. Η λήψη μέσω δικτύων κινητής τηλεφωνίας ενδέχεται να επιφέρει πρόσθετες χρεώσεις, ανάλογα με το πρόγραμμα χρέωσης που διαθέτετε.</string>
+    <string name="smart_bonding_popup_msg_data">Αυτήν τη στιγμή, τα δεδομένα κινητής τηλεφωνίας είναι απενεργοποιημένα. Για να ενεργοποιήσετε την Ενίσχυση λήψεων, θα πρέπει να είναι ενεργοποιημένα τα δίκτυα Wi-Fi και κινητής τηλεφωνίας. Η λήψη μέσω δικτύων κινητής τηλεφωνίας ενδέχεται να επιφέρει πρόσθετες χρεώσεις, ανάλογα με το πρόγραμμα χρέωσης που διαθέτετε.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Αυτήν τη στιγμή, το Wi-Fi και τα δεδομένα κινητής τηλεφωνίας είναι απενεργοποιημένα. Για να ενεργοποιήσετε την Ενίσχυση λήψεων, θα πρέπει να είναι ενεργοποιημένα τα δίκτυα Wi-Fi και κινητής τηλεφωνίας. Η λήψη μέσω δικτύων κινητής τηλεφωνίας ενδέχεται να επιφέρει πρόσθετες χρεώσεις, ανάλογα με το πρόγραμμα χρέωσης που διαθέτετε.</string>
+    <string name="smart_bonding_popup_msg_roaming">Δεν είναι δυνατή η χρήση της ενίσχυσης λήψεων κατά την περιαγωγή. Προτείνουμε τη λήψη μέσω ενός δικτύου Wi-Fi.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Ενεργοποίηση Wi-Fi</string>
+    <string name="smart_bonding_popup_msg_data_btn">Ενεργοποίηση δεδομένων κινητής τηλεφωνίας</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Ενερ. Wi-Fi και δεδ. κιν. τηλεφ.</string>
+    <string name="smart_bonding_turn_off_text">Δεν είναι δυνατή η χρήση της ενίσχυσης λήψης όταν είναι ενεργή η λειτουργία %1$s. Απενεργοποιήστε τη λειτουργία %2$s και δοκιμάστε ξανά.</string>
+    <string name="smart_bonding_turn_off_text_airplane_mode">Δεν είναι δυνατή η σύνδεση σε δίκτυα κινητής τηλεφωνίας, όσο είναι ενεργοποιημένη η λειτουργία πτήσης. Απενεργοποιήστε τη λειτουργία πτήσης και δοκιμάστε ξανά.</string>
+    <string name="dialog_battery_data_warning">Το φορητό σημείο πρόσβασης Wi-Fi καταναλώνει περισσότερη ισχύ μπαταρίας και αυξάνει τη χρήση δεδομένων. Συνέχεια;</string>
+    <string name="tether_settings_title_wifi">Φορητό σημείο πρόσβασης</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">Ειδοποίηση</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="cooling_title">Υπερθέρμανση συσκευής</string>
+    <string name="cooling_body">"Η συσκευή σας υπερθερμαίνεται. Θα εφαρμοστούν ορισμένες ενέργειες για τη μείωση της θερμοκρασίας της.
+
+Μπορείτε να συνεχίσετε να χρησιμοποιείτε τη συσκευή σας, αλλά
+- η φωτεινότητα της οθόνης μπορεί να μειωθεί.
+- η ανταπόκριση της συσκευής μπορεί να μειωθεί.
+- η φόρτιση μπορεί να τεθεί σε παύση.
+
+Με το κλείσιμο της τρέχουσας εφαρμογής θα μειωθεί η θερμοκρασία της συσκευής σας.
+
+Μετά τη μείωση της θερμοκρασίας της συσκευής σας, οι επιδόσεις θα επιστρέψουν αυτόματα στα κανονικά επίπεδα."</string>
+    <string name="cooling_noti_text">Πατήστε εδώ για να δείτε λεπτομέρειες.</string>
+    <string name="cooling_popup_name">Ειδοποίηση</string>
+    <string name="cooling_noti_title">Υπερθέρμανση συσκευής</string>
+    <string name="btn_text_yes">OK</string>
+    <string name="btn_text_no">Ακύρωση</string>
+    <string name="device_overheating">Υπερθέρμανση συσκευής</string>
+    <string name="colling_noti_text_2">Δεν είναι δυνατό το άνοιγμα εφαρμογών. Μπορείτε να χρησιμοποιήσετε μόνο τις εφαρμογές «Τηλέφωνο» και «Επαφές».</string>
+    <string name="vol_panel_audio_settings">αλλαγή των ρυθμίσεων ήχου.</string>
+    <string name="guest_launge_warning_toast_text">Δεν είναι δυνατή η ενεργοποίηση ή η απενεργοποίηση του %s από τη λειτουργία επισκέπτη.</string>
+    <string name="safe_mode_title_vzw">Απενεργοποιήστε την Ασφαλή λειτουργία</string>
+    <string name="safe_mode_popup_body_vzw">Θέλετε να επανεκκινήσετε το τηλέφωνό σας για να απενεργοποιήσετε την Ασφαλή λειτουργία; Θα γίνει επαναφορά όλων των εφαρμογών σας.</string>
+    <string name="safe_mode_btn_cancel_vzw">Ακύρωση</string>
+    <string name="safe_mode_off_btn_vzw">Απενεργοποιήστε την Ασφαλή λειτουργία</string>
+    <string name="safe_mode_noti_on_vzw">Η ασφαλή λειτουργία είναι ενεργοποιημένη</string>
+    <string name="safe_mode_noti_body_vzw">Πατήστε για να απενεργοποιήσετε την Ασφαλή λειτουργία</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">Πατήστε εδώ για να μάθετε περισσότερα.</string>
+    <string name="cooling_popup_name_VZW">Ειδοποίηση</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">OK</string>
+    <string name="btn_text_no_VZW">Ακύρωση</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance will Automatically go back to normal."</string>
+    <string name="recent_menukey_press_description">Πατήστε παρατεταμένα το πλήκτρο πρόσφατων στοιχείων για προβολή του μενού.</string>
+    <string name="recent_menukey_press_description_vzw">Το πλήκτρο μενού αντικαταστάθηκε από το πλήκτρο πρόσφατων εφαρμογών, το οποίο σας επιτρέπει να περιηγείστε μεταξύ των εφαρμογών που χρησιμοποιήσατε πιο πρόσφατα. Πατήστε «Βοήθεια» για περισσότερες πληροφορίες.</string>
+    <string name="recent_menukey_help_button">Βοήθεια</string>
+</resources>

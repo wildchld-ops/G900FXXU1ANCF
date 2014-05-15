@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.RawContactEditorView android:orientation="vertical" android:paddingTop="@dimen/editor_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/editor_account_header_with_dropdown" />
+    <LinearLayout android:orientation="vertical" android:id="@id/body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:listDivider" android:showDividers="middle|end">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/editor_photo_top_padding" android:paddingBottom="@dimen/editor_photo_top_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <include android:id="@id/edit_photo" layout="@layout/item_photo_editor" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <include android:id="@id/edit_name" layout="@layout/structured_name_editor_view" />
+                <include android:id="@id/edit_phonetic_name" layout="@layout/phonetic_name_editor_view" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/edit_photo_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_kind_section_left_padding" android:layout_marginTop="@dimen/easymode_add_button_padding_vertical" android:layout_marginRight="@dimen/editor_kind_section_right_padding" android:layout_marginBottom="@dimen/easymode_add_button_padding_vertical">
+            <Button android:id="@id/button_pick_photo" android:layout_width="fill_parent" android:layout_height="@dimen/editor_button_height_easymode" android:text="@string/pick_image" android:layout_weight="1.0" style="@style/EasyButtonMultiLineStyle" />
+            <Button android:id="@id/button_take_photo" android:layout_width="fill_parent" android:layout_height="@dimen/editor_button_height_easymode" android:text="@string/take_photo" android:layout_weight="1.0" style="@style/EasyButtonMultiLineStyle" />
+            <Button android:id="@id/button_remove_photo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/editor_button_height_easymode" android:text="@string/title_remove" android:layout_weight="1.0" style="@style/EasyButtonMultiLineStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/sect_fields" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:listDivider" android:showDividers="middle|end" />
+    <Button android:id="@id/button_add_field" android:layout_width="fill_parent" android:layout_height="@dimen/editor_button_height_easymode" android:layout_marginLeft="@dimen/editor_kind_section_left_padding" android:layout_marginTop="@dimen/easymode_add_button_padding_vertical" android:layout_marginRight="@dimen/editor_kind_section_right_padding" android:layout_marginBottom="@dimen/easymode_add_button_padding_vertical" android:minHeight="@dimen/button_add_field_height" android:text="@string/add_field" style="@style/EasyButtonStyle" />
+</com.android.contacts.editor.RawContactEditorView>

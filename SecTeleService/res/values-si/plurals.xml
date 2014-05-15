@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">විනාඩි %s ක් දක්වා දත්ත සම්බන්ධතා නොමැත.</item>
+        <item quantity="one">විනාඩි %s ක් දක්වා දත්ත සම්බන්ධතා නොමැත.</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">දුරකථනය විනාඩි %s ක් හදිසි ඇමතුම් මාදිලියේ තිබෙනු ඇත. මෙම මාදිලියේ සිටින විට දත්ත සම්බන්ධතා භාවිත කරන වැඩසටහන් භාවිතා කළ නොහැක. දැන් ඉවත් වන්නද?</item>
+        <item quantity="one">වැඩසටහන් සඳහා දත්ත සම්බන්ධතා භාවිතා කළ නොහැක. මෙම මාදිලියේදී දුරකථනය විනාඩි %s ක් දක්වා හදිසි ඇමතුම් මාදිලියේ සිටී. දැන් ඉවත් වන්නද?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">හදිසි ඇමතුම් ප්‍රකාරයේදී තෝරන ලද ක්‍රියාව කළ නොහැක දුරකථනය විනාඩි %s ක් මෙම මාදිලියේ තිබෙනු ඇත. දැන් ඉවත් වන්නද?</item>
+        <item quantity="one">හදිසි ඇමතුම් ප්‍රකාරයේදී තෝරන ලද ක්‍රියාව කළ නොහැක. දුරකථනය විනාඩි %s ක් මෙම මාදිලියේ තිබෙනු ඇත. දැන් ඉවත් වන්නද?</item>
+    </plurals>
+</resources>

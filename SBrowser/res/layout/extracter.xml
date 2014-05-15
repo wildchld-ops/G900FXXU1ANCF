@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/extracter_subwindow_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:layout_width="0.0px" android:layout_height="0.0px" />
+    <ViewStub android:id="@id/extracter_find_toolbar_stub" android:layout="@layout/find_toolbar" android:inflatedId="@id/subTree" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height_no_shadow" />
+    <FrameLayout android:orientation="vertical" android:id="@id/extracter_content_view" android:paddingTop="@dimen/toolbar_height_no_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageButton android:layout_gravity="bottom|right|center" android:id="@id/extracter_context_search" android:background="@drawable/context_search_bg_selector" android:visibility="gone" android:layout_width="@dimen/context_search_image_width" android:layout_height="@dimen/context_search_image_height" android:layout_marginBottom="@dimen/context_search_margin_bottom" android:src="@drawable/message_linked_icon" android:contentDescription="@string/extact_mode_contextual_search_button" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/sbrowser_show_translate_mode_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/sbrowser_show_translate_mode_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/show_pagetranslate_mode" />
+    </FrameLayout>
+</FrameLayout>

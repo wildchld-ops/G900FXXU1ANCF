@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="qwerty_domain_values">
+        <item>.gov</item>
+        <item>.edu</item>
+        <item>.org</item>
+        <item>.net</item>
+        <item>.gov.pl</item>
+        <item>.org.pl</item>
+        <item>.com.pl</item>
+        <item>.pl</item>
+    </string-array>
+    <string-array name="phonepad_domain_values">
+        <item>.gov</item>
+        <item>.gov.pl</item>
+        <item>.edu</item>
+        <item>.org.pl</item>
+        <item>.org</item>
+        <item>.com.pl</item>
+        <item>.net</item>
+        <item>.pl</item>
+    </string-array>
+</resources>

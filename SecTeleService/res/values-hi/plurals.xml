@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">%s मिनटों के लिए डाटा कनेक्शन नहीं।</item>
+        <item quantity="one">%s मिनटों के लिए डाटा कनेक्शन नहीं।</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">फ़ोन आपातकालीन कॉलबैक मोड में %s मिनटों के लिए रहेगा। इस मोड में होते हुए डाटा कनेक्शन का उपयोग करनेवाले एप्लीकेशन का उपयोग नहीं कर सकते। अभी बाहर निकलें?</item>
+        <item quantity="one">एप्लीकेशन के लिए डाटा कनेक्‍शन का उपयोग करने में असमर्थ। इस मोड में होते हुए फ़ोन आपातकाल कॉलबैक मोड में %s मिनटों के लिए रहेगा। अभी बाहर निकलें?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">आपातकालीन कॉलबैक मोड में चयनित कार्रवाई उपलब्ध नहीं। फ़ोन इस मोड में %s मिनट के लिए रहेगा। अभी बाहर निकलें?</item>
+        <item quantity="one">आपातकालीन कॉलबैक मोड में चयनित कार्रवाई उपलब्ध नहीं। फ़ोन इस मोड में %s मिनट के लिए रहेगा। अभी बाहर निकलें?</item>
+    </plurals>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s converses</item>
+        <item quantity="one">1 conversa</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s missatges</item>
+        <item quantity="one">1 missatge</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d converses</item>
+        <item quantity="one">%d conversa</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s i %2$d més</item>
+        <item quantity="one">%s i 1 més</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s i %2$d més</item>
+        <item quantity="one">%s i 1 més</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">"S'han esborrat els missatges de la targeta SIM"</item>
+        <item quantity="one">"S'ha esborrat el missatge de la targeta SIM"</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">"S'han copiat els missatges de la targeta SIM"</item>
+        <item quantity="one">"S'ha copiat el missatge de la targeta SIM"</item>
+    </plurals>
+</resources>

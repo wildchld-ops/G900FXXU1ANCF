@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">%d კონტაქტის ჩვენება</item>
+        <item quantity="one">1 კონტაქტის ჩვენება</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">ტელეფონის ნომრის მქონე %d კონტაქტის ჩვენება</item>
+        <item quantity="one">ტელეფონის ნომრის მქონე 1 კონტაქტის ჩვენება</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">ტელეფონის ნომრის მქონე %d კონტაქტი</item>
+        <item quantity="one">ტელეფონის ნომრის მქონე 1 კონტაქტი</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d კონტაქტი</item>
+        <item quantity="one">1 კონტაქტი</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">ნაპოვნია %d</item>
+        <item quantity="one">ნაპოვნია 1</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">ნაპოვნია %d</item>
+        <item quantity="one">ნაპოვნია 1</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d ჯგუფი</item>
+        <item quantity="one">1 ჯგუფი</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d ადამიანია ჯგუფში %2$s</item>
+        <item quantity="one">%1$d პიროვნებაა ჯგუფში %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%dადამიანი</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d ხმოვანი წერილი</item>
+        <item quantity="one">ხმოვანი წერილი</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">გადაიწერა %d კონტაქტი.</item>
+        <item quantity="one">გადაიწერა %d კონტაქტი.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">%d контакт көрсетілуде</item>
+        <item quantity="one">1 контакт көрсетілуде</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">%d контактіні телефон нөмірлерімен көрсету</item>
+        <item quantity="one">1 контактіні телефон нөмірімен көрсету</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d контакт телефон нөмірлерімен</item>
+        <item quantity="one">1 контакт телефон нөмірімен</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d контакт</item>
+        <item quantity="one">1 контакт</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d табылды</item>
+        <item quantity="one">1 табылды</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d табылды</item>
+        <item quantity="one">1 табылды</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d топ</item>
+        <item quantity="one">1 топ</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%2$s тобында %1$d адам</item>
+        <item quantity="one">%2$s тобында %1$d адам</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d адам</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d дауысты пошта хабары</item>
+        <item quantity="one">Дауысты пошта</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d контактілері көшірілді.</item>
+        <item quantity="one">%d контактісі көшірілді.</item>
+    </plurals>
+</resources>

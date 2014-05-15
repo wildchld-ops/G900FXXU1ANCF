@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:paddingTop="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/spam_keyward_write_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <EditText android:gravity="center_vertical" android:id="@id/spam_keyword_text" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip" android:hint="@string/enter_text" android:maxLength="34" android:inputType="textCapSentences|textMultiLine" android:imeOptions="flagNoExtractUi" />
+        <TextView android:layout_gravity="right" android:id="@id/spam_keyword_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:minHeight="36.0dip" />
+    </LinearLayout>
+</ScrollView>

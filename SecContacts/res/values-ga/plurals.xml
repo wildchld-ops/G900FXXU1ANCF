@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">%d teagmhálaí ar taispeáint</item>
+        <item quantity="one">Ag taispeáint 1 teagmhálaí</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">Ag taispeáint %d teagmhálaí a bhfuil uimhreacha fóin acu</item>
+        <item quantity="one">Ag taispeáint 1 teagmhálaí a bhfuil uimhir fóin aige/aice</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d teagmhálaí a bhfuil uimhreacha fóin acu</item>
+        <item quantity="one">1 teagmhálaí a bhfuil huimhir fóin aige/aice</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d teagmhálaí</item>
+        <item quantity="one">Teagmhálaí amháin</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Aimsíodh %d</item>
+        <item quantity="one">1 aimsithe</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Aimsíodh %d</item>
+        <item quantity="one">1 aimsithe</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d ghrúpa</item>
+        <item quantity="one">1 ghrúpa</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d duine i ngrúpa %2$s</item>
+        <item quantity="one">%1$d duine i ngrúpa %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d duine</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d glórphost</item>
+        <item quantity="one">Glórphost</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d teagmhálaí cóipeáilte.</item>
+        <item quantity="one">%d teagmhálaí cóipeáilte.</item>
+    </plurals>
+</resources>

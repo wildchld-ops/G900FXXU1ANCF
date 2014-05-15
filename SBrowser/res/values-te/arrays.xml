@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>ఎల్లప్పుడూ ఆన్</item>
+        <item>డిమాండ్‌ లో</item>
+        <item>ఆఫ్</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>డీఫాల్ట్ పేజీ</item>
+        <item>ప్రస్తుత పేజీ</item>
+        <item>త్వరిత ప్రాప్తి</item>
+        <item>ఎక్కువగా వీక్షించిన సైట్లు</item>
+        <item>ఇతర</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>పరికరం</item>
+        <item>SD కార్డ్</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>లాటిన్-1 (ISO-8859-1)</item>
+        <item>యూనికోడ్ (UTF-8)</item>
+        <item>చైనీస్ (GBK)</item>
+        <item>చైనీస్ (బిగ్5)</item>
+        <item>జపనీస్ (ISO-2022-JP)</item>
+        <item>జపనీస్ (SHIFT JIS)</item>
+        <item>జపనీస్ (EUC-JP)</item>
+        <item>కొరియన్ (EUC-KR)</item>
+        <item>స్వయం తనిఖీ</item>
+    </string-array>
+</resources>

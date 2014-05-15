@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="index_string_array">
+        <item>ㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="interaction_selecter_spinner">
+        <item>%d개 선택</item>
+        <item>모두 선택</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>조직</item>
+        <item>노트</item>
+    </string-array>
+</resources>

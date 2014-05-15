@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/page_info_body_text_size" android:textStyle="bold" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/page_info_margin_left" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/page_info_margin_right" android:layout_marginBottom="12.0dip" />
+        <TableLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/page_info_body_text_size" android:gravity="left" android:id="@id/address_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/page_info_margin_left" android:layout_marginRight="@dimen/page_info_margin_right" android:layout_marginBottom="10.0dip" android:text="@string/page_info_address" />
+            <TextView android:textSize="@dimen/page_info_body_text_size" android:gravity="left" android:id="@id/address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/page_info_margin_left" android:layout_marginRight="@dimen/page_info_margin_right" android:layout_marginBottom="12.0dip" />
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

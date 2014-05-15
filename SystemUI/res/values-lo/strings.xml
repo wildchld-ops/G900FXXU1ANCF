@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_date_format_day_month_k">"E
+d MMM"</string>
+    <string name="status_bar_date_format_month_day_k">"E
+MMM d"</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">E, MMM d</string>
+    <string name="abbrev_wday_day_abbrev_month_no_year">E, d MMM</string>
+    <string name="app_label">UI ຂອງລະບົບ</string>
+    <string name="status_bar_clear_all_button">ລຶບອອກ</string>
+    <string name="status_bar_do_not_disturb_button">ຫ້າມລົບກວນ</string>
+    <string name="status_bar_please_disturb_button">ສະແດງການແຈ້ງເຕືອນ</string>
+    <string name="status_bar_recent_remove_item_title">ເອົາອອກໄປຈາກບັນຊີ</string>
+    <string name="status_bar_recent_inspect_item_title">ຂໍ້ມູນແອັບ</string>
+    <string name="status_bar_no_recent_apps">ບໍ່ມີແອັບເມື່ອບໍ່ດົນນີ້ຢູ່</string>
+    <string name="status_bar_no_notifications_title">ບໍ່ມີການແຈ້ງ</string>
+    <string name="status_bar_ongoing_events_title">ດຳເນີນການ</string>
+    <string name="status_bar_latest_events_title">ແຈ້ງເຕືອນ</string>
+    <string name="battery_low_title">ຕໍ່ເຄື່ອງສາກ.</string>
+    <string name="battery_low_percent_format">ຍັງຢູ່ %d%%.</string>
+    <string name="invalid_charger">ການສາກດ້ວຍ USB ບໍ່ສະໜັບສະໜູນ. ໃຊ້ເຄື່ອງສາກທີ່ໃຫ້ມາ.</string>
+    <string name="battery_low_why">ການໃຊ້ແບັດເຕີຣີ</string>
+    <string name="status_bar_settings_settings_button">ຕັ້ງຄ່າ</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">ໂໝດການບິນ</string>
+    <string name="status_bar_settings_auto_rotation">ໝຸນໜ້າຈໍອັດຕະໂນມັດ</string>
+    <string name="status_bar_settings_mute_label">ປິດສຽງ</string>
+    <string name="status_bar_settings_auto_brightness_label">"ອັດຕະ
+ໂນມັດ"</string>
+    <string name="status_bar_settings_notifications">ແຈ້ງເຕືອນ</string>
+    <string name="bluetooth_tethered">ເຊື່ອມໂຍງບລູທູດແລ້ວ</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">ຕັ້ງໂໝດການປ້ອນຂໍ້ມູນ</string>
+    <string name="status_bar_use_physical_keyboard">ແປ້ນພິມກົດ</string>
+    <string name="usb_device_permission_prompt">ອະນຸຍາດໃຫ້ %1$s ແອບເຂົ້າຫາເຄື່ອງ USB ບໍ?</string>
+    <string name="usb_accessory_permission_prompt">ອະນຸຍາດໃຫ້ແອພພລິເຄຊັນ%1$s ເຂົ້າຫາອຸປະກອນເສີມ USB ບໍ?</string>
+    <string name="usb_device_confirm_prompt">ເປີດ %1$s ເມື່ອອຸປະກອນ USB ນີ້ໄດ້ຮັບການເຊື່ອມຕໍ່?</string>
+    <string name="usb_accessory_confirm_prompt">ເປີດ %1$s ເມື່ອອຸປະກອນເສີມ USB ໄດ້ຮັບການເຊື່ອມຕໍ່?</string>
+    <string name="usb_accessory_uri_prompt">ບໍ່ມີແອພພລິເຄຊັນທີ່ໄດ້ຕິດຕັ້ງໄວ້ນັ້ນເຮັດວຽກໄດ້ກັບອຸປະກອນ USB ນີ້. ຮຽນຮູ້ເພີ່ມເຕີມກ່ຽວກັບອຸປະກອນໄດ້ທີ່ %s.</string>
+    <string name="title_usb_accessory">ອຸປະກອນເສີມ USB</string>
+    <string name="label_view">ເບິ່ງ</string>
+    <string name="always_use_device">ໃຊ້ໂດຍຄ່າມາດຕະຖານສໍາລັບເຄື່ອງ USB</string>
+    <string name="always_use_accessory">ໃຊ້ໂດຍຄ່າມາດຕະຖານສໍາລັບອຸປະກອນເສີມ USB</string>
+    <string name="usb_debugging_title">ອະນຸຍາດໃຫ້ USB ດໍາເນີນການແກ້ໄຂເອງບໍ?</string>
+    <string name="usb_debugging_message">"ລາຍນີ້ວມືປຸ່ມ RSA ຂອງ PC ແມ່ນ:
+%1$s"</string>
+    <string name="usb_debugging_always">ອະນຸຍາດໃຫ້ PC ນີ້ທຸກຄັ້ງ</string>
+    <string name="compat_mode_on">ຊູມເພື່ອຕື່ມໜ້າຈໍ</string>
+    <string name="compat_mode_off">ຢືດອອກເພື່ອຕື່ມໜ້າຈໍ</string>
+    <string name="compat_mode_help_header">ຊູມຄວາມສາມາດເຂົ້າກັນໄດ້</string>
+    <string name="compat_mode_help_body">ເມື່ອແອບຖືກອອກແບບສໍາລັບໜ້າຈໍທີ່ນ້ອຍ, ການຄວບຄຸມການຊູມຈະປະກົດຂຶ້ນດ້ວຍໂມງ.</string>
+    <string name="screenshot_saving_ticker">ກໍາລັງບັນທຶກຮູບຖ່າຍໜ້າຈໍ…</string>
+    <string name="screenshot_saving_title">ກໍາລັງບັນທຶກຮູບຖ່າຍໜ້າຈໍ…</string>
+    <string name="screenshot_saving_text">ຮູບໜ້າຈໍກໍາລັງຖືກບັນທຶກໄວ້.</string>
+    <string name="screenshot_saved_title">ແຄັບເຈີຮູບໜ້າຈໍແລ້ວ</string>
+    <string name="screenshot_saved_text">ແຕະເພື່ອເບິ່ງຮູບໜ້າຈໍ.</string>
+    <string name="screenshot_failed_title">ບໍ່ສາມາດແຄັບເຈີໜ້າຈໍໄດ້.</string>
+    <string name="screenshot_failed_text">ບໍ່ສາມາດບັນທຶກຮູບໜ້າຈໍໄດ້. ເຄື່ອງເກັບຂໍ້ມູນ USB ອາດຈະໃຊ້ງານຢູ່.</string>
+    <string name="screenshot_failed_due_to_drm_text">ບໍ່ສາມາດແຄັບເຈີ້ໜ້າຈໍໄດ້. ຮູບປົກປ້ອງດ້ວຍ DRM.</string>
+    <string name="one_item_will_be_deleted">1 ລາຍການຈະຖືກລຶບ.</string>
+    <string name="usb_preference_title">ຕົວເລືອກການໂອນໄຟລ໌ USB</string>
+    <string name="use_mtp_button_title">ຕໍ່ເປັນເຄື່ອງເປີດສື່ (MTP)</string>
+    <string name="use_ptp_button_title">ຕໍ່ເປັນກ້ອງຖ່າຍຮູບ (PTP)</string>
+    <string name="installer_cd_button_title">ຕິດຕັ້ງແອບໂອນໄຟລ໌ແອນດຣອຍສໍາລັບ Mac</string>
+    <string name="accessibility_back">ກັບຄືນ</string>
+    <string name="accessibility_home">ບ້ານ</string>
+    <string name="accessibility_menu">ເມນູ</string>
+    <string name="accessibility_recent">ແອບປະຈຸບັນ</string>
+    <string name="accessibility_ime_switch_button">ຍ້າຍປຸ່ມວິທີໃສ່ຂໍ້ມູນເຂົ້າໄປ.</string>
+    <string name="accessibility_compatibility_zoom_button">ປຸ່ມຊູມທີ່ມີຄວາມສາມາດເຂົ້າກັນໄດ້</string>
+    <string name="accessibility_compatibility_zoom_example">ຊູມໃສ່ໜ້າຈໍໃຫຍ່ກວ່າ</string>
+    <string name="accessibility_bluetooth_connected">ເຊື່ອມຕໍ່ໃສ່ບລູທູດແລ້ວ</string>
+    <string name="accessibility_bluetooth_disconnected">ບລູທູດຖືກຕັດ.</string>
+    <string name="accessibility_no_battery">ບໍ່ມີແບັດເຕີຣີ</string>
+    <string name="accessibility_battery_one_bar">ໄຟແບັດເຕີຣີຂີດດຽວ</string>
+    <string name="accessibility_battery_two_bars">ໄຟແບັດເຕີຣີສອງຂີດ</string>
+    <string name="accessibility_battery_three_bars">ໄຟແບັດເຕີຣີສາມຂີດ</string>
+    <string name="accessibility_battery_full">ແບັດເຕີຣີເຕັມ.</string>
+    <string name="accessibility_no_phone">ບໍ່ມີສັນຍານໂທລະສັບ</string>
+    <string name="accessibility_phone_one_bar">ສັນຍານໂທລະສັບຂີດດຽວ</string>
+    <string name="accessibility_phone_two_bars">ສັນຍານໂທລະສັບສອງຂີດ</string>
+    <string name="accessibility_phone_three_bars">ສັນຍານໂທລະສັບສາມຂີດ</string>
+    <string name="accessibility_phone_signal_full">ສັນຍານໂທລະສັບເຕັມ</string>
+    <string name="accessibility_no_data">ບໍ່ມີຂໍ້ມູນ</string>
+    <string name="accessibility_data_one_bar">ສັນຍານຂໍ້ມູນຂີດດຽວ</string>
+    <string name="accessibility_data_two_bars">ສັນຍານຂໍ້ມູນສອງຂີດ</string>
+    <string name="accessibility_data_three_bars">ສັນຍານຂໍ້ມູນສາມຂີດ</string>
+    <string name="accessibility_data_four_bars">ສັນຍານຂໍ້ມູນສີ່ຂີດ</string>
+    <string name="accessibility_data_five_bars">ສັນຍານຂໍ້ມູນຫ້າຂີດ</string>
+    <string name="accessibility_data_signal_full">ສັນຍານຂໍ້ມູນເຕັມ</string>
+    <string name="accessibility_wifi_off">Wi-Fi Off</string>
+    <string name="accessibility_no_wifi">ບໍ່ມີສັນຍານ Wi-Fi</string>
+    <string name="accessibility_wifi_one_bar">ສັນຍານ Wi-Fi ຂີດດຽວ</string>
+    <string name="accessibility_wifi_two_bars">ສັນຍານ Wi-Fi ສອງຂີດ</string>
+    <string name="accessibility_wifi_three_bars">ສັນຍານ Wi-Fi ສາມຂີດ</string>
+    <string name="accessibility_wifi_signal_full">ສັນຍານ Wi-Fi ເຕັມ.</string>
+    <string name="accessibility_no_signal">ບໍ່ມີສັນຍານ</string>
+    <string name="accessibility_not_connected">ບໍ່ໄດ້ເຊື່ອມຕໍ່.</string>
+    <string name="accessibility_phone_four_bars">ສັນຍານໂທລະສັບສີ່ຂີດ</string>
+    <string name="accessibility_phone_five_bars">ສັນຍານໂທລະສັບຫ້າຂີດ</string>
+    <string name="accessibility_desc_on">ເປີດ</string>
+    <string name="accessibility_desc_off">ປິດ</string>
+    <string name="accessibility_desc_connected">ເຊື່ອມຕໍ່ແລ້ວ.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">ໂຣມມິງ</string>
+    <string name="accessibility_data_connection_edge">ຂອບ</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">ບໍ່ມີ SIM</string>
+    <string name="accessibility_bluetooth_tether">ການເຊື່ອມໂຍງເຄືອຂ່າຍດ້ວຍບລູທູດ</string>
+    <string name="accessibility_airplane_mode">ໂໝດການບິນ</string>
+    <string name="accessibility_battery_level">ແບັດເຕີຣີຢູ່ທີ່ %d ເປີເຊັນ.</string>
+    <string name="accessibility_settings_button">ການຕັ້ງຄ່າລະບົບ</string>
+    <string name="accessibility_notifications_button">ແຈ້ງເຕືອນ</string>
+    <string name="accessibility_remove_notification">ລົບການແຈ້ງບອກ</string>
+    <string name="accessibility_gps_enabled">GPS ເປີດແລ້ວ</string>
+    <string name="accessibility_gps_acquiring">ກໍາລັງເອົາ GPS…</string>
+    <string name="accessibility_tty_enabled">ເຄື່ອງພິມໂທລະເລກເປີດໃຊ້ງານ</string>
+    <string name="accessibility_ringer_vibrate">ການສັ່ນສຽງເອີ້ນເຂົ້າ</string>
+    <string name="accessibility_ringer_silent">ປິດສຽງເອີ້ນເຂົ້າ</string>
+    <string name="accessibility_desc_quick_settings">ການຕັ້ງຄ່າດ່ວນ</string>
+    <string name="accessibility_desc_recent_apps">ແອບປະຈຸບັນ</string>
+    <string name="accessibility_quick_settings_alarm">ຕັ້ງຄ່າການເຕືອນສໍາລັບ %s.</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">ເຊື່ອມຕໍ່ດ່ວນ</string>
+    <string name="accessibility_qconnect_button_tts">ເຊື່ອມຕໍ່ດ່ວນ</string>
+    <string name="data_usage_disabled_dialog_3g_title">ຂໍ້ມູນ 2G-3G ຖືກປິດໃຊ້ງານ</string>
+    <string name="data_usage_disabled_dialog_4g_title">ຂໍ້ມູນ 4G ຖືກປິດໃຊ້ງານ</string>
+    <string name="data_usage_disabled_dialog_mobile_title">ຂໍ້ມູນມືຖືປິດໃຊ້ງານ</string>
+    <string name="data_usage_disabled_dialog_title">ຂໍ້ມູນປິດໃຊ້ງານ.</string>
+    <string name="data_usage_disabled_dialog">ຮອດຂີດຈໍາກັດການໃຊ້ຂໍ້ມູນສະເພາະແລ້ວ ການໃຊ້ຂໍ້ມູນເພີ່ມເຕີມອາດຈະເຮັດໃຫ້ມີຄ່າໃຊ້ຈ່າຍຈາກຜູ້ໃຫ້ບໍລິການໄດ້.</string>
+    <string name="data_usage_disabled_dialog_enable">ເປີດໃຊ້ງານການເຊື່ອມຕໍ່ຂໍ້ມູນອີກ</string>
+    <string name="data_usage_enable_mobile_warning">ການເຊື່ອມຕໍ່ຜ່ານຂໍ້ມູນແພັກເກັຈອາດຈະຕ້ອງໄດ້ເສຍຄ່າເພີ່ມ. ດໍາເນີນຕໍ່ບໍ?</string>
+    <string name="data_usage_disable_mobile">ປິດໃຊ້ການເຊື່ອມຕໍ່ເຄືອຂ່າຍມືຖືບໍ?</string>
+    <string name="status_bar_settings_signal_meter_disconnected">ບໍ່ມີການເຊື່ອມຕໍ່ອິນເຕີເນັດ</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi ເຊື່ອມຕໍ່ແລ້ວ.</string>
+    <string name="gps_notification_searching_text">ກໍາລັງຄົ້ນຫາການໃຊ້ GPS…</string>
+    <string name="gps_notification_found_text">ສະຖານທີ່ຕັ້ງໂດຍ GPS</string>
+    <string name="accessibility_clear_all">ລຶບການແຈ້ງເຕືອນທັງໝົດ</string>
+    <string name="status_bar_notification_inspect_item_title">ຂໍ້ມູນແອັບ</string>
+    <string name="close_universe">ປິດ</string>
+    <string name="notifications_off_title">ການແຈ້ງເຕືອນປິດໃຊ້ງານ</string>
+    <string name="notifications_off_text">ແຕະເພື່ອເປີດໃຊ້ງານການແຈ້ງເຕືອນ.</string>
+    <string name="accessibility_rotation_lock_off">ໜ້າຈໍຈະໝູນວຽນອັດຕະໂນມັດ.</string>
+    <string name="start_dreams">ສະກຣີນເຊບເວີ</string>
+    <string name="ethernet_label">ອີເທີເນັດ</string>
+    <string name="quick_settings_battery_charged_label">ສາກແລ້ວ</string>
+    <string name="quick_settings_bluetooth_label">ບລູທູດ</string>
+    <string name="quick_settings_bluetooth_off_label">ບລູທູດປິດ.</string>
+    <string name="quick_settings_brightness_label">ຄວາມແຈ້ງສະຫວ່າງ</string>
+    <string name="quick_settings_ime_label">ວິທີ​ປ້ອນ​ຂໍ້ຄວາມ</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">​ໂທສຸກ​ເສີນ​ເທົ່າ​ນັ້ນ.</string>
+    <string name="quick_settings_settings_label">ຕັ້ງຄ່າ</string>
+    <string name="quick_settings_time_label">ເວລາ</string>
+    <string name="quick_settings_user_label">ຂ້ອຍ</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">ບໍ່ໄດ້ເຊື່ອມຕໍ່.</string>
+    <string name="quick_settings_wifi_no_network">ບໍ່ມີເຄືອຂ່າຍ</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi Off</string>
+    <string name="quick_settings_wifi_display_label">"ສະແດງ
+Wi-Fi"</string>
+    <string name="quick_settings_brightness_dialog_title">ຄວາມແຈ້ງສະຫວ່າງ</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">"ອັດຕະ
+ໂນມັດ"</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">ບລູທູດ</string>
+    <string name="quickpanel_gps_text">ທີ່ຕັ້ງ</string>
+    <string name="quickpanel_silent_mode_text">"ໂໝດ
+ສຽງງຽບ"</string>
+    <string name="quickpanel_silent_mode_sound">ສຽງ</string>
+    <string name="quickpanel_silent_mode_vibrate">ສັ່ນ</string>
+    <string name="quickpanel_silent_mode_mute">ປິດສຽງ</string>
+    <string name="quickpanel_rotation_text">"ການໝຸນ
+ໜ້າຈໍ"</string>
+    <string name="quickpanel_mobile_data_text">"ຂໍ້ມູນ
+ມືຖື"</string>
+    <string name="quickpanel_dormant_mode_text">"ໂໝດ
+ບລັອກ"</string>
+    <string name="quickpanel_notification_text">ການແຈ້ງເຕືອນ</string>
+    <string name="quickpanel_airplane_mode_text">"ໂໝດ
+ການບິນ"</string>
+    <string name="quickpanel_sync_text">ຊິງຄ໌</string>
+    <string name="quickpanel_power_saving_text">ປະຢັດໄຟ</string>
+    <string name="quickpanel_ultra_power_saving_text">"ການປະຢັດ 
+ໄຟພິເສດ"</string>
+    <string name="quickpanel_driving_mode_text">"ໂໝດ
+ບໍ່ໃຊ້ມືຈັບ"</string>
+    <string name="quickpanel_smart_stay_text">"ພັກໜ້າຈໍ
+ອັດສະລິຍະ"</string>
+    <string name="quickpanel_smart_scroll_text">"ເລື່ອນ
+ອັດສະລິຍະ"</string>
+    <string name="quickpanel_smart_pause_text">"ຢຸດ
+ອັດສະລິຍະ"</string>
+    <string name="quickpanel_smart_network_text">"ສະຫຼາດ
+ເຄືອຂ່າຍ"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_wifi_hotspot_text">"ຮັອດສປັອດ
+Wi-Fi"</string>
+    <string name="quickpanel_multiwindow_text">"ມັລຕິ
+ວິນໂດ"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_brightness_text">ຄວາມແຈ້ງສະຫວ່າງ</string>
+    <string name="quickpanel_airview_text">"ແອ
+ວິວ"</string>
+    <string name="quickpanel_airgesture_text">"ການໃຊ້ງານ
+ໂດຍບໍ່ສຳຜັດ"</string>
+    <string name="quickpanel_ebook_text">"ໂໝດ
+ການອ່ານ"</string>
+    <string name="quickpanel_personal_mode_text">"ໂໝດ
+ສ່ວນບຸກຄົນ"</string>
+    <string name="quickpanel_car_mode_text">"ໂໝດ
+ລົດ"</string>
+    <string name="quickpanel_network_booster_text">"ດາວໂຫຼດ
+ບູສເຕີ"</string>
+    <string name="quickpanel_toolbox_text">"ກ່ອງ
+ເຄື່ອງມື"</string>
+    <string name="quickpanel_touch_sensitivity_text">"ຄວາມໄວ
+ການສໍາຜັດ"</string>
+    <string name="quickpanel_wifi_content_description">WI-FI</string>
+    <string name="quickpanel_bluetooth_content_description">ບລູທູດ</string>
+    <string name="quickpanel_gps_content_description">ທີ່ຕັ້ງ</string>
+    <string name="quickpanel_silent_mode_sound_content_description">ສຽງ</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">ສັ່ນ</string>
+    <string name="quickpanel_silent_mode_mute_content_description">ປິດສຽງ</string>
+    <string name="quickpanel_rotation_content_description">ໝຸນໜ້າຈໍ</string>
+    <string name="quickpanel_mobile_data_content_description">ຂໍ້ມູນມືຖື</string>
+    <string name="quickpanel_dormant_mode_content_description">ໂໝດບລັອກ</string>
+    <string name="quickpanel_airplane_mode_content_description">ໂໝດການບິນ</string>
+    <string name="quickpanel_sync_content_description">ຊິງຄ໌</string>
+    <string name="quickpanel_power_saving_content_description">ໂໝດປະຢັດໄຟ</string>
+    <string name="quickpanel_smart_stay_content_description">ພັກໜ້າຈໍອັດສະລິຍະ</string>
+    <string name="quickpanel_smart_pause_content_description">ຢຸດອັດສະລິຍະ</string>
+    <string name="quickpanel_smart_network_content_description">ເຄືອຂ່າຍອັດສະລິຍະ</string>
+    <string name="quickpanel_wifi_hotspot_content_description">ຮັອດສະປັອດ Wi-Fi ແບບພົກພາ</string>
+    <string name="quickpanel_multiwindow_content_description">ມັລຕິວິນໂດ</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_ebook_content_description">ໂໝດອ່ານ</string>
+    <string name="quickpanel_personal_mode_content_description">ໂໝດສ່ວນບຸກຄົນ</string>
+    <string name="quickpanel_car_mode_content_description">ໂໝດລົດ</string>
+    <string name="quickpanel_network_booster_content_description">ດາວໂຫຼດບູສເຕີ</string>
+    <string name="quickpanel_toolbox_content_description">ກ່ອງເຄື່ອງມື</string>
+    <string name="air_gesture_use_popup_title">ເປີດໃຊ້ງານແອເກັດເຈີ</string>
+    <string name="air_gesture_use_popup_msg">ການໃຊ້ງານໂດຍບໍ່ສຳຜັດ ແລະ TalkBack ບໍ່ສາມາດເປີດໃຊ້ງານໄດ້ທັງສອງອັນ. TalkBack ຈະຖືກປິດໃຊ້ງານ.</string>
+    <string name="air_view_use_popup_title">ເປີດໃຊ້ງານແອວິວ</string>
+    <string name="air_view_use_popup_msg">ແອວີວ ແລະຕົວເລືອກຢູ່ລຸ່ມນີ້ບໍ່ສາມາດເປີດໃຊ້ງານທັງສອງອັນໄດ້. ຕົວເລືອກຢູ່ລຸ່ມນີ້ຈະຖືກປິດໃຊ້ງານ.</string>
+    <string name="multi_window_use_popup_title">ເປີດໃຊ້ມັລຕິວິນໂດ</string>
+    <string name="multi_window_use_popup_msg">ມັລຕິວິນໂດ ແລະ TalkBack ບໍ່ສາມາດເປີດໃຊ້ທັງສອງອັນໄດ້. TalkBack ຈະປິດໃຊ້ງານ.</string>
+    <string name="smart_pause_use_popup_title">ເປີດໃຊ້ງານການຢຸດອັດສະລິຍະ</string>
+    <string name="smart_pause_use_popup_msg">ບໍ່ສາມາດເປີດໃຊ້ງານການຢຸດອັດສະລິຍະ ແລະ TalkBack ທັງສອງອັນໄດ້. TalkBack ຈະຖືກປິດໃຊ້ງານ.</string>
+    <string name="smart_scroll_use_popup_title">ເປີດໃຊ້ງານການເລື່ອນອັດສະລິຍະ</string>
+    <string name="smart_scroll_use_popup_msg">ບໍ່ສາມາດເປີດໃຊ້ງານການເລື່ອນອັດສະລິຍະ ແລະ TalkBack ທັງສອງອັນໄດ້. TalkBack ຈະຖືກປິດໃຊ້ງານ.</string>
+    <string name="smart_stay_use_popup_title">ເປີດໃຊ້ງານພັກໜ້າຈໍອັດສະລິຍະ</string>
+    <string name="smart_stay_use_popup_msg">ບໍ່ສາມາດເປີດໃຊ້ງານພັກໜ້າຈໍອັດສະລິຍະ ແລະ TalkBack ທັງສອງອັນໄດ້. TalkBack ຈະຖືກປິດໃຊ້ງານ.</string>
+    <string name="quickpanel_content_description_led_on">%s ເປີດໃຊ້ງານແລ້ວ.</string>
+    <string name="quickpanel_content_description_led_off">%s ປິດໃຊ້ງານແລ້ວ.</string>
+    <string name="quickpanel_content_description_led_dim">ບໍ່ສາມາດເປີດໃຊ້ງານ %s ໄດ້.</string>
+    <string name="smart_network">ເຄືອຂ່າຍແບບສະຫຼາດ</string>
+    <string name="smart_network_guide_msg">"ເຄືອຂ່າຍແບບສະຫຼາດຊ່ວຍຮັກສາອາຍຸຂອງແບັດເຕີຣີ.
+
+ມັນປິດໃຊ້ງານຂໍ້ມູນໂທລະສັບມືຖື ແລະ Wi-Fi ເມື່ອໜ້າຈໍປິດ, ດັ່ງນັ້ນ ເຄື່ອງຈະໃຊ້ແບັດເຕີຣີໜ້ອຍລົງ.
+
+ເຖິງແນວໃດກໍ່ຕາມ, ທ່ານອາດຈະໄດ້ຮັບຂໍ້ມູນການຊຸກສະສົມ ເມື່ອທ່ານເປີດໜ້າຈໍ."</string>
+    <string name="quickpanel_data_roaming_text">ໂຣມມິງ ຂໍ້ມູນ</string>
+    <string name="data_roaming_dialog_text">ການໂຣມມິງໃນຕ່າງປະເທດຈະໄດ້ຈ່າຍຄ່າເພີ່ມ. ດໍາເນີນການຕໍ່ບໍ?</string>
+    <string name="mobile_data_enable_dialog_text">ການເຊື່ອມຕໍ່ໃສ່ເຄືອຂ່າຍໂທລະສັບມືຖືອາດຈະເຮັດໃຫ້ເສຍຄ່າເພີ່ມ ຂຶ້ນຢູ່ກັບແຜນຂໍ້ມູນຂອງທ່ານ. ດໍາເນີນການຕໍ່ບໍ?</string>
+    <string name="quickpanel_edit_current">ແຜງການແຈ້ງເຕືອນ</string>
+    <string name="quickpanel_edit_available">ປຸ່ມຕ່າງໆທີ່ມີຢູ່</string>
+    <string name="mobile_data_dialog_text">ທ່ານຈະບໍ່ສາມາດໃຊ້ແອັບໄດ້ອີກເຊັ່ນ: ອິນເຕີເນັດ, ອີເມລ໌, ແລະຢູທູບຜ່ານເຄືອຂ່າຍມືຖື. ດໍາເນີນການຕໍ່ບໍ?</string>
+    <string name="data_usage_disable_mobile_vzw_1">ນອກຈາກວ່າທ່ານໃຊ້ Wi-Fi, ທ່ານຈະບໍ່ສາມາດໃຊ້ອິນເຕີເນັດ, ອີເມລ໌ ຫຼືແອັບອື່ນໆທີ່ຕ້ອງການການເຊື່ອມຕໍ່ຂໍ້ມູນ.</string>
+    <string name="data_usage_disable_mobile_vzw_2">ປິດການເຊື່ອມຕໍ່ຂໍ້ມູນມືຖື?</string>
+    <string name="data_usage_disable_mobile_vzw">"ນອກຈາກວ່າທ່ານໃຊ້ Wi-Fi, ທ່ານຈະບໍ່ສາມາດໃຊ້ອິນເຕີເນັດ, ອີເມລ໌ ຫຼືແອັບອື່ນໆທີ່ຕ້ອງການການເຊື່ອມຕໍ່ຂໍ້ມູນ.
+
+ຂໍ້ມູນມືຖືຈະຖືກປິດໃຊ້ງານ."</string>
+    <string name="mobile_data_connect">ເຊື່ອມຕໍ່</string>
+    <string name="mobile_data_connection_dialog_text">ການເຊື່ອມຕໍ່ຂໍ້ມູນມືຖືຖືກປິດໃຊ້ງານໃນປະຈຸບັນ. ທ່ານຈໍາເປັນຕ້ອງເຊື່ອມຕໍ່ຂໍ້ມູນມືຖື ເພື່ອໃຊ້ແອບຂໍ້ມູນເຊັ່ນ: ບຣາວເຊີ, ອີເມລ໌, ແລະຢູທູບຜ່ານເຄືອຂ່າຍມືຖື. ທ່ານຕ້ອງການເຊື່ອມຕໍ່ບໍ?</string>
+    <string name="mobile_data_enable_toast_text">ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍໂທລະສັບມືຖື ໃນຂະນະທີ່ໄດ້ເປີດໃຊ້ໂໝດການບິນຢູ່. ປິດໃຊ້ໂໝດການບິນ ແລະລອງໃໝ່ອີກ.</string>
+    <string name="warning_alert_check">ບໍ່ຕ້ອງສະແດງອີກ</string>
+    <string name="blocking_mode_enable">ເມື່ອໂໝດນີ້ຖືກເປີດໃຊ້ງານ, ການແຈ້ງບອກສຳລັບຟີເຈີທີ່ໄດ້ເລືອກໄວ້ຈະຖືກປິດໃຊ້ງານ. ທ່ານຈະໄດ້ຮັບແຕ່ການແຈ້ງບອກສາຍໂທເຂົ້າຈາກຜູ້ທີ່ຢູ່ໃນລາຍການທີ່ໄດ້ຮັບອະນຸຍາດຈາກທ່ານເທົ່ານັ້ນ.</string>
+    <string name="blocking_mode_enable_for_grid_settings">ໂໝດບລັອກປິດໃຊ້ງານການແຈ້ງເຕືອນສໍາລັບຟີເຈີທີ່ເລືອກໄວ້. ເມື່ອສາຍໂທເຂົ້າມາຖືກບລັອກ, ທ່ານຈະໄດ້ຮັບການແຈ້ງສາຍເຂົ້າຈາກຄົນທີ່ຢູ່ໃນລາຍການຜູ້ຕິດຕໍ່ທີ່ໄດ້ຮັບອະນຸຍາດຂອງທ່ານເທົ່ານັ້ນ. ເພື່ອປ່ຽນໂໝດການບລັອກການຕັ້ງຄ່າຂອງທ່ານ, ໄປທີ່ການຕັ້ງຄ່າ > ການເຮັດເປັນສ່ວນຕົວ > ໂໝດບລັອກ.</string>
+    <string name="blocking_mode_enable_wifi">ເມື່ອໄດ້ເປີດໃຊ້ງານໂໝດນີ້, ການແຈ້ງບອກສໍາລັບຟີເຈີທີ່ໄດ້ເລືອກໄວ້ຈະຖືກປິດໃຊ້ງານ.</string>
+    <string name="blocking_mode_title">"ໂໝດ
+ບລັອກ"</string>
+    <string name="dormant_mode_off_message">ເພື່ອເປີດໃຊ້ງານໂໝດການບລັອກ, ຢ່າງນ້ອຍໃຫ້ເປີດໃຊ້ງານທາງເລືອກໜຶ່ງຢູ່ລຸ່ມນີ້.</string>
+    <string name="driving_mode_title">ໂໝດບໍ່ໃຊ້ມືຈັບ</string>
+    <string name="driving_mode_on_dialog_msg_1">ໂໝດບໍ່ໃຊ້ມືຈັບຕ້ອງຖືກປິດໃຊ້ງານຢູ່ໃນການຕັ້ງຄ່າ ຫຼັງຈາກທີ່ທ່ານໄດ້ປິດການບໍ່ໃຊ້ມືຈັບ S Voice. ຖ້າໂໝດບໍ່ໃຊ້ມືຈັບຍັງເປີດໃຊ້ງານຢູ່, ການແຈ້ງເຕືອນ ແລະຂໍ້ມູນສາຍໂທເຂົ້າຍັງຈະຖືກອ່ານອອກມາໂດຍອັດຕະໂນມັດ.</string>
+    <string name="driving_mode_on_dialog_msg_2">ທ່ານສາມາດປິດໂໝດບໍ່ໃຊ້ມືຈັບໄດ້ໂດຍການເວົ້າຄໍາວ່າ “ປິດໂໝດບໍ່ໃຊ້ມືຈັບ” ຢູ່ໃນການບໍ່ໃຊ້ມືຈັບ S Voice, ຫຼືໂດຍການໄປຫາການຕັ້ງຄ່າ ຫຼືຖາດແຈ້ງເຕືອນ.</string>
+    <string name="insert_sim_card">ໃສ່ແຜ່ນ SIM</string>
+    <string name="insert_sim_card_message">ໃສ່ແຜ່ນ SIM ເຂົ້າໄປ ເພື່ອເຂົ້າຫາການບໍລິການເຄືອຂ່າຍ.</string>
+    <string name="wifi_enable_warning">ການເປີດ Wi-Fi ຈະປິດໃຊ້ຮັອດສປັອດ Wi-Fi ແບບພົກພາ. ດໍາເນີນການຕໍ່ບໍ?</string>
+    <string name="wifi_ap_turning_off">ກໍາລັງປິດໃຊ້ງານຮັອດສປັອດ Wi-Fi ແບບພົກພາ…</string>
+    <string name="no_sim_notification_title">ບໍ່ມີ SIM</string>
+    <string name="no_sim_notification_title_tmo">ບໍ່ໄດ້ໃສ່ແຜ່ນ SIM ເຂົ້າໄປ.</string>
+    <string name="no_sim_notification_text">ໃສ່ແຜ່ນ SIM.</string>
+    <string name="accessibility_power_saving_mode">ເພື່ອເປີດໃຫ້ໂໝດປະຢັດໄຟໃຊ້ງານໄດ້, ຕ້ອງເປີດຕົວເຮັດໜ້າທີ່ຢ່າງໜ້ອຍນຶ່ງຕົວ.</string>
+    <string name="accessibility_power_saving_mode_title">ໂໝດປະຢັດໄຟ</string>
+    <string name="accessibility_driving_mode">ເພື່ອເປີດໃຊ້ງານໂໝດບໍ່ໃຊ້ມືຈັບ, ເປີດໃຊ້ງານຟັງຄ໌ຊັນທີ່ກ່ຽວຂ້ອງຢ່າງໜ້ອຍໜຶ່ງອັນ.</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Network restriction mode will be disabled.</string>
+    <string name="charging_interruption_title">ບໍ່ສາມາດສາກໄດ້</string>
+    <string name="charging_interruption_by_terminal_open_text">ບໍ່ສາມາດສາກເຄື່ອງຂອງທ່ານໄດ້. ໃຫ້ແນ່ໃຈວ່າ ທ່ານກໍາລັງໃຊ້ແບັດເຕີຣີ ແລະເຄື່ອງສາກທີ່ເຂົ້າກັບຊໍາຊຸງ ແລະເຄື່ອງຂອງທ່ານໄດ້ເຊື່ອມຕໍ່ກັບເຄື່ອງສາກຢ່າງຖືກຕ້ອງ.</string>
+    <string name="charging_interruption_by_too_high_temperature_text">ການສາກຢຸດຊົ່ວຄາວ. ອຸນຫະພູມແບັດເຕີຣີສູງໂພດ.</string>
+    <string name="charging_interruption_by_too_low_temperature_text">ການສາກຢຸດຊົ່ວຄາວ. ອຸນຫະພູມແບັດເຕີຣີຕໍ່າໂພດ.</string>
+    <string name="charging_interruption_by_limit_high_temperature_text">"ເຄື່ອງຢຸດສາກແລ້ວ. ອຸນນະພູມແບັດເຕີຣີສູງເກີນໄປ. ໃຫ້ລະວັງ ເມື່ອຖອດເຄື່ອງສາກ. ມັນອາດຈະຮ້ອນ.
+
+ການຖອດ ແລະການຕໍ່ເຄື່ອງສາກຄືນອາດຈະເຮັດໃຫ້ການສາກສືບຕໍ່ສາກໄດ້ປົກກະຕິ. ຖ້າຍັງມີຄວາມຮ້ອນຢູ່ເກີນໄປ, ໃຫ້ຕິດຕໍ່ຫາຝ່າຍບໍລິການລູກຄ້າ ເນື່ອງຈາກອາດຈະມີຄວາມສ່ຽງຂອງໄຟໄໝ້ ຫຼືມີການບາດເຈັບ."</string>
+    <string name="full_battery_title">ຂໍ້ມູນ</string>
+    <string name="full_battery_text">"ແບັດເຕີຣີເຕັມແລ້ວ.
+ຖອດປັກອອກ."</string>
+    <string name="low_battery_title">ແບັດເຕີຣີອ່ອນ</string>
+    <string name="critical_low_battery_title">ແບັດເຕີຣີອ່ອນສຸດແລ້ວ</string>
+    <string name="low_battery_text">ຕໍ່ໃສ່ບ່ອນສຽບປລັກໄຟເພື່ອສາກເຄື່ອງ ແລະປິດແອັບທີ່ບໍ່ໄດ້ໃຊ້ຢູ່ໃນຕົວຈັດການໜ້າວຽກ. ການໃຊ້ຕໍ່ເນື່ອງໃນເວລາທີ່ສາກຢູ່ອາດຈະເຮັດໃຫ້ການສາກບໍ່ເຕັມປະສິດທິພາບ.</string>
+    <string name="low_battery_text_charged_via_ta">ປິດແອັບທີ່ບໍ່ໄດ້ໃຊ້ຢູ່ໃນຕົວຈັດການໜ້າວຽກ ການໃຊ້ຕໍ່ເນື່ອງໃນເວລາທີ່ສາກຢູ່ອາດຈະເຮັດໃຫ້ການສາກບໍ່ເຕັມປະສິດທິພາບ.</string>
+    <string name="low_battery_camera_warning_text">ຖ້າແບັດເຕີຣີຕົກລົງຕໍ່າກວ່າ %d%% ທ່ານຈະບໍ່ສາມາດເປີດກ້ອງຖ່າຍຮູບໄດ້.</string>
+    <string name="critical_low_battery_camera_warning_text">ບໍ່ສາມາດເປີດກ້ອງຖ່າຍຮູບໄດ້. ໄຟຂອງແບັດເຕີຣີມີ %d%% ຫຼືໜ້ອຍກ່ວາ.</string>
+    <string name="start_force_consume_battery_title">ແຈ້ງເຕືອນ</string>
+    <string name="start_force_consume_battery_text">ລໍຖ້າຈົນກວ່າມັນເຢັນລົງ ກ່ອນໃຊ້ເຄື່ອງຂອງທ່ານ.</string>
+    <string name="stop_force_consume_battery_title">ຂໍ້ມູນ</string>
+    <string name="stop_force_consume_battery_text">ເຄື່ອງເຢັນລົງແລ້ວ.</string>
+    <string name="wireless_charging_title">ກໍາລັງສາກໄວເລສຢູ່.</string>
+    <string name="cable_charging_title">ກໍາລັງສາກດ້ວຍສາຍເຄເບິ້ລ</string>
+    <string name="wireless_charging_text">ທ່ານໄດ້ວາງເຄື່ອງຢູ່ພາຍໃນຂອບເຂດ. ດຽວນີ້ກໍາລັງສາກແບບໄຮ້ສາຍ…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">ການສັບປ່ຽນຈາກການສາກດ້ວຍໄວເລສໄປເປັນການສາກດ້ວຍສາຍສຽບ</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">ການສັບປ່ຽນຈາກການສາກດ້ວຍສາຍສຽບໄປເປັນການສາກດ້ວຍໄວເລສ</string>
+    <string name="wireless_charging_spen_warning_text">ປະຈຸບັນເຄື່ອງຂອງທ່ານກໍາລັງສາກແບບໄຮ້ສາຍຢູ່. S Pen ອາດຈະບໍ່ເຮັດວຽກພາຍໃນຂອບເຂດຂອງເຄື່ອງສາກໄຮ້ສາຍ.</string>
+    <string name="incompatible_charger_title">ບໍ່ສາກ</string>
+    <string name="incompatible_charger_dialog_text">ເຄື່ອງສາກທີ່ເຊື່ອມຕໍ່ບໍ່ເຂົ້າກັນໄດ້ກັບໂທລະສັບໜ່ວຍນີ້. ເພື່ອປ້ອງກັນບໍ່ໃຫ້ໂທລະສັບຂອງທ່ານເພ, ໃຫ້ເຊົາໃຊ້ເຄື່ອງສາກ. ເພື່ອສືບຕໍ່ສາກນັ້ນ, ໃຫ້ໃຊ້ເຄື່ອງສາກແທ້ ແລະສາຍຕໍ່ທີ່ເອົາໃຫ້ມາກັບໂທລະສັບນີ້.</string>
+    <string name="incompatible_charger_dialog_text_for_tablet">The connected charger is incompatible with this tablet. To prevent damage to your tablet, charging has been stopped. To continue charging, use the original charger and cable that were provided with this tablet.</string>
+    <string name="incompatible_charger_notification_text">ສາກບໍ່ໄດ້. ໃຊ້ເຄື່ອງສາກແທ້.</string>
+    <string name="slow_charging_title">ສາກຊ້າ</string>
+    <string name="slow_charging_dialog_text">ເຄື່ອງສາກທີ່ເຊື່ອມຕໍ່ນັ້ນຈະໃຊ້ເວລາສາກດົນກວ່າ. ເພື່ອໃຫ້ສາກໄວຂຶ້ນນັ້ນ, ໃຫ້ໃຊ້ເຄື່ອງສາກແທ້ ແລະສາຍຕໍ່ທີ່ເອົາໃຫ້ມາກັບໂທລະສັບນີ້.</string>
+    <string name="slow_charging_dialog_text_for_tablet">ເຄື່ອງສາກທີ່ຕໍ່ໃສ່ນັ້ນແມ່ນຈະໃຊ້ເວລາດົນທີ່ຈະສາກມັນ ຫຼືອາດຈະບໍ່ສາກເລີຍ. ເພື່ອໃຫ້ສາກໄວຂຶ້ນນັ້ນ, ໃຫ້ໃຊ້ເຄື່ອງສາກແທ້ ແລະສາຍຕໍ່ທີ່ເອົາໃຫ້ມາກັບແທັບເລັດນີ້.</string>
+    <string name="slow_charging_notification_text">ເພື່ອໃຫ້ສາກໄວຂຶ້ນນັ້ນ, ໃຫ້ໃຊ້ເຄື່ອງສາກແທ້</string>
+    <string name="slow_charging_toast_text">To charge faster, use the charger and cable that were provided with this phone</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="water_damage_warning_title">ກວດເບິ່ງຝາປົກການສາກ</string>
+    <string name="water_damage_warning_text">ເພື່ອການປົກປ້ອງຄວາມເສຍຫາຍຈາກນໍ້າ, ປິດຝາປິດການສາກໃຫ້ດີກ່ອນນໍາໃຊ້.</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">ປິດເຄື່ອງ</string>
+    <string name="overheat_poweroff_warning_text">ເຄື່ອງຂອງທ່ານກໍາລັງຮ້ອນເກີນໄປ. ມັນຈະປິດ ເພື່ອໃຫ້ເຄື່ອງເຢັນລົງ.</string>
+    <string name="overheat_poweroff_warning_button_text">ຢ່າມອດເຄື່ອງ</string>
+    <string name="overheat_poweroff_notice_title">ເຄື່ອງປິດໂດຍອັດຕະໂນມັດແລ້ວ</string>
+    <string name="overheat_poweroff_notice_text">"ເຄື່ອງຂອງທ່ານຮ້ອນເກີນໄປ. ມັນປິດ ເພື່ອປ້ອງກັນຄວາມເສຍຫາຍ.
+
+ການມີຄວາມຮ້ອນເກີນສາມາດເກີດຂຶ້ນໂດຍ:
+ການໃຊ້ແອພພລິເຄຊັນທີ່ເນັ້ນໃສ່ກຣາບຟິກ, ເຊັ່ນ ເກມ ແລະແອພພລິເຄຊັນນໍາທິດທາງເປັນເວລາດົນ.
+ການສົ່ງໄຟລ໌ໃຫຍ່.
+ການໃຊ້ເຄື່ອງຂອງທ່ານຢູ່ສະພາບແວດລ້ອມທີ່ມີຄວາມຮ້ອນ."</string>
+    <string name="power_sharing_warning_title">ການແຊຣ໌ໄຟ</string>
+    <string name="power_sharing_warning_text">ໄຟແບັດເຕີຣີຂອງທ່ານຕໍ່າກວ່າຂີດຈໍາກັດການແຊຣ໌ໄຟ. ເພື່ອສືບຕໍ່ແຊຣ໌ໄຟ, ປັບປ່ຽນຂີດຈໍາກັດການແຊຣ໌ໄຟໃຫ້ຕໍ່າກວ່າກະແສໄຟແບັດເຕີຣີປະຈຸບັນ.</string>
+    <string name="power_sharing_start_toast_text">ກໍາລັງເລີ່ມຕົ້ນແຊຣ໌ໄຟ…</string>
+    <string name="power_sharing_end_notification_text">ການແຊຣ໌ໄຟຈົບໄປແລ້ວ. ຖອດສາຍເຄເບິ້ລອອກ.</string>
+    <string name="face_detection_failure_text">ພັກໜ້າຈໍອັດສະລິຍະບໍ່ສາມາດກວດຫາຕາຂອງທ່ານໄດ້.</string>
+    <string name="status_bar_recent_launch_task_manager_title">ຕົວຈັດການໜ້າວຽກ</string>
+    <string name="status_bar_recent_launch_google_button">ກຸກເກິລ</string>
+    <string name="status_bar_recent_remove_all_button">ປິດທັງໝົດ</string>
+    <string name="screen_capture_fail_for_storage_capacity">ບ່ອນເກັບຂໍ້ມູນເຄື່ອງເຕັມ. ລຶບບາງລາຍການອອກ.</string>
+    <string name="no_such_item">ບໍ່ສາມາດຊອກຫາລາຍການໄດ້.</string>
+    <string name="pickup_tutorial_title">ທົດລອງການເຕືອນອັດສະລິຍະ</string>
+    <string name="put_your_phone">ຫຼັງຈາກວາງເຄື່ອງຂອງທ່ານລົງ, ໜ້າຈໍຈະມອດ.</string>
+    <string name="phone_detect">ສົມມຸດວ່າທ່ານມີສາຍໂທທີ່ບໍ່ໄດ້ຮັບ ແລະຂໍ້ຄວາມທີ່ບໍ່ໄດ້ອ່ານ. ວາງເຄື່ອງຂອງທ່ານລົງ, ຈາກນັ້ນຈັບມັນຂຶ້ນມາອີກ ເມື່ອໜ້າຈໍປິດແລ້ວ.</string>
+    <string name="pick_up_your_phone">ຮັບເອົາເຄື່ອງຂອງທ່ານ</string>
+    <string name="tutorial_complete">ການແນະນໍາສໍາເລັດ.</string>
+    <string name="camera_alert">ບໍ່ສາມາດເປີດກ້ອງໄດ້ໃນລະຫວ່າງໂທ.</string>
+    <string name="stms_version">SM-G900F_EUR_20140228_0507</string>
+    <string name="wifi_cw_ready">China Telecom WLAN connected</string>
+    <string name="wifi_cw_ready_message">You have access to China Telecom WLAN network, consult 10000 to understand billing information, please turn off when not use</string>
+    <string name="location_title">ຄໍາຍິນຍອມ GPS ຢ່າງດຽວ</string>
+    <string name="location_3rdparty_gps_dialogtext">ໂດຍເລືອກການຕັ້ງຄ່ານີ້, ທ່ານຈະອະນຸຍາດໃຫ້ເຂົ້າເຖິງທຸກຂໍ້ມູນສະຖານທີ່ໂດຍຝ່າຍທີສາມຜ່ານການເຂົ້າຫາເວັບ ຫຼືຊອບແວໃດໜຶ່ງ ຫຼືອົງປະກອບຮອບນອກທີ່ທ່ານເລືອກຕິດຕັ້ງ, ດາວໂຫຼດ, ເພີ່ມ/ຫຼືຄັດຕິດໃສ່ເຄື່ອງ ຫຼືວິທີອື່ນ. ເປີດໃຊ້ງານການເຮັດໜ້າທີ່ຂອງຟັງຄ໌ຊັ່ນນີ້ ແມ່ນຈະມີຄວາມສ່ຽງສະເພາະຕໍ່ຜູ້ໃຊ້ເຄື່ອງນີ້. ການໃຊ້ຂໍ້ມູນຈະນໍາໃຊ້.</string>
+    <string name="agree">ເຫັນດີ</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="quickpanel_ctwap_text">CTWAP</string>
+    <string name="quickpanel_ctnet_text">CTNET</string>
+    <string name="tethering_attention_title">ຂໍ້ຄວນຄຳນຶງ</string>
+    <string name="tethering_wifi_off_warning">ການເປີດໃຊ້ຮັອດສປັອດ Wi-Fi ແມ່ນຈະປິດ Wi-Fi.</string>
+    <string name="quickpanel_air_view_warning">ເພື່ອເປີດໃຊ້ງານແອວິວ, ຢ່າງໜ້ອຍເປີດໃຊ້ງານໜຶ່ງຟັງຄ໌ຊັນ.</string>
+    <string name="quickpanel_air_view_warning_pen_support">ເພື່ອເປີດໃຊ້ງານການໃຊ້ງານໂດຍບໍ່ສໍາຜັດ, ຢ່າງໜ້ອຍໃຫ້ເປີດໃຊ້ງານໜຶ່ງຟັງຄ໌ຊັນຈາກໂໝດການໃຊ້ງານໂດຍບໍ່ສໍາຜັດທີ່ເລືອກໄວ້.</string>
+    <string name="quickpanel_air_gesture_warning">ເພື່ອເປີດໃຊ້ງານເກັດເຈີ, ຢ່າງໜ້ອຍຕ້ອງເປີດໃຊ້ງານຕົວເຮັດໜ້າທີ່ອັນໜຶ່ງ.</string>
+    <string name="quickpanel_air_gesture_warning_continue">ແຕະປຸ່ມການຕັ້ງຄ່າດ່ວນຄ້າງໄວ້ ເພື່ອໄປຫາການຕັ້ງຄ່າທີ່ກ່ຽວຂ້ອງ.</string>
+    <string name="roaming_title">ໂຣມມິງ</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="gps_donotshow">ບໍ່ຕ້ອງສະແດງອີກ</string>
+    <string name="quickpanel_brightess_level">ລະດັບ</string>
+    <string name="quickpanel_brightess_minus">ລຶບ</string>
+    <string name="reading_mode_title">ໂໝດອ່ານ</string>
+    <string name="reading_mode_alert">ໂໝດອ່ານຖືກເປີດໃຊ້ງານ. ດຽວນີ້ໜ້າຈໍຖືກຈັດໃຫ້ເໝາະສົມສໍາລັບການອ່ານແລ້ວ. ຈະມີໂໝດນີ້ຢູ່ພຽງແຕ່ໃນແອັບທີ່ໄດ້ເລືອກໄວ້ເທົ່ານັ້ນ.</string>
+    <string name="reading_mode_settings">ຕັ້ງຄ່າ</string>
+    <string name="automatic_brightness_message">ການຕັ້ງຄ່າຄວາມແຈ້ງອັດຕະໂນມັດໄດ້ຖືກນໍາໃຊ້ກັບໜ້າຈໍພາຍໃນເທົ່ານັ້ນ</string>
+    <string name="manual_brightness_message">ຄວາມແຈ້ງຖືກປັບເອົາເອງ. ຄວາມແຈ້ງຖືກປິດໃຊ້ງານອັດຕະໂນມັດ.</string>
+    <string name="flight_mode_message_for_wifi_only">ໂໝດການບິນອະນຸຍາດໃຫ້ທ່ານປິດຄໍາສັ່ງເຄືອຂ່າຍ, ລວມທັງ Wi-Fi ແລະບລູທູດ. ເພື່ອທີ່ຈະໃຊ້ Wi-Fi ແລະບລູທູດ, ເປີດພວກມັນຢູ່ໃນບ່ອນຕັ້ງຄ່າ ຫຼືແຜງການແຈ້ງເຕືອນ.</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tutorial_notification_panel_drag_down">ໃຊ້ນີ້ວມືນີ້ວໜຶ່ງເພື່ອດຶງແຖບສະຖານະລົງຈາກດ້ານເທິງຂອງໜ້າຈໍ.</string>
+    <string name="tutorial_notification_panel_drag_down_complete">ແຜງການແຈ້ງເຕືອນສະແດງຂຶ້ນ.</string>
+    <string name="tutorial_quick_panel_drag_down">ໃຊ້ນີ້ວມືສອງນີ້ວເພື່ອດຶງແຖບສະຖານະລົງຈາກດ້ານເທິງຂອງໜ້າຈໍ.</string>
+    <string name="tutorial_quick_panel_drag_down_complete">ແຜງການຕັ້ງຄ່າດ່ວນສະແດງຂຶ້ນ.</string>
+    <string name="tutorial_expand_notification_panel_drag_down">ໃຊ້ນີ້ວມືສອງນີ້ວເພື່ອດຶງບັນຊີອັນໜຶ່ງລົງຈາກແຜງການແຈ້ງເຕືອນ.</string>
+    <string name="tutorial_expand_notification_panel_drag_down_complete">ຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບລາຍການທີ່ໄດ້ເລືອກໄວ້ຈະຖືກສະແດງຂຶ້ນມາ.</string>
+    <string name="tutorial_invaild_action">ການດໍາເນີນການບໍ່ຖືກຕ້ອງ. ລອງໃໝ່ອີກ.</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="magnification_text_for_air_view_button">ທ່າທາງຂະຫຍາຍ</string>
+    <string name="smartbonding_dialog_title">ດາວໂຫຼດບູສເຕີ</string>
+    <string name="smartbonding_dialog_wifi_text">ດາວໂຫຼດໄຟລ໌ໃຫຍ່ (ເກີນ %d MB) ໄວກວ່າ ໂດຍການໃຊ້ເຄືອຂ່າຍ Wi-Fi ແລະ LTE ໃນເວລາດຽວກັນ. ຈື່ໄວ້ວ່າ ຂຶ້ນຢູ່ກັບສະຖານະຂອງການດາວໂຫຼດ, ດາວໂຫຼດບູສເຕີອາດຈະໃຊ້ແຕ່ເຄືອຂ່າຍ Wi-Fi ຫຼື LTE ເທົ່ານັ້ນ ເພື່ອດາວໂຫຼດໄຟລ໌.</string>
+    <string name="smartbonding_dialog_mobile_text">ດາວໂຫຼດໄຟລ໌ໃຫຍ່ (ເກີນ %d MB) ໄວກວ່າ ໂດຍການໃຊ້ເຄືອຂ່າຍ Wi-Fi ແລະ LTE ໃນເວລາດຽວກັນ. ຈື່ໄວ້ວ່າ ຂຶ້ນຢູ່ກັບສະຖານະຂອງການດາວໂຫຼດ, ດາວໂຫຼດບູສເຕີອາດຈະໃຊ້ແຕ່ເຄືອຂ່າຍ Wi-Fi ຫຼື LTE ເທົ່ານັ້ນ ເພື່ອດາວໂຫຼດໄຟລ໌.</string>
+    <string name="smart_bonding_popup_msg">ດາວໂຫຼດບູສເຕີຈະເປີດໃຊ້ງານ. ການດາວໂຫຼດຜ່ານເຄືອຂ່າຍມືຖືອາດຈະເຮັດໃຫ້ເສຍຄ່າໃຊ້ຈ່າຍເພີ່ມ ຂຶ້ນຢູ່ກັບແຜນການຊໍາລະຂອງທ່ານ.</string>
+    <string name="smart_bonding_popup_msg_wifi">Wi-Fi ແມ່ນປິດໃນປະຈຸບັນ. ເພື່ອເປີດໃຊ້ງານ ດາວໂຫຼດບູສເຕີ, ຕ້ອງເປີດທັງ Wi-Fi ແລະຂໍ້ມູນມືຖື. ການດາວໂຫຼດຜ່ານເຄືອຂ່າຍມືຖືອາດຈະເຮັດໃຫ້ເສຍຄ່າໃຊ້ຈ່າຍເພີ່ມ ຂຶ້ນຢູ່ກັບແຜນການຊໍາລະຂອງທ່ານ.</string>
+    <string name="smart_bonding_popup_msg_data">ຂໍ້ມູນມືຖືປິດໃນປະຈຸບັນ. ເພື່ອເປີດໃຊ້ງານ ດາວໂຫຼດບູສເຕີ, ຕ້ອງເປີດທັງ Wi-Fi ແລະຂໍ້ມູນມືຖື. ການດາວໂຫຼດຜ່ານເຄືອຂ່າຍມືຖືອາດຈະເຮັດໃຫ້ເສຍຄ່າໃຊ້ຈ່າຍເພີ່ມ ຂຶ້ນຢູ່ກັບແຜນການຊໍາລະຂອງທ່ານ.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Wi-Fi ແລະຂໍ້ມູນມືຖືປິດໃນປະຈຸບັນ. ເພື່ອເປີດໃຊ້ງານ ດາວໂຫຼດບູສເຕີ, ຕ້ອງເປີດທັງ Wi-Fi ແລະຂໍ້ມູນມືຖື. ການດາວໂຫຼດຜ່ານເຄືອຂ່າຍມືຖືອາດຈະເຮັດໃຫ້ເສຍຄ່າໃຊ້ຈ່າຍເພີ່ມ ຂຶ້ນຢູ່ກັບແຜນການຊໍາລະຂອງທ່ານ.</string>
+    <string name="smart_bonding_popup_msg_roaming">ບໍ່ສາມາດໃຊ້ດາວໂຫຼດບູສເຕີໄດ້ ໃນຂະນະທີ່ກໍາລັງໂຣມມິງ. ພວກເຮົາແນະນໍາໃຫ້ດາວໂຫຼດຜ່ານເຄືອຂ່າຍ Wi-Fi.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">ເປີດ Wi-Fi</string>
+    <string name="smart_bonding_popup_msg_data_btn">ເປີດຂໍ້ມູນມືຖື</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">ເປີດ Wi-Fi ແລະຂໍ້ມູນມືຖື</string>
+    <string name="smart_bonding_turn_off_text">ບໍ່ສາມາດໃຊ້ດາວໂຫຼດບູສເຕີໄດ້ໃນຂະນະທີ່ %1$s ເປີດໃຊ້ງານ. ປິດໃຊ້ງານ %2$s ແລະລອງໃໝ່ອີກ.</string>
+    <string name="smart_bonding_turn_off_text_airplane_mode">ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍໂທລະສັບມືຖື ໃນຂະນະທີ່ໄດ້ເປີດໃຊ້ໂໝດການບິນຢູ່. ປິດໃຊ້ໂໝດການບິນ ແລະລອງໃໝ່ອີກ.</string>
+    <string name="dialog_battery_data_warning">ຮັອດສປັອດ Wi-Fi ແບບພົກພາໃຊ້ໄຟແບັດເຕີຣີຫຼາຍ ແລະເພີ່ມການໃຊ້ຂໍ້ມູນຂອງທ່ານ. ດໍາເນີນການຕໍ່ບໍ?</string>
+    <string name="tether_settings_title_wifi">ຫັອດສປັອດເຄື່ອນທີ່</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">ແຈ້ງການ</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="cooling_title">ເຄື່ອງຮ້ອນເກີນໄປ</string>
+    <string name="cooling_body">"ເຄື່ອງຂອງທ່ານກໍາລັງຮ້ອນເກີນໄປ. ຂັ້ນຕອນທີ່ຈະຕ້ອງເຮັດ ເພື່ອໃຫ້ມັນເຢັນລົງ.
+
+ທ່ານຍັງສາມາດໃຊ້ເຄື່ອງຂອງທ່ານ, ແຕ່
+- ໜ້າຈໍອາດຈະມືດລົງ.
+- ເຄື່ອງອາດຈະຊ້າລົງ.
+- ການສາກອາດຈະຢຸດ.
+
+ການປິດແອັບປະຈຸບັນຈະຊ່ວຍເຮັດໃຫ້ເຄື່ອງຂອງທ່ານເຢັນລົງ.
+
+ຫຼັງຈາກເຄື່ອງເຢັນລົງ, ການໃຊ້ງານຈະກັບຄືນສູ່ສະພາບປົກກະຕິໂດຍອັດຕະໂນມັດ."</string>
+    <string name="cooling_noti_text">ແຕະທີ່ນີ້ເພື່ອເບິ່ງລາຍລະອຽດ.</string>
+    <string name="cooling_popup_name">ແຈ້ງເຕືອນ</string>
+    <string name="cooling_noti_title">ເຄື່ອງຮ້ອນເກີນໄປ</string>
+    <string name="btn_text_yes">ຕົກລົງ</string>
+    <string name="btn_text_no">ຍົກ​ເລີກ</string>
+    <string name="device_overheating">ເຄື່ອງຮ້ອນເກີນໄປ</string>
+    <string name="colling_noti_text_2">ບໍ່ສາມາດເປີດແອພພລິເຄຊັນໄດ້. ທ່ານສາມາດໃຊ້ໄດ້ແຕ່ແອພພລິເຄຊັນໂທລະສັບ ແລະຜູ້ຕິດຕໍ່ເທົ່ານັ້ນ.</string>
+    <string name="vol_panel_audio_settings">ປ່ຽນການຕັ້ງຄ່າສຽງຂອງທ່ານ.</string>
+    <string name="guest_launge_warning_toast_text">ບໍ່ສາມາດເປີດໃຊ້ງານ ຫຼືປິດໃຊ້ງານ %s ໄດ້ ໃນຂະນະທີ່ຢູ່ໃນໂໝດແຂກ.</string>
+    <string name="safe_mode_title_vzw">ປິດໂໝດຄວາມປອດໄພ</string>
+    <string name="safe_mode_popup_body_vzw">ທ່ານຕ້ອງການ ເລີ່ມຕົ້ນອີກເທື່ອຫນຶ່ງໂທລະສັບຂອງທ່ານເພື່ອເຮັດໃຫ້ໄປໂໝດຄວາມປອດໄພ? ທັງຫມົດຂອງກິດຂອງທ່ານຈະໄດ້ຮັບການຟື້ນຟູ.</string>
+    <string name="safe_mode_btn_cancel_vzw">ຍົກ​ເລີກ</string>
+    <string name="safe_mode_off_btn_vzw">ປິດໂໝດຄວາມປອດໄພ</string>
+    <string name="safe_mode_noti_on_vzw">ໂໝດຄວາມປອດໄພນີ້ແມ່ນກ່ຽວກັບ</string>
+    <string name="safe_mode_noti_body_vzw">ທໍ່ກັບປິດໂໝດຄວາມປອດໄພ</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">ແຕະທີ່ນີ້ ເພື່ອຮຽນຮູ້ເພີ່ມເຕີມ.</string>
+    <string name="cooling_popup_name_VZW">ການແຈ້ງເຕືອນ</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">ຕົກລົງ</string>
+    <string name="btn_text_no_VZW">ຍົກ​ເລີກ</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance will Automatically go back to normal."</string>
+    <string name="recent_menukey_press_description">ກົດປຸ່ມເມື່ອບໍ່ດົນນີ້ຄ້າງໄວ້ ເພື່ອເບິ່ງເມນູ.</string>
+    <string name="recent_menukey_press_description_vzw">ປຸ່ມເມນູຖືກປ່ຽນແທນໂດຍປຸ່ມປະຈຸບັນ ເພື່ອເຮັດໃຫ້ທ່ານປ່ຽນແອພພລິເຄຊັນທີ່ທ່ານໃຊ້ເມື່ອບໍ່ໄດ້ມານີ້ໄດ້ຢ່າງໄວ. ແຕະຊ່ວຍເຫຼືອ ເພື່ອເບິ່ງຂໍ້ມູນເພີ່ມເຕີມ.</string>
+    <string name="recent_menukey_help_button">ຊ່ວຍເຫຼືອ</string>
+</resources>

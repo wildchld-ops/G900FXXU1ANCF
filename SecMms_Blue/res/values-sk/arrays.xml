@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&amp;lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Šťastný</item>
+        <item>Smutný</item>
+        <item>Žmurkanie</item>
+        <item>Vyplazený jazyk</item>
+        <item>Prekvapený</item>
+        <item>Bozkávanie</item>
+        <item>Výkrik</item>
+        <item>Pokojný</item>
+        <item>Držgroš</item>
+        <item>Noha v ústach</item>
+        <item>Rozpaky</item>
+        <item>Anjel</item>
+        <item>Nerozhodnosť</item>
+        <item>Plač</item>
+        <item>Pery sú zavreté</item>
+        <item>Smiech</item>
+        <item>Rozpačitosť</item>
+        <item>Srdce</item>
+        <item>Šialenstvo</item>
+        <item>Úškľabok</item>
+        <item>Kamenná tvár</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Použiť veľk. písiem zar.</item>
+        <item>Veľmi malé</item>
+        <item>Malé</item>
+        <item>Normálne</item>
+        <item>Veľké</item>
+        <item>Veľmi veľké</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Použiť veľk. písiem zar.</item>
+        <item>Drobné</item>
+        <item>Veľmi malé</item>
+        <item>Malé</item>
+        <item>Stredné</item>
+        <item>Veľké</item>
+        <item>Veľmi veľké</item>
+        <item>Obrovské</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Všetky kanály</item>
+        <item>Môj kanál</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Abeceda GSM</item>
+        <item>Unicode</item>
+        <item>Automaticky</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 dní</item>
+        <item>1 deň</item>
+        <item>2 dni</item>
+        <item>3 dni</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Zakázané</item>
+        <item>Varovanie</item>
+        <item>Voľné</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Vždy</item>
+        <item>Vyzvať</item>
+        <item>Nikdy</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Papierové skladačky</item>
+        <item>Označenie</item>
+        <item>Pop</item>
+        <item>Moderné</item>
+        <item>Ružová</item>
+        <item>Predvolené</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Raz</item>
+        <item>Každé 2 minúty</item>
+        <item>Každých 15 minút</item>
+        <item>Vyp.</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Nikdy</item>
+        <item>Každé 2 minúty</item>
+        <item>Každých 10 minút</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Domáce</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 hodina</item>
+        <item>6 hodín</item>
+        <item>24 hodín</item>
+        <item>2 dni</item>
+        <item>Predvolené sieťou</item>
+        <item>Maximum</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Vysoká</item>
+        <item>Normálne</item>
+        <item>Nízka</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Okamžite</item>
+        <item>1 hodina</item>
+        <item>6 hodín</item>
+        <item>24 hodín</item>
+        <item>1 týž.</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 sekundy</item>
+        <item>5 sekúnd</item>
+        <item>10 sekúnd</item>
+        <item>20 sekúnd</item>
+        <item>30 sekúnd</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Vyp.</item>
+        <item>Blokovať všetky správy</item>
+        <item>Blokovať registrované čísla a frázy</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Presne rovnaké ako</item>
+        <item>Začína na</item>
+        <item>Končí na</item>
+        <item>Obsahuje</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Denníky</item>
+        <item>Kontakty</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Blokovanie správ</item>
+        <item>Blokovanie hovorov</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Blokovanie správ</item>
+        <item>Blokovanie hlas. hovorov</item>
+        <item>Blokovanie videohovorov</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Rezervované.</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Normál.</item>
+        <item>Vysoká</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Ľutujem, nepodarilo sa mi prijať tvoj hovor.</item>
+        <item>Meškám, ale budem tam o pár minút.</item>
+        <item>Ako sa máš?</item>
+        <item>Čo sa deje?</item>
+        <item>Kde si?</item>
+        <item>Zavolaj mi, keď dostaneš túto správu.</item>
+        <item>Kedy sa môžeme stretnúť?</item>
+        <item>Čoskoro sa porozprávame.</item>
+        <item>Kde sa koná stretnutie?</item>
+        <item>Aké číslo?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Brazílska portugalčina</item>
+        <item>Angličtina (britská)</item>
+        <item>Angličtina (USA)</item>
+        <item>Francúzština</item>
+        <item>Nemčina</item>
+        <item>Taliančina</item>
+        <item>Japončina</item>
+        <item>Kórejčina</item>
+        <item>Zjednodušená čínština</item>
+        <item>Ruština</item>
+        <item>Španielčina</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Veľmi malé</item>
+        <item>Malé</item>
+        <item>Normálne</item>
+        <item>Veľké</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Všetky</item>
+        <item>Odosielateľ</item>
+        <item>Obsah</item>
+    </string-array>
+</resources>

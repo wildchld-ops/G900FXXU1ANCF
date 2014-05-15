@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_password_enter_pin_code">Մուտքագրեք PIN կոդը</string>
+    <string name="keyguard_password_enter_puk_code">Մուտքագրեք PUK-ը և նոր PIN կոդը</string>
+    <string name="keyguard_password_enter_puk_prompt">PUK կոդ</string>
+    <string name="keyguard_password_enter_pin_prompt">Նոր PIN ծածկագիր</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Հպեք` գաղտնաբառը մուտքագրելու համար</font></string>
+    <string name="keyguard_password_enter_password_code">Մուտքագրեք գաղտնաբառը ապակողպման համար</string>
+    <string name="keyguard_password_enter_pin_password_code">Մուտքագրեք PIN-ը ապակողպման համար</string>
+    <string name="keyguard_password_wrong_pin_code">Սխալ PIN ծածկագիր:</string>
+    <string name="keyguard_label_text">Ապակողպման համար սեղմեք Ցանկ, ապա 0:</string>
+    <string name="faceunlock_multiple_failures">Առավելագույն Դեմքով ապակողպման փորձերը գերազանցված են</string>
+    <string name="keyguard_charged">Լիցքավորված է</string>
+    <string name="keyguard_plugged_in">Լիցքավորում, %d%%</string>
+    <string name="keyguard_low_battery">Միացրեք ձեր լիցքավորիչը:</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Ապակողպելու համար սեղմեք Ցանկը:</string>
+    <string name="keyguard_network_locked_message">Ցանցը կողպված է</string>
+    <string name="keyguard_missing_sim_message_short">SIM քարտ չկա</string>
+    <string name="keyguard_missing_sim_message">Հեռախոսի մեջ SIM քարտ չկա:</string>
+    <string name="keyguard_missing_sim_instructions">Զետեղեք SIM քարտը:</string>
+    <string name="keyguard_missing_sim_instructions_long">SIM քարտը բացակայում է կամ չի կարող կարդացվել: Մտցրեք SIM քարտ:</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">Անպիտան SIM քարտ:</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"Ձեր SIM քարտը ընդմիշտ կասեցվել է:
+Կապվեք ձեր բջջային ծառայության մատակարարի հետ նոր SIM քարտ ձեռք բերելու համար:"</string>
+    <string name="keyguard_sim_locked_message">SIM քարտը կողպված է:</string>
+    <string name="keyguard_sim_puk_locked_message">SIM քարտը PUK-ով կողպված է:</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">SIM քարտը ապակողպվում է...</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. Վիջեթ %2$d of %3$d:</string>
+    <string name="keyguard_accessibility_add_widget">Ավելացնել վիջեթ:</string>
+    <string name="keyguard_accessibility_widget_empty_slot">Դատարկ</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">Ապակողպման տարածքն ընդլայնված է:</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">Ապակողպման տարածքը ետ է ծալված:</string>
+    <string name="keyguard_accessibility_widget">%1$s վիջեթ:</string>
+    <string name="keyguard_accessibility_user_selector">Օգտվողի ընտրիչ</string>
+    <string name="keyguard_accessibility_status">Կարգավիճակ</string>
+    <string name="keyguard_accessibility_camera">Ֆոտոխցիկ</string>
+    <string name="keygaurd_accessibility_media_controls">Մեդիա կարգավորումներ</string>
+    <string name="keyguard_accessibility_widget_reorder_start">Վիջեթների վերադասավորումը մեկնարկել է:</string>
+    <string name="keyguard_accessibility_widget_reorder_end">Վիջեթի վերադասավորումն ավարտվեց:</string>
+    <string name="keyguard_accessibility_widget_deleted">Վիջեթ %1$s-ը ջնջված է:</string>
+    <string name="keyguard_accessibility_expand_lock_area">Ընդլայնել ապակողպման տարածությունը:</string>
+    <string name="keyguard_accessibility_slide_unlock">Էջի ապակողպում:</string>
+    <string name="keyguard_accessibility_pattern_unlock">Սխեմայով ապակողպում:</string>
+    <string name="keyguard_accessibility_face_unlock">Դեմքով ապակողպում:</string>
+    <string name="keyguard_accessibility_pin_unlock">Pin-ն ապակողպված է:</string>
+    <string name="keyguard_accessibility_password_unlock">Գաղտնաբառի ապակողպում:</string>
+    <string name="keyguard_accessibility_pattern_area">Սխեմայի տարածք:</string>
+    <string name="keyguard_accessibility_slide_area">Սահեցման տարածք:</string>
+    <string name="keyguard_accessibility_transport_prev_description">Նախորդ հետագծի կոճակը</string>
+    <string name="keyguard_accessibility_transport_next_description">Հաջորդ հետագծի կոճակը</string>
+    <string name="keyguard_accessibility_transport_pause_description">Դադարի կոճակ</string>
+    <string name="keyguard_accessibility_transport_play_description">Նվագարկման կոճակ</string>
+    <string name="keyguard_accessibility_transport_stop_description">Կանգի կոճակ</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Լավն է</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Լավը չէ</string>
+    <string name="keyguard_accessibility_transport_heart_description">Սիրտ</string>
+    <string name="keyguard_accessibility_show_bouncer">Շարունակելու համար ապակողպեք</string>
+    <string name="keyguard_accessibility_hide_bouncer">Գործարկումը չեղարկվեց</string>
+    <string name="keyguard_accessibility_delete_widget_start">%1$s վիջեթը ջնջելու համար բաց թողեք այն այստեղ:</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s վիջեթը չի ջնջվի:</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">Չեղարկել</string>
+    <string name="keyboardview_keycode_delete">Ջնջել</string>
+    <string name="keyboardview_keycode_done">Կատարված է</string>
+    <string name="keyboardview_keycode_mode_change">Ռեժիմի փոփոխում</string>
+    <string name="keyboardview_keycode_shift">Shift</string>
+    <string name="keyboardview_keycode_enter">Մուտք</string>
+    <string name="description_target_unlock">Ապակողպել</string>
+    <string name="description_target_camera">Ֆոտոխցիկ</string>
+    <string name="description_target_silent">Լուռ</string>
+    <string name="description_target_soundon">Ձայնը միացնել</string>
+    <string name="description_target_search">Որոնել</string>
+    <string name="description_direction_up">Սահեցրեք վերև %s-ի համար:</string>
+    <string name="description_direction_down">Սահեցրեք ցած %s-ի համար:</string>
+    <string name="description_direction_left">Սահեցրեք ձախ` %s-ի համար:</string>
+    <string name="description_direction_right">Սահեցրեք աջ` %s-ի համար:</string>
+    <string name="user_switched">Ներկայիս օգտվողը %1$s:</string>
+    <string name="kg_emergency_call_label">Արտակարգ իրավիճակի հեռախոսազանգ</string>
+    <string name="kg_forgot_pattern_button_text">Մոռացել եմ սխեման</string>
+    <string name="kg_wrong_pattern">Սխալ սխեմա</string>
+    <string name="kg_wrong_password">Սխալ գաղտնաբառ</string>
+    <string name="kg_wrong_pin">Սխալ PIN</string>
+    <string name="kg_too_many_failed_attempts_countdown">Փորձեք կրկին %d վայրկյանից:</string>
+    <string name="kg_pattern_instructions">Հավաքեք ձեր սխեման</string>
+    <string name="kg_sim_pin_instructions">Մուտքագրեք SIM-ի PIN-ը</string>
+    <string name="kg_pin_instructions">Մուտքագրեք PIN-ը</string>
+    <string name="kg_password_instructions">Մուտքագրեք գաղտնաբառը</string>
+    <string name="kg_puk_enter_puk_hint">SIM-ը այս պահին անջատված է: Մուտքագրեք PUK կոդը շարունակելու համար: Մանրամասների համար կապվեք օպերատորի հետ:</string>
+    <string name="kg_puk_enter_pin_hint">Մուտքագրեք ցանկալի PIN ծածկագիրը</string>
+    <string name="kg_enter_confirm_pin_hint">Հաստատեք ցանկալի PIN ծածկագիրը</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Ապակողպում է SIM քարտը ...</string>
+    <string name="kg_password_wrong_pin_code">Սխալ PIN ծածկագիր:</string>
+    <string name="kg_invalid_sim_pin_hint">Մուտքագրեք PIN, որը 4-ից 8 թիվ է:</string>
+    <string name="kg_invalid_sim_puk_hint">PUK կոդը պետք է լինի 8 կամ ավելի թիվ:</string>
+    <string name="kg_invalid_puk">Վերամուտքագրեք ճիշտ PUK ծածկագիրը: Կրկնվող փորձերը ընդմիշտ կկասեցնեն SIM քարտը:</string>
+    <string name="kg_invalid_confirm_pin_hint">PIN ծածկագրերը չեն համընկնում</string>
+    <string name="kg_login_too_many_attempts">Չափից շատ սխեմայի փորձեր</string>
+    <string name="kg_login_instructions">Ապակողպելու համար` մուտք գործեք ձեր Google հաշվով:</string>
+    <string name="kg_login_username_hint">Օգտանուն (էլփոստ)</string>
+    <string name="kg_login_password_hint">Գաղտնաբառը</string>
+    <string name="kg_login_submit_button">Մուտք գործել</string>
+    <string name="kg_login_invalid_input">Սխալ օգտանուն կամ գաղտնաբառ:</string>
+    <string name="kg_login_account_recovery_hint">"Մոռացե՞լ եք ձեր օգտանունը կամ գաղտնաբառը:
+Այցելեք "<b>google.com /accounts/recovery</b>:</string>
+    <string name="kg_login_checking_password">Հաշիվը ստուգվում է...</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Դուք %d անգամ սխալ եք մուտքագրել ձեր PIN-ը: 
+
+Փորձեք կրկին %d վայրկյանից:"</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Դուք սխալ եք մուտքագրել ձեր գաղտնաբառը %d անգամ: 
+
+Փորձեք կրկին %d վայրկյանից:"</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Դուք %d անգամ սխալ եք հավաքել ձեր ապակողպման սխեման: 
+
+Փորձեք կրկին %d վայրկյանից:"</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">Դուք %d անգամ սխալ փորձ եք արել հեռախոսն ապակողպելու համար: %d անգամից ավել անհաջող փորձերից հետո հեռախոսը կվերակարգավորվի գործարանային լռելյայնի, և օգտվողի բոլոր տվյալները կկորեն:</string>
+    <string name="kg_failed_attempts_now_wiping">Դուք %d անգամ սխալ փորձ եք արել հեռախոսն ապակողպելու համար: Հեռախոսն այժմ կվերակարգավորվի գործարանային լռելյայնի:</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"Դուք %d անգամ սխալ եք հավաքել ձեր ապակողպման նմուշը: %d անգամից ավել անհաջող փորձերից հետո ձեզ կառաջարկվի ապակողպել ձեր հեռախոսը` օգտագործելով էլփոստի հաշիվ:
+
+ Փորձեք կրկին %d վայրկյանից:"</string>
+    <string name="kg_text_message_separator">" — "</string>
+    <string name="kg_reordering_delete_drop_target_text">Հեռացնել</string>
+    <string name="keyguard_transport_prev_description">Նախորդ հետագծի կոճակ</string>
+    <string name="keyguard_transport_next_description">Հաջորդ հետագծի կոճակ</string>
+    <string name="keyguard_transport_pause_description">Դադարի կոճակ</string>
+    <string name="keyguard_transport_play_description">Նվագարկման կոճակ</string>
+    <string name="keyguard_transport_stop_description">Դադարի կոճակ</string>
+    <string name="keyguard_carrier_default">Ծառայություն չկա:</string>
+</resources>

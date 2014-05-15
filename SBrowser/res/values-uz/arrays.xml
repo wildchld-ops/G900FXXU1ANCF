@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Har doim yoq</item>
+        <item>Talab bo‘yicha</item>
+        <item>O‘chirilgan</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>"Birlamchi o'rnatilgan sahifa"</item>
+        <item>Joriy sahifa</item>
+        <item>Tezkor kirish</item>
+        <item>Eng ko‘p kirilgan saytlar</item>
+        <item>Boshqa</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Qurilma</item>
+        <item>SD-karta</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Lotincha-1 (ISO-8859-1)</item>
+        <item>Yunikod (UTF-8)</item>
+        <item>Xitoycha (GBK)</item>
+        <item>Xitoycha (Big5)</item>
+        <item>Yaponcha (ISO-2022-JP)</item>
+        <item>Yaponcha (SHIFT JIS)</item>
+        <item>Yaponcha (EUC-JP)</item>
+        <item>Koreyscha (EUC-KR)</item>
+        <item>Avto-aniqlash</item>
+    </string-array>
+</resources>

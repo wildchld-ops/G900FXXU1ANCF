@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/open_in_new_window" android:title="@string/contextmenu_openlink_newwindow" />
+    <item android:id="@id/delete_bookmark" android:title="@string/bookmarks_options_menu_delete" />
+    <item android:id="@id/edit_bookmark" android:title="@string/contextmenu_edit" />
+    <item android:id="@id/share_link" android:title="@string/options_menu_share" />
+    <item android:id="@id/add_shortcut" android:title="@string/options_menu_add_shortcut" />
+    <item android:id="@id/set_as_homepage" android:title="@string/set_as_homepage" />
+</menu>

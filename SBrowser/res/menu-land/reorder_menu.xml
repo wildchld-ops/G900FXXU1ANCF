@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/actionbar_cancel_done">
+        <item android:icon="@drawable/tw_action_bar_icon_cancel" android:id="@id/cancel_id" android:title="@string/bookmark_cancel" android:showAsAction="always|withText" />
+        <item android:icon="@drawable/tw_action_bar_icon_check_selector" android:id="@id/done_id" android:title="@string/bookmark_done" android:showAsAction="always|withText" />
+    </group>
+</menu>

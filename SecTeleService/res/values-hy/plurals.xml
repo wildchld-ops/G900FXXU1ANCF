@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Տվյալների միացում չկա %s րոպե:</item>
+        <item quantity="one">Տվյալների միացում չկա %s րոպե:</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Հեռախոսն Արտակարգ իրավիճակի հետկանչի ռեժիմում կլինի %s րոպե: Տվյալների միացում օգտագործող ծրագրերը չեն կարող օգտագործվել այս ռեժիմում. ելնե՞լ հիմա:</item>
+        <item quantity="one">Անհնար է տվյալների միացում օգտագործել ծրագրերի համար: Հեռախոսը %s րոպե կլինի Արտակարգ իրավիճակի հետկանչի ռեժիմում, քանի դեռ այս ռեժիմում է. ելնե՞լ հիմա:</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Ընտրված գործողությունը մատչելի չէ Արտակարգ իրավիճակի հետկանչի ռեժիմում: Հեռախոսն այս ռեժիմում կլինի %s րոպե. ելնե՞լ հիմա:</item>
+        <item quantity="one">Ընտրված գործողությունը մատչելի չէ Արտակարգ իրավիճակի հետկանչի ռեժիմում: Հեռախոսն այս ռեժիմում կլինի %s րոպե. ելնե՞լ հիմա:</item>
+    </plurals>
+</resources>

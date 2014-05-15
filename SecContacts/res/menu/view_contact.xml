@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_delete" android:title="@string/menu_deleteContact" />
+    <item android:id="@id/menu_link_contact" android:title="@string/menu_link_contact" />
+    <item android:id="@id/menu_separate_contact" android:title="@string/menu_separate_contact" />
+    <item android:id="@id/menu_mark_as_default" android:title="@string/menu_mark_as_default" />
+    <item android:id="@id/menu_speed_dial" android:title="@string/speed_dial" />
+    <item android:id="@id/menu_share_namecard_via" android:title="@string/share_name_card" />
+    <item android:id="@id/menu_send_contact_info" android:title="@string/menu_send_contact_information_full" />
+    <item android:id="@id/menu_reject_list" />
+    <item android:id="@id/menu_create_contact_shortcut" android:title="@string/menu_add_shortcut_to_home" />
+    <item android:id="@id/menu_block_settings" android:title="@string/block_settings" />
+    <item android:id="@id/menu_white_list_settings" android:title="@string/menu_white_list_setting" />
+    <item android:id="@id/menu_black_list_settings" android:title="@string/menu_black_list_setting" />
+</menu>

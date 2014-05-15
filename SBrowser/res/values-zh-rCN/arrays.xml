@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_engines">
+        <item>google_cn</item>
+        <item>baidu</item>
+        <item>yahoo_cn</item>
+        <item>bing_zh_CN</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>总是打开</item>
+        <item>在要求时</item>
+        <item>关闭</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>默认页面</item>
+        <item>当前页面</item>
+        <item>快速访问</item>
+        <item>访问最多的站点</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>设备</item>
+        <item>SD 卡</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>拉丁语-1 (ISO-8859-1)</item>
+        <item>统一码(UTF-8)</item>
+        <item>中文(GBK)</item>
+        <item>中文(大5)</item>
+        <item>日语 （ISO-2022-JP）</item>
+        <item>日语 （SHIFT JIS）</item>
+        <item>日语 （EUC-JP）</item>
+        <item>韩文(EUC-KR)</item>
+        <item>自动检测</item>
+    </string-array>
+</resources>

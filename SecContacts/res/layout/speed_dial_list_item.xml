@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/speed_list_item_container" android:layout_width="fill_parent" android:layout_height="@dimen/spdl_item_photo"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@color/speeddial_text_idx_bg" android:focusable="false" android:layout_width="@dimen/spdl_item_idx_width" android:layout_height="fill_parent">
+        <TextView android:id="@id/spdl_idx" android:layout_width="@dimen/spdl_item_idx_width" android:layout_height="wrap_content" style="@style/SpeedDialTextIdx" />
+    </LinearLayout>
+    <com.android.contacts.common.widget.LayoutSuppressingQuickContactBadge android:layout_gravity="right|center" android:id="@id/spdl_item_photo" android:layout_width="@dimen/spdl_item_photo" android:layout_height="@dimen/spdl_item_photo" android:scaleType="fitXY" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/spld_list_item_data" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:gravity="left|center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/spdl_add_contact_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:padding="@dimen/spdl_item_padding_add_contacts" android:layout_width="@dimen/spdl_item_iconsize_add_contact" android:layout_height="@dimen/spdl_item_iconsize_add_contact" android:layout_marginLeft="@dimen/spdl_item_padding_idx_icon" android:src="@drawable/spdl_add_contact" android:scaleType="centerInside" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spdl_item_padding_add_contacts" android:text="@string/description_add_contact" style="@style/SpeedDialAddContact" />
+        </LinearLayout>
+        <TextView android:id="@id/name" android:paddingLeft="@dimen/spdl_item_padding_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SpeedDialTextName" />
+        <TextView android:id="@id/phone" android:paddingLeft="@dimen/spdl_item_padding_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SpeedDialTextPhone" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/spd_delete_button_container" android:paddingRight="@dimen/spdl_spin_layout_padding" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <Button android:layout_gravity="center" android:id="@id/spd_delete_button" android:paddingTop="@dimen/spdl_item_iconsize_del_padding_between_img_btn" android:layout_width="@dimen/spdl_item_iconsize_del_contact_width" android:layout_height="@dimen/spdl_item_iconsize_del_contact_height" android:drawableTop="@drawable/speeddial_btn_cancel" />
+    </RelativeLayout>
+</LinearLayout>

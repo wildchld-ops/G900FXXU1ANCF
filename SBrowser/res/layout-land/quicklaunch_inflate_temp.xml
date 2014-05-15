@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/quicklaunch_inflate_container" android:background="@drawable/internet_thumbnail_bg" android:layout_width="169.0dip" android:layout_height="117.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="169.0dip" android:layout_height="117.0dip">
+        <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/quicklaunch_title" android:background="@drawable/internet_thumbnail_title" android:paddingLeft="7.0dip" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:singleLine="true" />
+        <ImageView android:id="@id/quicklaunch_icon" android:background="@drawable/internet_most_visit_bg" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/internet_most_visit_bg_default" android:scaleType="fitXY" />
+    </LinearLayout>
+    <ImageView android:id="@id/quicklaunch_icon_highlight" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="117.0dip" android:src="@drawable/quickaccess_grid_item_bg" android:scaleType="fitXY" android:alpha="0.7" />
+</RelativeLayout>

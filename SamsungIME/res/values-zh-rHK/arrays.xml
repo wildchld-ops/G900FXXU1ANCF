@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="qwerty_domain_values">
+        <item>.gov</item>
+        <item>.edu</item>
+        <item>.org</item>
+        <item>.net</item>
+        <item>.go.hk</item>
+        <item>.or.hk</item>
+        <item>.co.hk</item>
+        <item>.hk</item>
+    </string-array>
+    <string-array name="phonepad_domain_values">
+        <item>.gov</item>
+        <item>.go.hk</item>
+        <item>.edu</item>
+        <item>.or.hk</item>
+        <item>.org</item>
+        <item>.co.hk</item>
+        <item>.net</item>
+        <item>.hk</item>
+    </string-array>
+</resources>

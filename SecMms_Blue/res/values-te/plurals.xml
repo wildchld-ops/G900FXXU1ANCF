@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s సంభాషణలు</item>
+        <item quantity="one">1 సంభాషణ</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s సందేశాలు</item>
+        <item quantity="one">1 సందేశం</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d సంభాషణలు</item>
+        <item quantity="one">%d సంభాషణ</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s మరియు %2$d మరిన్ని</item>
+        <item quantity="one">%s మరియు 1 మరిన్ని</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s మరియు %2$d మరిన్ని</item>
+        <item quantity="one">%s మరియు 1 మరిన్ని</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">SIM కార్డునుండి సందేశాలు తొలగించబడ్డాయి.</item>
+        <item quantity="one">SIM కార్డునుండి సందేశంను తొలగించబడింది.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">SIM కార్డునుండి సందేశాలు కాపీ అయ్యాయి.</item>
+        <item quantity="one">SIM కార్డునుండి సందేశం కాపీ అయ్యింది.</item>
+    </plurals>
+</resources>

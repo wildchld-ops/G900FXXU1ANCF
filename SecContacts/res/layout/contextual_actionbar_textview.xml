@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/navigation_bar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/custom_layout" android:background="?android:actionBarItemBackground" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="?android:actionBarSize">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/custom_done" android:paddingRight="@dimen/tw_contextual_action_bar_padding_side" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?android:homeAsUpIndicator" />
+        <TextView android:textSize="@dimen/actionbar_dropdown_title" android:textColor="@color/contextual_actionbar_text_color" android:layout_gravity="center_vertical" android:id="@id/selection_menu" android:paddingRight="@dimen/tw_contextual_action_bar_padding_side" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

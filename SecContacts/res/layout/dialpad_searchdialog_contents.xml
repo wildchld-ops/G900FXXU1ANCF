@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/dialer_searchdialog_contents_layout" android:layout_width="fill_parent" android:layout_height="65.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="64.0dip" android:layout_height="fill_parent" android:layout_marginLeft="21.0dip" android:layout_marginBottom="1.0dip">
+        <ImageView android:id="@id/dialpad_searchdialog_picture" android:duplicateParentState="true" android:layout_width="64.0dip" android:layout_height="64.0dip" android:scaleType="fitCenter" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/dialpad_searchdialog_text" android:duplicateParentState="true" android:layout_width="226.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="4.0dip">
+        <TextView android:textSize="21.0sp" android:textColor="@color/dialpad_search_name" android:ellipsize="end" android:id="@id/dialer_searchdialog_name" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/dialpad_search_number" android:ellipsize="end" android:id="@id/dialer_searchdialog_number" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="17.0dip" android:singleLine="true" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/dialpad_search_label" android:ellipsize="end" android:id="@id/dialer_searchdialog_type" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="17.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable android:label="@string/launcherDialer" android:searchMode="queryRewriteFromText" android:searchSuggestAuthority="com.samsung.dialer.calllog.LogsFindoSuggestionsProvider" android:searchSuggestSelection="content MATCH ?" android:searchSuggestIntentAction="android.intent.action.VIEW" android:includeInGlobalSearch="false" android:queryAfterZeroResults="false" android:searchSettingsDescription="@string/tab_logs"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <extra-attr android:name="includeInInsightSearch" android:value="true" />
+    <extra-attr android:name="searchLayoutStyle" android:value="suggest_template_history_call" />
+</searchable>

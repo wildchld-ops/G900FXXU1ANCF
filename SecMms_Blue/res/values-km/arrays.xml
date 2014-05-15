@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>រីករាយ</item>
+        <item>កំសត់</item>
+        <item>ការមិច​ភ្នែក</item>
+        <item>លៀន​អណ្តាត</item>
+        <item>ភ្ញាក់​ផ្អើល</item>
+        <item>កំពុង​ថើប</item>
+        <item>ស្រែក</item>
+        <item>ល្អ</item>
+        <item>មាត់​លុយ</item>
+        <item>ជើង​ក្នុង​មាត់</item>
+        <item>អាម៉ាស់មុខ</item>
+        <item>ទេវតា</item>
+        <item>មិន​បាន​សម្រេច</item>
+        <item>យំ</item>
+        <item>បិទ​បបូរ​មាត់</item>
+        <item>កំពុង​សើច</item>
+        <item>ច្រឡំ</item>
+        <item>បេះដូង</item>
+        <item>ឆ្កួត</item>
+        <item>ចំអក</item>
+        <item>រូបផ្ទៃមុខធ្វើភ្នែកស្រទន់</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>ប្រើ​ទំហំ​ពុម្ព​អក្សរ​ឧបករណ៍</item>
+        <item>ល្អិត</item>
+        <item>តូច</item>
+        <item>ធម្មតា</item>
+        <item>ធំ</item>
+        <item>ធំ​សម្បើម</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>ប្រើ​ទំហំ​ពុម្ព​អក្សរ​ឧបករណ៍</item>
+        <item>តូច​ល្អិត</item>
+        <item>តូច​ខ្លាំង</item>
+        <item>តូច</item>
+        <item>មធ្យម</item>
+        <item>ធំ</item>
+        <item>ធំ​ខ្លាំង</item>
+        <item>ធំសម្បើម</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>ប៉ុស្តិ៍​ទាំង​អស់</item>
+        <item>ប៉ុស្តិ៍​ខ្ញុំ</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>អក្សរក្រម GSM</item>
+        <item>យូនីកូដ</item>
+        <item>ស្វ័យ​ប្រវត្តិ</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 ថ្ងៃ</item>
+        <item>1 ថ្ងៃ</item>
+        <item>2 ថ្ងៃ</item>
+        <item>3 ថ្ងៃ</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>បាន​កំហិត</item>
+        <item>សូម​ប្រយ័ត្ន</item>
+        <item>សេរី</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>ជានិច្ច</item>
+        <item>សួរ</item>
+        <item>មិន​ដែល</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>ក្រដាស​បត់</item>
+        <item>ផ្លាក</item>
+        <item>ផុស</item>
+        <item>ទាន់សម័យ</item>
+        <item>ស៊ីជម្ពូ</item>
+        <item>លំនាំដើម</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>ស្វ័យ​ផ្ញើ នៅពេល​ស្ថិត​ក្នុង​សេវា​គ្រប​ដណ្តប់​ក្នុង​ស្រុក</item>
+        <item>ផ្ញើ​ឥឡូវ</item>
+        <item>រក្សា​ទុក​ជា​សារ​ព្រាង</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>ម្តង</item>
+        <item>រាល់ 2 នាទី</item>
+        <item>រាល់ 15 នាទី</item>
+        <item>បិទ</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>មិន​ដែល</item>
+        <item>រាល់ 2 នាទី</item>
+        <item>រាល់ 10 នាទី</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>ក្នុង​ស្រុក</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 ម៉ោង</item>
+        <item>6 ម៉ោង</item>
+        <item>24 ម៉ោង</item>
+        <item>2 ថ្ងៃ</item>
+        <item>លំនាំ​ដើម​បណ្ដាញ</item>
+        <item>អតិបរមា</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>ខ្ពស់</item>
+        <item>ធម្មតា</item>
+        <item>ទាប</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>ភ្លាមៗ</item>
+        <item>1 ម៉ោង</item>
+        <item>6 ម៉ោង</item>
+        <item>24 ម៉ោង</item>
+        <item>1 សប្ត</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 វិនាទី</item>
+        <item>5 វិនាទី</item>
+        <item>10 វិនាទី</item>
+        <item>20 វិនាទី</item>
+        <item>30 វិនាទី</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>បិទ</item>
+        <item>ខ្ទប់​សារ​ទាំងអស់</item>
+        <item>ខ្ទប់​លេខ និង ឃ្លា​ដែល​បាន​ចុះ​បញ្ជី</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>ដូច​គ្នា​បេះ​បិទ​នឹង</item>
+        <item>ចាប់​ផ្ដើម​ជាមួយ</item>
+        <item>បញ្ចប់​ដោយ</item>
+        <item>រួម​បញ្ចូល</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>កំណត់​ហេតុ</item>
+        <item>ទំនាក់ទំនង</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>ការខ្ទប់​សារ</item>
+        <item>ការខ្ទប់​ការហៅ</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>ការខ្ទប់​សារ</item>
+        <item>ការខ្ទប់​ការហៅ​សំឡេង</item>
+        <item>ការខ្ទប់​ការហៅ​វីដេអូ</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>បាន​បម្រុង។</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>ធម្មតា</item>
+        <item>ខ្ពស់</item>
+    </string-array>
+    <string-array name="templates">
+        <item>សុំទោស ខ្ញុំ​មិន​បាន​ទទួល​ការហៅ​របស់​អ្នក។</item>
+        <item>ខ្ញុំ​យឺត ប៉ុន្តែ​ខ្ញុំ​នឹង​ទៅ​ដល់​បន្តិច​ទៀត។</item>
+        <item>តើវាកំពុងប្រព្រឹត្តទៅយ៉ាងដូចម្ដេច?</item>
+        <item>មាន​រឿង​អី?</item>
+        <item>តើ​អ្នក​នៅ​កន្លែង​ណា?</item>
+        <item>សូម​ហៅ​មក​ខ្ញុំ បន្ទាប់​ពី​អ្នក​បាន​អាន​សារ​នេះ។</item>
+        <item>តើយើង​អាច​ជួប​គ្នា​ពេល​ណា?</item>
+        <item>ខ្ញុំ​នឹង​និយាយ​ជាមួយ​អ្នក​ក្នុង​ពេល​ឆាប់ៗ។</item>
+        <item>តើ​ការប្រជុំ​ធ្វើ​នៅ​កន្លែង​ណា?</item>
+        <item>លេខប៉ុន្មាន?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>ព័រទុយហ្គាល់​ប្រេស៊ីល</item>
+        <item>អង់គ្លេស (ច.អ)</item>
+        <item>អង់គ្លេស (ស.រ.អ)</item>
+        <item>បារាំង</item>
+        <item>អាល្លឺម៉ង់</item>
+        <item>អ៊ីតាលី</item>
+        <item>ជប៉ុន</item>
+        <item>កូរ៉េ</item>
+        <item>ចិន​សាមញ្ញ</item>
+        <item>ភាសា​រូស្ស៊ី</item>
+        <item>អេស្ប៉ាញ</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>ល្អិត</item>
+        <item>តូច</item>
+        <item>ធម្មតា</item>
+        <item>ធំ</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>ទាំង​អស់</item>
+        <item>អ្នកផ្ញើ</item>
+        <item>ខ្លឹមព័ត៌មាន</item>
+    </string-array>
+</resources>

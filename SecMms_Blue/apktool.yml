@@ -1,0 +1,14 @@
+version: 1.5.2
+apkFileName: SecMms_Blue.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  - 2
+sdkInfo:
+  minSdkVersion: '11'
+  targetSdkVersion: '14'
+packageInfo:
+  cur_package: com.android.mms
+  orig_package: com.android.mms
+compressionType: false

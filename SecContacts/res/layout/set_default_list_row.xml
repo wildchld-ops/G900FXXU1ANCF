@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/contact_set_default" android:background="@drawable/list_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/detail_set_default_min_line_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/default_list_row_imageView" android:padding="@dimen/default_list_row_imageView_padding" android:visibility="gone" android:layout_width="@dimen/default_list_row_imageView_size" android:layout_height="@dimen/default_list_row_imageView_size" android:layout_marginLeft="@dimen/set_default_text_left_padding" android:src="@drawable/ic_contact_picture_holo" android:scaleType="fitXY" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/set_default_text_left_padding" android:duplicateParentState="true" android:layout_width="@dimen/detail_contact_popup_margin" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0">
+        <TextView android:id="@id/upper_text" android:paddingRight="@dimen/set_default_text_left_padding" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ContactDetailItemType" />
+        <TextView android:id="@id/upper_text_reverse" android:paddingRight="@dimen/set_default_text_left_padding" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ContactDetailItemData" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/account_list_row_imageView" android:visibility="gone" android:layout_width="@dimen/account_list_row_imageView_size" android:layout_height="@dimen/account_list_row_imageView_size" android:layout_marginRight="@dimen/account_list_row_imageView_padding" android:scaleType="fitXY" />
+            <TextView android:textAppearance="@style/TwContactDetailTextAppearanceListTwoLinePrimary" android:id="@id/main_text" android:paddingRight="@dimen/set_default_text_left_padding" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ContactDetailItemData" />
+            <TextView android:textAppearance="@style/TwContactDetailTextAppearanceListTwoLineSecondary" android:id="@id/main_text_reverse" android:paddingRight="@dimen/set_default_text_left_padding" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ContactDetailItemType" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_width="@dimen/set_default_radio_button_size" android:layout_height="@dimen/set_default_radio_button_size">
+        <RadioButton android:id="@id/radio" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

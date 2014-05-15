@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/tw_list_primary_text_size" android:textColor="@color/primary_text_color" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/send_contact_type" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="@dimen/popup_left_margin" android:layout_marginRight="@dimen/check_view_width" android:singleLine="true" />
+    <RadioButton android:id="@id/radio_button" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/popup_right_margin" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

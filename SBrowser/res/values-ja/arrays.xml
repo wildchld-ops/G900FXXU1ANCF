@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>常にON</item>
+        <item>毎回確認</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>標準ページ</item>
+        <item>現在のページ</item>
+        <item>クイックアクセス</item>
+        <item>よく見るサイト</item>
+        <item>その他</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>本体</item>
+        <item>外部SDカード</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>ラテン1(ISO-8859-1)</item>
+        <item>Unicode(UTF-8)</item>
+        <item>中国語(GBK)</item>
+        <item>中国語(Big5)</item>
+        <item>日本語(ISO-2022-JP)</item>
+        <item>日本語(SHIFT JIS)</item>
+        <item>日本語(EUC-JP)</item>
+        <item>韓国語(EUC-KR)</item>
+        <item>自動設定</item>
+    </string-array>
+</resources>

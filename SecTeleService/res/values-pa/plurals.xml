@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">%s ਮਿੰਟ ਲਈ ਕੋਈ ਡੈਟਾ ਕਨੈਕਸ਼ਨ ਨਹੀਂ ਹੈ।</item>
+        <item quantity="one">%s ਮਿੰਟ ਲਈ ਕੋਈ ਡੈਟਾ ਕਨੈਕਸ਼ਨ ਨਹੀਂ ਹੈ।</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">%s ਮਿੰਟਾਂ ਲਈ ਫੋਨ ਆਪਾਤਕਾੱਲ ਕਾੱਲਬੈਕ ਮੋਡ ਵਿੱਚ ਹੀ ਰਹੇਗਾ। ਇਸ ਮੋਡ ਵਿੱਚ ਹੋਣ ਤੇ ਡੈਟਾ ਕਨੈਕਸ਼ਨ ਦੀ ਵਰਤੋਂ ਕਰ ਰਹੀਆਂ ਅਨੁਪ੍ਰਯੋਗ ਨਹੀਂ ਵਰਤੀਆਂ ਜਾ ਸਕਦੀਆਂ। ਹੁਣ ਨਿਕਾਸ ਕਰੀਏ?</item>
+        <item quantity="one">ਅਨੁਪ੍ਰਯੋਗ ਲਈ ਡੈਟਾ ਕਨੈਕਸ਼ਨ ਦੀ ਵਰਤੋਂ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ ਹੈ। ਇਸ ਮੋਡ ਵਿੱਚ ਰਹਿੰਦੇ ਸਮੇਂ ਫੋਨ %s ਮਿੰਟ ਲਈ ਅਪਾਤਕਾੱਲ ਕਾੱਲਬੈਕ ਮੋਡ ਵਿੱਚ ਹੀ ਰਹੇਗਾ। ਹੁਣ ਨਿਕਾਸ ਕਰੀਏ?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">ਅਪਾਤਕਾੱਲ ਕਾੱਲਬੈਕ ਮੋਡ ਵਿੱਚ ਚੁਣੀ ਗਈ ਕ੍ਰਿਆ ਅਣਉਪਲਬਧ ਹੈ। ਫੋ਼ਨ %s ਮਿੰਟ ਵਾਸਤੇ ਇਸ ਮੋਡ ਵਿੱਚ ਹੀ ਰਹੇਗਾ। ਹੁਣ ਨਿਕਾਸ ਕਰੀਏ?</item>
+        <item quantity="one">ਅਪਾਤਕਾੱਲ ਕਾੱਲਬੈਕ ਮੋਡ ਵਿੱਚ ਚੁਣੀ ਗਈ ਕ੍ਰਿਆ ਅਣਉਪਲਬਧ ਹੈ। ਫ਼ੋਨ %s ਮਿੰਟ ਦੇ ਲਈ ਇਸ ਮੋਡ ਵਿੱਚ ਹੀ ਰਹੇਗਾ। ਹੁਣ ਨਿਕਾਸ ਕਰੀਏ?</item>
+    </plurals>
+</resources>

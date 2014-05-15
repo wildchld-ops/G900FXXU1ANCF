@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">%s મિનિટ સુધી કોઈ ડેટા જોડાણ નથી.</item>
+        <item quantity="one">%s મિનિટ સુધી કોઈ ડેટા જોડાણ નથી.</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">ફોન કટોકટી કૉલબેક મોડમાં %s મિનિટ સુધી આવશે. આ મોડમાં ડેટા જોડાણ વાપરવાની અનુપ્રયોગો નો ઉપયોગ કરી શકાતો નથી. હવે બહાર નીકળીએ?</item>
+        <item quantity="one">અનુપ્રયોગ માટે ડેટા જોડાણ વાપરવામાં અસમર્થ. આ મોડમાં ફોન કટોકટી કૉલબેક મોડમાં %s મિનિટ સુધી રહેશે. હવે બહાર નીકળીએ?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">પસંદ કરેલ ક્રિયા કટોકટી કૉલબેક મોડમાં ઉપલબ્ધ નથી. ફોન આ મોડમાં %s મિનિટ સુધી આવશે. હવે બહાર નીકળીએ?</item>
+        <item quantity="one">પસંદ કરેલ ક્રિયા કટોકટી કૉલબેક મોડમાં ઉપલબ્ધ નથી. ફોન આ મોડમાં %s મિનિટ સુધી આવશે. હવે બહાર નીકળીએ?</item>
+    </plurals>
+</resources>

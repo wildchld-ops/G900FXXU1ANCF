@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/spin_layout" android:background="@drawable/tw_sub_action_bar_bg_holo" android:layout_width="fill_parent" android:layout_height="@dimen/spdl_spin_layout_height">
+        <ImageView android:id="@id/spin_left" android:padding="@dimen/spdl_spin_layout_padding" android:focusable="true" android:layout_width="@dimen/spdl_spin_layout_width" android:layout_height="@dimen/spdl_spin_button_layout_height" android:src="@drawable/tw_btn_icon_previous_holo" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" android:contentDescription="@string/previous" />
+        <ImageView android:id="@id/spin_right" android:padding="@dimen/spdl_spin_layout_padding" android:focusable="true" android:layout_width="@dimen/spdl_spin_layout_width" android:layout_height="@dimen/spdl_spin_button_layout_height" android:src="@drawable/tw_btn_icon_next_holo" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/next" />
+        <TextView android:id="@id/spin_range" android:padding="@dimen/spdl_spin_range_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/spin_right" android:layout_toRightOf="@id/spin_left" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/SpeedDialTextRange" />
+        <View android:background="@drawable/tw_sub_action_bar_line_holo" android:layout_width="1.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spdl_spin_divider_padding" android:layout_marginBottom="@dimen/spdl_spin_divider_padding" android:layout_alignLeft="@id/spin_range" />
+        <View android:background="@drawable/tw_sub_action_bar_line_holo" android:layout_width="1.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spdl_spin_divider_padding" android:layout_marginBottom="@dimen/spdl_spin_divider_padding" android:layout_alignRight="@id/spin_range" />
+    </RelativeLayout>
+    <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

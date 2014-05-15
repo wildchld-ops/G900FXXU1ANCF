@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_warning_flight_mode">Unable to connect to mobile networks while Airplane mode is enabled. This message will be sent when Airplane mode is disabled</string>
+</resources>

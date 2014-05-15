@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">Zobrazujú sa %d kontakty</item>
+        <item quantity="one">Zobrazuje sa 1 kontakt</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">Zobrazujú sa %d kontakty s telefónnymi číslami</item>
+        <item quantity="one">Zobrazuje sa 1 kontakt s telefónnym číslom</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Kontakty s telefónnymi číslami: %d</item>
+        <item quantity="one">1 kontakt s telefónnym číslom</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Kontakty: %d</item>
+        <item quantity="one">1 kontakt</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Počet nájdených: %d</item>
+        <item quantity="one">1 nájdený</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Počet nájdených: %d</item>
+        <item quantity="one">1 nájdený</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">zlúčené z %0$d zdrojov</item>
+        <item quantity="one">zlúčenie sa nepodarilo</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">Skupiny: %0$d</item>
+        <item quantity="one">1 skupina</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d osoby v skupine %2$s</item>
+        <item quantity="one">%1$d osoba v skupine %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">Ľudia: %d</item>
+        <item quantity="one">Počet ľudí: %1$d</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Hlasové správy: %d</item>
+        <item quantity="one">Hlasová pošta</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">Počet skopírovaných kontaktov: %d.</item>
+        <item quantity="one">Počet skopírovaných kontaktov: %d.</item>
+    </plurals>
+</resources>

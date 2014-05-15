@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/alert_infobar_text_vertical_margin" android:paddingBottom="@dimen/alert_infobar_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/infobar_message" style="@style/AlertInfoText" />
+    <TextView android:textSize="@dimen/alert_infobar_subtext_size" android:id="@id/infobar_sub_message" android:visibility="gone" android:layout_below="@id/infobar_message" style="@style/AlertInfoText" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/alert_infobar_padding" android:baselineAligned="false" android:layout_below="@id/infobar_sub_message">
+        <Button android:id="@id/button_cancel" android:layout_width="0.0dip" android:layout_marginRight="@dimen/alert_infobar_padding" android:layout_weight="1.0" style="@style/AlertInfoButton" />
+        <Button android:id="@id/button_ok" android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/AlertInfoButton" />
+    </LinearLayout>
+</RelativeLayout>

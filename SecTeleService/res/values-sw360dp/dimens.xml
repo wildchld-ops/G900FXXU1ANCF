@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="in_call_touch_ui_upper_margin">13.0dip</dimen>
+    <dimen name="in_call_buttons_height">206.0dip</dimen>
+    <dimen name="in_call_upper_buttons_height">94.0dip</dimen>
+    <dimen name="in_call_toggle_buttons_height">100.0dip</dimen>
+    <dimen name="in_call_button_height">82.0dip</dimen>
+    <dimen name="in_call_end_button_height">111.0dip</dimen>
+    <dimen name="vt_call_top_margin">19.0dip</dimen>
+    <dimen name="vt_end_call_contact_button_height">135.0dip</dimen>
+    <dimen name="vt_end_call_dial_buttons_height">119.0dip</dimen>
+    <dimen name="vt_end_call_dial_buttons_margin_bottom">4.0dip</dimen>
+    <dimen name="tutorial_popup_bottom_margin">230.0dip</dimen>
+    <dimen name="tutorial_popup_bottom_tail_margin">11.0dip</dimen>
+    <dimen name="tutorial_popup_top_tail_margin">13.0dip</dimen>
+    <dimen name="call_answer_reject_popup_bottom_margin">230.0dip</dimen>
+    <dimen name="call_answer_reject_end_button_popup_bottom_margin">240.0dip</dimen>
+</resources>

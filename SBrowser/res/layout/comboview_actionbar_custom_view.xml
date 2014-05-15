@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/tab_custom_layout" android:background="@drawable/combo_tabs_background" android:layout_width="wrap_content" android:layout_height="48.0dip" style="@android:style/Widget.DeviceDefault.Tab"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="@drawable/tabhost_title_color_selector" android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/tab_custom_view_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:singleLine="true" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+</LinearLayout>

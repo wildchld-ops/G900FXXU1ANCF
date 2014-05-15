@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_date_format_day_month_k">"E
+d MMM"</string>
+    <string name="status_bar_date_format_month_day_k">"E
+MMM d"</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">E, MMM d</string>
+    <string name="abbrev_wday_day_abbrev_month_no_year">E, d MMM</string>
+    <string name="app_label">IU sistema</string>
+    <string name="status_bar_clear_all_button">Esborrar</string>
+    <string name="status_bar_do_not_disturb_button">No molestar</string>
+    <string name="status_bar_please_disturb_button">Mostrar notificacions</string>
+    <string name="status_bar_recent_remove_item_title">Eliminar de la llista</string>
+    <string name="status_bar_recent_inspect_item_title">"Informació de l'aplicació"</string>
+    <string name="status_bar_no_recent_apps">Cap aplicació recent</string>
+    <string name="status_bar_accessibility_dismiss_recents">Omet les aplicacions recents</string>
+    <string name="status_bar_no_notifications_title">Sense notificacions</string>
+    <string name="status_bar_ongoing_events_title">En curs</string>
+    <string name="status_bar_latest_events_title">Notificacions</string>
+    <string name="battery_low_title">Connectar carregador</string>
+    <string name="battery_low_subtitle">La bateria comença a estar baixa.</string>
+    <string name="battery_low_percent_format">%d%% restant</string>
+    <string name="invalid_charger">"No s'admet la càrrega USB. Utilitzi el carregador proporcionat."</string>
+    <string name="battery_low_why">Ús de la bateria</string>
+    <string name="status_bar_settings_settings_button">Ajustaments</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Mode Vol</string>
+    <string name="status_bar_settings_auto_rotation">Girar pantalla automàticament</string>
+    <string name="status_bar_settings_mute_label">Silenci</string>
+    <string name="status_bar_settings_auto_brightness_label">Auto</string>
+    <string name="status_bar_settings_notifications">Notificacions</string>
+    <string name="bluetooth_tethered">Bluetooth en tethering</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">"Configurar mètodes d'entrada"</string>
+    <string name="status_bar_use_physical_keyboard">Teclat físic</string>
+    <string name="usb_device_permission_prompt">"Permetre a l'aplicació %1$s accedir al dispositiu USB?"</string>
+    <string name="usb_accessory_permission_prompt">"Permetre a l'aplicació %1$s accedir a l'accessori USB?"</string>
+    <string name="usb_device_confirm_prompt">Obrir %1$s quan aquest dispositiu USB estigui connectat?</string>
+    <string name="usb_accessory_confirm_prompt">Obrir %1$s quan aquest accessori USB estigui connectat?</string>
+    <string name="usb_accessory_uri_prompt">"Cap aplicació instal·lada funciona amb aquest accessori USB. Més informació sobre l'accessori a %s."</string>
+    <string name="title_usb_accessory">Accessori USB</string>
+    <string name="label_view">Veure</string>
+    <string name="always_use_device">Utilitzar de forma predet per aquest disposit USB</string>
+    <string name="always_use_accessory">Utilitzar de forma predet per aquest accessori USB</string>
+    <string name="usb_debugging_title">Permetre depuració USB?</string>
+    <string name="usb_debugging_message">"L'empremta de clau RSA dels PC és:
+%1$s"</string>
+    <string name="usb_debugging_always">Permetre sempre aquest PC</string>
+    <string name="compat_mode_on">Ampliar per omplir pant</string>
+    <string name="compat_mode_off">Ajustar pantalla completa</string>
+    <string name="compat_mode_help_header">Zoom de compatibilitat</string>
+    <string name="compat_mode_help_body">Quan una aplicació estigui dissenyada per a una pantalla més petita, es mostrarà un control de zoom al costat del rellotge</string>
+    <string name="screenshot_saving_ticker">Desant captura de pantalla…</string>
+    <string name="screenshot_saving_title">Desant captura de pantalla…</string>
+    <string name="screenshot_saving_text">"S'està desant la captura de pantalla"</string>
+    <string name="screenshot_saved_title">Imatge pantalla capturada</string>
+    <string name="screenshot_saved_text">Toqui per veure captura de pantalla</string>
+    <string name="screenshot_failed_title">No es pot realitzar la captura de pantalla</string>
+    <string name="screenshot_failed_text">"No es pot desar la captura la pantalla. L'emmagatzematge USB pot estar en ús."</string>
+    <string name="screenshot_failed_due_to_drm_text">No es pot capturar la pantalla. Imatge protegida per DRM.</string>
+    <string name="one_item_will_be_deleted">"S'esborrarà 1 element"</string>
+    <string name="usb_preference_title">Opcions transf de fitxers USB</string>
+    <string name="use_mtp_button_title">Muntar com a reproductor multimèdia (MTP)</string>
+    <string name="use_ptp_button_title">Muntar com a càmera (PTP)</string>
+    <string name="installer_cd_button_title">"Instal·lar l'aplicació de transferència de fitxers d'Android per a Mac"</string>
+    <string name="accessibility_back">Enrere</string>
+    <string name="accessibility_home">Pers.</string>
+    <string name="accessibility_menu">Menú</string>
+    <string name="accessibility_recent">Aplicacions recents</string>
+    <string name="accessibility_ime_switch_button">"Botó Canvi de mètode d'entrada"</string>
+    <string name="accessibility_compatibility_zoom_button">Botó Zoom de compatibilitat</string>
+    <string name="accessibility_compatibility_zoom_example">Ampliar per a pantalla més gran</string>
+    <string name="accessibility_bluetooth_connected">Connectat a Bluetooth</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth desconnectat</string>
+    <string name="accessibility_no_battery">Sense bateria</string>
+    <string name="accessibility_battery_one_bar">"Una barra d'alimentació de bateria"</string>
+    <string name="accessibility_battery_two_bars">"Dues barres d'alimentació de bateria"</string>
+    <string name="accessibility_battery_three_bars">"Tres barres d'alimentació de bateria"</string>
+    <string name="accessibility_battery_full">Bateria plena</string>
+    <string name="accessibility_no_phone">Sense senyal telefònic</string>
+    <string name="accessibility_phone_one_bar">Una barra de senyal telefònic</string>
+    <string name="accessibility_phone_two_bars">Dues barres de senyal telefònic</string>
+    <string name="accessibility_phone_three_bars">Tres barres de senyal telefònic</string>
+    <string name="accessibility_phone_signal_full">Senyal telefònic complet</string>
+    <string name="accessibility_no_data">Sense dades</string>
+    <string name="accessibility_data_one_bar">Una barra de senyal de dades</string>
+    <string name="accessibility_data_two_bars">Dues barres de senyal de dades</string>
+    <string name="accessibility_data_three_bars">Tres barres de senyal de dades</string>
+    <string name="accessibility_data_four_bars">Quatre barres de senyal de dades</string>
+    <string name="accessibility_data_five_bars">Cinc barres de senyal de dades</string>
+    <string name="accessibility_data_signal_full">Senyal de dades complet</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">Sense senyal Wi-Fi</string>
+    <string name="accessibility_wifi_one_bar">Una barra de senyal Wi-Fi</string>
+    <string name="accessibility_wifi_two_bars">Dues barres de senyal Wi-Fi</string>
+    <string name="accessibility_wifi_three_bars">Tres barres de senyal Wi-Fi</string>
+    <string name="accessibility_wifi_signal_full">El senyal Wi-Fi és complet</string>
+    <string name="accessibility_no_wimax">Sense WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">Una barra de WiMAX.</string>
+    <string name="accessibility_wimax_two_bars">Dues barres de WiMAX.</string>
+    <string name="accessibility_wimax_three_bars">Tres barres de WiMAX.</string>
+    <string name="accessibility_wimax_signal_full">Senyal de WiMAX plena.</string>
+    <string name="accessibility_no_signal">Sense senyal</string>
+    <string name="accessibility_not_connected">Sense connectar</string>
+    <string name="accessibility_zero_bars">Cap barra.</string>
+    <string name="accessibility_one_bar">Una barra.</string>
+    <string name="accessibility_two_bars">Dues barres.</string>
+    <string name="accessibility_three_bars">Tres barres.</string>
+    <string name="accessibility_phone_four_bars">Quatre barres de senyal telefònic</string>
+    <string name="accessibility_phone_five_bars">Cinc barres de senyal telefònic</string>
+    <string name="accessibility_signal_full">Senyal complet.</string>
+    <string name="accessibility_desc_on">Activat</string>
+    <string name="accessibility_desc_off">Desactivat</string>
+    <string name="accessibility_desc_connected">Connectat</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3,5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Itinerància</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Sense SIM</string>
+    <string name="accessibility_bluetooth_tether">Tethering Bluetooth</string>
+    <string name="accessibility_airplane_mode">Mode Vol</string>
+    <string name="accessibility_battery_level">Bateria al %d per cent</string>
+    <string name="accessibility_settings_button">Ajustaments de sistema</string>
+    <string name="accessibility_notifications_button">Notificacions</string>
+    <string name="accessibility_remove_notification">Esborrar notificacions</string>
+    <string name="accessibility_gps_enabled">GPS activat</string>
+    <string name="accessibility_gps_acquiring">Adquirint GPS…</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter habilitat</string>
+    <string name="accessibility_ringer_vibrate">Vibració de melodia</string>
+    <string name="accessibility_ringer_silent">Silenciar melodia</string>
+    <string name="accessibility_recents_item_dismissed">"S'ha omès %s."</string>
+    <string name="accessibility_notification_dismissed">Notificació omesa.</string>
+    <string name="accessibility_desc_notification_shade">Capa de notificació.</string>
+    <string name="accessibility_desc_quick_settings">Ajustament ràpids</string>
+    <string name="accessibility_desc_recent_apps">Aplicacions recents</string>
+    <string name="accessibility_quick_settings_user">Usuari %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s. %2$s</string>
+    <string name="accessibility_quick_settings_mobile">Mòbil %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">Bateria %s.</string>
+    <string name="accessibility_quick_settings_airplane">"Mode d'avió %s."</string>
+    <string name="accessibility_quick_settings_bluetooth">Bluetooth %s.</string>
+    <string name="accessibility_quick_settings_alarm">Alarma establerta per %s</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">Connexió ràpida</string>
+    <string name="accessibility_qconnect_button_tts">Connexió ràpida</string>
+    <string name="data_usage_disabled_dialog_3g_title">Connexió de dades 2G-3G deshabilitada</string>
+    <string name="data_usage_disabled_dialog_4g_title">Connexió de dades 4G deshabilitada</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Dades mòbils deshabilitades</string>
+    <string name="data_usage_disabled_dialog_title">Dades deshabilitades</string>
+    <string name="data_usage_disabled_dialog">"S'ha assolit el límit d'ús de dades especificat. L'ús de dades addicional pot comportar càrrecs del proveïdor de serveis."</string>
+    <string name="data_usage_disabled_dialog_enable">Tornar habilitar con dades</string>
+    <string name="data_usage_enable_mobile_warning">La connexió mitjançant paquet de dades pot suposar un cost addicional. Vol continuar?</string>
+    <string name="data_usage_disable_mobile">Deshabilitar connexió de dades mòbils?</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Sense connexió a Internet</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi connectat</string>
+    <string name="gps_notification_searching_text">"S'està utilitzant GPS…"</string>
+    <string name="gps_notification_found_text">Ubicació definida per GPS</string>
+    <string name="accessibility_clear_all">Esborrar totes les notificacions</string>
+    <string name="status_bar_notification_inspect_item_title">"Informació de l'aplicació"</string>
+    <string name="close_universe">Tancar</string>
+    <string name="notifications_off_title">Notificacions deshabilit</string>
+    <string name="notifications_off_text">Toqui per habilitar notificacions</string>
+    <string name="accessibility_rotation_lock_off">La pantalla es girarà automàticament</string>
+    <string name="accessibility_rotation_lock_on_landscape">La pantalla està bloquejada en orientació horitzontal.</string>
+    <string name="accessibility_rotation_lock_on_portrait">La pantalla està bloquejada en orientació vertical.</string>
+    <string name="jelly_bean_dream_name">BeanFlinger</string>
+    <string name="start_dreams">Protector de pantalla</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">"Mode d'avió"</string>
+    <string name="quick_settings_battery_charging_label">"S'està carregant, %d%%"</string>
+    <string name="quick_settings_battery_charged_label">Carregat</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d dispositius)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth desactivat</string>
+    <string name="quick_settings_brightness_label">Brillantor</string>
+    <string name="quick_settings_rotation_unlocked_label">Rotació automàtica</string>
+    <string name="quick_settings_rotation_locked_label">Rotació bloquejada</string>
+    <string name="quick_settings_ime_label">"Mètode d'entrada"</string>
+    <string name="quick_settings_location_label">Ubicació en ús</string>
+    <string name="quick_settings_media_device_label">Dispositiu multimèdia</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">"Només trucades d'emergència"</string>
+    <string name="quick_settings_settings_label">Ajustaments</string>
+    <string name="quick_settings_time_label">Hora</string>
+    <string name="quick_settings_user_label">Jo</string>
+    <string name="quick_settings_wifi_label">WiFi</string>
+    <string name="quick_settings_wifi_not_connected">Sense connectar</string>
+    <string name="quick_settings_wifi_no_network">No hi ha xarxa</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_wifi_display_label">"Visualit
+Wi-Fi"</string>
+    <string name="quick_settings_wifi_display_no_connection_label">Pantalla sense fil</string>
+    <string name="quick_settings_brightness_dialog_title">Brillantor</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Auto</string>
+    <string name="status_bar_help_title">Les notificacions apareixen aquí</string>
+    <string name="status_bar_help_text">"Accedeix-hi en qualsevol moment: només has de fer lliscar el dit cap avall.
+Torna a fer lliscar el dit cap avall per fer que es mostrin els controls del sistema."</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">Ubicació</string>
+    <string name="quickpanel_silent_mode_text">"Mode
+silenci"</string>
+    <string name="quickpanel_silent_mode_sound">So</string>
+    <string name="quickpanel_silent_mode_vibrate">Vibrar</string>
+    <string name="quickpanel_silent_mode_mute">Silenci</string>
+    <string name="quickpanel_rotation_text">"Rotació
+pant"</string>
+    <string name="quickpanel_mobile_data_text">"Dades
+mòbils"</string>
+    <string name="quickpanel_dormant_mode_text">"Mode
+bloqueig"</string>
+    <string name="quickpanel_notification_text">Notificació</string>
+    <string name="quickpanel_airplane_mode_text">"Mode
+Vol"</string>
+    <string name="quickpanel_sync_text">Sincron</string>
+    <string name="quickpanel_power_saving_text">"Estalvi
+energia"</string>
+    <string name="quickpanel_ultra_power_saving_text">"Estalvi
+ultra"</string>
+    <string name="quickpanel_driving_mode_text">"Mode mans
+lliures"</string>
+    <string name="quickpanel_smart_stay_text">"Smart
+stay"</string>
+    <string name="quickpanel_smart_scroll_text">"Desplaç
+intel"</string>
+    <string name="quickpanel_smart_pause_text">"Pausa
+intel"</string>
+    <string name="quickpanel_smart_network_text">"Xarxa
+intel·ligent"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_wifi_hotspot_text">"Zon act
+Wi-Fi"</string>
+    <string name="quickpanel_multiwindow_text">"Finestra
+múltip"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_brightness_text">Brillantor</string>
+    <string name="quickpanel_airview_text">"Air
+view"</string>
+    <string name="quickpanel_airgesture_text">"Air
+gesture"</string>
+    <string name="quickpanel_ebook_text">"Mode
+lectura"</string>
+    <string name="quickpanel_personal_mode_text">"Mode 
+Privat"</string>
+    <string name="quickpanel_car_mode_text">"Mode
+Cotxe"</string>
+    <string name="quickpanel_network_booster_text">"Augment
+descàr"</string>
+    <string name="quickpanel_toolbox_text">"Caixa d'eines"</string>
+    <string name="quickpanel_touch_sensitivity_text">"Sensibil
+tàctil"</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">Ubicació</string>
+    <string name="quickpanel_silent_mode_sound_content_description">So</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">Vibració</string>
+    <string name="quickpanel_silent_mode_mute_content_description">Silenci</string>
+    <string name="quickpanel_rotation_content_description">Rotació de pantalla</string>
+    <string name="quickpanel_mobile_data_content_description">Dades mòbils</string>
+    <string name="quickpanel_dormant_mode_content_description">Mode de bloqueig</string>
+    <string name="quickpanel_airplane_mode_content_description">Mode Vol</string>
+    <string name="quickpanel_sync_content_description">Sincronitzar</string>
+    <string name="quickpanel_power_saving_content_description">"Mode d'estalvi d'energia"</string>
+    <string name="quickpanel_ultra_power_saving_content_description">"Mode d'estalvi ultra d'energia"</string>
+    <string name="quickpanel_smart_stay_content_description">Smart stay</string>
+    <string name="quickpanel_smart_pause_content_description">Smart pause</string>
+    <string name="quickpanel_smart_network_content_description">Smart network</string>
+    <string name="quickpanel_wifi_hotspot_content_description">Punt calent Wi-Fi portàtil</string>
+    <string name="quickpanel_multiwindow_content_description">Finestra múltiple</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_ebook_content_description">Mode de lectura</string>
+    <string name="quickpanel_personal_mode_content_description">Mode Privat</string>
+    <string name="quickpanel_car_mode_content_description">Mode Cotxe</string>
+    <string name="quickpanel_network_booster_content_description">Augmentador de descàrrega</string>
+    <string name="quickpanel_toolbox_content_description">"Caixa d'eines"</string>
+    <string name="air_gesture_use_popup_title">Habilitar Air gesture</string>
+    <string name="air_gesture_use_popup_msg">Gestos aeris i TalkBack no poden estar habilitats simultàniament. Es deshabilitarà TalkBack.</string>
+    <string name="air_view_use_popup_title">Habilitar Air view</string>
+    <string name="air_view_use_popup_msg">La vista per aire i les opcions següents no poden estar habilitades simultàniament. Es deshabilitaran les opcions següents.</string>
+    <string name="multi_window_use_popup_title">Habilitar finestra múltiple</string>
+    <string name="multi_window_use_popup_msg">Finestra múltiple i TalkBack no poden estar habilitats simultàniament. Es deshabilitarà TalkBack.</string>
+    <string name="smart_pause_use_popup_title">Habilitar smart pause</string>
+    <string name="smart_pause_use_popup_msg">Smart pause i TalkBack no poden estar habilitats simultàniament. Es deshabilitarà TalkBack.</string>
+    <string name="smart_scroll_use_popup_title">Habilitar smart scroll</string>
+    <string name="smart_scroll_use_popup_msg">Smart scroll i TalkBack no poden estar habilitats simultàniament. Es deshabilitarà TalkBack.</string>
+    <string name="smart_stay_use_popup_title">Habilitar smart stay</string>
+    <string name="smart_stay_use_popup_msg">Smart stay i TalkBack no poden estar habilitats simultàniament. Es deshabilitarà TalkBack.</string>
+    <string name="quickpanel_content_description_led_on">%s està habilitat.</string>
+    <string name="quickpanel_content_description_led_off">%s està deshabilitat.</string>
+    <string name="quickpanel_content_description_led_dim">%s no pot estar habilitat.</string>
+    <string name="smart_network">Smart network</string>
+    <string name="smart_network_guide_msg">"Smart network l'ajuda a conservar la durada de la bateria.
+
+Desactiva dades mòbils i el Wi-Fi quan la pantalla està apagada, per tal que el dispositiu consumeixi menys bateria.
+
+Tanmateix, pot rebre dades push acumulades quan engegui la pantalla."</string>
+    <string name="quickpanel_data_roaming_text">Dades en itinerància</string>
+    <string name="data_roaming_dialog_text">La itinerància comportarà càrrecs addicionals. Continuar?</string>
+    <string name="mobile_data_enable_dialog_text">Connectar a xarxes mòbils pot comportar càrrecs addicionals en funció del seu pla de dades. Continuar?</string>
+    <string name="quickpanel_edit_current">Tauler de notificacions</string>
+    <string name="quickpanel_edit_available">Botons disponibles</string>
+    <string name="mobile_data_dialog_text">Ja no podrà utilitzar aplicacions com ara Internet, el correu electrònic i YouTube mitjançant xarxes mòbils. Continuar?</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"A menys que utilitzi Wi-Fi, ja no podrà utilitzar Internet, Correu electrònic o altres aplicacions que requereixin connexió de dades.
+
+Es deshabilitaran les dades mòbils."</string>
+    <string name="mobile_data_connect">Connectar</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">No es pot connectar a xarxes mòbils mentre el mode Vol està habilitat. Deshabiliti el mode Vol i torni-ho a intentar.</string>
+    <string name="warning_alert_check">No tornar a mostrar</string>
+    <string name="blocking_mode_enable">"Quan aquest mode està habilitat, les notificacions de les funcions seleccionades es deshabilitaran. Només rebrà notificacions de trucades d'entrada de les persones de la llista de permesos."</string>
+    <string name="blocking_mode_enable_for_grid_settings">"El mode de bloqueig deshabilita les notificacions de les funcions seleccionades. Quan les trucades d'entrada estiguin bloquejades, només rebrà notificacions de trucades d'entrada de les persones dels seus contactes permesos. Per canviar els ajustaments del mode Bloqueig, vagi a Ajustaments > Personalització > Mode de bloqueig."</string>
+    <string name="blocking_mode_enable_wifi">Quan aquest mode està activat, es desactivaran les notificacions de les funcions seleccionades</string>
+    <string name="blocking_mode_title">Mode de bloqueig</string>
+    <string name="dormant_mode_off_message">Per habilitar el mode de bloqueig, habiliti almenys una opció a continuació</string>
+    <string name="driving_mode_title">Mode mans lliures</string>
+    <string name="driving_mode_on_dialog_msg_1">"Cal que el mode mans lliures estigui deshabilitat als Ajustaments després que hagi tancat mans lliures de S Voice. Si el mode mans lliures continua habilitat, les notificacions i la informació de trucades d'entrada encara es llegiran automàticament en veu alta."</string>
+    <string name="driving_mode_on_dialog_msg_2">Pot desactivar el mode mans lliures dient “Desactivar mode mans lliures” a mans lliures de S Voice, o anant a Ajustaments o al tauler de notificacions</string>
+    <string name="insert_sim_card">Inserir targeta SIM</string>
+    <string name="insert_sim_card_message">Insereixi la targeta SIM per a accedir als serveis de xarxa</string>
+    <string name="wifi_enable_warning">Si activa el Wi-Fi, es deshabilitarà el punt calent Wi-Fi portàtil. Continuar?</string>
+    <string name="wifi_ap_turning_off">Deshabilitant el punt calent Wi-Fi portàtil…</string>
+    <string name="no_sim_notification_title">Sense SIM</string>
+    <string name="no_sim_notification_title_tmo">"No s'ha inserit cap targeta SIM"</string>
+    <string name="no_sim_notification_text">Introduir targeta SIM</string>
+    <string name="accessibility_power_saving_mode">"Per habilitar el mode d'estalvi d'energia, habiliti almenys una funció"</string>
+    <string name="accessibility_power_saving_mode_title">"Mode d'estalvi d'energia"</string>
+    <string name="accessibility_driving_mode">Per habilitar el mode mans lliures, habiliti almenys una funció important</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Network restriction mode will be disabled.</string>
+    <string name="charging_interruption_title">No es pot carregar</string>
+    <string name="charging_interruption_by_terminal_open_text">"No es pot carregar el dispositiu. Asseguri's que estigui utilitzant una bateria i un carregador compatibles de Samsung i que el dispositiu estigui connectat al carregador."</string>
+    <string name="charging_interruption_by_too_high_temperature_text">Càrrega pausada. Temperatura de la bateria massa alta.</string>
+    <string name="charging_interruption_by_too_low_temperature_text">Càrrega pausada. Temperatura de la bateria massa baixa.</string>
+    <string name="charging_interruption_by_limit_high_temperature_text">"El dispositiu s'ha deixat de carregar. La temperatura de la bateria es massa alt. Vagi en compte quan desconnecti el carregador. Pot estar molt calent.
+
+Desconnectar i tornar a connectar el carregador pot permetre que la càrrega continuï amb normalitat. Si el sobreescalfament persisteix, posi's en contacte amb atenció al client perquè hi pot haver risc de foc o lesió."</string>
+    <string name="full_battery_title">Info</string>
+    <string name="full_battery_text">"Bateria completament carregada.
+Desendolli el carregador."</string>
+    <string name="low_battery_title">Bateria baixa</string>
+    <string name="critical_low_battery_title">Bateria molt baixa</string>
+    <string name="low_battery_text">"Connecti a un endoll per carregar el dispositiu i surti de les aplicacions que no utilitzi a l'Administrador de tasques. L'ús continuat mentre es carrega pot evitar que es carregui amb eficiència."</string>
+    <string name="low_battery_text_charged_via_ta">"Surti de les aplicacions que no utilitzi a l'Administrador de tasques. L'ús continuat mentre es carrega pot evitar que es carregui amb eficiència."</string>
+    <string name="low_battery_camera_warning_text">Si la bateria cau per sota del %d%%, no podrà obrir la Càmera</string>
+    <string name="critical_low_battery_camera_warning_text">No es pot obrir la Càmera. Hi ha un %d%% de bateria o menys.</string>
+    <string name="start_force_consume_battery_title">Alerta</string>
+    <string name="start_force_consume_battery_text">"Esperi fins que s'hagi refredat abans d'utilitzar el dispositiu"</string>
+    <string name="stop_force_consume_battery_title">Info</string>
+    <string name="stop_force_consume_battery_text">"El dispositiu s'ha refredat"</string>
+    <string name="wireless_charging_title">Carregant sense fils</string>
+    <string name="cable_charging_title">Carrega de cable</string>
+    <string name="wireless_charging_text">"Ha col·locat el dispositiu dins de l'abast. Ara s'està carregant sense fils…"</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">Canviar de càrrega sense fils a càrrega amb cable</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">Canviar de càrrega amb cable a càrrega sense fils</string>
+    <string name="wireless_charging_spen_warning_text">"El dispositiu s'està carregant ara sense fils. L'S Pen no funcionarà dins del rang del carregador sense fils."</string>
+    <string name="incompatible_charger_title">"No s'està carregant"</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_dialog_text_for_tablet">The connected charger is incompatible with this tablet. To prevent damage to your tablet, charging has been stopped. To continue charging, use the original charger and cable that were provided with this tablet.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_notification_text">To charge faster, use the original charger</string>
+    <string name="slow_charging_toast_text">To charge faster, use the charger and cable that were provided with this phone</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="water_damage_warning_title">Comprovar tapa de càrrega</string>
+    <string name="water_damage_warning_text">"Per protecció contra danys per aigua, tanqui la tapa de càrrega amb fermesa abans d'utilitzar-la"</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">Apagar el dispositiu</string>
+    <string name="overheat_poweroff_warning_text">"El seu dispositiu s'està sobreescalfant. Ara s'apagarà per refredar."</string>
+    <string name="overheat_poweroff_warning_button_text">No apagar</string>
+    <string name="overheat_poweroff_notice_title">Dispositiu apagat automàticament</string>
+    <string name="overheat_poweroff_notice_text">"El dispositiu s'ha sobreescalfat. S'ha apagat per evitar danys.
+
+El sobreescalfament pot ser causat per:
+Utilitzar aplicacions de gràfics intensius, com ara jocs o aplicacions de navegació, durant llargs períodes de temps.
+Transferir fitxers grans.
+Utilitzar el dispositiu en un entorn calent."</string>
+    <string name="power_sharing_warning_title">Ús compartit de bateria</string>
+    <string name="power_sharing_warning_text">"La bateria és inferior al límit d'ús compartit de bateria. Per continuar compartint bateria, ajusti el límit d'ús compartit de bateria per sota del nivell de bateria actual."</string>
+    <string name="power_sharing_start_toast_text">Iniciant Ús compartit de bateria…</string>
+    <string name="power_sharing_end_notification_text">"Ha finalitzat l'ús compartit de bateria. Desconnecti el cable."</string>
+    <string name="face_detection_failure_text">Smart stay no pot detectar seus ulls</string>
+    <string name="status_bar_recent_launch_task_manager_title">Admin tasques</string>
+    <string name="status_bar_recent_launch_google_button">Google</string>
+    <string name="status_bar_recent_remove_all_button">Tancar tot</string>
+    <string name="screen_capture_fail_for_storage_capacity">"Emmagatzematge de dispositiu ple. Esborri'n alguns elements."</string>
+    <string name="no_such_item">"No es pot trobar l'element"</string>
+    <string name="pickup_tutorial_title">Intenti smart alert</string>
+    <string name="put_your_phone">"Després de deixar el dispositiu, se n'apagarà la pantalla"</string>
+    <string name="phone_detect">"Suposi que té trucades o missatges perduts. Deixi l'aparell i torni'l a recollir quan la pantalla s'hagi apagat."</string>
+    <string name="pick_up_your_phone">Agafi el dispositiu</string>
+    <string name="tutorial_complete">"Programa d'aprenentatge complet"</string>
+    <string name="camera_alert">No es pot iniciar la càmera durant la trucada</string>
+    <string name="stms_version">SM-G900F_EUR_20140228_0507</string>
+    <string name="wifi_cw_ready">China Telecom WLAN connected</string>
+    <string name="wifi_cw_ready_message">You have access to China Telecom WLAN network, consult 10000 to understand billing information, please turn off when not use</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">Aceptar</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="quickpanel_ctwap_text">CTWAP</string>
+    <string name="quickpanel_ctnet_text">CTNET</string>
+    <string name="tethering_attention_title">Atenció</string>
+    <string name="tethering_wifi_off_warning">Si habilita la zona activa Wi-Fi portàtil, es desactivarà el Wi-Fi</string>
+    <string name="quickpanel_air_view_warning">Per habilitar air view, habiliti almenys una funció</string>
+    <string name="quickpanel_air_view_warning_pen_support">Per habilitar vista per aire, habiliti almenys una funció des del mode de vista per aire seleccionat</string>
+    <string name="quickpanel_air_gesture_warning">Per habilitar Air gesture, habiliti almenys una funció pertinent</string>
+    <string name="quickpanel_air_gesture_warning_continue">"Mantingui tocat un botó d'ajustament ràpid per anar als ajustaments corresponents"</string>
+    <string name="roaming_title">Itinerància</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="gps_donotshow">No tornar a mostrar</string>
+    <string name="quickpanel_brightess_level">Nivell</string>
+    <string name="quickpanel_brightess_minus">Menys</string>
+    <string name="reading_mode_title">Mode de lectura</string>
+    <string name="reading_mode_alert">"S'ha habilitat el mode de lectura. Ara la pantalla està optimitzada per a lectura. Aquest mode només està disponible en aplicacions seleccionades."</string>
+    <string name="reading_mode_settings">Ajustaments</string>
+    <string name="automatic_brightness_message">"Els ajustaments de brillantor automàtica només s'apliquen a la pantalla interior"</string>
+    <string name="manual_brightness_message">"S'ha ajustat la brillantor manualment. S'ha deshabilitat la brillantor automàtica."</string>
+    <string name="flight_mode_message_for_wifi_only">"El mode Vol li permet desactivar les funcions de xarxa, com ara Wi-Fi i Bluetooth. Per utilitzar Wi-Fi i Bluetooth, activi'ls als Ajustaments o al tauler de notificacions."</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tutorial_notification_panel_drag_down">"Utilitzi un dit per arrossegar la barra d'estat des de l'extrem superior de la pantalla"</string>
+    <string name="tutorial_notification_panel_drag_down_complete">Es mostra el tauler de notificacions</string>
+    <string name="tutorial_quick_panel_drag_down">"Utilitzi dos dits per arrossegar la barra d'estat des de l'extrem superior de la pantalla"</string>
+    <string name="tutorial_quick_panel_drag_down_complete">"Es mostra el tauler d'ajustaments ràpids"</string>
+    <string name="tutorial_expand_notification_panel_drag_down">Utilitzi dos dits per arrossegar una de les llistes del tauler de notificacions</string>
+    <string name="tutorial_expand_notification_panel_drag_down_complete">Es mostra més informació sobre la llista seleccionada</string>
+    <string name="tutorial_invaild_action">Acció no vàlida. Torni-ho a intentar.</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="magnification_text_for_air_view_button">"Gestos d'ampliació"</string>
+    <string name="smartbonding_dialog_title">Augmentador de descàrrega</string>
+    <string name="smartbonding_dialog_wifi_text">"Descarregui fitxers grans (més de %d MB) més ràpidament utilitzant les xarxes Wi-Fi i LTE simultàniament. Tingui en compte que en funció dels estats de les xarxes, l'Augmentador de descàrrega pot utilitzar només xarxes Wi-Fi o LTE per descarregar fitxers."</string>
+    <string name="smartbonding_dialog_mobile_text">"Descarregui fitxers grans (més de %d MB) més ràpidament utilitzant les xarxes Wi-Fi i LTE simultàniament. Tingui en compte que en funció dels estats de les xarxes, l'Augmentador de descàrrega pot utilitzar només xarxes Wi-Fi o LTE per descarregar fitxers."</string>
+    <string name="smart_bonding_popup_msg">"S'habilitarà l'Augmentador de descàrrega. La descàrrega mitjançant xarxes mòbils pot comportar càrrecs addicionals en funció del seu pla de pagament."</string>
+    <string name="smart_bonding_popup_msg_wifi">"La connexió Wi-Fi està desactivada. Per activar l'Augmentador de descàrrega, ha d'activar la connexió Wi-Fi i les dades mòbils. La descàrrega mitjançant xarxes mòbils pot comportar càrrecs addicionals en funció del seu pla de pagament."</string>
+    <string name="smart_bonding_popup_msg_data">"Les dades mòbils estan desactivades. Per activar l'Augmentador de descàrrega, ha d'activar la connexió Wi-Fi i les dades mòbils. La descàrrega mitjançant xarxes mòbils pot comportar càrrecs addicionals en funció del seu pla de pagament."</string>
+    <string name="smart_bonding_popup_msg_wifi_data">"La connexió Wi-Fi i les dades mòbils estan desactivades. Per activar l'Augmentador de descàrrega, ha d'activar la connexió Wi-Fi i les dades mòbils. La descàrrega mitjançant xarxes mòbils pot comportar càrrecs addicionals en funció del seu pla de pagament."</string>
+    <string name="smart_bonding_popup_msg_roaming">"No es pot utilitzar l'Augmentador de descàrrega en itinerància. Li recomanem que el descarregui mitjançant una xarxa Wi-Fi."</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Activar Wi-Fi</string>
+    <string name="smart_bonding_popup_msg_data_btn">Activar dades mòbils</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Activi Wi-Fi i dades mòbils</string>
+    <string name="smart_bonding_turn_off_text">"No es pot utilitzar l'Accelerador de descàrrega mentre %1$s està habilitat. Deshabiliti %2$s i torni-ho a intentar."</string>
+    <string name="smart_bonding_turn_off_text_airplane_mode">No es pot connectar a xarxes mòbils mentre el mode Vol està habilitat. Deshabiliti el mode Vol i torni-ho a intentar.</string>
+    <string name="dialog_battery_data_warning">El punt calent de Wi-Fi portàtil consumeix molta bateria i augmenta el consum de dades. Continuar?</string>
+    <string name="tether_settings_title_wifi">Punt calent portàtil</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">Avís</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="cooling_title">Sobreescalfament del dispositiu</string>
+    <string name="cooling_body">"El dispositiu s'està sobreescalfant. Es prendran mesures per refredar-lo.
+
+Encara pot utilitzar el dispositiu, però
+- la pantalla es pot veure menys nítida.
+- el dispositiu pot funcionar més lentament.
+- es pot aturar la càrrega.
+
+Si tanca l'aplicació actual, ajudarà a refredar el dispositiu.
+
+Quan s'hagi refredat el dispositiu, el rendiment tornarà a ser normal automàticament."</string>
+    <string name="cooling_noti_text">Toqui aquí per veure detalls</string>
+    <string name="cooling_popup_name">Notificació</string>
+    <string name="cooling_noti_title">Sobreescalfament del dispositiu</string>
+    <string name="btn_text_yes">Accept</string>
+    <string name="btn_text_no">Canc</string>
+    <string name="device_overheating">Sobreescalfament del dispositiu</string>
+    <string name="colling_noti_text_2">No es poden obrir aplicacions. Només pot utilitzar les aplicacions Telèfon i Contactes.</string>
+    <string name="vol_panel_audio_settings">"canviar els seus ajustaments d'àudio"</string>
+    <string name="guest_launge_warning_toast_text">No es pot habilitar ni deshabilitar %s mentre és en mode de convidat.</string>
+    <string name="safe_mode_title_vzw">Desactiva Mode segur</string>
+    <string name="safe_mode_popup_body_vzw">Voleu reiniciar el telèfon per desactivar el Mode segur? Totes les aplicacions es restauraran.</string>
+    <string name="safe_mode_btn_cancel_vzw">Canc</string>
+    <string name="safe_mode_off_btn_vzw">Desactiva Mode segur</string>
+    <string name="safe_mode_noti_on_vzw">Mode segur activat</string>
+    <string name="safe_mode_noti_body_vzw">Toqueu per desactivar Mode segur</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">Toqui aquí per obtenir més informació.</string>
+    <string name="cooling_popup_name_VZW">Notificac</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">Accept</string>
+    <string name="btn_text_no_VZW">Canc</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance will Automatically go back to normal."</string>
+    <string name="recent_menukey_press_description">Mantingui premuda la tecla recent per veure el menú.</string>
+    <string name="recent_menukey_press_description_vzw">"S'ha substituït la tecla menú per la tecla recent perquè pugui canviar ràpidament entre les aplicacions que ha utilitzat fa poc. Toqui Ajuda per obtenir més informació."</string>
+    <string name="recent_menukey_help_button">Ajuda</string>
+</resources>

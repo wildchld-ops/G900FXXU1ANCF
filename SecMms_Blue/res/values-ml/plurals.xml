@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s സംഭാഷണങ്ങൾ</item>
+        <item quantity="one">1 സംഭാഷണം</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s മെസ്സേജുകള്‍</item>
+        <item quantity="one">1 സന്ദേശം</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d സംഭാഷണം</item>
+        <item quantity="one">%d സംഭാഷണം</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s, %2$d എണ്ണം കൂടി</item>
+        <item quantity="one">%s, 1 എണ്ണം കൂടി</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s, %2$d എണ്ണം കൂടി</item>
+        <item quantity="one">%s, 1 എണ്ണം കൂടി</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">SIM കാര്‍ഡില്‍ നിന്നും സന്ദേശങ്ങള്‍ ഇല്ലാതാക്കി.</item>
+        <item quantity="one">SIM കാര്‍ഡില്‍ നിന്നും മെസ്സേജ് ഡിലീറ്റ് ചെയ്തു.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">SIM കാര്‍ഡില്‍ നിന്നും സന്ദേശങ്ങള്‍ പകര്‍ത്തി.</item>
+        <item quantity="one">SIM കാര്‍ഡില്‍ നിന്നും മെസ്സേജ് പകര്‍ത്തി.</item>
+    </plurals>
+</resources>

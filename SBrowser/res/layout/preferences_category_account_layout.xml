@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/title_area" android:background="@drawable/tw_list_section_divider_light_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/account_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/internet_icon_samsung" android:contentDescription="@null" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="22.0sp" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center_vertical" android:id="@*android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:singleLine="true" android:shadowColor="#ff000000" android:shadowDy="-1.0" />
+        <TextView android:textSize="17.0sp" android:textColor="#ff8d9ca3" android:ellipsize="end" android:layout_gravity="bottom" android:id="@*android:id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:singleLine="true" android:shadowColor="#ff000000" android:shadowDy="-1.0" />
+    </LinearLayout>
+</LinearLayout>

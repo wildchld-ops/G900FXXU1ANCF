@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s សន្ទនា</item>
+        <item quantity="one">សន្ទនា 1</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">សារ %1$s</item>
+        <item quantity="one">1 message</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d សន្ទនា</item>
+        <item quantity="one">ការសន្ទនាលើ %d</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s និង %2$d ទៀត</item>
+        <item quantity="one">%s និង 1 ទៀត</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s និង %2$d ទៀត</item>
+        <item quantity="one">%s និង 1 ទៀត</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">បាន​លុប​សារ​ពី​កាត SIM។</item>
+        <item quantity="one">បាន​លុប​សារ​ពី​កាត SIM។</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">បាន​ចម្លង​សារ​ពី​កាត SIM។</item>
+        <item quantity="one">បាន​ចម្លង​សារ​ពី​កាត SIM។</item>
+    </plurals>
+</resources>

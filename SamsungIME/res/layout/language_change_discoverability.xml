@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="fill_vertical" android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/discoverability_text_size" android:textColor="@color/discoverability_popup_text_color" android:id="@id/discoverability_text_message" android:background="@drawable/help_discoverability_bg_03" android:paddingLeft="@dimen/discoverability_text_padding_left" android:paddingTop="@dimen/discoverability_text_padding_top" android:paddingRight="@dimen/discoverability_text_padding_left" android:paddingBottom="@dimen/discoverability_text_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/discoverability_margin_bottom" android:text="@string/language_change_discoverability" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.mms.widget.FontSizePreference android:entries="@array/pref_entries_widget_font_size" android:title="@string/font_size" android:key="pref_key_widget_font_size" android:defaultValue="Normal" android:dialogTitle="@string/font_size" android:entryValues="@array/pref_entry_values_widget_font_size" />
+    <PreferenceScreen android:title="@string/remove" android:key="pref_key_widget_delete">
+        <intent android:targetPackage="com.android.mms" android:action="android.intent.action.MAIN" android:targetClass="com.android.mms.widget.NoticeDeleteActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/change_order" android:key="pref_key_widget_reorder">
+        <intent android:targetPackage="com.android.mms" android:action="android.intent.action.MAIN" android:targetClass="com.android.mms.widget.NoticeEditActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

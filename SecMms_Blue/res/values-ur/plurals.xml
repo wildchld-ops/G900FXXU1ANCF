@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s مکالکمات</item>
+        <item quantity="one">1 گفتگو</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s پیغامات</item>
+        <item quantity="one">1 پیغام</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d بات چیت</item>
+        <item quantity="one">%d بات چیت</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s اور %2$d مزید</item>
+        <item quantity="one">%s اور 1 زیادہ</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s اور %2$d مزید</item>
+        <item quantity="one">%s اور 1 زیادہ</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">سم کارڈ سے پیغامات حذف ہوگئے۔</item>
+        <item quantity="one">سم کارڈ سے پیغام حذف ہوگیا۔</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">سم کارڈ سے نقل کردہ پیغامات۔</item>
+        <item quantity="one">پیغام سم کارڈ سے نقل ہوگیا۔</item>
+    </plurals>
+</resources>

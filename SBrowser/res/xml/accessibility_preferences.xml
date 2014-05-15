@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <com.sec.android.app.sbrowser.preferences.FontSizePreview android:title="@string/font_size_preview" android:selectable="false" />
+    <com.sec.android.app.sbrowser.preferences.SeekBarPreference android:title="@string/font_size_scalling" android:key="text_scale" android:defaultValue="1.0" app:max="2.0" app:min="0.5" app:step="0.05" />
+    <CheckBoxPreference android:title="@string/force_enable_zoom" android:key="force_enable_zoom" android:summary="@string/force_enable_zoom_summary" android:defaultValue="false" />
+    <ListPreference android:entries="@array/pref_default_text_encoding_choices" android:id="@id/text_encode" android:title="@string/pref_default_text_encoding" android:key="default_text_encoding" android:summary="@string/pref_text_encoding_summary" android:defaultValue="@string/pref_default_text_encoding_default" android:dialogTitle="@string/pref_default_text_encoding_dialogtitle" android:entryValues="@array/pref_default_text_encoding_values" />
+    <CheckBoxPreference android:title="@string/pref_lab_fullscreen" android:key="fullscreen" android:summary="@string/pref_lab_fullscreen_summary" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_content_fontboosting_mode" android:key="fontboosting_mode" android:summary="@string/pref_content_fontboosting_mode_summary" android:defaultValue="true" />
+</PreferenceScreen>

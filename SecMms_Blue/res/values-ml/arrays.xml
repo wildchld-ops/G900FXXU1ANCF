@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>സന്തോഷം</item>
+        <item>ദുഃഖം</item>
+        <item>വിങ്കിംഗ്</item>
+        <item>നാക്ക് പുറത്തേക്ക് നീട്ടിയത്</item>
+        <item>അല്‍ഭുതപ്പെട്ടു</item>
+        <item>ചും‌ബിക്കുന്നു</item>
+        <item>നിലവിളിക്കുക</item>
+        <item>കൂള്‍</item>
+        <item>പണത്തിനോട് ആര്‍‌ത്തി</item>
+        <item>കുഴയ്ക്കുന്ന വിധം സംസാരിക്കല്‍</item>
+        <item>ആലിംഗനം ചെയ്ത</item>
+        <item>എയ്ഞ്ചല്‍</item>
+        <item>തീരുമാനിച്ചിട്ടില്ലാത്ത</item>
+        <item>കരയുക</item>
+        <item>ചുണ്ടുകള്‍ മുദ്ര വച്ചത്</item>
+        <item>പൊട്ടിച്ചിരിക്കുന്ന</item>
+        <item>ആശയക്കുഴപ്പം</item>
+        <item>ഹൃദയം</item>
+        <item>മാഡ്</item>
+        <item>സ്മിര്‍ക്ക്</item>
+        <item>പോക്കര്‍ ഫെയ്സ്</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>സാമഗ്രി ഫോണ്ട് വലിപ്പങ്ങള്‍ ഉപയോഗിക്കുക</item>
+        <item>വളരെ ചെറുത്</item>
+        <item>ചെറുത്</item>
+        <item>സാധാരണം</item>
+        <item>വലുത്</item>
+        <item>വളരെ വലുത്</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>സാമഗ്രി ഫോണ്ട് വലിപ്പങ്ങള്‍ ഉപയോഗിക്കുക</item>
+        <item>വളരെ ചെറുത്</item>
+        <item>വളരെ ചെറുത്</item>
+        <item>ചെറുത്</item>
+        <item>ഇടത്തരം</item>
+        <item>വലുത്</item>
+        <item>വളരെ വലുത്</item>
+        <item>കൂറ്റൻ</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>എല്ലാ ചാനലുകളും</item>
+        <item>എന്‍റെ ചാനല്‍</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM അക്ഷരമാല</item>
+        <item>യൂണിക്കോഡ്</item>
+        <item>ഓട്ടോമാറ്റിക്</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 ദിവസം</item>
+        <item>1 ദിവസം</item>
+        <item>2 ദിവസം</item>
+        <item>3 ദിവസം</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>നിയന്ത്രിതം</item>
+        <item>മുന്നറിയിപ്പ്</item>
+        <item>സൌജന്യം</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>എപ്പോഴും</item>
+        <item>പ്രോമ്റ്റ്‌</item>
+        <item>ഒരിക്കലുമില്ല</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>ഒറിഗാമി</item>
+        <item>ലേബല്‍</item>
+        <item>പോപ്പ്</item>
+        <item>ആധുനികം</item>
+        <item>പിങ്ക്</item>
+        <item>ഡിഫോള്ട്ട്</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>ഒരിക്കല്‍</item>
+        <item>ഓരോ 2 മിനിറ്റിലും</item>
+        <item>ഓരോ 15 മിനിറ്റിലും</item>
+        <item>ഓഫ്</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>ഒരിക്കലുമില്ല</item>
+        <item>ഓരോ 2 മിനിറ്റിലും</item>
+        <item>ഓരോ 10 മിനിറ്റിലും</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>തദ്ദേശികം</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 മണിക്കൂര്‍</item>
+        <item>6 മണിക്കൂര്‍</item>
+        <item>24 മണിക്കൂര്‍</item>
+        <item>2 ദിവസം</item>
+        <item>നെറ്റ് വര്‍ക്ക് ഡിഫോള്‍ട്ട്</item>
+        <item>പരമാവധി</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>ഉയര്‍ന്ന</item>
+        <item>നോര്‍മല്‍</item>
+        <item>താഴ്ന്ന</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>ഉടന്‍തന്നെ</item>
+        <item>1 മണിക്കൂര്‍</item>
+        <item>6 മണിക്കൂര്‍</item>
+        <item>24 മണിക്കൂര്‍</item>
+        <item>1 ആഴ്‌ച</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 സെക്കന്‍റ്</item>
+        <item>5 സെക്കന്‍റ്</item>
+        <item>10 സെക്കന്‍റ്</item>
+        <item>20 സെക്കന്‍റ്</item>
+        <item>30 സെക്കന്‍റ്</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>ഓഫ്</item>
+        <item>എല്ലാ മെസ്സേജുകളും ബ്ലോക്ക് ചെയ്യുക</item>
+        <item>രജിസ്റ്റര്‍ ചെയ്ത നമ്പറുകളും പദസഞ്ചയങ്ങളും തടയുക</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>ഏകദേശം ഇതിന് സമാനമായി</item>
+        <item>ഇതുമായി ആരംഭിക്കുന്ന</item>
+        <item>ഇതിനൊപ്പം അവസാനിക്കുന്ന</item>
+        <item>ഉള്‍ക്കൊള്ളുന്നു</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>ലോഗുകള്‍</item>
+        <item>കോണ്ടാ.</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>മെസ്സേജ് ബ്ലോക്ക്</item>
+        <item>കോള്‍ ബ്ലോക്ക്</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>മെസ്സേജ് ബ്ലോക്ക്</item>
+        <item>വോയ്സ് കോള്‍ ബ്ലോക്ക്</item>
+        <item>വീഡിയോ കോള്‍ ബ്ലോക്ക്</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>റിസര്‍വ് ചെയ്തു.</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>സാധാരണ</item>
+        <item>ഉയര്‍ന്ന</item>
+    </string-array>
+    <string-array name="templates">
+        <item>ക്ഷമിക്കണം, നിങ്ങളുടെ കോള്‍ എനിക്ക് നഷ്ടമായി.</item>
+        <item>ഞാന്‍ വൈകി, എങ്കിലും മിനിറ്റുകള്‍ക്കുള്ളില്‍ ഞാന്‍ അവിടെ എത്തും.</item>
+        <item>കാര്യങ്ങള്‍ എങ്ങനെ പോകുന്നു?</item>
+        <item>എന്തുണ്ട് വിശേഷം?</item>
+        <item>നിങ്ങള്‍ എവിടെയാണ്?</item>
+        <item>നിങ്ങള്‍ക്ക് ഈ സന്ദേശം ലഭിക്കുമ്പോള്‍ ദയവായി എന്നെ വിളിക്കുക.</item>
+        <item>എപ്പോഴാണ് നമുക്ക് കാണാന്‍ കഴിയുക?</item>
+        <item>ഞാന്‍ നിങ്ങളോട് ഉടന്‍ സംസാരിക്കും.</item>
+        <item>മീറ്റിംഗ് എവിടെയാണ്?</item>
+        <item>നമ്പര്‍ എന്താണ്?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>ബ്രസീലിയന്‍ പോര്‍ച്ചുഗീസ്</item>
+        <item>ഇംഗ്ലീഷ് (UK)</item>
+        <item>ഇംഗ്ലീഷ്(US)</item>
+        <item>ഫ്രഞ്ച്</item>
+        <item>ജര്‍മ്മന്‍</item>
+        <item>ഇറ്റാലിയന്‍</item>
+        <item>ജാപ്പാനീസ്</item>
+        <item>കൊറിയന്‍</item>
+        <item>ലളിതവല്‍കൃത ചൈനീസ്</item>
+        <item>റഷ്യന്‍</item>
+        <item>സ്പാനിഷ്</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>വളരെ ചെറുത്</item>
+        <item>ചെറുത്</item>
+        <item>സാധാരണം</item>
+        <item>വലുത്</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>എല്ലാം</item>
+        <item>പ്രേഷിതന്‍</item>
+        <item>ഉള്ളടക്കം</item>
+    </string-array>
+</resources>

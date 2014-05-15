@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/switch_actionbar_menu" android:title="@string/pref_content_data_compression" android:showAsAction="always" android:actionViewClass="android.widget.Switch" />
+</menu>

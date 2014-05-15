@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s samtöl</item>
+        <item quantity="one">1 samtal</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s skilaboð</item>
+        <item quantity="one">1 skilaboð</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d samtöl</item>
+        <item quantity="one">%d samtal</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s og %2$d í viðbót</item>
+        <item quantity="one">%s og 1 í viðbót</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s og %2$d í viðbót</item>
+        <item quantity="one">%s og 1 í viðbót</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">Skilaboðum eytt af SIM-korti.</item>
+        <item quantity="one">Skilaboðum eytt af SIM-korti.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">Skilaboð afrituð af SIM-korti.</item>
+        <item quantity="one">Skilaboð afrituð af SIM-korti.</item>
+    </plurals>
+</resources>

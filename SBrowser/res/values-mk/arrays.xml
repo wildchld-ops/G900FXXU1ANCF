@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Секогаш вклучено</item>
+        <item>По барање</item>
+        <item>Исклучено</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Основна страница</item>
+        <item>Тековна страница</item>
+        <item>Брз пристап</item>
+        <item>Најпосетувани сајтови</item>
+        <item>Друго</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Уред</item>
+        <item>SD-карт.</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Уникод (UTF-8)</item>
+        <item>Кинески (GBK)</item>
+        <item>Кинески (Big5)</item>
+        <item>Јапонски (ISO-2022-JP)</item>
+        <item>Јапонски (SHIFT JIS)</item>
+        <item>Јапонски (EUC-JP)</item>
+        <item>Корејски (EUC-KR)</item>
+        <item>Автоматско откривање</item>
+    </string-array>
+</resources>

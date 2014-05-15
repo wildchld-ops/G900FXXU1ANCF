@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">ການສະແດງ %d ຜູ້ຕິດຕໍ່</item>
+        <item quantity="one">ກໍາລັງສະແດງຜູ້ຕິດຕໍ່ 1 ຄົນ</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">ກໍາລັງເປີດສະແດງຜູ້ຕິດຕໍ່ %d ຄົນພ້ອມບັນດາເບີໂທລະສັບ</item>
+        <item quantity="one">ກໍາລັງເປີດສະແດງຜູ້ຕິດຕໍ່ 1 ຄົນພ້ອມເບີໂທລະສັບ</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">ຜູ້ຕິດຕໍ່ %d ຄົນກັບໝາເລກໂທລະສັບ</item>
+        <item quantity="one">ຜູ້ຕິດຕໍ່ 1 ຄົນກັບໝາເລກໂທລະສັບ</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d ຜູ້ຕິດຕໍ່</item>
+        <item quantity="one">1 ຜູ້ຕິດຕໍ່</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">ພົບ %d</item>
+        <item quantity="one">ພົບ 1</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">ພົບ %d</item>
+        <item quantity="one">ພົບ 1</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d ກຸ່ມ</item>
+        <item quantity="one">1 ກຸ່ມ</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d ຄົນຢູ່ໃນກຸ່ມ %2$s</item>
+        <item quantity="one">%1$d ຄົນຢູ່ໃນກຸ່ມ %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d ຄົນ</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d ຂໍ້ຄວາມສຽງ</item>
+        <item quantity="one">ຂໍ້ຄວາມສຽງ</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d ຜູ້ຕິດຕໍ່ຖືກກັອບປີ້.</item>
+        <item quantity="one">%d ຜູ້ຕິດຕໍ່ຖືກກັອບປີ້.</item>
+    </plurals>
+</resources>

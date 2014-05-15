@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/dialtacts_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?android:actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageButton android:state_enabled="false" android:layout_gravity="start|bottom|center" android:id="@id/searchButton" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="?android:actionBarSize" android:src="@drawable/ic_dial_action_search" android:contentDescription="@string/description_search_button" />
+    <ImageButton android:layout_gravity="end|bottom|center" android:id="@id/overflow_menu" android:background="?android:selectableItemBackground" android:nextFocusLeft="@id/digits" android:layout_width="wrap_content" android:layout_height="?android:actionBarSize" android:src="@drawable/ic_menu_overflow" android:contentDescription="@string/action_menu_overflow_description" />
+</FrameLayout>

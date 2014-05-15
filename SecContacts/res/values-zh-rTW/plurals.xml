@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">顯示 %d 位聯絡人</item>
+        <item quantity="one">正在顯示 1 位聯絡人</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">顯示 %d 個有電話號碼的聯絡人</item>
+        <item quantity="one">顯示1個有電話號碼的聯絡人</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d個電話號碼聯絡人</item>
+        <item quantity="one">1聯絡人電話號碼</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d 位聯絡人</item>
+        <item quantity="one">1 位聯絡人</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">找到 %d 位</item>
+        <item quantity="one">找到 1 位</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">找到 %d 位</item>
+        <item quantity="one">找到 1 位</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">從 %0$d 個來源合併</item>
+        <item quantity="one">未合併</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d 個群組</item>
+        <item quantity="one">1 個群組</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">群組 %2$s 有 %1$d 人</item>
+        <item quantity="one">群組 %2$s 有 %1$d 人</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d 個人</item>
+        <item quantity="one">%1$d 人</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d 個語音留言</item>
+        <item quantity="one">語音信箱</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">已複製 %d 位聯絡人</item>
+        <item quantity="one">已複製 %d 位聯絡人</item>
+    </plurals>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/group_account_container" android:background="@drawable/list_item_background" android:paddingLeft="@dimen/list_item_left_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_two_line_height">
+        <TextView android:textAppearance="@style/textAppearanceListPrimary" android:id="@id/group_account_label" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_create_group_in" />
+        <TextView android:textAppearance="@style/textAppearanceListSecondary" android:id="@id/group_account_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_accounts" />
+    </LinearLayout>
+    <View android:id="@id/group_account_devider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/group_name_container" android:paddingLeft="@dimen/list_item_left_padding" android:paddingRight="@dimen/list_item_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/textAppearanceGroupEditorLabel" android:id="@id/group_name_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/group_editor_group_name_label_margin_top" android:text="@string/group_edit_field_hint_text" />
+        <EditText android:id="@id/group_name_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/group_editor_group_name_margin_top" android:layout_marginBottom="@dimen/group_editor_group_name_margin_bottom" android:hint="@string/group_edit_field_hint_text" android:singleLine="true" android:inputType="textCapSentences" android:imeOptions="flagNoFullscreen" />
+    </LinearLayout>
+    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/group_ringtone_container" android:background="@drawable/list_item_background" android:paddingLeft="@dimen/list_item_left_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/list_two_line_height">
+        <LinearLayout android:orientation="vertical" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/textAppearanceListPrimary" android:ellipsize="marquee" android:id="@id/group_ringtone_label" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/group_ringtone" android:singleLine="true" />
+            <TextView android:textAppearance="@style/textAppearanceListSecondary" android:ellipsize="marquee" android:id="@id/group_ringtone_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/group_editor_default" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/group_ringtone_devider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/message_alert_container" android:background="@drawable/list_item_background" android:paddingLeft="@dimen/list_item_left_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/list_two_line_height">
+        <LinearLayout android:orientation="vertical" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/textAppearanceListPrimary" android:ellipsize="marquee" android:id="@id/message_alert_label" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/group_message_alert_label" android:singleLine="true" />
+            <TextView android:textAppearance="@style/textAppearanceListSecondary" android:ellipsize="marquee" android:id="@id/message_alert_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/group_editor_default" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/message_alert_devider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/group_vibration_container" android:background="@drawable/list_item_background" android:paddingLeft="@dimen/list_item_left_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/list_two_line_height">
+        <LinearLayout android:orientation="vertical" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/textAppearanceListPrimary" android:ellipsize="marquee" android:id="@id/group_vibration_label" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/group_vibration_label" android:singleLine="true" />
+            <TextView android:textAppearance="@style/textAppearanceListSecondary" android:ellipsize="marquee" android:id="@id/group_vibration_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/group_editor_default" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/group_vibration_devider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/add_member_container" android:background="@drawable/list_item_background" android:paddingLeft="@dimen/list_item_left_padding" android:paddingRight="@dimen/list_item_right_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/list_two_line_height">
+        <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/group_editor_add_member_image_margin_right" android:src="@drawable/group_editor_add_member" />
+        <TextView android:textAppearance="@style/textAppearanceListPrimary" android:ellipsize="marquee" android:id="@id/add_member_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/add_member" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/textAppearanceListPrimary" android:id="@id/member_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

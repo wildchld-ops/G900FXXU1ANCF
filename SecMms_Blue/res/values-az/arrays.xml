@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>Xoşbəxt</item>
+        <item>Qəmgin</item>
+        <item>Göz vuran</item>
+        <item>Dil çıxarır</item>
+        <item>Təəccüblü</item>
+        <item>Öpən</item>
+        <item>Bağıran</item>
+        <item>Bomba</item>
+        <item>Ağızda pul</item>
+        <item>Ayaq ağızda</item>
+        <item>Çaşqın</item>
+        <item>Mələk</item>
+        <item>Qərarsız</item>
+        <item>Ağlayan</item>
+        <item>Dodaqlar qapanıb</item>
+        <item>Gülən</item>
+        <item>Çaşqın</item>
+        <item>Ürək</item>
+        <item>Dəli</item>
+        <item>Sırıtmaq</item>
+        <item>İfadəsiz sima</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Chzn şrift ölçndn ist. et</item>
+        <item>Lap kiçik</item>
+        <item>Kiçik</item>
+        <item>Normal</item>
+        <item>Geniş</item>
+        <item>Böyük</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Chzn şrift ölçndn ist. et</item>
+        <item>Lap kiçik</item>
+        <item>Olduqca kiçik</item>
+        <item>Kiçik</item>
+        <item>Orta</item>
+        <item>Geniş</item>
+        <item>Olduqca böyük</item>
+        <item>Nəhəng</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Bütün kanallar</item>
+        <item>Mənim Kanalım</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-əlifba</item>
+        <item>Yunikod</item>
+        <item>Avtomatik</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 gün</item>
+        <item>1 gün</item>
+        <item>2 gün</item>
+        <item>3 gün</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Məhdudlaşdırılmışdır</item>
+        <item>Xəbərdarlıq</item>
+        <item>Azad</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Həmişə</item>
+        <item>Cəld</item>
+        <item>Heç zaman</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Oriqami</item>
+        <item>Etiket</item>
+        <item>Pop</item>
+        <item>Müasir</item>
+        <item>Çəhrayı</item>
+        <item>Susmaya görə</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Bir dəfə zəng çal</item>
+        <item>Hər 2 dəqiqədən</item>
+        <item>Hər 15 dəqiqədən bir</item>
+        <item>Söndür</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Heç zaman</item>
+        <item>Hər 2 dəqiqədən</item>
+        <item>Hər 10 dəqiqədən</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Daxili</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 saat</item>
+        <item>6 saat</item>
+        <item>24 saat</item>
+        <item>2 gün</item>
+        <item>Şəbəkə standartı</item>
+        <item>Maksimum</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Yüksək</item>
+        <item>Normal</item>
+        <item>Alçaq</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Dərhal</item>
+        <item>1 saat</item>
+        <item>6 saat</item>
+        <item>24 saat</item>
+        <item>1 həftə</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 saniyə</item>
+        <item>5 saniyə</item>
+        <item>10 saniyə</item>
+        <item>20 saniyə</item>
+        <item>30 saniyə</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Söndür</item>
+        <item>Bütün mesajları blokla</item>
+        <item>Qeydiyyatdan keçmiş nömrələri və ifadələri blokla</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Məhz … kimi</item>
+        <item>Başlayır</item>
+        <item>Bitir</item>
+        <item>Daxil edir</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Tarixçələr</item>
+        <item>Kntktlr</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Mesaj bloklanması</item>
+        <item>Zəng bloklanması</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Mesaj bloklanması</item>
+        <item>Səs zəngi bloklanması</item>
+        <item>Video zəng bloklanması</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Ehtiyata üçün saxlanıldı.</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Normal</item>
+        <item>Yüksək</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Üzr istəyirəm, zəngini eşitməmişəm.</item>
+        <item>Gecikirəm, lakin bir-iki dəqiqəyə orada olacam.</item>
+        <item>İşlər necədir?</item>
+        <item>Nə baş verib?</item>
+        <item>Haradasan?</item>
+        <item>Bu mesajı alanda mənə zəng et.</item>
+        <item>Biz nə vaxt görüşə bilərik?</item>
+        <item>Tezliklə danışarıq.</item>
+        <item>Görüş haradadır?</item>
+        <item>Nömrə neçədir?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Braziliya Portuqal</item>
+        <item>İngilis dili (BK)</item>
+        <item>İngilis dili (ABŞ)</item>
+        <item>Fransız dili</item>
+        <item>Alman dili</item>
+        <item>İtalyan dili</item>
+        <item>Yapon dili</item>
+        <item>Koreya dili</item>
+        <item>Sadələşdirilmiş Çin dili</item>
+        <item>Rus dili</item>
+        <item>İspan dili</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Lap kiçik</item>
+        <item>Kiçik</item>
+        <item>Normal</item>
+        <item>Geniş</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Hamısını</item>
+        <item>Göndərən</item>
+        <item>Məzmun</item>
+    </string-array>
+</resources>

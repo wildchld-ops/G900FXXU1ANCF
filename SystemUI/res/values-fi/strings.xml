@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_date_format_day_month">E, d. MMMM</string>
+    <string name="status_bar_date_format_month_day">E, MMMM. d</string>
+    <string name="status_bar_date_format_day_month_k">"E
+d MMM"</string>
+    <string name="status_bar_date_format_month_day_k">"E
+MMM d"</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">E, MMM. d</string>
+    <string name="abbrev_wday_day_abbrev_month_no_year">E, d. MMM</string>
+    <string name="app_label">Järj. UI</string>
+    <string name="status_bar_clear_all_button">Tyhjennä</string>
+    <string name="status_bar_do_not_disturb_button">Älä häiritse</string>
+    <string name="status_bar_please_disturb_button">Näytä ilmoitukset</string>
+    <string name="status_bar_recent_remove_item_title">Poista luettelosta</string>
+    <string name="status_bar_recent_inspect_item_title">Sovelluksen tiedot</string>
+    <string name="status_bar_no_recent_apps">Viimeksi käytettyjä sovelluksia ei ole</string>
+    <string name="status_bar_accessibility_dismiss_recents">Hylkää viimeaikaiset sovellukset</string>
+    <string name="status_bar_no_notifications_title">Ei ilmoituksia</string>
+    <string name="status_bar_ongoing_events_title">Käynnissä oleva</string>
+    <string name="status_bar_latest_events_title">Ilmoitukset</string>
+    <string name="battery_low_title">Kytke laturi.</string>
+    <string name="battery_low_subtitle">Akun virta on vähissä.</string>
+    <string name="battery_low_percent_format">%d %% jäljellä</string>
+    <string name="invalid_charger">USB-latausta ei tueta. Käytä laitteen mukana toimitettua laturia.</string>
+    <string name="battery_low_why">Akun käyttö</string>
+    <string name="status_bar_settings_settings_button">Asetukset</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Lentotila</string>
+    <string name="status_bar_settings_auto_rotation">Näytön automaattinen kierto</string>
+    <string name="status_bar_settings_mute_label">Mykistä</string>
+    <string name="status_bar_settings_auto_brightness_label">Auto</string>
+    <string name="status_bar_settings_notifications">Ilmoitukset</string>
+    <string name="bluetooth_tethered">Bluetooth liitetty</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Määritä syöttötavat</string>
+    <string name="status_bar_use_physical_keyboard">Fyysinen näppäimistö</string>
+    <string name="usb_device_permission_prompt">Annetaanko sovelluksen %1$s käyttää USB-laitetta?</string>
+    <string name="usb_accessory_permission_prompt">Annetaanko sovelluksen %1$s käyttää USB-lisälaitetta?</string>
+    <string name="usb_device_confirm_prompt">Avataanko %1$s, kun tämä USB-laite on liitettynä?</string>
+    <string name="usb_accessory_confirm_prompt">Avataanko %1$s, kun tämä USB-lisälaite on liitettynä?</string>
+    <string name="usb_accessory_uri_prompt">Asennetut sovellukset eivät toimi tämän USB-lisälaitteen kanssa. Lue lisää tästä lisälaitteesta osoitteesta %s.</string>
+    <string name="title_usb_accessory">USB-lisälaite</string>
+    <string name="label_view">Näytä</string>
+    <string name="always_use_device">Käytä oletusarvoisesti tämän USB-laitteen kanssa</string>
+    <string name="always_use_accessory">Käytä oletusarv. tämän USB-lisälaitteen kanssa</string>
+    <string name="usb_debugging_title">Sallitaanko USB-virheenkorjaus?</string>
+    <string name="usb_debugging_message">"Tietokoneen RSA-avaimen sormenjälki on:
+%1$s"</string>
+    <string name="usb_debugging_always">Salli tämä tietokone aina</string>
+    <string name="compat_mode_on">Zoomaa koko näyttöön</string>
+    <string name="compat_mode_off">Venytä koko näyttöön</string>
+    <string name="compat_mode_help_header">Yhteensopivuuden varmistava zoomaus</string>
+    <string name="compat_mode_help_body">Kun sovellus on suunniteltu pienempää näyttöä varten, kellon viereen ilmestyy zoomaussäädin.</string>
+    <string name="screenshot_saving_ticker">Tallennetaan ruudunkaappausta…</string>
+    <string name="screenshot_saving_title">Tallennetaan ruudunkaappausta…</string>
+    <string name="screenshot_saving_text">Ruudunkaappausta tallennetaan.</string>
+    <string name="screenshot_saved_title">Näyttökuva tallennettu</string>
+    <string name="screenshot_saved_text">Näytä ruudunkaappaus napauttamalla.</string>
+    <string name="screenshot_failed_title">Ruudunkaappausta ei voi tallentaa.</string>
+    <string name="screenshot_failed_text">Ruudunkaappausta ei voi tallentaa. USB-muisti on ehkä käytössä.</string>
+    <string name="screenshot_failed_due_to_drm_text">Ruudunkaappaus epäonnistui. DRM-suojattu kuva.</string>
+    <string name="one_item_will_be_deleted">1 kohde poistetaan.</string>
+    <string name="usb_preference_title">USB-tiedostonsiirron asetukset</string>
+    <string name="use_mtp_button_title">Asenna mediasoittimena (MTP)</string>
+    <string name="use_ptp_button_title">Asenna kamerana (PTP)</string>
+    <string name="installer_cd_button_title">Asenna Android-tiedostonsiirtosovellus Maciin</string>
+    <string name="accessibility_back">Tak.</string>
+    <string name="accessibility_home">Koti</string>
+    <string name="accessibility_menu">Valikko</string>
+    <string name="accessibility_recent">Viimeksi käytetyt sovellukset</string>
+    <string name="accessibility_ime_switch_button">Syöttötavan vaihtopainike.</string>
+    <string name="accessibility_compatibility_zoom_button">Yhteensopivuuden varmistavan zoomauksen painike</string>
+    <string name="accessibility_compatibility_zoom_example">Zoomaa suurempaan näyttöön</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth-yhteys muodostettu</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth-yhteys on katkennut.</string>
+    <string name="accessibility_no_battery">Ei akkua</string>
+    <string name="accessibility_battery_one_bar">Akun varaus yksi palkki</string>
+    <string name="accessibility_battery_two_bars">Akun varaus kaksi palkkia</string>
+    <string name="accessibility_battery_three_bars">Akun varaus kolme palkkia</string>
+    <string name="accessibility_battery_full">Akku on täynnä.</string>
+    <string name="accessibility_no_phone">Puhelinsignaalia ei ole</string>
+    <string name="accessibility_phone_one_bar">Puhelinsignaalin voimakkuus yksi palkki</string>
+    <string name="accessibility_phone_two_bars">Puhelinsignaalin voimakkuus kaksi palkkia</string>
+    <string name="accessibility_phone_three_bars">Puhelinsignaalin voimakkuus kolme palkkia</string>
+    <string name="accessibility_phone_signal_full">Täysi puhelinsignaali</string>
+    <string name="accessibility_no_data">Ei tietoja</string>
+    <string name="accessibility_data_one_bar">Datasignaalin voimakkuus yksi palkki</string>
+    <string name="accessibility_data_two_bars">Datasignaalin voimakkuus kaksi palkkia</string>
+    <string name="accessibility_data_three_bars">Datasignaalin voimakkuus kolme palkkia</string>
+    <string name="accessibility_data_four_bars">Datasignaalin voimakkuus neljä palkkia</string>
+    <string name="accessibility_data_five_bars">Datasignaalin voimakkuus viisi palkkia</string>
+    <string name="accessibility_data_signal_full">Täysi datasignaali</string>
+    <string name="accessibility_wifi_off">Wi-Fi Off</string>
+    <string name="accessibility_no_wifi">Wi-Fi-signaalia ei ole</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi-signaalin voimakkuus yksi palkki</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi-signaalin voimakkuus kaksi palkkia</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi-signaalin voimakkuus kolme palkkia</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi-signaali on täysi.</string>
+    <string name="accessibility_no_wimax">Ei WiMAX-yhteyttä.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX: yksi palkki.</string>
+    <string name="accessibility_wimax_two_bars">WiMAX: kaksi palkkia.</string>
+    <string name="accessibility_wimax_three_bars">WiMAX: kolme palkkia.</string>
+    <string name="accessibility_wimax_signal_full">Vahva WiMAX-signaali.</string>
+    <string name="accessibility_no_signal">Ei signaalia</string>
+    <string name="accessibility_not_connected">Ei yhdistetty.</string>
+    <string name="accessibility_zero_bars">Nolla palkkia.</string>
+    <string name="accessibility_one_bar">Yksi palkki.</string>
+    <string name="accessibility_two_bars">Kaksi palkkia.</string>
+    <string name="accessibility_three_bars">Kolme palkkia.</string>
+    <string name="accessibility_phone_four_bars">Puhelinsignaalin voimakkuus neljä palkkia</string>
+    <string name="accessibility_phone_five_bars">Puhelinsignaalin voimakkuus viisi palkkia</string>
+    <string name="accessibility_signal_full">Vahva signaali.</string>
+    <string name="accessibility_desc_on">Päällä</string>
+    <string name="accessibility_desc_off">Pois</string>
+    <string name="accessibility_desc_connected">Yhdistetty.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3,5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Verkkovierailu</string>
+    <string name="accessibility_data_connection_edge">Reuna</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Ei SIM-korttia</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth-liitos</string>
+    <string name="accessibility_airplane_mode">Lentotila</string>
+    <string name="accessibility_battery_level">Akun varaus on %d prosenttia.</string>
+    <string name="accessibility_settings_button">Järjestelmäasetukset</string>
+    <string name="accessibility_notifications_button">Ilmoitukset</string>
+    <string name="accessibility_remove_notification">Tyhjennä ilmoitukset</string>
+    <string name="accessibility_gps_enabled">GPS käytössä</string>
+    <string name="accessibility_gps_acquiring">Haetaan GPS:ää…</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter käytössä</string>
+    <string name="accessibility_ringer_vibrate">Soittoäänen värinä</string>
+    <string name="accessibility_ringer_silent">Mykistä soittoääni</string>
+    <string name="accessibility_recents_item_dismissed">%s hylättiin.</string>
+    <string name="accessibility_notification_dismissed">Ilmoitus hylätty.</string>
+    <string name="accessibility_desc_notification_shade">Ilmoitusalue.</string>
+    <string name="accessibility_desc_quick_settings">Pika-asetukset</string>
+    <string name="accessibility_desc_recent_apps">Viimeksi käytetyt sovellukset</string>
+    <string name="accessibility_quick_settings_user">Käyttäjä: %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s. %2$s</string>
+    <string name="accessibility_quick_settings_mobile">Mobiiliverkkoyhteys: %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">Akku: %s.</string>
+    <string name="accessibility_quick_settings_airplane">Lentokonetila %s.</string>
+    <string name="accessibility_quick_settings_bluetooth">Bluetooth: %s.</string>
+    <string name="accessibility_quick_settings_alarm">Herätysaika: %s</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">Pikayhteys</string>
+    <string name="accessibility_qconnect_button_tts">Pikayhteys</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G-3G-datayhteys poistettu käytöstä</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G-datayhteys poistettu käytöstä</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Mobiilidata poistettu käytöstä</string>
+    <string name="data_usage_disabled_dialog_title">Datayhteys poistettu käytöstä</string>
+    <string name="data_usage_disabled_dialog">Määritetty datankäyttörajoitus on saavutettu. Palveluntarjoaja voi periä ylimääräisestä tietojen käytöstä maksun.</string>
+    <string name="data_usage_disabled_dialog_enable">Ota datayhteys uud. käyttöön</string>
+    <string name="data_usage_enable_mobile_warning">Pakettidatan kautta yhdistämisestä voidaan periä lisämaksuja. Jatketaanko?</string>
+    <string name="data_usage_disable_mobile">Poistetaanko mobiilidatayhteys käytöstä?</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Ei Internet-yhteyttä</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi-yhteys muod.</string>
+    <string name="gps_notification_searching_text">Haetaan GPS:n avulla…</string>
+    <string name="gps_notification_found_text">GPS on määrittänyt sijainnin</string>
+    <string name="accessibility_clear_all">Poista kaikki ilmoitukset</string>
+    <string name="status_bar_notification_inspect_item_title">Sovelluksen tiedot</string>
+    <string name="close_universe">Sulje</string>
+    <string name="notifications_off_title">Ilmoitukset poistettu k.</string>
+    <string name="notifications_off_text">Ota ilmoitukset napauttamalla käyttöön.</string>
+    <string name="accessibility_rotation_lock_off">Näyttöä kierretään automaattisesti.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Ruutu on lukittu vaakasuuntaan.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Ruutu on lukittu pystysuuntaan.</string>
+    <string name="jelly_bean_dream_name">BeanFlinger</string>
+    <string name="start_dreams">Näytönsäästäjä</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">Lentokonetila</string>
+    <string name="quick_settings_battery_charging_label">Ladataan (%d%%)</string>
+    <string name="quick_settings_battery_charged_label">Ladattu.</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d laitetta)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth ei käytössä</string>
+    <string name="quick_settings_brightness_label">Kirkkaus</string>
+    <string name="quick_settings_rotation_unlocked_label">Automaattinen kääntö</string>
+    <string name="quick_settings_rotation_locked_label">Kääntö lukittu</string>
+    <string name="quick_settings_ime_label">Syöttötapa</string>
+    <string name="quick_settings_location_label">Sijainti käytössä</string>
+    <string name="quick_settings_media_device_label">Medialaite</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Vain hätäpuhelut</string>
+    <string name="quick_settings_settings_label">Asetukset</string>
+    <string name="quick_settings_time_label">Aika</string>
+    <string name="quick_settings_user_label">Minä</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">Ei yhdistetty.</string>
+    <string name="quick_settings_wifi_no_network">Ei verkkoa</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi Off</string>
+    <string name="quick_settings_wifi_display_label">"Wi-Fi-
+näyttö"</string>
+    <string name="quick_settings_wifi_display_no_connection_label">Langaton näyttö</string>
+    <string name="quick_settings_brightness_dialog_title">Kirkkaus</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Auto</string>
+    <string name="status_bar_help_title">Ilmoitukset näkyvät tässä</string>
+    <string name="status_bar_help_text">"Näet ilmoitukset liu'uttamalla sormea alas ruudulla.
+Voit palauttaa järjestelmän ohjaimet näkyviin liu'uttamalla sormea alas uudelleen."</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">Sijainti</string>
+    <string name="quickpanel_silent_mode_text">"Äänetön
+tila"</string>
+    <string name="quickpanel_silent_mode_sound">Ääni</string>
+    <string name="quickpanel_silent_mode_vibrate">Värinä</string>
+    <string name="quickpanel_silent_mode_mute">Mykistä</string>
+    <string name="quickpanel_rotation_text">"Näytön
+kierto"</string>
+    <string name="quickpanel_mobile_data_text">Mobiilidata</string>
+    <string name="quickpanel_dormant_mode_text">"Esto-
+tila"</string>
+    <string name="quickpanel_notification_text">Ilmoitus</string>
+    <string name="quickpanel_airplane_mode_text">"Lento-
+tila"</string>
+    <string name="quickpanel_sync_text">Synkronoi</string>
+    <string name="quickpanel_power_saving_text">"Virran-
+säästö"</string>
+    <string name="quickpanel_ultra_power_saving_text">"Er. teh.
+virrans."</string>
+    <string name="quickpanel_driving_mode_text">"Hands-
+free-tila"</string>
+    <string name="quickpanel_smart_stay_text">"Älykäs
+katkaisu"</string>
+    <string name="quickpanel_smart_scroll_text">"Älykäs
+vieritys"</string>
+    <string name="quickpanel_smart_pause_text">"Älykäs
+tauko"</string>
+    <string name="quickpanel_smart_network_text">"Älykäs
+verkko"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_wifi_hotspot_text">"Wi-Fi-
+tukiasema"</string>
+    <string name="quickpanel_multiwindow_text">"Moni-
+ikkuna"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_brightness_text">Kirkkaus</string>
+    <string name="quickpanel_airview_text">"Ilma-
+näkymä"</string>
+    <string name="quickpanel_airgesture_text">Ilmaele</string>
+    <string name="quickpanel_ebook_text">"Luku-
+tila"</string>
+    <string name="quickpanel_personal_mode_text">"Yksityinen
+tila"</string>
+    <string name="quickpanel_car_mode_text">"Auto-
+tila"</string>
+    <string name="quickpanel_network_booster_text">Download booster</string>
+    <string name="quickpanel_toolbox_text">"Työkalu-
+ryhmä"</string>
+    <string name="quickpanel_touch_sensitivity_text">"Kosketus-
+herkkyys"</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">Sijainti</string>
+    <string name="quickpanel_silent_mode_sound_content_description">Ääni</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">Värinä</string>
+    <string name="quickpanel_silent_mode_mute_content_description">Mykistä</string>
+    <string name="quickpanel_rotation_content_description">Näytön kierto</string>
+    <string name="quickpanel_mobile_data_content_description">Mobiilidata</string>
+    <string name="quickpanel_dormant_mode_content_description">Estotila</string>
+    <string name="quickpanel_airplane_mode_content_description">Lentotila</string>
+    <string name="quickpanel_sync_content_description">Synkronoi</string>
+    <string name="quickpanel_power_saving_content_description">Virransäästötila</string>
+    <string name="quickpanel_ultra_power_saving_content_description">Erittäin tehokas virransäästötila</string>
+    <string name="quickpanel_smart_stay_content_description">Älykäs aikakatkaisu</string>
+    <string name="quickpanel_smart_pause_content_description">Älykäs tauko</string>
+    <string name="quickpanel_smart_network_content_description">Älykäs verkko</string>
+    <string name="quickpanel_wifi_hotspot_content_description">Siirrettävä Wi-Fi-tukiasema</string>
+    <string name="quickpanel_multiwindow_content_description">Moni-ikkuna</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_ebook_content_description">Lukutila</string>
+    <string name="quickpanel_personal_mode_content_description">Yksityinen tila</string>
+    <string name="quickpanel_car_mode_content_description">Autotila</string>
+    <string name="quickpanel_network_booster_content_description">Lataustehostin</string>
+    <string name="quickpanel_toolbox_content_description">Työkaluryhmä</string>
+    <string name="air_gesture_use_popup_title">Ota ilmaele käyttöön</string>
+    <string name="air_gesture_use_popup_msg">Ilmaelettä ja TalkBackia ei voi käyttää samaan aikaan. TalkBack poistetaan käytöstä.</string>
+    <string name="air_view_use_popup_title">Ota ilmanäkymä käyttöön</string>
+    <string name="air_view_use_popup_msg">Ilmanäkymää ja alla olevia asetuksia ei voi käyttää samaan aikaan. Alla olevat asetukset poistetaan käytöstä.</string>
+    <string name="multi_window_use_popup_title">Ota moni-ikkuna käyttöön</string>
+    <string name="multi_window_use_popup_msg">Moni-ikkuna- ja TalkBack-toimintoja ei voi ottaa samanaikaisesti käyttöön. TalkBack poistetaan käytöstä.</string>
+    <string name="smart_pause_use_popup_title">Ota älykäs tauko käyttöön</string>
+    <string name="smart_pause_use_popup_msg">Älykästä taukoa ja TalkBackia ei voi käyttää samaan aikaan. TalkBack poistetaan käytöstä.</string>
+    <string name="smart_scroll_use_popup_title">Ota älykäs vieritys käyttöön</string>
+    <string name="smart_scroll_use_popup_msg">Älykästä vieritystä ja TalkBackia ei voi käyttää samaan aikaan. TalkBack poistetaan käytöstä.</string>
+    <string name="smart_stay_use_popup_title">Ota älykäs aikakatkaisu käyttöön</string>
+    <string name="smart_stay_use_popup_msg">Älykästä aikakatkaisua ja TalkBackia ei voi käyttää samaan aikaan. TalkBack poistetaan käytöstä.</string>
+    <string name="quickpanel_content_description_led_on">%s on käytössä.</string>
+    <string name="quickpanel_content_description_led_off">%s on poistettu käytöstä.</string>
+    <string name="quickpanel_content_description_led_dim">Sovellusta %s ei voi ottaa käyttöön.</string>
+    <string name="smart_network">Älykäs verkko</string>
+    <string name="smart_network_guide_msg">"Älykäs verkko säästää akkuvirtaa.
+
+Se poistaa mobiilidatan ja Wi-Fin käytöstä, kun näyttö sammutetaan, joten laite kuluttaa vähemmän virtaa.
+
+Voit kuitenkin saada kumulatiivista push-dataa, kun käynnistät näytön."</string>
+    <string name="quickpanel_data_roaming_text">Dataverkkovierailu</string>
+    <string name="data_roaming_dialog_text">Verkkovierailusta peritään ylimääräisiä maksuja. Jatketaanko?</string>
+    <string name="mobile_data_enable_dialog_text">Yhteyden muodostamisesta matkapuhelinverkkoihin voidaan periä lisämaksuja tiedonsiirtosopimuksesi mukaan. Jatketaanko?</string>
+    <string name="quickpanel_edit_current">Ilmoituspaneeli</string>
+    <string name="quickpanel_edit_available">Käytettävissä olevat painikkeet</string>
+    <string name="mobile_data_dialog_text">Et enää voi käyttää sovelluksia, kuten Internetiä, sähköpostia ja YouTubea, matkapuhelinverkkojen kautta. Jatketaanko?</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"Internetiä, sähköpostia tai muita datayhteyttä vaativia sovelluksia ei enää voi käyttää ilman Wi-Fi-verkkoyhteyttä.
+
+Mobiilidata poistetaan käytöstä."</string>
+    <string name="mobile_data_connect">Yhdistä</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">Matkapuhelinverkkoihin ei voi ottaa yhteyttä, kun lentotila on käytössä. Poista lentotila käytöstä ja yritä uudelleen.</string>
+    <string name="warning_alert_check">Älä näytä uudelleen</string>
+    <string name="blocking_mode_enable">Kun tämä tila on käytössä, valittujen toimintojen ilmoitukset poistetaan käytöstä. Saat ilmoituksen vain sallittujen yhteystietojen luettelossa olevilta ihmisiltä saapuvista puheluista.</string>
+    <string name="blocking_mode_enable_for_grid_settings">Estotilassa valittujen toimintojen ilmoitukset poistetaan käytöstä. Kun saapuvat puhelut estetään, saat ilmoituksen vain sallituilta yhteyshenkilöiltä saapuvista puheluista. Jos haluat muuttaa estotilan asetuksia, valitse Asetukset > Yksilöinti > Estotila.</string>
+    <string name="blocking_mode_enable_wifi">Kun tämä toiminto otetaan käyttöön, valittujen toimintojen ilmoitukset poistetaan käytöstä.</string>
+    <string name="blocking_mode_title">Estotila</string>
+    <string name="dormant_mode_off_message">Jos haluat ottaa estotilan käyttöön, ota ainakin yksi alla olevista toiminnoista käyttöön.</string>
+    <string name="driving_mode_title">Hands-free-tila</string>
+    <string name="driving_mode_on_dialog_msg_1">Hands-free-tila on poistettava käytöstä Asetukset-kohdassa S Voicen hands-free-tilan sulkemisen jälkeen. Jos hands-free-tila pysyy käytössä, ilmoitukset ja saapuvien puheluiden tiedot luetaan edelleen automaattisesti ääneen.</string>
+    <string name="driving_mode_on_dialog_msg_2">Voit poistaa hands-free-tilan käytöstä sanomalla S Voicen Hands-free-tilassa ”Turn off hands-free mode”, valitsemalla Asetukset tai ilmoituspaneelin kautta.</string>
+    <string name="insert_sim_card">Aseta SIM-kortti</string>
+    <string name="insert_sim_card_message">Pääset verkkopalveluihin asettamalla SIM-kortin paikalleen.</string>
+    <string name="wifi_enable_warning">Jos otat Wi-Fi-yhteyden käyttöön, siirrettävä Wi-Fi-tukiasema poistetaan käytöstä. Jatketaanko?</string>
+    <string name="wifi_ap_turning_off">Siirrettävä Wi-Fi-tukiasema poistetaan käytöstä…</string>
+    <string name="no_sim_notification_title">Ei SIM-korttia</string>
+    <string name="no_sim_notification_title_tmo">SIM-korttia ei ole asetettu paikalleen.</string>
+    <string name="no_sim_notification_text">Lisää SIM-kortti.</string>
+    <string name="accessibility_power_saving_mode">Jos haluat ottaa virransäästötilan käyttöön, ota ainakin yksi toiminto käyttöön.</string>
+    <string name="accessibility_power_saving_mode_title">Virransäästötila</string>
+    <string name="accessibility_driving_mode">Jos haluat ottaa hands-free-tilan käyttöön, ota ainakin yksi olennainen toiminto käyttöön.</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Network restriction mode will be disabled.</string>
+    <string name="charging_interruption_title">Ei voi ladata</string>
+    <string name="charging_interruption_by_terminal_open_text">Laitetta ei voi ladata. Varmista, että käytät Samsungin laitteiden kanssa yhteensopivaa akkua ja laturia ja että laite on yhdistetty laturiin oikein.</string>
+    <string name="charging_interruption_by_too_high_temperature_text">Lataus keskeytetty. Akun lämpötila on liian korkea.</string>
+    <string name="charging_interruption_by_too_low_temperature_text">Lataus keskeytetty. Akun lämpötila on liian matala.</string>
+    <string name="charging_interruption_by_limit_high_temperature_text">"Laite on lopettanut lataamisen. Akun lämpötila on liian korkea. Ole varovainen, kun irrotat laturin. Se voi olla hyvin kuuma.
+
+Jos laturi irrotetaan ja kytketään uudelleen verkkoon, lataamista voi ehkä jatkaa normaalisti. Jos laite ylikuumenee, ota yhteyttä asiakaspalveluun, sillä tämä voi aiheuttaa tulipalon tai loukkaantumisen vaaran."</string>
+    <string name="full_battery_title">Tiedot</string>
+    <string name="full_battery_text">"Akku on ladattu täyteen.
+Irrota laturi."</string>
+    <string name="low_battery_title">Akku vähissä</string>
+    <string name="critical_low_battery_title">Akun varaus on erittäin alhainen</string>
+    <string name="low_battery_text">Kytke pistorasiaan laitteen lataamiseksi ja sulje käyttämättömät sovellukset Tehtävienhallinnassa. Jatkuva käyttö lataamisen aikana voi estää tehokkaan lataamisen.</string>
+    <string name="low_battery_text_charged_via_ta">Sulje käyttämättömät sovellukset Tehtävienhallinnassa. Jatkuva käyttö lataamisen aikana voi estää tehokkaan lataamisen.</string>
+    <string name="low_battery_camera_warning_text">Jos akun varaus laskee alle %d %%:n, Kameraa ei voi avata.</string>
+    <string name="critical_low_battery_camera_warning_text">Kameraa ei voi avata. Akkuvirtaa on %d %% tai vähemmän.</string>
+    <string name="start_force_consume_battery_title">Hälytys</string>
+    <string name="start_force_consume_battery_text">Käytä laitetta vasta sen jälkeen, kun se on jäähtynyt.</string>
+    <string name="stop_force_consume_battery_title">Tiedot</string>
+    <string name="stop_force_consume_battery_text">Laite on jäähtynyt.</string>
+    <string name="wireless_charging_title">Langaton lataus</string>
+    <string name="cable_charging_title">Ladataan kaapelilla</string>
+    <string name="wireless_charging_text">Laite on toiminta-alueella. Ladataan langattomasti…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">Vaihdetaan langattomasta latauksesta kaapelilataukseen</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">Vaihdetaan kaapelilatauksesta langattomaan lataukseen</string>
+    <string name="wireless_charging_spen_warning_text">Laite latautuu nyt langattomasti. S Pen -kynä ei toimi langattoman laturin toiminta-alueella.</string>
+    <string name="incompatible_charger_title">Ei lataudu.</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_dialog_text_for_tablet">The connected charger is incompatible with this tablet. To prevent damage to your tablet, charging has been stopped. To continue charging, use the original charger and cable that were provided with this tablet.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_notification_text">To charge faster, use the original charger</string>
+    <string name="slow_charging_toast_text">To charge faster, use the charger and cable that were provided with this phone</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="water_damage_warning_title">Tarkista latauskansi</string>
+    <string name="water_damage_warning_text">Suojaa laite vesivahingoilta sulkemalla latausliitännän kansi tiiviisti ennen käyttöä.</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">Sammuta laite</string>
+    <string name="overheat_poweroff_warning_text">Laite ylikuumenee. Se sammutetaan, jotta se pääsee jäähtymään.</string>
+    <string name="overheat_poweroff_warning_button_text">Älä sammuta</string>
+    <string name="overheat_poweroff_notice_title">Laite sammutettiin automaattisesti</string>
+    <string name="overheat_poweroff_notice_text">"Laite ylikuumeni. Se sammutettiin vahinkojen estämiseksi.
+
+Ylikuumenemisen syynä voi olla
+runsaasti grafiikkatehoa vaativien sovellusten, kuten pelien ja navigointisovellusten, pitkäaikainen käyttäminen
+suurten tiedostojen siirtäminen
+laitteen käyttäminen kuumassa ympäristössä."</string>
+    <string name="power_sharing_warning_title">Virranjako</string>
+    <string name="power_sharing_warning_text">Akun varaustaso on virranjakorajoitusta pienempi. Jos haluat jakaa virranjakoa, muuta virranjakorajoitus akun nykyistä varaustasoa pienemmäksi.</string>
+    <string name="power_sharing_start_toast_text">Käynnistetään virranjakoa…</string>
+    <string name="power_sharing_end_notification_text">Virranjako on lopetettu. Irrota kaapeli.</string>
+    <string name="face_detection_failure_text">Älykäs aikakatkaisu ei tunnista silmiäsi.</string>
+    <string name="status_bar_recent_launch_task_manager_title">Teht.hall.</string>
+    <string name="status_bar_recent_launch_google_button">Google</string>
+    <string name="status_bar_recent_remove_all_button">Sulje kaikki</string>
+    <string name="screen_capture_fail_for_storage_capacity">Laitteen muisti on täynnä. Poista joitain kohteita.</string>
+    <string name="no_such_item">Kohdetta ei löydy.</string>
+    <string name="pickup_tutorial_title">Kokeile älykästä hälytystä</string>
+    <string name="put_your_phone">Näyttö sammuu, kun lasket laitteen alas.</string>
+    <string name="phone_detect">Oletetaan, että sinulla on vastaamattomia puheluita tai viestejä. Laske laite alas ja nosta se näytön sammumisen jälkeen uudelleen.</string>
+    <string name="pick_up_your_phone">Nosta laite</string>
+    <string name="tutorial_complete">Opetusohjelma suoritettu.</string>
+    <string name="camera_alert">Kameraa ei voi käyttää puhelun aikana.</string>
+    <string name="stms_version">SM-G900F_EUR_20140228_0507</string>
+    <string name="wifi_cw_ready">China Telecom WLAN connected</string>
+    <string name="wifi_cw_ready_message">You have access to China Telecom WLAN network, consult 10000 to understand billing information, please turn off when not use</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">Hyväksyn</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="quickpanel_ctwap_text">CTWAP</string>
+    <string name="quickpanel_ctnet_text">CTNET</string>
+    <string name="tethering_attention_title">Huomio</string>
+    <string name="tethering_wifi_off_warning">Siirrettävän Wi-Fi-tukiaseman käyttöönotto poistaa Wi-Fin käytöstä.</string>
+    <string name="quickpanel_air_view_warning">Jos haluat ottaa ilmanäkymän käyttöön, ota ainakin yksi toiminto käyttöön.</string>
+    <string name="quickpanel_air_view_warning_pen_support">Jos haluat ottaa ilmanäkymän käyttöön, ota ainakin yksi toiminto valitusta ilmanäkymätilasta käyttöön.</string>
+    <string name="quickpanel_air_gesture_warning">Jos haluat ottaa ilmaeleen käyttöön, ota ainakin yksi keskeinen toiminto käyttöön.</string>
+    <string name="quickpanel_air_gesture_warning_continue">Voit siirtyä haluamiisi asetuksiin painamalla pika-asetuspainiketta jonkin aikaa.</string>
+    <string name="roaming_title">Verkkovierailu</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="gps_donotshow">Älä näytä uudelleen</string>
+    <string name="quickpanel_brightess_level">Taso</string>
+    <string name="quickpanel_brightess_minus">Miinus</string>
+    <string name="reading_mode_title">Lukutila</string>
+    <string name="reading_mode_alert">Lukutila on otettu käyttöön. Näyttö on nyt optimoitu lukemista varten. Tämä tila on käytettävissä vain valituissa sovelluksissa.</string>
+    <string name="reading_mode_settings">Asetukset</string>
+    <string name="automatic_brightness_message">Automaattisia kirkkausasetuksia sovelletaan vain sisänäyttöön</string>
+    <string name="manual_brightness_message">Kirkkautta säädetään manuaalisesti. Automaattinen kirkkaudensäätö on poistettu käytöstä.</string>
+    <string name="flight_mode_message_for_wifi_only">Lentotilassa voit poistaa verkkotoiminnot, myös Wi-Fi- ja Bluetooth-toiminnon, käytöstä. Jos haluat käyttää Wi-Fi- ja Bluetooth-toimintoa, ota ne Asetukset-kohdassa tai ilmoituspaneelissa käyttöön.</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tutorial_notification_panel_drag_down">Vedä tilapalkki näytön yläosasta yhdellä sormella alas.</string>
+    <string name="tutorial_notification_panel_drag_down_complete">Ilmoituspaneeli tulee näyttöön.</string>
+    <string name="tutorial_quick_panel_drag_down">Vedä tilapalkki näytön yläosasta kahdella sormella alas.</string>
+    <string name="tutorial_quick_panel_drag_down_complete">Pika-asetuspaneeli tulee näyttöön.</string>
+    <string name="tutorial_expand_notification_panel_drag_down">Vedä haluamasi luettelo ilmoituspaneelista kahdella sormella alas.</string>
+    <string name="tutorial_expand_notification_panel_drag_down_complete">Näyttöön tulee lisätietoja valitusta luettelosta.</string>
+    <string name="tutorial_invaild_action">Virheellinen toiminto. Yritä uudelleen.</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="magnification_text_for_air_view_button">Suurennuseleet</string>
+    <string name="smartbonding_dialog_title">Download booster</string>
+    <string name="smartbonding_dialog_wifi_text">Lataa suuret tiedostot (yli %d Mt) käyttämällä Wi-Fi- ja LTE-verkkoja samaan aikaan. Huomaa, että verkkojen tilan mukaan Lataustehostin voi käyttää vain Wi-Fi- tai LTE-verkkoa tiedostojen lataamiseen.</string>
+    <string name="smartbonding_dialog_mobile_text">Lataa suuret tiedostot (yli %d Mt) käyttämällä Wi-Fi- ja LTE-verkkoja samaan aikaan. Huomaa, että verkkojen tilan mukaan Lataustehostin voi käyttää vain Wi-Fi- tai LTE-verkkoa tiedostojen lataamiseen.</string>
+    <string name="smart_bonding_popup_msg">Lataustehostin otetaan käyttöön. Lataamisesta matkapuhelinverkkojen kautta voidaan periä lisämaksuja tilauksesi mukaan.</string>
+    <string name="smart_bonding_popup_msg_wifi">Wi-Fi-yhteys on tällä hetkellä poistettu käytöstä. Lataustehostimen käyttöönotto edellyttää, että Wi-Fi-yhteys ja mobiilidata ovat käytössä. Lataamisesta matkapuhelinverkkojen kautta voidaan periä lisämaksuja tilauksesi mukaan.</string>
+    <string name="smart_bonding_popup_msg_data">Mobiilidata on tällä hetkellä poistettu käytöstä. Lataustehostimen käyttöönotto edellyttää, että Wi-Fi-yhteys ja mobiilidata ovat käytössä. Lataamisesta matkapuhelinverkkojen kautta voidaan periä lisämaksuja tilauksesi mukaan.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Wi-Fi-yhteys ja mobiilidata on tällä hetkellä poistettu käytöstä. Lataustehostimen käyttöönotto edellyttää, että Wi-Fi-yhteys ja mobiilidata ovat käytössä. Lataamisesta matkapuhelinverkkojen kautta voidaan periä lisämaksuja tilauksesi mukaan.</string>
+    <string name="smart_bonding_popup_msg_roaming">Lataustehostinta ei voi käyttää verkkovierailun aikana. Suosittelemme lataamista Wi-Fi-verkon kautta.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Käynnistä Wi-Fi</string>
+    <string name="smart_bonding_popup_msg_data_btn">Ota mobiilidata käyttöön</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Ota Wi-Fi ja mobiilidata k.</string>
+    <string name="smart_bonding_turn_off_text">Latauksen nopeutusta ei voi käyttää, kun %1$s on käytössä. Poista %2$s käytöstä ja yritä uudelleen.</string>
+    <string name="smart_bonding_turn_off_text_airplane_mode">Matkapuhelinverkkoihin ei voi ottaa yhteyttä, kun lentotila on käytössä. Poista lentotila käytöstä ja yritä uudelleen.</string>
+    <string name="dialog_battery_data_warning">Siirrettävä Wi-Fi-tukiasema kuluttaa paljon enemmän virtaa ja lisää tietojen käyttöä. Jatketaanko?</string>
+    <string name="tether_settings_title_wifi">Siirrettävä tukiasema</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">Ilmoitus</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="cooling_title">Laite ylikuumenee</string>
+    <string name="cooling_body">"Laite ylikuumenee. Ryhdytään toimenpiteisiin sen jäähdyttämiseksi.
+
+Voit jatkaa laitteen käyttöä, mutta
+- näyttö voi himmetä
+- laite voi hidastua
+- lataaminen voi keskeytyä.
+
+Nykyisen sovelluksen sulkeminen tukee laitteen jäähtymistä.
+
+Kun laite on jäähtynyt, suorituskyky palaa automaattisesti normaaliksi."</string>
+    <string name="cooling_noti_text">Näytä tiedot napauttamalla tätä.</string>
+    <string name="cooling_popup_name">Ilmoitus</string>
+    <string name="cooling_noti_title">Laite ylikuumenee</string>
+    <string name="btn_text_yes">OK</string>
+    <string name="btn_text_no">Peruuta</string>
+    <string name="device_overheating">Laite ylikuumenee</string>
+    <string name="colling_noti_text_2">Sovelluksia ei voi avata. Voit käyttää vain Puhelin- ja Yhteystiedot-sovelluksia.</string>
+    <string name="vol_panel_audio_settings">muuta ääniasetuksia.</string>
+    <string name="guest_launge_warning_toast_text">Toimintoa %s ei voi ottaa käyttöön tai poistaa käytöstä vierastilassa.</string>
+    <string name="safe_mode_title_vzw">Sulje Turvallisuustila</string>
+    <string name="safe_mode_popup_body_vzw">Haluatko käynnistää puhelin uudestaan sulkeaksesi turvallisuustilaa? Kaikki sovelluksesi palautuvat.</string>
+    <string name="safe_mode_btn_cancel_vzw">Peruuta</string>
+    <string name="safe_mode_off_btn_vzw">Sulje Turvallisuustila</string>
+    <string name="safe_mode_noti_on_vzw">Turvallisuustila on päällä</string>
+    <string name="safe_mode_noti_body_vzw">Koputa sulkeaksesi Turvallisuustilaa</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">Lisätietoja saat napauttamalla tätä.</string>
+    <string name="cooling_popup_name_VZW">Ilmoitus</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">OK</string>
+    <string name="btn_text_no_VZW">Peruuta</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance will Automatically go back to normal."</string>
+    <string name="recent_menukey_press_description">Näytä valikko painamalla viimeksi käytettyjen sovellusten näppäintä jonkin aikaa.</string>
+    <string name="recent_menukey_press_description_vzw">Valikkonäppäin on korvattu viimeksi käytettyjen sovellusten näppäimellä, jotta voit vaihtaa nopeasti viimeksi käytettyjen sovellusten välillä. Lisätietoja saat napauttamalla Ohje.</string>
+    <string name="recent_menukey_help_button">Ohje</string>
+</resources>

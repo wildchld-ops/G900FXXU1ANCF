@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Ingen datatilkobling på %s minutter.</item>
+        <item quantity="one">Ingen datatilkobling på %s minutter.</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Telefonen er i nødtilbakeringingsmodus i %s minutter. Apper som bruker datatilkobling kan ikke brukes i denne modusen. Avslutte nå?</item>
+        <item quantity="one">Kan ikke bruke datatilkobling for apper. Telefonen er i nødtilbakeringingsmodus i %s minutter i denne modusen. Avslutte nå?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Valgt handling er ikke tilgjengelig i nødtilbakeringingsmodus. Telefonen er i denne modusen i %s minutter. Avslutte nå?</item>
+        <item quantity="one">Valgt handling er ikke tilgjengelig i nødtilbakeringingsmodus. Telefonen er i denne modusen i %s minutter. Avslutte nå?</item>
+    </plurals>
+</resources>

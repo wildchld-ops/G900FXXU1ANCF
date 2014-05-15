@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/finger_manager" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/Fingerprint_manager_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="9.0dip" android:text="@string/fingerprint_list_desc" />
+    <View android:background="@drawable/tw_list_divider_holo_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/listpreference_layout_marginLeft" android:layout_marginRight="@dimen/listpreference_layout_marginRight" />
+    <RelativeLayout android:gravity="center" android:id="@*android:id/empty" android:background="@drawable/no_item_bg_dark" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:gravity="center" android:id="@id/noitem_image_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:src="@drawable/no_item_fingerprint" />
+        <TextView android:textSize="19.0dip" android:textColor="#fff5f5f5" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fingerprint_register_summary_noregister" android:layout_below="@id/noitem_image_view" />
+    </RelativeLayout>
+</LinearLayout>

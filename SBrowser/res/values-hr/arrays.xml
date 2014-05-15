@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Uvijek uključeno</item>
+        <item>Na zahtjev</item>
+        <item>Isključeno</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Zadana stranica</item>
+        <item>Trenutna stranica</item>
+        <item>Brzi pristup</item>
+        <item>Najposjećenija mjesta</item>
+        <item>Ostalo</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Uređaj</item>
+        <item>SD kartica</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Kineski (GBK)</item>
+        <item>Kineski (Big5)</item>
+        <item>Japanski (ISO-2022-JP)</item>
+        <item>Japanski (SHIFT JIS)</item>
+        <item>Japanski (EUC-JP)</item>
+        <item>Korejski (EUC-KR)</item>
+        <item>Auto. prepoznavanje</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/reading_list_shadow_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0dip" android:textColor="#ff000000" android:layout_gravity="center" android:id="@id/reading_list_search_no_item_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reading_list_search_no_item" android:fontFamily="Roboto" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/reading_CAB" android:background="@drawable/bookmark_sel_all_selector" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/sbrowser_bookmarks_select_all_height">
+        <CheckBox android:layout_gravity="left|center" android:id="@id/ckid_select_all" android:focusable="false" android:layout_width="@dimen/sbrowser_bookmark_folder_checkbox_spec" android:layout_height="@dimen/sbrowser_bookmark_folder_checkbox_spec" android:layout_marginLeft="@dimen/sbrowser_bookmarks_select_all_text_margin" android:button="@drawable/bookmarks_cab_check_box" />
+        <TextView android:textSize="@dimen/sbrowser_bookmarks_select_all_text_size" android:textColor="@color/sbrowser_bookmarks_select_all_text_color" android:gravity="center_vertical" android:layout_gravity="left|center" android:id="@id/reading_select_all" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/sbrowser_bookmarks_select_all_text_margin" android:text="@string/select_all_folder_view" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="sans-serif-light" android:textAlignment="textStart" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/reading_list" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/readingList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+    <include android:layout_gravity="bottom" layout="@layout/undobar_layout" />
+</FrameLayout>

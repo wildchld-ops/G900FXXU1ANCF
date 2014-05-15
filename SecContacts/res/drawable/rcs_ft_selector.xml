@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:drawable="@drawable/contacts_rcs_02_icon" />
+    <item android:state_enabled="false" android:drawable="@drawable/contacts_rcs_02_dim_icon" />
+</selector>

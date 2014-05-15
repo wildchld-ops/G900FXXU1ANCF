@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="index_string_array">
+        <item>กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนปผฝพฟภมยรฤลวศษสหฬอฮ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="interaction_selecter_spinner">
+        <item>%d ​ถูก​เลือก​แล้ว</item>
+        <item>เลือก​ทั้ง​หมด</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>องค์กร</item>
+        <item>บันทึก</item>
+    </string-array>
+</resources>

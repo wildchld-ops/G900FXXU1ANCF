@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>Feliç</item>
+        <item>Trist</item>
+        <item>"Picant l'ullet"</item>
+        <item>Treure la llengua</item>
+        <item>Sorprès</item>
+        <item>Petoner</item>
+        <item>Xisclant</item>
+        <item>Fenomenal</item>
+        <item>Molt ric</item>
+        <item>Ficar la pota</item>
+        <item>Avergonyit</item>
+        <item>Àngel</item>
+        <item>Sense decidir</item>
+        <item>Plorant</item>
+        <item>No diré res</item>
+        <item>Rient</item>
+        <item>Confús</item>
+        <item>Cor</item>
+        <item>Boig</item>
+        <item>Somriure de suficiència</item>
+        <item>Cara de pòquer</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Utilitzar mides font disp</item>
+        <item>Diminuta</item>
+        <item>Petit</item>
+        <item>Normal</item>
+        <item>Gran</item>
+        <item>Enorme</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Utilitzar mides font disp</item>
+        <item>Diminuta</item>
+        <item>Molt petita</item>
+        <item>Petit</item>
+        <item>Mitjana</item>
+        <item>Gran</item>
+        <item>Molt gran</item>
+        <item>Enorme</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Tots els canals</item>
+        <item>El meu canal</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Alfabet GSM</item>
+        <item>Unicode</item>
+        <item>Automàtica</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 dies</item>
+        <item>1 dia</item>
+        <item>2 dies</item>
+        <item>3 dies</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Restringit</item>
+        <item>Advertiment</item>
+        <item>Lliure</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Sempre</item>
+        <item>Preguntar</item>
+        <item>Mai</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Origami</item>
+        <item>Etiqueta</item>
+        <item>Pop</item>
+        <item>Modern</item>
+        <item>Rosa</item>
+        <item>Predeterminat</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Una vegada</item>
+        <item>Cada 2 minuts</item>
+        <item>Cada 15 minuts</item>
+        <item>Desactiv</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Mai</item>
+        <item>Cada 2 minuts</item>
+        <item>Cada 10 minuts</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Local</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 hora</item>
+        <item>6 hores</item>
+        <item>24 hores</item>
+        <item>2 dies</item>
+        <item>Predeterminat de la xarxa</item>
+        <item>Màxima</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Alta</item>
+        <item>Normal</item>
+        <item>Baixa</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Immediatament</item>
+        <item>1 hora</item>
+        <item>6 hores</item>
+        <item>24 hores</item>
+        <item>1 setm</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 segons</item>
+        <item>5 segons</item>
+        <item>10 segons</item>
+        <item>20 segons</item>
+        <item>30 segons</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Desactiv</item>
+        <item>Bloquejar tots els missatges</item>
+        <item>Bloquejar frases i números registrats</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Exactament el mateix que</item>
+        <item>Comença amb</item>
+        <item>Acaba amb</item>
+        <item>Inclou</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Registres</item>
+        <item>Contact</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Bloqueig de missatges</item>
+        <item>Bloqueig de trucades</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Bloqueig de missatges</item>
+        <item>Bloqueig trucades de veu</item>
+        <item>Bloqueig de videotrucades</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Reservat</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Normal</item>
+        <item>Alta</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Ho sento, he perdut la teva trucada.</item>
+        <item>Vaig tard, però arribo en uns minuts.</item>
+        <item>Com va?</item>
+        <item>Què passa?</item>
+        <item>On ets?</item>
+        <item>"Truca'm quan rebis aquest missatge."</item>
+        <item>Quan podem quedar?</item>
+        <item>Parlem aviat.</item>
+        <item>On és la sala de reunions?</item>
+        <item>Quin és el número?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Portuguès brasiler</item>
+        <item>Anglès (GB)</item>
+        <item>Anglès (EUA)</item>
+        <item>Francès</item>
+        <item>Alemany</item>
+        <item>Italià</item>
+        <item>Japonès</item>
+        <item>Coreà</item>
+        <item>Xinès simplificat</item>
+        <item>Rus</item>
+        <item>Castellà</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Diminuta</item>
+        <item>Petit</item>
+        <item>Normal</item>
+        <item>Gran</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Tot</item>
+        <item>Remitent</item>
+        <item>Contingut</item>
+    </string-array>
+</resources>

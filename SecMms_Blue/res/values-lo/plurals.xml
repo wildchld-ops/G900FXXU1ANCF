@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">ການສົນທະນາ %1$s</item>
+        <item quantity="one">ການສົນທະນາ 1 ບົດ</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s ຂໍ້ຄວາມ</item>
+        <item quantity="one">1 ຂໍ້ຄວາມ</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d ການສົນທະນາ</item>
+        <item quantity="one">ການສົນທະນາ %d</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s ແລະ %2$d ຕື່ມອີກ</item>
+        <item quantity="one">%s ແລະ 1 ອັນອີກ</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s ແລະ %2$d ຕື່ມອີກ</item>
+        <item quantity="one">%s ແລະ 1 ອັນອີກ</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">ຂໍ້ຄວາມໄດ້ຖືກລຶບຈາກແຜ່ນ SIM.</item>
+        <item quantity="one">ຂໍ້ຄວາມຖືກລຶບອອກໄປຈາກແຜ່ນ SIM.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">ຂໍ້ຄວາມຖືກກັອບປີ້ມາຈາກແຜ່ນ SIM.</item>
+        <item quantity="one">ຂໍ້ຄວາມກັອບປີ້ມາຈາກແຜ່ນ SIM.</item>
+    </plurals>
+</resources>

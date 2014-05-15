@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/sync_open_page_item" android:background="@drawable/savepage_list_item_selector" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/fav_icon_id" android:background="@drawable/bookmarks_list_bg" android:padding="@dimen/bookmark_favicon_inner_padding" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="15.0dip" android:scaleType="fitXY" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="21.0sp" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/item_title" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:maxLines="1" android:singleLine="true" android:layout_toRightOf="@id/fav_icon_id" />
+    <ImageView android:background="@drawable/tw_list_divider_holo_light" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

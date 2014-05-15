@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_donecancel_button_width">320.0dip</dimen>
+    <dimen name="detail_tab_carousel_tab_label_height">40.0dip</dimen>
+    <dimen name="dialpad_button_height">57.0dip</dimen>
+    <dimen name="dialpad_button_width">105.0dip</dimen>
+    <dimen name="dialpad_layout_width">321.0dip</dimen>
+    <dimen name="dialpad_layout_height">239.0dip</dimen>
+    <dimen name="dialpad_digits_text_size">28.0sp</dimen>
+    <dimen name="dialpad_digits_height">66.0dip</dimen>
+    <dimen name="dialpad_digits_margin_bottom">50.0dip</dimen>
+    <dimen name="contact_tile_image_width">126.0dip</dimen>
+    <dimen name="date_picker_margin_top">0.0dip</dimen>
+    <dimen name="date_picker_checkbox_margin_bottom">2.0dip</dimen>
+    <dimen name="editor_tab_host_min_height">40.0dip</dimen>
+    <dimen name="custom_actionbar_divider_height">26.0dip</dimen>
+    <dimen name="custom_actionbar_divider_vertical_padding">8.0dip</dimen>
+    <dimen name="quick_contact_text_padding_horizontal">20.0dip</dimen>
+    <dimen name="quick_contact_text_padding_bottom">4.0dip</dimen>
+    <dimen name="quick_contact_name_empty_view_height">4.0dip</dimen>
+    <dimen name="quick_contact_photo_from_y_position">5.0dip</dimen>
+    <dimen name="quick_contact_photo_from_y_position_without_company_name">18.0dip</dimen>
+    <dimen name="detail_tab_carousel_height">40.0dip</dimen>
+    <dimen name="easymode_actionbar_item_dummy_width">0.0dip</dimen>
+    <dimen name="action_bar_tab_height">48.0dip</dimen>
+    <dimen name="sub_contact_actionbar_tab">40.0dip</dimen>
+    <dimen name="tutorial_popup_indicator_vertical_margin">-16.0px</dimen>
+    <dimen name="detail_photo_container_width">280.0dip</dimen>
+    <dimen name="detail_photo_container_padding_bottom">4.0dip</dimen>
+    <dimen name="tutorial_quick_contact_button_padding">28.0dip</dimen>
+</resources>

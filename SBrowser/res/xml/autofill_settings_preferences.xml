@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <CheckBoxPreference android:title="@string/autofill_title_long" android:key="enable_autofill" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" android:defaultValue="true" />
+    <PreferenceCategory android:enabled="true" android:visibility="gone" android:title="@string/autofill_profiles_title" android:key="autofill_profiles" />
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/noContactView" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dip" android:textColor="@color/primary_text_color" android:id="@id/helpText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="11.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="30.0dip" android:text="@string/no_contact_help_text" />
+    <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textColor="@color/tw_button_text_color" android:gravity="center" android:id="@id/signInButton" android:background="@drawable/tw_btn_default" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="32.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="32.0dip" android:layout_marginBottom="8.0dip" android:text="@string/sync_with_your_account" android:singleLine="true" />
+            <Button android:textColor="@color/tw_button_text_color" android:gravity="center" android:id="@id/ImportButton" android:background="@drawable/tw_btn_default" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="32.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="32.0dip" android:layout_marginBottom="8.0dip" android:text="@string/contacts_unavailable_import_contacts" android:singleLine="true" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

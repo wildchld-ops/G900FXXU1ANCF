@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Beti aktibatuta</item>
+        <item>Eskatutakoan</item>
+        <item>Itzalita</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Orri lehenetsia</item>
+        <item>Uneko orria</item>
+        <item>Sarbide azkarra</item>
+        <item>Gehien bisitatutako guneak</item>
+        <item>Besterik</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Gailua</item>
+        <item>SD txar.</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Txinera (GBK)</item>
+        <item>Txinera (Big5)</item>
+        <item>Japoniera (EUC-JP)</item>
+        <item>Japoniera (SHIFT JIS)</item>
+        <item>Japoniera (EUC-JP)</item>
+        <item>Korearra (EUC-KR)</item>
+        <item>Hauteman automatikoki</item>
+    </string-array>
+</resources>

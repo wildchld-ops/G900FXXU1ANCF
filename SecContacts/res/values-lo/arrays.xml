@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="index_string_array">
+        <item>ກຂຄງຈສຊຍດຕຖທນບປຜຝພຟມຢຣລວຫອຮ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="interaction_selecter_spinner">
+        <item>%d ໄດ້ຖືກເລືອກ</item>
+        <item>ເລືອກທັງໝົດ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>ອົງການຈັດຕັ້ງ</item>
+        <item>ໝາຍເຫດ</item>
+    </string-array>
+</resources>

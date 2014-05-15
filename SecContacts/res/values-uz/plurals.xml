@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">"%d kontaktlar ko'rsatilyapti"</item>
+        <item quantity="one">1 kontakt ko‘rsatilmoqda</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">Telefon raqamiga ega %d kontakt ko‘rsatilmoqda</item>
+        <item quantity="one">Telefon raqamiga ega 1 kontakt ko‘rsatilmoqda</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Telefon raqamlariga ega %d kontakt</item>
+        <item quantity="one">Telefon raqami bo‘lgan 1 kontakt</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d kontakt</item>
+        <item quantity="one">1 kontakt</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%dta topildi</item>
+        <item quantity="one">1ta topildi</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%dta topildi</item>
+        <item quantity="one">1ta topildi</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d guruh</item>
+        <item quantity="one">1 guruh</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%2$s guruhida %1$d inson</item>
+        <item quantity="one">%2$s guruhida %1$d inson</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d inson</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d ovozli pochta</item>
+        <item quantity="one">Ovozli pochta</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d kontaktdan nusxa olindi.</item>
+        <item quantity="one">%d kontaktdan nusxa olindi.</item>
+    </plurals>
+</resources>

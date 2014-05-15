@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">การ​แสดง​ผล %d ​ราย​ชื่อ</item>
+        <item quantity="one">กำลัง​แสดง 1 ​ราย​ชื่อ</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">การ​แสดง​ผล %d ​ราย​ชื่อ​ที่​มี​หมาย​เลข​โทรศัพท์</item>
+        <item quantity="one">การ​แสดง​ผล 1 ​ราย​ชื่อ​ที่​มี​หมาย​เลข​โทรศัพท์</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d รายชื่อที่มีหมายเลขโทรศัพท์</item>
+        <item quantity="one">1 รายชื่อที่มีหมายเลขโทรศัพท์</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d ​ราย​ชื่อ</item>
+        <item quantity="one">1 ​ราย​ชื่อ</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">พบ %d รายการ</item>
+        <item quantity="one">พบ 1 รายการ</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">พบ %d รายการ</item>
+        <item quantity="one">พบ 1 รายการ</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">รวมจากแหล่งที่มา %0$d แหล่ง</item>
+        <item quantity="one">ไม่รวม</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d ​กลุ่ม</item>
+        <item quantity="one">1 ​กลุ่ม</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d ​คน​ใน​กลุ่ม %2$s</item>
+        <item quantity="one">%1$d ​คน​ใน​กลุ่ม %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d ​คน</item>
+        <item quantity="one">%1$d คน</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d ​ข้อ​ความ​เสียง</item>
+        <item quantity="one">ข้อ​ความ​เสียง</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">คัดลอก %d รายชื่อ</item>
+        <item quantity="one">%d ​ราย​ชื่อ​ที่​คัด​ลอก</item>
+    </plurals>
+</resources>

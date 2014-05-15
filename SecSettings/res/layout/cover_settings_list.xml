@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/cover_shortcut_bg" android:layout_width="fill_parent" android:layout_height="318.0dip" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/cover_dim_bg" android:background="@drawable/settings_pattern" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:orientation="horizontal" android:background="#33000000" android:paddingTop="25.0dip" android:layout_width="fill_parent" android:layout_height="73.0dip">
+            <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:id="@id/cover_settings_title" android:layout_width="200.0dip" android:layout_height="24.0dip" android:layout_marginLeft="34.0dip" android:layout_marginTop="12.0dip" android:singleLine="true" android:shadowColor="#33000000" android:shadowDy="1.0" android:layout_alignParentLeft="true" style="@style/sview_text_shadow" />
+            <ImageButton android:id="@id/cancel_button" android:background="@drawable/cover_cancel_bg" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="28.0dip" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:contentDescription="@string/profile_exit" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ListView android:id="@id/cover_settings_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/cover_item_color" android:divider="@drawable/dvline" />
+        </LinearLayout>
+        <View android:id="@id/divider" android:background="@drawable/dvline" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/s_view_cover_open_cover_pedometer_popup" android:background="@drawable/tw_toast_frame_holo_dark" android:padding="18.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="90.0dip" android:layout_marginRight="40.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:id="@id/s_view_cover_open_cover_pedometer_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/walking_mate_popup_msg" style="@style/sview_text_shadow" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/s_view_cover_weather_popup" android:background="@drawable/tw_toast_frame_holo_dark" android:padding="18.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="90.0dip" android:layout_marginRight="40.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:id="@id/s_view_cover_weather_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_network_unavailable" style="@style/sview_text_shadow" />
+    </LinearLayout>
+</FrameLayout>

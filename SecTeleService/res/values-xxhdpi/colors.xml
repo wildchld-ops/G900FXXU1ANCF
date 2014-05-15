@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="color" name="incall_screen_background">@*android:color/black</item>
+    <item type="color" name="dialpad_background">@*android:color/black</item>
+    <item type="color" name="dtmf_dialer_display_background">@*android:color/black</item>
+    <item type="color" name="dtmf_dialer_display_text">@*android:color/white</item>
+    <color name="manage_conference_name_text_color">#ffd7d7d7</color>
+    <color name="manage_conference_end_text_color">#ffd7d7d7</color>
+    <item type="color" name="dialog_guide_message_color">@*android:color/white</item>
+    <color name="call_setting_bottom_button_text">#ffebebeb</color>
+    <color name="create_new_message_text_color">#ffd2d2d2</color>
+    <color name="reject_with_message_handle_text_color">#ffffffff</color>
+    <color name="reject_with_message_body_color">#ff020202</color>
+    <color name="incoming_accept_circle">#ff7ed317</color>
+    <color name="incoming_reject_circle">#ffd12402</color>
+</resources>

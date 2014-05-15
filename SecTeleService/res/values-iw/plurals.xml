@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">אין חיבור נתונים במשך %s דקות.</item>
+        <item quantity="one">אין חיבור נתונים במשך %s דקות.</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">טלפון יהיה במצב חירום של התקשרות חזרה למשך %s דקות. יישומים לא יכולים להשתמש בחיבור הנתונים במצב זה. לצאת כעת?</item>
+        <item quantity="one">לא ניתן להשתמש בחיבור הנתונים עבור יישומים. הטלפון יהיה במצב חירום של התקשרות חזרה למשך %s דקות במצב זה. לצאת כעת?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">הפעולה שנבחרה אינה זמינה במצב התקשרות חזרה בעת חירום. הטלפון יישאר במצב זה למשך %s דקות. לצאת כעת?</item>
+        <item quantity="one">הפעולה שנבחרה אינה זמינה במצב התקשרות חזרה בעת חירום. הטלפון יישאר במצב זה למשך %s דקות. לצאת כעת?</item>
+    </plurals>
+</resources>

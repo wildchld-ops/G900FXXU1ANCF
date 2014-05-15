@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s comhrá</item>
+        <item quantity="one">1 chomhrá</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s teachtaireacht</item>
+        <item quantity="one">1 teachtaireacht</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d comhrá</item>
+        <item quantity="one">%d comhrá</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s agus %2$d eile</item>
+        <item quantity="one">%s agus 1 eile</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s agus %2$d eile</item>
+        <item quantity="one">%s agus 1 eile</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">Scriosadh na teachtaireachtaí ón gcárta SIM.</item>
+        <item quantity="one">Scriosadh teachtaireacht ón gcárta SIM.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">Teachtaireachtaí cóipeáilte ón gcárta SIM.</item>
+        <item quantity="one">Cóipeáladh teachtaireacht ón gcárta SIM.</item>
+    </plurals>
+</resources>

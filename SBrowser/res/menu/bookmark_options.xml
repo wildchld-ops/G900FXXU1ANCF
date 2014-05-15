@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/select_bookmarks_group">
+        <item android:id="@id/select_bookmarks" android:title="@string/bookmarksmenu_select" />
+    </group>
+    <item android:icon="@drawable/menu_icon_bookmark_delete_selector" android:id="@id/delete_bookmark_action" android:visible="true" android:title="@string/bookmarks_options_menu_delete" android:showAsAction="never" />
+    <group android:id="@id/thumbnail_view_group_id">
+        <item android:icon="@drawable/tw_action_bar_icon_thumbnail" android:id="@id/bookmarks_switch_to_thumbnail_view" android:title="@string/bookmarksmenu_thumbnail_view" />
+    </group>
+    <group android:id="@id/create_folder_group">
+        <item android:icon="@drawable/tw_action_bar_icon_add_folder" android:id="@id/create_folder" android:title="@string/bookmark_create_folder" />
+    </group>
+    <item android:icon="@drawable/tw_action_bar_icon_add_selector" android:id="@id/action_button_add_bookmark" android:title="@string/bookmark_this_page" android:showAsAction="always" />
+    <group android:id="@id/actionbar_cancel_done">
+        <item android:id="@id/cancel_id" android:title="@string/bookmark_cancel" android:showAsAction="ifRoom" />
+        <item android:id="@id/done_id" android:title="@string/bookmark_done" android:showAsAction="ifRoom" />
+    </group>
+    <group android:id="@id/reorder_folder_group">
+        <item android:icon="@drawable/menu_icon_bookmark_reorder_selector" android:id="@id/reorder" android:title="@string/bookmarks_options_menu_reorder" />
+    </group>
+    <group android:id="@id/actionbar_move_to_folder_cancel_done">
+        <item android:id="@id/move_to_folder_cancel_id" android:title="@string/bookmark_cancel" android:showAsAction="ifRoom" />
+        <item android:id="@id/move_to_folder_done_id" android:title="@string/bookmark_done" android:showAsAction="ifRoom" />
+    </group>
+    <item android:icon="@drawable/tw_action_bar_icon_delete_holo_light" android:id="@id/action_tablet_delete" android:title="@string/delete_bookmark" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/tw_action_bar_icon_thumbnail_holo_dark" android:id="@id/list_grid_view_toggle" android:showAsAction="ifRoom" />
+    <group android:id="@id/action_tablet_reorder">
+        <item android:icon="@drawable/tw_action_bar_icon_cancel_02_holo_light" android:id="@id/cancel_id" android:title="@string/bookmark_cancel" android:showAsAction="ifRoom|withText" />
+        <item android:icon="@drawable/tw_action_bar_icon_check_selector" android:id="@id/reorder_done_id" android:title="@string/move_to_folder_done" android:showAsAction="ifRoom|withText" />
+    </group>
+</menu>

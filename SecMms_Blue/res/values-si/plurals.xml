@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">සංවාද %1$s</item>
+        <item quantity="one">පිළිසඳර 1</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">පණිවිඩය %1$s</item>
+        <item quantity="one">පණිවිඩ 1</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">සංවාද %d</item>
+        <item quantity="one">%d පිළිසඳර</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s සහ තවත් %2$d</item>
+        <item quantity="one">%s සහ තවත් 1</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s සහ තවත් %2$d</item>
+        <item quantity="one">%s සහ තවත් 1</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">SIM කාඩ්පතෙන් පණිවිඩ මකා දැමිණ.</item>
+        <item quantity="one">පණිවිඩය SIM කාඩ්පතෙන් ‍මැකී තිබේ.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">SIM කාඩ්පතෙන් පණිවිඩ පිටපත් කරගැනිණ.</item>
+        <item quantity="one">SIM කාඩ්පතෙන් පණිවිඩ පිටපත් කර ගැනිණ.</item>
+    </plurals>
+</resources>

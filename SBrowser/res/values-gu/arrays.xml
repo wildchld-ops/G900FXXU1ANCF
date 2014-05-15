@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>હંમેશા ચાલું</item>
+        <item>માંગ પર</item>
+        <item>બંધ</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>મૂળભૂત પૃષ્ઠ</item>
+        <item>વર્તમાન પૃષ્ઠ</item>
+        <item>ઝડપી પ્રવેશ</item>
+        <item>વધુ મુલાકાત કરેલી સાઇટ્સ</item>
+        <item>બીજા</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>ઉપકરણ</item>
+        <item>SD કાર્ડ</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>લૅટિન-1 (ISO-8859-1)</item>
+        <item>યુનિકોડ (UTF-8)</item>
+        <item>ચાઇનીઝ (GBK)</item>
+        <item>ચાઇનીઝ (Big5)</item>
+        <item>જાપાનિઝ (ISO-2022-JP)</item>
+        <item>જાપાનિઝ (SHIFT JIS)</item>
+        <item>જાપાનિઝ (EUC-JP)</item>
+        <item>કોરિયન (EUC-KR)</item>
+        <item>સ્વતઃશોધ</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/tw_list_section_divider" android:layout_width="fill_parent" android:layout_height="@dimen/group_list_section_header_height" android:minHeight="?list_item_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/textAppearanceGroupListItemHeader" android:ellipsize="marquee" android:id="@id/header_title" android:paddingLeft="@dimen/tw_list_item_header_text_indent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/expander" android:focusable="false" android:layout_width="@dimen/group_list_expander_width" android:layout_height="@dimen/group_list_expander_height" android:layout_marginLeft="@dimen/tw_expander_margin_left" android:layout_marginRight="@dimen/tw_expander_margin_right" />
+</LinearLayout>

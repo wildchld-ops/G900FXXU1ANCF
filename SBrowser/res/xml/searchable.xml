@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable android:label="@string/search_setting_label" android:icon="@drawable/ic_search_category_browser" android:hint="@string/search_hint" android:searchMode="queryRewriteFromData" android:searchSuggestAuthority="com.sec.android.app.sbrowser.ChromeBrowserProvider" android:searchSuggestSelection=" ?" android:searchSuggestIntentAction="android.intent.action.VIEW" android:inputType="textUri" android:voiceSearchMode="showVoiceSearchButton|launchWebSearch" android:imeOptions="actionGo" android:includeInGlobalSearch="false" android:searchSettingsDescription="@string/search_settings_description"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <extra-attr android:name="includeInInsightSearch" android:value="true" />
+    <extra-attr android:name="searchLayoutStyle" android:value="suggest_template_history_web" />
+    <extra-attr android:name="advancedSearchType" android:value="timeSpan" />
+</searchable>

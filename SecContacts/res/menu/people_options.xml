@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_ip_call" android:orderInCategory="1" android:title="@string/ip_call" android:showAsAction="withText" />
+    <item android:id="@id/menu_video_call" android:orderInCategory="1" android:title="@string/video_call" android:showAsAction="withText" />
+    <item android:icon="@drawable/tw_action_bar_icon_add2sec" android:id="@id/menu_2s_pause" android:orderInCategory="1" android:title="@string/add_2sec_pause_sec" android:showAsAction="withText" />
+    <item android:icon="@drawable/tw_action_bar_icon_add_wait" android:id="@id/menu_add_wait" android:orderInCategory="1" android:title="@string/add_wait" android:showAsAction="withText" />
+    <item android:icon="@drawable/tw_action_bar_icon_add" android:id="@id/menu_add_contacts" android:orderInCategory="1" android:title="@string/recentCalls_addToContact" android:showAsAction="withText" />
+    <item android:icon="@drawable/tw_action_bar_icon_sendmsg" android:id="@id/menu_send_message" android:orderInCategory="1" android:title="@string/send_message" android:showAsAction="withText" />
+    <item android:icon="@drawable/ic_menu_settings_holo" android:id="@id/menu_onehand" android:orderInCategory="1" android:title="@string/onehand_mode_on" android:showAsAction="withText" />
+    <item android:id="@id/menu_logs_multi_selection" android:visible="false" android:title="@string/menu_select" />
+    <item android:icon="@drawable/tw_action_bar_icon_delete" android:id="@id/menu_delete" android:orderInCategory="0" android:title="@string/delete" android:showAsAction="withText" />
+    <item android:icon="@drawable/tw_action_bar_icon_search" android:id="@id/menu_regular_search" android:orderInCategory="0" android:title="@string/menu_search" />
+    <item android:id="@id/menu_recorded_calls" android:visible="false" android:orderInCategory="0" android:title="@string/recorded_calls" android:showAsAction="never" />
+    <item android:icon="@drawable/tw_action_bar_icon_callduration" android:id="@id/menu_call_duration" android:orderInCategory="0" android:title="@string/call_duration" android:showAsAction="never" />
+    <item android:icon="@drawable/tw_action_bar_icon_settings" android:id="@id/menu_call_settings" android:orderInCategory="3" android:title="@string/menu_settings" android:showAsAction="never" />
+    <item android:id="@id/menu_eSurfing_dialup" android:orderInCategory="1" android:title="@string/eSurfing_dailup_title" android:showAsAction="never" />
+    <item android:id="@id/menu_favorite_multi_selection" android:visible="false" android:title="@string/menu_select" />
+    <item android:id="@id/menu_favorite_remove" android:visible="false" android:title="@string/menu_removeStar" />
+    <item android:icon="@drawable/tw_action_bar_icon_add_contact" android:id="@id/menu_favorite_add" android:visible="false" android:title="@string/menu_addStar" />
+    <item android:id="@id/menu_favorite_change_view" android:visible="false" />
+    <item android:icon="@drawable/action_bar_tab_icon_groups" android:id="@id/menu_groups" android:visible="false" android:title="@string/contactsGroupsLabel" android:showAsAction="always" />
+    <item android:icon="@drawable/tw_action_bar_icon_add" android:id="@id/menu_create_contact" android:visible="false" android:title="@string/create_contact" />
+    <item android:icon="@drawable/tw_action_bar_icon_dialer" android:id="@id/menu_keypad" android:visible="false" android:title="@string/show_dialpad" android:showAsAction="always" />
+    <item android:icon="@drawable/tw_action_bar_icon_down" android:id="@id/menu_keypad_hide" android:visible="false" android:title="@string/hide_dialpad" android:showAsAction="always" />
+    <item android:id="@id/menu_multi_selection" android:visible="false" android:title="@string/menu_select" />
+    <item android:id="@id/menu_multiple_delete" android:visible="false" android:title="@string/menu_multiple_delete" />
+    <item android:id="@id/menu_vzcloud" android:visible="false" android:showAsAction="never" />
+    <item android:id="@id/menu_yellowpages" android:visible="false" android:title="@string/ContactsYellowpage" />
+    <item android:id="@id/menu_businesscard" android:visible="false" android:title="@string/menu_businesscard" />
+    <item android:id="@id/menu_merge_accounts" android:visible="false" android:title="@string/menu_merge" />
+    <item android:id="@id/menu_speed_dial_setting" android:visible="false" android:orderInCategory="1" android:title="@string/speed_dial_setting" />
+    <item android:id="@id/menu_send" android:visible="false" android:orderInCategory="1" android:title="@string/menu_send" />
+    <item android:id="@id/menu_auto_link" android:visible="false" android:orderInCategory="1" android:title="@string/menu_link_contact" />
+    <item android:icon="@drawable/tw_action_bar_icon_swipe" android:id="@id/menu_swipe" android:title="@string/swipe_to_call_or_message" android:checkable="true" />
+    <item android:id="@id/menu_move_to_knox" android:visible="false" android:title="@string/menu_knox_move" />
+    <item android:id="@id/menu_move_to_personal" android:visible="false" android:title="@string/menu_knox_personal_move" />
+    <item android:id="@id/menu_settings" android:visible="false" android:orderInCategory="4" android:title="@string/menu_settings" />
+    <item android:icon="@drawable/tw_action_bar_icon_help_holo" android:id="@id/menu_help" android:orderInCategory="5" android:title="@string/menu_help" />
+    <item android:id="@id/menu_sim_management" android:visible="false" android:title="@string/sim_management" />
+    <item android:id="@id/menu_import_export" android:visible="false" android:title="@string/menu_import_export" />
+    <item android:id="@id/menu_backup" android:visible="false" android:title="@string/menu_backup" />
+    <item android:id="@id/menu_au_server" android:visible="false" android:title="@string/menu_au_server" />
+    <item android:id="@id/menu_contacts_filter" android:visible="false" android:title="@string/menu_contacts_filter" />
+    <item android:id="@id/menu_contact_counter" android:visible="false" android:title="@string/menu_contact_counter" />
+    <item android:id="@id/menu_my_network" android:title="@string/menu_my_network" />
+    <item android:id="@id/menu_skt_cmf_call" android:orderInCategory="2" />
+    <item android:id="@id/menu_skt_message_call" android:orderInCategory="2" android:showAsAction="withText" />
+    <item android:id="@id/menu_call_included_message" android:orderInCategory="2" />
+    <item android:id="@id/menu_group_video_call" android:orderInCategory="2" />
+    <item android:id="@id/menu_group_call" android:orderInCategory="2" />
+    <item android:id="@id/menu_lgu_rad_setting" android:orderInCategory="2" />
+</menu>

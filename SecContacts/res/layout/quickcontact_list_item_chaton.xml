@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_vertical" android:id="@id/chaton_divider" android:background="@color/quickcontact_tab_indicator" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/detail_vertical_divider_vertical_margin" android:layout_marginBottom="@dimen/detail_vertical_divider_vertical_margin" />
+    <FrameLayout android:id="@id/chaton_voice_call_container" android:background="@drawable/list_item_background" android:paddingLeft="@dimen/quick_contact_list_icon_padding" android:paddingRight="@dimen/quick_contact_list_icon_padding" android:focusable="true" android:nextFocusLeft="@id/actions_view_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/chaton_voice_call_button" android:duplicateParentState="false" android:layout_width="@dimen/quick_contact_list_action_icon_size" android:layout_height="@dimen/quick_contact_list_action_icon_size" android:src="@drawable/ic_voicecall" />
+    </FrameLayout>
+    <View android:layout_gravity="center_vertical" android:id="@id/chaton_divider2" android:background="@color/quickcontact_tab_indicator" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/detail_vertical_divider_vertical_margin" android:layout_marginBottom="@dimen/detail_vertical_divider_vertical_margin" />
+    <FrameLayout android:id="@id/chaton_video_call_container" android:background="@drawable/list_item_background" android:paddingLeft="@dimen/quick_contact_list_icon_padding" android:paddingRight="@dimen/quick_contact_list_icon_padding" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/chaton_video_call_button" android:duplicateParentState="false" android:layout_width="@dimen/quick_contact_list_action_icon_size" android:layout_height="@dimen/quick_contact_list_action_icon_size" android:src="@drawable/ic_videocall" />
+    </FrameLayout>
+</merge>

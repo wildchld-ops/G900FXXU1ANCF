@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>Xursand</item>
+        <item>Xomush</item>
+        <item>Miltillash</item>
+        <item>Til chiqarilgan holda</item>
+        <item>Hayron</item>
+        <item>O‘pich</item>
+        <item>Baqirish</item>
+        <item>Zo‘r</item>
+        <item>Pulli og‘iz</item>
+        <item>Oyog‘i og‘zida</item>
+        <item>Uyalgan</item>
+        <item>Farishta</item>
+        <item>Qaror qilinmagan</item>
+        <item>Yig‘lamoqda</item>
+        <item>Lablar yopilgan</item>
+        <item>Kulish</item>
+        <item>Dovdiragan</item>
+        <item>Yurak</item>
+        <item>Istehzoli kulgu</item>
+        <item>Soxta tirjayish</item>
+        <item>"Ma'nosiz yuz"</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Qurilma shrift o‘l. foyd.</item>
+        <item>Mitti</item>
+        <item>Kichik</item>
+        <item>Normal</item>
+        <item>Katta</item>
+        <item>Ulkan</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Qurilma shrift o‘l. foyd.</item>
+        <item>Mitti</item>
+        <item>Juda kichik</item>
+        <item>Kichik</item>
+        <item>O‘rtacha</item>
+        <item>Katta</item>
+        <item>Juda katta</item>
+        <item>Ulkan</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Barcha kanallar</item>
+        <item>Mening kanalim</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM alifbo</item>
+        <item>Yunikod</item>
+        <item>Avtomatik</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 kun</item>
+        <item>1 kun</item>
+        <item>2 kun</item>
+        <item>3 kun</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Cheklangan</item>
+        <item>Ogohlantirish</item>
+        <item>Bo‘sh</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Har doim</item>
+        <item>Maslahat</item>
+        <item>Hech qachon</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Origami</item>
+        <item>Yorliq</item>
+        <item>Pop</item>
+        <item>Zamonaviy</item>
+        <item>Pushti</item>
+        <item>Birlamchi</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Bir marta</item>
+        <item>Har 2 daqiqa</item>
+        <item>Har 15 daqiqa</item>
+        <item>O‘ch.</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Hech qachon</item>
+        <item>Har 2 daqiqa</item>
+        <item>Har 10 daqiqa</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Mahalliy</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 soat</item>
+        <item>6 saot</item>
+        <item>24 soat</item>
+        <item>2 kun</item>
+        <item>Sukut bo‘yicha tarmoq</item>
+        <item>Maksimum</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Yuqori</item>
+        <item>Normal</item>
+        <item>Past</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Darhol</item>
+        <item>1 soat</item>
+        <item>6 saot</item>
+        <item>24 soat</item>
+        <item>1 haf.</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 soniya</item>
+        <item>5 soniya</item>
+        <item>10 soniya</item>
+        <item>20 soniya</item>
+        <item>30 soniya</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>O‘ch.</item>
+        <item>Barcha xabarlarni bloklash</item>
+        <item>Ro‘yxatga olingan raqamlar va iboralar bloklansin</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Quyidagi bilan bir xil</item>
+        <item>Quyidagi bilan boshlanadi</item>
+        <item>Quyidagi bilan tugaydi</item>
+        <item>O‘z ichiga oladi</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Jurnal</item>
+        <item>Kontakt</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Xabarni bloklash</item>
+        <item>Qo‘ng‘iroqni bloklash</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Xabarni bloklash</item>
+        <item>Ovozli qo‘n-qni bloklash</item>
+        <item>Video qo‘n-qni bloklash</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Zaxiralangan.</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Normal</item>
+        <item>Yuqori</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Kechirasiz, qo‘ng‘irog‘ingizni eshitmay qolibman.</item>
+        <item>Kech qolyapman, lekin bir necha daqiqada yetib boraman.</item>
+        <item>Ahvollar qalay?</item>
+        <item>Ishlar qalay?</item>
+        <item>Qayerdasiz?</item>
+        <item>Ushbu xabarni olganingizda menga qo‘ng‘iroq qiling.</item>
+        <item>Qachon uchrashishimiz mumkin?</item>
+        <item>Keyinroq gaplashamiz.</item>
+        <item>Uchrashuv qayerda?</item>
+        <item>Raqami?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Braziliya Portugalchasi</item>
+        <item>Inglizcha (BQ)</item>
+        <item>Inglizcha (QSH)</item>
+        <item>Fransuzcha</item>
+        <item>Nemischa</item>
+        <item>Italiyancha</item>
+        <item>Yaponcha</item>
+        <item>Koreyscha</item>
+        <item>Soddalashtirilgan Xitoycha</item>
+        <item>Ruscha</item>
+        <item>Ispancha</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Mitti</item>
+        <item>Kichik</item>
+        <item>Normal</item>
+        <item>Katta</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Barchasi</item>
+        <item>Yuboruvchi</item>
+        <item>Tarkib</item>
+    </string-array>
+</resources>

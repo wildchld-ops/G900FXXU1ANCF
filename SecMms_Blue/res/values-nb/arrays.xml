@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&amp;lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Glad</item>
+        <item>Trist</item>
+        <item>Blunker</item>
+        <item>Tunge stikker ut</item>
+        <item>Overrasket</item>
+        <item>Kysser</item>
+        <item>Roper</item>
+        <item>Kul</item>
+        <item>Pengemunn</item>
+        <item>Fot i munn</item>
+        <item>Flau</item>
+        <item>Engel</item>
+        <item>Ubesluttsom</item>
+        <item>Gråtende</item>
+        <item>Munnen er lukket</item>
+        <item>Ler</item>
+        <item>Forvirret</item>
+        <item>Hjerte</item>
+        <item>Gal</item>
+        <item>Flir</item>
+        <item>Pokerfjes</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Bruk enhetsskriftstr.</item>
+        <item>Veldig liten</item>
+        <item>Liten</item>
+        <item>Normal</item>
+        <item>Stor</item>
+        <item>Veldig stor</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Bruk enhetsskriftstr.</item>
+        <item>Veldig liten</item>
+        <item>Ekstra liten</item>
+        <item>Liten</item>
+        <item>Middels</item>
+        <item>Stor</item>
+        <item>Ekstra stor</item>
+        <item>Veldig stor</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Alle kanaler</item>
+        <item>Min kanal</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-alfabet</item>
+        <item>Unicode</item>
+        <item>Automatisk</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 dager</item>
+        <item>1 dag</item>
+        <item>2 dager</item>
+        <item>3 dager</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Begrenset</item>
+        <item>Advarsel</item>
+        <item>Fri</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Alltid</item>
+        <item>Spør</item>
+        <item>Aldri</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Origami</item>
+        <item>Etikett</item>
+        <item>Pop</item>
+        <item>Moderne</item>
+        <item>Rosa</item>
+        <item>Standard</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Én gang</item>
+        <item>Hvert 2. minutt</item>
+        <item>Hvert 15. minutt</item>
+        <item>Av</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Aldri</item>
+        <item>Hvert 2. minutt</item>
+        <item>Hvert 10. minutt</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Innenriks</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 time</item>
+        <item>6 timer</item>
+        <item>24 timer</item>
+        <item>2 dager</item>
+        <item>Nettverkstandard</item>
+        <item>Maksimum</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Høy</item>
+        <item>Normal</item>
+        <item>Lav</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Umiddelbart</item>
+        <item>1 time</item>
+        <item>6 timer</item>
+        <item>24 timer</item>
+        <item>1 uke</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 sekunder</item>
+        <item>5 sekunder</item>
+        <item>10 sekunder</item>
+        <item>20 sekunder</item>
+        <item>30 sekunder</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Av</item>
+        <item>Blokker alle meldinger</item>
+        <item>Bare blokker registrerte numre og fraser</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Eksakt samme som</item>
+        <item>Begynner med</item>
+        <item>Slutter med</item>
+        <item>Inkluderer</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Logger</item>
+        <item>Kontakter</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Meldingsblokkering</item>
+        <item>Anropsblokkering</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Meldingsblokkering</item>
+        <item>Blokkering av taleanrop</item>
+        <item>Videoanropsblokkering</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Reservert.</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Normal</item>
+        <item>Høy</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Beklager, jeg rakk ikke å svare.</item>
+        <item>Jeg er forsinket, men jeg kommer om noen minutter.</item>
+        <item>Hvordan går det?</item>
+        <item>Hva skjer?</item>
+        <item>Hvor er du?</item>
+        <item>Ring meg når du får denne meldingen.</item>
+        <item>Når kan vi møtes?</item>
+        <item>Vi snakkes snart.</item>
+        <item>Hvor er møtet?</item>
+        <item>Hva er nummeret?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Portugisisk (Brasil)</item>
+        <item>Britisk engelsk</item>
+        <item>Engelsk (USA)</item>
+        <item>Fransk</item>
+        <item>Tysk</item>
+        <item>Italiensk</item>
+        <item>Japansk</item>
+        <item>Koreansk</item>
+        <item>Forenklet kinesisk</item>
+        <item>Russisk</item>
+        <item>Spansk</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Veldig liten</item>
+        <item>Liten</item>
+        <item>Normal</item>
+        <item>Stor</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Alle</item>
+        <item>Avsender</item>
+        <item>Innhold</item>
+    </string-array>
+</resources>

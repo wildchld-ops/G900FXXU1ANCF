@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="500" android:drawable="@drawable/animation_usb_1" />
+    <item android:duration="500" android:drawable="@drawable/animation_usb_2" />
+    <item android:duration="500" android:drawable="@drawable/animation_usb_3" />
+    <item android:duration="500" android:drawable="@drawable/animation_usb_4" />
+    <item android:duration="500" android:drawable="@drawable/animation_usb_5" />
+    <item android:duration="500" android:drawable="@drawable/animation_usb_6" />
+    <item android:duration="500" android:drawable="@drawable/animation_usb_7" />
+</animation-list>

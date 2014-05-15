@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">اتصال داده برای %s دقیقه ممکن نیست.</item>
+        <item quantity="one">اتصال داده برای %s دقیقه ممکن نیست.</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">تلفن برای %s دقیقه در حالت تماس مجدد اضطراری خواهد بود. هنگامی که در این حالت هستید امکان استفاده از برنامه هایی که از اتصال داده استفاده می کنند وجود ندارد. اکنون خارج می شوید؟</item>
+        <item quantity="one">استفاده از اتصال داده برای برنامه ها ممکن نیست. در این حالت تلفن برای %s دقیقه در حالت تماس مجدد اضطراری خواهد بود. اکنون خارج می شوید؟</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">عملکرد انتخابی در حالت تماس مجدد اضطراری در دسترس نیست. تلفن برای مدت %s دقیقه در این حالت خواهد بود. اکنون خارج می شوید؟</item>
+        <item quantity="one">عملکرد انتخابی در حالت تماس مجدد اضطراری در دسترس نیست. تلفن برای مدت %s دقیقه در این حالت خواهد بود. اکنون خارج می شوید؟</item>
+    </plurals>
+</resources>

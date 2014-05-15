@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toolbar_url_text_color">#ff303030</color>
+    <color name="toolbar_url_text_highlightcolor">#ff79caf2</color>
+    <color name="toolbar_url_text_hintcolor">#ff8e8e8e</color>
+    <color name="toolbar_multiwin_text_color">#ff677682</color>
+    <color name="light_background_color">#ffffffff</color>
+    <color name="quicklaunch_background_color">#ffdddddd</color>
+    <color name="most_visited_title_color">#ff334c61</color>
+    <color name="alert_infobar_bg_separator">#ff797c7f</color>
+    <color name="alert_infobar_text">#ff000000</color>
+    <color name="find_result_bar_find_results_text_color">#ff2f2f2f</color>
+    <color name="find_in_page_text_color">#ffffffff</color>
+    <color name="text_size_view">#ffffffff</color>
+    <color name="sbrowser_tablet_model_switcher_text_color">#ff000000</color>
+    <color name="title_color">#ff6e9cba</color>
+    <color name="item_color">#ffcccccc</color>
+    <color name="white">#ffffffff</color>
+    <color name="tabFocusHighlight">#ff99cc00</color>
+    <color name="noitem_text_color">#b2000000</color>
+    <color name="noitem_bg_color">#ffffffff</color>
+    <color name="scraplist_item_title">#ff0e293f</color>
+    <color name="scraplist_item_content">#ff364f67</color>
+    <color name="finger_hover_color">#ff193442</color>
+    <color name="magnifier_color">#ff0078cc</color>
+    <color name="addbookmark_account">#fff5f5f5</color>
+    <color name="addbookmark_foldername">#ff8a8a8a</color>
+    <color name="air_browse_tab_number_color">#ff858585</color>
+    <color name="tab_manager_background">#ff939aa0</color>
+    <color name="split_right_subtitle_text_color">#ff1d4d74</color>
+    <color name="split_left_pane_bg_color">#ffdcdcdc</color>
+    <color name="folder_list_press_bg_color">#ff0e628c</color>
+    <color name="split_left_list_item_bg">#ffebebeb</color>
+    <color name="tabBorder">#ff696969</color>
+    <color name="split_right_text_color_title">#ff262626</color>
+    <color name="split_right_text_color_url">#ff666666</color>
+    <color name="sbrowser_tooltip_text_color">#ff000000</color>
+    <color name="whitetheme_secaddbookmark_bg">#ffffffff</color>
+    <color name="tab_manager_baseslide_background">#ff939aa0</color>
+    <color name="tab_manager_nowindow_text_color">#ffeeeeee</color>
+    <color name="bookmark_folder_title">#fff5f5f5</color>
+    <color name="sbrowser_add_bookmark_text_color">#fff5f5f5</color>
+    <color name="sbrowser_bookmark_thumbnail_title_text_color">#fff5f5f5</color>
+    <color name="tab_manager_nowindow_center_text_color">#ff000000</color>
+    <color name="sbrowser_bookmarks_select_all_text_color">#ff000000</color>
+    <color name="path_indicator_button_text_normal_color">#ffffffff</color>
+    <color name="path_indicator_button_text_dim_color">#ccffffff</color>
+    <color name="path_indicator_button_text_press_color">#ff042733</color>
+    <color name="path_indicator_button_text_focus_color">#ff00f6ff</color>
+    <color name="path_indicator_button_text_shadow_color">#ff000000</color>
+    <color name="tab_title_bg_color">#ff3a3a3a</color>
+    <color name="background">#ff2f4054</color>
+    <color name="nocolor">#00000000</color>
+    <color name="add_bookmark_disabled">#66f5f5f5</color>
+    <color name="add_bookmark_enabled">#fff5f5f5</color>
+    <color name="history_color">#ff000000</color>
+    <color name="history_disabled_color">#ff8a8a8a</color>
+    <color name="setting_header_summary_text_color">#ff364f67</color>
+    <color name="unselected_tab_color">#ff1f394e</color>
+    <color name="selected_tab_color">#ff427ba6</color>
+    <color name="pinned_mostvisited_layout_bg">#fff5f5f5</color>
+    <color name="pinned_mostvisited_bg">#ff3d7b8a</color>
+    <color name="pinned_mostvisited_tab_selector_color">#ffa1babf</color>
+    <color name="reading_list_linnear_layout">#fff5f5f5</color>
+    <color name="reading_list_txt_title">#ff000000</color>
+    <color name="reading_list_txt_url">#ff364f67</color>
+    <color name="reading_list_txt_description">#ff565656</color>
+    <color name="reading_list_shadow_color">#ffe8e8e8</color>
+    <color name="reading_list_divider_shadow_color">#ffe8e8e8</color>
+    <color name="reading_list_divider_shadow_color2">#ff000000</color>
+    <color name="reading_list_spinner_title_color">#fff5f5f5</color>
+    <color name="reading_list_backround_check_box_layout">#ff000000</color>
+    <color name="reading_list_backround_color">#fff5f5f5</color>
+    <color name="default_folder_path">#ff004359</color>
+    <color name="bookmark_thumbnail_inner_line">#ff958f8f</color>
+    <color name="undo_bar_text_color">#ff000000</color>
+    <color name="widget_folder_title">#ff878b97</color>
+    <color name="close_saved_tabs_text_color">#ffffffff</color>
+    <color name="widget_thumb_bg">#fff0f0f0</color>
+    <color name="widget_title_text">#fff5f5f5</color>
+    <item type="color" name="APKTOOL_DUMMY_004e">false</item>
+    <item type="color" name="APKTOOL_DUMMY_004f">false</item>
+    <item type="color" name="APKTOOL_DUMMY_0050">false</item>
+    <item type="color" name="APKTOOL_DUMMY_0051">false</item>
+    <item type="color" name="APKTOOL_DUMMY_0052">false</item>
+    <item type="color" name="APKTOOL_DUMMY_0053">false</item>
+</resources>

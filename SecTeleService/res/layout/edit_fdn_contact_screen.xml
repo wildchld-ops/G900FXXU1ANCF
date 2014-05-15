@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/pinc" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/fdn_edit_padding_left" android:paddingRight="@dimen/fdn_edit_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/name" />
+            <EditText android:id="@id/fdn_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:hint="@string/name" android:singleLine="true" android:capitalize="words" android:imeOptions="actionNext" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/tw_pop_up_dialog_padding_left" android:paddingRight="@dimen/tw_pop_up_dialog_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/number" />
+            <EditText android:id="@id/fdn_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:hint="@string/number" android:singleLine="true" android:inputType="phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/tw_pop_up_dialog_padding_left" android:paddingRight="@dimen/tw_pop_up_dialog_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <TextView android:id="@id/calldivertingtotext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/enter_pin2_text" />
+            <EditText android:id="@id/fdn_pin2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:hint="@string/enter_pin2_text" android:singleLine="true" android:maxLength="8" android:capitalize="none" android:autoText="false" android:inputType="numberPassword" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/neg_pos_order" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+            <Button android:gravity="center" android:id="@id/fdn_cancel_n" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/cancel" android:layout_weight="1.0" />
+            <Button android:gravity="center" android:id="@id/fdn_save_n" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:text="@string/save" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/pos_neg_order" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+            <Button android:gravity="center" android:id="@id/fdn_save_p" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:text="@string/save" android:layout_weight="1.0" />
+            <Button android:gravity="center" android:id="@id/fdn_cancel_p" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/cancel" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s samtaler</item>
+        <item quantity="one">1 samtale</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s meddelelser</item>
+        <item quantity="one">1 besked</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d samtaler</item>
+        <item quantity="one">%d samtale</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s og %2$d mere</item>
+        <item quantity="one">%s og 1 mere</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s og %2$d mere</item>
+        <item quantity="one">%s og 1 mere</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">Meddelelser slettet fra SIM-kort.</item>
+        <item quantity="one">Besked slettet fra SIM-kort.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">Meddelelser kopieret fra SIM-kort.</item>
+        <item quantity="one">Besked kopieret fra SIM-kort.</item>
+    </plurals>
+</resources>

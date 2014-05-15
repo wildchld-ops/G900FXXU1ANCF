@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.touchwiz.widget.TwExpandableListView android:id="@id/sync_tab_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:groupIndicator="@drawable/group_indicator_selector" android:divider="@null" android:dividerHeight="0.0dip" />
+    <ScrollView android:id="@id/syntab_empty_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/syntab_empty_linearlayout" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/empty_image" android:layout_width="126.0dip" android:layout_height="126.0dip" android:src="@drawable/noitems_browser_synctab" />
+            <TextView android:textSize="21.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:id="@id/no_tab_details" android:layout_width="270.0dip" android:layout_height="wrap_content" android:text="@string/no_tab_sync_details_to_display" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:id="@id/undobar" android:background="@drawable/undobar_rounded" android:visibility="gone" android:layout_marginBottom="60.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/UndoBar">
+        <TextView android:id="@id/undobar_message" style="@style/UndoBarMessage" />
+        <Button android:id="@id/undobar_button" style="@style/UndoBarButton" />
+    </LinearLayout>
+</RelativeLayout>

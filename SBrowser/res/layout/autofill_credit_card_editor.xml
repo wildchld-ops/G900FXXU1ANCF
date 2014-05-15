@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="fill_parent" android:layout_height="10.0dip" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#fff5f5f5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/autofill_profile_editor_heading" />
+        <View android:layout_width="fill_parent" android:layout_height="12.0dip" />
+        <TextView android:text="@string/autofill_credit_card_editor_name" style="@style/AutofillProfileTextView" />
+        <EditText android:id="@id/autofill_credit_card_editor_name_edit" android:inputType="textPersonName|textCapWords" style="@style/AutofillProfileEditText" />
+        <TextView android:text="@string/autofill_credit_card_editor_number" style="@style/AutofillProfileTextView" />
+        <EditText android:id="@id/autofill_credit_card_editor_number_edit" android:inputType="phone" android:imeOptions="flagNoExtractUi" style="@style/AutofillProfileEditText" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/add_profile_data_text_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/autofill_credit_card_editor_month_spinner_prompt" style="@style/AutofillProfileTextView" />
+            <Spinner android:gravity="right" android:id="@id/autofill_credit_card_editor_month_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/add_profile_data_text_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/autofill_credit_card_editor_year_spinner_prompt" style="@style/AutofillProfileTextView" />
+            <Spinner android:gravity="right" android:id="@id/autofill_credit_card_editor_year_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

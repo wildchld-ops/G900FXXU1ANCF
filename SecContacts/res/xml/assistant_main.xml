@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assistant-list>
+    <button name="@string/tab_logs" action="android.intent.assistant.main.log" resource="@drawable/assistant_menu_icon_phone_logs" />
+    <button name="@string/contactsList" action="android.intent.assistant.main.contact" resource="@drawable/assistant_menu_icon_phone_contacts" />
+    <button name="@string/contactsFavoritesLabel" action="android.intent.assistant.main.favorite" resource="@drawable/assistant_menu_icon_general_favorite" />
+    <button name="@string/tab_dialer" action="android.intent.assistant.main.keypad" resource="@drawable/assistant_menu_icon_phone_keypad" />
+</assistant-list>

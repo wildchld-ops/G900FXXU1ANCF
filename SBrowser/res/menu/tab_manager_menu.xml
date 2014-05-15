@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/options_menu_private_mode" android:id="@id/new_incognito_tab" android:title="@string/incognitotab" />
+    <item android:icon="@drawable/options_menu_sync_tab" android:id="@id/sync_tabs" android:title="@string/sync_open_pages" />
+    <item android:icon="@drawable/options_menu_close_all" android:id="@id/close_all" android:title="@string/close_all" />
+    <item android:icon="@drawable/internet_add_multi_windows" android:id="@id/tab_manager_newtab" android:visible="false" android:title="@string/options_menu_new_window" android:showAsAction="always|withText" />
+</menu>

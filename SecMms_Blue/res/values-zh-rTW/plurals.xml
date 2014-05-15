@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s 個對話</item>
+        <item quantity="one">1 個對話</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s 個訊息</item>
+        <item quantity="one">1 message</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d 個對話</item>
+        <item quantity="one">%d 個對話</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s和其他%2$d 位</item>
+        <item quantity="one">%s 位與另一位</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s和其他%2$d個</item>
+        <item quantity="one">%s 位與另一位</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">從SIM卡刪除訊息。</item>
+        <item quantity="one">自 SIM 卡中刪除的訊息。</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">從SIM卡複製訊息。</item>
+        <item quantity="one">從 SIM 卡複製的訊息。</item>
+    </plurals>
+</resources>

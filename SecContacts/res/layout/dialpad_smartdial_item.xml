@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.dialer.dialpad.SmartDialTextView android:textSize="16.0sp" android:textColor="@color/smartdial_name_primary_text_color" android:ellipsize="none" android:gravity="center" android:id="@id/contact_name" android:padding="@dimen/smartdial_suggestions_padding" android:layout_width="fill_parent" android:layout_height="28.0sp" android:singleLine="true" />
+    <com.android.dialer.dialpad.SmartDialTextView android:textSize="13.0sp" android:textColor="@color/smartdial_number_primary_text_color" android:gravity="center" android:id="@id/contact_number" android:layout_width="fill_parent" android:layout_height="16.0sp" />
+</LinearLayout>

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_date_format_day_month_k">"E
+d MMM"</string>
+    <string name="status_bar_date_format_month_day_k">"E
+MMM d"</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">E, MMM. d</string>
+    <string name="abbrev_wday_day_abbrev_month_no_year">E, d. MMM</string>
+    <string name="app_label">Sistemski UI</string>
+    <string name="status_bar_clear_all_button">Počisti</string>
+    <string name="status_bar_do_not_disturb_button">Ne moti</string>
+    <string name="status_bar_please_disturb_button">Pokaži obvestila</string>
+    <string name="status_bar_recent_remove_item_title">Odstrani s seznama</string>
+    <string name="status_bar_recent_inspect_item_title">Podatki o programu</string>
+    <string name="status_bar_no_recent_apps">Ni nedavnih aplikacij</string>
+    <string name="status_bar_accessibility_dismiss_recents">Zapre nedavne programe</string>
+    <string name="status_bar_no_notifications_title">Brez obvestil</string>
+    <string name="status_bar_ongoing_events_title">Poteka</string>
+    <string name="status_bar_latest_events_title">Obvestila</string>
+    <string name="battery_low_title">Priključite napajalnik.</string>
+    <string name="battery_low_subtitle">Baterija je skoraj prazna.</string>
+    <string name="battery_low_percent_format">Še %d%%.</string>
+    <string name="invalid_charger">Polnjenje po povezavi USB ni podprto. Uporabite priloženi napajalnik.</string>
+    <string name="battery_low_why">Poraba baterije</string>
+    <string name="status_bar_settings_settings_button">Nastavitve</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Način letenja</string>
+    <string name="status_bar_settings_auto_rotation">Samodejno zasukaj zaslon</string>
+    <string name="status_bar_settings_mute_label">Nemo</string>
+    <string name="status_bar_settings_auto_brightness_label">Samodejno</string>
+    <string name="status_bar_settings_notifications">Obvestila</string>
+    <string name="bluetooth_tethered">Internet prek vmesnika Bluetooth</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Nastavi načine vnosa</string>
+    <string name="status_bar_use_physical_keyboard">Fizična tipkovnica</string>
+    <string name="usb_device_permission_prompt">Dovolite programu %1$s, da dostopa do naprave USB?</string>
+    <string name="usb_accessory_permission_prompt">Dovolite programu %1$s, da dostopa do dodatka USB?</string>
+    <string name="usb_device_confirm_prompt">Želite odpreti %1$s, ko je ta naprava USB povezana?</string>
+    <string name="usb_accessory_confirm_prompt">Želite odpreti %1$s, ko je ta dodatek USB povezan?</string>
+    <string name="usb_accessory_uri_prompt">S tem dodatkom USB ne deluje noben nameščen program. Več o tem dodatku lahko preberete na %s.</string>
+    <string name="title_usb_accessory">Dodatek USB</string>
+    <string name="label_view">Poglej</string>
+    <string name="always_use_device">Uporabi privzeto za to napravo USB</string>
+    <string name="always_use_accessory">Uporabi privzeto za ta dodatek USB</string>
+    <string name="usb_debugging_title">Dovolim iskanje napak USB?</string>
+    <string name="usb_debugging_message">"Prstni odtis za računalniški ključ RSA je:
+%1$s"</string>
+    <string name="usb_debugging_always">Vedno dovoli za ta računalnik</string>
+    <string name="compat_mode_on">Povečajte čez cel zaslon</string>
+    <string name="compat_mode_off">Raztegnite čez cel zaslon</string>
+    <string name="compat_mode_help_header">Združljivost povečave</string>
+    <string name="compat_mode_help_body">Če je bil program izdelan za manjši zaslon, se bo poleg ure pojavila tipka za povečavo.</string>
+    <string name="screenshot_saving_ticker">Shranjevanje posnetka zaslona …</string>
+    <string name="screenshot_saving_title">Shranjevanje posnetka zaslona …</string>
+    <string name="screenshot_saving_text">Posnetek zaslona se shranjuje.</string>
+    <string name="screenshot_saved_title">Posnetek zaslona je zajet</string>
+    <string name="screenshot_saved_text">Pritisnite za ogled posnetka zaslona.</string>
+    <string name="screenshot_failed_title">Posnetka zaslona ni mogoče zajeti.</string>
+    <string name="screenshot_failed_text">Posnetka zaslona ni mogoče shraniti. Pomnilnik USB je morda v uporabi.</string>
+    <string name="screenshot_failed_due_to_drm_text">Ni mogoče zajeti zaslona. Slika je zaščitena z DRM.</string>
+    <string name="one_item_will_be_deleted">1 element bo izbrisan.</string>
+    <string name="usb_preference_title">Možnosti prenosa datoteke USB</string>
+    <string name="use_mtp_button_title">Vpni kot predvajalnik medijev (MTP)</string>
+    <string name="use_ptp_button_title">Vpni kot kamero (PTP)</string>
+    <string name="installer_cd_button_title">Namestite program za prenos datoteke Android za računalnike Mac</string>
+    <string name="accessibility_back">Nazaj</string>
+    <string name="accessibility_home">Domači</string>
+    <string name="accessibility_menu">Meni</string>
+    <string name="accessibility_recent">Nedavni programi</string>
+    <string name="accessibility_ime_switch_button">Preklopi gumb za način vnosa.</string>
+    <string name="accessibility_compatibility_zoom_button">Gumb za združljivost povečave</string>
+    <string name="accessibility_compatibility_zoom_example">Povečajte na večji zaslon</string>
+    <string name="accessibility_bluetooth_connected">Povezan z vmesnikom Bluetooth</string>
+    <string name="accessibility_bluetooth_disconnected">Povezava Bluetooth je prekinjena.</string>
+    <string name="accessibility_no_battery">Ni baterije</string>
+    <string name="accessibility_battery_one_bar">Ena črtica moči baterije</string>
+    <string name="accessibility_battery_two_bars">Dve črtici moči baterije</string>
+    <string name="accessibility_battery_three_bars">Tri črtice moči baterije</string>
+    <string name="accessibility_battery_full">Baterija je polna.</string>
+    <string name="accessibility_no_phone">Ni telefonskega signala</string>
+    <string name="accessibility_phone_one_bar">Ena črtica telefonskega signala</string>
+    <string name="accessibility_phone_two_bars">Dve črtici telefonskega signala</string>
+    <string name="accessibility_phone_three_bars">Tri črtice telefonskega signala</string>
+    <string name="accessibility_phone_signal_full">Poln telefonski signal</string>
+    <string name="accessibility_no_data">Ni podatkov</string>
+    <string name="accessibility_data_one_bar">Ena črtica podatkovnega signala</string>
+    <string name="accessibility_data_two_bars">Dve črtici podatkovnega signala</string>
+    <string name="accessibility_data_three_bars">Tri črtice podatkovnega signala</string>
+    <string name="accessibility_data_four_bars">Štiri črtice podatkovnega signala</string>
+    <string name="accessibility_data_five_bars">Pet črtic podatkovnega signala</string>
+    <string name="accessibility_data_signal_full">Poln podatkovni signal</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">Ni signala Wi-Fi</string>
+    <string name="accessibility_wifi_one_bar">Ena črtica signala Wi-Fi</string>
+    <string name="accessibility_wifi_two_bars">Dve črtici signala Wi-Fi</string>
+    <string name="accessibility_wifi_three_bars">Tri črtice signala Wi-Fi</string>
+    <string name="accessibility_wifi_signal_full">Signal Wi-Fi je poln.</string>
+    <string name="accessibility_no_wimax">Ni signala WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">Signal WiMAX: ena črtica.</string>
+    <string name="accessibility_wimax_two_bars">Signal WiMAX: dve črtici.</string>
+    <string name="accessibility_wimax_three_bars">Signal WiMAX: tri črtice.</string>
+    <string name="accessibility_wimax_signal_full">Poln signal WiMAX.</string>
+    <string name="accessibility_no_signal">Ni signala</string>
+    <string name="accessibility_not_connected">Povezava ni vzpostavljena.</string>
+    <string name="accessibility_zero_bars">Nič črtic.</string>
+    <string name="accessibility_one_bar">Ena črtica.</string>
+    <string name="accessibility_two_bars">Dve črtici.</string>
+    <string name="accessibility_three_bars">Tri črtice.</string>
+    <string name="accessibility_phone_four_bars">Štiri črtice telefonskega signala</string>
+    <string name="accessibility_phone_five_bars">Pet črtic telefonskega signala</string>
+    <string name="accessibility_signal_full">Poln signal.</string>
+    <string name="accessibility_desc_on">Vključeno</string>
+    <string name="accessibility_desc_off">Izključeno</string>
+    <string name="accessibility_desc_connected">Povezano.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Gostovanje</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Ni SIM</string>
+    <string name="accessibility_bluetooth_tether">Internet prek vmesnika Bluetooth</string>
+    <string name="accessibility_airplane_mode">Način letenja</string>
+    <string name="accessibility_battery_level">Še %d odstotkov baterije.</string>
+    <string name="accessibility_settings_button">Nastavitve sistema</string>
+    <string name="accessibility_notifications_button">Obvestila</string>
+    <string name="accessibility_remove_notification">Izbriši obvestila</string>
+    <string name="accessibility_gps_enabled">GPS vključen</string>
+    <string name="accessibility_gps_acquiring">Pridobivanje signala GPS …</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter omogočen</string>
+    <string name="accessibility_ringer_vibrate">Vibriranje pri zvonjenju</string>
+    <string name="accessibility_ringer_silent">Utišaj zvonjenje</string>
+    <string name="accessibility_recents_item_dismissed">Program %s je bil odstranjen.</string>
+    <string name="accessibility_notification_dismissed">Obvestilo je bilo odstranjeno.</string>
+    <string name="accessibility_desc_notification_shade">Zaslon z obvestili.</string>
+    <string name="accessibility_desc_quick_settings">Hitre nastavitve</string>
+    <string name="accessibility_desc_recent_apps">Nedavni programi</string>
+    <string name="accessibility_quick_settings_user">Uporabnik: %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s. %2$s</string>
+    <string name="accessibility_quick_settings_mobile">Mobilni telefon: %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">Baterija: %s.</string>
+    <string name="accessibility_quick_settings_airplane">Letalski način: %s.</string>
+    <string name="accessibility_quick_settings_bluetooth">Bluetooth: %s.</string>
+    <string name="accessibility_quick_settings_alarm">Opozorilo nastavljeno za %s.</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">Hitra povezava</string>
+    <string name="accessibility_qconnect_button_tts">Hitra povezava</string>
+    <string name="data_usage_disabled_dialog_3g_title">Podatkovno omrežje 2G-3G onemogočeno</string>
+    <string name="data_usage_disabled_dialog_4g_title">Podatkovno omrežje 4G onemogočeno</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Mobilni podatki onemogočeni</string>
+    <string name="data_usage_disabled_dialog_title">Podatkovni prenos onemogočen</string>
+    <string name="data_usage_disabled_dialog">Določena omejitev porabe podatkov je dosežena. Ponudnik storitev lahko zaračuna nadaljnjo porabo podatkov.</string>
+    <string name="data_usage_disabled_dialog_enable">Spet omogoči podat. povezavo</string>
+    <string name="data_usage_enable_mobile_warning">Povezovanje preko paketnega prenosa podatkov lahko povzroči dodatne stroške. Nadaljujem?</string>
+    <string name="data_usage_disable_mobile">Želite onemogočiti mobilno podatkovno povezavo?</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Ni povezave z internetom</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi povezan.</string>
+    <string name="gps_notification_searching_text">Iskanje z GPS …</string>
+    <string name="gps_notification_found_text">Lokacijo je nastavil GPS</string>
+    <string name="accessibility_clear_all">Izbriši vsa obvestila</string>
+    <string name="status_bar_notification_inspect_item_title">Podatki o programu</string>
+    <string name="close_universe">Zapri</string>
+    <string name="notifications_off_title">Obvestila so onemogočena</string>
+    <string name="notifications_off_text">Pritisnite, da omogočite obvestila.</string>
+    <string name="accessibility_rotation_lock_off">Zaslon se bo samodejno zavrtel.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Zaslon je zaklenjen v ležeči usmerjenosti.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Zaslon je zaklenjen v pokončni usmerjenosti.</string>
+    <string name="jelly_bean_dream_name">BeanFlinger</string>
+    <string name="start_dreams">Sanjarjenje</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">Način za letalo</string>
+    <string name="quick_settings_battery_charging_label">Polnjenje, %d%%</string>
+    <string name="quick_settings_battery_charged_label">Napolnjeno.</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (št. naprav: %d)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth izklopljen</string>
+    <string name="quick_settings_brightness_label">Svetlost</string>
+    <string name="quick_settings_rotation_unlocked_label">Samodejno vrtenje</string>
+    <string name="quick_settings_rotation_locked_label">Zaklenjeno vrtenje</string>
+    <string name="quick_settings_ime_label">Način vnosa</string>
+    <string name="quick_settings_location_label">Mesto uporabe</string>
+    <string name="quick_settings_media_device_label">Predstavnostna naprava</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Samo klici v sili.</string>
+    <string name="quick_settings_settings_label">Nastavitve</string>
+    <string name="quick_settings_time_label">Čas</string>
+    <string name="quick_settings_user_label">Jaz</string>
+    <string name="quick_settings_wifi_label">WiFi</string>
+    <string name="quick_settings_wifi_not_connected">Povezava ni vzpostavljena.</string>
+    <string name="quick_settings_wifi_no_network">Ni omrežja</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_wifi_display_label">"Wi-Fi
+prikaz"</string>
+    <string name="quick_settings_wifi_display_no_connection_label">Prikaz brezžičnih naprav</string>
+    <string name="quick_settings_brightness_dialog_title">Svetlost</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Samodejno</string>
+    <string name="status_bar_help_title">Obvestila so prikazana tukaj</string>
+    <string name="status_bar_help_text">"Do njih lahko kadar koli dostopate tako, da povlečete navzdol.
+Za prikaz sistemskih kontrolnikov znova povlecite navzdol."</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">Lokacija</string>
+    <string name="quickpanel_silent_mode_text">"Tihi
+način"</string>
+    <string name="quickpanel_silent_mode_sound">Zvok</string>
+    <string name="quickpanel_silent_mode_vibrate">Vibriranje</string>
+    <string name="quickpanel_silent_mode_mute">Utišaj</string>
+    <string name="quickpanel_rotation_text">"Vrtenje
+zaslona"</string>
+    <string name="quickpanel_mobile_data_text">"Mobilni
+podatki"</string>
+    <string name="quickpanel_dormant_mode_text">"Način
+blokir."</string>
+    <string name="quickpanel_notification_text">Obvestilo</string>
+    <string name="quickpanel_airplane_mode_text">"Način
+letenja"</string>
+    <string name="quickpanel_sync_text">Sinhron.</string>
+    <string name="quickpanel_power_saving_text">"Varč.
+z energ."</string>
+    <string name="quickpanel_ultra_power_saving_text">"Izr. var.
+z ener."</string>
+    <string name="quickpanel_driving_mode_text">"Prostoroč.
+način"</string>
+    <string name="quickpanel_smart_stay_text">"Smart
+stay"</string>
+    <string name="quickpanel_smart_scroll_text">"Pametno
+drsenje"</string>
+    <string name="quickpanel_smart_pause_text">"Pametni
+premor"</string>
+    <string name="quickpanel_smart_network_text">"Pametno
+omrežje"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_wifi_hotspot_text">"Dos.t.
+za Wi-Fi"</string>
+    <string name="quickpanel_multiwindow_text">"Več
+oken"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_brightness_text">Svetlost</string>
+    <string name="quickpanel_airview_text">"Pogled
+iz zraka"</string>
+    <string name="quickpanel_airgesture_text">"Zračna
+poteza"</string>
+    <string name="quickpanel_ebook_text">"Način
+branja"</string>
+    <string name="quickpanel_personal_mode_text">"Zasebni
+način"</string>
+    <string name="quickpanel_car_mode_text">"Avt.
+način"</string>
+    <string name="quickpanel_network_booster_text">"Ojačev.
+prenosov"</string>
+    <string name="quickpanel_toolbox_text">Komplet orodij</string>
+    <string name="quickpanel_touch_sensitivity_text">"Občutlj.
+na dotik"</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">Lokacija</string>
+    <string name="quickpanel_silent_mode_sound_content_description">Zvok</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">Vibriranje</string>
+    <string name="quickpanel_silent_mode_mute_content_description">Tiho</string>
+    <string name="quickpanel_rotation_content_description">Vrtenje zaslona</string>
+    <string name="quickpanel_mobile_data_content_description">Prenos podatkov prek mobilnega omrežja</string>
+    <string name="quickpanel_dormant_mode_content_description">Način blokiranja</string>
+    <string name="quickpanel_airplane_mode_content_description">Način letenja</string>
+    <string name="quickpanel_sync_content_description">Sinhronizacija</string>
+    <string name="quickpanel_power_saving_content_description">Način varčevanja z energijo</string>
+    <string name="quickpanel_ultra_power_saving_content_description">Način izrednega varčevanja z energijo</string>
+    <string name="quickpanel_smart_stay_content_description">Pametna ustavitev</string>
+    <string name="quickpanel_smart_pause_content_description">Pametni premor</string>
+    <string name="quickpanel_smart_network_content_description">Pametno omrežje</string>
+    <string name="quickpanel_wifi_hotspot_content_description">Prenosna dostopna točka za Wi-Fi</string>
+    <string name="quickpanel_multiwindow_content_description">Več oken</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_ebook_content_description">Način branja</string>
+    <string name="quickpanel_personal_mode_content_description">Zasebni način</string>
+    <string name="quickpanel_car_mode_content_description">Avtomobilski način</string>
+    <string name="quickpanel_network_booster_content_description">Ojačevalnik prenosov</string>
+    <string name="quickpanel_toolbox_content_description">Komplet orodij</string>
+    <string name="air_gesture_use_popup_title">Omogoči funkcijo air gesture</string>
+    <string name="air_gesture_use_popup_msg">Funkcija zračna poteza in TalkBack ne moreta biti omogočena hkrati. TalkBack bo onemogočen.</string>
+    <string name="air_view_use_popup_title">Omogoči pogled iz zraka</string>
+    <string name="air_view_use_popup_msg">Funkcija pogled iz zraka in spodnje možnosti ne morejo biti omogočene hkrati. Spodnje možnosti bodo onemogočene.</string>
+    <string name="multi_window_use_popup_title">Omogočite funkcijo več oken</string>
+    <string name="multi_window_use_popup_msg">Funkciji Več oken in TalkBack ne moreta biti omogočena hkrati. TalkBack bo onemogočen.</string>
+    <string name="smart_pause_use_popup_title">Omogoči pametni premor</string>
+    <string name="smart_pause_use_popup_msg">Pametni premor in TalkBack ne moreta biti omogočena hkrati. TalkBack bo onemogočen.</string>
+    <string name="smart_scroll_use_popup_title">Omogoči pametno drsenje</string>
+    <string name="smart_scroll_use_popup_msg">Pametno drsenje in TalkBack ne moreta biti omogočena hkrati. TalkBack bo onemogočen.</string>
+    <string name="smart_stay_use_popup_title">Omogoči funkcijo pametna ustavitev</string>
+    <string name="smart_stay_use_popup_msg">Pametna ustavitev in TalkBack ne moreta biti omogočena hkrati. TalkBack bo onemogočen.</string>
+    <string name="quickpanel_content_description_led_on">Aplikacija %s je omogočena.</string>
+    <string name="quickpanel_content_description_led_off">Aplikacija %s je onemogočena.</string>
+    <string name="quickpanel_content_description_led_dim">Aplikacije %s ni mogoče omogočiti.</string>
+    <string name="smart_network">Pametno omrežje</string>
+    <string name="smart_network_guide_msg">"Pametno omrežje podaljša življenjsko dobo baterije.
+
+Ko je zaslon izklopljen, onemogoči mobilne podatke in Wi-Fi, zato naprava porabi manj baterije.
+
+Zbrane podatke lahko prejmete, ko vklopite zaslon."</string>
+    <string name="quickpanel_data_roaming_text">Podatkovno gostovanje</string>
+    <string name="data_roaming_dialog_text">Gostovanje povzroči dodatne stroške. Nadaljujem?</string>
+    <string name="mobile_data_enable_dialog_text">Povezava z mobilnimi omrežji lahko povzroči dodatne stroške, odvisno od vaše naročnine. Želite nadaljevati?</string>
+    <string name="quickpanel_edit_current">Obvestilna plošča</string>
+    <string name="quickpanel_edit_available">Razpoložljivi gumbi</string>
+    <string name="mobile_data_dialog_text">Programov, kot so internet, e-pošta in YouTube ne boste mogli več uporabljati prek mobilnih omrežij. Želite nadaljevati?</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"Brez povezave z omrežjem Wi-Fi ne morete več uporabljati interneta, e-pošte ali drugih aplikacij, ki potrebujejo podatkovno povezavo.
+
+Mobilni podatki bodo onemogočeni."</string>
+    <string name="mobile_data_connect">Poveži</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">Ko je omogočen način letenja, povezava z mobilnimi omrežji ni mogoča. Onemogočite način letenja in poskusite znova.</string>
+    <string name="warning_alert_check">Ne pokaži znova</string>
+    <string name="blocking_mode_enable">Ko je ta način omogočen, bodo obvestila za izbrane funkcije onemogočena. Prejemali boste samo obvestila o prejetih klicih od oseb, ki so na vašem seznamu dovoljenih.</string>
+    <string name="blocking_mode_enable_for_grid_settings">Način blokiranja onemogoči obvestila za izbrane funkcije. Ko so dohodni klici blokirani, boste prejemali samo obvestila o dohodnih klicih oseb, ki so med stiki z dovoljenjem. Če želite spremeniti nastavitve načina blokiranja, pojdite v Nastavitve > Prilagajanje > Način blokiranja.</string>
+    <string name="blocking_mode_enable_wifi">Ko je ta način omogočen, bodo obvestila za izbrane funkcije onemogočena.</string>
+    <string name="blocking_mode_title">Način blokiranja</string>
+    <string name="dormant_mode_off_message">Če želite omogočiti način Blokiranja, morate omogočiti vsaj eno spodnjo možnost.</string>
+    <string name="driving_mode_title">Prostoročni način</string>
+    <string name="driving_mode_on_dialog_msg_1">Ko zaprete prostoročni način za S Voice, morate v meniju Nastavitve onemogočiti prostoročni način. Če prostoročni način ostane omogočen, bodo obvestila in podatki o dohodnih klicih še naprej samodejno brani na glas.</string>
+    <string name="driving_mode_on_dialog_msg_2">Prostoročni način lahko onemogočite tako, da v prostoročnem načinu za S Voice izgovorite »Izklopi prostoročni način«, v meniju Nastavitve ali prek obvestilne plošče.</string>
+    <string name="insert_sim_card">Vstavite kartico SIM</string>
+    <string name="insert_sim_card_message">Za dostop do omrežnih storitev vstavite kartico SIM.</string>
+    <string name="wifi_enable_warning">Če vklopite Wi-Fi, boste onemogočili prenosno dostopno točko za Wi-Fi. Želite nadaljevati?</string>
+    <string name="wifi_ap_turning_off">Onemogočanje prenosne dostopne točke za Wi-Fi …</string>
+    <string name="no_sim_notification_title">Ni SIM</string>
+    <string name="no_sim_notification_title_tmo">Kartica SIM ni vstavljena.</string>
+    <string name="no_sim_notification_text">Vstavite kartico SIM.</string>
+    <string name="accessibility_power_saving_mode">Če želite omogočiti način za varčevanje z energijo, morate omogočiti vsaj eno funkcijo.</string>
+    <string name="accessibility_power_saving_mode_title">Način za varčevanje z energijo</string>
+    <string name="accessibility_driving_mode">Če želite omogočiti prostoročni način, omogočite vsaj eno ustrezno funkcijo.</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Network restriction mode will be disabled.</string>
+    <string name="charging_interruption_title">Polnjenje ni mogoče</string>
+    <string name="charging_interruption_by_terminal_open_text">Naprave ni mogoče polniti. Preverite, ali uporabljate baterijo ter napajalnik, ki sta združljiva s telefoni Samsung, in ali je naprava pravilno povezana z napajalnikom.</string>
+    <string name="charging_interruption_by_too_high_temperature_text">Polnjenje je prekinjeno. Temperatura baterije je previsoka.</string>
+    <string name="charging_interruption_by_too_low_temperature_text">Polnjenje je prekinjeno. Temperatura baterije je prenizka.</string>
+    <string name="charging_interruption_by_limit_high_temperature_text">"Naprava je ustavila polnjenje. Temperatura baterije je previsoka. Pri odstranjevanju napajalnika bodite pozorni, saj je lahko zelo vroč.
+
+Če odstranite in znova priključite napajalnik, se bo polnjenje morda lahko nadaljevalo normalno. Če še vedno prihaja do pregrevanja, pokličite pomoč za stranke, saj lahko pride do požara ali poškodb."</string>
+    <string name="full_battery_title">Info</string>
+    <string name="full_battery_text">"Baterija je polna.
+Odklopite polnilnik."</string>
+    <string name="low_battery_title">Prazna baterija</string>
+    <string name="critical_low_battery_title">Skoraj povsem prazna baterija</string>
+    <string name="low_battery_text">Če želite napravo napolniti, jo priklopite v vtičnico in zaprite nerabljene programe v Upravitelju opravil. Uporaba med polnjenjem lahko prepreči učinkovito polnjenje.</string>
+    <string name="low_battery_text_charged_via_ta">Zaprite nerabljene programe v Upravitelju opravil. Uporaba med polnjenjem lahko prepreči učinkovito polnjenje.</string>
+    <string name="low_battery_camera_warning_text">Če moč baterije pade pod %d %%, ne morete odpreti Kamere.</string>
+    <string name="critical_low_battery_camera_warning_text">Kamere ni mogoče odpreti. Moč baterije je %d %% ali manj.</string>
+    <string name="start_force_consume_battery_title">Opozorilo</string>
+    <string name="start_force_consume_battery_text">Pred uporabo naprave počakajte, da se ohladi.</string>
+    <string name="stop_force_consume_battery_title">Info</string>
+    <string name="stop_force_consume_battery_text">Naprava je ohlajena.</string>
+    <string name="wireless_charging_title">Brezžično napajanje.</string>
+    <string name="cable_charging_title">Polnjenje s kablom</string>
+    <string name="wireless_charging_text">Napravo ste postavili v dosegljivo območje. Poteka brezžično napajanje …</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">Preklop iz brezžičnega napajanja na žično</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">Preklop iz žičnega napajanja na brezžično</string>
+    <string name="wireless_charging_spen_warning_text">Naprava se zdaj brezžično polni. Pisalo S Pen ne deluje v bližini brezžičnega napajalnika.</string>
+    <string name="incompatible_charger_title">Ni polnjenja.</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_dialog_text_for_tablet">The connected charger is incompatible with this tablet. To prevent damage to your tablet, charging has been stopped. To continue charging, use the original charger and cable that were provided with this tablet.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_notification_text">To charge faster, use the original charger</string>
+    <string name="slow_charging_toast_text">To charge faster, use the charger and cable that were provided with this phone</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="water_damage_warning_title">Prever. pokrov polnjenja</string>
+    <string name="water_damage_warning_text">Za zaščito pred vodo pred uporabo močno pritrdite pokrov za polnjenje.</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">Izklopite napravo</string>
+    <string name="overheat_poweroff_warning_text">Naprava se pregreva. Zdaj se bo izklopila, da se ohladi.</string>
+    <string name="overheat_poweroff_warning_button_text">Ne izklopite</string>
+    <string name="overheat_poweroff_notice_title">Naprava se je samodejno izklopila</string>
+    <string name="overheat_poweroff_notice_text">"Naprava je pregreta. Izklopila se bo, da ne pride do okvare.
+
+Pregrevanje je lahko posledica:
+Dolgotrajne uporabe grafično zahtevnih aplikacij, kot so igre in aplikacije za navigacijo.
+Prenašanja velikih datotek.
+Uporabe naprave v vročem okolju."</string>
+    <string name="power_sharing_warning_title">Skupna raba energije</string>
+    <string name="power_sharing_warning_text">Raven energije vaše baterije je manjša, kot je omejitev za skupno rabo energije. Če želite nadaljevati s skupno rabo, prilagodite omejitev za skupno rabo energije pod trenutno raven energije baterije.</string>
+    <string name="power_sharing_start_toast_text">Začetek skupne rabe energije …</string>
+    <string name="power_sharing_end_notification_text">Skupna raba energije je končana. Izvlecite kabel.</string>
+    <string name="face_detection_failure_text">Smart stay ne more zaznati vaših oči.</string>
+    <string name="status_bar_recent_launch_task_manager_title">Upr. opravil</string>
+    <string name="status_bar_recent_launch_google_button">Google</string>
+    <string name="status_bar_recent_remove_all_button">Zapri vse</string>
+    <string name="screen_capture_fail_for_storage_capacity">Pomnilnik naprave je poln. Izbrišite nekaj elementov.</string>
+    <string name="no_such_item">Elementa ni mogoče najti.</string>
+    <string name="pickup_tutorial_title">Preizkusite pametno opozorilo</string>
+    <string name="put_your_phone">Ko napravo odložite, se bo zaslon izklopil.</string>
+    <string name="phone_detect">Recimo, da imate neodgovorjene klice ali sporočila. Odložite napravo in jo znova dvignite, ko se zaslon izklopi.</string>
+    <string name="pick_up_your_phone">Dvignite napravo</string>
+    <string name="tutorial_complete">Vadnica je končana.</string>
+    <string name="camera_alert">"Ne morem vključiti kamere
+med klicem."</string>
+    <string name="stms_version">SM-G900F_EUR_20140228_0507</string>
+    <string name="wifi_cw_ready">China Telecom WLAN connected</string>
+    <string name="wifi_cw_ready_message">You have access to China Telecom WLAN network, consult 10000 to understand billing information, please turn off when not use</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">Sprejmem</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="quickpanel_ctwap_text">CTWAP</string>
+    <string name="quickpanel_ctnet_text">CTNET</string>
+    <string name="tethering_attention_title">Pozor</string>
+    <string name="tethering_wifi_off_warning">Če omogočite prenosno dostopno točko za Wi-Fi, se bo Wi-Fi izklopil.</string>
+    <string name="quickpanel_air_view_warning">Če želite omogočiti pogled iz zraka, morate omogočiti vsaj eno funkcijo.</string>
+    <string name="quickpanel_air_view_warning_pen_support">Če želite omogočiti funkcijo pogled iz zraka, omogočite vsaj eno funkcijo iz izbranega načina pogleda iz zraka.</string>
+    <string name="quickpanel_air_gesture_warning">Če želite omogočiti funkcijo air gesture, omogočite vsaj eno ustrezno funkcijo.</string>
+    <string name="quickpanel_air_gesture_warning_continue">Pritisnite in držite gumb za hitre nastavitve, da odprete ustrezne nastavitve.</string>
+    <string name="roaming_title">Gostovanje</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="gps_donotshow">Ne pokaži znova</string>
+    <string name="quickpanel_brightess_level">Nivo</string>
+    <string name="quickpanel_brightess_minus">Minus</string>
+    <string name="reading_mode_title">Način branja</string>
+    <string name="reading_mode_alert">Način branja je omogočen. Zaslon je zdaj optimiziran za branje. Ta način je na voljo samo v izbranih aplikacijah.</string>
+    <string name="reading_mode_settings">Nastavitve</string>
+    <string name="automatic_brightness_message">Samodejne nastavitve svetlosti se uporabijo samo za notranji zaslon</string>
+    <string name="manual_brightness_message">Svetlost je bila prilagojena ročno. Samodejna svetlost je onemogočena.</string>
+    <string name="flight_mode_message_for_wifi_only">Način letenja omogoča, da izklopite omrežne funkcije, tudi Wi-Fi in Bluetooth. Če želite uporabljati Wi-Fi in Bluetooth, ju vklopite v meniju Nastavitve ali na obvestilni plošči.</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tutorial_notification_panel_drag_down">Z vrha zaslona z enim prstom povlecite navzdol vrstico stanja.</string>
+    <string name="tutorial_notification_panel_drag_down_complete">Prikazana je obvestilna plošča.</string>
+    <string name="tutorial_quick_panel_drag_down">Z vrha zaslona z dvema prstoma povlecite navzdol vrstico stanja.</string>
+    <string name="tutorial_quick_panel_drag_down_complete">Prikazana je vrstica s hitrimi nastavitvami.</string>
+    <string name="tutorial_expand_notification_panel_drag_down">Z obvestilne plošče z dvema prstoma povlecite navzdol enega od seznamov.</string>
+    <string name="tutorial_expand_notification_panel_drag_down_complete">Prikazanih je več podatkov o izbranem seznamu.</string>
+    <string name="tutorial_invaild_action">Neveljavno dejanje. Poskusite znova.</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="magnification_text_for_air_view_button">Poteze za povečevanje</string>
+    <string name="smartbonding_dialog_title">Ojačevalnik prenosov</string>
+    <string name="smartbonding_dialog_wifi_text">Velike datoteke (večje od %d MB) lahko prenesete hitreje, če uporabite omrežji Wi-Fi in LTE hkrati. Ojačevalnik prenosov lahko za prenos datotek uporabi samo omrežje Wi-Fi ali LTE, odvisno od stanja omrežij.</string>
+    <string name="smartbonding_dialog_mobile_text">Velike datoteke (večje od %d MB) lahko prenesete hitreje, če uporabite omrežji Wi-Fi in LTE hkrati. Ojačevalnik prenosov lahko za prenos datotek uporabi samo omrežje Wi-Fi ali LTE, odvisno od stanja omrežij.</string>
+    <string name="smart_bonding_popup_msg">Ojačevalnik prenosov bo omogočen. Prenos prek mobilnega omrežja lahko povzroči dodatne stroške, odvisno od vaše naročnine.</string>
+    <string name="smart_bonding_popup_msg_wifi">Wi-Fi je trenutno izklopljen. Če želite omogočiti ojačevalnik prenosov, morate vklopiti Wi-Fi in prenos podatkov prek mobilnega omrežja. Prenos prek mobilnega omrežja lahko povzroči dodatne stroške, odvisno od vaše naročnine.</string>
+    <string name="smart_bonding_popup_msg_data">Prenos podatkov prek mobilnega omrežja je trenutno izklopljen. Če želite omogočiti ojačevalnik prenosov, morate vklopiti Wi-Fi in prenos podatkov prek mobilnega omrežja. Prenos prek mobilnega omrežja lahko povzroči dodatne stroške, odvisno od vaše naročnine.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Wi-Fi in prenos podatkov prek mobilnega omrežja sta trenutno izklopljena. Če želite omogočiti ojačevalnik prenosov, morate vklopiti Wi-Fi in prenos podatkov prek mobilnega omrežja. Prenos prek mobilnega omrežja lahko povzroči dodatne stroške, odvisno od vaše naročnine.</string>
+    <string name="smart_bonding_popup_msg_roaming">Na gostovanju ni mogoče uporabljati ojačevalnika prenosov. Priporočamo prenos prek omrežja Wi-Fi.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Vklopite Wi-Fi</string>
+    <string name="smart_bonding_popup_msg_data_btn">Vklopite funkcijo Prenos podatkov prek mobilnega omrežja</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Vklopite Wi-Fi in mob. podatke</string>
+    <string name="smart_bonding_turn_off_text">Ojačevalnika prenosov ni mogoče uporabljati, če je omogočen %1$s. Onemogočite %2$s in poskusite znova.</string>
+    <string name="smart_bonding_turn_off_text_airplane_mode">Ko je omogočen način letenja, povezava z mobilnimi omrežji ni mogoča. Onemogočite način letenja in poskusite znova.</string>
+    <string name="dialog_battery_data_warning">Prenosna dostopna točka za Wi-Fi porabi več baterije in poveča uporabo podatkov. Želite nadaljevati?</string>
+    <string name="tether_settings_title_wifi">Prenosna dostopna točka</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">Obvestilo</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="cooling_title">Naprava se pregreva</string>
+    <string name="cooling_body">"Vaša naprava se pregreva. Izvedeni bodo ukrepi, da se ohladi.
+
+Napravo lahko še naprej uporabljate, vendar
+- zaslon bo morda temnejši.
+- naprava bo morda delovala počasneje.
+- polnjenje se lahko začasno ustavi.
+
+Če zaprete trenutno aplikacijo, se bo naprava ohladila.
+
+Ko se naprava ohladi, bo samodejno začela spet delovati kot običajno."</string>
+    <string name="cooling_noti_text">Pritisnite tukaj za ogled podrobnosti.</string>
+    <string name="cooling_popup_name">Obvestilo</string>
+    <string name="cooling_noti_title">Naprava se pregreva</string>
+    <string name="btn_text_yes">V redu</string>
+    <string name="btn_text_no">Prekliči</string>
+    <string name="device_overheating">Naprava se pregreva</string>
+    <string name="colling_noti_text_2">Aplikacij ni mogoče odpreti. Uporabljate lahko samo aplikaciji Telefon in Stiki.</string>
+    <string name="vol_panel_audio_settings">spreminjanje zvočnih nastavitev.</string>
+    <string name="guest_launge_warning_toast_text">V načinu gostovanja ni mogoče omogočiti ali onemogočiti funkcije %s.</string>
+    <string name="safe_mode_title_vzw">Izklopi varni način</string>
+    <string name="safe_mode_popup_body_vzw">Ali želite ponovno zagnati telefon za izklop varnega načina? Vsi vaši programi bodo obnovljeni.</string>
+    <string name="safe_mode_btn_cancel_vzw">Prekliči</string>
+    <string name="safe_mode_off_btn_vzw">Izklopi varni način</string>
+    <string name="safe_mode_noti_on_vzw">Varni način je vklopljen</string>
+    <string name="safe_mode_noti_body_vzw">Tapnite za izklop varnega načina.</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">Pritisnite tukaj, če želite izvedeti več.</string>
+    <string name="cooling_popup_name_VZW">Obvestilo</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">V redu</string>
+    <string name="btn_text_no_VZW">Prekliči</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance will Automatically go back to normal."</string>
+    <string name="recent_menukey_press_description">Za prikaz menija pritisnite in držite tipko za nedavna dejanja.</string>
+    <string name="recent_menukey_press_description_vzw">Menijska tipka je zamenjana s tipko za nedavna dejanja, ki omogoča hitro preklapljanje med nedavno uporabljenimi aplikacijami. Za več informacij pritisnite Pomoč.</string>
+    <string name="recent_menukey_help_button">Pomoč</string>
+</resources>

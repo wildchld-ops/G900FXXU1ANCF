@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>എപ്പോഴും ഓണായിരിക്കുക</item>
+        <item>ആവശ്യപ്രകാരം</item>
+        <item>ഓഫ് ചെയ്യുക</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>ഡിഫോള്‍ട്ട് പേജ്</item>
+        <item>നിലവിലെ പേജ്</item>
+        <item>ദ്രുത ആക്സസ്</item>
+        <item>കൂടുതല്‍ സന്ദര്‍ശിച്ച സൈറ്റുകള്‍</item>
+        <item>മറ്റ്</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>സാമഗ്രി</item>
+        <item>SD കാര്‍‌ഡ്</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>ലാറ്റിന്-1 (ISO-8859-1)</item>
+        <item>യൂണികോഡ് (UTF-8)</item>
+        <item>ചൈനീസ് (ജി ബി കെ)</item>
+        <item>ചൈനീസ് (ബിഗ്‌5)</item>
+        <item>ജാപ്പാനീസ് (ISO-2022-JP)</item>
+        <item>ജാപ്പാനീസ് (SHIFT JIS)</item>
+        <item>ജാപ്പാനീസ് (EUC-JP)</item>
+        <item>കൊറിയന്‍ (ഇയുസി-കെആര്‍ )</item>
+        <item>ഓട്ടോ-ഡിറ്റക്ട്</item>
+    </string-array>
+</resources>

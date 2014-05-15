@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/navigation_bar" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="left|center" android:layout_gravity="center_vertical" android:id="@id/ok_actionbar" android:background="?android:actionBarItemBackground" android:focusable="true" android:layout_width="wrap_content" android:layout_height="30.0dip" android:src="@drawable/ic_btn_ok" android:divider="?android:listDividerAlertDialog" />
+    <Button android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="left|center" android:layout_gravity="center_vertical" android:id="@id/select_all_menu" android:paddingLeft="10.0dip" android:paddingRight="18.0dip" android:layout_width="wrap_content" android:layout_height="38.0dip" android:layout_marginLeft="7.0dip" android:singleLine="true" style="?android:attr/actionDropDownStyle" />
+</LinearLayout>

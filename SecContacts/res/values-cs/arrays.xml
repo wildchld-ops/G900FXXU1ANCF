@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="index_string_array">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="interaction_selecter_spinner">
+        <item>Vybráno %d</item>
+        <item>Vybrat vše</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Organizace</item>
+        <item>Poznámka</item>
+    </string-array>
+</resources>

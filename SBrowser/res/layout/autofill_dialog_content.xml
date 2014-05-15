@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.chromium.chrome.browser.autofill.AutofillDialogContentView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/autofill_general_layout" />
+    <include layout="@layout/autofill_editing_layout_email" />
+    <include layout="@layout/autofill_editing_layout_credit_card" />
+    <include layout="@layout/autofill_editing_layout_shipping" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/loading_icon" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/autofill_fetch_message" />
+        <ProgressBar android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="24.0dip" android:layout_marginBottom="32.0dip" android:indeterminate="true" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/autofill_fetch_message" />
+    </LinearLayout>
+</org.chromium.chrome.browser.autofill.AutofillDialogContentView>

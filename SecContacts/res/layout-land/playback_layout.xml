@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/seek_container" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="74.0dip" android:layout_marginRight="12.0dip">
+                <SeekBar android:id="@id/playback_seek" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="0" android:progress="0" android:progressDrawable="@drawable/seekbar_drawable" android:thumb="@drawable/tw_seek_bar_thumb" android:thumbOffset="20.0dip" android:layout_centerVertical="true" />
+                <ImageButton android:id="@id/rate_decrease_button" android:background="?android:selectableItemBackground" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="19.0dip" android:src="@drawable/call_detail_btn_minus" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <ImageButton android:id="@id/rate_increase_button" android:background="?android:selectableItemBackground" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="19.0dip" android:src="@drawable/call_detail_btn_plus" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/text_container" android:layout_width="fill_parent" android:layout_height="43.0dip" android:layout_marginLeft="74.0dip" android:layout_marginRight="12.0dip" android:layout_below="@id/seek_container">
+                <TextView android:textSize="14.0sp" android:id="@id/playback_position_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_alignParentTop="true" />
+                <TextView android:textSize="14.0sp" android:id="@id/playback_speed_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:alpha="0.0" />
+                <TextView android:textSize="14.0sp" android:id="@id/playback_duration_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/ctrl_container" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="@dimen/call_detail_button_spacing" android:layout_marginRight="10.0dip" android:layout_below="@id/text_container">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                    <LinearLayout android:layout_width="73.0dip" android:layout_height="fill_parent">
+                        <ImageButton android:id="@id/playback_speakerphone" android:background="@drawable/list_item_background" android:layout_width="32.0dip" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="21.0dip" android:src="@drawable/call_detail_btn_speaker" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <ImageButton android:id="@id/playback_rew" android:background="@drawable/call_detail_btn_vvm" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/logs_detail_btn_rw" android:layout_centerVertical="true" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <ImageButton android:id="@id/playback_start_stop" android:background="@drawable/call_detail_btn_vvm" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/logs_detail_btn_pause" android:layout_centerVertical="true" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <ImageButton android:id="@id/playback_ff" android:background="@drawable/call_detail_btn_vvm" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/logs_detail_btn_ff" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

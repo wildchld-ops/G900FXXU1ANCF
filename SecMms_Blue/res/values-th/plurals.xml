@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s การสนทนา</item>
+        <item quantity="one">1 การสนทนา</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s ​ข้อ​ความ</item>
+        <item quantity="one">1 message</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d ​การส​นท​นา</item>
+        <item quantity="one">การสนทนา %d รายการ</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s ​และ %2$d ​มากกว่า​นั้น</item>
+        <item quantity="one">%s ​และ​อีก 1 ​ราย</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s ​และ %2$d ​มากกว่า​นั้น</item>
+        <item quantity="one">%s ​และ​อีก 1 ​ราย</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">ข้อ​ความ​ที่​ลบ​ออก​จาก SIM ​การ์ด</item>
+        <item quantity="one">ข้อ​ความ​ที่​ลบ​ออก​จาก SIM ​การ์ด</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">ข้อ​ความ​ที่​คัด​ลอก​จาก SIM ​การ์ด</item>
+        <item quantity="one">ข้อ​ความ​ที่​คัด​ลอก​จาก SIM ​การ์ด</item>
+    </plurals>
+</resources>

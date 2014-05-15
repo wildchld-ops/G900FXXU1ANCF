@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assistant-list>
+    <button name="@string/enter_url" resource="@drawable/assistant_menu_icon_internet_input_url" action="android.intent.action.doInputURL" />
+    <button name="@string/window_manager" resource="@drawable/assistant_menu_icon_internet_window_manager" action="android.intent.action.doWindowManager" />
+    <button name="@string/options_menu_new_window" resource="@drawable/assistant_menu_icon_internet_new_window" action="android.intent.action.doNewWindow" />
+</assistant-list>

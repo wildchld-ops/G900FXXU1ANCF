@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Sempre activo</item>
+        <item>A petición</item>
+        <item>Desactivar</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Páxina predeterminada</item>
+        <item>Páxina actual</item>
+        <item>Acceso rápido</item>
+        <item>Sitios máis visitados</item>
+        <item>Outro</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Dispositivo</item>
+        <item>Tarx. SD</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latino-1 (ISO-8859-1)</item>
+        <item>Unicode (UTB-8)</item>
+        <item>Chinés (GBK)</item>
+        <item>Chinés (Big5)</item>
+        <item>Xaponés (ISO-2022-JP)</item>
+        <item>Xaponés (SHIFT JIS)</item>
+        <item>Xaponés (EUC-JP)</item>
+        <item>Coreano (EUC-KR)</item>
+        <item>Detección automática</item>
+    </string-array>
+</resources>

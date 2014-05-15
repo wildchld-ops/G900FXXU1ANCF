@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&amp;lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Sona Sásta</item>
+        <item>Brónach</item>
+        <item>Ag caochadh súile</item>
+        <item>Teanga sáite amach</item>
+        <item>Ionadh</item>
+        <item>Ag pógadh</item>
+        <item>Ag béicíl</item>
+        <item>Fionnuar</item>
+        <item>Cailleach an airgid</item>
+        <item>Botún béil</item>
+        <item>Náirithe</item>
+        <item>Aingeal</item>
+        <item>Neamhshocraithe</item>
+        <item>Ag caoineadh</item>
+        <item>Binn béal ina thost</item>
+        <item>Ag gáire</item>
+        <item>Trína chéile</item>
+        <item>Croí</item>
+        <item>Gealtach</item>
+        <item>Míog</item>
+        <item>Aghaidh pócair</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Úsáid méideanna cló gléis</item>
+        <item>Bídeach</item>
+        <item>Beag</item>
+        <item>Normálta</item>
+        <item>Mór</item>
+        <item>Ollmhór</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Úsáid méideanna cló gléis</item>
+        <item>Bídeach</item>
+        <item>An-bheag</item>
+        <item>Beag</item>
+        <item>Meánach</item>
+        <item>Mór</item>
+        <item>An-mhór</item>
+        <item>Ollmhór</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Gach caineál</item>
+        <item>Mo Chainéal</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Aibítir GSM</item>
+        <item>Unicode</item>
+        <item>Uathoibríoch</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 lá</item>
+        <item>1 lá</item>
+        <item>2 lá</item>
+        <item>3 lá</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Srianta</item>
+        <item>Rabhadh</item>
+        <item>Saor in aisce</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>I gcónaí</item>
+        <item>Léid</item>
+        <item>Choíche</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Oragámaí</item>
+        <item>Lipéad</item>
+        <item>Pop</item>
+        <item>Nua-aimseartha</item>
+        <item>Bándearg</item>
+        <item>Réamhshocraithe</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Uair amháin</item>
+        <item>Gach 2 nóiméad</item>
+        <item>Gach 15 nóiméad</item>
+        <item>As</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Choíche</item>
+        <item>Gach 2 nóiméad</item>
+        <item>Gach 10 nóiméad</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Intíre</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 uair an chloig</item>
+        <item>6 huaire an chloig</item>
+        <item>24 uair an chloig</item>
+        <item>2 lá</item>
+        <item>Réamhshocrú líonra</item>
+        <item>Uasmhéid</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Ard</item>
+        <item>Normálta</item>
+        <item>Íseal</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Láithreach</item>
+        <item>1 uair an chloig</item>
+        <item>6 huaire an chloig</item>
+        <item>24 uair an chloig</item>
+        <item>1 scht.</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 shoicind</item>
+        <item>5 shoicind</item>
+        <item>10 soicind</item>
+        <item>20 soicind</item>
+        <item>30 soicind</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>As</item>
+        <item>Cuir bac ar gach teachtaireacht</item>
+        <item>Cuir bac ar uimhreacha cláraithe agus frásaí</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Díreach comhchosúil le</item>
+        <item>Tosaíonn le</item>
+        <item>Críochnaíonn le</item>
+        <item>Lena n-áirítear</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Logaí</item>
+        <item>Teagmh.</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Bac ar theachtaireachtaí</item>
+        <item>Bac ar ghlaonna</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Bac ar theachtaireachtaí</item>
+        <item>Bac ar ghlaonna gutha</item>
+        <item>Bac ar ghlaonna físe</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Coimeádta.</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Normálta</item>
+        <item>Ard</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Mo leithscéal, chaill mé do ghlao.</item>
+        <item>Táim mall, ach beidh mé ann i gceann cúpla nóiméad.</item>
+        <item>Cad é mar atá ag éirí leat</item>
+        <item>Cad é an scéal?</item>
+        <item>Cá bhfuil tú?</item>
+        <item>Glaoigh orm nuair a gheobhaidh tú an teachtaireacht seo le do thoil.</item>
+        <item>Cén uair a bhuailfidh mé leat?</item>
+        <item>Beidh mé ag caint leat ar ball.</item>
+        <item>Cá bhfuil an cruinniú?</item>
+        <item>Cad í an uimhir?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Portaingéilis na Brasaíle</item>
+        <item>Béarla (RA)</item>
+        <item>Béarla (SAM)</item>
+        <item>Fraincis</item>
+        <item>Gearmáinis</item>
+        <item>Iodáilis</item>
+        <item>Seapáinis</item>
+        <item>Cóiréis</item>
+        <item>Síneach simplithe</item>
+        <item>Rúisise</item>
+        <item>Spáinnis</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Bídeach</item>
+        <item>Beag</item>
+        <item>Normálta</item>
+        <item>Mór</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Gach</item>
+        <item>Seoltóir</item>
+        <item>Inneachar</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/pintab_width" android:layout_height="98.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/place_holder" android:visibility="gone" android:layout_width="@dimen/pintab_quicklaunch_width" android:layout_height="@dimen/pintab_quicklaunch_height" android:layout_marginTop="19.0dip" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center" android:id="@id/quicklaunch_icon_highlight" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/internet_edit_area" android:alpha="70.0" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/frame_icon_holder" android:layout_width="@dimen/pintab_quicklaunch_width" android:layout_height="@dimen/pintab_quicklaunch_height" android:layout_marginTop="19.0dip" android:layout_centerHorizontal="true">
+        <ImageView android:gravity="center" android:id="@id/quicklaunch_icon" android:layout_width="@dimen/pintab_quicklaunch_width" android:layout_height="@dimen/pintab_quicklaunch_height" android:scaleType="fitXY" />
+        <TextView android:textSize="24.0dip" android:textColor="@*android:color/white" android:gravity="center" android:id="@id/dominant_text" android:visibility="gone" android:layout_width="@dimen/pintab_quicklaunch_width" android:layout_height="@dimen/pintab_quicklaunch_height" android:scaleType="fitXY" />
+    </FrameLayout>
+    <TextView android:textSize="13.0sp" android:textColor="@*android:color/black" android:ellipsize="end" android:gravity="top|center" android:id="@id/quicklaunch_title" android:layout_width="@dimen/pintab_quicklaunch_title_width" android:layout_height="23.0dip" android:layout_marginTop="4.0dip" android:singleLine="true" android:layout_below="@id/frame_icon_holder" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s söhbət</item>
+        <item quantity="one">1 söhbət</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s mesaj</item>
+        <item quantity="one">1 mesaj</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d söhbət</item>
+        <item quantity="one">%d söhbət</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s və daha %2$d</item>
+        <item quantity="one">%s and 1 more</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s və daha %2$d</item>
+        <item quantity="one">%s and 1 more</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">Mesajlar SIM kartdan silindi.</item>
+        <item quantity="one">Mesaj SIM kartdan silindi.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">Mesajlar SIM kartdan köçürüldü.</item>
+        <item quantity="one">Mesaj SIM kartdan köçürüldü.</item>
+    </plurals>
+</resources>

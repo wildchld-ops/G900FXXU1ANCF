@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyguard_password_enter_pin_code">აკრიფეთ PIN კოდი</string>
+    <string name="keyguard_password_enter_puk_code">დაბეჭდეთ PUK კოდი და ახალი PIN კოდი.</string>
+    <string name="keyguard_password_enter_puk_prompt">PUK კოდი</string>
+    <string name="keyguard_password_enter_pin_prompt">ახალი PIN კოდი</string>
+    <string name="keyguard_password_entry_touch_hint">შეეხეთ <font size="17">-ს პაროლის</font> დასაბეჭდად.</string>
+    <string name="keyguard_password_enter_password_code">განსაბლოკად აკრიფეთ პაროლი</string>
+    <string name="keyguard_password_enter_pin_password_code">განსაბლოკად აკრიფეთ PIN კოდი</string>
+    <string name="keyguard_password_wrong_pin_code">არასწორი PIN კოდი.</string>
+    <string name="keyguard_label_text">განბლოკვისათვის დააჭირეთ მენიუს და შემდეგ 0-ს.</string>
+    <string name="faceunlock_multiple_failures">სახის ამოცნობით განბლოკვის მცდელობამ დაშვებულ რაოდენობას გადააჭარბა</string>
+    <string name="keyguard_charged">დამუხტულია</string>
+    <string name="keyguard_plugged_in">მიმდინარეობს დამუხტვა (%d%%)</string>
+    <string name="keyguard_low_battery">შეაერთეთ დამტენი.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">განბლოკვისთვის დააჭირეთ მენიუს.</string>
+    <string name="keyguard_network_locked_message">ქსელი ჩაკეტილია</string>
+    <string name="keyguard_missing_sim_message_short">SIM ბარათი არ არის</string>
+    <string name="keyguard_missing_sim_message">არ არის SIM ბარათი ტელეფონში.</string>
+    <string name="keyguard_missing_sim_instructions">ჩადეთ SIM ბარათი.</string>
+    <string name="keyguard_missing_sim_instructions_long">SIM ბარათი არ არის ან არ იკითხება. ჩადეთ SIM ბარათი.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">არამოხმარებადი SIM ბარათი.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"თქვენი SIM ბარათი გამუდმებით გამორთული იყო.
+ დაუკავშირდით თქვენი უკაბელო სერვისის პროვაიდერს სხვა SIM ბარათისთვის."</string>
+    <string name="keyguard_sim_locked_message">SIM ბარათი დაბლოკილია.</string>
+    <string name="keyguard_sim_puk_locked_message">SIM ბარათი დაბლოკილია PUK კოდით.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">მიმდინარეობს SIM ბარათის განბლოკვა…</string>
+    <string name="keyguard_accessibility_widget_changed">%1$s. ვიჯეტი %2$d of %3$d.</string>
+    <string name="keyguard_accessibility_add_widget">ვიჯეტის დამატება</string>
+    <string name="keyguard_accessibility_widget_empty_slot">ცარიელი</string>
+    <string name="keyguard_accessibility_unlock_area_expanded">განბლოკვის სივრცე გაშლილია.</string>
+    <string name="keyguard_accessibility_unlock_area_collapsed">განბლოკვის სივრცე ჩაკეცილია.</string>
+    <string name="keyguard_accessibility_widget">%1$s ვიჯეტი.</string>
+    <string name="keyguard_accessibility_user_selector">მომხმარებლის ამომრჩეველი</string>
+    <string name="keyguard_accessibility_status">სტატუსი</string>
+    <string name="keyguard_accessibility_camera">კამერა</string>
+    <string name="keygaurd_accessibility_media_controls">მედიის მართვის ელემენტები</string>
+    <string name="keyguard_accessibility_widget_reorder_start">დაიწყო ვიჯეტის ხელახლა განლაგება.</string>
+    <string name="keyguard_accessibility_widget_reorder_end">ვიჯეტების გადახარისხება დასრულებულია.</string>
+    <string name="keyguard_accessibility_widget_deleted">ვიჯეტი %1$s წაიშალა.</string>
+    <string name="keyguard_accessibility_expand_lock_area">განბლოკვის სივრცის გაშლა.</string>
+    <string name="keyguard_accessibility_slide_unlock">გასრიალებით განბლოკვა</string>
+    <string name="keyguard_accessibility_pattern_unlock">განბლოკვა ნიმუშით.</string>
+    <string name="keyguard_accessibility_face_unlock">განბლოკვა სახით</string>
+    <string name="keyguard_accessibility_pin_unlock">განბლოკვა Pin-ით.</string>
+    <string name="keyguard_accessibility_password_unlock">პაროლის განბლოკვა</string>
+    <string name="keyguard_accessibility_pattern_area">ნიმუშების სივრცე.</string>
+    <string name="keyguard_accessibility_slide_area">გადასრიალების სივრცე.</string>
+    <string name="keyguard_accessibility_transport_prev_description">წინა ჩანაწერის ღილაკი</string>
+    <string name="keyguard_accessibility_transport_next_description">შემდეგი ჩანაწერის ღილაკი</string>
+    <string name="keyguard_accessibility_transport_pause_description">პაუზის ღილაკი</string>
+    <string name="keyguard_accessibility_transport_play_description">დაკვრის ღილაკი</string>
+    <string name="keyguard_accessibility_transport_stop_description">Stop ღილაკი</string>
+    <string name="keyguard_accessibility_transport_thumbs_up_description">ზევით აწეული ცერი</string>
+    <string name="keyguard_accessibility_transport_thumbs_down_description">ქვევით დახრილი ცერი</string>
+    <string name="keyguard_accessibility_transport_heart_description">გული</string>
+    <string name="keyguard_accessibility_show_bouncer">განბლოკეთ გასაგრძელებლად</string>
+    <string name="keyguard_accessibility_hide_bouncer">გამოძახება გაუქმდა</string>
+    <string name="keyguard_accessibility_delete_widget_start">ჩააგდეთ %1$s წასაშლელად.</string>
+    <string name="keyguard_accessibility_delete_widget_end">%1$s არ წაიშლება.</string>
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    <string name="password_keyboard_label_alt_key">ALT</string>
+    <string name="keyboardview_keycode_alt">Alt</string>
+    <string name="keyboardview_keycode_cancel">გაუქმება</string>
+    <string name="keyboardview_keycode_delete">წაშლა</string>
+    <string name="keyboardview_keycode_done">დასრულდა</string>
+    <string name="keyboardview_keycode_mode_change">რეჟიმის შეცვლა</string>
+    <string name="keyboardview_keycode_shift">Shift-</string>
+    <string name="keyboardview_keycode_enter">შეყვანა</string>
+    <string name="description_target_unlock">განბლოკვა</string>
+    <string name="description_target_camera">კამერა</string>
+    <string name="description_target_silent">უხმო</string>
+    <string name="description_target_soundon">ხმის ჩართვა</string>
+    <string name="description_target_search">ძიება</string>
+    <string name="description_direction_up">გაასრიალეთ ზემოთ %s-თვის.</string>
+    <string name="description_direction_down">გაასრიალეთ ქვემოთ %s-თვის.</string>
+    <string name="description_direction_left">გაასრიალეთ მარცხნივ %s-თვის.</string>
+    <string name="description_direction_right">გაასრიალეთ მარჯვნივ %s-თვის.</string>
+    <string name="user_switched">ამჟამინდელი მომხმარებელი %1$s.</string>
+    <string name="kg_emergency_call_label">გადაუდებელი დახმარების ზარი</string>
+    <string name="kg_forgot_pattern_button_text">დაგავიწყდათ ნიმუში</string>
+    <string name="kg_wrong_pattern">არასწორი ნიმუში</string>
+    <string name="kg_wrong_password">არასწორი პაროლი</string>
+    <string name="kg_wrong_pin">არასწორი PIN</string>
+    <string name="kg_too_many_failed_attempts_countdown">კიდევ სცადეთ %d წამში.</string>
+    <string name="kg_pattern_instructions">დახატეთ თქვენი ნიმუში.</string>
+    <string name="kg_sim_pin_instructions">SIM PIN-ის შეყვანა</string>
+    <string name="kg_pin_instructions">შეიყვანეთ PIN</string>
+    <string name="kg_password_instructions">პაროლის შეყვანა</string>
+    <string name="kg_puk_enter_puk_hint">SIM ამჟამად დეაქტივირებულია. გასაგრძელებლად შეიყვანეთ PUK კოდი. დეტალებისთვის მიმართეთ მობილურ ოპერატორს.</string>
+    <string name="kg_puk_enter_pin_hint">სასურველი PIN კოდის შეყვანა</string>
+    <string name="kg_enter_confirm_pin_hint">სასურველი PIN კოდის დადასტურება</string>
+    <string name="kg_sim_unlock_progress_dialog_message">SIM ბარათის განბლოკვა…</string>
+    <string name="kg_password_wrong_pin_code">არასწორი PIN კოდი.</string>
+    <string name="kg_invalid_sim_pin_hint">აკრიფეთ PIN, რომელიც შედგება 4-დან 8 ციფრამდე.</string>
+    <string name="kg_invalid_sim_puk_hint">PUK კოდი უნდა იყოს რვა ან მეტი ციფრისგან შემდგარი.</string>
+    <string name="kg_invalid_puk">ხელახლა შეიყვანეთ სწორი PUK კოდი. რამდენიმე წარუმატებელი მცდელობა გამოიწვევს SIM ბარათის დაბლოკვას.</string>
+    <string name="kg_invalid_confirm_pin_hint">PIN კოდები არ ემთხვევა</string>
+    <string name="kg_login_too_many_attempts">ნახატი ნიმუშის ძალიან ბევრი მცდელობა</string>
+    <string name="kg_login_instructions">"განბლოკვისთვის გაიარეთ ავტორიზაცია თქვენი Google  ანგარიშით."</string>
+    <string name="kg_login_username_hint">მომხმარებლის სახელი (ელფოსტა)</string>
+    <string name="kg_login_password_hint">პაროლი</string>
+    <string name="kg_login_submit_button">შესვლა</string>
+    <string name="kg_login_invalid_input">არასწორი სახელი, ან პაროლი.</string>
+    <string name="kg_login_account_recovery_hint">"დაგავიწყდათ მომხმარებლის სახელი და პაროლი?
+ეწვიეთ "<b>google.com/accounts/recovery</b>.</string>
+    <string name="kg_login_checking_password">მიმდინარეობს ანგარიშის შემოწმება…</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"თქვენ %d-ჯერ არასწორად შეიყვანეთ PIN კოდი. 
+
+სცადეთ ხელახლა %d წამში."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"თქვენ %d-ჯერ არასწორად დაბეჭდეთ თქვენი პაროლი. 
+
+ხელახლა სცადეთ %d წამში."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"თქვენ %d-ჯერ დახატეთ განბლოკვის ნიმუში. 
+
+სცადეთ ხელახლა %d წამში."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">თქვენ არასწორად სცადეთ ტელეფონის განბლოკვა %d-ჯერ. კიდევ %d წარუმატებელი ცდის შემდეგ ტელეფონზე დაყენდება საწყისი, ქარხნული პარამეტრები და მომხმარებლის ყველა მონაცემი დაიკარგება.</string>
+    <string name="kg_failed_attempts_now_wiping">თქვენ %d-ჯერ არასწორად სცადეთ ტელეფონის განბლოკვა. ამიტომ ტელეფონზე დადგება საწყისი, ქარხნული პარამეტრები.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"თქვენ არასწორად დახატეთ თქვენი განბლოკვის ნიმუში %d-ჯერ. კიდევ %d წარუმატებელი ცდის შემდეგ, დაგჭირდებათ თქვენი ტელეფონის განბლოკვა ელფოსტის ანგარიშის გამოყენებით.
+
+ ხელახლა სცადეთ %d წამში."</string>
+    <string name="kg_text_message_separator">" — "</string>
+    <string name="kg_reordering_delete_drop_target_text">ამოშლა</string>
+    <string name="keyguard_transport_prev_description">წინა ჩანაწერზე გადასვლის ღილაკი</string>
+    <string name="keyguard_transport_next_description">შემდეგი ჩანაწერის ღილაკი</string>
+    <string name="keyguard_transport_pause_description">პაუზის ღილაკი</string>
+    <string name="keyguard_transport_play_description">დაკვრის ღილაკი</string>
+    <string name="keyguard_transport_stop_description">შეჩერების ღილაკი</string>
+    <string name="keyguard_carrier_default">არ არის სერვისი.</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/wfd_picker_dialog_layout" android:layout_width="fill_parent" android:layout_height="335.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@*android:drawable/tw_dialog_top_medium_holo_dark" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="55.0dip">
+            <TextView android:textSize="21.0dip" android:textColor="#ffebebeb" android:gravity="center_vertical" android:paddingLeft="22.0dip" android:paddingTop="5.0dip" android:paddingRight="22.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wfd_settings_title" android:fontFamily="Roboto" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@*android:drawable/tw_dialog_middle_holo_dark" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/wfd_picker_dialog_fragment_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="226.0dip">
+                <fragment android:id="@id/wfd_picker_dialog_fragment" android:layout_width="fill_parent" android:layout_height="226.0dip" class="com.android.settings.wfd.WifiDisplaySettings" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/wfd_picker_dialog_buttons_layout" android:background="@*android:drawable/tw_dialog_bottom_medium_holo_dark" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="17.0dip" android:textColor="@*android:color/tw_popup_button_text_holo_dark" android:id="@id/wfd_picker_dialog_btn_cancel" android:background="@*android:drawable/tw_popup_button_background_holo_dark" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="@string/dlg_cancel" android:shadowColor="#ffe1e1e1" android:shadowDy="1.0" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/wfd_picker_divider" android:layout_width="2.0dip" android:layout_height="50.0dip" android:src="@drawable/tw_device_options_divider" />
+            <Button android:textSize="17.0dip" android:textColor="@*android:color/tw_popup_button_text_holo_dark" android:id="@id/wfd_picker_dialog_btn_stop" android:background="@*android:drawable/tw_popup_button_background_holo_dark" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="@string/service_stop" android:shadowColor="#ffe1e1e1" android:shadowDy="1.0" android:layout_weight="1.0" />
+            <Button android:textSize="17.0dip" android:textColor="@*android:color/tw_popup_button_text_holo_dark" android:id="@id/wfd_picker_dialog_btn_ok" android:background="@*android:drawable/tw_popup_button_background_holo_dark" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="@string/wifi_ap_notification_dialog_ok" android:shadowColor="#ffe1e1e1" android:shadowDy="1.0" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

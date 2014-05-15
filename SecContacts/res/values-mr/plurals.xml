@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">%d संपर्क दाखवत आहे</item>
+        <item quantity="one">1 संपर्क प्रदर्शित करत आहे</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">फोन क्रमांकासह %d संपर्क प्रदर्शित करत आहे</item>
+        <item quantity="one">फोन क्रमांकासह 1 संपर्क प्रदर्शित करत आहे</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">केवळ फोन नंबर्ससहित %d संपर्क</item>
+        <item quantity="one">फोन नंबरसह 1 संपर्क</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d संपर्क</item>
+        <item quantity="one">1 संपर्क</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d सापडला</item>
+        <item quantity="one">1 सापडला</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d सापडला</item>
+        <item quantity="one">1 सापडला</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d समूह</item>
+        <item quantity="one">1 समूह</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%2$s समूहातील %1$d लोक</item>
+        <item quantity="one">%2$s समूहातील %1$d व्यक्ती</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d लोक</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d व्हॉईसमेल्स</item>
+        <item quantity="one">व्हॉईसमेल</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d संपर्क कॉपी केले.</item>
+        <item quantity="one">%d संपर्क कॉपी केले.</item>
+    </plurals>
+</resources>

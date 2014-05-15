@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/power_saving_mode_title_k"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <ListPreference android:persistent="false" android:entries="@array/powersaving_enable_settings_entry" android:title="@string/powersaving_enable_settings_title" android:key="enable_settings" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/powersaving_enable_settings_value" />
+    <PreferenceCategory android:title="@string/power_saving_mode_setting" android:key="power_saving_mode_setting" />
+    <CheckBoxPreference android:title="@string/powersaving_limit_background" android:key="data_powersaving_check" android:summary="@string/powersaving_data_restrict_text" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" />
+    <PreferenceScreen android:title="@string/powersaving_limit_basic" android:key="basic_powersaving" android:fragment="com.android.settings.powersavingmode.MenuPowerSavingModeSettings" />
+    <PreferenceScreen android:title="@string/powersaving_blackgrey" android:key="black_grey_powersaving" android:widgetLayout="@layout/round_more_icon" android:fragment="com.android.settings.powersavingmode.PowerSavingModeBlackGrey" />
+</PreferenceScreen>

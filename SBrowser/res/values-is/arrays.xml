@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Alltaf kveikt</item>
+        <item>Samkvæmt beiðni</item>
+        <item>Slökkt</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Sjálfgefin síða</item>
+        <item>Opin síða</item>
+        <item>Flýtiaðgangur</item>
+        <item>Mest opnuð svæði</item>
+        <item>Annað</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Tæki</item>
+        <item>SD-kort</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Kínverska (GBK)</item>
+        <item>Kínverska (Big5)</item>
+        <item>Japanska (ISO-2022-JP)</item>
+        <item>Japanska (SHIFT JIS)</item>
+        <item>Japanska (EUC-JP)</item>
+        <item>Kóreska (EUC-KR)</item>
+        <item>Finna sjálfkrafa</item>
+    </string-array>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:layout_width="334.0dip" android:layout_height="219.0dip" android:layout_marginLeft="@dimen/fingerprint_layout_marginLeft" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/fingerprint_layout_marginRight">
+        <VideoView android:id="@id/fingerprintregister_guide" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/fingerprint_register_guide" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:id="@id/fingerprint_resgister_step_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fingerprint_layout_marginLeft" android:layout_marginTop="52.0dip" android:layout_marginRight="@dimen/fingerprint_layout_marginRight" android:layout_marginBottom="28.0dip">
+        <ImageView android:id="@id/fingerprintregister_step_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fingerprint_register_progress_0" />
+        <ImageView android:id="@id/fingerprintregister_step_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:src="@drawable/fingerprint_register_progress_0" android:layout_toRightOf="@id/fingerprintregister_step_1" />
+        <ImageView android:id="@id/fingerprintregister_step_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:src="@drawable/fingerprint_register_progress_0" android:layout_toRightOf="@id/fingerprintregister_step_2" />
+        <ImageView android:id="@id/fingerprintregister_step_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:src="@drawable/fingerprint_register_progress_0" android:layout_toRightOf="@id/fingerprintregister_step_3" />
+        <ImageView android:id="@id/fingerprintregister_step_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:src="@drawable/fingerprint_register_progress_0" android:layout_toRightOf="@id/fingerprintregister_step_4" />
+        <ImageView android:id="@id/fingerprintregister_step_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:src="@drawable/fingerprint_register_progress_0" android:layout_toRightOf="@id/fingerprintregister_step_5" />
+        <ImageView android:id="@id/fingerprintregister_step_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:src="@drawable/fingerprint_register_progress_0" android:layout_toRightOf="@id/fingerprintregister_step_6" />
+        <ImageView android:id="@id/fingerprintregister_step_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:src="@drawable/fingerprint_register_progress_0" android:layout_toRightOf="@id/fingerprintregister_step_7" />
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="center" android:id="@id/fingerprintregister_error" android:layout_width="fill_parent" android:layout_height="107.0dip" android:layout_marginLeft="@dimen/fingerprint_layout_marginLeft" android:layout_marginTop="14.0dip" android:layout_marginRight="@dimen/fingerprint_layout_marginRight">
+        <ImageView android:gravity="center" android:id="@id/fingerprintregister_error_image" android:layout_width="fill_parent" android:layout_height="78.0dip" />
+        <TextView android:textSize="19.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/fingerprintregister_error_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:layout_below="@id/fingerprintregister_error_image" android:fontFamily="Roboto_Regular" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/fingerprintregister_anim_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" />
+</LinearLayout>

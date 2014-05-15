@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/f_airview_infopreview_thumb_bg_light" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/gridview_bookmark_single_item_preview_1" android:focusable="false" android:visibility="visible" android:layout_width="@dimen/bookmarkgridSingleItemViewWidth" android:layout_height="@dimen/bookmarkgridSingleItemViewHeight" android:layout_marginLeft="1.0px" android:layout_marginTop="1.0px" android:layout_marginRight="1.0px" android:layout_marginBottom="1.0px" android:src="@drawable/hover_zoomin_web" android:scaleType="fitXY" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.nfc.CheckableRelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckedTextView android:gravity="center_vertical" android:layout_gravity="right" android:id="@id/text_checkbox" android:paddingRight="@dimen/payment_contents_side_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:checkMark="?android:listChoiceIndicatorSingle" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/payment_contents_side_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/text_checkbox" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/payment_list_item_title_text_size" android:textColor="@color/nfc_securememory_title" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/text_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/payment_list_item_description_text_size" android:textColor="@color/nfc_securememory_summary" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/text_description" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.android.settings.nfc.CheckableRelativeLayout>

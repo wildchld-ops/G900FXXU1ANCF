@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_date_format_day_month_k">"E
+d MMM"</string>
+    <string name="status_bar_date_format_month_day_k">"E
+MMM d"</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">MMM d ,E</string>
+    <string name="abbrev_wday_day_abbrev_month_no_year">d MMM ,E</string>
+    <string name="app_label">UI سیستم</string>
+    <string name="status_bar_clear_all_button">پاک کردن</string>
+    <string name="status_bar_do_not_disturb_button">مزاحم نشوید</string>
+    <string name="status_bar_please_disturb_button">نمایش اعلان ها</string>
+    <string name="status_bar_recent_remove_item_title">حذف از لیست</string>
+    <string name="status_bar_recent_inspect_item_title">اطلاعات برنامه</string>
+    <string name="status_bar_no_recent_apps">برنامه اخیر وجود ندارد</string>
+    <string name="status_bar_accessibility_dismiss_recents">رد کردن برنامه‌های اخیر</string>
+    <string name="status_bar_no_notifications_title">بدون اخطار</string>
+    <string name="status_bar_ongoing_events_title">برقرار</string>
+    <string name="status_bar_latest_events_title">اعلانها</string>
+    <string name="battery_low_title">شارژر را متصل کنید.</string>
+    <string name="battery_low_subtitle">باتری در حال کم شدن است.</string>
+    <string name="battery_low_percent_format">%d%% باقیمانده است.</string>
+    <string name="invalid_charger">شارژ از طریق USB پشتیبانی نمی شود. از شارژر ارائه شده استفاده کنید.</string>
+    <string name="battery_low_why">میزان مصرف باتری</string>
+    <string name="status_bar_settings_settings_button">تنظيمات</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">حالت پرواز</string>
+    <string name="status_bar_settings_auto_rotation">چرخش خودکار صفحه</string>
+    <string name="status_bar_settings_mute_label">حالت سکوت</string>
+    <string name="status_bar_settings_auto_brightness_label">خودکار</string>
+    <string name="status_bar_settings_notifications">اعلان ها</string>
+    <string name="bluetooth_tethered">بلوتوث وصل شد</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">تنظیم روش های ورودی</string>
+    <string name="status_bar_use_physical_keyboard">صفحه کلید فیزیکی</string>
+    <string name="usb_device_permission_prompt">به برنامه %1$s اجازه داده شود به دستگاه USB دسترسی پیدا کند؟</string>
+    <string name="usb_accessory_permission_prompt">به برنامه %1$s اجازه داده شود به وسیله جانبی USB دسترسی پیدا کند؟</string>
+    <string name="usb_device_confirm_prompt">هنگام اتصال دستگاه USB، %1$s باز شود؟</string>
+    <string name="usb_accessory_confirm_prompt">هنگام اتصال این وسیله جانبی USB، %1$s باز شود؟</string>
+    <string name="usb_accessory_uri_prompt">هیچ یک از برنامه های نصب شده با این وسیله جانبی USB کار نمی کند. درباره این وسیله جانبی در %s بیشتر بیاموزید.</string>
+    <string name="title_usb_accessory">وسیله جانبی USB</string>
+    <string name="label_view">نمايش</string>
+    <string name="always_use_device">طبق پیش فرض برای این دستگاه USB استفاده شود</string>
+    <string name="always_use_accessory">طبق پیش فرض برای این وسیله جانبی USB استفاده شود</string>
+    <string name="usb_debugging_title">رفع اشکال USB مجاز است؟</string>
+    <string name="usb_debugging_message">"اثرانگشت کلید RSA رایانه:
+%1$s"</string>
+    <string name="usb_debugging_always">همیشه به این رایانه اجازه داده شود</string>
+    <string name="compat_mode_on">زوم برای پرکردن صفحه</string>
+    <string name="compat_mode_off">گسترش برای پرکردن صفحه</string>
+    <string name="compat_mode_help_header">زوم سازگاری</string>
+    <string name="compat_mode_help_body">اگر برنامه برای یک صفحه کوچک تر طراحی شده باشد، کنترل زوم در کنار ساعت نمایش داده می‌شود.</string>
+    <string name="screenshot_saving_ticker">ذخیره تصاویر از صفحه…</string>
+    <string name="screenshot_saving_title">ذخیره تصاویر از صفحه…</string>
+    <string name="screenshot_saving_text">عکس از صفحه در حال ذخیره است.</string>
+    <string name="screenshot_saved_title">عکس از صفحه گرفته شد</string>
+    <string name="screenshot_saved_text">برای مشاهده تصویر صفحه، ضربه بزنید.</string>
+    <string name="screenshot_failed_title">تصویر از صفحه گرفته نمی‌شود.</string>
+    <string name="screenshot_failed_text">عکس از صفحه ذخیره نشد. ممکن است دستگاه ذخیره سازی USB در حال استفاده باشد.</string>
+    <string name="screenshot_failed_due_to_drm_text">گرفتن تصویر صفحه امکان پذیر نیست. تصویر با DRM محافظت شده است.</string>
+    <string name="one_item_will_be_deleted">1 مورد حذف می‌شود.</string>
+    <string name="usb_preference_title">گزینه های انتقال فایل USB</string>
+    <string name="use_mtp_button_title">وصل کردن مانند دستگاه پخش رسانه (MTP)</string>
+    <string name="use_ptp_button_title">مانند دوربین (PTP) وصل کنید</string>
+    <string name="installer_cd_button_title">نصب برنامه انتقال فایل Android برای Mac</string>
+    <string name="accessibility_back">بازگشت</string>
+    <string name="accessibility_home">منزل</string>
+    <string name="accessibility_menu">فهرست</string>
+    <string name="accessibility_recent">برنامه های اخیر</string>
+    <string name="accessibility_ime_switch_button">دکمه روش ورودی را عوض کنید.</string>
+    <string name="accessibility_compatibility_zoom_button">قابلیت سازگاری دکمه زوم</string>
+    <string name="accessibility_compatibility_zoom_example">زوم به صفحه بزرگتر</string>
+    <string name="accessibility_bluetooth_connected">متصل به بلوتوث</string>
+    <string name="accessibility_bluetooth_disconnected">بلوتوث قطع شد.</string>
+    <string name="accessibility_no_battery">بدون باتری</string>
+    <string name="accessibility_battery_one_bar">یک خط شارژ باتری</string>
+    <string name="accessibility_battery_two_bars">دو خط شارژ باتری</string>
+    <string name="accessibility_battery_three_bars">سه خط شارژ باتری</string>
+    <string name="accessibility_battery_full">باتری پر است.</string>
+    <string name="accessibility_no_phone">سیگنال تلفن وجود ندارد</string>
+    <string name="accessibility_phone_one_bar">یک خط سیگنال تلفن</string>
+    <string name="accessibility_phone_two_bars">دو خط سیگنال تلفن</string>
+    <string name="accessibility_phone_three_bars">سه خط سیگنال تلفن</string>
+    <string name="accessibility_phone_signal_full">سیگنال تلفن کامل</string>
+    <string name="accessibility_no_data">داده ای وجود ندارد</string>
+    <string name="accessibility_data_one_bar">یک خط سیگنال داده</string>
+    <string name="accessibility_data_two_bars">دو خط سیگنال داده</string>
+    <string name="accessibility_data_three_bars">سه خط سیگنال داده</string>
+    <string name="accessibility_data_four_bars">چهار ستون سیگنال داده</string>
+    <string name="accessibility_data_five_bars">پنج ستون سیگنال داده</string>
+    <string name="accessibility_data_signal_full">سیگنال داده کامل</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">سیگنال Wi-Fi وجود ندارد</string>
+    <string name="accessibility_wifi_one_bar">یک خط سیگنال Wi-Fi</string>
+    <string name="accessibility_wifi_two_bars">دو خط سیگنال Wi-Fi</string>
+    <string name="accessibility_wifi_three_bars">سه خط سیگنال Wi-Fi</string>
+    <string name="accessibility_wifi_signal_full">سیگنال Wi-Fi کامل است.</string>
+    <string name="accessibility_no_wimax">WiMAX وجود ندارد.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX دارای یک نوار است.</string>
+    <string name="accessibility_wimax_two_bars">WiMAX دارای دو نوار است.</string>
+    <string name="accessibility_wimax_three_bars">WiMAX دارای سه نوار است.</string>
+    <string name="accessibility_wimax_signal_full">قدرت سیگنال WiMAX کامل است.</string>
+    <string name="accessibility_no_signal">سیگنال موجود نیست</string>
+    <string name="accessibility_not_connected">متصل نیست.</string>
+    <string name="accessibility_zero_bars">بدون میله.</string>
+    <string name="accessibility_one_bar">یک میله.</string>
+    <string name="accessibility_two_bars">دو میله.</string>
+    <string name="accessibility_three_bars">سه میله.</string>
+    <string name="accessibility_phone_four_bars">چهار ستون سیگنال تلفن</string>
+    <string name="accessibility_phone_five_bars">پنج ستون سیگنال تلفن</string>
+    <string name="accessibility_signal_full">سیگنال کامل.</string>
+    <string name="accessibility_desc_on">روشن</string>
+    <string name="accessibility_desc_off">خاموش</string>
+    <string name="accessibility_desc_connected">متصل شد.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">رومینگ</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">سیم وجود ندارد</string>
+    <string name="accessibility_bluetooth_tether">اشتراک گذاری اینترنت با بلوتوث</string>
+    <string name="accessibility_airplane_mode">حالت پرواز</string>
+    <string name="accessibility_battery_level">نیروی باتری %d درصد است.</string>
+    <string name="accessibility_settings_button">تنظیمات سیستم</string>
+    <string name="accessibility_notifications_button">اعلان ها</string>
+    <string name="accessibility_remove_notification">پاک کردن اعلان ها</string>
+    <string name="accessibility_gps_enabled">GPS روشن شد</string>
+    <string name="accessibility_gps_acquiring">کسب GPS…</string>
+    <string name="accessibility_tty_enabled">ماشین نویس راه دور فعال شد</string>
+    <string name="accessibility_ringer_vibrate">لرزش آهنگ زنگ</string>
+    <string name="accessibility_ringer_silent">بیصدا کردن آهنگ زنگ</string>
+    <string name="accessibility_recents_item_dismissed">%s نادیده گرفته شد.</string>
+    <string name="accessibility_notification_dismissed">اعلان ردشد.</string>
+    <string name="accessibility_desc_notification_shade">مجموعه اعلان.</string>
+    <string name="accessibility_desc_quick_settings">تنظیمات سریع</string>
+    <string name="accessibility_desc_recent_apps">برنامه های اخیر</string>
+    <string name="accessibility_quick_settings_user">کاربر %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s. %2$s</string>
+    <string name="accessibility_quick_settings_mobile">تلفن همراه %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">باتری %s.</string>
+    <string name="accessibility_quick_settings_airplane">حالت هواپیما %s.</string>
+    <string name="accessibility_quick_settings_bluetooth">بلوتوث %s.</string>
+    <string name="accessibility_quick_settings_alarm">هشدار برای %s تنظیم شد.</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">اتصال سریع</string>
+    <string name="accessibility_qconnect_button_tts">اتصال سریع</string>
+    <string name="data_usage_disabled_dialog_3g_title">داده های 2G-3G غیرفعال شدند</string>
+    <string name="data_usage_disabled_dialog_4g_title">داده های 4G غیرفعال شدند</string>
+    <string name="data_usage_disabled_dialog_mobile_title">داده های تلفن همراه غیرفعال شد</string>
+    <string name="data_usage_disabled_dialog_title">داده غیرفعال شد</string>
+    <string name="data_usage_disabled_dialog">به حداکثر محدوده استفاده از داده مشخص شده رسید. استفاده از داده های بیشتر مشمول هزینه از طرف ارائه دهنده خدمات است.</string>
+    <string name="data_usage_disabled_dialog_enable">فعال کردن مجدد اتصال داده</string>
+    <string name="data_usage_enable_mobile_warning">اتصال از طریق داده بسته ای ممکن است مشمول هزینه اضافی باشد. ادامه می دهید؟</string>
+    <string name="data_usage_disable_mobile">اتصال داده تلفن همراه غیرفعال شود؟</string>
+    <string name="status_bar_settings_signal_meter_disconnected">اتصال اینترنت وجود ندارد</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi وصل شد.</string>
+    <string name="gps_notification_searching_text">جستجو با استفاده از GPS…</string>
+    <string name="gps_notification_found_text">موقعیت مکانی تنظیم شده با GPS</string>
+    <string name="accessibility_clear_all">پاک کردن همه اعلان ها</string>
+    <string name="status_bar_notification_inspect_item_title">اطلاعات برنامه</string>
+    <string name="close_universe">بستن</string>
+    <string name="notifications_off_title">اعلان ها غیرفعال شدند</string>
+    <string name="notifications_off_text">برای فعال کردن اعلان ها ضربه بزنید.</string>
+    <string name="accessibility_rotation_lock_off">صفحه بطور خودکار خواهد چرخید.</string>
+    <string name="accessibility_rotation_lock_on_landscape">صفحه اکنون در جهت افقی قفل است.</string>
+    <string name="accessibility_rotation_lock_on_portrait">صفحه اکنون در جهت عمودی قفل است.</string>
+    <string name="jelly_bean_dream_name">BeanFlinger</string>
+    <string name="start_dreams">محافظ صفحه</string>
+    <string name="ethernet_label">اترنت</string>
+    <string name="quick_settings_airplane_mode_label">حالت هواپیما</string>
+    <string name="quick_settings_battery_charging_label">در حال شارژ، %d%%</string>
+    <string name="quick_settings_battery_charged_label">شارژ کامل انجام شد.</string>
+    <string name="quick_settings_bluetooth_label">بلوتوث</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">بلوتوث ( %d دستگاه)</string>
+    <string name="quick_settings_bluetooth_off_label">بلوتوث خاموش است.</string>
+    <string name="quick_settings_brightness_label">روشنایی</string>
+    <string name="quick_settings_rotation_unlocked_label">چرخش خودکار</string>
+    <string name="quick_settings_rotation_locked_label">چرخش قفل شد</string>
+    <string name="quick_settings_ime_label">حالت ورودی</string>
+    <string name="quick_settings_location_label">موقعیت مکانی در حال استفاده</string>
+    <string name="quick_settings_media_device_label">دستگاه رسانه</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">فقط تماس اضطراری گرفته شود.</string>
+    <string name="quick_settings_settings_label">تنظيمات</string>
+    <string name="quick_settings_time_label">زمان</string>
+    <string name="quick_settings_user_label">من</string>
+    <string name="quick_settings_wifi_label">WiFi</string>
+    <string name="quick_settings_wifi_not_connected">متصل نیست.</string>
+    <string name="quick_settings_wifi_no_network">شبکه پيدا نشد</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_wifi_display_label">"Wi-Fi
+نمایشگر"</string>
+    <string name="quick_settings_wifi_display_no_connection_label">نمایش بدون سیم</string>
+    <string name="quick_settings_brightness_dialog_title">روشنایی</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">خودکار</string>
+    <string name="status_bar_help_title">اعلان‌ها در اینجا نمایش داده می‌شوند</string>
+    <string name="status_bar_help_text">"با کشیدن انگشت به طرف پایین به آنها دسترسی پیدا کنید.
+برای کنترل‌های سیستم دوباره انگشت خود را به سمت پایین بکشید."</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">بلوتوث</string>
+    <string name="quickpanel_gps_text">مکان</string>
+    <string name="quickpanel_silent_mode_text">"حالت
+بیصدا"</string>
+    <string name="quickpanel_silent_mode_sound">صدا</string>
+    <string name="quickpanel_silent_mode_vibrate">لرزش</string>
+    <string name="quickpanel_silent_mode_mute">حالت سکوت</string>
+    <string name="quickpanel_rotation_text">"چرخش
+صفحه"</string>
+    <string name="quickpanel_mobile_data_text">"داده
+تلفن همراه"</string>
+    <string name="quickpanel_dormant_mode_text">"حالت
+انسداد"</string>
+    <string name="quickpanel_notification_text">اطلاعیه</string>
+    <string name="quickpanel_airplane_mode_text">"حالت
+پرواز"</string>
+    <string name="quickpanel_sync_text">همگامسازی</string>
+    <string name="quickpanel_power_saving_text">"صرفه جویی
+انرژی"</string>
+    <string name="quickpanel_ultra_power_saving_text">"ذخیره‎
+بیشترنیرو"</string>
+    <string name="quickpanel_driving_mode_text">"حالت
+هندزفری"</string>
+    <string name="quickpanel_smart_stay_text">"هوشمند
+پایداری"</string>
+    <string name="quickpanel_smart_scroll_text">"پیمایش
+هوشمند"</string>
+    <string name="quickpanel_smart_pause_text">"توقف
+هوشمند"</string>
+    <string name="quickpanel_smart_network_text">"شبکه
+هوشمند"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_wifi_hotspot_text">"Wi-Fi
+نقطه اتصال"</string>
+    <string name="quickpanel_multiwindow_text">"پنجره
+چندگانه"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_brightness_text">روشنایی</string>
+    <string name="quickpanel_airview_text">"مشاهده
+بدون لمس"</string>
+    <string name="quickpanel_airgesture_text">"Air
+gesture"</string>
+    <string name="quickpanel_ebook_text">"حالت
+خواندن"</string>
+    <string name="quickpanel_personal_mode_text">"حالت‎
+خصوصی"</string>
+    <string name="quickpanel_car_mode_text">"حالت‎
+خودرو"</string>
+    <string name="quickpanel_network_booster_text">"تقویت‎
+دانلود"</string>
+    <string name="quickpanel_toolbox_text">"جعبه‎
+ابزار"</string>
+    <string name="quickpanel_touch_sensitivity_text">"حساسیت‎
+لمس"</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">بلوتوث</string>
+    <string name="quickpanel_gps_content_description">مکان</string>
+    <string name="quickpanel_silent_mode_sound_content_description">صدا</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">لرزش</string>
+    <string name="quickpanel_silent_mode_mute_content_description">بی‌صدا</string>
+    <string name="quickpanel_rotation_content_description">چرخش صفحه</string>
+    <string name="quickpanel_mobile_data_content_description">داده تلفن همراه</string>
+    <string name="quickpanel_dormant_mode_content_description">حالت انسداد</string>
+    <string name="quickpanel_airplane_mode_content_description">حالت پرواز</string>
+    <string name="quickpanel_sync_content_description">همگام‌سازی</string>
+    <string name="quickpanel_power_saving_content_description">حالت ذخیره نیرو</string>
+    <string name="quickpanel_smart_stay_content_description">روشن ماندن هوشمند</string>
+    <string name="quickpanel_smart_pause_content_description">توقف موقت هوشمند</string>
+    <string name="quickpanel_smart_network_content_description">شبکه هوشمند</string>
+    <string name="quickpanel_wifi_hotspot_content_description">نقطه اتصال Wi-Fi قابل حمل</string>
+    <string name="quickpanel_multiwindow_content_description">چند پنجره</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_ebook_content_description">حالت خواندن</string>
+    <string name="quickpanel_personal_mode_content_description">حالت خصوصی</string>
+    <string name="quickpanel_car_mode_content_description">حالت خودرو</string>
+    <string name="quickpanel_network_booster_content_description">تقویت‌کننده دانلود</string>
+    <string name="quickpanel_toolbox_content_description">جعبه ابزار</string>
+    <string name="air_gesture_use_popup_title">فعال کردن air gesture</string>
+    <string name="air_gesture_use_popup_msg">Air gesture و TalkBack را نمی توان با هم فعال کرد. TalkBack غیرفعال خواهد شد.</string>
+    <string name="air_view_use_popup_title">فعال کردن مشاهده بدون لمس</string>
+    <string name="air_view_use_popup_msg">مشاهده بدون لمس و گزینه های زیر را نمی توان با هم فعال کرد. گزینه های زیر غیرفعال خواهند شد.</string>
+    <string name="multi_window_use_popup_title">فعال کردن از پنجره چندگانه</string>
+    <string name="multi_window_use_popup_msg">چند پنجره ای و TalkBack را نمی توان با هم فعال کرد. TalkBack غیرفعال خواهد شد.</string>
+    <string name="smart_pause_use_popup_title">فعال کردن توقف موقت هوشمند</string>
+    <string name="smart_pause_use_popup_msg">TalkBack و توقف موقت هوشمند را نمی توان با هم فعال کرد. TalkBack غیرفعال خواهد شد.</string>
+    <string name="smart_scroll_use_popup_title">فعال کردن پیمایش هوشمند</string>
+    <string name="smart_scroll_use_popup_msg">TalkBack و پیمایش هوشمند را نمی توان با هم فعال کرد. TalkBack غیرفعال خواهد شد.</string>
+    <string name="smart_stay_use_popup_title">فعال کردن پایداری هوشمند</string>
+    <string name="smart_stay_use_popup_msg">TalkBack و پایداری هوشمند را نمی توان با هم فعال کرد. TalkBack غیرفعال خواهد شد.</string>
+    <string name="quickpanel_content_description_led_on">‎%s فعال است</string>
+    <string name="quickpanel_content_description_led_off">‎%s غیرفعال است</string>
+    <string name="quickpanel_content_description_led_dim">فعال کردن ‎%s ممکن نیست</string>
+    <string name="smart_network">شبکه هوشمند</string>
+    <string name="smart_network_guide_msg">"شبکه هوشمند به حفظ عمر باطری کمک می کند.
+
+این شبکه داده تلفن همراه و Wi-Fi را هنگام خاموش شدن صفحه غیرفعال می کند، بنابراین دستگاه باطری کمتری مصرف می کند.
+
+با اینحال، ممکن است وقتی صفحه را روشن می کند اطلاعات ارسال داده را یکجا دریافت کنید."</string>
+    <string name="quickpanel_data_roaming_text">دیتا هنگام رومینگ</string>
+    <string name="data_roaming_dialog_text">رومینگ سبب ایجاد هزینه های بیشتر می شود. ادامه می دهید؟</string>
+    <string name="mobile_data_enable_dialog_text">اتصال به شبکه‌های تلفن همراه، بسته به طرح داده مورد استفاده، ممکن است باعث ایجاد هزینه اضافی شود. ادامه می‌دهید؟</string>
+    <string name="quickpanel_edit_current">پنل اعلان</string>
+    <string name="quickpanel_edit_available">دکمه های موجود</string>
+    <string name="mobile_data_dialog_text">دیگر نمی توانید از برنامه هایی مانند اینترنت، ایمیل و YouTube از طریق شبکه های تلفن همراه استفاده کنید. ادامه می دهید؟</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"اگر از Wi-Fi استفاده نکنید. دیگر قادر به استفاده از اینترنت، ایمیل یا دیگر برنامه هایی که به اتصال داده نیاز دارند، نخواهید بود.
+
+داده تلفن همراه شما غیرفعال می شود."</string>
+    <string name="mobile_data_connect">اتصال</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">هنگامی که حالت پرواز فعال است اتصال به شبکه های تلفن همراه ممکن نیست. حالت پرواز را غیرفعال کرده و دوباره امتحان کنید.</string>
+    <string name="warning_alert_check">بدون نمایش مجدد</string>
+    <string name="blocking_mode_enable">وقتی که این حالت فعال باشد، اعلان های ویژگی های انتخابی غیرفعال می‌شوند. شما تنها اعلان های تماس های ورودی افرادی را دریافت می کنید. که در لیست مجاز شده شما قرار دارند.</string>
+    <string name="blocking_mode_enable_for_grid_settings">حالت انسداد دریافت اعلان‌های مربوط به ویژگی‌های انتخابی را غیرفعال می‌کند. با مسدود کردن تماس‌های ورودی، فقط اعلان‌های تماس‌های ورودی از طرف مخاطبین مجاز را دریافت خواهید کرد. برای تغییر تنظیمات حالت انسداد، به تنظیمات > شخصی‌سازی > حالت انسداد بروید.</string>
+    <string name="blocking_mode_enable_wifi">وقتی که این حالت فعال شود، اعلان های ویژگی های انتخابی غیرفعال می‌شوند.</string>
+    <string name="blocking_mode_title">حالت انسداد</string>
+    <string name="dormant_mode_off_message">برای فعال کردن حالت انسداد، حداقل یکی از گزینه‌های زیر را فعال کنید.</string>
+    <string name="driving_mode_title">حالت رانندگی</string>
+    <string name="driving_mode_on_dialog_msg_1">پس از بستن هندزفری S Voice، باید حالت هندزفری در تنظیمات غیرفعال شود. اگر حالت هندزفری فعال باقی بماند، اطلاعات تماس ورودی و اعلان ها همچنان بطور خودکار خوانده می شوند.</string>
+    <string name="driving_mode_on_dialog_msg_2">با گفتن “حالت هندزفری خاموش” در حالت هندزفری S Voice، یا با رفتن به قسمت تنظیمات یا پانل اعلان، می‌توانید حالت هندزفری را غیرفعال کنید.</string>
+    <string name="insert_sim_card">سیم کارت وارد شود</string>
+    <string name="insert_sim_card_message">برای دستیابی به خدمات شبکه سیم کارت را وارد کنید.</string>
+    <string name="wifi_enable_warning">با روشن کردن Wi-Fi، نقطه اتصال Wi-Fi قابل حمل غیرفعال می شود. ادامه می دهید؟</string>
+    <string name="wifi_ap_turning_off">در حال غیرفعال کردن نقطه اتصال Wi-Fi قابل حمل…</string>
+    <string name="no_sim_notification_title">سیم وجود ندارد</string>
+    <string name="no_sim_notification_title_tmo">سیم کارت وارد دستگاه نشده است.</string>
+    <string name="no_sim_notification_text">سیم کارت را وارد کنید.</string>
+    <string name="accessibility_power_saving_mode">برای فعال کردن حالت ذخیره نیرو، حداقل یک عملکرد فعال کنید.</string>
+    <string name="accessibility_power_saving_mode_title">حالت ذخیره نیرو</string>
+    <string name="accessibility_driving_mode">برای فعال کردن حالت هندزفری، حداقل یک عملکرد مرتبط را فعال کنید.</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Network restriction mode will be disabled.</string>
+    <string name="charging_interruption_title">شارژ ممکن نیست</string>
+    <string name="charging_interruption_by_terminal_open_text">شارژ دستگاه ممکن نیست. مطمئن شوید از باتری و شارژر سازگار با Samsung استفاده می‌کنید و دستگاهتان به درستی به شارژر متصل شده باشد.</string>
+    <string name="charging_interruption_by_too_high_temperature_text">شارژ متوقف شد. دمای باتری بسیار زیاد است.</string>
+    <string name="charging_interruption_by_too_low_temperature_text">شارژ متوقف شد. دمای باتری بسیار کم است.</string>
+    <string name="charging_interruption_by_limit_high_temperature_text">"شارژ دستگاه متوقف شده است. دمای باتری خیلی زیاد است. هنگام جدا کردن شارژر مراقب باشید. ممکن است خیلی داغ باشد.‎
+
+ممکن است با جدا کردن و وصل کردن مجدد شارژر، شارژ به صورت عادی ادامه یابد. اگر داغ شدن بیش از حد ادامه داشت، با سرویس‌های مشتری تماس بگیرید چون خطر آتش‌سوزی یا جراحت وجود دارد."</string>
+    <string name="full_battery_title">اطلاعات</string>
+    <string name="full_battery_text">"باتری شارژشد.
+شارژر را قطع کنید."</string>
+    <string name="low_battery_title">باتری ضعيف است</string>
+    <string name="critical_low_battery_title">باتری خیلی ضعیف است</string>
+    <string name="low_battery_text">برای شارژ دستگاه آن را به پریز برق وصل کنید. و در مدیر وظیفه، از برنامه هایی که استفاده نمی کنید. خارج شوید. استفاده از دستگاه در حین شارژ ممکن است باعث شود دستگاه درست شارژ نشود.</string>
+    <string name="low_battery_text_charged_via_ta">در مدیر برنامه از برنامه هایی که استفاده نمی کنید. خارج شوید. استفاده در حین شارژ ممکن است باعث شود دستگاه درست شارز نشود.</string>
+    <string name="low_battery_camera_warning_text">اگر نیروی باتری کمتر از %d%% باشد نمی‌توانید دوربین را باز کنید.</string>
+    <string name="critical_low_battery_camera_warning_text">نمی توانید دوربین را باز کنید. نیروی باتری %d%% یا کمتر است.</string>
+    <string name="start_force_consume_battery_title">هشدار</string>
+    <string name="start_force_consume_battery_text">قبل از استفاده از دستگاه خود منتظر بمانید تا دستگاه خنک شود</string>
+    <string name="stop_force_consume_battery_title">اطلاعات</string>
+    <string name="stop_force_consume_battery_text">دستگاه خنک شده است</string>
+    <string name="wireless_charging_title">شارژ بی سیم انجام می‌شود.</string>
+    <string name="cable_charging_title">شارژ کابلی</string>
+    <string name="wireless_charging_text">دستگاه را در این محدوده قرار داده اید. در حال شارژ کردن بصورت بی سیم…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">تغییر از شارژ بی سیم به شارژ سیمی</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">تغییر از شارژ سیمی به شارژ بی سیم</string>
+    <string name="wireless_charging_spen_warning_text">دستگاه شما بصورت بی سیم در حال شارژ است. S Pen در دامنه شارژر بی سیم کار نمی کند.</string>
+    <string name="incompatible_charger_title">هزینه‌ای ندارد.</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_dialog_text_for_tablet">The connected charger is incompatible with this tablet. To prevent damage to your tablet, charging has been stopped. To continue charging, use the original charger and cable that were provided with this tablet.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_notification_text">To charge faster, use the original charger</string>
+    <string name="slow_charging_toast_text">To charge faster, use the charger and cable that were provided with this phone</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="water_damage_warning_title">درپوش شارژ را بررسی کنید</string>
+    <string name="water_damage_warning_text">برای حفاظت در برابر آسیب ناشی از آب، قبل از استفاده درپوش شارژ را محکم ببندید</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">خاموش کردن دستگاه</string>
+    <string name="overheat_poweroff_warning_text">دستگاهتان بیش از حد داغ است. برای خنک شدن خاموش می‌شود.</string>
+    <string name="overheat_poweroff_warning_button_text">خاموش نکنید</string>
+    <string name="overheat_poweroff_notice_title">دستگاه به طور خودکار خاموش شد</string>
+    <string name="overheat_poweroff_notice_text">"دستگاهتان بیش از حد داغ است. برای جلوگیری از بروز آسیب خاموش می‌شود.‎
+
+داغ شدن بیش از حد ممکن است در اثر عوامل زیر رخ دهد:‎
+استفاده از برنامه‌های گرافیکی سنگین مثل بازی‌ها و پیمایش برنامه‌ها برای مدت طولانی.‎
+انتقال فایل‌های بزرگ.‎
+استفاده از دستگاه در هوای خیلی گرم."</string>
+    <string name="power_sharing_warning_title">اشتراک‌گذاری نیرو</string>
+    <string name="power_sharing_warning_text">نیروی باتری شما از محدوده اشتراک‌گذاری نیرو کمتر است. برای ادامه اشتراک‌گذاری نیرو، محدوده اشتراک‌گذاری نیرو را کمتر از میزان نیروی فعلی باتری تنظیم کنید.</string>
+    <string name="power_sharing_start_toast_text">در حال شروع اشتراک‌گذاری نیرو…</string>
+    <string name="power_sharing_end_notification_text">اشتراک‌گذاری نیرو پایان یافت. کابل را جدا کنید.</string>
+    <string name="face_detection_failure_text">‏‫پایداری هوشمند‬ چشمهای شما را نمی یابد.</string>
+    <string name="status_bar_recent_launch_task_manager_title">مدیر کارها</string>
+    <string name="status_bar_recent_launch_google_button">Google</string>
+    <string name="status_bar_recent_remove_all_button">بستن همه</string>
+    <string name="screen_capture_fail_for_storage_capacity">حافظه ذخیره سازی دستگاه پر است. چند مورد حذف شود.</string>
+    <string name="no_such_item">هیچ موردی یافت نشد.</string>
+    <string name="pickup_tutorial_title">هشدار هوشمند را امتحان کنید</string>
+    <string name="put_your_phone">پس از جدا کردن دستگاه، صفحه خاموش می شود.</string>
+    <string name="phone_detect">فرض کنید. پیام ها یا تماس های بی پاسخ دارید. دستگاه را جدا کنید. پس از خاموش شدن صفحه دوباره آن را انتخاب کنید.</string>
+    <string name="pick_up_your_phone">دستگاه خود را انتخاب کنید</string>
+    <string name="tutorial_complete">آموزش کامل شد.</string>
+    <string name="camera_alert">در حین تماس، راه‌اندازی دوربین ممکن نیست.</string>
+    <string name="stms_version">SM-G900F_EUR_20140228_0507</string>
+    <string name="wifi_cw_ready">China Telecom WLAN connected</string>
+    <string name="wifi_cw_ready_message">You have access to China Telecom WLAN network, consult 10000 to understand billing information, please turn off when not use</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">موافقم</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="quickpanel_ctwap_text">CTWAP</string>
+    <string name="quickpanel_ctnet_text">CTNET</string>
+    <string name="tethering_attention_title">توجه</string>
+    <string name="tethering_wifi_off_warning">فعال کردن نقطه اتصال Wi-Fi قابل حمل، Wi-Fi را خاموش می‌کند.</string>
+    <string name="quickpanel_air_view_warning">برای فعال کردن مشاهده بدون لمس، حداقل یک عملکرد را فعال کنید.</string>
+    <string name="quickpanel_air_view_warning_pen_support">برای فعال کردن مشاهده بدون لمس، حداقل یک عملکرد را از حالت مشاهده بدون لمس انتخابی فعال کنید</string>
+    <string name="quickpanel_air_gesture_warning">برای فعال کردن air gesture، حداقل یک عملکرد مربوطه را فعال کنید.</string>
+    <string name="quickpanel_air_gesture_warning_continue">برای رفتن به تنظیمات مربوطه، به یک دکمه تنظیمات سریع ضربه بزنید.</string>
+    <string name="roaming_title">رومینگ</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="gps_donotshow">دوباره نمایش داده نشود</string>
+    <string name="quickpanel_brightess_level">درجه</string>
+    <string name="quickpanel_brightess_minus">تفریق</string>
+    <string name="reading_mode_title">حالت خواندن</string>
+    <string name="reading_mode_alert">حالت خواندن فعال شده است. اکنون صفحه برای خواندن بهینه شده است. این حالت تنها در برنامه های کاربردی انتخابی دردسترس است.</string>
+    <string name="reading_mode_settings">تنظيمات</string>
+    <string name="automatic_brightness_message">تنظیمات روشنایی خودکار فقط در صفحه درونی اعمال می شوند</string>
+    <string name="manual_brightness_message">روشنایی بطور خودکار تنظیم شد. روشنایی خودکار غیرفعال شد.</string>
+    <string name="flight_mode_message_for_wifi_only">حالت پرواز به شما اجازه می دهد ویژگی های شبکه از جمله Wi-Fi و بلوتوث را خاموش کنید. جهت استفاده از Wi-Fi و بلوتوث، از قسمت تنظیمات یا پانل اعلان آن را روشن کنید.</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tutorial_notification_panel_drag_down">برای پایین کشیدن نوار وضعیت از بالای صفحه از انگشت خود استفاده کنید.</string>
+    <string name="tutorial_notification_panel_drag_down_complete">پانل اعلان نمایش داده می شود.</string>
+    <string name="tutorial_quick_panel_drag_down">برای پایین کشیدن نوار وضعیت از بالای صفحه از دو انگشت خود استفاده کنید.</string>
+    <string name="tutorial_quick_panel_drag_down_complete">پانل تنظیم سریع نمایش داده می شود.</string>
+    <string name="tutorial_expand_notification_panel_drag_down">برای پایین کشیدن یکی از لیست ها از پانل اعلان از دو انگشت خود استفاده کنید.</string>
+    <string name="tutorial_expand_notification_panel_drag_down_complete">اطلاعات بیشتر در مورد لیست انتخابی نمایش داده می شود.</string>
+    <string name="tutorial_invaild_action">عمل نامعتبر است. دوباره سعی کنید.</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="magnification_text_for_air_view_button">حرکات بزرگنمایی</string>
+    <string name="smartbonding_dialog_title">تقویت‌کننده دانلود</string>
+    <string name="smartbonding_dialog_wifi_text">با استفاده همزمان از شبکه‌های Wi-Fi و LTE، فایل‌های بزرگ (بیشتر از ‎%d مگابایت) را سریع‌تر دانلود کنید. توجه داشته باشید که بسته به وضعیت شبکه‌ها، تقویت‌کننده دانلود ممکن است فقط از شبکه‌های Wi-Fi یا LTE برای دانلود فایل‌ها استفاده کند.</string>
+    <string name="smartbonding_dialog_mobile_text">با استفاده همزمان از شبکه‌های Wi-Fi و LTE، فایل‌های بزرگ (بیشتر از ‎%d مگابایت) را سریع‌تر دانلود کنید. توجه داشته باشید که بسته به وضعیت شبکه‌ها، تقویت‌کننده دانلود ممکن است فقط از شبکه‌های Wi-Fi یا LTE برای دانلود فایل‌ها استفاده کند.</string>
+    <string name="smart_bonding_popup_msg">تقویت‌کننده دانلود فعال خواهد شد. دانلود از طریق شبکه‌های تلفن همراه ممکن است بسته به قرارداد پرداخت شما مشمول هزینه اضافی شود.</string>
+    <string name="smart_bonding_popup_msg_wifi">در حال حاضر Wi-Fi خاموش است. برای فعال کردن تقویت‌کننده دانلود، Wi-Fi و داده تلفن همراه هر دو باید روشن باشند. دانلود از طریق شبکه‌های تلفن همراه ممکن است بسته به قرارداد پرداخت شما مشمول هزینه اضافی شود.</string>
+    <string name="smart_bonding_popup_msg_data">در حال حاضر داده تلفن همراه خاموش است. برای فعال کردن تقویت‌کننده دانلود، Wi-Fi و داده تلفن همراه هر دو باید روشن باشند. دانلود از طریق شبکه‌های تلفن همراه ممکن است بسته به قرارداد پرداخت شما مشمول هزینه اضافی شود.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">در حال حاضر Wi-Fi و داده تلفن همراه خاموش هستند. برای فعال کردن تقویت‌کننده دانلود، Wi-Fi و داده تلفن همراه هر دو باید روشن باشند. دانلود از طریق شبکه‌های تلفن همراه ممکن است بسته به قرارداد پرداخت شما مشمول هزینه اضافی شود.</string>
+    <string name="smart_bonding_popup_msg_roaming">هنگام رومینگ استفاده از تقویت‌کننده دانلود ممکن نیست. پیشنهاد می‌کنیم دانلود را از طریق شبکه Wi-Fi انجام دهید.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">روشن کردن Wi-Fi</string>
+    <string name="smart_bonding_popup_msg_data_btn">روشن کردن داده تلفن همراه</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">روشن کردن Wi-Fiو داده تلفن همراه</string>
+    <string name="smart_bonding_turn_off_text">وقتی ‎1$s فعال است، استفاده از تقویت‌کننده دانلود ممکن نیست. ‎%2$s را غیرفعال کرده و دوباره امتحان کنید.</string>
+    <string name="smart_bonding_turn_off_text_airplane_mode">هنگامی که حالت پرواز فعال است اتصال به شبکه های تلفن همراه ممکن نیست. حالت پرواز را غیرفعال کرده و دوباره امتحان کنید.</string>
+    <string name="dialog_battery_data_warning">نقطه اتصال Wi-Fi قابل حمل باتری بیشتری مصرف می کند و استفاده از داده را افزایش می دهد. ادامه می دهید؟</string>
+    <string name="tether_settings_title_wifi">نقاط قابل حمل</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">اطلاعیه</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="cooling_title">دستگاه بیش از حد داغ است</string>
+    <string name="cooling_body">"دستگاه شما بیش از حد داغ شده است. اقداماتی برای خنک کردن دستگاه انجام خواهد شد.‎
+
+در این فاصله همچنان می‌توانید از تلفن استفاده کنید، ولی ممکن است‎
+- نور صفحه نمایش کم شود.‎
+- سرعت دستگاه کاهش یابد.‎
+- شارژ موقتاً متوقف شود.‎
+
+بستن برنامهٔ باز به خنک کردن دستگاه کمک می‌کند.‎
+
+پس از آنکه دستگاه خنک شد، کارکرد به طور خودکار به وضعیت عادی بازمی‌گردد."</string>
+    <string name="cooling_noti_text">برای مشاهده جزئیات، اینجا را کلیک کنید.</string>
+    <string name="cooling_popup_name">اعلانات</string>
+    <string name="cooling_noti_title">دستگاه بیش از حد داغ است</string>
+    <string name="btn_text_yes">تایید</string>
+    <string name="btn_text_no">لغو</string>
+    <string name="device_overheating">دستگاه بیش از حد داغ است</string>
+    <string name="colling_noti_text_2">باز کردن برنامه‌ها ممکن نیست. فقط می‌توانید از برنامه‌های تلفن و مخاطبین استفاده کنید.</string>
+    <string name="vol_panel_audio_settings">تنظیمات صوتی خود را تغییر دهید.</string>
+    <string name="guest_launge_warning_toast_text">در حالت میهمان، فعال یا غیرفعال کردن ‎%s ممکن نیست.</string>
+    <string name="safe_mode_title_vzw">خاموش کردن حالت ایمن</string>
+    <string name="safe_mode_popup_body_vzw">آیا می خواهید برای خاموش کردن حالت ایمن، تلفن خود را راه اندازی مجدد (ریستارت) کنید؟ کلیه برنامه های تلفن شما بازیابی خواهند شد.</string>
+    <string name="safe_mode_btn_cancel_vzw">لغو</string>
+    <string name="safe_mode_off_btn_vzw">خاموش کردن حالت ایمن</string>
+    <string name="safe_mode_noti_on_vzw">حالت ایمن فعال است</string>
+    <string name="safe_mode_noti_body_vzw">برای خاموش کردن حالت ایمن، ضربه بزنید.</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">برای اطلاعات بیشتر ضربه بزنید.</string>
+    <string name="cooling_popup_name_VZW">اعلان</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">تایید</string>
+    <string name="btn_text_no_VZW">لغو</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance will Automatically go back to normal."</string>
+    <string name="recent_menukey_press_description">برای مشاهده منو، کلید اخیر را فشار داده و نگهدارید.</string>
+    <string name="recent_menukey_press_description_vzw">کلید منو با کلید اخیر جایگزین شد تا بتوانید در بین برنامه‌هایی که اخیراً استفاده کرده‌اید سریع تغییر وضعیت دهید. برای اطلاعات بیشتر روی راهنما ضربه بزنید.</string>
+    <string name="recent_menukey_help_button">راهنما</string>
+</resources>

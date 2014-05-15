@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/TextLayout" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:dividerHorizontal" android:layout_alignParentBottom="true" android:showDividers="beginning">
+        <TextView android:textSize="17.0sp" android:gravity="left" android:id="@id/TextView" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ListLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/TextLayout" android:layout_alignParentTop="true">
+        <ListView android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="10.0" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="left|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@*android:id/empty" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:layout_weight="10.0" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/imageLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/no_item_icon" android:visibility="gone" android:layout_width="126.0dip" android:layout_height="126.0dip" android:src="@drawable/noitems_browser_synctab" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="21.0dip" android:textColor="@color/noitem_text_color" android:layout_gravity="center_horizontal" android:id="@id/no_item" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_saved_website_settings" />
+    </LinearLayout>
+</RelativeLayout>

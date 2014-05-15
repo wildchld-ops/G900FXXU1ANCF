@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:paddingTop="@dimen/alert_infobar_padding" android:paddingBottom="@dimen/alert_infobar_padding" android:stretchColumns="2" android:shrinkColumns="0"
+  xmlns:android="http://schemas.android.com/apk/res/android">"
+<TableRow android:gravity="center_vertical" android:id="@id/infobar_tablerow">
+        <TextView android:id="@id/infobar_message" android:layout_marginRight="@dimen/alert_infobar_padding" style="@style/AlertInfoText" />
+        <Button android:id="@id/alertinfo_button" style="@style/AlertInfoButton" />
+        <View android:id="@id/infobar_spacer" android:visibility="invisible" android:layout_height="0.0dip" />
+    </TableRow>
+</TableLayout>

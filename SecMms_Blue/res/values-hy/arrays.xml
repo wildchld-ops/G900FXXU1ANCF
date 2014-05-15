@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>Երջանիկ</item>
+        <item>Տխուր</item>
+        <item>Աչքով անել</item>
+        <item>Հանած լեզու</item>
+        <item>Զարմացած</item>
+        <item>Համբուրում է</item>
+        <item>Ճչում է</item>
+        <item>Հզոր</item>
+        <item>Փողով բերան</item>
+        <item>Ոտքը բերանում</item>
+        <item>Շփոթված</item>
+        <item>Հրեշտակ</item>
+        <item>Չորոշված</item>
+        <item>Լաց</item>
+        <item>Կնքած շուրթեր</item>
+        <item>Ծիծաղ</item>
+        <item>Շփոթված</item>
+        <item>Սիրտ</item>
+        <item>Գիժ</item>
+        <item>Հիմար ժպիտ</item>
+        <item>Անթափանց հայացք</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Օգտգրծել սարքի տառաչափերը</item>
+        <item>Մանր</item>
+        <item>Փոքր</item>
+        <item>Նորմալ</item>
+        <item>Մեծ</item>
+        <item>Խոշոր</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Օգտգրծել սարքի տառաչափերը</item>
+        <item>Մանր</item>
+        <item>Շատ փոքր</item>
+        <item>Փոքր</item>
+        <item>Միջին</item>
+        <item>Մեծ</item>
+        <item>Շատ մեծ</item>
+        <item>Խոշոր</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Բոլոր ալիքները</item>
+        <item>Իմ կապուղին</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-այբուբեն</item>
+        <item>Unicode</item>
+        <item>Ավտոմատ կերպով</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 օր</item>
+        <item>1 օր</item>
+        <item>2 օր</item>
+        <item>3 օր</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Արգելված է</item>
+        <item>Զգուշացում</item>
+        <item>Ազատ</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Միշտ</item>
+        <item>Հուշել</item>
+        <item>Երբեք</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Օրիգամի</item>
+        <item>Պիտակ</item>
+        <item>Փոփ</item>
+        <item>Մոդեռն</item>
+        <item>Վարդագույն</item>
+        <item>Կանխադրված</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Մեկ անգամ</item>
+        <item>Յուրաքանչյուր 2 րոպե</item>
+        <item>Ամեն 15 րոպե</item>
+        <item>Անջտված է</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Երբեք</item>
+        <item>Յուրաքանչյուր 2 րոպե</item>
+        <item>Յուրաքանչյուր 10 րոպե</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Տեղական</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 ժամ</item>
+        <item>6 ժամ</item>
+        <item>24 ժամ</item>
+        <item>2 օր</item>
+        <item>Ցանցի լռելյայն</item>
+        <item>Առավելագույն</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Բարձր</item>
+        <item>Նորմալ</item>
+        <item>Ցածր</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Անմիջապես</item>
+        <item>1 ժամ</item>
+        <item>6 ժամ</item>
+        <item>24 ժամ</item>
+        <item>1 շբթ</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 վայրկյան</item>
+        <item>5 վայրկյան</item>
+        <item>10 վայրկյան</item>
+        <item>20 վայրկյան</item>
+        <item>30 վայրկյան</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Անջտված է</item>
+        <item>Արգելափակել բոլոր հաղորդագրությունները</item>
+        <item>Արգելափակել գրանցված համարներն ու արտահայտությունները</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Ճիշտ նույնը, ինչ</item>
+        <item>Սկսվում է հետևյալով՝</item>
+        <item>Ավարտվում է հետևյալով՝</item>
+        <item>Ներառում է</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Մատյաններ</item>
+        <item>Կտկտր</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Հղգրության արգելափակում</item>
+        <item>Զանգի արգելափակում</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Հղգրության արգելափակում</item>
+        <item>Ձայնազանգի արգելափակում</item>
+        <item>Տեսազանգի արգելափակում</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Պահպանված է</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Նորմալ</item>
+        <item>Բարձր</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Կներեք, ես բաց եմ թողել Ձեր զանգը:</item>
+        <item>Ես ուշանում եմ, բայց մի քանի րոպեից այդտեղ կլինեմ:</item>
+        <item>Գործերդ ո՞նց են:</item>
+        <item>Ի՞նչ է պատահել:</item>
+        <item>Որտե՞ղ ես:</item>
+        <item>Խնդրում եմ զանգահարել ինձ, երբ ստանաք այս հաղորդագրությունը:</item>
+        <item>Ե՞րբ կարող ենք հանդիպել:</item>
+        <item>Շուտով կխոսենք:</item>
+        <item>Որտե՞ղ է հանդիպումը:</item>
+        <item>Ի՞նչ է համարը:</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Բրազիլական պորտուգալերեն</item>
+        <item>Անգլերեն (ՄԹ)</item>
+        <item>Անգլերեն (ԱՄՆ)</item>
+        <item>Ֆրանսերեն</item>
+        <item>Գերմաներեն</item>
+        <item>Իտալերեն</item>
+        <item>Ճապոներեն</item>
+        <item>Կորեերեն</item>
+        <item>Պարզեցված չինարեն</item>
+        <item>Ռուսերեն</item>
+        <item>Իսպաներեն</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Մանր</item>
+        <item>Փոքր</item>
+        <item>Նորմալ</item>
+        <item>Մեծ</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Բոլոր</item>
+        <item>Ուղարկող</item>
+        <item>Բովանդակություն</item>
+    </string-array>
+</resources>

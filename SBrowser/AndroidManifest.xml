@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1628" android:versionName="1.6.28" package="com.sec.android.app.sbrowser"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <permission android:label="@string/set_as_homepage" android:name="com.sec.android.app.browser.permission.HOMEPAGE" android:protectionLevel="signatureOrSystem" android:description="@string/about_blank" />
+    <permission android:name="com.sec.android.app.sbrowser.permission.READ_WRITE_BOOKMARK_FOLDERS" android:protectionLevel="signatureOrSystem" />
+    <permission android:name="com.sec.android.app.browser.permission.BROWSER_HEADERS" android:protectionLevel="signatureOrSystem" />
+    <permission android:name="com.sec.android.app.browser.permission.IMPORT_BOOKMARK" android:protectionLevel="signatureOrSystem" />
+    <permission android:name="com.sec.android.app.sbrowser.permission.QUICKACCESS" android:protectionLevel="signatureOrSystem" />
+    <uses-permission android:name="com.sec.android.app.sbrowser.permission.QUICKACCESS" />
+    <permission android:name="com.sec.android.app.sbrowser.operatorbookmarks.permission.BOOKMARK_AUTO_SET" android:protectionLevel="signatureOrSystem" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="com.samsung.helphub.permission.HELP" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="com.samsung.clipboardsaveservice.CLIPBOARDSAVESERVICE_PERMISSION" />
+    <uses-permission android:name="com.sec.android.app.twdvfs.DVFS_BOOSTER_PERMISSION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.MANAGE_USERS" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="com.sprint.internal.permission.SYSTEMPROPERTIES" />
+    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.sec.android.stk.permission.EVENT" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.sec.android.app.browser.permission.IMPORT_BOOKMARK" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="com.sec.smartcard.pinservice.permission.SMARTCARD_PIN_ACCESS" />
+    <uses-permission android:name="com.sec.smartcard.pinservice.permission.SMARTCARD_CRYPTO" />
+    <uses-permission android:name="com.sec.enterprise.mdm.permission.BROWSER_PROXY" />
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_BROWSE_WEB" />
+    <uses-permission android:name="com.sec.android.permission.SIDESYNC_URL" />
+    <uses-permission android:name="com.samsung.android.internal.intelligence.taskautomation.permission.ACTIVITYRULE" />
+    <uses-permission android:name="com.samsung.android.sdk.smartassistant.permission.READ_CARD_PROVIDER" />
+    <uses-permission android:name="com.samsung.android.sdk.smartassistant.permission.WRITE_CARD_PROVIDER" />
+    <uses-permission android:name="com.samsung.android.app.assistantmenu.permission.ADVERTISE_ASSISTANTMENU" />
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="nof.permission.RECEIVE_USER_MODE" />
+    <application android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:icon="@mipmap/sbrowser_icon" android:name="com.sec.android.app.sbrowser.common.SBrowserMobileApplication" android:largeHeap="true">
+        <uses-library android:name="sechardware" />
+        <activity android:theme="@style/MainTheme" android:label="@string/app_name" android:name="com.sec.android.app.sbrowser.SBrowserMainActivity" android:launchMode="singleTask" android:configChanges="locale|keyboard|keyboardHidden|orientation|uiMode|screenSize" android:alwaysRetainTaskState="true" android:windowSoftInputMode="adjustResize" android:hardwareAccelerated="true">
+            <meta-data android:name="assistantlist" android:resource="@xml/assistantlist" />
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_ACTIVITY_CHOOSER_FORWARD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="-101">
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.APP_BROWSER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="about" />
+                <data android:scheme="javascript" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="about" />
+                <data android:scheme="javascript" />
+                <data android:mimeType="text/html" />
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="application/xhtml+xml" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SBROWSER_VIEW_FROM_READER" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SBROWSER_VIEW_FOR_SAVED_LIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="chrome" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SBROWSER_VIEW_FROM_SCRAPLIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="multipart/related" android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.speech.action.VOICE_SEARCH_RESULTS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.INSIGHT_SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable" />
+        </activity>
+        <activity android:theme="@style/SBrowserSubActivityTheme" android:name="com.sec.android.app.sbrowser.mainactivity.controller.SecPowerControl" android:configChanges="locale|keyboardHidden|orientation|screenSize|layoutDirection" android:hardwareAccelerated="true" />
+        <activity android:theme="@style/BookmarkTheme2" android:label="@string/accessibility_button_bookmarks" android:name="com.sec.android.app.sbrowser.bookmarksDb.ui.ShowBookmarksActivity" android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize|layoutDirection" android:hardwareAccelerated="true" />
+        <activity android:theme="@style/AddBookmarkTheme" android:label="@string/app_name" android:name="com.sec.android.app.sbrowser.quickaccess.ui.AddQuickAccessActivity" android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize|layoutDirection" android:windowSoftInputMode="stateAlwaysVisible|adjustResize" />
+        <activity android:theme="@style/SelectFolderTheme" android:label="@string/bookmark_select_folder" android:name="com.sec.android.app.sbrowser.bookmarksDb.ui.SelectBookmarkFolderActivity" android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize|layoutDirection" android:windowSoftInputMode="adjustResize" android:hardwareAccelerated="true" />
+        <activity android:theme="@style/SelectFolderTheme" android:label="@string/bookmark_select_folder" android:name="com.sec.android.app.sbrowser.bookmarksDb.ui.CreateBookmarkFolderActivity" android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize|layoutDirection" android:windowSoftInputMode="adjustResize" android:hardwareAccelerated="true" />
+        <activity android:theme="@style/BookmarkTheme2" android:label="@string/history_title" android:name="com.sec.android.app.sbrowser.history.ui.HistoryActivity" android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" />
+        <activity android:theme="@style/MultiTabActivityTheme" android:label="@string/window_manager" android:name="com.sec.android.app.sbrowser.multiwindow.MultiTabActivity" android:configChanges="keyboard|keyboardHidden" android:windowSoftInputMode="stateAlwaysHidden|adjustPan" android:hardwareAccelerated="true" />
+        <activity android:theme="@style/SettingsTheme" android:label="@string/settings_title" android:name="com.sec.android.app.sbrowser.preferences.Settings" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustResize" android:hardwareAccelerated="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/ReadingListListTheme" android:label="@string/reader" android:name="com.sec.android.app.sbrowser.reader.ui.ReaderActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustNothing" android:hardwareAccelerated="true">
+            <intent-filter>
+                <action android:name="com.sec.android.app.sbrowser.action.READER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/ReadingListListTheme" android:label="@string/extracter" android:name="com.sec.android.app.sbrowser.extractmode.ExtracterActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustNothing" android:hardwareAccelerated="true" />
+        <activity android:theme="@style/BookmarkTheme2" android:label="@string/options_menu_scrap_list" android:name="com.sec.android.app.sbrowser.readinglist.activity.ReadingListActivity" android:exported="false" android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection" android:hardwareAccelerated="true" />
+        <receiver android:name="com.sec.android.app.sbrowser.readinglist.ui.ReadingListTaskAutomationRecevier" android:exported="true">
+            <intent-filter>
+                <action android:name="com.sec.android.app.sbrowser.action.card.RECEIVER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/SBrowserSubActivityTheme" android:name="com.sec.android.app.sbrowser.bookmarksDb.ui.DeleteBookmarksActivity" android:configChanges="locale|keyboardHidden|orientation|screenSize|layoutDirection" android:hardwareAccelerated="true" />
+        <activity android:theme="@style/SBrowserSubActivityTheme" android:name="com.sec.android.app.sbrowser.bookmarksDb.ui.MoveToFolderActivity" android:configChanges="locale|keyboardHidden|orientation|screenSize|layoutDirection" android:hardwareAccelerated="true" />
+        <activity android:theme="@style/BookmarkTheme" android:label="@string/sync_open_pages" android:name="com.sec.android.app.sbrowser.synctab.ui.SynctabActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" />
+        <activity android:theme="@style/AutoFillFormDeleteTheme" android:label="@string/autofill_profiles_title" android:name="com.sec.android.app.sbrowser.preferences.AutofillFormDelete" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@style/AddBookmarkTheme" android:label="@string/edit_folder" android:name="com.sec.android.app.sbrowser.bookmarksDb.ui.EditBookmarkFolderActivity" android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize|layoutDirection" android:windowSoftInputMode="stateAlwaysVisible|adjustResize" />
+        <activity android:theme="@style/SelectFolderTheme" android:name="com.sec.android.app.sbrowser.bookmarksDb.ui.ReOrderBookmarksActivity" android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize|layoutDirection" android:windowSoftInputMode="adjustPan" android:hardwareAccelerated="true" />
+        <activity android:theme="@style/DataChargingTheme" android:name="com.sec.android.app.sbrowser.common.DataChargingDialog" android:excludeFromRecents="true" android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.DataChargingDialog" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <provider android:label="@string/bookmarksync_label" android:name="org.samsung.chrome.browser.SbrChromeBrowserProvider" android:readPermission="com.android.browser.permission.READ_HISTORY_BOOKMARKS" android:writePermission="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" android:exported="true" android:authorities="com.sec.android.app.sbrowser.ChromeBrowserProvider;com.sec.android.app.sbrowser.operatorbookmarks;com.sec.android.app.sbrowser.BrowserProviderProxy">
+            <path-permission android:readPermission="android.permission.GLOBAL_SEARCH" android:pathPrefix="/search_suggest_regex_query" />
+            <path-permission android:readPermission="android.permission.GLOBAL_SEARCH" android:pathPrefix="/search_suggest_tag_query" />
+        </provider>
+        <provider android:name="com.sec.android.app.sbrowser.provider.QuickAccessPinnedProvider" android:permission="com.sec.android.app.sbrowser.permission.QUICKACCESS" android:exported="true" android:authorities="com.sec.android.app.sbrowser.quickaccesspinned" />
+        <service android:name="org.chromium.content.app.SandboxedProcessService0" android:permission="com.sec.android.app.sbrowser.permission.SANDBOX" android:exported="false" android:process=":sandboxed_process0" android:isolatedProcess="true" />
+        <service android:name="org.chromium.content.app.SandboxedProcessService1" android:permission="com.sec.android.app.sbrowser.permission.SANDBOX" android:exported="false" android:process=":sandboxed_process1" android:isolatedProcess="true" />
+        <service android:name="org.chromium.content.app.SandboxedProcessService2" android:permission="com.sec.android.app.sbrowser.permission.SANDBOX" android:exported="false" android:process=":sandboxed_process2" android:isolatedProcess="true" />
+        <service android:name="org.chromium.content.app.SandboxedProcessService3" android:permission="com.sec.android.app.sbrowser.permission.SANDBOX" android:exported="false" android:process=":sandboxed_process3" android:isolatedProcess="true" />
+        <service android:name="org.chromium.content.app.SandboxedProcessService4" android:permission="com.sec.android.app.sbrowser.permission.SANDBOX" android:exported="false" android:process=":sandboxed_process4" android:isolatedProcess="true" />
+        <service android:name="org.chromium.content.app.SandboxedProcessService5" android:permission="com.sec.android.app.sbrowser.permission.SANDBOX" android:exported="false" android:process=":sandboxed_process5" android:isolatedProcess="true" />
+        <receiver android:name="com.sec.android.app.sbrowser.common.SBrowserImportBookmarkReceiver" android:permission="com.sec.android.app.browser.permission.IMPORT_BOOKMARK">
+            <intent-filter>
+                <action android:name="com.sec.android.intent.action.REQUEST_RESTORE_BROWSER" />
+                <action android:name="android.intent.action.REQUEST_RESTORE_BROWSER" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sec.android.app.sbrowser.bookmarksDb.Controller.OperatorBookmarksSIMReceiver" android:permission="com.sec.android.app.sbrowser.operatorbookmarks.permission.BOOKMARK_AUTO_SET">
+            <intent-filter>
+                <action android:name="android.intent.action.BROWSER_AUTO_SET" />
+                <action android:name="android.intent.action.SIM_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sec.android.app.sbrowser.common.OpenDownloadReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sec.android.app.sbrowser.preferences.BrowserHomepageSetReceiver" android:permission="com.sec.android.app.browser.permission.HOMEPAGE">
+            <intent-filter>
+                <action android:name="android.intent.action.OMADM_BROWSER_SET_HOMEPAGE" />
+                <action android:name="android.intent.action.OMADM_BROWSER_GET_HOMEPAGE" />
+                <action android:name="android.intent.action.CSC_BROWSER_SET_HOMEPAGE" />
+                <action android:name="android.intent.action.MULTI_CSC_CLEAR" />
+                <action android:name="android.intent.action.CSC_BROWSER_HOMEPAGE" />
+                <action android:name="android.intent.action.CHAMELEON_BROWSER_SET_HOMEPAGE" />
+                <action android:name="android.intent.action.STK_BROWSER_GET_HOMEPAGE" />
+                <action android:name="android.intent.action.STK_BROWSER_HOMEPAGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sec.android.app.sbrowser.certificate.SBrowserSmartcardStatusReceiver" android:permission="android.permission.sec.MDM_SMARTCARD">
+            <intent-filter>
+                <action android:name="edm.intent.action.smartcard.browser.authentication" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sec.android.app.sbrowser.certificate.SBrowserKnoxRequestReceiver" android:permission="android.permission.sec.MDM_CERTIFICATE">
+            <intent-filter>
+                <action android:name="com.sec.enterprise.knox.certificate.CertificatePolicy.ACTION_CERTIFICATE_REMOVED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sec.android.app.sbrowser.searchengine.utilities.BrowserSearchEngineSetReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.CSC_BROWSER_SET_SEARCH_ENGINE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sec.android.app.sbrowser.common.BrowserHeadersSetReceiver" android:permission="com.sec.android.app.browser.permission.BROWSER_HEADERS">
+            <intent-filter>
+                <action android:name="android.intent.action.SPRINTEXTENSION_BROWSER_GET_HEADERS" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sec.android.app.sbrowser.common.NetworkSettingsReceiver" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sec.android.app.sbrowser.preferences.USBATComandReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BCS_REQUEST" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sec.android.app.sbrowser.preferences.BrowserIncognitoModeReceiver" android:permission="nof.permission.RECEIVE_USER_MODE">
+            <intent-filter>
+                <action android:name="nof.intent.action.NOTIFY_USER_MODE" />
+            </intent-filter>
+        </receiver>
+        <provider android:label="@string/sync_internet" android:name="com.sec.android.app.sbrowser.provider.SBrowserContentProvider" android:readPermission="com.android.browser.permission.READ_HISTORY_BOOKMARKS" android:writePermission="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" android:exported="true" android:authorities="com.sec.android.app.sbrowser.browser;com.sec.android.app.sbrowser" />
+        <provider android:name="com.sec.android.app.sbrowser.provider.BookmarkWidgetProvider" android:exported="false" android:authorities="com.sec.android.app.sbrowser.widget" />
+        <receiver android:label="@string/s_bookmarks" android:name=".BookmarkThumbnailWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.sec.android.app.sbrowser.BOOKMARK_APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/bookmarkthumbnailwidget_info" />
+            <meta-data android:name="com.sec.android.appwidget.widgetinfo" android:resource="@xml/bookmarkthumbnailwidget_size_info" />
+        </receiver>
+        <service android:name=".widget.BookmarkThumbnailWidgetService" android:permission="android.permission.BIND_REMOTEVIEWS" android:exported="false" />
+        <receiver android:name=".widget.BookmarkWidgetProxy" android:exported="false" />
+        <activity android:theme="@style/BookmarkWidgetConfigureTheme" android:name=".widget.BookmarkWidgetConfigure" android:hardwareAccelerated="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".widget.FavoriteAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.sec.android.app.sbrowser.widget.UPDATE" />
+                <action android:name="com.sec.android.app.sbrowser.widget.CLEAR" />
+                <action android:name="com.sec.android.app.sbrowser.widget.CLICKED" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/favoriteapp_widget_info" />
+            <meta-data android:name="com.sec.android.appwidget.widgetinfo" android:resource="@xml/favoriteapp_widget_provider_info" />
+        </receiver>
+        <provider android:name="com.sec.android.app.sbrowser.provider.TabThumbnailProvider" android:authorities="com.sec.android.app.sbrowser.tabthumbnail" />
+        <receiver android:name="com.sec.android.app.sbrowser.provider.SBrowserDeltaTimeChangedReciever">
+            <intent-filter>
+                <action android:name="com.sec.android.app.sbrowser.provider.DELTA_TIME_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sec.android.app.sbrowser.provider.SamsungAccountChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SAMSUNGACCOUNT_SIGNOUT_COMPLETED" />
+                <action android:name="android.intent.action.SAMSUNGACCOUNT_SIGNIN_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sec.android.app.sbrowser.common.SBrowserSideSyncReceiver" android:permission="com.sec.android.permission.SIDESYNC_URL">
+            <intent-filter>
+                <action android:name="com.sec.android.sidesync.common.URL_REQUEST" />
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.samsung.android.sdk.multiwindow.enable" android:value="true" />
+        <meta-data android:name="com.samsung.android.sdk.multiwindow.multiinstance.enable" android:value="true" />
+        <meta-data android:name="com.samsung.android.sdk.multiwindow.multiinstance.launchmode" android:value="singleTask" />
+        <meta-data android:name="com.samsung.android.sdk.multiwindow.penwindow.enable" android:value="true" />
+        <uses-library android:name="touchwiz" />
+        <activity android:theme="@style/AutoFillContainerTheme" android:label="@string/autofill_profiles_title" android:name="com.sec.android.app.sbrowser.preferences.SBrowserProfileEditorContainerActivity" android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysVisible|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.SHOW_PROFILECONTAINER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AddBookmarkTheme" android:label="@string/app_name" android:name=".bookmarksDb.ui.AddBookmarkActivity" android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize|layoutDirection" android:windowSoftInputMode="stateAlwaysVisible|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/bookmark" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".provider.DeviceNameChangeReceiver">
+            <intent-filter>
+                <action android:name="com.android.settings.DEVICE_NAME_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/DeleteSyncTabTheme" android:name=".synctab.ui.DeleteSyncTabActivity" android:configChanges="locale|keyboardHidden|orientation|screenSize|layoutDirection" android:hardwareAccelerated="true" />
+        <uses-library android:name="com.sec.smartcard.auth" android:required="false" />
+        <meta-data android:name="com.samsung.android.guest_lounge" android:value="true" />
+        <meta-data android:name="com.sec.android.display_priority" android:value="1" />
+    </application>
+    <uses-permission android:name="android.permission.CAMERA" />
+</manifest>

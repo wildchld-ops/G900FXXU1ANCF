@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <com.android.settings.UnclickablePreference android:key="informative_screen_help" />
+    <PreferenceCategory android:title="@string/set_time_category" android:key="set_time_category">
+        <ListPreference android:persistent="false" android:entries="@array/informative_screen_timeout_entries" android:title="@string/screen_timeout" android:key="set_time" android:summary="@string/screen_timeout_summary" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/informative_screen_timeout_values" />
+        <CheckBoxPreference android:title="@string/always_title" android:key="always" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/set_color_category" android:key="set_color_category">
+        <ListPreference android:persistent="false" android:entries="@array/informative_set_color_entries" android:title="@string/screen_color" android:key="set_color" android:summary="@string/screen_timeout_summary" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/informative_set_color_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/manage_information_category" android:key="manage_information_category">
+        <CheckBoxPreference android:title="@string/news" android:key="news" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/video_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="120.0dip">
+        <FrameLayout android:id="@id/farEndSurfaceLayoutTemplate" android:layout_width="@dimen/farendview_qvgaland_incall_width" android:layout_height="@dimen/farendview_qvgaland_incall_height" android:layout_alignParentLeft="true" />
+        <RelativeLayout android:layout_gravity="center" android:id="@id/farEndSurfaceLayoutTemplate_resize" android:layout_width="@dimen/farendview_resize_incall_height" android:layout_height="@dimen/farendview_resize_incall_width" android:layout_marginLeft="@dimen/preview_incomingcall_resize_margin_left" android:layout_marginTop="@dimen/preview_incomingcall_resize_margin_top" />
+        <FrameLayout android:id="@id/farEndSurfaceLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextureView android:layout_gravity="center" android:id="@id/far_end" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <RelativeLayout android:layout_gravity="center" android:id="@id/farEndPreparingAnimation" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:gravity="center" android:id="@id/farEndPreparingAnimationImage" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginBottom="6.0dip" android:layout_centerInParent="true" />
+                <TextView android:textColor="#ffdcdcdc" android:gravity="center_horizontal" android:id="@id/farEndPreparingAnimationText" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/prepareOtherVideo" android:singleLine="true" android:layout_below="@id/farEndPreparingAnimationImage" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/incomingSurfaceLayoutTemplate" android:layout_width="@dimen/nearendview_incomingcall_width" android:layout_height="@dimen/nearendview_incomingcall_height" android:layout_alignParentBottom="true" />
+        <FrameLayout android:id="@id/outgoingSurfaceLayoutTemplate" android:layout_width="@dimen/nearendview_outgoingcall_width" android:layout_height="@dimen/nearendview_outgoingcall_height" />
+        <FrameLayout android:id="@id/nearEndSurfaceLayoutTemplate" android:layout_width="@dimen/nearendview_qvgaland_incall_width" android:layout_height="@dimen/nearendview_qvgaland_incall_height" android:layout_toRightOf="@id/farEndSurfaceLayoutTemplate" />
+        <FrameLayout android:id="@id/nearEndSurfaceLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextureView android:layout_gravity="center" android:id="@id/near_end" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/near_end_switch_animation" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:visibility="visible" android:layout_width="2.0dip" android:layout_height="2.0dip">
+            <ImageView android:background="#00000000" android:layout_width="2.0dip" android:layout_height="2.0dip" android:src="@drawable/videocall_during_rec" />
+        </LinearLayout>
+        <ToggleButton android:id="@id/incomingHideButton" android:layout_marginBottom="50.0dip" style="@style/incomingVTCallHideButton" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/indicator_area" android:layout_width="fill_parent" android:layout_height="@dimen/indicator_area_height" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/indicator_area">
+        <ImageView android:gravity="top|center" android:id="@id/far_end_photo" android:visibility="gone" android:layout_width="@dimen/call_card_height" android:layout_height="@dimen/call_card_height" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/insetPhoto" android:padding="7.0dip" android:visibility="gone" android:layout_width="@dimen/contact_photo_inset_width" android:layout_height="@dimen/contact_photo_inset_height" android:layout_marginTop="22.0dip" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/callsate_container" android:background="@color/incall_call_banner_background" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/one_call_number_text_size" android:textColor="@color/incall_call_banner_text_color" android:gravity="top|right|center" android:id="@id/elapsedTime" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="@dimen/vt_callstate_container_height" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/InCallButtonTextShadowEffect" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/callstate_container_text_size" android:textColor="@color/incall_call_banner_text_color" android:gravity="top|right|center" android:id="@id/callStateLabel" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="@dimen/vt_callstate_container_height" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/InCallButtonTextShadowEffect" />
+            <ImageView android:gravity="right|center" android:id="@id/periodMark" android:paddingRight="@dimen/periodmark_right_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/primary_call_banner" android:background="@color/incall_call_banner_background" android:paddingLeft="@dimen/vt_call_banner_side_padding_left" android:paddingTop="1.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/vt_call_banner_height" android:layout_below="@id/callsate_container">
+            <ImageView android:layout_gravity="left" android:id="@id/photo" android:visibility="gone" android:layout_width="62.0dip" android:layout_height="62.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@string/contactPhoto" />
+            <LinearLayout android:orientation="vertical" android:id="@id/inner_primary_call_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_toRightOf="@id/photo">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/one_call_name_text_size" android:textColor="@color/incall_call_banner_text_color" android:gravity="left|center" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="@dimen/vt_caller_name_height" android:maxWidth="280.0dip" android:singleLine="true" android:includeFontPadding="false" style="@style/InCallButtonTextShadowEffect" />
+                <RelativeLayout android:orientation="horizontal" android:id="@id/labelAndNumber" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/iconLabel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/one_call_number_text_size" android:textColor="@color/incall_call_banner_2nd_text_color" android:id="@id/phoneNumber" android:layout_width="fill_parent" android:layout_height="@dimen/vt_caller_number_height" android:maxWidth="260.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_toRightOf="@id/iconLabel" style="@style/InCallButtonTextShadowEffect" />
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/one_call_number_text_size" android:textColor="@color/incall_call_banner_2nd_text_color" android:id="@id/label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:singleLine="true" android:layout_toRightOf="@id/phoneNumber" />
+                </RelativeLayout>
+            </LinearLayout>
+            <ImageView android:id="@id/callTypeIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/contacts_list_icon_internetcall" android:layout_alignBottom="@id/name" android:layout_alignParentRight="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/incall_call_banner_text_color" android:ellipsize="end" android:id="@id/callTypeLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/labelAndNumber" />
+            <ImageButton android:id="@id/onScreenMenuBtn" android:background="@drawable/incall_menu_button_bg" android:layout_width="55.0dip" android:layout_height="57.0dip" android:src="@drawable/call_duringcall_menu_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/more_menu" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

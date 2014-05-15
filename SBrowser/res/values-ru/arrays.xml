@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Всегда вкл.</item>
+        <item>По запросу</item>
+        <item>Выкл.</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Страница по умолчанию</item>
+        <item>Текущая страница</item>
+        <item>Быстрый доступ</item>
+        <item>Часто посещаемые сайты</item>
+        <item>Другое</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Устройство</item>
+        <item>Карта памяти</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Латиница-1 (ISO-8859-1)</item>
+        <item>Юникод (UTF-8)</item>
+        <item>Китайский (GBK)</item>
+        <item>Китайский (Big5)</item>
+        <item>Японский (ISO-2022-JP)</item>
+        <item>Японский (SHIFT JIS)</item>
+        <item>Японский (EUC-JP)</item>
+        <item>Корейский (EUC-KR)</item>
+        <item>Автоопределение</item>
+    </string-array>
+</resources>

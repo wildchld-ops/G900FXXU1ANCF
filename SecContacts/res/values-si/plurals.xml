@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">%d සබඳතා පෙන්වමින්</item>
+        <item quantity="one">සබඳතා 1ක් පෙන්වමින්</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">දුරකථන අංක සමඟ සබඳතා %d ක් පෙන්වන්න</item>
+        <item quantity="one">දුරකථන අංකය සමඟ සබඳතා 1 ක් පෙන්වන්න</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">දුරකථන අංක ඇති සබඳතා %d යි</item>
+        <item quantity="one">දුරකථන අංකය සමග 1 සබඳතාවක්</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d සබඳතා</item>
+        <item quantity="one">සබඳතා 1</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%dක් හමු විය</item>
+        <item quantity="one">1ක් හමු විය</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%dක් හමු විය</item>
+        <item quantity="one">1ක් හමු විය</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d කණ්ඩායම්</item>
+        <item quantity="one">1 කණ්ඩායම</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">පුද්ගලයින් %1$d ක් %2$s කණ්ඩාය.</item>
+        <item quantity="one">පුද්ගලයින් %1$d ක් %2$s කණ්ඩා.</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d දෙනෙක්</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">හඬ පණිවිඩ %d</item>
+        <item quantity="one">හඬ පණිවිඩ</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d අන්තර්ගත පිටපත් කරන ලදි.</item>
+        <item quantity="one">සබඳතා %d ක් පිටපත් කෙරිණි.</item>
+    </plurals>
+</resources>

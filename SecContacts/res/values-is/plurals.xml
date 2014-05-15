@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">Sýni %d tengiliði</item>
+        <item quantity="one">Sýni 1 tengilið</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">Sýni %d tengiliði ásamt símanúmerum</item>
+        <item quantity="one">Sýni 1 tengilið ásamt símanúmeri</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d tengiliðir með símanúmer</item>
+        <item quantity="one">1 tengiliður með símanúmer</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d tengiliðir</item>
+        <item quantity="one">1 tengiliður</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d fannst</item>
+        <item quantity="one">1 fannst</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d fannst</item>
+        <item quantity="one">1 fannst</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d hópar</item>
+        <item quantity="one">1 hópur</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d aðilar í hópnum %2$s</item>
+        <item quantity="one">%1$d aðili í hópnum %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d manns</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d talhólfsskilaboð</item>
+        <item quantity="one">Talhólf</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d tengiliðir voru afritaðir.</item>
+        <item quantity="one">%d tengiliður var afritaður.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>ସର୍ବଦା ଅନ୍</item>
+        <item>ଆବଶ୍ୟକ ଅନୁଯାୟୀ</item>
+        <item>ଅଫ୍</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>ଡିଫଲ୍ଟ ପୃଷ୍ଠା</item>
+        <item>ସଂପ୍ରତି ପୃଷ୍ଠା</item>
+        <item>ଦ୍ରୁତ ପ୍ରବେଶ</item>
+        <item>ପ୍ରାୟତଃ ଭ୍ରମଣ ହୋଇଥିବା ସାଇଟ୍‌ଗୁଡିକ</item>
+        <item>ଅନ୍ୟ</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>ଡିଭାଇସ୍</item>
+        <item>SD କାର୍ଡ୍</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>ଲାଟିନ୍-1 (ISO-8859-1)</item>
+        <item>ୟୁନିକୋଡ୍ (UTF-8)</item>
+        <item>ଚିନୀୟ (GBK)</item>
+        <item>ଚିନୀୟ (Big5)</item>
+        <item>ଜାପାନିଜ୍ (ISO-2022-JP)</item>
+        <item>ଜାପାନିଜ୍ (SHIFT JIS)</item>
+        <item>ଜାପାନିଜ୍ (EUC-JP)</item>
+        <item>କୋରିଆନ୍ (EUC-KR)</item>
+        <item>ସ୍ଵତଃ ଚିହ୍ନଟ</item>
+    </string-array>
+</resources>

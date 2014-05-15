@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/list_item_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/tw_list_item_height">
+        <View android:id="@id/group_view_indent" android:layout_width="@dimen/tw_expandable_list_group_view_indent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/textAppearanceListPrimary" android:ellipsize="marquee" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="@style/textAppearanceListSecondary" android:ellipsize="marquee" android:id="@id/sub_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textAppearance="@style/textAppearanceGroupMemberCount" android:ellipsize="marquee" android:id="@id/count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/group_member_count_text_margin_left" android:layout_marginRight="@dimen/group_member_count_text_margin_right" android:singleLine="true" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

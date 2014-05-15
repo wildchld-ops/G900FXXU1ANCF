@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/editor_kind_section_left_padding" android:paddingEnd="@dimen/editor_kind_section_right_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/kind_title" android:layout_width="0.0px" android:layout_height="wrap_content" android:minHeight="@dimen/editor_add_delete_icon_size" android:includeFontPadding="false" android:layout_weight="1.0" style="@style/EditorKindTitleTextAppearance" />
+    <ImageView android:id="@id/tw_add_field_btn" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/editor_add_delete_icon_size" android:layout_height="@dimen/editor_add_delete_icon_size" android:src="@drawable/tw_list_icon_create" android:contentDescription="@string/add_new_entry_for_section" android:layout_marginStart="@dimen/editor_add_delete_icon_left_padding" />
+</LinearLayout>

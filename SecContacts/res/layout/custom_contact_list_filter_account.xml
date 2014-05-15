@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingLeft="@dimen/tw_expandableAccountListPreferredItemPaddingLeft" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+        <RelativeLayout android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/tw_expandableListPrimaryTextSize" android:ellipsize="marquee" android:id="@*android:id/text1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="@style/ExpandableSecondaryTextAppearance" android:id="@*android:id/text2" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@*android:id/text1" android:layout_alignLeft="@*android:id/text1" />
+        </RelativeLayout>
+        <ImageView android:id="@id/rowIcon" android:layout_width="@dimen/tw_expandableLayoutWidth" android:layout_height="fill_parent" android:scaleType="center" />
+    </LinearLayout>
+</LinearLayout>

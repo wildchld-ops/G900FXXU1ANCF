@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/select_all_item_bg" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/contact_history_select_list_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/SelectAllTextAppearance" android:textSize="@dimen/select_list_all_text_size" android:gravity="center_vertical" android:id="@id/select_list_all_text" android:paddingLeft="@dimen/select_list_all_text_padding_left" android:focusable="false" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="@dimen/contact_history_select_list_header_height" android:text="@string/menu_select_all" android:layout_weight="0.8" />
+    <com.sec.android.touchwiz.widget.TwCheckBox android:layout_gravity="center_vertical" android:id="@id/select_list_all_item_checkBox" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="@dimen/contact_history_select_list_header_height" android:layout_marginRight="@dimen/contact_history_checkbox_margin_right" />
+</LinearLayout>

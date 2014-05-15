@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mainView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/search_bar_layout" layout="@layout/tw_contacts_search_bar_easymode" />
+    <FrameLayout android:id="@id/unavailable_view_container" android:background="?contact_browser_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <SearchView android:id="@id/multi_selection_search_view" android:background="@drawable/tw_searchfiled_background_holo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/search_bar_height" android:iconifiedByDefault="false" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/search_no_matches_view" android:background="?contact_browser_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/search_header" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/list_content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/pinned_header_list_layout" android:background="?contact_browser_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/account_filter_header_container" layout="@layout/account_filter_header" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <view android:id="@*android:id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="?contact_browser_list_padding_left" android:layout_marginRight="?contact_browser_list_padding_right" android:fastScrollEnabled="false" class="com.android.contacts.common.list.AutoScrollListView" />
+                <include android:id="@id/contact_empty_view" layout="@layout/empty_layout" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/search_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+            </FrameLayout>
+        </LinearLayout>
+        <com.sec.android.touchwiz.widget.TwLangIndexScrollView android:id="@id/tw_index_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz" />
+    </FrameLayout>
+</LinearLayout>

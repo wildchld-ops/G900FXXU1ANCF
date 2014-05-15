@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Միշտ միացված</item>
+        <item>Ցպահանջ</item>
+        <item>Անջատել</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Կանխադրված էջ</item>
+        <item>Ընթացիկ էջ</item>
+        <item>Արագ մուտք</item>
+        <item>Առավել այցելված կայքեր</item>
+        <item>Այլ</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Սարք</item>
+        <item>SD քարտ</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Լատիներեն-1 (ISO-8859-1)</item>
+        <item>Յունիկոդ (UTF-8)</item>
+        <item>Չինարեն (GBK)</item>
+        <item>Չինարեն (Big5)</item>
+        <item>Ճապոներեն (ISO-2022-JP)</item>
+        <item>Ճապոներեն (SHIFT JIS)</item>
+        <item>Ճապոներեն (EUC-JP)</item>
+        <item>Կորեերեն (EUC-KR)</item>
+        <item>Ինքնաբերաբար հայտնաբերել</item>
+    </string-array>
+</resources>

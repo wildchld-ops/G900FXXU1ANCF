@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/pref_homepage_choices" android:title="@string/pref_content_homepage" android:key="homepage_picker" android:entryValues="@array/pref_homepage_values" />
+</PreferenceScreen>

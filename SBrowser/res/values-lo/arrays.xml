@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>ເປີດທຸກຄັ້ງ</item>
+        <item>ຕາມຄວາມຕ້ອງການ</item>
+        <item>ມອດ</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>ໜ້າມາດຕະຖານ</item>
+        <item>ໜ້າປະຈຸບັນ</item>
+        <item>ເຂົ້າໃຊ້ດ່ວນ</item>
+        <item>ເວັບໄຊທ໌ທີ່ເຂົ້າມາເບິ່ງຫຼາຍທີ່ສຸດ</item>
+        <item>ອື່ນໆ</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>ອຸປະກອນ</item>
+        <item>ແຜ່ນ SD</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>ພາສາລາຕິນ-1 (ISO-8859-1)</item>
+        <item>ຢູນິໂຄດ (UTF-8)</item>
+        <item>ພາສາຈີນ (GBK)</item>
+        <item>ພາສາຈີນ (Big5)</item>
+        <item>ພາສາຍີປຸ່ນ (ISO-2022-JP)</item>
+        <item>ພາສາຍີປຸ່ນ (SHIFT JIS)</item>
+        <item>ພາສາຍີປຸ່ນ (EUC-JP)</item>
+        <item>ພາສາເກົາຫຼີ (EUC-KR)</item>
+        <item>ກວດພົບອັດຕະໂນມດ</item>
+    </string-array>
+</resources>

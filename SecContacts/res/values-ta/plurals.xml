@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">%d தொடர்புகளை காட்டுகிறது</item>
+        <item quantity="one">1 தொடர்பை காட்டுகிறது</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">%d தொடர்புகளை ஃபோன் எண்களுடன் காட்டுகிறது</item>
+        <item quantity="one">1 தொடர்பை ஃபோன் எண்ணுடன் காட்டுகிறது</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d தொடர்புகளுடன் ஃபோன் எண்கள்</item>
+        <item quantity="one">ஃபோன் எண்ணுடன் 1 தொடர்பு</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d தொடர்புகள்</item>
+        <item quantity="one">1 தொடர்பு</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d காணப்பட்டுள்ளன</item>
+        <item quantity="one">1 காணப்பட்டது</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d காணப்பட்டுள்ளன</item>
+        <item quantity="one">1 காணப்பட்டது</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d குழுக்கள்</item>
+        <item quantity="one">1 குழு</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">குழு %2$s-களில் %1$d பேர்</item>
+        <item quantity="one">குழு %2$s-களில் %1$d நபர்</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d நபர்கள்</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d குரலஞ்சல்கள்</item>
+        <item quantity="one">குரலஞ்சல்</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d தொடர்புகள் நகலெடுக்கப்பட்டன.</item>
+        <item quantity="one">%d தொடர்பு நகலெடுக்கப்பட்டது.</item>
+    </plurals>
+</resources>

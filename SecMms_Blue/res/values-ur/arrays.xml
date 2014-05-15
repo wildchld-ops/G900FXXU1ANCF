@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>خوش</item>
+        <item>افسردہ</item>
+        <item>ونکنگ</item>
+        <item>زبان باہر لٹک جانا</item>
+        <item>حیران</item>
+        <item>کسنگ</item>
+        <item>چيخنا</item>
+        <item>کول</item>
+        <item>دولت کا منہ</item>
+        <item>پیر کا انگوٹھا منہ میں</item>
+        <item>شرمندہ</item>
+        <item>فرشتہ</item>
+        <item>غیر فیصلہ شدہ</item>
+        <item>کرائنگ</item>
+        <item>ہونٹوں پر مہر</item>
+        <item>لافنگ</item>
+        <item>کنفیوزڈ</item>
+        <item>ہارٹ</item>
+        <item>سودائی</item>
+        <item>بناوٹی مسکراہٹ</item>
+        <item>جذبات سے عاری چہرہ</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>آلہ کے فونٹ سائز استعمال</item>
+        <item>ننھا</item>
+        <item>چھوٹا</item>
+        <item>نارمل</item>
+        <item>بڑا</item>
+        <item>عظیم الجثہ</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>آلہ کے فونٹ سائز استعمال</item>
+        <item>ننھا</item>
+        <item>بہت ہی چھوٹا</item>
+        <item>چھوٹا</item>
+        <item>درمیانہ</item>
+        <item>بڑا</item>
+        <item>اضافی طور پر بڑا</item>
+        <item>عظیم الجثہ</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>تمام چینل</item>
+        <item>میرا چینل</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM - الفابیٹ</item>
+        <item>یونی کوڈ</item>
+        <item>آٹومیٹک</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 دن</item>
+        <item>1 دن</item>
+        <item>2 دن</item>
+        <item>3 دن</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>محفوظ کریں</item>
+        <item>خطرہ</item>
+        <item>خالی</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>ہمیشہ</item>
+        <item>چست</item>
+        <item>کبھی نہیں</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>اوریگامی</item>
+        <item>لیبل</item>
+        <item>پاپ</item>
+        <item>جدید</item>
+        <item>گلابی</item>
+        <item>طے شدہ</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>ایک مرتبہ</item>
+        <item>ہر 2 منٹ بعد</item>
+        <item>ہر 15 منٹ بعد</item>
+        <item>آف</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>کبھی نہیں</item>
+        <item>ہر 2 منٹ بعد</item>
+        <item>ہر 10 منٹ بعد</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>اندرون ملک</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 گھنٹہ</item>
+        <item>6گھنٹے</item>
+        <item>24 گھنٹے</item>
+        <item>2 دن</item>
+        <item>نیٹ ورک طے شدہ</item>
+        <item>انتہائی زیادہ</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>زیادہ</item>
+        <item>عام</item>
+        <item>کم</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>جلدی</item>
+        <item>1 گھنٹہ</item>
+        <item>6گھنٹے</item>
+        <item>24 گھنٹے</item>
+        <item>1 ھفتہ</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 سیکینڈ</item>
+        <item>5 سیکنڈز</item>
+        <item>10 سیکنڈز</item>
+        <item>20 سیکنڈز</item>
+        <item>30 سیکنڈز</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>آف</item>
+        <item>سب پیغامات بلاک کریں</item>
+        <item>رجسٹر شدہ نمبر اور جملے بلاک کریں</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>بالکل ویسے ہی</item>
+        <item>سے شروع ہوتا ہے</item>
+        <item>سے ختم ہوتا ہے</item>
+        <item>ہے</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>لاگز</item>
+        <item>روابط</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>پیغام بلاک</item>
+        <item>کال بلاک کریں</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>پیغام بلاک</item>
+        <item>صوتی کال بلاک</item>
+        <item>ویڈیو کال بلاک</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>محفوظ کر دی۔</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>معمولی</item>
+        <item>زیادہ</item>
+    </string-array>
+    <string-array name="templates">
+        <item>معذرت، مجھ سے آپ کی کال چھوٹ گئی۔</item>
+        <item>مجھے دیر ہوگئی، لیکن میں چند منٹ میں وہاں ہوں گا۔</item>
+        <item>یہ کیسا چل رہا ہے؟</item>
+        <item>کیا ہورہا ہے؟</item>
+        <item>آپ کہاں ہیں؟</item>
+        <item>جب آپ کو یہ پیغام ملے برائے مہربانی مجھے کال کریں۔</item>
+        <item>ھم کب ملاقات کر سکتے ہیں؟</item>
+        <item>میں آپ سے جلد بات کروں گا۔</item>
+        <item>میٹنگ کہاں ہے؟</item>
+        <item>کیا نمبر ہے؟</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>برازیلین پرتگالی</item>
+        <item>انگریزی (یو کے)</item>
+        <item>انگریزی (امریکہ)</item>
+        <item>فرانسیسی</item>
+        <item>جرمن</item>
+        <item>اطالوی</item>
+        <item>جاپانی</item>
+        <item>کورین</item>
+        <item>سہل کردہ چینی</item>
+        <item>روسی</item>
+        <item>ہسپانوی</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>ننھا</item>
+        <item>چھوٹا</item>
+        <item>نارمل</item>
+        <item>بڑا</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>تمام</item>
+        <item>بھیجنے والا</item>
+        <item>اجزا</item>
+    </string-array>
+</resources>

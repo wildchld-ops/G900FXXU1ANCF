@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>నెట్‌వర్క్ డిఫాల్ట్</item>
+        <item>నంబర్ హైడ్ అయ్యింది</item>
+        <item>నంబర్‌ను చూపు</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>డీఫాల్ట్</item>
+        <item>దాచు</item>
+        <item>చూపు</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE / WCDMA</item>
+        <item>LTE</item>
+        <item>గ్లోబల్</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>EVDO మాత్రమే</item>
+        <item>CDMA w/o EVDO</item>
+        <item>CDMA/EVDO స్వయం</item>
+        <item>GSM / WCDMA auto</item>
+        <item>WCDMA మాత్రమే</item>
+        <item>GSM మాత్రమే</item>
+        <item>GSM / WCDMA preferred</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_automatic_cdma_lte_gsm">
+        <item>CDMA</item>
+        <item>LTE / CDMA</item>
+        <item>GSM / UMTS</item>
+        <item>ఆటోమెటిక్</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_lte_global">
+        <item>గ్లోబల్</item>
+        <item>LTE / CDMA</item>
+        <item>GSM / UMTS</item>
+        <item>CDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_lte_global_non_cdma">
+        <item>గ్లోబల్</item>
+        <item>LTE / CDMA</item>
+        <item>GSM / UMTS</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_global_lte_gsm">
+        <item>గ్లోబల్</item>
+        <item>LTE</item>
+        <item>GSM / UMTS</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>ఇంగ్లీష్</item>
+        <item>ఫ్రెంచ్</item>
+        <item>స్పానిష్</item>
+        <item>జపనీస్</item>
+        <item>కొరియన్</item>
+        <item>చైనీస్</item>
+        <item>హెబ్రూ</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>హోమ్ మాత్రమే</item>
+        <item>ఆటోమేటిక్</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices_home_only">
+        <item>హోమ్ మాత్రమే</item>
+    </string-array>
+    <string-array name="cdma_system_select_sub_choices">
+        <item>హోమ్ మాత్రమే</item>
+        <item>ఆటోమేటిక్ A</item>
+        <item>ఆటోమేటిక్ B</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY Off</item>
+        <item>TTY Full</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>సాధారణం</item>
+        <item>పొడవు</item>
+    </string-array>
+    <string-array name="dtmf_tone_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="RAD_arr_roaming_auto_dial_help">
+        <item>Roaming Auto Dial Help</item>
+    </string-array>
+    <string-array name="RAD_roaming_auto_dial_settings">
+        <item>On</item>
+        <item>Off</item>
+        <item>Always call to Korea</item>
+    </string-array>
+    <string-array name="roaming_mode_entries">
+        <item>స్ప్రింట్ మాత్రమే</item>
+        <item>ఆటోమేటిక్</item>
+    </string-array>
+    <string-array name="roaming_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="roaming_network_mode_list">
+        <item>స్వీయ</item>
+        <item>WCDMA మాత్రమే</item>
+        <item>GSM మాత్రమే</item>
+    </string-array>
+    <string-array name="system_setting_entries">
+        <item>జాపాన్</item>
+        <item>Automatic(Roaming/Japan)</item>
+        <item>GSM/UMTS(Roaming)</item>
+    </string-array>
+</resources>

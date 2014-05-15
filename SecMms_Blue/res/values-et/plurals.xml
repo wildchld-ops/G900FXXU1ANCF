@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s vestlust</item>
+        <item quantity="one">1 vestlus</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s sõnumit</item>
+        <item quantity="one">1 message</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d vestlust</item>
+        <item quantity="one">%d vestlus</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s ja %2$d veel</item>
+        <item quantity="one">%s ja 1 veel</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s ja %2$d veel</item>
+        <item quantity="one">%s ja 1 veel</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">Sõnumid on SIM-kaardilt kustutatud.</item>
+        <item quantity="one">Sõnum on SIM-kaardilt kustutatud.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">Sõnumid on SIM-kaardilt kopeeritud.</item>
+        <item quantity="one">Sõnum on SIM-kaardilt kopeeritud.</item>
+    </plurals>
+</resources>

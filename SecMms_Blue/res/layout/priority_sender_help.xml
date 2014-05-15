@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/priority_sender_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="21.0dip" android:textColor="@color/header_text_color" android:gravity="center_vertical" android:id="@id/add_priority_sender" android:background="@drawable/selector_add_priority_sender" android:paddingLeft="17.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="55.0dip" android:text="@string/tap_to_add_priority_senders" android:singleLine="true" android:drawableLeft="@drawable/selector_message_add2_button" android:drawablePadding="7.0dip" />
+    <com.sec.android.touchwiz.widget.TwHorizontalDndListView android:scrollbarStyle="insideOverlay" android:id="@id/priority_sender_list" android:background="@drawable/tw_sub_action_bar_bg" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="102.0dip" android:listSelector="@*android:color/transparent" android:drawSelectorOnTop="false" android:divider="@*android:color/transparent" android:layout_alignParentTop="true" />
+    <ListView android:id="@id/messageList" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

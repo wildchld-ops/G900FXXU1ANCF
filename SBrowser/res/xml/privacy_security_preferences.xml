@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <PreferenceCategory android:title="@string/pref_contentdatasettings_title" android:key="content_settings_category">
+        <CheckBoxPreference android:title="@string/pref_security_accept_cookies" android:key="accept_cookies" android:summary="@string/pref_security_accept_cookies_summary" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_privacy_enable_geolocation" android:key="enable_geolocation" android:summary="@string/pref_privacy_enable_geolocation_summary" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/enable_javascript_title" android:key="enable_javascript" android:summary="@string/enable_javascript_summary" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/block_popup_window" android:key="block_popups" android:summary="@string/pref_webcontent_blockpopups" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" android:defaultValue="false" style="@style/Textsize" />
+        <ListPreference android:entries="@array/pref_default_storage_choices" android:title="@string/pref_default_storage" android:key="download_default_storyage" android:defaultValue="PHONE" android:dialogTitle="@string/pref_default_storage" android:entryValues="@array/pref_default_storage_values" />
+        <PreferenceScreen android:title="@string/category_website_settings" android:key="website_settings" android:summary="@string/category_website_settings_subtitle" android:fragment="com.sec.android.app.sbrowser.preferences.WebsiteSettingsPreferences" />
+        <CheckBoxPreference android:title="@string/pref_enable_video_link_title" android:key="enable_video_link" android:summary="@string/pref_enable_video_link_summary" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" android:defaultValue="true" />
+        <SwitchPreferenceScreen android:title="@string/contexual_content_action_bar_title" android:key="contexual_contents" android:summary="@string/contexual_content_summary" android:fragment="com.sec.android.app.sbrowser.preferences.ContexualContentPreference" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_content_webnotification_title">
+        <ListPreference android:entries="@array/pref_content_plugins_choices" android:title="@string/pref_content_notifications" android:key="notification_state" android:defaultValue="ON_DEMAND" android:dialogTitle="@string/pref_content_notifications" android:entryValues="@array/pref_content_plugins_values" />
+        <com.sec.android.app.sbrowser.common.SBrowserYesNoPreference android:title="@string/pref_content_clear_notification" android:key="privacy_clear_notification" android:summary="@string/pref_content_clear_notification_summary" android:dialogTitle="@string/pref_content_clear_notification" android:dialogMessage="@string/pref_content_clear_notification_dlg" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/reset">
+        <com.sec.android.app.sbrowser.common.SBrowserYesNoPreference android:title="@string/reset_settings_title" android:key="reset_settings" android:summary="@string/reset_settings_summary" android:dialogTitle="@string/reset_settings_title" android:dialogMessage="@string/reset_settings_dlg" />
+    </PreferenceCategory>
+</PreferenceScreen>

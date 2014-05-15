@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/empty_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/bottom_image" android:background="@drawable/no_item_l" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center" android:id="@id/noitems_contact_image" android:layout_width="@dimen/empty_imageview_width" android:layout_height="@dimen/empty_imageview_width" android:src="@drawable/noitems_contact_normal" />
+            <TextView android:textAppearance="@style/TwMainListNoContactsTextAppearance" android:gravity="center" android:id="@id/empty_title" android:paddingLeft="@dimen/empty_content_textview_padding" android:paddingRight="@dimen/empty_content_textview_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

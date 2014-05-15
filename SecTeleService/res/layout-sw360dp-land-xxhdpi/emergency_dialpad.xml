@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_gravity="bottom" android:id="@id/dialpad" android:background="@layout/dialpad_background" android:layout_width="321.0dip" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:layout_height="0.0px" android:layout_marginBottom="2.0dip" android:layout_weight="1.0">
+        <ImageButton android:id="@id/one" android:background="@drawable/call_dial_btn_bg" android:layout_marginRight="2.0dip" android:src="@drawable/call_dial_btn_01_1" android:contentDescription="@string/description_image_button_one" style="@style/EmergencyDialpadButtonStyle" />
+        <ImageButton android:id="@id/two" android:background="@drawable/call_dial_btn_bg" android:layout_marginRight="2.0dip" android:src="@drawable/dial_num_2" android:contentDescription="@string/description_image_button_two" style="@style/EmergencyDialpadButtonStyle" />
+        <ImageButton android:id="@id/three" android:background="@drawable/call_dial_btn_bg" android:src="@drawable/dial_num_3" android:contentDescription="@string/description_image_button_three" style="@style/EmergencyDialpadButtonStyle" />
+    </TableRow>
+    <TableRow android:layout_height="0.0px" android:layout_marginBottom="2.0dip" android:layout_weight="1.0">
+        <ImageButton android:id="@id/four" android:background="@drawable/call_dial_btn_bg" android:layout_marginRight="2.0dip" android:src="@drawable/dial_num_4" android:contentDescription="@string/description_image_button_four" style="@style/EmergencyDialpadButtonStyle" />
+        <ImageButton android:id="@id/five" android:background="@drawable/call_dial_btn_bg" android:layout_marginRight="2.0dip" android:src="@drawable/dial_num_5" android:contentDescription="@string/description_image_button_five" style="@style/EmergencyDialpadButtonStyle" />
+        <ImageButton android:id="@id/six" android:background="@drawable/call_dial_btn_bg" android:src="@drawable/dial_num_6" android:contentDescription="@string/description_image_button_six" style="@style/EmergencyDialpadButtonStyle" />
+    </TableRow>
+    <TableRow android:layout_height="0.0px" android:layout_marginBottom="2.0dip" android:layout_weight="1.0">
+        <ImageButton android:id="@id/seven" android:background="@drawable/call_dial_btn_bg" android:layout_marginRight="2.0dip" android:src="@drawable/dial_num_7" android:contentDescription="@string/description_image_button_seven" style="@style/EmergencyDialpadButtonStyle" />
+        <ImageButton android:id="@id/eight" android:background="@drawable/call_dial_btn_bg" android:layout_marginRight="2.0dip" android:src="@drawable/dial_num_8" android:contentDescription="@string/description_image_button_eight" style="@style/EmergencyDialpadButtonStyle" />
+        <ImageButton android:id="@id/nine" android:background="@drawable/call_dial_btn_bg" android:src="@drawable/dial_num_9" android:contentDescription="@string/description_image_button_nine" style="@style/EmergencyDialpadButtonStyle" />
+    </TableRow>
+    <TableRow android:layout_height="0.0px" android:layout_weight="1.0">
+        <ImageButton android:id="@id/star" android:background="@drawable/call_dial_btn_bg" android:layout_marginRight="2.0dip" android:src="@drawable/call_dial_btn_10_1" android:contentDescription="@string/description_image_button_star" style="@style/EmergencyDialpadButtonStyle" />
+        <ImageButton android:id="@id/zero" android:background="@drawable/call_dial_btn_bg" android:layout_marginRight="2.0dip" android:src="@drawable/dial_num_0" android:contentDescription="@string/description_image_button_zero" style="@style/EmergencyDialpadButtonStyle" />
+        <ImageButton android:id="@id/pound" android:background="@drawable/call_dial_btn_bg" android:src="@drawable/call_dial_btn_11_1" android:contentDescription="@string/description_image_button_pound" style="@style/EmergencyDialpadButtonStyle" />
+    </TableRow>
+</TableLayout>

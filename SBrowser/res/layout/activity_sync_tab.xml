@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/sync_tab_view_id" android:layout="@layout/sync_activity_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/sync_tab_signin_id" android:layout="@layout/sync_tab_signin_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>সর্বদা চালু</item>
+        <item>চাহিদাভিক্তিক</item>
+        <item>বন্ধ করুন</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>ডিফল্ট পৃষ্ঠা</item>
+        <item>বর্তমান পৃষ্ঠা</item>
+        <item>দ্রুত অ্যাক্সেস</item>
+        <item>সর্বাধিক পরিদর্শিত সাইটগুলি</item>
+        <item>অন্যান্য</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>ডিভাইস</item>
+        <item>SD কার্ড</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>ল্যাটিন-1 (ISO-8859-1)</item>
+        <item>ইউনিকোড (UTF-8)</item>
+        <item>চাইনিজ (GBK)</item>
+        <item>চাইনিজ (Big5)</item>
+        <item>জাপানিজ (ISO-2022-JP)</item>
+        <item>জাপানিজ (SHIFT JIS)</item>
+        <item>জাপানিজ (EUC-JP)</item>
+        <item>কোরিয়ান (EUC-KR)</item>
+        <item>স্বতঃ-শনাক্ত</item>
+    </string-array>
+</resources>

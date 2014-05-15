@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <CheckBoxPreference android:title="@string/enable_cookies_title" android:key="accept_Cookies" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/remember_password_title" android:key="remembered_Password" />
+    <CheckBoxPreference android:title="@string/enable_location" android:key="enable_location" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/enable_donottrack" android:key="enable_donottrack" />
+    <Preference android:title="@string/autofill_title_long" android:key="enable_autofill" android:fragment="com.sec.android.app.sbrowser.preferences.SettingsPrivacyData$SBrowserAutoFillSettingsHandler" />
+    <Preference android:title="@string/clear_history" android:key="clear_history" android:dialogMessage="@string/pref_privacy_clear_history_dlg" />
+    <Preference android:title="@string/clear_personal_data" android:key="clear_Personal_data" android:fragment="com.sec.android.app.sbrowser.preferences.SettingsPrivacyData$ClearPersonalData" />
+</PreferenceScreen>

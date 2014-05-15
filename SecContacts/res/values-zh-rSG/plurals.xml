@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">显示%d个联系人</item>
+        <item quantity="one">显示 1 位联系人</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">显示有手机号码的%d个联系人</item>
+        <item quantity="one">显示有手机号码的1个联系人</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d个带手机号码的联系人</item>
+        <item quantity="one">找到1个带手机号码的联系人</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d个联系人</item>
+        <item quantity="one">1个联系人</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">找到 %d 位</item>
+        <item quantity="one">找到 1 位</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">找到 %d 位</item>
+        <item quantity="one">找到 1 位</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d 个群组</item>
+        <item quantity="one">1 个群组</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">群组 %2$s 中的 %1$d 人</item>
+        <item quantity="one">群组 %2$s 中的 %1$d 人</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d 人</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d个语音邮件</item>
+        <item quantity="one">语音邮件</item>
+    </plurals>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">%d kontaktu bistaratzen</item>
+        <item quantity="one">Kontaktu 1 erakusten</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">%d kontaktu telefono zenbakiekin erakusten</item>
+        <item quantity="one">Kontaktu 1 telefono zenbakiarekin erakusten</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d kontaktu telefono zenbakiarekin</item>
+        <item quantity="one">Kontaktu 1 telefono zenbakiarekin</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d kontaktu</item>
+        <item quantity="one">Kontaktu 1</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d aurkitu dira</item>
+        <item quantity="one">1 aurkitu da</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d aurkitu dira</item>
+        <item quantity="one">1 aurkitu da</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d talde</item>
+        <item quantity="one">Talde 1</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d pertsona %2$s taldean</item>
+        <item quantity="one">Pertsona %1$d %2$s taldean</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d perts.</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d ahots mezu</item>
+        <item quantity="one">Ahots-posta</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d kontaktu kopiatuta</item>
+        <item quantity="one">%d kontaktu kopiatuta</item>
+    </plurals>
+</resources>

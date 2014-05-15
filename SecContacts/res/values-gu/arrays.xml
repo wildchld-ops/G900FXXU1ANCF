@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="index_string_array">
+        <item>અઆઇઈઉઊૠએઍઐઓઑઔકખગઘચછજઝટઠડઢણતથદધનપફબભમયરલવશષસહ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="interaction_selecter_spinner">
+        <item>%d પસંદ કર્યા</item>
+        <item>બધું પસંદ કરો</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>સંગઠન</item>
+        <item>નોંધ</item>
+    </string-array>
+</resources>

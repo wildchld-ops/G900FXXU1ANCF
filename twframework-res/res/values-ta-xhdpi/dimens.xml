@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tw_indexview_rect_width">65.0dip</dimen>
+    <dimen name="tw_indexview_rect_height">61.0dip</dimen>
+    <dimen name="tw_indexview_index_textsize">55.0dip</dimen>
+    <dimen name="tw_indexview_index_textbg_top_margin">178.0dip</dimen>
+    <dimen name="tw_indexview_characters_width">35.0dip</dimen>
+    <dimen name="tw_indexview_index_textbg_top_margin_horizontal">69.29999dip</dimen>
+</resources>

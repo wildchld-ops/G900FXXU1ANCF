@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/clear_browsing_data_row" android:background="@drawable/mydevice_bg_selector" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/preference_widget_width" android:minHeight="@dimen/preference_widget_width"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <TextView android:textSize="21.0sp" android:ellipsize="end" android:layout_gravity="left|center" android:id="@id/clear_browsing_data_name" android:paddingLeft="@dimen/clear_browsing_data_row_padding_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+    <com.sec.android.touchwiz.widget.TwCheckBox android:layout_gravity="left|center" android:id="@id/clear_browsing_data_check" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="@dimen/clear_browsing_data_row_padding_right" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_button_layout" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:paddingTop="38.0dip" android:paddingBottom="38.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0dip" android:textColor="#ff6cdbff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/personal_page_tutorial_add_tap_to_move" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/info_image_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="31.0dip" android:src="@drawable/privatemode_setting_add" android:layout_centerHorizontal="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="23.0dip" android:src="@drawable/privatemode_setting_arrow" android:layout_alignRight="@id/info_image_add" />
+            </RelativeLayout>
+            <TextView android:textSize="18.0dip" android:id="@id/text_explain_add" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="43.0dip" android:text="@string/personal_page_tutorial_add_info_message" />
+            <TextView android:textSize="18.0dip" android:textColor="#ff6cdbff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/personal_page_tutorial_remove_tap_to_remove" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/info_image_remove" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="31.0dip" android:src="@drawable/privatemode_setting_remove" android:layout_centerHorizontal="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="23.0dip" android:src="@drawable/privatemode_setting_arrow" android:layout_alignRight="@id/info_image_remove" />
+            </RelativeLayout>
+            <TextView android:textSize="18.0dip" android:id="@id/text_explain_remove" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="12.0dip" android:text="@string/personal_page_tutorial_remove_info_message" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/bottom_button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="@drawable/tw_ab_bottom_transparent_dark" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_buttons_height">
+            <View android:background="@drawable/action_bar_button_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:background="@drawable/dvline" android:layout_width="@dimen/bottom_button_area_divider_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/bottom_buttons_area_divider_padding" android:layout_marginBottom="@dimen/bottom_buttons_area_divider_padding" />
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/next_btn_area" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:orientation="horizontal" android:paddingRight="18.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                    <TextView android:textSize="21.0dip" android:textColor="@color/bottom_button_textcolor_for_personalpage" android:gravity="center" android:id="@id/next_btn_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/personal_page_tutorial_button_start" />
+                    <ImageView android:layout_gravity="center" android:id="@id/next_btn_arrow" android:background="@drawable/actionbar_bottom_next_selector" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

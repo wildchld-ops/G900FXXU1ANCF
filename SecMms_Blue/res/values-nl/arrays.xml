@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&amp;lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Gelukkig</item>
+        <item>Verdrietig</item>
+        <item>Knipogen</item>
+        <item>Met de tong uit de mond</item>
+        <item>Verrast</item>
+        <item>Kussen</item>
+        <item>Schreeuwen</item>
+        <item>Cool</item>
+        <item>Geldverslindend</item>
+        <item>Flater</item>
+        <item>Verlegen</item>
+        <item>Engel</item>
+        <item>Besluiteloos</item>
+        <item>Huilen</item>
+        <item>Mondje dicht</item>
+        <item>Lachen</item>
+        <item>Verward</item>
+        <item>Hart</item>
+        <item>Gek</item>
+        <item>Meesmuilen</item>
+        <item>Pokerface</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Tekengrootte apparaat</item>
+        <item>Extra klein</item>
+        <item>Klein</item>
+        <item>Normaal</item>
+        <item>Groot</item>
+        <item>Extra groot</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Tekengrootte apparaat</item>
+        <item>Piepklein</item>
+        <item>Extra klein</item>
+        <item>Klein</item>
+        <item>Gemiddeld</item>
+        <item>Groot</item>
+        <item>Extra groot</item>
+        <item>Enorm</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Alle kanalen</item>
+        <item>Mijn kanaal</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-alfabet</item>
+        <item>Unicode</item>
+        <item>Automatisch</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 dagen</item>
+        <item>1 dag</item>
+        <item>2 dagen</item>
+        <item>3 dagen</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Beperkt</item>
+        <item>Waarschuwing</item>
+        <item>Vrij</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Altijd</item>
+        <item>Vragen</item>
+        <item>Nooit</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Origami</item>
+        <item>Label</item>
+        <item>Pop</item>
+        <item>Modern</item>
+        <item>Roze</item>
+        <item>Standaard</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Eenmalig</item>
+        <item>Om de 2 minuten</item>
+        <item>Om de 15 minuten</item>
+        <item>Uit</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Nooit</item>
+        <item>Om de 2 minuten</item>
+        <item>Om de 10 minuten</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Binnenland</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 uur</item>
+        <item>6 uur</item>
+        <item>24 uur</item>
+        <item>2 dagen</item>
+        <item>Standaardinstelling netwerk</item>
+        <item>Maximum</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Hoog</item>
+        <item>Normaal</item>
+        <item>Laag</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Direct</item>
+        <item>1 uur</item>
+        <item>6 uur</item>
+        <item>24 uur</item>
+        <item>1 week</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 seconden</item>
+        <item>5 seconden</item>
+        <item>10 seconden</item>
+        <item>20 seconden</item>
+        <item>30 seconden</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Uit</item>
+        <item>Alle berichten blokkeren</item>
+        <item>Geregistreerde nummers en zinnen blokkeren</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Precies gelijk aan</item>
+        <item>Begint met</item>
+        <item>Eindigt met</item>
+        <item>Inclusief</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Logbestanden</item>
+        <item>Contacten</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Bericht blokkeren</item>
+        <item>Oproep blokkeren</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Bericht blokkeren</item>
+        <item>Spraakoproep blokkeren</item>
+        <item>Video-oproep blokkeren</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Gereserveerd.</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Normaal</item>
+        <item>Hoog</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Sorry, ik heb je oproep gemist.</item>
+        <item>Ik ben er over een paar minuten.</item>
+        <item>Hoe gaat het?</item>
+        <item>Wat is er aan de hand?</item>
+        <item>Waar ben je?</item>
+        <item>Bel me wanneer je dit bericht krijgt.</item>
+        <item>Wanneer spreken we af?</item>
+        <item>Tot binnenkort.</item>
+        <item>Waar is de vergadering?</item>
+        <item>Wat is het nummer?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Braziliaans-Portugees</item>
+        <item>Brits-Engels</item>
+        <item>Amerikaans-Engels</item>
+        <item>Frans</item>
+        <item>Duits</item>
+        <item>Italiaans</item>
+        <item>Japans</item>
+        <item>Koreaans</item>
+        <item>Vereenvoudigd Chinees</item>
+        <item>Russisch</item>
+        <item>Spaans</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Extra klein</item>
+        <item>Klein</item>
+        <item>Normaal</item>
+        <item>Groot</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Alles</item>
+        <item>Afzender</item>
+        <item>Inhoud</item>
+    </string-array>
+</resources>

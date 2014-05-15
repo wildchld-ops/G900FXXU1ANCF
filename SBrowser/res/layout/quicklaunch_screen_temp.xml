@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/quicklaunch_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0dip" android:textColor="#ffffffff" android:id="@id/mostvisited_header" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="26.0dip" android:layout_marginLeft="19.0dip" android:layout_marginTop="50.0dip" android:text="@string/most_visited_sites_title" />
+    <GridView android:id="@id/mostvisited_view" android:focusable="true" android:scrollbars="none" android:layout_width="@dimen/new_gridview_portrait_width" android:layout_height="@dimen/new_gridview_portrait_height" android:layout_marginLeft="@dimen/new_gridview_portrait_margin_left" android:layout_marginTop="@dimen/new_gridview_portrait_margin_top" android:layout_marginRight="@dimen/new_gridview_portrait_margin_right" android:listSelector="@drawable/quicklaunch_gridview_selector" android:horizontalSpacing="@dimen/new_gridview_portrait_vertical_spacing" android:verticalSpacing="@dimen/new_gridview_portrait_vertical_spacing" android:stretchMode="columnWidth" android:numColumns="2" />
+    <TextView android:textColor="#ff000000" android:gravity="center" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/quick_launch_none" />
+</LinearLayout>

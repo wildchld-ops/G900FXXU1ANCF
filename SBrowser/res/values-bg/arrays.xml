@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Винаги включено</item>
+        <item>По заявка</item>
+        <item>Изключено</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Страница по подразбиране</item>
+        <item>Текуща страница</item>
+        <item>Бърз достъп</item>
+        <item>Най-посещавани сайтове</item>
+        <item>Друго</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Устройство</item>
+        <item>SD карта</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Китайски (GBK)</item>
+        <item>Китайски (Big5)</item>
+        <item>Японски (ISO-2022-JP)</item>
+        <item>Японски (SHIFT JIS)</item>
+        <item>Японски (EUC-JP)</item>
+        <item>Корейски (EUC-KR)</item>
+        <item>Автоматично разпознаване</item>
+    </string-array>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>항상 사용</item>
+        <item>확인 후 사용</item>
+        <item>끄기</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>기본 페이지</item>
+        <item>현재 페이지</item>
+        <item>빠른 실행</item>
+        <item>자주 방문한 웹사이트</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>디바이스</item>
+        <item>SD 카드</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>라틴어-1 (ISO-8859-1)</item>
+        <item>유니코드(UTF-8)</item>
+        <item>중국어(GBK)</item>
+        <item>중국어(Big5)</item>
+        <item>일본어(ISO-2022-JP)</item>
+        <item>일본어(SHIFT JIS)</item>
+        <item>일본어(EUC-JP)</item>
+        <item>한국어(EUC-KR)</item>
+        <item>자동 감지</item>
+    </string-array>
+</resources>

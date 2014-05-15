@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_date_format_day_month_k">"E
+d MMM"</string>
+    <string name="status_bar_date_format_month_day_k">"E
+MMM d"</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">MMM d., E</string>
+    <string name="abbrev_wday_day_abbrev_month_no_year">d MMM., E</string>
+    <string name="status_bar_date_formatter">"%2$s
+%1$s"</string>
+    <string name="app_label">Rendszer UI</string>
+    <string name="status_bar_clear_all_button">Törlés</string>
+    <string name="status_bar_do_not_disturb_button">Ne zavarjanak</string>
+    <string name="status_bar_please_disturb_button">Értesítések megjelenítése</string>
+    <string name="status_bar_recent_remove_item_title">Eltávolítás a listáról</string>
+    <string name="status_bar_recent_inspect_item_title">Alkalmazásinfó</string>
+    <string name="status_bar_no_recent_apps">A legutóbbi alkalmazások listája üres</string>
+    <string name="status_bar_accessibility_dismiss_recents">Újabb alkalmazások elvetése</string>
+    <string name="status_bar_no_notifications_title">Nincs értesítés</string>
+    <string name="status_bar_ongoing_events_title">Folyamatban</string>
+    <string name="status_bar_latest_events_title">Értesítések</string>
+    <string name="battery_low_title">Csatlakoztasson töltőt.</string>
+    <string name="battery_low_subtitle">Az akkufeszültség alacsony.</string>
+    <string name="battery_low_percent_format">%d%% maradt.</string>
+    <string name="invalid_charger">Az USB-töltés nem támogatott. Használja a mellékelt töltőt.</string>
+    <string name="battery_low_why">Akkumulátorról</string>
+    <string name="status_bar_settings_settings_button">Beállítások</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">Repülő üzemmód</string>
+    <string name="status_bar_settings_auto_rotation">Képernyő autom. elforgatása</string>
+    <string name="status_bar_settings_mute_label">Némít</string>
+    <string name="status_bar_settings_auto_brightness_label">Auto.</string>
+    <string name="status_bar_settings_notifications">Értesítések</string>
+    <string name="bluetooth_tethered">Internet megosztva Bluetooth-on</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Beviteli módok beállítása</string>
+    <string name="status_bar_use_physical_keyboard">Fizikai billentyűzet</string>
+    <string name="usb_device_permission_prompt">Lehetővé teszi a(z) %1$s alkalmazás számára a hozzáférést az USB-eszközhöz?</string>
+    <string name="usb_accessory_permission_prompt">Lehetővé teszi a(z) %1$s alkalmazás számára a hozzáférést az USB-tartozékhoz?</string>
+    <string name="usb_device_confirm_prompt">Megnyitja a következőt az USB-eszköz csatlakoztatásakor: %1$s?</string>
+    <string name="usb_accessory_confirm_prompt">Megnyitja a következőt az USB-tartozék csatlakoztatásakor: %1$s?</string>
+    <string name="usb_accessory_uri_prompt">Ezzel az USB-tartozékkal egyik telepített alkalmazás sem működik együtt. A tartozékról a %s címen talál további tudnivalókat.</string>
+    <string name="title_usb_accessory">USB-tartozék</string>
+    <string name="label_view">Megtekint</string>
+    <string name="always_use_device">Alapértelmezett használat ehhez az USB-eszközhöz</string>
+    <string name="always_use_accessory">Alapértelmezett használat ehhez az USB-tartozékhoz</string>
+    <string name="usb_debugging_title">Engedélyezi az USB-hibakeresést?</string>
+    <string name="usb_debugging_message">"A számítógép RSA-kulcs ujjlenyomata:
+%1$s"</string>
+    <string name="usb_debugging_always">Ezt a számítógépet mindig engedélyezi</string>
+    <string name="compat_mode_on">Nagyítás telj. képernyőre</string>
+    <string name="compat_mode_off">Nyújtás teljes képernyőre</string>
+    <string name="compat_mode_help_header">Kompatibilitási nagyítás</string>
+    <string name="compat_mode_help_body">Ha egy alkalmazást kisebb képernyőre terveztek, az óra mellett nagyításvezérlő jelenik meg.</string>
+    <string name="screenshot_saving_ticker">Képernyőfotó mentése…</string>
+    <string name="screenshot_saving_title">Képernyőfotó mentése…</string>
+    <string name="screenshot_saving_text">Képernyőfotó mentése folyamatban</string>
+    <string name="screenshot_saved_title">Képernyőfotó rögzítve</string>
+    <string name="screenshot_saved_text">Érintse meg a képernyőfotó megtekintéséhez.</string>
+    <string name="screenshot_failed_title">Nem lehet képernyőfotót készíteni.</string>
+    <string name="screenshot_failed_text">Nem lehet menteni a képernyőfotót. Lehet, hogy használatban van a tárhely.</string>
+    <string name="screenshot_failed_due_to_drm_text">Nem lehet képernyőfelvételt készíteni. DRM-védett kép van a képernyőn.</string>
+    <string name="one_item_will_be_deleted">Törölni fog 1 tételt.</string>
+    <string name="usb_preference_title">USB-fájlátvitel beállításai</string>
+    <string name="use_mtp_button_title">Csatolás médialejátszóként (MTP)</string>
+    <string name="use_ptp_button_title">Csatolás fényképezőként (PTP)</string>
+    <string name="installer_cd_button_title">Mac rendszerhez készült Android-fájlátviteli alkalmazás telepítése</string>
+    <string name="accessibility_back">Vissza</string>
+    <string name="accessibility_home">Otthoni</string>
+    <string name="accessibility_menu">Menü</string>
+    <string name="accessibility_recent">Legutóbbi alkalmazások</string>
+    <string name="accessibility_ime_switch_button">Bevitelimód-váltó gomb</string>
+    <string name="accessibility_compatibility_zoom_button">Kompatibilitási nagyítás gomb</string>
+    <string name="accessibility_compatibility_zoom_example">Nagyítás nagyobb képernyőre</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth-hoz kapcsolódva</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth szétkapcsolva.</string>
+    <string name="accessibility_no_battery">Nincs telep</string>
+    <string name="accessibility_battery_one_bar">Egy sávval jelzett akkumulátortöltöttség</string>
+    <string name="accessibility_battery_two_bars">Két sávval jelzett akkumulátortöltöttség</string>
+    <string name="accessibility_battery_three_bars">Három sávval jelzett akkumulátortöltöttség</string>
+    <string name="accessibility_battery_full">Akkumulátor feltöltve.</string>
+    <string name="accessibility_no_phone">Nincs mobiltérerő</string>
+    <string name="accessibility_phone_one_bar">Egy sávval jelzett mobiltérerő</string>
+    <string name="accessibility_phone_two_bars">Két sávval jelzett mobiltérerő</string>
+    <string name="accessibility_phone_three_bars">Három sávval jelzett mobiltérerő</string>
+    <string name="accessibility_phone_signal_full">Teljes mobiltérerő</string>
+    <string name="accessibility_no_data">Nincsenek adatok</string>
+    <string name="accessibility_data_one_bar">Egy sávval jelzett adatkapcsolati jelerősség</string>
+    <string name="accessibility_data_two_bars">Két sávval jelzett adatkapcsolati jelerősség</string>
+    <string name="accessibility_data_three_bars">Három sávval jelzett adatkapcsolati jelerősség</string>
+    <string name="accessibility_data_four_bars">Négy sávval jelzett adatkapcsolati jelerősség</string>
+    <string name="accessibility_data_five_bars">Öt sávval jelzett adatkapcsolati jelerősség</string>
+    <string name="accessibility_data_signal_full">Teljes adatkapcsolati jelerősség</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">Nincs Wi-Fi jel</string>
+    <string name="accessibility_wifi_one_bar">Egy sávval jelzett Wi-Fi jelerősség</string>
+    <string name="accessibility_wifi_two_bars">Két sávval jelzett Wi-Fi jelerősség</string>
+    <string name="accessibility_wifi_three_bars">Három sávval jelzett Wi-Fi jelerősség</string>
+    <string name="accessibility_wifi_signal_full">Teljes Wi-Fi jelerősség</string>
+    <string name="accessibility_no_wimax">Nincs WiMAX.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX-jel: egy sáv.</string>
+    <string name="accessibility_wimax_two_bars">WiMAX-jel: két sáv.</string>
+    <string name="accessibility_wimax_three_bars">WiMAX-jel: három sáv.</string>
+    <string name="accessibility_wimax_signal_full">WiMAX-jel: teljes.</string>
+    <string name="accessibility_no_signal">Nincs jel</string>
+    <string name="accessibility_not_connected">Nincs csatlakozva.</string>
+    <string name="accessibility_zero_bars">Nincs sáv.</string>
+    <string name="accessibility_one_bar">Egy sáv.</string>
+    <string name="accessibility_two_bars">Két sáv.</string>
+    <string name="accessibility_three_bars">Három sáv.</string>
+    <string name="accessibility_phone_four_bars">Négy sávval jelzett mobiltérerő</string>
+    <string name="accessibility_phone_five_bars">Öt sávval jelzett mobiltérerő</string>
+    <string name="accessibility_signal_full">Teljes jelerősség.</string>
+    <string name="accessibility_desc_on">Be</string>
+    <string name="accessibility_desc_off">Ki</string>
+    <string name="accessibility_desc_connected">Csatlakoztatva.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Roaming</string>
+    <string name="accessibility_data_connection_edge">Éles</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">Nincs SIM</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth internetmegosztás</string>
+    <string name="accessibility_airplane_mode">Repülő üzemmód</string>
+    <string name="accessibility_battery_level">Az akkumulátor töltöttsége %d százalékos.</string>
+    <string name="accessibility_settings_button">Rendszer beállításai</string>
+    <string name="accessibility_notifications_button">Értesítések</string>
+    <string name="accessibility_remove_notification">Értesítések törlése</string>
+    <string name="accessibility_gps_enabled">GPS bekapcsolva</string>
+    <string name="accessibility_gps_acquiring">GPS lekérése…</string>
+    <string name="accessibility_tty_enabled">Távgépíró engedélyezve</string>
+    <string name="accessibility_ringer_vibrate">Csengés rezgéssel</string>
+    <string name="accessibility_ringer_silent">Csengőhang elnémítása</string>
+    <string name="accessibility_recents_item_dismissed">%s eltávolítva.</string>
+    <string name="accessibility_notification_dismissed">Értesítés elvetve.</string>
+    <string name="accessibility_desc_notification_shade">Értesítési felület.</string>
+    <string name="accessibility_desc_quick_settings">Gyorsbeállítás</string>
+    <string name="accessibility_desc_recent_apps">Legutóbbi alkalmazások</string>
+    <string name="accessibility_quick_settings_user">Felhasználó: %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s. %2$s</string>
+    <string name="accessibility_quick_settings_mobile">Mobil %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">Akkumulátor %s.</string>
+    <string name="accessibility_quick_settings_airplane">Repülős üzemmód %s.</string>
+    <string name="accessibility_quick_settings_bluetooth">Bluetooth %s.</string>
+    <string name="accessibility_quick_settings_alarm">Jelzés beállítva %s időpontra.</string>
+    <string name="accessibility_sfinder_button">S Kereső</string>
+    <string name="accessibility_qconnect_button">Gyors kapcs.</string>
+    <string name="accessibility_qconnect_button_tts">Gyors kapcsolódás</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G-3G adatkapcsolat letiltva</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G adatkapcsolat letiltva</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Mobil internetkapcsolat letiltva</string>
+    <string name="data_usage_disabled_dialog_title">Adatkapcsolat letiltva</string>
+    <string name="data_usage_disabled_dialog">Elérte az adathasználat beállított korlátját. A további adathasználatért a szolgáltató külön számlázhat.</string>
+    <string name="data_usage_disabled_dialog_enable">Adatkapcsolat újbóli eng.</string>
+    <string name="data_usage_enable_mobile_warning">Az adatkapcsolatért a szolgáltató további költségeket számíthat fel. Folytatja?</string>
+    <string name="data_usage_disable_mobile">Letiltja a mobil internetkapcsolatot?</string>
+    <string name="status_bar_settings_signal_meter_disconnected">Nincs internetkapcsolat</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi csatlakoztatva.</string>
+    <string name="gps_notification_searching_text">Keresés GPS használatával…</string>
+    <string name="gps_notification_found_text">GPS által beállított hely</string>
+    <string name="accessibility_clear_all">Minden értesítés törlése</string>
+    <string name="status_bar_notification_inspect_item_title">Alkalmazásinfó</string>
+    <string name="close_universe">Bezárás</string>
+    <string name="notifications_off_title">Értesítések letiltva</string>
+    <string name="notifications_off_text">Érintse meg az értesítések engedélyezéséhez.</string>
+    <string name="accessibility_rotation_lock_off">A képernyő automatikusan elfordul.</string>
+    <string name="accessibility_rotation_lock_on_landscape">A képernyő zárolva van fekvő tájolásban.</string>
+    <string name="accessibility_rotation_lock_on_portrait">A képernyő zárolva van álló tájolásban.</string>
+    <string name="jelly_bean_dream_name">BeanFlinger</string>
+    <string name="start_dreams">Képernyővédő</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">Repülőgép üzemmód</string>
+    <string name="quick_settings_battery_charging_label">Töltés (%d%%)</string>
+    <string name="quick_settings_battery_charged_label">Feltöltve.</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d eszköz)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth kikapcsolva.</string>
+    <string name="quick_settings_brightness_label">Fényerő</string>
+    <string name="quick_settings_rotation_unlocked_label">Automatikus forgatás</string>
+    <string name="quick_settings_rotation_locked_label">Forgatás zárolva</string>
+    <string name="quick_settings_ime_label">Beviteli mód</string>
+    <string name="quick_settings_location_label">Használatban lévő hely</string>
+    <string name="quick_settings_media_device_label">Médiaeszköz</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Csak segélyhívás indítható.</string>
+    <string name="quick_settings_settings_label">Beállítások</string>
+    <string name="quick_settings_time_label">Idő</string>
+    <string name="quick_settings_user_label">Én</string>
+    <string name="quick_settings_wifi_label">WiFi</string>
+    <string name="quick_settings_wifi_not_connected">Nincs csatlakozva.</string>
+    <string name="quick_settings_wifi_no_network">Nincs hálózat</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_wifi_display_label">"Wi-Fi
+jelző"</string>
+    <string name="quick_settings_wifi_display_no_connection_label">Vezeték nélküli kijelző</string>
+    <string name="quick_settings_brightness_dialog_title">Fényerő</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">Auto.</string>
+    <string name="status_bar_help_title">Az értesítések itt jelennek meg.</string>
+    <string name="status_bar_help_text">"Bármikor elérheti őket, ha lefelé húzza az ujját.
+Húzza le az ujját még egyszer a rendszerbeállítások eléréséhez."</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">Bluetooth</string>
+    <string name="quickpanel_gps_text">Hely</string>
+    <string name="quickpanel_silent_mode_text">"Csendes
+hangmód"</string>
+    <string name="quickpanel_silent_mode_sound">Hang</string>
+    <string name="quickpanel_silent_mode_vibrate">Rezgés</string>
+    <string name="quickpanel_silent_mode_mute">Néma</string>
+    <string name="quickpanel_rotation_text">"Képernyő
+elforg."</string>
+    <string name="quickpanel_mobile_data_text">"Mobil
+int.kap."</string>
+    <string name="quickpanel_dormant_mode_text">"Blokk.
+üzemmód"</string>
+    <string name="quickpanel_notification_text">Értesítés</string>
+    <string name="quickpanel_airplane_mode_text">"Repülő
+üzemmód"</string>
+    <string name="quickpanel_sync_text">Szinkr.</string>
+    <string name="quickpanel_power_saving_text">"Energia-
+takarék."</string>
+    <string name="quickpanel_ultra_power_saving_text">"Ultra-
+takarékos"</string>
+    <string name="quickpanel_driving_mode_text">"Szabad-
+kezes mód"</string>
+    <string name="quickpanel_smart_stay_text">"Intell.
+kép.zár"</string>
+    <string name="quickpanel_smart_scroll_text">"Intell.
+görgetés"</string>
+    <string name="quickpanel_smart_pause_text">"Intell.
+szünet"</string>
+    <string name="quickpanel_smart_network_text">"Intelligens
+hálózat"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_wifi_hotspot_text">"Wi-Fi
+hotspot"</string>
+    <string name="quickpanel_multiwindow_text">"Több
+ablak"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_brightness_text">Fényerő</string>
+    <string name="quickpanel_airview_text">"Rá-
+mutatás"</string>
+    <string name="quickpanel_airgesture_text">"Érintés nélküli
+mozdulatok"</string>
+    <string name="quickpanel_ebook_text">"Olv.
+üzemmód"</string>
+    <string name="quickpanel_personal_mode_text">"Privát
+mód"</string>
+    <string name="quickpanel_car_mode_text">"Autó
+üzemmód"</string>
+    <string name="quickpanel_network_booster_text">"Letölt.-
+gyorsító"</string>
+    <string name="quickpanel_toolbox_text">"Eszköz-
+tár"</string>
+    <string name="quickpanel_touch_sensitivity_text">"Magas
+érzékenység"</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">Bluetooth</string>
+    <string name="quickpanel_gps_content_description">Hely</string>
+    <string name="quickpanel_silent_mode_sound_content_description">Hang</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">Rezgés</string>
+    <string name="quickpanel_silent_mode_mute_content_description">Némítás</string>
+    <string name="quickpanel_rotation_content_description">Képernyő elforgatása</string>
+    <string name="quickpanel_mobile_data_content_description">Mobil internetkapcsolat</string>
+    <string name="quickpanel_dormant_mode_content_description">Blokkolás üzemmód</string>
+    <string name="quickpanel_airplane_mode_content_description">Repülő üzemmód</string>
+    <string name="quickpanel_sync_content_description">Szinkronizálás</string>
+    <string name="quickpanel_power_saving_content_description">Energiatakarékos mód</string>
+    <string name="quickpanel_ultra_power_saving_content_description">Ultratakarékos mód</string>
+    <string name="quickpanel_smart_stay_content_description">Intelligens képernyőzár</string>
+    <string name="quickpanel_smart_pause_content_description">Intelligens szünet</string>
+    <string name="quickpanel_smart_network_content_description">Intelligens hálózat</string>
+    <string name="quickpanel_wifi_hotspot_content_description">Mobil Wi-Fi hotspot</string>
+    <string name="quickpanel_multiwindow_content_description">Több ablak</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_ebook_content_description">Olvasás üzemmód</string>
+    <string name="quickpanel_personal_mode_content_description">Privát mód</string>
+    <string name="quickpanel_car_mode_content_description">Autó üzemmód</string>
+    <string name="quickpanel_network_booster_content_description">Letöltésgyorsító</string>
+    <string name="quickpanel_toolbox_content_description">Eszköztár</string>
+    <string name="air_gesture_use_popup_title">Air gesture engedélyezése</string>
+    <string name="air_gesture_use_popup_msg">A légies gesztusok és a TalkBack nem engedélyezhető egyszerre. A TalkBack le lesz tiltva.</string>
+    <string name="air_view_use_popup_title">Rámutatás engedélyezése</string>
+    <string name="air_view_use_popup_msg">A rámutatás és az alábbi opciók nem engedélyezhetők egyszerre. Az alábbi opciók le lesznek tiltva.</string>
+    <string name="multi_window_use_popup_title">Több ablak engedélyezése</string>
+    <string name="multi_window_use_popup_msg">A Több ablak és a TalkBack nem engedélyezhető egyszerre. A TalkBack le lesz tiltva.</string>
+    <string name="smart_pause_use_popup_title">Intelligens szünet engedélyezése</string>
+    <string name="smart_pause_use_popup_msg">Az intelligens szünet és a TalkBack nem engedélyezhető egyszerre. A TalkBack le lesz tiltva.</string>
+    <string name="smart_scroll_use_popup_title">Intelligens görgetés engedélyezése</string>
+    <string name="smart_scroll_use_popup_msg">Az intelligens görgetés és a TalkBack nem engedélyezhető egyszerre. A TalkBack le lesz tiltva.</string>
+    <string name="smart_stay_use_popup_title">Intelligens képernyőzár engedélyezése</string>
+    <string name="smart_stay_use_popup_msg">Az intelligens képernyőzár és a TalkBack nem engedélyezhető egyszerre. A TalkBack le lesz tiltva.</string>
+    <string name="quickpanel_content_description_led_on">%s engedélyezve.</string>
+    <string name="quickpanel_content_description_led_off">%s letiltva.</string>
+    <string name="quickpanel_content_description_led_dim">A(z) %s nem engedélyezhető.</string>
+    <string name="smart_network">Intelligens hálózat</string>
+    <string name="smart_network_guide_msg">"Az Intelligens hálózat funkció segít meghosszabbítani az üzemidőt.
+
+Amikor a képernyő ki van kapcsolva, a mobil internetkapcsolat és a Wi-Fi letiltásával kíméli az eszköz akkumulátorát.
+
+A képernyő bekapcsolása után azonban felhalmozódott push adatok érkezhetnek."</string>
+    <string name="quickpanel_data_roaming_text">Adatroaming</string>
+    <string name="data_roaming_dialog_text">A roaming külön költségekkel jár. Folytatja?</string>
+    <string name="mobile_data_enable_dialog_text">Mobilhálózati kapcsolat létesítése az előfizetéstől függően további költségekkel járhat. Folytatja?</string>
+    <string name="quickpanel_edit_current">Értesítési panel</string>
+    <string name="quickpanel_edit_available">Elérhető gombok</string>
+    <string name="mobile_data_dialog_text">Nem lesz lehetséges az olyan alkalmazások használata a mobilhálózaton keresztül, mint az Internet, az E-mail vagy a YouTube. Folytatja?</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"Wi-Fi hálózati kapcsolat nélkül nem használhatók az adatkapcsolatot igénylő alkalmazások, például az Internet és az E-mail.
+
+A mobil internetkapcsolat le lesz tiltva."</string>
+    <string name="mobile_data_connect">Kapcsolód.</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">Amíg a Repülő üzemmód be van kapcsolva, nem lehet a mobilhálózathoz kapcsolódni. Tiltsa le a Repülő üzemmódot, és próbálja újra.</string>
+    <string name="warning_alert_check">Ne jelenjen meg újra</string>
+    <string name="blocking_mode_enable">Ennek az üzemmódnak a bekapcsolása esetén le lesznek tiltva a kiválasztott funkciókkal kapcsolatos értesítések. Csak az engedélyezett névjegyek listáján szereplő személyektől érkező hívásokról kap értesítést.</string>
+    <string name="blocking_mode_enable_for_grid_settings">A Blokkolás üzemmód letiltja az értesítéseket a kijelölt funkciók esetében. Bejövő hívás blokkolásáról csak akkor kap értesítést, ha a hívó fél szerepel az engedélyezett névjegyek listáján. A Blokkolás üzemmód beállításainak módosításához válassza a Beállítások > Személyre szabás > Blokkolás üzemmód menüpontot.</string>
+    <string name="blocking_mode_enable_wifi">Az üzemmód engedélyezése esetén le lesznek tiltva a kiválasztott funkciók értesítései.</string>
+    <string name="blocking_mode_title">Blokkolás üzemmód</string>
+    <string name="dormant_mode_off_message">A Blokkolás üzemmód engedélyezéséhez legalább egy opciót engedélyezzen az alábbiak közül.</string>
+    <string name="driving_mode_title">Szabadkezes mód</string>
+    <string name="driving_mode_on_dialog_msg_1">A szabadkezes módban használt S Hang bezárása után tiltsa le a szabadkezes módot a Beállításokban. Ha ezt elmulasztja, az eszköz továbbra is automatikusan felolvassa majd az új értesítéseket és a bejövő hívások adatait.</string>
+    <string name="driving_mode_on_dialog_msg_2">A szabadkezes mód kikapcsolásához az S Hang használatakor mondja ki a „Szabadkezes mód kikapcsolása” utasítást, de a Beállításokban vagy az értesítési panelen is kikapcsolhatja azt.</string>
+    <string name="insert_sim_card">Helyezze be a SIM-et</string>
+    <string name="insert_sim_card_message">Hálózati szolgáltatások eléréséhez helyezze be a SIM kártyát.</string>
+    <string name="wifi_enable_warning">A Wi-Fi bekapcsolásával letiltja a mobil Wi-Fi hotspotot. Folytatja?</string>
+    <string name="wifi_ap_turning_off">Mobil Wi-Fi hotspot letiltása…</string>
+    <string name="no_sim_notification_title">Nincs SIM</string>
+    <string name="no_sim_notification_title_tmo">Nincs behelyezve SIM kártya.</string>
+    <string name="no_sim_notification_text">Helyezze be a SIM kártyát.</string>
+    <string name="accessibility_power_saving_mode">Az Energiatakarékos mód engedélyezéséhez legalább egy funkciót engedélyezzen.</string>
+    <string name="accessibility_power_saving_mode_title">Energiatakarékos mód</string>
+    <string name="accessibility_driving_mode">A szabadkezes mód engedélyezéséhez legalább egy releváns funkciót engedélyezzen.</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Network restriction mode will be disabled.</string>
+    <string name="charging_interruption_title">Nem lehet tölteni</string>
+    <string name="charging_interruption_by_terminal_open_text">Nem lehet tölteni az eszközt. Ellenőrizze, hogy Samsung-kompatibilis akkumulátort és töltőt használ-e, és hogy megfelelően csatlakozik-e az eszköz a töltőhöz.</string>
+    <string name="charging_interruption_by_too_high_temperature_text">A töltés megszakítva. Az akkumulátor hőmérséklete túl magas.</string>
+    <string name="charging_interruption_by_too_low_temperature_text">A töltés megszakítva. Az akkumulátor hőmérséklete túl alacsony.</string>
+    <string name="charging_interruption_by_limit_high_temperature_text">"Az eszköz leállította a töltést. Túl magas az akkumulátor hőmérséklete. Legyen óvatos a töltő leválasztásakor, mert nagyon forró lehet.
+
+A töltő leválasztása, majd újbóli csatlakoztatása után a töltés normál módon folytatódhat. Ha azonban a túlmelegedés nem szűnik meg, forduljon ügyfélszolgálatunkhoz, mert tűz vagy sérülés kockázata állhat fenn."</string>
+    <string name="full_battery_title">Infó</string>
+    <string name="full_battery_text">"Akkumulátor teljesen feltöltve.
+Húzza ki a töltőt."</string>
+    <string name="low_battery_title">Az akku lemerült</string>
+    <string name="critical_low_battery_title">Az akkumulátor töltöttsége túl alacsony</string>
+    <string name="low_battery_text">Az eszköz feltöltéséhez csatlakoztassa a töltőt, és lépjen ki a nem használt alkalmazásokból a Feladatkezelőben. Ha ezeket tovább használja, az akadályozhatja a hatékony töltést.</string>
+    <string name="low_battery_text_charged_via_ta">Lépjen ki a nem használt alkalmazásokból a Feladatkezelőben. Ha ezeket tovább használja, az akadályozhatja a hatékony töltést.</string>
+    <string name="low_battery_camera_warning_text">Ha az akkumulátor töltöttsége %d%% alá csökken, akkor nem nyitható meg a Fényképező.</string>
+    <string name="critical_low_battery_camera_warning_text">Nem nyitható meg a Fényképező. Az akkumulátor töltöttsége %d%% vagy kevesebb.</string>
+    <string name="start_force_consume_battery_title">Jelzés</string>
+    <string name="start_force_consume_battery_text">Az eszköz használatával várja meg, amíg az lehűl.</string>
+    <string name="stop_force_consume_battery_title">Infó</string>
+    <string name="stop_force_consume_battery_text">Az eszköz lehűlt.</string>
+    <string name="wireless_charging_title">Vezeték nélküli töltés</string>
+    <string name="cable_charging_title">Vezetékes töltés</string>
+    <string name="wireless_charging_text">Hatókörön belülre helyezte az eszközt. Zajlik a vezeték nélküli töltés…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">Átkapcsolás vezeték nélküli töltésről vezetékes töltésre</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">Átkapcsolás vezetékes töltésről vezeték nélküli töltésre</string>
+    <string name="wireless_charging_spen_warning_text">Zajlik az eszköz vezeték nélkülii töltése. Vezeték nélküli töltő hatókörében az S Toll nem működik.</string>
+    <string name="incompatible_charger_title">Nem töltődik.</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_dialog_text_for_tablet">The connected charger is incompatible with this tablet. To prevent damage to your tablet, charging has been stopped. To continue charging, use the original charger and cable that were provided with this tablet.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_notification_text">To charge faster, use the original charger</string>
+    <string name="slow_charging_toast_text">To charge faster, use the charger and cable that were provided with this phone</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="water_damage_warning_title">Töltőfedél ellenőrzése</string>
+    <string name="water_damage_warning_text">A víz okozta károsodás elleni védelem érdekében használat előtt szilárdan illessze a helyére a töltőfedelet.</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">Eszköz kikapcsolása</string>
+    <string name="overheat_poweroff_warning_text">Az eszköz túlmelegszik. Ki fog kapcsolni, hogy lehűljön.</string>
+    <string name="overheat_poweroff_warning_button_text">Ne kapcsoljon ki</string>
+    <string name="overheat_poweroff_notice_title">Az eszköz automatikusan kikapcsolt</string>
+    <string name="overheat_poweroff_notice_text">"Az eszköz túlmelegedett. A sérülés megelőzése érdekében kikapcsolt.
+
+A túlmelegedés lehetséges okai:
+Grafikusan intenzív alkalmazások, például játék vagy navigációs alkalmazások hosszabb ideig tartó használata.
+Nagyméretű fájlok átvitele.
+Az eszköz meleg környezetben történő használata."</string>
+    <string name="power_sharing_warning_title">Energiamegosztás</string>
+    <string name="power_sharing_warning_text">Az akkumulátor töltöttsége nem éri el az energiamegosztási korlátot. Az energiamegosztás folytatásához állítson be a jelenlegi töltöttségi szint alatti energiamegosztási korlátot.</string>
+    <string name="power_sharing_start_toast_text">Energiamegosztás indítása…</string>
+    <string name="power_sharing_end_notification_text">Az energiamegosztás befejeződött. Húzza ki a kábelt.</string>
+    <string name="face_detection_failure_text">Az int. képernyőzár nem észleli a szemét.</string>
+    <string name="status_bar_recent_launch_task_manager_title">Feladatkezelő</string>
+    <string name="status_bar_recent_launch_google_button">Google</string>
+    <string name="status_bar_recent_remove_all_button">Összes bezárása</string>
+    <string name="screen_capture_fail_for_storage_capacity">Az eszköz tárhelye megtelt. Töröljön tételeket.</string>
+    <string name="no_such_item">Nem található tétel.</string>
+    <string name="pickup_tutorial_title">Próbálja ki az intelligens jelzést</string>
+    <string name="put_your_phone">Miután leteszi az eszközt, a képernyő kikapcsol.</string>
+    <string name="phone_detect">Tegyük fel, hogy nem fogadott hívásai vagy olvasatlan üzenetei vannak. Helyezze le az eszközt, majd miután a képernyő kikapcsolt, emelje fel ismét.</string>
+    <string name="pick_up_your_phone">Emelje fel az eszközt</string>
+    <string name="tutorial_complete">A tankönyv befejeződött.</string>
+    <string name="camera_alert">"Hívás közben a Kamera
+nem indítható el."</string>
+    <string name="stms_version">SM-G900F_EUR_20140228_0507</string>
+    <string name="wifi_cw_ready">China Telecom WLAN connected</string>
+    <string name="wifi_cw_ready_message">You have access to China Telecom WLAN network, consult 10000 to understand billing information, please turn off when not use</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">Elfogad</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="quickpanel_ctwap_text">CTWAP</string>
+    <string name="quickpanel_ctnet_text">CTNET</string>
+    <string name="tethering_attention_title">Figyelem</string>
+    <string name="tethering_wifi_off_warning">A mobil Wi-Fi hotspot engedélyezése esetén kikapcsol a Wi-Fi.</string>
+    <string name="quickpanel_air_view_warning">A rámutatás engedélyezéséhez legalább egy funkciót engedélyezzen.</string>
+    <string name="quickpanel_air_view_warning_pen_support">A rámutatás engedélyezéséhez engedélyezzen legalább egy funkciót a kiválasztott Rámutatás módból.</string>
+    <string name="quickpanel_air_gesture_warning">Az air gesture engedélyezéséhez legalább egy releváns funkciót engedélyezzen.</string>
+    <string name="quickpanel_air_gesture_warning_continue">A kapcsolódó beállítások megjelenítéséhez tartsa ujját a gyorsbeállító gombon.</string>
+    <string name="roaming_title">Roaming</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="gps_donotshow">Ne jelenjen meg többé</string>
+    <string name="quickpanel_brightess_level">Szint</string>
+    <string name="quickpanel_brightess_minus">Mínusz</string>
+    <string name="reading_mode_title">Olvasás üzemmód</string>
+    <string name="reading_mode_alert">Olvasás üzemmód engedélyezve. Ez az olvasásra optimalizált képernyő. Ez az üzemmód csak bizonyos alkalmazásokkal használható.</string>
+    <string name="reading_mode_settings">Beállítások</string>
+    <string name="automatic_brightness_message">Az automatikus fényerő beállításai csak a belső képernyőre vonatkoznak</string>
+    <string name="manual_brightness_message">Kézzel állította be a fényerőt. Automatikus fényerő letiltva.</string>
+    <string name="flight_mode_message_for_wifi_only">A Repülő üzemmóddal kikapcsolhatók a hálózati funkciók, köztük a Wi-Fi és a Bluetooth. Ha használni szeretné a Wi-Fi-t és a Bluetooth-t, kapcsolja be őket a Beállításokban vagy az értesítési panelen.</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tutorial_notification_panel_drag_down">Húzza le egy ujjal az állapotsort a képernyő tetejéről.</string>
+    <string name="tutorial_notification_panel_drag_down_complete">Megjelenik az értesítési panel.</string>
+    <string name="tutorial_quick_panel_drag_down">Húzza le két ujjal az állapotsort a képernyő tetejéről.</string>
+    <string name="tutorial_quick_panel_drag_down_complete">Megjelenik a gyorsbeállító panel.</string>
+    <string name="tutorial_expand_notification_panel_drag_down">Húzza le két ujjal az értesítési panel egyik listáját.</string>
+    <string name="tutorial_expand_notification_panel_drag_down_complete">További információk jelennek meg a kiválasztott listáról.</string>
+    <string name="tutorial_invaild_action">Érvénytelen művelet. Próbálja újra.</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="magnification_text_for_air_view_button">Nagyítási gesztusok</string>
+    <string name="smartbonding_dialog_title">Letöltésgyorsító</string>
+    <string name="smartbonding_dialog_wifi_text">A Wi-Fi és az LTE-hálózat egyidejű használatával gyorsabban tölthet le nagy (%d MB-ot meghaladó méretű) fájlokat. A hálózatok állapotától függően előfordulhat, hogy a letöltésgyorsító csak Wi-Fi vagy csak LTE-hálózaton keresztül tölt le fájlokat.</string>
+    <string name="smartbonding_dialog_mobile_text">A Wi-Fi és az LTE-hálózat egyidejű használatával gyorsabban tölthet le nagy (%d MB-ot meghaladó méretű) fájlokat. A hálózatok állapotától függően előfordulhat, hogy a letöltésgyorsító csak Wi-Fi vagy csak LTE-hálózaton keresztül tölt le fájlokat.</string>
+    <string name="smart_bonding_popup_msg">Engedélyezi a letöltésgyorsítót. A mobilhálózaton keresztül végzett letöltés az előfizetési csomagtól függően további költséggel járhat.</string>
+    <string name="smart_bonding_popup_msg_wifi">Jelenleg ki van kapcsolva a Wi-Fi. A letöltésgyorsító engedélyezéséhez a Wi-Fi-t és a mobil internetkapcsolatot egyaránt be kell kapcsolni. A mobilhálózaton keresztül végzett letöltés az előfizetési csomagtól függően további költséggel járhat.</string>
+    <string name="smart_bonding_popup_msg_data">Jelenleg ki van kapcsolva a mobil internetkapcsolat. A letöltésgyorsító engedélyezéséhez a Wi-Fi-t és a mobil internetkapcsolatot egyaránt be kell kapcsolni. A mobilhálózaton keresztül végzett letöltés az előfizetési csomagtól függően további költséggel járhat.</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Jelenleg ki van kapcsolva a Wi-Fi és a mobil internetkapcsolat. A letöltésgyorsító engedélyezéséhez a Wi-Fi-t és a mobil internetkapcsolatot egyaránt be kell kapcsolni. A mobilhálózaton keresztül végzett letöltés az előfizetési csomagtól függően további költséggel járhat.</string>
+    <string name="smart_bonding_popup_msg_roaming">Roaming közben a letöltésgyorsító nem használható. Azt javasoljuk, Wi-Fi hálózaton végezze a letöltést.</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Wi-Fi bekapcsolása</string>
+    <string name="smart_bonding_popup_msg_data_btn">Mobil internetkapcsolat bekapcsolása</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Wi-Fi és mobil int.k. bekapcs.</string>
+    <string name="smart_bonding_turn_off_text">Engedélyezett %1$s mellett nem használható a letöltésgyorsító. Próbálja újra a(z) %2$s letiltása után.</string>
+    <string name="smart_bonding_turn_off_text_airplane_mode">Amíg a Repülő üzemmód be van kapcsolva, nem lehet a mobilhálózathoz kapcsolódni. Tiltsa le a Repülő üzemmódot, és próbálja újra.</string>
+    <string name="dialog_battery_data_warning">A mobil Wi-Fi hotspot használata gyorsan meríti az akkumulátort, és nagyobb adatforgalmat eredményez. Folytatja?</string>
+    <string name="tether_settings_title_wifi">Mobil hotspot</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">Jegyzet</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="cooling_title">Az eszköz túlmelegszik</string>
+    <string name="cooling_body">"Az eszköz túlmelegszik. A rendszer lépéseket tesz a lehűtése érdekében.
+
+Továbbra is használhatja az eszközt, de
+- sötétebb lehet a képernyő.
+- lassabban működhet az eszköz.
+- szünetelhet a töltés.
+
+A jelenlegi alkalmazás bezárásával segítheti az eszköz hűtését.
+
+A lehűlt eszközön visszaáll a normál működés."</string>
+    <string name="cooling_noti_text">Érintse meg részletek megjelenítéséhez.</string>
+    <string name="cooling_popup_name">Értesítés</string>
+    <string name="cooling_noti_title">Az eszköz túlmelegszik</string>
+    <string name="btn_text_yes">OK</string>
+    <string name="btn_text_no">Mégse</string>
+    <string name="device_overheating">Az eszköz túlmelegszik</string>
+    <string name="colling_noti_text_2">Nem lehet alkalmazásokat megnyitni. Csak a Telefon és a Névjegyzék alkalmazást használhatja.</string>
+    <string name="vol_panel_audio_settings">hangbeállítások módosítása.</string>
+    <string name="guest_launge_warning_toast_text">Vendég módban a(z) %s nem engedélyezhető és nem tiltható le.</string>
+    <string name="safe_mode_title_vzw">Biztonságos üzemmód kikapcsolása</string>
+    <string name="safe_mode_popup_body_vzw">Újra akarja indítani telefonját a Biztonságos üzemmód kikapcsolásához? Az összes alkalmazása alaphelyzetbe fog állni.</string>
+    <string name="safe_mode_btn_cancel_vzw">Mégse</string>
+    <string name="safe_mode_off_btn_vzw">Biztonságos üzemmód kikapcsolása</string>
+    <string name="safe_mode_noti_on_vzw">Biztonságos üzemmód bekapcsolva.</string>
+    <string name="safe_mode_noti_body_vzw">Érintse meg a képernyőt a Biztonságos üzemmód kikapcsolásához.</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">Érintse meg a részletekért.</string>
+    <string name="cooling_popup_name_VZW">Értesítés</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">OK</string>
+    <string name="btn_text_no_VZW">Mégse</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance will Automatically go back to normal."</string>
+    <string name="recent_menukey_press_description">Tartsa nyomva a Legutóbbi gombot a menü megjelenítéséhez.</string>
+    <string name="recent_menukey_press_description_vzw">A Menü gombot a Legutóbbi gombra cseréltük, hogy egyszerűbben lehessen váltani a legutóbb használt alkalmazások között. További információért érintse meg a Súgó gombot.</string>
+    <string name="recent_menukey_help_button">Súgó</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Завжди увімк.</item>
+        <item>За вимогою</item>
+        <item>Вимкнути</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Стандартна сторінка</item>
+        <item>Поточна сторінка</item>
+        <item>Швидкий доступ</item>
+        <item>Найбільш відвідувані сайти</item>
+        <item>Інші</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Пристрій</item>
+        <item>SD-карта</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Латиниця-1 (ISO-8859-1)</item>
+        <item>Юнікод (UTF-8)</item>
+        <item>Китайська (GBK)</item>
+        <item>Китайська (Big5)</item>
+        <item>Японська (ISO-2022-JP)</item>
+        <item>Японська (SHIFT JIS)</item>
+        <item>Японська (EUC-JP)</item>
+        <item>Корейська (EUC-KR)</item>
+        <item>Автоматичне розпізнавання</item>
+    </string-array>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/call_detail" android:background="@color/contacts_app_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:cp="http://schemas.android.com/apk/res/com.android.contacts">
+    <RelativeLayout android:id="@id/contact_and_buttons_layout" android:background="#ff000000" android:layout_width="280.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/call_detail_indicator_shadow" android:background="@drawable/logsdetail_indicator_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" />
+        <ImageButton android:id="@id/contact_background_button" android:background="@color/transparent" android:layout_width="@dimen/call_detail_default_image_size" android:layout_height="@dimen/call_detail_default_image_size" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <com.samsung.contacts.widget.ContactPhotoView android:id="@id/contact_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" cp:framePositionTop="@dimen/call_detail_photo_from_y_position" />
+        <ImageView android:id="@id/contact_default" android:visibility="gone" android:layout_width="@dimen/call_detail_default_image_size" android:layout_height="@dimen/call_detail_default_image_size" android:adjustViewBounds="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/text_container" android:paddingLeft="@dimen/detail_photo_selector_view_textside_side_padding" android:paddingRight="@dimen/detail_photo_selector_view_textside_side_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:minHeight="50.0dip" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/yellowpage_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/yellowpage_icon" android:layout_width="23.0dip" android:layout_height="23.0dip" android:scaleType="fitXY" />
+                <com.samsung.contacts.widget.StrokeTextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/yellowpage_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:importantForAccessibility="no" style="@style/detail_display_name_text" />
+            </LinearLayout>
+            <com.samsung.contacts.widget.StrokeTextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/contact_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:importantForAccessibility="no" style="@style/detail_display_name_text" />
+            <com.samsung.contacts.widget.StrokeTextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/contact_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:importantForAccessibility="no" style="@style/detail_company_text" />
+            <com.samsung.contacts.widget.StrokeTextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/cnap_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:importantForAccessibility="no" style="@style/detail_company_text" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/call_and_sms_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/contact_and_buttons_layout" android:layout_alignParentTop="true">
+        <include layout="@layout/call_detail_buttons" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/controls" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/contact_and_buttons_layout" android:layout_below="@id/call_and_sms_container">
+        <ListView android:id="@id/history" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:layout_below="@id/voicemail_container" android:layout_alignParentLeft="true" />
+        <FrameLayout android:id="@id/voicemail_status" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/history">
+            <include layout="@layout/playback_layout" />
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/voicemail_container" android:paddingBottom="@dimen/call_detail_button_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <View android:id="@id/blank" android:background="@*android:color/black" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</RelativeLayout>

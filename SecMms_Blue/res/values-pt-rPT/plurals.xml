@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s conversações</item>
+        <item quantity="one">1 conversação</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s mensagens</item>
+        <item quantity="one">1 mensagem</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d conversações</item>
+        <item quantity="one">%d conversação</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s e mais %2$d</item>
+        <item quantity="one">%s e mais 1</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s e mais %2$d</item>
+        <item quantity="one">%s e mais 1</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">Mensagens eliminadas do cartão SIM.</item>
+        <item quantity="one">Mensagem eliminada do cartão SIM.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">Mensagens copiadas do cartão SIM.</item>
+        <item quantity="one">Mensagem copiada do cartão SIM.</item>
+    </plurals>
+</resources>

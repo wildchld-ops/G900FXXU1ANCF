@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:chrome="http://schemas.android.com/apk/res/com.sec.android.app.sbrowser">
+    <item android:drawable="@drawable/blocked_popups" />
+</selector>

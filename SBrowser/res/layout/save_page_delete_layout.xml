@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/linear_layout_select_all" android:background="@drawable/bookmark_create_btn_bg_selector" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="21.0sp" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/select_all_textview" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:text="@string/select_all_folder_view" android:layout_alignParentLeft="true" />
+        <com.sec.android.touchwiz.widget.TwCheckBox android:id="@id/delete_all_checkbox" android:tag="@string/unchecked_select_all" android:focusable="false" android:layout_width="@dimen/sbrowser_bookmark_folder_checkbox_width" android:layout_height="@dimen/sbrowser_bookmark_folder_checkbox_height" android:layout_marginRight="@dimen/sbrowser_bookmark_checkbox_margin_left" android:src="@drawable/checkbox_unchecked" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.sec.android.touchwiz.widget.TwExpandableListView android:id="@id/savepage_delete_expandableview" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:groupIndicator="@drawable/group_indicator_selector" android:divider="@null" android:dividerHeight="0.0dip" />
+</LinearLayout>

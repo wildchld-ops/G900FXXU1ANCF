@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>שמח</item>
+        <item>עצוב</item>
+        <item>קריצה</item>
+        <item>מוציא לשון</item>
+        <item>מופתע</item>
+        <item>מנשק</item>
+        <item>צועק</item>
+        <item>מגניב</item>
+        <item>פה בצורת דולר</item>
+        <item>רגל בפה</item>
+        <item>נבוך</item>
+        <item>מלאך</item>
+        <item>מהסס</item>
+        <item>בוכה</item>
+        <item>שפתיים חתומות</item>
+        <item>צחוק</item>
+        <item>מבולבל</item>
+        <item>לב</item>
+        <item>כועס</item>
+        <item>זחוח</item>
+        <item>פרצוף פוקר</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>השתמש בגדלי גופן של ההתקן</item>
+        <item>קטן מאוד</item>
+        <item>קטן</item>
+        <item>רגיל</item>
+        <item>גדול</item>
+        <item>גדול מאוד</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>השתמש בגדלי גופן של ההתקן</item>
+        <item>זעיר</item>
+        <item>קטן מאוד</item>
+        <item>קטן</item>
+        <item>בינוני</item>
+        <item>גדול</item>
+        <item>גדול מאוד</item>
+        <item>ענק</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>כל הערוצים</item>
+        <item>הערוץ שלי</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM אלפבית של</item>
+        <item>יוניקוד</item>
+        <item>אוטומטי</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 ימים</item>
+        <item>יום</item>
+        <item>יומיים</item>
+        <item>3 ימים</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>מוגבל</item>
+        <item>אזהרה</item>
+        <item>חופשי</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>תמיד</item>
+        <item>שאל</item>
+        <item>אף פעם</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>אוריגמי</item>
+        <item>תווית</item>
+        <item>פופ</item>
+        <item>מודרני</item>
+        <item>ורוד</item>
+        <item>ברירת מחדל</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>חד-פעמי</item>
+        <item>כל 2 דקות</item>
+        <item>כל 15 דקות</item>
+        <item>כבוי</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>אף פעם</item>
+        <item>כל 2 דקות</item>
+        <item>כל 10 דקות</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>מקומי</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>שעה אחת</item>
+        <item>6 שעות</item>
+        <item>24 שעות</item>
+        <item>יומיים</item>
+        <item>לפי רשת</item>
+        <item>מקסימום</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>גבוהה</item>
+        <item>רגיל</item>
+        <item>נמוכה</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>באופן מיידי</item>
+        <item>שעה אחת</item>
+        <item>6 שעות</item>
+        <item>24 שעות</item>
+        <item>שבוע 1</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 שניות</item>
+        <item>5 שניות</item>
+        <item>10 שניות</item>
+        <item>20 שניות</item>
+        <item>30 שניות</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>כבוי</item>
+        <item>חסום את כל ההודעות</item>
+        <item>חסום מספרים רשומים וביטויים</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>בדיוק כמו</item>
+        <item>מתחיל עם</item>
+        <item>מסתיים עם</item>
+        <item>כולל</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>יומן שיחות</item>
+        <item>אנשי קשר</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>חסימת הודעות</item>
+        <item>חסימת שיחות</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>חסימת הודעות</item>
+        <item>חסימת שיחות קוליות</item>
+        <item>חסימת שיחות וידאו</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>שמור</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>רגיל</item>
+        <item>גבוה</item>
+    </string-array>
+    <string-array name="templates">
+        <item>מצטער, פספסתי את השיחה שלך.</item>
+        <item>אני באיחור, אבל אגיע בעוד כמה דקות.</item>
+        <item>מה העניינים?</item>
+        <item>מה נשמע?</item>
+        <item>איפה אתה?</item>
+        <item>תתקשר אליי כשתקבל את ההודעה.</item>
+        <item>מתי נוכל להיפגש?</item>
+        <item>אדבר איתך בקרוב.</item>
+        <item>היכן הפגישה?</item>
+        <item>מה המספר?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>פורטוגזית ברזילאית</item>
+        <item>אנגלית (בריטניה)</item>
+        <item>באנגלית (ארה”ב)</item>
+        <item>צרפתית</item>
+        <item>גרמני</item>
+        <item>איטלקית</item>
+        <item>יפנית</item>
+        <item>קוריאנית</item>
+        <item>סינית פשוטה</item>
+        <item>רוסית</item>
+        <item>ספרדית</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>קטן מאוד</item>
+        <item>קטן</item>
+        <item>רגיל</item>
+        <item>גדול</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>הכל</item>
+        <item>שולח</item>
+        <item>תוכן</item>
+    </string-array>
+</resources>

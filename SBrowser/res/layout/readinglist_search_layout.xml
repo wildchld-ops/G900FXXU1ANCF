@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/actionbar_reading_search" android:paddingTop="@dimen/reading_list_action_search_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip">
+        <EditText android:textSize="19.0dip" android:textColor="#ffffffff" android:textColorHint="#ff7e979d" android:layout_gravity="center_vertical" android:id="@id/edit_text_search_data" android:background="@drawable/reader_search_selector" android:paddingLeft="9.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginRight="10.0dip" android:ems="10" android:maxLength="@integer/readinglist_search_max_number_of_text" android:inputType="text" android:imeOptions="actionSearch|flagNoExtractUi" android:fontFamily="sans-serif-light">
+            <requestFocus />
+        </EditText>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/image_search_readinglist" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="13.0dip" android:src="@drawable/tw_ic_search_api_holo_light" android:scaleType="fitXY" />
+        <ImageView android:layout_gravity="right|center" android:id="@id/image_clear_readinglist" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/tw_ic_clear_search_api_holo_light" />
+    </FrameLayout>
+</RelativeLayout>

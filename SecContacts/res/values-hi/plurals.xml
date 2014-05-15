@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">%d संपर्क प्रदर्शित हो रहे हैं</item>
+        <item quantity="one">1 संपर्क दर्शाया जा रहा हैं</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">फ़ोन नंबर्स के साथ %d संपर्क प्रदर्शित किए जा रहे हैं</item>
+        <item quantity="one">फ़ोन नंबर के साथ 1 संपर्क प्रदर्शित किया जा रहा है</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">फ़ोन नंबरों के साथ %d संपर्क</item>
+        <item quantity="one">फ़ोन नंबर के साथ 1 संपर्क</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d संपर्क</item>
+        <item quantity="one">1 संपर्क</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d मिले</item>
+        <item quantity="one">1 मिला</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d मिले</item>
+        <item quantity="one">1 मिला</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">%0$d स्रोतों से मर्ज किया गया</item>
+        <item quantity="one">मर्ज नहीं किए गए</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d समूह</item>
+        <item quantity="one">1 समूह</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%2$s समूह में %1$d लोग</item>
+        <item quantity="one">%2$s समूह में %1$d व्यक्ति</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d लोग</item>
+        <item quantity="one">%1$d व्‍यक्ति</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d वॉइस मेल्स</item>
+        <item quantity="one">वॉइस मेल</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d संपर्क कॉपी किए गए।</item>
+        <item quantity="one">%d संपर्क कॉपी किए गए।</item>
+    </plurals>
+</resources>

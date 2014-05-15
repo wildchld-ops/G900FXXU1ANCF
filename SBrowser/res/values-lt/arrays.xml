@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Visada įjungta</item>
+        <item>Pagal pareikalavimą</item>
+        <item>Išjungti</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Numatytasis puslapis</item>
+        <item>Dabartinis puslapis</item>
+        <item>Sparčioji prieiga</item>
+        <item>Dažniausiai lankomos svetainės</item>
+        <item>Kiti</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Įrenginys</item>
+        <item>SD kortelė</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Lotynų-1 (ISO-8859-1)</item>
+        <item>Unikodas (UTF-8)</item>
+        <item>Kinų (GBK)</item>
+        <item>Kinų („Big5“)</item>
+        <item>Japonų (ISO-2022-JP)</item>
+        <item>Japanese (SHIFT JIS)</item>
+        <item>Japonų (EUC-JP)</item>
+        <item>Korėjiečių (EUC-KR)</item>
+        <item>Automatinis aptikimas</item>
+    </string-array>
+</resources>

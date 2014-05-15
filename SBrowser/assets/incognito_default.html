@@ -1,0 +1,272 @@
+<html i18n-values="dir:textdirection" dir="ltr"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,
+                               maximum-scale=1.0, user-scalable=no">
+<title i18n-content="title">Most Visited</title>
+<style>
+
+body {
+  background-color: #E6E6E6;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10pt;
+  margin: 50px 40px 20px 40px;  
+}
+
+#main-frame-error {
+  margin: auto;
+  max-width: 540px;
+  min-width: 200px;
+}
+
+/* Don't use the main frame div when the error is in a subframe. */
+html[subframe] #main-frame-error {
+  display: none;
+}
+
+/* Don't use the subframe error div when the error is in a main frame. */
+html:not([subframe]) #sub-frame-error {
+  display: none;
+}
+
+#box {
+  background-color: #fbfbfb;
+  border: 1px solid #AAA;
+  border-bottom: 1px solid #888;
+  border-radius: 3px;
+  color: black;
+
+}
+
+h1 {
+  color: #000;
+  margin: 10px 0px 0px 0px;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+a {
+  color: #15c;
+  text-decoration: none;
+}
+
+.error-img {
+  /**
+   * Can't access chrome://theme/IDR_ERROR_NETWORK_GENERIC from an untrusted
+   * renderer process, so embed the resource manually.
+   */
+  content: -webkit-image-set(
+      url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAAAWUlEQVRo3u3U0Q0AERRFQT2+/mvZLQEhm8vOJP6IQ0JrAABkqapndgjfET4zJ+IAvwqPOMDIbR4fHvVYrwn/aq1w4cIXNu/9HsJ3hY+GCvc4TwpfGcIBAIK87I1OwILpQqsAAAAASUVORK5CYII=') 1x,
+      url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAYAAADj79JYAAAAm0lEQVR42u3XOw4AEBBAQXfc+5+FWifx3ZhJtMTT2FIAAAAAAAAAAABIIiLqiaW04IILLvj+4Lv28QCCCy644HmDewDB3ww+GkZwwf8KbjASXHDBBc/zLcxyruCCCy644IILLrjgggsuuOCvXnx2VBdccMEFF/xc8NVBBRdccMEFN/gILrjgggt+fwkuuOCCCw4AAAAAAAAAAJ0G+LE7DCzzV9UAAAAASUVORK5CYII=') 2x);
+  -webkit-user-select: none;
+}
+
+#content-top {
+  margin: 10px 20px 10px 25px;
+}
+
+#help-box-outer {
+  overflow: hidden;
+  -webkit-transition: height ease-in 218ms;
+}
+
+#help-box-inner {
+  background-color: #f9f9f9;
+  border-top: 1px solid #EEE;
+  color: #444;
+  padding: 25px 20px;
+  text-align: start;
+}
+
+#suggestions {
+  margin-top: 15px;
+}
+
+#sub-frame-error-details {
+  color: #8F8F8F;
+
+}
+
+#heading-padding {
+  padding: 20px 0px 10px 0px;
+}
+
+[jscontent=failedUrl] {
+  overflow-wrap: break-word;
+}
+
+button {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  color: #444;
+  margin: 0px 5px;
+  min-height: 29px;
+  min-width: 65px;
+  -webkit-user-select: none;
+  padding: 8px 13px;
+
+/* Android uses flat background colors. */
+  background-color: #ededed;
+  font-weight: bold;
+
+}
+
+button:hover {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: #000;
+
+background-color: #f0f0f0;
+
+}
+
+button:active {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: #444;
+
+background-color: #e7e7e7;
+
+}
+
+#reload-button {
+  color: #fff;
+
+background-color: rgb(39, 180, 231);
+  border: 1px solid rgb(0, 152, 206);
+
+}
+
+#reload-button:hover {
+
+
+}
+
+#reload-button:active {
+
+background-color: rgb(0, 152, 206);
+
+}
+
+.hidden {
+  display: none;
+}
+
+.suggestions {
+  margin-top: 18px;
+}
+
+.suggestion-header {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.suggestion-body {
+  color: #777;
+}
+
+.error-code {
+  color: #A0A0A0;
+  margin-top: 15px;
+}
+
+/* Increase line height at higher resolutions. */
+@media (min-width: 641px) and (min-height: 641px) {
+  #help-box-inner {
+    line-height: 18px;
+  }
+}
+
+/* Decrease padding at low sizes. */
+@media (max-width: 640px), (max-height: 640px) {
+  body {
+    margin: 15px;
+  }
+  h1 {
+    margin: 10px 0px 15px 0px;
+  }
+  #content-top {
+    margin: 15px;
+  }
+  #help-box-inner {
+    padding: 20px;
+  }
+  .suggestions {
+    margin-top: 10px;
+  }
+  .suggestion-header {
+    margin-bottom: 0px;
+  }
+  .error-code {
+    margin-top: 10px;
+  }
+}
+
+/* Don't allow overflow when in a subframe. */
+html[subframe] body {
+  overflow: hidden;
+}
+
+#sub-frame-error {
+  -webkit-align-items: center;
+  background-color: #DDD;
+  display: -webkit-flex;
+  -webkit-flex-flow: column;
+  height: 100%;
+  -webkit-justify-content: center;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+#sub-frame-error:hover {
+  background-color: #EEE;
+}
+
+#sub-frame-error-details {
+  margin: 0 10px;
+  visibility: hidden;
+}
+
+/* Show details only when hovering. */
+#sub-frame-error:hover #sub-frame-error-details {
+  visibility: visible;
+}
+
+/* If the iframe is too small, always hide the error code. */
+/* TODO(mmenke): See if overflow: no-display works better, once supported. */
+@media (max-width: 200px), (max-height: 95px) {
+  #sub-frame-error-details {
+    display: none;
+  }
+}
+
+</style>
+</head>
+
+
+
+<body id="t" jstcache="0">
+<div id="main-frame-error" jstcache="0">
+ <div id="box" jstcache="0">
+  <div id="content-top" jstcache="0">
+   <h1 jstcache="0">
+     <div id="heading-padding" jstcache="0">
+      <span i18n-content="heading" jstcache="0">Incognito_title</span>
+     </div>
+   </h1>
+  <!-- Outer and inner divs are needed both for margins and sizing. -->
+    <div jsselect="summary" jstcache="3">
+     <span jsvalues=".innerHTML:msg" jstcache="4">Incognito_message</span>
+    </div>
+  </div>
+ </div>
+</div> 
+ <div id="sub-frame-error" jstcache="0">
+  <!-- Show details when hovering over the icon, in case the details are
+       hidden because they're too large. -->
+   <img class="error-img" jsvalues=".title:errorDetails" jstcache="1" title="Verbindung wurde zurückgesetzt.">
+   <div id="sub-frame-error-details" jsvalues=".innerHTML:errorDetails" jstcache="2">Verbindung wurde zurückgesetzt.</div>
+ </div>
+
+
+
+</body></html>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">Đang hiển thị %d danh bạ</item>
+        <item quantity="one">Đang hiển thị 1 danh bạ</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">Hiển thị %d danh bạ có số điện thoại</item>
+        <item quantity="one">Hiển thị 1 danh bạ có số điện thoại</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d danh bạ có số điện thoại</item>
+        <item quantity="one">1 danh bạ có số điện thoại</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d danh bạ</item>
+        <item quantity="one">1 danh bạ</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Tìm thấy %d</item>
+        <item quantity="one">Tìm thấy 1</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Tìm thấy %d</item>
+        <item quantity="one">Tìm thấy 1</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">được hợp nhất từ %0$d nguồn</item>
+        <item quantity="one">chưa được hợp nhất</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d nhóm</item>
+        <item quantity="one">1 nhóm</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d người trong nhóm %2$s</item>
+        <item quantity="one">%1$d người trong nhóm %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d người</item>
+        <item quantity="one">%1$d người</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d thư thoại</item>
+        <item quantity="one">Thư thoại</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d danh bạ đã được chép.</item>
+        <item quantity="one">%d danh bạ đã được chép.</item>
+    </plurals>
+</resources>

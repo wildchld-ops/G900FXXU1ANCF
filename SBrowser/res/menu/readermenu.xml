@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/tw_action_bar_icon_saveas" android:id="@id/save_as_image" android:title="@string/save_as_image" />
+    <item android:icon="@drawable/tw_action_bar_icon_saveas" android:id="@id/open_extract_mode" android:title="@string/open_extract_mode" />
+    <item android:id="@id/translate_mode" android:visible="false" android:title="@string/translate_mode" />
+    <item android:id="@id/related_content_mode" android:visible="false" android:title="@string/related_content_mode" />
+    <item android:id="@id/open_new_window" android:title="@string/options_menu_go_to_website" android:showAsAction="never" />
+    <item android:id="@id/add_to_readlater" android:title="@string/options_menu_scrap" android:showAsAction="never" />
+    <item android:id="@id/night_mode" android:title="@string/reader_night_mode" android:checkable="true" android:showAsAction="never" />
+    <item android:icon="@drawable/reader_text_fontup" android:id="@id/zoomin" android:title="@string/reader_enlarge" android:showAsAction="always" />
+    <item android:icon="@drawable/reader_text_fontdown" android:id="@id/zoomout" android:title="@string/reader_shrink" android:showAsAction="always" />
+    <item android:icon="@drawable/reader_share_selector" android:id="@id/readerShare" android:title="@string/share_link_chooser_title" android:showAsAction="always" />
+</menu>

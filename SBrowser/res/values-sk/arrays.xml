@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Vždy zapnuté</item>
+        <item>Na požiadanie</item>
+        <item>Vypnúť</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Predvolená stránka</item>
+        <item>Aktuálna stránka</item>
+        <item>Rýchly prístup</item>
+        <item>Najnavštevovanejšie lokality</item>
+        <item>Ďalšie</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Zariadenie</item>
+        <item>Karta SD</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Čínština (GBK)</item>
+        <item>Čínština (Big5)</item>
+        <item>Japončina (ISO-2022-JP)</item>
+        <item>Japončina (SHIFT JIS)</item>
+        <item>Japončina (EUC-JP)</item>
+        <item>Kórejčina (EUC-KR)</item>
+        <item>Zistiť automaticky</item>
+    </string-array>
+</resources>

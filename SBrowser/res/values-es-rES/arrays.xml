@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_engines">
+        <item>google_es</item>
+        <item>ask_es</item>
+        <item>bing_es_ES</item>
+        <item>yahoo_es</item>
+        <item>terra_es</item>
+        <item>hispavista</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>Siempre activado</item>
+        <item>A petición</item>
+        <item>Desactivado</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Página predeterminada</item>
+        <item>Página actual</item>
+        <item>Acceso rápido</item>
+        <item>Sitios más visitados</item>
+        <item>Otro</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Dispositivo</item>
+        <item>Tarjeta SD</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latino-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chino (GBK)</item>
+        <item>Chino (Big5)</item>
+        <item>Japonés (ISO-2022-JP)</item>
+        <item>Japonés (SHIFT JIS)</item>
+        <item>Japonés (EUC-JP)</item>
+        <item>Coreano (EUR-KR)</item>
+        <item>Detección automática</item>
+    </string-array>
+</resources>

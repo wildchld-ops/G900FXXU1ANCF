@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/scraplist_no_item" android:background="@color/reading_list_backround_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/scraplist_no_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/no_bookmarks_layout_internet_icon_size" android:layout_height="@dimen/no_bookmarks_layout_internet_icon_size" android:src="@drawable/internet_ic_no_item" />
+            <TextView android:textSize="@dimen/no_bookmarks_layout_internet_text1_size" android:textColor="@color/noitem_text_color" android:layout_gravity="center_horizontal" android:id="@id/scraplist_no_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scraplist_no_item" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include android:layout_gravity="bottom" layout="@layout/undobar_layout" />
+</merge>

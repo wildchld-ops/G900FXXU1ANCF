@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>Pozik</item>
+        <item>Goibel</item>
+        <item>Keinada</item>
+        <item>Mihia aterata</item>
+        <item>Harrituta</item>
+        <item>Musukatzen</item>
+        <item>Garrasika</item>
+        <item>Bikain</item>
+        <item>Dirua ahoan</item>
+        <item>Hanka sartze</item>
+        <item>Lotsatuta</item>
+        <item>Aingerua</item>
+        <item>Erabaki gabea</item>
+        <item>Negarrez</item>
+        <item>Ahoa itxita</item>
+        <item>Barrez</item>
+        <item>Nahasia</item>
+        <item>Bihotza</item>
+        <item>Zoro</item>
+        <item>Harro</item>
+        <item>Poker aurpegia</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Erabili gailu letra tam.</item>
+        <item>Ñimiñoa</item>
+        <item>Txikia</item>
+        <item>Arrunta</item>
+        <item>Handia</item>
+        <item>Erraldoia</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Erabili gailu letra tam.</item>
+        <item>Ñimiñoa</item>
+        <item>Oso txikia</item>
+        <item>Txikia</item>
+        <item>Ertaina</item>
+        <item>Handia</item>
+        <item>Oso handia</item>
+        <item>Erraldoia</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Kanal guztiak</item>
+        <item>Nire kanela</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-alfabetoa</item>
+        <item>Unicode</item>
+        <item>Automatikoa</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 egun</item>
+        <item>Egun 1</item>
+        <item>2 egun</item>
+        <item>3 egun</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Mugatuta</item>
+        <item>Oharra</item>
+        <item>Libre</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Beti</item>
+        <item>Abisua</item>
+        <item>Inoiz ez</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Origamia</item>
+        <item>Etiketa</item>
+        <item>Popa</item>
+        <item>Modernoa</item>
+        <item>Arrosa</item>
+        <item>Lehenetsia</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Behin</item>
+        <item>2 minuturo</item>
+        <item>15 minuturo</item>
+        <item>Desaktibatu</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Inoiz ez</item>
+        <item>2 minuturo</item>
+        <item>10 minuturo</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Herriald.</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>Ordu 1</item>
+        <item>6 ordu</item>
+        <item>24 ordu</item>
+        <item>2 egun</item>
+        <item>Sare lehenetsia</item>
+        <item>Gehiena</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Altua</item>
+        <item>Arrunta</item>
+        <item>Txikia</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Berehala</item>
+        <item>Ordu 1</item>
+        <item>6 ordu</item>
+        <item>24 ordu</item>
+        <item>aste 1</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 segundo</item>
+        <item>5 segundo</item>
+        <item>10 segundo</item>
+        <item>20 segundo</item>
+        <item>30 segundo</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Desaktibatu</item>
+        <item>Blokeatu mezu guztiak</item>
+        <item>Blokeatu erregistratutako zenbakiak eta esaldiak</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Honen bera</item>
+        <item>Honela hasten da</item>
+        <item>Honela amaitzen da</item>
+        <item>Barne dauka</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Erregistroak</item>
+        <item>Kontak.</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Mezuen blokeoa</item>
+        <item>Dei blokeoa</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Mezuen blokeoa</item>
+        <item>Ahots deien blokeoa</item>
+        <item>Bideo deien blokeoa</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Erreserbatuta</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Arrunta</item>
+        <item>Handia</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Barkatu, zure deia galdu dut.</item>
+        <item>Berandu nabil, baina minutu gutxi barru izango naiz han.</item>
+        <item>Nola zaude?</item>
+        <item>Zer moduz?</item>
+        <item>Non zaude?</item>
+        <item>Mesedez, deitu mezu hau jasotzen duzunean.</item>
+        <item>Noiz elkar gaitezke?</item>
+        <item>Laster hitz egingo dugu.</item>
+        <item>Non dago bilera gela?</item>
+        <item>Zein da zenbakia?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Brasileko portugesa</item>
+        <item>Ingelesa (UK)</item>
+        <item>Ingelesa (AEB)</item>
+        <item>Frantsesa</item>
+        <item>Alemana</item>
+        <item>Italiera</item>
+        <item>Japoniera</item>
+        <item>Koreera</item>
+        <item>Txinera sinplifikatua</item>
+        <item>Errusiera</item>
+        <item>Gaztelera</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Ñimiñoa</item>
+        <item>Txikia</item>
+        <item>Arrunta</item>
+        <item>Handia</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Guztia(k)</item>
+        <item>Igorlea</item>
+        <item>Edukia</item>
+    </string-array>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>எப்போதும் ஆன்</item>
+        <item>தேவையின் போது</item>
+        <item>ஆஃப்</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>டீஃபால்ட் பக்கம்</item>
+        <item>தற்போதைய பக்கம்</item>
+        <item>விரைவு அணுகல்</item>
+        <item>அதிகம் பார்க்கப்பட்ட தளங்கள்</item>
+        <item>மற்றவை</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>சாதனம்</item>
+        <item>SD அட்டை</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>லத்தீன்-1 (ISO-8859-1)</item>
+        <item>ஒற்றைகுறி (UTF-8)</item>
+        <item>சீனம் (GBK)</item>
+        <item>சீனம் (Big5)</item>
+        <item>ஜப்பானிஸ் (ISO-2022-JP)</item>
+        <item>ஜப்பானிஸ் (ஷிஃப்ட் JIS)</item>
+        <item>ஜப்பானிஸ் (EUC-JP)</item>
+        <item>கொரியன் (EUC-KR)</item>
+        <item>தானியக்க-கண்டறிதல்</item>
+    </string-array>
+</resources>

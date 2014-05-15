@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: SystemUI.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '19'
+packageInfo:
+  cur_package: com.android.systemui
+  orig_package: com.android.systemui
+compressionType: false

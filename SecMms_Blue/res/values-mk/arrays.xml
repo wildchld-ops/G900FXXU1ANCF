@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&amp;lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Среќа</item>
+        <item>Тага</item>
+        <item>Намигнување</item>
+        <item>Исплазен јазик</item>
+        <item>Изненадено</item>
+        <item>Бакнување</item>
+        <item>Викање</item>
+        <item>Кул</item>
+        <item>Златна уста</item>
+        <item>Нога во уста</item>
+        <item>Засрамено</item>
+        <item>Анѓел</item>
+        <item>Нерешително</item>
+        <item>Плачење</item>
+        <item>Никому не кажувам</item>
+        <item>Смеење</item>
+        <item>Збунетост</item>
+        <item>Срце</item>
+        <item>Лут</item>
+        <item>Задоволна насмевка</item>
+        <item>Коцкарско лице</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Кор.гол.на фонт.на уредот</item>
+        <item>Ситен</item>
+        <item>Мал</item>
+        <item>Нормален</item>
+        <item>Голем</item>
+        <item>Огромен</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Кор.гол.на фонт.на уредот</item>
+        <item>Ситен</item>
+        <item>Многу мало</item>
+        <item>Мал</item>
+        <item>Средно</item>
+        <item>Големо</item>
+        <item>Многу големи</item>
+        <item>Огромни</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Сите канали</item>
+        <item>Мој канал</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM-alphabet</item>
+        <item>Уникод</item>
+        <item>Автоматски</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 денови</item>
+        <item>1 ден</item>
+        <item>2 дена</item>
+        <item>3 дена</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Ограничено</item>
+        <item>Предупредување</item>
+        <item>Слободна</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Секогаш</item>
+        <item>Ако се дозволи</item>
+        <item>Никогаш</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Оригами</item>
+        <item>Етикета</item>
+        <item>Пукање</item>
+        <item>Современо</item>
+        <item>Розова</item>
+        <item>Основно</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Еднократно</item>
+        <item>На 2 минути</item>
+        <item>На 15 минути</item>
+        <item>Исклучено</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Никогаш</item>
+        <item>На 2 минути</item>
+        <item>На 10 минути</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Домашни</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 час</item>
+        <item>6 часа</item>
+        <item>24 часа</item>
+        <item>2 дена</item>
+        <item>Основна мрежа</item>
+        <item>Максимум</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Висок</item>
+        <item>Нормално</item>
+        <item>Низок</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Веднаш</item>
+        <item>1 час</item>
+        <item>6 часа</item>
+        <item>24 часа</item>
+        <item>1 сед.</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 секунди</item>
+        <item>5 секунди</item>
+        <item>10 секунди</item>
+        <item>20 секунди</item>
+        <item>30 секунди</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Исклучено</item>
+        <item>Блокирај ги сите пораки</item>
+        <item>Блокирај регистрирани броеви и фрази</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Потполно исто како</item>
+        <item>Почнува со</item>
+        <item>Завршува со</item>
+        <item>Вклучува</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Дневници</item>
+        <item>Именик</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Блокирање пораки</item>
+        <item>Блокирање повици</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Блокирање пораки</item>
+        <item>Блокирање гласовни повици</item>
+        <item>Блокирање видео-повици</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Резервирано.</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Нормално</item>
+        <item>Висок</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Извини, сум го пропуштил повикот.</item>
+        <item>Доцнам, но ќе стигнам за некоја минута.</item>
+        <item>Што правиш?</item>
+        <item>Што има ново?</item>
+        <item>Каде си?</item>
+        <item>Јави ми се кога ќе ја добиеш поракава.</item>
+        <item>Кога може да се видиме?</item>
+        <item>Ќе разговараме наскоро.</item>
+        <item>Каде е состанокот?</item>
+        <item>Кој е бројот?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Бразилски португалски</item>
+        <item>Англиски (британски)</item>
+        <item>Англиски (САД)</item>
+        <item>Француски</item>
+        <item>Германски</item>
+        <item>Италијански</item>
+        <item>Јапонски</item>
+        <item>Корејски</item>
+        <item>Поедноставен кинески</item>
+        <item>Руски</item>
+        <item>Шпански</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Ситен</item>
+        <item>Мал</item>
+        <item>Нормален</item>
+        <item>Голем</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Сите</item>
+        <item>Праќач</item>
+        <item>Содржина</item>
+    </string-array>
+</resources>

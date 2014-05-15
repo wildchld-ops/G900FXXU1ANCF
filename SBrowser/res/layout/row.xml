@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/reading_list_shadow_color" android:layout_width="fill_parent" android:layout_height="@dimen/reading_list_upper_margin" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/readingImage" android:layout_width="fill_parent" android:layout_height="@dimen/reading_list_readingImage_height" />
+        <ImageView android:id="@id/readingImageCheckBox" android:visibility="gone" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="39.0dip" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/reading_list_linnear_layout" android:layout_width="fill_parent" android:layout_height="@dimen/reading_list_linear_layout_height">
+        <RelativeLayout android:background="@color/reading_list_linnear_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/reading_list_txtDescription_font_size" android:textColor="@color/reading_list_txt_description" android:id="@id/txtDescription" android:paddingLeft="@dimen/reading_list_txtDescription_padding_left" android:paddingTop="@dimen/reading_list_txtDescription_padding_top" android:paddingRight="@dimen/reading_list_txtDescription_padding_right" android:layout_width="fill_parent" android:layout_height="@dimen/reading_list_txtDescription_height" android:singleLine="true" />
+            <CheckBox android:id="@id/ckReadingDescid" android:focusable="false" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="3.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/reading_list_txtURL_font_size" android:textColor="@color/reading_list_txt_url" android:id="@id/txtURL" android:paddingLeft="@dimen/reading_list_txtURL_padding_left" android:paddingRight="@dimen/reading_list_txtURL_padding_right" android:paddingBottom="@dimen/reading_list_txtURL_padding_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/reading_list_txtURL_height" android:singleLine="true" />
+    </LinearLayout>
+    <RelativeLayout android:background="@color/reading_list_linnear_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:ellipsize="end" android:id="@id/readingDescription" android:paddingLeft="@dimen/reading_list_txtDescription_padding_left" android:paddingTop="@dimen/reading_list_txtDescription_padding_top" android:paddingRight="@dimen/reading_list_txtDescription_padding_right" android:paddingBottom="@dimen/reading_list_txtURL_padding_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/reading_list_readingImage_height" android:maxLines="6" />
+        <ImageView android:id="@id/readingDescriptionCheckBox" android:visibility="gone" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginBottom="40.0dip" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/reading_list_shadow_color" android:layout_width="fill_parent" android:layout_height="@dimen/reading_list_bottom_layout_height" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s من المحادثات</item>
+        <item quantity="one">محادثة واحدة</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s رسائل</item>
+        <item quantity="one">رسالة واحدة</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d محادثات</item>
+        <item quantity="one">%d محادثة</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s و%2$d آخرين</item>
+        <item quantity="one">%s مستلم وواحد آخر</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s و%2$d إضافية</item>
+        <item quantity="one">%s و واحد آخر</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">تم حذف الرسائل من بطاقة SIM.</item>
+        <item quantity="one">تم حذف الرسالة من بطاقة SIM.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">رسائل منسوخة من بطاقة SIM</item>
+        <item quantity="one">تم نسخ الرسالة من بطاقة SIM.</item>
+    </plurals>
+</resources>

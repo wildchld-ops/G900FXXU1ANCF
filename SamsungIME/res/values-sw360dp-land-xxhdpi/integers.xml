@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="preview_arrow_position_y">42</integer>
+    <integer name="handwriting_vopanel_text_margin">400</integer>
+    <integer name="handwriting_vopanel_baseline_position">240</integer>
+    <integer name="handwriting_vopanel_font_size">150</integer>
+    <integer name="qwerty_emoticon_icon_count_in_row">13</integer>
+</resources>

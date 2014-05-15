@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Gjithnjë ndezur</item>
+        <item>Me porosi</item>
+        <item>Fikur</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Faqja e parazgjedhur</item>
+        <item>Faqja e tanishme</item>
+        <item>Qasja e shpejtë</item>
+        <item>Sajtet më të vizituara</item>
+        <item>Tjetër</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Pajisja</item>
+        <item>Kartë SD</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Kinezisht (GBK)</item>
+        <item>Kinezisht (Big5)</item>
+        <item>Japonisht (ISO-2022-JP)</item>
+        <item>Japonisht (SHIFT JIS)</item>
+        <item>Japonisht (EUC-JP)</item>
+        <item>Koreanisht (EUC-KR)</item>
+        <item>Zbulim automatik</item>
+    </string-array>
+</resources>

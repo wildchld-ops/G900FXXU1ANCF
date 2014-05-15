@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="qwerty_domain_values">
+        <item>.gov</item>
+        <item>.edu</item>
+        <item>.org</item>
+        <item>.net</item>
+        <item>.go.kz</item>
+        <item>.or.kz</item>
+        <item>.co.kz</item>
+        <item>.kz</item>
+    </string-array>
+    <string-array name="phonepad_domain_values">
+        <item>.gov</item>
+        <item>.go.kz</item>
+        <item>.edu</item>
+        <item>.or.kz</item>
+        <item>.org</item>
+        <item>.co.kz</item>
+        <item>.net</item>
+        <item>.kz</item>
+    </string-array>
+</resources>

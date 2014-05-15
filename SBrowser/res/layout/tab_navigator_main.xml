@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/pager_container" android:background="@*android:color/darker_gray" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.android.app.sbrowser.toolbarswipe.ui.TabViewPager android:id="@id/viewpager" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

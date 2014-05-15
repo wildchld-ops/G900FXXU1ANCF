@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>සැමවිටම සක්‍රියයි</item>
+        <item>ඉල්ලීම මත</item>
+        <item>ක්‍රියා විරහිතයි</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>සාමාන්‍ය පිටුව</item>
+        <item>වත්මන් පිටුව</item>
+        <item>යුහු ප්‍රවේශය</item>
+        <item>නිතර පිවිසි අඩවි</item>
+        <item>වෙනත්</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>උපාංගය</item>
+        <item>SD කාඩ්පත</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>ලතින්-1 (ISO-8859-1)</item>
+        <item>යුනිකෝඩ් (UTF-8)</item>
+        <item>චීන (GBK)</item>
+        <item>චීන (Big5)</item>
+        <item>ජපන් (ISO-2022-JP)</item>
+        <item>ජපාන් (SHIFT JIS)</item>
+        <item>ජපන් (EUC-JP)</item>
+        <item>කොරියානු (EUC-KR)</item>
+        <item>ස්වයං සෙවුම</item>
+    </string-array>
+</resources>

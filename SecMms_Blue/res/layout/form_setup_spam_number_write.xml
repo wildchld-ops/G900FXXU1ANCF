@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/create_list" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/list_create" android:paddingLeft="16.0dip" android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="18.0sp" android:layout_gravity="center_vertical" android:id="@id/edit_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginBottom="9.0dip" android:hint="@string/enter_number" android:maxLength="100" android:layout_weight="1.0" android:inputType="phone" android:imeOptions="flagNoExtractUi" />
+        <Button android:id="@id/search_button" android:background="@drawable/selector_composer_button_background" android:paddingLeft="11.0dip" android:paddingTop="13.0dip" android:paddingRight="12.0dip" android:focusable="true" android:layout_width="53.0dip" android:layout_height="56.0dip" android:drawableTop="@drawable/selector_contact_button_for_spam" android:contentDescription="@string/phone_book_button_description" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/tw_list_divider" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/match_criteria_layout" android:background="@drawable/msg_list_background_selector" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip">
+        <LinearLayout android:orientation="vertical" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="21.0sp" android:textColor="@color/list_item_primary_text_color" android:id="@id/text_main" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/spam_msg_match_criteria_menu" android:singleLine="true" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/list_item_secondary_text_color" android:id="@id/text_sub" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:background="@drawable/tw_list_divider" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

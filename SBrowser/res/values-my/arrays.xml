@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>အၿမဲဖြင့္ထားပါ</item>
+        <item>ေတာင္းဆုိထားေသာ</item>
+        <item>ပိတ္ပါ</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>မူလသတ္မွတ္ထားသည္႔ စာမ်က္ႏွာ</item>
+        <item>လက္ရွိစာမ်က္ႏွာ</item>
+        <item>အျမန္ ဝင္ေရာက္မႈ</item>
+        <item>အမ်ားဆံုး သြားခဲ့ေသာ ဆိုက္မ်ား</item>
+        <item>အျခား</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>ကိရိယာ</item>
+        <item>SD ကတ္</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>လက္တင္-1 (ISO-8859-1)</item>
+        <item>ယူနီကုတ္ဒ္ (UTF-8)</item>
+        <item>တရုတ္ (GBK)</item>
+        <item>တရုတ္ (Big5)</item>
+        <item>ဂ်ပန္စာ (ISO-2022-JP)</item>
+        <item>ဂ်ပန္စာ (SHIFT JIS)</item>
+        <item>ဂ်ပန္စာ (EUC-JP)</item>
+        <item>ကိုရီးယား (EUC-KR)</item>
+        <item>အလုိအေလ်ာက္ ရွာေဖြေတြ႔ရွိျခင္း</item>
+    </string-array>
+</resources>

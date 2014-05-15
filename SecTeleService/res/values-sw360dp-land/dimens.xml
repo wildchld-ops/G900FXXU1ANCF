@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="in_call_button_container_width">263.0dip</dimen>
+    <dimen name="call_info_1_photo_width">335.0dip</dimen>
+</resources>

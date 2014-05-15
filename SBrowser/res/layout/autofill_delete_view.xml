@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/subwindow_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <LinearLayout android:orientation="horizontal" android:id="@id/autofill_profile_deleteall_option" android:background="@drawable/autofill_create_btn_bg_selector" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/preference_widget_width">
+        <com.sec.android.touchwiz.widget.TwCheckBox android:layout_gravity="left|center" android:id="@id/autofill_profile_deleteall_checkbox" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" android:focusable="false" android:clickable="false" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="@dimen/sbrowser_dialog_text_padding_left" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="21.0sp" android:ellipsize="end" android:layout_gravity="left|center" android:id="@id/autofill_profile_deleteall_text" android:paddingLeft="@dimen/sbrowser_dialog_check_padding_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/scraplist_deleteall" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/autofill_profile_delete_list_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:layout_gravity="fill_horizontal" android:id="@id/autofill_profile_delete_listView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">%s মিনিটৰ কাৰণে কোনো ডাটা সংযোগ নাই৷</item>
+        <item quantity="one">%s মিনিটৰ কাৰণে কোনো ডাটা সংযোগ নাই৷</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">"%s মিনিটৰ কাৰণে ফোন জৰুৰীকালিন কলবেক ম'ডত থাকিব৷ এই ম'ডত থকাৰ সময়ত ডাটা সংযোগ ব্যৱহাৰ কৰি থাকি এপ্লিকেশ্বন ব্যৱহাৰ কৰিব নোৱাৰে৷ এতিয়া প্ৰস্থান কৰিবনে?"</item>
+        <item quantity="one">"এপ্লিকেশ্বনৰ কাৰণে ডাটা সংযোগ ব্যৱহাৰ কৰিবলৈ অক্ষম৷ এই ম'ডত থকাৰ সময়ত ফোন %s মিনিটৰ কাৰণে জৰুৰীকালিন কলবেক ম'ডত থাকিব৷ এতিয়া প্ৰস্থান কৰিবনে?"</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">"জৰুৰী কলবেক ম'ডত চয়নিত কাৰ্য্য উপলভ্য নহয়৷ %s মিনিটৰ কাৰণে ফোন এই ম'ডত থাকিব৷ এতিয়া প্ৰস্থান কৰিবনে?"</item>
+        <item quantity="one">"জৰুৰী কলবেক ম'ডত চয়নিত কাৰ্য্য উপলভ্য নহয়৷ %s মিনিটৰ কাৰণে ফোন এই ম'ডত থাকিব৷ এতিয়া প্ৰস্থান কৰিবনে?"</item>
+    </plurals>
+</resources>

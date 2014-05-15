@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@drawable/list_section_divider_holo_custom" android:focusable="false" android:layout_width="fill_parent" android:layout_height="@dimen/list_seperator_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/SubTitleTextViewStyle" android:ellipsize="end" android:id="@id/favorite_title" android:paddingLeft="@dimen/list_seperator_left_margin" android:paddingRight="@dimen/list_seperator_left_margin" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" />
+</RelativeLayout>

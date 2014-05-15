@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>მუდამ ჩართული</item>
+        <item>მოთხოვნით</item>
+        <item>გამორთვა</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>ნაგულისხმევი გვერდი</item>
+        <item>მიმდინარე გვერდი</item>
+        <item>სწრაფი წვდომა</item>
+        <item>ყველაზე ხშირად ნანახი საიტები</item>
+        <item>სხვა</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>მოწყობილობა</item>
+        <item>SDბარათი</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>ლათინური-1 (ISO-8859-1)</item>
+        <item>უნიკოდი (UTF-8)</item>
+        <item>ჩინური (GBK)</item>
+        <item>ჩინური (Big5)</item>
+        <item>იაპონური (ISO-2022-JP)</item>
+        <item>იაპონური (SHIFT JIS)</item>
+        <item>იაპონური (EUC-JP)</item>
+        <item>კორეული (EUC-KR)</item>
+        <item>ავტომატური ამოცნობა</item>
+    </string-array>
+</resources>

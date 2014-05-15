@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&amp;lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Srečen</item>
+        <item>Žalosten(a)</item>
+        <item>Mežikanje</item>
+        <item>Iztegnjen jezik</item>
+        <item>Presenečen</item>
+        <item>Poljubljanje</item>
+        <item>Kričanje</item>
+        <item>Kul</item>
+        <item>Zlata usta</item>
+        <item>Neprimerna izjava</item>
+        <item>V zadregi</item>
+        <item>Angel</item>
+        <item>Neodločen(a)</item>
+        <item>Joče</item>
+        <item>Zaprte ustnice</item>
+        <item>Smeh</item>
+        <item>Zbegan</item>
+        <item>Srce</item>
+        <item>Jezen</item>
+        <item>Režanje</item>
+        <item>Brezizrazen obraz</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Up. vel. pisave v napravi</item>
+        <item>Drobna</item>
+        <item>Majhna</item>
+        <item>Običajna</item>
+        <item>Velika</item>
+        <item>Zelo velika</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Up. vel. pisave v napravi</item>
+        <item>Drobna</item>
+        <item>Zelo majhna</item>
+        <item>Majhna</item>
+        <item>Srednja</item>
+        <item>Velika</item>
+        <item>Zelo velika</item>
+        <item>Ogromna</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Vsi kanali</item>
+        <item>Moja postaja</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Abeceda GSM</item>
+        <item>Unicode</item>
+        <item>Samodejno</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 dni</item>
+        <item>1 dan</item>
+        <item>2 dni</item>
+        <item>3 dni</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Omejeno</item>
+        <item>Opozorilo</item>
+        <item>Prosto</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Vedno</item>
+        <item>Vprašaj</item>
+        <item>Nikoli</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Origami</item>
+        <item>Oznaka</item>
+        <item>Pop</item>
+        <item>Moderno</item>
+        <item>Rožnata</item>
+        <item>Privzeto</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Enkrat</item>
+        <item>Vsaki 2 minuti</item>
+        <item>Vsakih 15 minut</item>
+        <item>Izključ.</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Nikoli</item>
+        <item>Vsaki 2 minuti</item>
+        <item>Vsakih 10 minut</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Domača mesta</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 ura</item>
+        <item>6 ur</item>
+        <item>24 ur</item>
+        <item>2 dni</item>
+        <item>Omrežna privzeta vrednost</item>
+        <item>Največ</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Visoka</item>
+        <item>Normalno</item>
+        <item>Nizka</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Takoj</item>
+        <item>1 ura</item>
+        <item>6 ur</item>
+        <item>24 ur</item>
+        <item>1 ted.</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 sekunde</item>
+        <item>5 sekund</item>
+        <item>10 sekund</item>
+        <item>20 sekund</item>
+        <item>30 sekund</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Izključ.</item>
+        <item>Blokiraj vsa sporočila</item>
+        <item>Blokiraj registrirane številke in besedne zveze</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Popolnoma enako kot</item>
+        <item>Začne se z</item>
+        <item>Se konča z</item>
+        <item>Vključuje</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Dnevniki</item>
+        <item>Imenik</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Blokiranje sporočila</item>
+        <item>Blokiranje klica</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Blokiranje sporočila</item>
+        <item>Blokiranje glas. klicev</item>
+        <item>Blokiranje video klicev</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Rezervirano.</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Normalno</item>
+        <item>Visoka</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Oprosti, nisem slišal tvojega klica.</item>
+        <item>Zamujam, vendar bom tam čez nekaj minut.</item>
+        <item>Kako si kaj?</item>
+        <item>Kaj se dogaja?</item>
+        <item>Kje ste?</item>
+        <item>Pokliči me, ko dobiš to sporočilo.</item>
+        <item>Kje se lahko dobiva?</item>
+        <item>Kmalu se slišiva.</item>
+        <item>Kje je sestanek?</item>
+        <item>Kakšna je številka?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Brazilska portugalščina</item>
+        <item>Angleščina (britanska)</item>
+        <item>Angleščina (ZDA)</item>
+        <item>Francoščina</item>
+        <item>Nemščina</item>
+        <item>Italijanščina</item>
+        <item>Japonščina</item>
+        <item>Korejščina</item>
+        <item>Poenostavljena kitajščina</item>
+        <item>Ruščina</item>
+        <item>Španščina</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Drobna</item>
+        <item>Majhna</item>
+        <item>Običajna</item>
+        <item>Velika</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Vse</item>
+        <item>Pošiljatelj</item>
+        <item>Vsebina</item>
+    </string-array>
+</resources>

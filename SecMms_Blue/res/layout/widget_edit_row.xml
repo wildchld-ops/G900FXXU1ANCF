@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/photo_container" android:layout_width="wrap_content" android:layout_height="65.0dip" android:scrollingCache="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/grid_contact_photo" android:paddingBottom="@dimen/widget_editrow_photo_margin_top" android:layout_width="@dimen/photo_width" android:layout_height="@dimen/photo_height" android:layout_marginLeft="@dimen/widget_editrow_photo_margin_left" android:layout_marginTop="@dimen/widget_editrow_photo_margin_top" android:layout_marginRight="@dimen/widget_editrow_photo_margin_right" />
+    <TextView android:textSize="@dimen/contact_name_text_size_row" android:textColor="@color/primary_text_color" android:id="@id/contact_name" android:paddingRight="@dimen/contact_name_right_padding_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_editrow_photo_margin_top" android:singleLine="true" android:layout_toRightOf="@id/grid_contact_photo" android:layout_centerVertical="true" />
+    <ImageView android:layout_gravity="center" android:background="@color/widget_list_divider_color" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

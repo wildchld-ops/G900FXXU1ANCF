@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>ਖੁਸ਼</item>
+        <item>ਉਦਾਸ</item>
+        <item>ਅੱਖ ਮਾਰਨਾ</item>
+        <item>ਜ਼ੁਬਾਨ ਬਾਹਰ ਲਮਕਣਾ</item>
+        <item>ਹੈਰਾਨ</item>
+        <item>ਚੁੰਮਣ ਲੈਣਾ</item>
+        <item>ਚੀਕਣਾ</item>
+        <item>ਵਧੀਆ ਹੈ</item>
+        <item>ਮਨੀ ਮਾਉਥ</item>
+        <item>ਮੂੰਹ ਵਿੱਚ ਪੈਰ</item>
+        <item>ਪਰੇਸ਼ਾਨ</item>
+        <item>ਐਂਜਿਲ</item>
+        <item>ਅਨਿਸ਼ਚਤ</item>
+        <item>ਚੀਕਣਾ</item>
+        <item>ਬੁੱਲ ਬੰਦ</item>
+        <item>ਹੱਸਣਾ</item>
+        <item>ਉਲਝਿਆ</item>
+        <item>ਦਿਲ</item>
+        <item>ਪਾਗਲ</item>
+        <item>ਮੁਸਕਾਨ</item>
+        <item>ਪੋਕਰ ਫੇਸ</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>ਡਿਵਾਈਸ ਫੌਂਟ ਆਕਾਰ ਵਰਤੋ</item>
+        <item>ਬਹੁਤ ਛੋਟਾ</item>
+        <item>ਛੋਟਾ</item>
+        <item>ਸਧਾਰਨ</item>
+        <item>ਵੱਡਾ</item>
+        <item>ਬਹੁਤ ਵੱਡਾ</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>ਡਿਵਾਈਸ ਫੌਂਟ ਆਕਾਰ ਵਰਤੋ</item>
+        <item>ਬਹੁਤ ਛੋਟਾ</item>
+        <item>ਜ਼ਿਆਦਾ ਛੋਟਾ</item>
+        <item>ਛੋਟਾ</item>
+        <item>ਮੱਧਮ</item>
+        <item>ਵੱਡਾ</item>
+        <item>ਜਿਆਦਾ ਵੱਡਾ</item>
+        <item>ਬਹੁਤ ਵੱਡਾ</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>ਸਾਰੇ ਚੈਨਲ</item>
+        <item>ਮੇਰਾ ਚੈਨਲ</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM ਵਰਣਮਾਲਾ</item>
+        <item>ਯੂਨੀਕੋਡ</item>
+        <item>ਸਵੈਚਲਿਤ</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 ਦਿਨ</item>
+        <item>1 ਦਿਨ</item>
+        <item>2 ਦਿਨ</item>
+        <item>3 ਦਿਨ</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>ਪ੍ਰਤਿਬੰਧਿਤ</item>
+        <item>ਚਿਤਾਵਨੀ</item>
+        <item>ਫ੍ਰੀ</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>ਹਮੇਸ਼ਾ</item>
+        <item>ਪ੍ਰੋਮਪਟ</item>
+        <item>ਕਦੇ ਨਹੀਂ</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>ਔਰੀਗਾਮੀ</item>
+        <item>ਲੇਬਲ</item>
+        <item>ਪੌਪ</item>
+        <item>ਮਾਡਰਨ</item>
+        <item>ਗੁਲਾਬੀ</item>
+        <item>ਡਿਫਾੱਲਟ</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>ਇੱਕ ਵਾਰ</item>
+        <item>ਹਰ 2 ਮਿੰਟ</item>
+        <item>ਹਰ 15 ਮਿੰਟ</item>
+        <item>ਬੰਦ</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>ਕਦੇ ਨਹੀਂ</item>
+        <item>ਹਰ 2 ਮਿੰਟ</item>
+        <item>ਹਰ 10 ਮਿੰਟ</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>ਘਰੇਲੂ</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 ਘੰਟਾ</item>
+        <item>6 ਘੰਟੇ</item>
+        <item>24 ਘੰਟੇ</item>
+        <item>2 ਦਿਨ</item>
+        <item>ਨੈੱਟਵਰਕ ਡਿਫਾੱਲਟ</item>
+        <item>ਅਧਿਕਤਮ</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>ਵੱਧ</item>
+        <item>ਸਧਾਰਨ</item>
+        <item>ਘੱਟ</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>ਤੁਰੰਤ</item>
+        <item>1 ਘੰਟਾ</item>
+        <item>6 ਘੰਟੇ</item>
+        <item>24 ਘੰਟੇ</item>
+        <item>1 ਹਫਤਾ</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 ਸਕਿੰਟ</item>
+        <item>5 ਸਕਿੰਟ</item>
+        <item>10 ਸਕਿੰਟ</item>
+        <item>20 ਸਕਿੰਟ</item>
+        <item>30 ਸਕਿੰਟ</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>ਬੰਦ</item>
+        <item>ਸਾਰੇ ਸੰਦੇਸ਼ ਬਲੌਕ ਕਰੋ</item>
+        <item>ਰਜਿਸਟਰ ਹੋਏ ਨੰਬਰ ਅਤੇ ਵਾਕਾਂਸ਼ ਬਲੌਕ ਕਰੋ</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>ਦੇ ਬਿਲਕੁਲ ਸਮਾਨ</item>
+        <item>ਨਾਲ ਅਰੰਭ</item>
+        <item>ਨਾਲ ਸਮਾਪਤ</item>
+        <item>ਸਮੇਤ</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>ਲੌਗਸ</item>
+        <item>ਸੰਪਰਕ</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>ਸੰਦੇਸ਼ ਬਲੌਕ</item>
+        <item>ਕਾੱਲ ਬਲੌਕ</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>ਸੰਦੇਸ਼ ਬਲੌਕ</item>
+        <item>ਵਾੱਇਸ ਕਾੱਲ ਬਲੌਕ</item>
+        <item>ਵੀਡਿਓ ਕਾੱਲ ਬਲੌਕ</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>ਰਾਖਵੀਂ।</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>ਸਧਾਰਨ</item>
+        <item>ਵੱਧ</item>
+    </string-array>
+    <string-array name="templates">
+        <item>ਮੁਆਫ ਕਰਨਾ, ਮੈਂ ਤੁਹਾਡੀ ਕਾੱਲ ਛੱਡ ਦਿੱਤੀ।</item>
+        <item>ਮੈਂ ਦੇਰੀ ਨਾਲ ਹਾਂ, ਪਰ ਮੈਂ ਮਿੰਟਾਂ ਵਿੱਚ ਉੱਥੇ ਪਹੁੰਚ ਜਾਵਾਂਗਾ।</item>
+        <item>ਕਿਵੇਂ ਚਲ ਰਿਹਾ ਹੈ?</item>
+        <item>ਕੀ ਹੋ ਰਿਹਾ ਹੈ?</item>
+        <item>ਤੁਸੀਂ ਕਿੱਥੇ ਹੋ?</item>
+        <item>ਕਿਰਪਾ ਇਹ ਸੰਦੇਸ਼ ਤੁਹਾਨੂੰ ਮਿਲਣ ਤੇ ਮੈਨੂੰ ਕਾੱਲ ਕਰੋ।</item>
+        <item>ਅਸੀਂ ਕਦੋਂ ਮਿਲ ਸਕਦੇ ਹਾਂ?</item>
+        <item>ਮੈਂ ਜਲਦੀ ਤੁਹਾਡੇ ਨਾਲ ਗੱਲ ਕਰਾਂਗਾ।</item>
+        <item>ਮੀਟਿੰਗ ਕਿੱਥੇ ਹੈ?</item>
+        <item>ਨੰਬਰ ਕੀ ਹੈ?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>ਬ੍ਰਾਜ਼ੀਲਿਨ ਪੁਰਤਗਾਲੀ</item>
+        <item>ਅੰਗ੍ਰੇਜ਼ੀ (UK)</item>
+        <item>ਅੰਗ੍ਰੇਜ਼ੀ (US)</item>
+        <item>ਫ੍ਰੈਂਚ</item>
+        <item>ਜਰਮਨ</item>
+        <item>ਇਤਾਲੀਅਨ</item>
+        <item>ਜਪਾਨੀ</item>
+        <item>ਕੋਰੀਅਨ</item>
+        <item>ਸਰਲ ਚੀਨੀ</item>
+        <item>ਰੂਸੀ</item>
+        <item>ਸਪੈਨਿਸ਼</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>ਬਹੁਤ ਛੋਟਾ</item>
+        <item>ਛੋਟਾ</item>
+        <item>ਸਧਾਰਨ</item>
+        <item>ਵੱਡਾ</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>ਸਾਰੇ</item>
+        <item>ਭੇਜਣ ਵਾਲਾ</item>
+        <item>ਸਮੱਗਰੀ</item>
+    </string-array>
+</resources>

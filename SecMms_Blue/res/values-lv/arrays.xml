@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&amp;lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Laimīgs</item>
+        <item>Bēdīgs</item>
+        <item>Acu mirkšķināšana</item>
+        <item>Izbāzta mēle</item>
+        <item>Pārsteigts</item>
+        <item>Skūpstīšanās</item>
+        <item>Kliegšana</item>
+        <item>Foršs</item>
+        <item>Naudas mute</item>
+        <item>Pēda mutē</item>
+        <item>Apskauts</item>
+        <item>Eņģelis</item>
+        <item>Neizlēmīgs</item>
+        <item>Raudāšana</item>
+        <item>Klusēšu</item>
+        <item>Smiešanās</item>
+        <item>Apmulsis</item>
+        <item>Sirds</item>
+        <item>Nikns</item>
+        <item>Smīns</item>
+        <item>Vienaldzīgs</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Izm. ierīces fontu liel.</item>
+        <item>Sīks</item>
+        <item>Mazs</item>
+        <item>Parasts</item>
+        <item>Liels</item>
+        <item>Ļoti liels</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Izm. ierīces fontu liel.</item>
+        <item>Sīks</item>
+        <item>Ļoti mazs</item>
+        <item>Mazs</item>
+        <item>Vidējs</item>
+        <item>Liels</item>
+        <item>Ļoti liels</item>
+        <item>Milzīgs</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Visi kanāli</item>
+        <item>Mans kanāls</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM alfabēts</item>
+        <item>Unikods</item>
+        <item>Automātiski</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 dienu</item>
+        <item>1 diena</item>
+        <item>2 dienas</item>
+        <item>3 dienas</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Aizliegts</item>
+        <item>Brīdinājums</item>
+        <item>Brīvs</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Vienmēr</item>
+        <item>Jautāt</item>
+        <item>Nekad</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Origami</item>
+        <item>Apzīmējums</item>
+        <item>Pop</item>
+        <item>Moderns</item>
+        <item>Rozā</item>
+        <item>Noklusējums</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Vienu reizi</item>
+        <item>Ik pēc 2 minūtēm</item>
+        <item>Ik pēc 15 minūtēm</item>
+        <item>Izslēgt</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Nekad</item>
+        <item>Ik pēc 2 minūtēm</item>
+        <item>Ik pēc 10 minūtēm</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Vietējās</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 stunda</item>
+        <item>6 stundas</item>
+        <item>24 stundas</item>
+        <item>2 dienas</item>
+        <item>Tīkla noklusējums</item>
+        <item>Maksimāli</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Augsta</item>
+        <item>Parasts</item>
+        <item>Zema</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Tūlīt</item>
+        <item>1 stunda</item>
+        <item>6 stundas</item>
+        <item>24 stundas</item>
+        <item>1 ned.</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 sekundes</item>
+        <item>5 sekundes</item>
+        <item>10 sekundes</item>
+        <item>20 sekundes</item>
+        <item>30 sekundes</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Izslēgt</item>
+        <item>Bloķēt visas ziņas</item>
+        <item>Bloķēt reģistrētos numurus un frāzes</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Tieši tāds pats kā</item>
+        <item>Sākas ar</item>
+        <item>Beidzas ar</item>
+        <item>Ietver</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Žurnāli</item>
+        <item>Kont.</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Ziņu bloķēšana</item>
+        <item>Zvanu bloķēšana</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Ziņu bloķēšana</item>
+        <item>Balss zvanu bloķēšana</item>
+        <item>Videozvanu bloķēšana</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Rezervēts.</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Parasta</item>
+        <item>Augsta</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Atvainojiet, nokavēju jūsu zvanu.</item>
+        <item>Kavēju, būšu pēc brīža.</item>
+        <item>Kā veicas?</item>
+        <item>Kas noticis?</item>
+        <item>Kur Tu esi?</item>
+        <item>Lūdzu, piezvani man, kad saņemsi šo ziņu.</item>
+        <item>Kad mēs varētu satikties?</item>
+        <item>Drīz sazināsimies.</item>
+        <item>Kur notiek sapulce?</item>
+        <item>Kāds ir numurs?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Brazīlijas portugāļu</item>
+        <item>Angliski (Lielbritānija)</item>
+        <item>Angļu (ASV)</item>
+        <item>Franču</item>
+        <item>Vācu</item>
+        <item>Itāļu</item>
+        <item>Japāņu</item>
+        <item>Korejiešu</item>
+        <item>Vienkāršotā ķīniešu</item>
+        <item>Russian</item>
+        <item>Spāņu</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Sīks</item>
+        <item>Mazs</item>
+        <item>Parasts</item>
+        <item>Liels</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Visas</item>
+        <item>Sūtītājs</item>
+        <item>Saturs</item>
+    </string-array>
+</resources>

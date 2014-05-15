@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/qwerty_keypad_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/input_main" android:background="@drawable/qwerty_keypad_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/one_hand_left_area_layout" android:layout_width="129.0px" android:layout_height="fill_parent" android:layout_marginLeft="0.0px" android:layout_marginTop="140.0px" android:layout_marginRight="@dimen/one_hand_left_right_view_horizontal_gap_arrow" android:layout_marginBottom="235.0px">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/one_hand_left_area" android:layout_width="102.0px" android:layout_height="138.0px" android:layout_marginLeft="27.0px" android:src="@drawable/one_hand_left_btn_9_xml" />
+        </LinearLayout>
+        <com.diotek.ime.implement.view.KeyboardView android:id="@id/keyboardView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        <LinearLayout android:id="@id/one_hand_right_area_layout" android:layout_width="129.0px" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/one_hand_left_right_view_horizontal_gap_arrow" android:layout_marginTop="140.0px" android:layout_marginRight="0.0px" android:layout_marginBottom="235.0px">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/one_hand_right_area" android:layout_width="102.0px" android:layout_height="138.0px" android:src="@drawable/one_hand_right_btn_9_xml" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/one_hand_dim_view" android:background="#7f000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

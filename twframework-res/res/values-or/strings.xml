@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_clear_all_button">ବିଜ୍ଞପ୍ତିସମୂହ ଖାଲି କ.</string>
+    <string name="status_bar_no_notifications_title">ବିଜ୍ଞପ୍ତିଗୁଡିକ ନାହିଁ</string>
+    <string name="status_bar_ongoing_events_title">ଚାଲୁଥିବା</string>
+    <string name="status_bar_latest_events_title">ବିଜ୍ଞପ୍ତି</string>
+    <string name="indicator_wifi">Wi-Fi</string>
+    <string name="indicator_bt">ବ୍ଲୁଟୁଥ୍</string>
+    <string name="indicator_vibration">କମ୍ପନ</string>
+    <string name="indicator_sound">ଶାନ୍ତ</string>
+    <string name="quickpanel_mute">ମ୍ୟୁଟ୍</string>
+    <string name="quickpanel_speaker">ସ୍ପିକର୍</string>
+    <string name="quickpanel_end">ଶେଷ</string>
+    <string name="no_missed_event">ଆପଣଙ୍କ କୌଣସି ହରାଇଥିବା ଘଟଣାଗୁଡିକ ନାହିଁ।</string>
+    <string name="schedule_format">ଆପଣ ଏକ %s ସେଡ୍ୟୁଲ୍ ନିର୍ଦ୍ଧାରିତ ହରାଇଲେ।</string>
+    <string name="quickpanel_save">ସଞ୍ଚୟ</string>
+    <string name="quickpanel_rec">REC</string>
+    <string name="quickpanel_pause">ବିରତି</string>
+    <string name="quickpanel_paused">ବିରତି</string>
+    <string name="quickpanel_standby">ଷ୍ଟାଣ୍ଡବାଏ</string>
+    <string name="indicator_gps">GPS</string>
+    <string name="indicator_rotation_lock">ଘୂର୍ଣ୍ଣନ</string>
+    <string name="indicator_orientation">"ସ୍ଵତଃ
+ଘୁର୍ଣ୍ଣନ"</string>
+    <string name="quick_settings_error">ତୃଟି।</string>
+    <string name="status_bar_ongoing_text_call">କଲ୍</string>
+    <string name="phone_m_format">ଆପଣ %d ହରାଇଥିବା କଲ୍‌ଗୁଡିକ।</string>
+    <string name="mms_m_format">ଆପଣଙ୍କ ପାଖରେ %d ନୂତନ ସନ୍ଦେଶଗୁଡିକ ଅଛି।</string>
+    <string name="tw_seekbarsplit_seekbar_control">ନିୟନ୍ତ୍ରଣ ଆବଶ୍ୟକ</string>
+</resources>

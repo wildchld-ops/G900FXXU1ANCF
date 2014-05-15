@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/add_contacts" android:background="?android:actionBarItemBackground" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:clickable="false" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/call_add_image" android:background="@drawable/dialer_add_contact_add_icon" android:clickable="false" android:duplicateParentState="true" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="11.0dip" android:layout_centerVertical="true" />
+            <TextView android:textSize="19.0dip" android:textColor="@color/dialpad_add_to_contacts" android:ellipsize="marquee" android:id="@id/call_add_text" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/non_phone_add_to_contacts" android:singleLine="true" android:layout_toRightOf="@id/call_add_image" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/search_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/search_item" android:background="?android:actionBarItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="57.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/photo" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="9.0dip" android:src="@drawable/ic_contact_picture_holo" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/search_item_text" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="1.0dip" android:layout_marginBottom="2.0dip">
+                <TextView android:textSize="17.0dip" android:textColor="@color/dialpad_search_mainitem_name" android:ellipsize="end" android:gravity="top" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="22.0dip" android:singleLine="true" />
+                <TextView android:textSize="17.0dip" android:textColor="@color/dialpad_search_mainitem_number" android:ellipsize="end" android:gravity="top" android:id="@id/number" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginTop="-1.0dip" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="right|center" android:orientation="vertical" android:id="@id/drop_btn" android:background="?android:actionBarItemBackground" android:layout_width="57.0dip" android:layout_height="48.0dip" android:layout_weight="0.0" android:layout_alignParentRight="true">
+            <TextView android:textSize="17.0dip" android:textColor="@color/dialpad_search_mainitem_name" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/count" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/call_dial_more" />
+        </LinearLayout>
+        <View android:id="@id/divider" android:background="@drawable/phone_contacts_sub_action_bar_line" android:layout_width="1.0dip" android:layout_height="26.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

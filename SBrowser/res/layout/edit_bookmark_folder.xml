@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/linear_layout_edit_folder" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/edit_bookmark_folder_prompt_text_size" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/edit_folder_name_tv" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/add_bookmark_page_title_layout_padding_horizontal" android:layout_marginTop="@dimen/add_bookmark_page_title_layout_padding_top" android:layout_marginBottom="@dimen/add_bookmark_page_title_margin_top" android:text="@string/bookmark_select_folder_name" />
+        <EditText android:textSize="@dimen/add_bookmark_from_bookmarks_page_title" android:id="@id/bookmark_edit_folder_name" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/add_bookmark_page_title_layout_padding_horizontal" android:layout_marginRight="@dimen/add_bookmark_page_title_layout_padding_horizontal" android:layout_marginBottom="@dimen/add_bookmark_header_icon_margin_vertical" android:hint="@string/edit_folder_hint" android:singleLine="true" android:maxLength="@integer/sbrowser_max_folder_title_length" android:inputType="textCapSentences|textNoSuggestions" android:privateImeOptions="disableEmoticonInput=true" android:imeOptions="actionDone|flagNoExtractUi" />
+        <View android:id="@id/folderLine" style="@style/LineSeperator" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">Бесед: %1$s</item>
+        <item quantity="one">1 беседа</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">Сообщений: %1$s</item>
+        <item quantity="one">1 сообщение</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">Бесед: %d</item>
+        <item quantity="one">%d беседа</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s и еще %2$d</item>
+        <item quantity="one">%s и еще 1</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s и еще %2$d</item>
+        <item quantity="one">%s и еще 1</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">Сообщения удалены с SIM-карты.</item>
+        <item quantity="one">Сообщение удалено с SIM-карты.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">Сообщения скопированы с SIM-карты.</item>
+        <item quantity="one">Сообщение скопировано с SIM-карты.</item>
+    </plurals>
+</resources>

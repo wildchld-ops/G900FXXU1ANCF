@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>ਹਮੇਸ਼ਾ ਚਾਲੂ</item>
+        <item>ਮੰਗ ਤੇ</item>
+        <item>ਬੰਦ</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>ਡਿਫਾੱਲਟ ਪੰਨਾ</item>
+        <item>ਚਲੰਤ ਪੰਨਾ</item>
+        <item>ਤੁਰੰਤ ਐਕਸੈੱਸ</item>
+        <item>ਜ਼ਿਆਦਾ ਵਾਰ ਵਿਜ਼ਿਟ ਕੀਤੀਆਂ ਸਾਈਟਾਂ</item>
+        <item>ਹੋਰ</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>ਡਿਵਾਈਸ</item>
+        <item>SD ਕਾਰਡ</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>ਲਾਤੀਨੀ-1 (ISO-8859-1)</item>
+        <item>ਯੂਨੀਕੋਡ (UTF-8)</item>
+        <item>ਚੀਨੀ (GBK)</item>
+        <item>ਚੀਨੀ (Big5)</item>
+        <item>ਜਪਾਨੀ (ISO-2022-JP)</item>
+        <item>ਜਪਾਨੀ (SHIFT JIS)</item>
+        <item>ਜਪਾਨੀ (EUC-JP)</item>
+        <item>ਕੋਰੀਅਨ (EUC-KR)</item>
+        <item>ਸਵੈ ਪਤਾ ਲਗਾਓਣਾ</item>
+    </string-array>
+</resources>

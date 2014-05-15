@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/tw_action_bar_icon_cancel" android:id="@id/bookmark_cancel_id" android:title="@string/bookmark_cancel" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/tw_action_bar_icon_check_selector" android:id="@id/bookmark_done_id" android:title="@string/bookmark_edit_save" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_menu_delete" android:id="@id/bookmark_delete_id" android:visible="false" android:title="@string/bookmarks_options_menu_delete" android:showAsAction="never" />
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="index_string_array">
+        <item>ಅಆಇಈಉಊಋಎಏಐಒಓಔಅಕಖಗಘಙಚಛಜಝಞಟಠಡಢಣತಥದಧನಪಫಬಭಮಯರಲವಶಷಸಹಳ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="interaction_selecter_spinner">
+        <item>%d ಆರಿಸಿದೆ</item>
+        <item>ಎಲ್ಲಾ ಆಯ್ಕೆಮಾಡಿ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>ಸಂಸ್ಥೆ</item>
+        <item>ಟಿಪ್ಪಣಿ</item>
+    </string-array>
+</resources>

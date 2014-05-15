@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/inCallButtons" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/inCallIconActionBarContainer" android:layout_width="320.0dip" android:layout_height="250.0dip" android:layout_marginLeft="320.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/inCallButtonContainer" android:background="@drawable/videocall_button_bg" android:layout_width="fill_parent" android:layout_height="104.0dip">
+            <FrameLayout android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginRight="1.5dip" android:layout_weight="1.0">
+                <Button android:id="@id/switchCameraButton" android:background="@drawable/call_dial_btn_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/switch_camera" android:drawableTop="@drawable/videocall_switch_button" style="@style/InCallTouchUpperButton" />
+                <Button android:id="@id/stopButton" android:background="@drawable/call_dial_btn_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/stop" android:drawableTop="@drawable/videocall_record_stop_button" style="@style/InCallTouchUpperButton" />
+                <Button android:id="@id/dialpadButton" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/menu_hideDialpad" android:drawableTop="@drawable/videocall_hide_keypad_button" style="@style/InCallTouchUpperButton" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginRight="1.5dip" android:layout_weight="1.0">
+                <ToggleButton android:id="@id/hideShowButton" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textOn="@string/show" android:textOff="@string/hide" android:drawableTop="@drawable/videocall_hide_show_button" android:drawableBottom="@drawable/videocall_btn_focus_switch_off" style="@style/InCallTouchToggleButtonNoFrame" />
+                <ToggleButton android:id="@id/muteButton" android:paddingTop="11.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textOn="@string/onscreenMuteText" android:textOff="@string/onscreenMuteText" android:drawableTop="@drawable/videocall_mute_button" android:drawableBottom="@drawable/videocall_toggle_button" android:drawablePadding="4.0dip" style="@style/InCallTouchToggleButtonNoFrame" />
+            </FrameLayout>
+            <Button android:id="@id/endButton" android:background="@drawable/call_dial_btn_bg" android:layout_width="1.0dip" android:layout_height="fill_parent" android:text="@string/end_call" android:drawableTop="@drawable/videocall_end_button" android:layout_weight="1.0" style="@style/InCallTouchUpperButton" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/allHiddenBar" android:background="#ff124963" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="25.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="47.0dip" android:src="@drawable/videocall_bottom_dot" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="96.0dip" android:src="@drawable/videocall_bottom_dot" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="95.0dip" android:src="@drawable/videocall_bottom_dot" />
+        </LinearLayout>
+    </FrameLayout>
+    <include layout="@layout/vt_seekbar_layout" />
+</RelativeLayout>

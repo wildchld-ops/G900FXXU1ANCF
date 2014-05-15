@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/calllog_empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/port_empty" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="12.0dip">
+            <TextView android:textAppearance="@style/TwMainListNoLogsPopupTextAppearance" android:id="@id/logslist_noitem1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/swipe_function" />
+            <TextView android:textAppearance="@style/TwMainListNoLogsPopupTextAppearance" android:id="@id/logslist_noitem2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/swipe_right" />
+            <LinearLayout android:background="@drawable/log_no_item_01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/TwMainListNoContactsTextAppearanceInImage" android:ellipsize="end" android:gravity="right|center" android:layout_width="66.0dip" android:layout_height="63.0dip" android:layout_marginLeft="7.0dip" android:text="@string/call" android:singleLine="true" android:importantForAccessibility="no" />
+            </LinearLayout>
+            <TextView android:textAppearance="@style/TwMainListNoLogsPopupTextAppearance" android:id="@id/logslist_noitem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/swipe_left" />
+            <LinearLayout android:background="@drawable/log_no_item_02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/TwMainListNoContactsTextAppearanceInImage" android:ellipsize="end" android:gravity="left|center" android:layout_width="85.0dip" android:layout_height="63.0dip" android:layout_marginLeft="@dimen/swipe_message_left_margin" android:text="@string/message" android:singleLine="true" android:importantForAccessibility="no" />
+            </LinearLayout>
+            <TextView android:textAppearance="@style/TwMainListNoLogsPopupTextAppearance" android:id="@id/logslist_noitem1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/uncheck_the_swipe" />
+            <com.sec.android.touchwiz.widget.TwCheckBox android:textAppearance="@style/TwMainListNoLogsPopupTextAppearance" android:id="@id/swipe_check" android:focusable="true" android:clickable="true" android:duplicateParentState="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="13.0dip" android:text="@string/swipe_to_call_or_message" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

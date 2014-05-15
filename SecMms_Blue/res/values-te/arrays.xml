@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>ఆనందం</item>
+        <item>దుఃఖం</item>
+        <item>కన్ను మూసి తెరచు</item>
+        <item>నాలుక బయటకి అతికించిన</item>
+        <item>ఆశ్చర్యపోయిన</item>
+        <item>ముద్దు పెట్టడం</item>
+        <item>యెల్లింగ్</item>
+        <item>సాధారణంగా ఉండటం</item>
+        <item>నోటి లో డబ్బు</item>
+        <item>నోటి లో అడుగు</item>
+        <item>చికాకైన</item>
+        <item>దేవదూత</item>
+        <item>నిర్ణయం కాలేదు</item>
+        <item>ఏడుస్తూ</item>
+        <item>పెదవులు ముద్రవేయు</item>
+        <item>నవ్వడం</item>
+        <item>కలవరపడి</item>
+        <item>హార్ట్</item>
+        <item>పిచ్చి</item>
+        <item>స్మర్క్</item>
+        <item>పొకర్ ముఖం</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>పరికరం ఫాంట్ సైజ్‌లను ఉపయోగించండి</item>
+        <item>అతిచిన్న</item>
+        <item>చిన్న</item>
+        <item>సాధారణం</item>
+        <item>పెద్దది</item>
+        <item>అతిపెద్ద</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>పరికరం ఫాంట్ సైజ్‌లను ఉపయోగించండి</item>
+        <item>చిన్నది</item>
+        <item>చాలా చిన్నది</item>
+        <item>చిన్న</item>
+        <item>మధ్యస్థం</item>
+        <item>పెద్దది</item>
+        <item>చాలా పెద్దది</item>
+        <item>చాలా పెద్దది</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>అన్ని ఛానెళ్లు</item>
+        <item>నా ఛానెల్</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM ఆల్ఫాబేట్</item>
+        <item>యునీకోడ్</item>
+        <item>ఆటోమేటిక్</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 రోజులు</item>
+        <item>1 రోజు</item>
+        <item>2 రోజులు</item>
+        <item>3 రోజులు</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>పరిమితం చేయబడింది</item>
+        <item>హెచ్చరిక</item>
+        <item>ఉచితం</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>ఎల్లప్పుడూ</item>
+        <item>ప్రాంప్ట్</item>
+        <item>ఎప్పుడూ లేదు</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>ఓరిగామి</item>
+        <item>లేబుల్</item>
+        <item>పాప్</item>
+        <item>ఆధునిక</item>
+        <item>పింక్</item>
+        <item>డీఫాల్ట్</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>ఒకసారి</item>
+        <item>ప్రతి 2 నిమిషాలకు</item>
+        <item>ప్రతి 15 నిమిషాలకు</item>
+        <item>ఆఫ్ చేయి</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>ఎప్పుడూ లేదు</item>
+        <item>ప్రతి 2 నిమిషాలకు</item>
+        <item>ప్రతి 10 నిమిషాలకు</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>పెంపుడు</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 గంట</item>
+        <item>6 గంటలు</item>
+        <item>24 గంటలు</item>
+        <item>2 రోజులు</item>
+        <item>నెట్‌వర్క్ డిఫాల్ట్</item>
+        <item>గరిష్ఠం</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>ఎక్కువ</item>
+        <item>సాధారణం</item>
+        <item>తక్కువ</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>వెంటనే</item>
+        <item>1 గంట</item>
+        <item>6 గంటలు</item>
+        <item>24 గంటలు</item>
+        <item>1 వారం</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 సెకన్లు</item>
+        <item>5 సెకన్లు</item>
+        <item>10 సెకన్లు</item>
+        <item>20 సెకన్లు</item>
+        <item>30 సెకన్లు</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>ఆఫ్ చేయి</item>
+        <item>అన్ని సందేశాలను నిరోధించండి</item>
+        <item>రిజిస్టర్ చేయబడిన నంబర్లను మరియు పదబంధాలను మాత్రమే నిరోధించండి</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>ఖచ్ఛితంగా దీని వలె</item>
+        <item>దీనితో ప్రారంభమవుతుంది</item>
+        <item>దీనితో ముగుస్తుంది</item>
+        <item>చేర్చు</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>లాగ్‌లు</item>
+        <item>పరిచయాలు</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>సందేశ నిరోధిత</item>
+        <item>కాల్ నిరోధిత</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>సందేశ నిరోధిత</item>
+        <item>వాయిస్ కాల్ నిరోధిత</item>
+        <item>వీడియో కాల్ నిరోధిత</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>రిజర్వడ్.</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>సాధారణం</item>
+        <item>ఎక్కువ</item>
+    </string-array>
+    <string-array name="templates">
+        <item>క్షమించండి, మీ కాల్‌ను నేను మిస్ చేశాను.</item>
+        <item>నేను ఆలస్యం అయ్యాను, కానీ నేను నిమిషాల్లో అక్కడ ఉంటాను.</item>
+        <item>ఇది ఎలా జరుగుతుంది?</item>
+        <item>ఏమి జరుగుతుంది?</item>
+        <item>మీరు ఎక్కడ ఉన్నారు?</item>
+        <item>ఈ సందేశాన్ని మీరు పొందినప్పుడు దయచేసి నాకు కాల్ చేయండి.</item>
+        <item>మనము ఎప్పుడు కలుద్దాం?</item>
+        <item>నేను త్వరలో మీతో మాట్లాడుతాను.</item>
+        <item>సమావేశం ఎక్కడ?</item>
+        <item>నంబర్ ఏమిటి?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>బ్రెజిలియన్ పోర్చుగీసు</item>
+        <item>ఇంగ్లీష్ (UK)</item>
+        <item>ఇంగ్లీష్ (US‌)</item>
+        <item>ఫ్రెంచ్</item>
+        <item>జర్మన్</item>
+        <item>ఇటాలియన్</item>
+        <item>జపనీస్</item>
+        <item>కొరియన్</item>
+        <item>సులువైనటువంటి చైనీస్</item>
+        <item>రష్యన్</item>
+        <item>స్పానిష్</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>అతిచిన్న</item>
+        <item>చిన్న</item>
+        <item>సాధారణం</item>
+        <item>పెద్దది</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>అన్ని</item>
+        <item>పంపేవారు</item>
+        <item>కంటెంట్</item>
+    </string-array>
+</resources>

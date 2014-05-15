@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/linked_contact_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/primary_action_bar" android:background="?android:selectableItemBackground" android:focusable="true" android:nextFocusRight="@id/linked_contact_minus_frame" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/list_two_line_height" android:layout_weight="1.0" android:nextFocusForward="@id/linked_contact_minus_frame">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/list_row_imageView" android:layout_width="@dimen/linked_contact_list_row_imageView_size" android:layout_height="@dimen/linked_contact_list_row_imageView_size" android:src="@drawable/contacts_default_caller_id_list" android:scaleType="fitXY" />
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/linked_contacts_name_layout" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/linked_contacts_name_layout_margin_left">
+                <TextView android:textAppearance="@style/TwContactDetailTextAppearanceListTwoLineSecondary" android:ellipsize="marquee" android:id="@id/account" android:paddingTop="@dimen/linked_contact_account_padding_top" android:paddingRight="@dimen/linked_contact_account_padding_right" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textAppearance="@style/TwContactDetailTextAppearanceListTwoLinePrimary" android:ellipsize="marquee" android:id="@id/name" android:paddingBottom="@dimen/linked_contact_name_padding_bottom" android:visibility="visible" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/vertical_divider" android:background="?android:dividerVertical" android:layout_width="@dimen/linked_contact_vertical_divider_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/detail_vertical_divider_vertical_margin" android:layout_marginBottom="@dimen/detail_vertical_divider_vertical_margin" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/linked_contact_minus_frame" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/detail_secondary_icon_left_padding" android:paddingRight="@dimen/detail_secondary_icon_right_padding" android:focusable="true" android:nextFocusLeft="@id/primary_action_bar" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/linked_contact_minus_imageView" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_minus" android:contentDescription="@string/menu_splitAggregate" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/list_divider" android:background="?android:dividerHorizontal" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/secondary_action_button" android:background="@drawable/easymode_contacts_list_create_contact_button" android:padding="@dimen/quick_contact_list_action_icon_padding_easymode" android:nextFocusLeft="@id/actions_view_container" android:duplicateParentState="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/quick_contact_button_padding_easymode" android:scaleType="center" android:layout_weight="1.0" />
+</merge>

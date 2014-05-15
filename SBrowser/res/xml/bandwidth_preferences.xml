@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:id="@id/pre_bandwidth_screen" android:key="pre_bandwidth_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz">
+    <com.sec.android.app.sbrowser.preferences.PrefetchBandwidthPreference android:title="@string/prefetch_bandwidth_title" android:key="prefetch_bandwidth" android:defaultValue="prefetch_on_wifi" />
+    <CheckBoxPreference android:title="@string/prefetch_loadimages_title" android:key="load_images" android:summary="@string/prefetch_loadimages_summary" android:defaultValue="true" style="@style/Textsize" />
+    <CheckBoxPreference android:title="@string/pref_content_overview_mode" android:key="overview_mode" android:summary="@string/pref_content_overview_mode_summary" android:defaultValue="true" />
+    <SwitchPreferenceScreen android:title="@string/pref_content_data_compression" android:key="data_compression" android:summaryOn="@string/pref_content_data_compression_summary" android:summaryOff="@string/pref_content_data_compression_summary" android:fragment="com.sec.android.app.sbrowser.preferences.DataCompressionPreferences" />
+    <CheckBoxPreference android:title="@string/block_advts" android:key="block_advts" android:summary="@string/block_advertisements" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/animate_gifs" android:key="animated_gif" android:summary="@string/display_animated_gifs" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/one_shot_image_decode" android:key="one_shot_image_decode" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/app_nap" android:key="app_nap" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/filter_bitmap" android:key="filter_bitmap" android:defaultValue="false" />
+    <ListPreference android:entries="@array/pref_background_color_choices" android:title="@string/change_background_color" android:key="change_bg" android:summary="@string/off_white" android:defaultValue="Off White" android:dialogTitle="Change Background Color" android:entryValues="@array/pref_background_color_values" />
+</PreferenceScreen>

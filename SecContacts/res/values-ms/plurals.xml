@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">Memapar %d kenalan</item>
+        <item quantity="one">Memaparkan 1 kenalan</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">Memapar %d kenalan dengan nombor telefon</item>
+        <item quantity="one">Memapar 1 kenalan dengan nombor telefon</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d kenalan dengan nombor telefon</item>
+        <item quantity="one">1 kenalan dengan nombor telefon</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d kenalan</item>
+        <item quantity="one">1 kenalan</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d dijumpai</item>
+        <item quantity="one">1 dijumpai</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d dijumpai</item>
+        <item quantity="one">1 dijumpai</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">digabungkan daripada %0$d sumber</item>
+        <item quantity="one">tidak digabungkan</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d kumpulan</item>
+        <item quantity="one">1 kumpulan</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d orang dalam kumpulan %2$s</item>
+        <item quantity="one">%1$d individu dlm kmpulan %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d orang</item>
+        <item quantity="one">%1$d orang</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d mel suara</item>
+        <item quantity="one">Mel suara</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d kenalan disalinkan.</item>
+        <item quantity="one">%d kenalan disalinkan.</item>
+    </plurals>
+</resources>

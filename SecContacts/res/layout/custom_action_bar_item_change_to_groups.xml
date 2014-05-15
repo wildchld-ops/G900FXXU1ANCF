@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/custom_action_bar_item_change_to_groups" android:background="?android:actionBarItemBackground" android:padding="@dimen/easymode_actionbar_item_padding_left" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="?android:actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:layout_width="wrap_content" android:layout_height="?android:actionBarSize" android:src="@drawable/action_bar_tab_icon_groups" />
+    <TextView android:textSize="@dimen/easymode_actionbar_item_text_size" android:textStyle="normal" android:textColor="@*android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="?android:actionBarSize" android:text="@string/menu_groups" />
+</LinearLayout>

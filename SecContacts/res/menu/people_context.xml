@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/tw_action_bar_icon_delete" android:id="@id/menu_delete" android:orderInCategory="1" android:title="@string/delete" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/tw_action_bar_icon_sharevia" android:id="@id/menu_share_via" android:orderInCategory="2" android:title="@string/share_name_card" android:showAsAction="never" />
+    <item android:icon="@drawable/tw_action_bar_icon_copy_to_dialingscreen_log" android:id="@id/menu_copy_to_dialing_screen" android:orderInCategory="2" android:title="@string/menu_copy_to_dialing" android:showAsAction="never" />
+    <item android:id="@id/menu_move_to_knox" android:visible="false" android:orderInCategory="2" android:title="@string/menu_knox_move" android:showAsAction="never" />
+    <item android:id="@id/menu_move_to_personal" android:visible="false" android:orderInCategory="2" android:title="@string/menu_knox_personal_move" android:showAsAction="never" />
+    <item android:id="@id/menu_send_contact_info" android:orderInCategory="2" android:title="@string/menu_send_contact_information_full" android:showAsAction="never" />
+    <item android:icon="@drawable/tw_action_bar_icon_home" android:id="@id/menu_create_contact_shortcut" android:orderInCategory="2" android:title="@string/menu_add_shortcut_to_home" android:showAsAction="never" />
+    <item android:icon="@drawable/tw_action_bar_icon_add_to_white_list" android:id="@id/menu_white_list_settings" android:orderInCategory="2" android:title="@string/menu_white_list_setting" android:showAsAction="never" />
+    <item android:icon="@drawable/tw_action_bar_icon_add_to_black_list" android:id="@id/menu_black_list_settings" android:orderInCategory="2" android:title="@string/menu_black_list_setting" android:showAsAction="never" />
+</menu>

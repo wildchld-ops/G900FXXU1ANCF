@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Sempre attivo</item>
+        <item>Su richiesta</item>
+        <item>Disattivato</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Pagina predefinita</item>
+        <item>Pagina corrente</item>
+        <item>Accesso rapido</item>
+        <item>Siti più visitati</item>
+        <item>Altri</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Dispositivo</item>
+        <item>Scheda SD</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Cinese (GBK)</item>
+        <item>Cinese (Big5)</item>
+        <item>Giapponese (ISO-2022-JP)</item>
+        <item>Giapponese (SHIFT JIS)</item>
+        <item>Giapponese (EUC-JP)</item>
+        <item>Coreano (EUC-KR)</item>
+        <item>Rilevamento automatico</item>
+    </string-array>
+</resources>

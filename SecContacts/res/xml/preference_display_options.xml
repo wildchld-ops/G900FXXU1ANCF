@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.contacts.preference.CallSettingsPreference android:title="@string/call_settings" android:key="callSettings" />
+    <Preference android:title="@string/contacts_Settings" android:fragment="com.samsung.contacts.preference.ContactsSettingsFragment" />
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <EditText android:textSize="40.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/digits" android:background="@*android:color/transparent" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dialpad_vertical_margin" android:scrollHorizontally="true" android:singleLine="true" android:freezesText="true" />
+        <ViewStub android:id="@id/emergencyItemContainer" android:background="@*android:color/transparent" android:layout="@layout/emergency_contact_item_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/call_keypad_bg_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="4.0dip">
+        <include layout="@layout/emergency_dialpad" />
+    </LinearLayout>
+    <include layout="@layout/dialpad_additional_buttons_sec_duos" />
+</LinearLayout>

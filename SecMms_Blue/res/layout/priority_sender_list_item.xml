@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.prioritysender.PrioritySenderListItem android:orientation="vertical" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="84.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/priority_sender_add_thumbnail_bg" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/priority_sender_avatar" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/priority_sender_thumbnail" />
+        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/priority_sender_unread_count" android:background="@drawable/priority_sender_add_thumbnail_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="1.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/delete_priority_sender" android:background="@drawable/delete_priority_sender" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:textSize="13.0dip" android:textColor="@color/priority_sender_from_color" android:ellipsize="marquee" android:layout_gravity="center" android:id="@id/priority_sender_from" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+</com.android.mms.prioritysender.PrioritySenderListItem>

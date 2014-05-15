@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s keskustelua</item>
+        <item quantity="one">1 keskustelu</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s viestiä</item>
+        <item quantity="one">1 viesti</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d keskustelua</item>
+        <item quantity="one">%d keskustelu</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s ja %2$d enemmän</item>
+        <item quantity="one">%s ja 1 enemmän</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s ja vielä %2$d</item>
+        <item quantity="one">%s ja 1 enemmän</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">Viestit on poistettu SIM-kortilta.</item>
+        <item quantity="one">Viesti on poistettu SIM-kortilta.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">SIM-kortilta kopioidut viestit.</item>
+        <item quantity="one">Viesti on kopioitu SIM-kortilta.</item>
+    </plurals>
+</resources>

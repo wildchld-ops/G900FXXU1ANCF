@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/cancel_id" android:visible="false" android:title="@string/scrap_cancel" android:showAsAction="ifRoom" />
+    <item android:enabled="false" android:id="@id/done_id" android:visible="false" android:title="@string/bookmarks_options_menu_delete" android:showAsAction="ifRoom" />
+    <group android:id="@id/SCRAP_LIST_MENU">
+        <item android:icon="@drawable/tw_action_bar_icon_delete_holo_light" android:id="@id/save_pagelist_delete" android:title="@string/scraplist_delete" />
+        <item android:icon="@drawable/tw_action_bar_icon_sortby_holo_light" android:id="@id/savepages_list_sort_by" android:orderInCategory="2100" android:title="@string/scraplist_sort_by" />
+    </group>
+</menu>

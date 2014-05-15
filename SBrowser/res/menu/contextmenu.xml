@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/ANCHOR_MENU">
+        <item android:id="@id/open_ctxt_menu_id" android:title="@string/contextmenu_open" />
+        <item android:id="@id/open_new_tab_ctxt_menu_id" android:title="@string/contextmenu_openlink_newwindow" />
+        <item android:id="@id/open_incognito_tab_ctxt_menu_id" android:title="@string/ctxtmenu_open_in_incognito_tab" />
+        <item android:id="@id/save_link_ctxt_menu_id" android:title="@string/cntxt_save_link" />
+        <item android:id="@id/copy_link_address_ctxt_menu_id" android:title="@string/contextmenu_copylink" />
+        <item android:id="@id/copy_link_text_ctxt_menu_id" android:title="@string/ctxtmenu_copy_link_text" />
+        <item android:id="@id/select_text_menu_id" android:title="@string/ctxtmenu_select_text" />
+    </group>
+    <group android:id="@id/IMAGE_MENU">
+        <item android:id="@id/save_image_ctxt_menu_id" android:title="@string/ctxtmenu_save_image" />
+        <item android:id="@id/copy_image_ctxt_menu_id" android:title="@string/cntxt_copy_image" />
+        <item android:id="@id/open_image_ctxt_menu_id" android:title="@string/cntxt_view_image" />
+        <item android:id="@id/open_image_in_new_tab_ctxt_menu_id" android:title="@string/ctxtmenu_open_image_in_new_tab" />
+        <item android:id="@id/qr_decode_image_ctxt_menu_id" android:title="@string/ctxtmenu_try_qr_code_image" />
+    </group>
+    <group android:id="@id/TEL_SCHEME_MENU">
+        <item android:id="@id/open_dial_pad_id" android:title="@string/tel_dial_open" />
+        <item android:id="@id/open_contact_id" android:title="@string/tel_contact_open" />
+        <item android:id="@id/copy_num_id" android:title="@string/tel_copy_num" />
+        <item android:id="@id/select_text_id" android:title="@string/ctxtmenu_select_text" />
+    </group>
+</menu>

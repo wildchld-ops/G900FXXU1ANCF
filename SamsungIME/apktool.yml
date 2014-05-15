@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: SamsungIME.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '18'
+  targetSdkVersion: '19'
+packageInfo:
+  cur_package: com.sec.android.inputmethod
+  orig_package: com.sec.android.inputmethod
+compressionType: false

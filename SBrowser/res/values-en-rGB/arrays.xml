@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_engines">
+        <item>google_gb</item>
+        <item>ask_uk</item>
+        <item>yahoo_uk</item>
+        <item>bing_en_GB</item>
+    </string-array>
+</resources>

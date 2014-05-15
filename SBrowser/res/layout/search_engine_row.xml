@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="left|center" android:orientation="horizontal" android:id="@id/search_engine_row_layout" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/search_engine_row_icon" android:background="@null" android:padding="3.0dip" android:focusable="false" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="11.0dip" android:layout_marginBottom="10.0dip" android:scaleType="fitCenter" />
+    <TextView android:textSize="@dimen/suggestion_medium_text_size" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/search_engine_row_title" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:textIsSelectable="false" />
+</LinearLayout>

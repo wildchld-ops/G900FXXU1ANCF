@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>Feliz</item>
+        <item>Triste</item>
+        <item>Chiscando un ollo</item>
+        <item>Lingua fóra</item>
+        <item>Sorprendido</item>
+        <item>Bicar</item>
+        <item>Gritando</item>
+        <item>Contento</item>
+        <item>Boca con diñeiro</item>
+        <item>Pé en boca</item>
+        <item>Avergoñado</item>
+        <item>Anxo</item>
+        <item>Indeciso</item>
+        <item>Chorando</item>
+        <item>Boca pechada</item>
+        <item>Rindo</item>
+        <item>Confundido</item>
+        <item>Corazón</item>
+        <item>Tolo</item>
+        <item>Sorriso malicioso</item>
+        <item>Cara de poker</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Usar tamaño fonte dispos.</item>
+        <item>Diminuto</item>
+        <item>Pequeno</item>
+        <item>Normal</item>
+        <item>Grande</item>
+        <item>Enorme</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Usar tamaño fonte dispos.</item>
+        <item>Diminuto</item>
+        <item>Moi pequeno</item>
+        <item>Pequeno</item>
+        <item>Medio</item>
+        <item>Grande</item>
+        <item>Moi grande</item>
+        <item>Enorme</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Todas as canles</item>
+        <item>A miña canle</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>Alfabeto GSM</item>
+        <item>Unicode</item>
+        <item>Automática</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 días</item>
+        <item>1 día</item>
+        <item>2 días</item>
+        <item>3 días</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Restrinxida</item>
+        <item>Aviso</item>
+        <item>Libre</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Sempre</item>
+        <item>Solicitude</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Papiroflexia</item>
+        <item>Etiqueta</item>
+        <item>Pop</item>
+        <item>Moderno</item>
+        <item>Rosa</item>
+        <item>Predeterminado</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Unha vez</item>
+        <item>Cada 2 minutos</item>
+        <item>Cada 15 minutos</item>
+        <item>Desactiv.</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Nunca</item>
+        <item>Cada 2 minutos</item>
+        <item>Cada 10 minutos</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Nacionais</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 hora</item>
+        <item>6 horas</item>
+        <item>24 horas</item>
+        <item>2 días</item>
+        <item>Valor predeterminado de rede</item>
+        <item>Máximo</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Alta</item>
+        <item>Normal</item>
+        <item>Baixa</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Inmediatamente</item>
+        <item>1 hora</item>
+        <item>6 horas</item>
+        <item>24 horas</item>
+        <item>1 sem</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 segundos</item>
+        <item>5 segundos</item>
+        <item>10 segundos</item>
+        <item>20 segundos</item>
+        <item>30 segundos</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Desactiv.</item>
+        <item>Bloquear todas as mensaxes</item>
+        <item>Bloquear números e frases rexistrados</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Exactamente o mesmo que</item>
+        <item>Comeza por</item>
+        <item>Acaba en</item>
+        <item>Inclúe</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Rexistros</item>
+        <item>Cont.</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Bloqueo de mensaxes</item>
+        <item>Bloqueo chamada</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Bloqueo de mensaxes</item>
+        <item>Axustes bloq. cham. voz</item>
+        <item>Bloqueo de videochamadas</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Reservado</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Normal</item>
+        <item>Alta</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Non puiden contestar á túa chamada.</item>
+        <item>Chego tarde, pero tardo uns minutos.</item>
+        <item>Que tal?</item>
+        <item>Que tal?</item>
+        <item>Onde andas?</item>
+        <item>Chámame cando recibas esta mensaxe.</item>
+        <item>Cando podemos xuntarnos?</item>
+        <item>Falamos pronto.</item>
+        <item>Onde é a reunión?</item>
+        <item>Cal é o número?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Portugués do Brasil</item>
+        <item>Inglés (Reino Unido)</item>
+        <item>Inglés (EUA)</item>
+        <item>Francés</item>
+        <item>Alemán</item>
+        <item>Italiano</item>
+        <item>Xaponés</item>
+        <item>Coreano</item>
+        <item>Chinés simplificado</item>
+        <item>Ruso</item>
+        <item>Español</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Diminuto</item>
+        <item>Pequeno</item>
+        <item>Normal</item>
+        <item>Grande</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Todo</item>
+        <item>Remitente</item>
+        <item>Contido</item>
+    </string-array>
+</resources>

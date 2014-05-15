@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tutorial_help_tip_endcall_margin_right">7.0dip</dimen>
+    <dimen name="tutorial_help_tip_endcall_margin_bottom">221.0dip</dimen>
+    <dimen name="tutorial_help_tip_endcall_img_margin_bottom">44.0dip</dimen>
+    <dimen name="tutorial_help_tip_endcall_img_padding_top">47.0dip</dimen>
+    <dimen name="tutorial_call_img_animation_margin_top">101.0dip</dimen>
+</resources>

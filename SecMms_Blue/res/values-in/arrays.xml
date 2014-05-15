@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>Senang</item>
+        <item>Sedih</item>
+        <item>Mengedip</item>
+        <item>Lidah terjulur</item>
+        <item>Terkejut</item>
+        <item>Berciuman</item>
+        <item>Bersorak</item>
+        <item>Keren</item>
+        <item>Mulut uang</item>
+        <item>Kaki di mulut</item>
+        <item>Malu</item>
+        <item>Malaikat</item>
+        <item>Tak diputuskan</item>
+        <item>Menangis</item>
+        <item>Bibir terkunci</item>
+        <item>Tertawa</item>
+        <item>Bingung</item>
+        <item>Hati</item>
+        <item>Marah</item>
+        <item>Menyeringai</item>
+        <item>Wajah datar</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>Gunakan ukrn hrf prangkat</item>
+        <item>Sangat kecil</item>
+        <item>Kecil</item>
+        <item>Normal</item>
+        <item>Besar</item>
+        <item>Sangat besar</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>Gunakan ukrn hrf prangkat</item>
+        <item>Mungil</item>
+        <item>Ekstra kecil</item>
+        <item>Kecil</item>
+        <item>Sedang</item>
+        <item>Besar</item>
+        <item>Ekstra besar</item>
+        <item>Sangat besar</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>Semua saluran</item>
+        <item>Saluran Saya</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>GSM alphabet</item>
+        <item>Unicode</item>
+        <item>Otomatis</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 hari</item>
+        <item>1 hari</item>
+        <item>2 hari</item>
+        <item>3 hari</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>Terbatas</item>
+        <item>Peringatan</item>
+        <item>Bebas</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>Selalu</item>
+        <item>Tanyakan</item>
+        <item>Tdk pernah</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>Origami</item>
+        <item>Label</item>
+        <item>Pop</item>
+        <item>Modern</item>
+        <item>Merah muda</item>
+        <item>Default</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>Auto send when in Domestic coverage</item>
+        <item>Send Now</item>
+        <item>Save as draft message</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>Sekali</item>
+        <item>Setiap 2 menit</item>
+        <item>Setiap 15 menit</item>
+        <item>Tdk aktif</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>Tdk pernah</item>
+        <item>Setiap 2 menit</item>
+        <item>Setiap 10 menit</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>Domestik</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 jam</item>
+        <item>6 jam</item>
+        <item>24 jam</item>
+        <item>2 hari</item>
+        <item>Default jaringan</item>
+        <item>Maksimum</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>Tinggi</item>
+        <item>Normal</item>
+        <item>Rendah</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>Segera</item>
+        <item>1 jam</item>
+        <item>6 jam</item>
+        <item>24 jam</item>
+        <item>1 mggu</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 detik</item>
+        <item>5 detik</item>
+        <item>10 detik</item>
+        <item>20 detik</item>
+        <item>30 detik</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>Tdk aktif</item>
+        <item>Blokir semua pesan</item>
+        <item>Blokir nomor dan frasa yang didaftarkan</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>Sama persis dengan</item>
+        <item>Mulai dengan</item>
+        <item>Akhiri dengan</item>
+        <item>Termasuk</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>Log</item>
+        <item>Kontak</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>Blokir pesan</item>
+        <item>Blokir panggilan</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>Blokir pesan</item>
+        <item>Blokir panggilan suara</item>
+        <item>Blokir panggilan video</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>Dibackupkan.</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>Normal</item>
+        <item>Tinggi</item>
+    </string-array>
+    <string-array name="templates">
+        <item>Maaf, saya melewatkan panggilan Anda.</item>
+        <item>Saya terlambat, tetapi saya akan tiba sebentar lagi.</item>
+        <item>Bagaimana kabarmu?</item>
+        <item>Apa kabar?</item>
+        <item>Di manakah Anda?</item>
+        <item>Tolong hubungi saya saat Anda menerima pesan ini.</item>
+        <item>Kapan kita dapat bertemu?</item>
+        <item>Saya akan segera berbicara denganmu.</item>
+        <item>Di mana pertemuannya?</item>
+        <item>Berapa nomornya?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>Portugis Brasil</item>
+        <item>Bahasa Inggris (UK)</item>
+        <item>Inggris (AS)</item>
+        <item>Bahasa Prancis</item>
+        <item>Bahasa Jerman</item>
+        <item>Bahasa Italia</item>
+        <item>Bahasa Jepang</item>
+        <item>Bhs Korea</item>
+        <item>Bahasa China Sederhana</item>
+        <item>Bahasa Rusia</item>
+        <item>Bahasa Spanyol</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>Sangat kecil</item>
+        <item>Kecil</item>
+        <item>Normal</item>
+        <item>Besar</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>Semua</item>
+        <item>Pengirim</item>
+        <item>Konten</item>
+    </string-array>
+</resources>

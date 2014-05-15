@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="index_string_array">
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="interaction_selecter_spinner">
+        <item>%d ausgewählt</item>
+        <item>Alle auswählen</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Organisation</item>
+        <item>Memo</item>
+    </string-array>
+</resources>

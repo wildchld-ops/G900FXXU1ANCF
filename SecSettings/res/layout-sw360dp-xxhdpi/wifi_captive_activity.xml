@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="#ff026c86" android:layout_width="fill_parent" android:layout_height="58.0dip">
+        <TextView android:textSize="30.0dip" android:textColor="#ffffffff" android:gravity="top|center" android:id="@id/wifi_captiveportal_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/wifi_setupwizard_captiveportal_connecting" android:includeFontPadding="false" android:shadowColor="#ff000000" android:shadowDx="3.0" android:shadowDy="3.0" android:shadowRadius="3.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/connectionLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="19.0sp" android:textColor="#ffdeecf5" android:gravity="center" android:id="@id/connectingText" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="1.0dip" android:text="@string/wifi_setupwizard_captiveportal_loading" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <WebView android:id="@id/wifi_captiveportal_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="3.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/bottom_btn" android:background="@drawable/setupwizard_navibar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_buttons_height">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/wifi_captiveportal_cancel" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/previous_btn_img" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/setupwizard_previous_arrow" />
+            <TextView android:textSize="@dimen/bottom_button_text_size" android:textColor="@color/bottom_button_text_selector" android:id="@id/previous_btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/wifi_setupwizard_captiveportal_cancel" />
+        </LinearLayout>
+        <View android:background="@drawable/setupwizard_navibar_divider" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/next_button" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

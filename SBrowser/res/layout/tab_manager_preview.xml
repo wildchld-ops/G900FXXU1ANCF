@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/tab_manager_preview" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/tab_manager_preview_linear_layout" android:background="@drawable/fairview_internet_bookmark_bg" android:paddingLeft="@dimen/tabmanager_preview_grid_margin_left" android:paddingTop="@dimen/tabmanager_preview_grid_margin_top" android:paddingRight="@dimen/tabmanager_preview_grid_margin_right" android:paddingBottom="@dimen/tabmanager_preview_grid_margin_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

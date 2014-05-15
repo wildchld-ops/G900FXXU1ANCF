@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="1.0dip" android:layout_width="@dimen/overlay_call_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/overlay_call_linearLayout" android:background="@drawable/call_multitasking_incall_popup_bg" android:layout_width="@dimen/overlay_call_image_width" android:layout_height="wrap_content">
+        <ImageView android:id="@id/overlay_call_image" android:layout_width="fill_parent" android:layout_height="@dimen/overlay_call_image_height" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="1.0dip" android:src="@drawable/call_img_list_unknown" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="19.0dip">
+            <TextView android:textSize="13.0dip" android:textColor="@color/overlay_call_time_text_color" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/overlay_call_status" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/onHold" android:singleLine="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/overlay_call_timer_container" android:layout_width="fill_parent" android:layout_height="@dimen/overlay_call_time_height">
+                <ImageView android:id="@id/overlay_icon_image" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/call_multitasking_call" />
+                <Chronometer android:textSize="@dimen/overlay_call_time_text_size" android:textColor="@color/overlay_call_time_text_color" android:gravity="center_horizontal" android:id="@id/overlay_call_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/overlay_record_timer_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/overlay_call_time_height">
+                <ImageView android:id="@id/overlay_record_icon_image" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/call_multitasking_record" />
+                <Chronometer android:textSize="@dimen/overlay_call_time_text_size" android:textColor="@color/incall_call_banner_recording" android:gravity="center_horizontal" android:id="@id/overlay_record_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

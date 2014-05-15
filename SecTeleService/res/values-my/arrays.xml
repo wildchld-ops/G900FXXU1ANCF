@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>ၾကိဳတင္စီစဥ္ထားေသာ ကြန္ယက္</item>
+        <item>နံပါတ္ကုိ ဖုံးကြယ္ထားပါ</item>
+        <item>နံပါတ္ ျပပါ</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>မူလသတ္မွတ္ထားေသာ</item>
+        <item>၀ွက္ပါ</item>
+        <item>ျပပါ</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE / WCDMA</item>
+        <item>LTE</item>
+        <item>ကမၻာလုံးဆုိင္ရာ</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>EVDO သက္သက္သာ</item>
+        <item>EVDO မပါေသာ CDMA</item>
+        <item>CDMA/EVDO အလိုအေလ်ာက္</item>
+        <item>GSM / WCDMA auto</item>
+        <item>WCDMA သက္သက္သာ</item>
+        <item>GSM တစ္ခုတည္းသာ</item>
+        <item>GSM / WCDMA preferred</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_automatic_cdma_lte_gsm">
+        <item>CDMA</item>
+        <item>LTE / CDMA</item>
+        <item>GSM / UMTS</item>
+        <item>အလုိအေလ်ာက္</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_lte_global">
+        <item>ကမၻာလုံးဆုိင္ရာ</item>
+        <item>LTE / CDMA</item>
+        <item>GSM / UMTS</item>
+        <item>CDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_lte_global_non_cdma">
+        <item>ကမၻာလုံးဆုိင္ရာ</item>
+        <item>LTE / CDMA</item>
+        <item>GSM / UMTS</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_global_lte_gsm">
+        <item>ကမၻာလုံးဆုိင္ရာ</item>
+        <item>LTE</item>
+        <item>GSM / UMTS</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>ျပင္သစ္</item>
+        <item>စပိန္စကား</item>
+        <item>ဂ်ပန္</item>
+        <item>ကိုရီးယား</item>
+        <item>တရုတ္</item>
+        <item>ဟီဗရူး</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>၁</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>အိမ္တစ္ခုတည္းသာ</item>
+        <item>အလုိအေလ်ာက္</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices_home_only">
+        <item>အိမ္တစ္ခုတည္းသာ</item>
+    </string-array>
+    <string-array name="cdma_system_select_sub_choices">
+        <item>အိမ္တစ္ခုတည္းသာ</item>
+        <item>ေအာ္တိုမတ္တစ္ A</item>
+        <item>ေအာ္တိုမတ္တစ္ B</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>၀</item>
+        <item>၁</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY Off</item>
+        <item>TTY Full</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>ပုံမွန္</item>
+        <item>ရွည္ေသာ</item>
+    </string-array>
+    <string-array name="dtmf_tone_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="RAD_arr_roaming_auto_dial_help">
+        <item>လွည့္လည္ျခင္း အလိုအေလွ်ာက္ ေခၚဆိုမႈ အကူအညီ</item>
+    </string-array>
+    <string-array name="RAD_roaming_auto_dial_settings">
+        <item>ဖြင့္</item>
+        <item>ပိတ္</item>
+        <item>ကိုရီးယားသို႔ အျမဲတမ္း ေခၚဆိုမႈ</item>
+    </string-array>
+    <string-array name="roaming_mode_entries">
+        <item>Sprint မွ်သာ</item>
+        <item>အလုိအေလ်ာက္</item>
+    </string-array>
+    <string-array name="roaming_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="roaming_network_mode_list">
+        <item>ေအာ္တုိ</item>
+        <item>WCDMA သက္သက္သာ</item>
+        <item>GSM တစ္ခုတည္းသာ</item>
+    </string-array>
+    <string-array name="system_setting_entries">
+        <item>ဂ်ပန္</item>
+        <item>Automatic(Roaming/Japan)</item>
+        <item>GSM/UMTS(Roaming)</item>
+    </string-array>
+</resources>

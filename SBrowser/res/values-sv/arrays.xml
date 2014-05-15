@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Alltid på</item>
+        <item>På begäran</item>
+        <item>Av</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Standardsida</item>
+        <item>Denna sida</item>
+        <item>Snabbåtkomst</item>
+        <item>Mest besökta webbplatser</item>
+        <item>Annat</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Enhet</item>
+        <item>SD-kort</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Kinesiska (GBK)</item>
+        <item>Kinesiska (Big5)</item>
+        <item>Japanska (ISO-2022-JP)</item>
+        <item>Japanska (SKIFT-JIS)</item>
+        <item>Japanska (EUC-JP)</item>
+        <item>Koreanska (EUC-KR)</item>
+        <item>Identifiera automatiskt</item>
+    </string-array>
+</resources>

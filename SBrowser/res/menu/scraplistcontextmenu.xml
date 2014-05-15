@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/new_window_context_menu_id" android:title="@string/contextmenu_openlink_newwindow" />
+    <item android:id="@id/delete_context_menu_id" android:title="@string/scraplist_delete" />
+    <item android:id="@id/share_link_context_menu_id" android:title="@string/options_menu_share" />
+</menu>

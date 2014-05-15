@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="lockscreen_targets_when_silent">
+        <item>@drawable/ic_lockscreen_unlock</item>
+        <item>@drawable/ic_action_assist_generic</item>
+        <item>@drawable/ic_lockscreen_soundon</item>
+        <item>@null</item>
+    </array>
+    <string-array name="lockscreen_target_descriptions_when_silent">
+        <item>@string/description_target_unlock</item>
+        <item>@string/description_target_search</item>
+        <item>@string/description_target_soundon</item>
+        <item>@null</item>
+    </string-array>
+    <string-array name="lockscreen_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@string/description_direction_up</item>
+        <item>@string/description_direction_left</item>
+        <item>@null</item>
+    </string-array>
+    <array name="lockscreen_targets_when_soundon">
+        <item>@drawable/ic_lockscreen_unlock</item>
+        <item>@drawable/ic_action_assist_generic</item>
+        <item>@drawable/ic_lockscreen_silent</item>
+        <item>@null</item>
+    </array>
+    <string-array name="lockscreen_target_descriptions_when_soundon">
+        <item>@string/description_target_unlock</item>
+        <item>@string/description_target_search</item>
+        <item>@string/description_target_silent</item>
+        <item>@null</item>
+    </string-array>
+    <array name="lockscreen_targets_with_camera">
+        <item>@drawable/ic_lockscreen_unlock</item>
+        <item>@drawable/ic_action_assist_generic</item>
+        <item>@drawable/ic_lockscreen_camera</item>
+        <item>@null</item>
+    </array>
+    <string-array name="lockscreen_target_descriptions_with_camera">
+        <item>@string/description_target_unlock</item>
+        <item>@string/description_target_search</item>
+        <item>@string/description_target_camera</item>
+        <item>@null</item>
+    </string-array>
+    <string-array name="lockscreen_targets_unlock_only">
+        <item>@drawable/ic_lockscreen_unlock</item>
+    </string-array>
+    <string-array name="lockscreen_target_descriptions_unlock_only">
+        <item>@string/description_target_unlock</item>
+    </string-array>
+    <string-array name="lockscreen_num_pad_klondike">
+        <item></item>
+        <item></item>
+        <item>ABC</item>
+        <item>DEF</item>
+        <item>GHI</item>
+        <item>JKL</item>
+        <item>MNO</item>
+        <item>PQRS</item>
+        <item>TUV</item>
+        <item>WXYZ</item>
+    </string-array>
+    <string-array name="zzz_tts_lockscreen_time_am">
+        <item>It is %1$d : %2$d AM</item>
+        <item>Il est %1$d:%2$d du matin</item>
+        <item>Es ist %1$d:%2$d AM</item>
+        <item>Sono le %1$d:%2$d AM</item>
+        <item>Son las %1$d:%2$d AM</item>
+        <item>오전 %1$d시%2$d분입니다</item>
+        <item>上午 %1$d点 %2$d分</item>
+        <item>午前%1$d時%2$d分です。</item>
+        <item>São %1$d:%2$d AM</item>
+        <item>Сейчас %1$d:%2$d до полудня</item>
+    </string-array>
+    <string-array name="zzz_tts_lockscreen_time_pm">
+        <item>It is %1$d : %2$d PM</item>
+        <item>"Il est %1$d:%2$d de l'après-midi"</item>
+        <item>Es ist %1$d:%2$d PM</item>
+        <item>Sono le %1$d:%2$d PM</item>
+        <item>Son las %1$d:%2$d PM</item>
+        <item>오후 %1$d시%2$d분입니다</item>
+        <item>下午 %1$d点 %2$d分</item>
+        <item>午後%1$d時%2$d分です。</item>
+        <item>São %1$d:%2$d PM</item>
+        <item>Сейчас %1$d:%2$d после полудня</item>
+    </string-array>
+    <string-array name="zzz_tts_lockscreen_time">
+        <item>It is %1$d : %2$d</item>
+        <item>Il est %1$d:%2$d du matin</item>
+        <item>Es ist %1$d:%2$d</item>
+        <item>Sono le %1$d:%2$d</item>
+        <item>Son las %1$d:%2$d</item>
+        <item>%1$d시 %2$d분입니다</item>
+        <item>现在时间 %1$d点%2$d分</item>
+        <item>%1$d：%2$dです。</item>
+        <item>São %1$d:%2$d</item>
+        <item>Сейчас %1$d:%2$d</item>
+    </string-array>
+    <string-array name="zzz_tts_temperature">
+        <item>%1$d Degree %2$s</item>
+        <item>%1$d Degré %2$s</item>
+        <item>%1$d Grad %2$s</item>
+        <item>%1$d Grado %2$s</item>
+        <item>%1$d Grado %2$s</item>
+        <item>%2$s %1$d 도</item>
+        <item>%2$s %1$d 度</item>
+        <item>度</item>
+        <item>Grau</item>
+        <item>Градус</item>
+    </string-array>
+    <string-array name="zzz_tts_temp_celsius">
+        <item>Celsius</item>
+        <item>Celsius</item>
+        <item>Celsius</item>
+        <item>Celsius</item>
+        <item>Centígrados</item>
+        <item>섭씨</item>
+        <item>摄氏度</item>
+        <item>摂氏</item>
+        <item>Celsius</item>
+        <item>По Цельсию</item>
+    </string-array>
+    <string-array name="zzz_tts_temp_fahrenheit">
+        <item>Fahrenheit</item>
+        <item>Fahrenheit</item>
+        <item>Fahrenheit</item>
+        <item>Fahrenheit</item>
+        <item>Fahrenheit</item>
+        <item>화씨</item>
+        <item>华氏温度</item>
+        <item>華氏</item>
+        <item>Fahrenheit</item>
+        <item>Фаренгейт</item>
+    </string-array>
+    <string-array name="zzz_tts_lockscreen_calls_and_messages">
+        <item>You have %1$d missed calls and %2$d unread messages</item>
+        <item>Vous avez %1$d appels manqués et %2$d messages non lus</item>
+        <item>Sie haben %1$d verpasste Anrufe und %2$d ungelesene Nachrichten</item>
+        <item>%1$d chiamate perse e %2$d messaggi non letti</item>
+        <item>Tiene %1$d llamadas perdidas y %2$d mensajes sin leer</item>
+        <item>%1$d개의 부재중 전화 및 %2$d개의 읽지 않은 메시지가 있습니다</item>
+        <item>您有 %1$d 个未接来电和 %2$d 条未读消息</item>
+        <item>%1$d件の不在着信と、%2$d件の未読メッセージがあります。</item>
+        <item>Tem %1$d chamadas perdidas e %2$d mensagens não lidas</item>
+        <item>У вас есть пропущенные вызовы (%1$d) и непрочитанные сообщения (%2$d)</item>
+    </string-array>
+    <string-array name="zzz_tts_lockscreen_n_missed_calls">
+        <item>You have %1$d missed calls</item>
+        <item>Vous avez %1$d appels manqués</item>
+        <item>Sie haben %1$d entgangene Anrufe</item>
+        <item>%1$d chiamate perse</item>
+        <item>Tiene %1$d llamadas perdidas</item>
+        <item>부재중 전화가 %1$d통 있습니다</item>
+        <item>您有 %1$d 个未接来电</item>
+        <item>%d件の不在着信があります。</item>
+        <item>Tem %d chamadas perdidas</item>
+        <item>Пропущено вызовов: %d</item>
+    </string-array>
+    <string-array name="zzz_tts_lockscreen_n_unread_messages">
+        <item>You have %1$d unread messages</item>
+        <item>Vous avez %1$d messages non lus</item>
+        <item>Sie haben %1$d ungel Nachr</item>
+        <item>%1$d messaggi non letti</item>
+        <item>Tiene %1$d mensajes sin leer</item>
+        <item>%1$d개의 읽지 않은 메시지가 있습니다</item>
+        <item>您有 %1$d 条未读消息</item>
+        <item>%1$d件の未読メッセージがあります。</item>
+        <item>Tem %1$d mensagens não lidas</item>
+        <item>У вас есть непрочитанные сообщения (%1$d)</item>
+    </string-array>
+    <string-array name="zzz_tts_lockscreen_1_missed_call">
+        <item>You have 1 missed call</item>
+        <item>Vous avez 1 appel manqué</item>
+        <item>Sie haben 1 entgangenen Anruf</item>
+        <item>1 chiamata persa</item>
+        <item>Tiene 1 llamada perdida</item>
+        <item>부재중 전화가 1통 있습니다</item>
+        <item>您有1个未接来电</item>
+        <item>不在着信が1件あります。</item>
+        <item>Tem 1 chamada perdida</item>
+        <item>1 пропущенный вызов</item>
+    </string-array>
+    <string-array name="zzz_tts_lockscreen_1_unread_message">
+        <item>You have 1 unread message</item>
+        <item>Vous avez 1 message non lu</item>
+        <item>Sie haben 1 ungel Nachr</item>
+        <item>1 messaggio non letto</item>
+        <item>Tiene 1 mensaje sin leer</item>
+        <item>1개의 읽지 않은 메시지가 있습니다</item>
+        <item>您有 1 条未读消息</item>
+        <item>1件の未読メッセージがあります。</item>
+        <item>Tem 1 mensagem não lida</item>
+        <item>У вас 1 непрочитанное сообщение</item>
+    </string-array>
+    <string-array name="zzz_tts_string_langs">
+        <item>eng</item>
+        <item>fra</item>
+        <item>deu</item>
+        <item>ita</item>
+        <item>spa</item>
+        <item>kor</item>
+        <item>zho</item>
+        <item>jpn</item>
+        <item>por</item>
+        <item>rus</item>
+    </string-array>
+    <string-array name="keyguard_local_config_is_ggsm_tablet">
+        <item>mondrian</item>
+        <item>picasso</item>
+        <item>vienna</item>
+        <item>v1a</item>
+        <item>v2</item>
+        <item>lt03</item>
+        <item>matisse</item>
+        <item>chagall</item>
+        <item>millet</item>
+        <item>lt01</item>
+        <item>lt02</item>
+        <item>santos10</item>
+        <item>p4note</item>
+        <item>kona</item>
+    </string-array>
+    <string-array name="keyguard_local_config_is_usejellybeangui">
+        <item>t0lte</item>
+        <item>serrano</item>
+        <item>d2</item>
+        <item>golden</item>
+    </string-array>
+    <string-array name="keyguard_local_config_is_ggsm_performance_patch_enabled">
+        <item>mondrian</item>
+        <item>picasso</item>
+        <item>vienna</item>
+        <item>v1a</item>
+        <item>v2</item>
+        <item>lt03</item>
+        <item>p4note</item>
+        <item>chagall</item>
+        <item>millet</item>
+        <item>matisse</item>
+        <item>kona</item>
+        <item>lt01</item>
+        <item>lt02</item>
+        <item>santos10</item>
+    </string-array>
+    <string-array name="keyguard_local_config_is_pre_implementation_for_test">
+        <item>mondrian</item>
+        <item>picasso</item>
+        <item>vienna</item>
+        <item>v1a</item>
+        <item>v2</item>
+        <item>hlte</item>
+        <item>ha3g</item>
+        <item>ja3g</item>
+        <item>jalte</item>
+        <item>ks01lte</item>
+        <item>flte</item>
+        <item>jactive</item>
+        <item>jft</item>
+        <item>lt03</item>
+        <item>p4note</item>
+        <item>t0lte</item>
+        <item>t03g</item>
+        <item>melius</item>
+        <item>chagall</item>
+        <item>jfvelte</item>
+        <item>mproject</item>
+        <item>s3ve3g</item>
+        <item>serrano</item>
+        <item>kona</item>
+        <item>d2</item>
+        <item>lt01</item>
+        <item>golden</item>
+        <item>lt02</item>
+        <item>santos10</item>
+        <item>baffin</item>
+        <item>hllte</item>
+        <item>hl3g</item>
+    </string-array>
+    <array name="keyguard_local_config_is_use_previous_music_widget" />
+    <string-array name="keyguard_local_config_is_ripple_ink_effect_enabled">
+        <item>vienna</item>
+        <item>v1a</item>
+        <item>hlte</item>
+        <item>ha3g</item>
+        <item>lt03</item>
+        <item>p4note</item>
+        <item>t0lte</item>
+        <item>kona</item>
+    </string-array>
+    <string-array name="keyguard_local_config_is_use_favorite_app_widget">
+        <item>hlte</item>
+        <item>ha3g</item>
+        <item>jflte</item>
+        <item>ja3g</item>
+        <item>jalte</item>
+        <item>ks01lte</item>
+        <item>flte</item>
+        <item>jactive</item>
+        <item>jft</item>
+        <item>jfvelte</item>
+        <item>mproject3g</item>
+        <item>s3ve3g</item>
+        <item>serrano</item>
+        <item>d2</item>
+        <item>golden</item>
+        <item>baffin</item>
+        <item>hllte</item>
+        <item>hl3g</item>
+    </string-array>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">Ցուցադրվում է %d կոնտակտ</item>
+        <item quantity="one">Ցուցադրվում է 1 կոնտակտ</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">Ցուցադրվում է %d կոնտակտ հեռախոսահամարներով</item>
+        <item quantity="one">Ցուցադրվում է 1 կոնտակտ հեռախոսահամարով</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d կոնտակտ հեռախոսահամարներով</item>
+        <item quantity="one">1 կոնտակտ հեռախոսահամարով</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d կոնտակտներ</item>
+        <item quantity="one">1 կոնտակտ</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d գտնված</item>
+        <item quantity="one">1 գտնված</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d գտնված</item>
+        <item quantity="one">1 գտնված</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d խումբ</item>
+        <item quantity="one">1 խումբ</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d մարդ %2$s խմբում</item>
+        <item quantity="one">%1$d անձ %2$s խմբում</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d մարդ</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d ձայնային նամակ</item>
+        <item quantity="one">Ձայնային փոստ</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d կոնտակտ պատճենված է:</item>
+        <item quantity="one">%d կոնտակտ պատճենված է:</item>
+    </plurals>
+</resources>

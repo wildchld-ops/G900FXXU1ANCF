@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s konverzací</item>
+        <item quantity="one">1 konverzace</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s zpráv</item>
+        <item quantity="one">1 zpráva</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d konverzací</item>
+        <item quantity="one">%d konverzace</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s a %2$d dalších</item>
+        <item quantity="one">%s a 1 další</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s a %2$d dalších</item>
+        <item quantity="one">%s a 1 další</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">Zprávy byly odstraněny ze SIM karty.</item>
+        <item quantity="one">Zpráva byla odstraněna ze SIM karty.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">Zprávy byly zkopírovány ze SIM karty.</item>
+        <item quantity="one">Zpráva byla zkopírována ze SIM karty.</item>
+    </plurals>
+</resources>

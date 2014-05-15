@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Activat întotdeauna</item>
+        <item>La cerere</item>
+        <item>Dezactivate</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Pagină implicită</item>
+        <item>Pagină actuală</item>
+        <item>Acces rapid</item>
+        <item>Site-urile cele mai vizitate</item>
+        <item>Alte</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Dispozitiv</item>
+        <item>Cartelă SD</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Chineză (GBK)</item>
+        <item>Chineză (Big5)</item>
+        <item>Japoneză (ISO-2022-JP)</item>
+        <item>Japoneză (DEPLASARE JIS)</item>
+        <item>Japoneză (EUC-JP)</item>
+        <item>Coreeană (EUC-KR)</item>
+        <item>Detectare automată</item>
+    </string-array>
+</resources>

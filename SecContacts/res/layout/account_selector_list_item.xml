@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_popup_row_one_line_height" android:paddingStart="@dimen/popup_horizontal_padding" android:paddingEnd="@dimen/popup_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@*android:id/icon" android:layout_width="@dimen/editor_account_header_icon_size" android:layout_height="@dimen/editor_account_header_icon_size" android:layout_marginEnd="@dimen/editor_account_header_spinner_left_padding" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/primary_text_color" android:id="@*android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/EditorDropDownListText" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/secondary_text_color" android:id="@*android:id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/EditorDropDownListText" />
+    </LinearLayout>
+</LinearLayout>

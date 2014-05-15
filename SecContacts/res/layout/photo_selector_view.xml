@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:cp="http://schemas.android.com/apk/res/com.android.contacts">
+    <com.samsung.contacts.widget.ContactPhotoView android:id="@id/photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_centerInParent="true" cp:framePositionTop="@dimen/detail_photo_selector_view_framePositionTop" />
+    <ViewStub android:id="@id/default_photo" android:visibility="gone" android:layout="@layout/default_photo_view" android:layout_width="@dimen/detail_default_photo_size" android:layout_height="@dimen/detail_default_photo_size" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <View android:layout_gravity="center_horizontal" android:id="@id/photo_touch_intercept_overlay" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/detail_photo_selector_view_textside_side_padding" android:paddingRight="@dimen/detail_photo_selector_view_textside_side_padding" android:paddingBottom="@dimen/detail_photo_selector_view_textside_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.samsung.contacts.widget.StrokeTextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:importantForAccessibility="no" style="@style/detail_display_name_text" />
+        <View android:id="@id/name_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/detail_name_empty_view_height" />
+        <com.samsung.contacts.widget.StrokeTextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/company" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:importantForAccessibility="no" style="@style/detail_company_text" />
+    </LinearLayout>
+    <ImageView android:gravity="bottom" android:id="@id/no_sync_icon" android:visibility="gone" android:layout_width="@dimen/detail_no_sync_icon_size" android:layout_height="@dimen/detail_no_sync_icon_size" android:src="@drawable/no_sync" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

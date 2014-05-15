@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/message_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/grid_contact_photo" android:layout_width="@dimen/photo_width" android:layout_height="@dimen/photo_height" android:layout_marginLeft="@dimen/widget_favorites_photo_margin_left" android:layout_marginTop="@dimen/widget_favorites_photo_margin_top" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/widget_favorites_info_margin_left" android:layout_marginTop="@dimen/widget_favorites_info_margin_top" android:layout_marginRight="@dimen/widget_favorites_info_margin_right" android:layout_marginBottom="@dimen/widget_favorites_info_margin_bottom">
+        <TextView android:textSize="@dimen/contact_name_text_size" android:textColor="#ff000000" android:id="@id/contact_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/subject_text_size" android:textColor="#ff444444" android:ellipsize="end" android:id="@id/subject" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/widget_favorites_subject_min_height" android:maxLines="3" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/date_text_size" android:textColor="#ffa9a9a9" android:id="@id/date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_favorites_date_margin_top" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

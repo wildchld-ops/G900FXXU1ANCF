@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_engines">
+        <item>google</item>
+        <item>yahoo_tw</item>
+        <item>bing_zh_TW</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>一律開啟</item>
+        <item>按照需要</item>
+        <item>關閉</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>預設頁面</item>
+        <item>目前頁面</item>
+        <item>快速存取</item>
+        <item>訪客最多的網站</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>裝置</item>
+        <item>SD 卡</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>中文(GBK)</item>
+        <item>中文(Big5)</item>
+        <item>日文 (ISO-2022-JP)</item>
+        <item>日文 (SHIFT JIS)</item>
+        <item>日文 (EUC-JP)</item>
+        <item>韓文（EUC - KR）</item>
+        <item>自動偵測</item>
+    </string-array>
+</resources>

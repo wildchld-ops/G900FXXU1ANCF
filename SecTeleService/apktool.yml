@@ -1,0 +1,14 @@
+version: 1.5.2
+apkFileName: SecTeleService.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  - 2
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '19'
+packageInfo:
+  cur_package: android
+  orig_package: com.android.phone
+compressionType: false

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Her zaman açık</item>
+        <item>İstek üzerine</item>
+        <item>Kapalı</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Varsayılan sayfa</item>
+        <item>Geçerli sayfa</item>
+        <item>Hızlı erişim</item>
+        <item>En çok ziyaret edilen siteler</item>
+        <item>Diğer</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Cihaz</item>
+        <item>SD kart</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Çince (GBK)</item>
+        <item>Çince (Big5)</item>
+        <item>Japonca (ISO-2022-JP)</item>
+        <item>Japonca (SHIFT JIS)</item>
+        <item>Japonca (EUC-JP)</item>
+        <item>Korece (EUC-KR)</item>
+        <item>Otomatik algıla</item>
+    </string-array>
+</resources>

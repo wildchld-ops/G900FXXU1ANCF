@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dialpad" android:layout_width="@dimen/dialpad_layout_width" android:layout_height="@dimen/dialpad_layout_height" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/one" layout="@layout/dialpad_image_key" style="@style/DialpadFirstButtonStyle" />
+    <include android:id="@id/two" android:layout_toRightOf="@id/one" android:layout_alignBottom="@id/one" layout="@layout/dialpad_key" style="@style/DialpadSecondButtonStyle" />
+    <include android:id="@id/three" android:layout_toRightOf="@id/two" android:layout_alignBottom="@id/two" layout="@layout/dialpad_key" style="@style/DialpadThirdButtonStyle" />
+    <include android:id="@id/four" android:layout_below="@id/one" layout="@layout/dialpad_key" style="@style/DialpadFirstButtonStyle" />
+    <include android:id="@id/five" android:layout_toRightOf="@id/four" android:layout_alignBottom="@id/four" layout="@layout/dialpad_key" style="@style/DialpadSecondButtonStyle" />
+    <include android:id="@id/six" android:layout_toRightOf="@id/five" android:layout_alignBottom="@id/five" layout="@layout/dialpad_key" style="@style/DialpadThirdButtonStyle" />
+    <include android:id="@id/seven" android:layout_below="@id/four" layout="@layout/dialpad_key" style="@style/DialpadFirstButtonStyle" />
+    <include android:id="@id/eight" android:layout_toRightOf="@id/seven" android:layout_alignBottom="@id/seven" layout="@layout/dialpad_key" style="@style/DialpadSecondButtonStyle" />
+    <include android:id="@id/nine" android:layout_toRightOf="@id/eight" android:layout_alignBottom="@id/eight" layout="@layout/dialpad_key" style="@style/DialpadThirdButtonStyle" />
+    <include android:id="@id/star" android:layout_below="@id/seven" layout="@layout/dialpad_key" style="@style/DialpadFirstButtonStyle" />
+    <include android:id="@id/zero" android:layout_toRightOf="@id/star" android:layout_alignBottom="@id/star" layout="@layout/dialpad_key" style="@style/DialpadSecondButtonStyle" />
+    <include android:id="@id/pound" android:layout_toRightOf="@id/zero" android:layout_alignBottom="@id/zero" layout="@layout/dialpad_image_key" style="@style/DialpadThirdButtonStyle" />
+</RelativeLayout>

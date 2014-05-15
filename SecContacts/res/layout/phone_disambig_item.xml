@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="@dimen/favorite_popup_mark_text_padding" android:paddingEnd="@dimen/favorite_popup_mark_text_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/quick_contact_secondary_text_size" android:textColor="@color/secondary_text_color" android:ellipsize="end" android:id="@*android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <TextView android:textSize="@dimen/quick_contact_primary_text_size" android:textColor="@color/primary_text_color" android:ellipsize="marquee" android:id="@*android:id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+</LinearLayout>

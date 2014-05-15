@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/horz_title_bar" android:background="@color/default_folder_path" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/sbrowser_bookmark_folder_scroll_view_height">
+        <HorizontalScrollView android:id="@id/path_indicator" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/path_indicator_rel_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </HorizontalScrollView>
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.sec.android.touchwiz.widget.TwDndGridView android:id="@id/reorder_bookmark_grid" android:paddingLeft="@dimen/sbrowser_bookmark_grid_view_margin_left" android:paddingTop="@dimen/sbrowser_bookmark_grid_view_margin_top" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="@dimen/sbrowser_bookmark_thumbnail_horizontal_spacing" android:verticalSpacing="@dimen/sbrowser_bookmark_thumbnail_vertical_spacing" android:stretchMode="none" android:columnWidth="@dimen/sbrowser_bookmark_grid_item_width" android:numColumns="3" />
+        <com.sec.android.touchwiz.widget.TwDndListView android:id="@id/reorder_bookmark_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:dividerHeight="@dimen/sbrowser_bookmark_listview_divider_height" android:smoothScrollbar="true" />
+    </FrameLayout>
+</LinearLayout>

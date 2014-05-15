@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mobile_data_enable_toast_text">Unable to connect to mobile networks while Airplane mode is enabled. Disable Airplane mode and try again</string>
+</resources>

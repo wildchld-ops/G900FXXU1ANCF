@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="index_string_array">
+        <item>অআইঈউঊঋএঐওঔকখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযৰলৱশষসহকষ</item>
+        <item>ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
+    </string-array>
+    <string-array name="interaction_selecter_spinner">
+        <item>%d টা চয়নিত</item>
+        <item>সকলো চয়ন কৰক</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>সংগঠন</item>
+        <item>টোকা</item>
+    </string-array>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>সদায় অন</item>
+        <item>ডিমাণ্ডত</item>
+        <item>অফ</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>"ডিফ'ল্ট পৃষ্ঠা"</item>
+        <item>সাম্প্ৰতিক পৃষ্ঠা</item>
+        <item>দ্ৰুত প্ৰৱেশ</item>
+        <item>অধিক দৰ্শন কৰা চাইট</item>
+        <item>অন্য</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>ডিভাইচ</item>
+        <item>SD কাৰ্ড</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>লেটিন-1 (ISO-8859-1)</item>
+        <item>"ইউনিক'ড (UTF-8)"</item>
+        <item>চীনা (GBK)</item>
+        <item>চীনা (ডাঙৰ5)</item>
+        <item>জাপানিচ (ISO-2022-JP)</item>
+        <item>জাপানিচ (SHIFT JIS)</item>
+        <item>জাপানী (EUC-JP)</item>
+        <item>কোৰিয়ান (EUC-KR)</item>
+        <item>স্বয়ং-চিনাক্ত</item>
+    </string-array>
+</resources>

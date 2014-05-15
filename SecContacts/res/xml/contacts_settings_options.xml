@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.contacts.preference.ImportExportPreference android:title="@string/menu_import_export" android:key="import" />
+    <com.samsung.contacts.preference.ContactsToDisplayPreference android:title="@string/menu_contacts_filter" android:key="contactsToDisplay" />
+    <com.samsung.contacts.preference.SwipeToCallOrMessagePreference android:title="@string/swipe_to_call_or_message" android:key="enable_sweep_actions" android:defaultValue="true" android:titleContentDescription="@string/swipe_to_call_or_message_tts" />
+    <com.samsung.contacts.preference.OnlyContactsWithPhonesPreference android:title="@string/showFilterPhones" android:key="only_phones" android:summary="@string/showFilterPhonesDescrip" android:titleContentDescription="@string/showFilterPhones_tts" />
+    <com.android.contacts.preference.SortOrderPreference android:title="@string/display_options_sort_list_by" android:key="sortOrder" android:dialogTitle="@string/display_options_sort_list_by" />
+    <com.android.contacts.preference.DisplayOrderPreference android:title="@string/display_options_view_names_as" android:key="displayOrder" android:dialogTitle="@string/display_options_view_names_as" />
+    <Preference android:title="@string/service_numbers" android:key="serviceNumbers" android:fragment="com.samsung.contacts.preference.ServiceNumbersFragment" />
+    <Preference android:title="@string/send_contact" android:key="sendContact" android:summary="@string/send_all_namecards" android:fragment="com.samsung.contacts.preference.SendContactOptionFragment" />
+    <com.samsung.contacts.preference.OnlineSearchPreference android:title="@string/online_search" android:key="onlineSearch" />
+    <com.samsung.contacts.preference.AccountsPreference android:title="@string/menu_accounts" android:key="account" />
+</PreferenceScreen>

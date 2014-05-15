@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">"S'estan mostrant %d contactes"</item>
+        <item quantity="one">Mostrant 1 contacte</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">Es mostren %d contactes amb números de telèfon</item>
+        <item quantity="one">Es mostra 1 contacte amb número de telèfon</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d contactes amb número de telèfon</item>
+        <item quantity="one">1 contacte amb número de telèfon</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d contactes</item>
+        <item quantity="one">1 contacte</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">"S'han trobat %d"</item>
+        <item quantity="one">1 trobat</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">"S'han trobat %d"</item>
+        <item quantity="one">1 trobat</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">combinat de %0$d fonts</item>
+        <item quantity="one">no combinat</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">Grups %0$d</item>
+        <item quantity="one">1 grup</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d persones al grup %2$s</item>
+        <item quantity="one">%1$d persona al grup %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d person</item>
+        <item quantity="one">%1$d persones</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d missatges de veu</item>
+        <item quantity="one">Bústia de veu</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d contactes copiats</item>
+        <item quantity="one">%d contacte copiat</item>
+    </plurals>
+</resources>

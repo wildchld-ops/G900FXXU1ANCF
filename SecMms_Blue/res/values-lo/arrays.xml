@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_names">
+        <item>ດີໃຈ</item>
+        <item>​ເສົ້າ</item>
+        <item>ກະພິບ</item>
+        <item>ແລບລີ້ນ</item>
+        <item>ແປກໃຈ</item>
+        <item>ຈູບ</item>
+        <item>ໂຫ່ຮ້ອງ</item>
+        <item>ດີຫຼາຍ</item>
+        <item>ປາກເງິນ</item>
+        <item>ຕີນຢູ່ໃນປາກ</item>
+        <item>ເຂີນອາຍ</item>
+        <item>ນາງຟ້າ</item>
+        <item>ຍັງບໍ່ໄດ້ຕັດສິນໃຈ</item>
+        <item>ຮ້ອງໄຫ້</item>
+        <item>ຮູດຊິບປາກ</item>
+        <item>ຫົວຂວັນ</item>
+        <item>ສັບສົນ</item>
+        <item>ຫົວໃຈ</item>
+        <item>ເປັນບ້າ</item>
+        <item>ການເຢາະເຢີ້ຍ</item>
+        <item>ໜ້າໃບໄພ້ໂປກເກີ</item>
+    </string-array>
+    <string-array name="pref_entries_font_size">
+        <item>ໃຊ້ຂະໜາດຮູບແບບຕົວໜັງສືເຄື່ອງ</item>
+        <item>ຈ່ອຍ</item>
+        <item>ນ້ອຍ</item>
+        <item>ປົກກະຕິ</item>
+        <item>ກວ້າງ</item>
+        <item>ໃຫຍ່</item>
+    </string-array>
+    <string-array name="pref_entries_font_size_7_step">
+        <item>ໃຊ້ຂະໜາດຮູບແບບຕົວໜັງສືເຄື່ອງ</item>
+        <item>ຈ່ອຍ</item>
+        <item>ນ້ອຍສຸດໆ</item>
+        <item>ນ້ອຍ</item>
+        <item>ປານກາງ</item>
+        <item>ໃຫຍ່</item>
+        <item>ໃຫຍ່ພິເສດ</item>
+        <item>ໃຫຍ່ມະຫຶມາ</item>
+    </string-array>
+    <string-array name="pref_entries_cb_selection">
+        <item>ທຸກຊ່ອງ</item>
+        <item>ຊ່ອງຂອງຂ້ອຍ</item>
+    </string-array>
+    <string-array name="pref_entries_sms_input_mode">
+        <item>ລຳດັບ​ຕາມ​ຕົວ​ອັກສອນ​ GSM</item>
+        <item>ຢູນີໂຄດ</item>
+        <item>ອັດຕະໂນມັດ</item>
+    </string-array>
+    <string-array name="pref_entries_sms_expiry_date">
+        <item>0 ວັນ</item>
+        <item>1 ວັນ</item>
+        <item>2 ວັນ</item>
+        <item>3 ວັນ</item>
+    </string-array>
+    <string-array name="pref_entries_mms_creation_mode">
+        <item>ຈຳກັດ</item>
+        <item>ເຕືອນ</item>
+        <item>ຟຣີ</item>
+    </string-array>
+    <string-array name="pref_entries_service_loading_action">
+        <item>ທຸກຄັ້ງ</item>
+        <item>​ເຕືອນ</item>
+        <item>ບໍ່</item>
+    </string-array>
+    <string-array name="pref_entries_bubble_style">
+        <item>ອໍຣິກາມິ</item>
+        <item>ກາໝາຍ</item>
+        <item>ເພງປັອບ</item>
+        <item>ໂມເດີນ</item>
+        <item>ສີບົວ</item>
+        <item>ມາດຕະຖານ</item>
+    </string-array>
+    <string-array name="sms_roam_guard">
+        <item>ສົ່ງອັດຕະໂນມັດ ເມື່ອຢູ່ໃນບ່ອນມີສັນຍານພາຍໃນປະເທດ</item>
+        <item>ສົ່ງດຽວນີ້</item>
+        <item>ບັນທຶກເປັນຂໍ້ຄວາມຮ່າງ</item>
+    </string-array>
+    <string-array name="msg_reminder_alert_Array">
+        <item>ຄັ້ງໜຶ່ງ</item>
+        <item>ທຸກໆ 2 ນາທີ</item>
+        <item>ທຸກໆ 15 ນາທີ</item>
+        <item>ມອດ</item>
+    </string-array>
+    <string-array name="msg_repetition_alert_Array">
+        <item>ບໍ່</item>
+        <item>ທຸກໆ 2 ນາທີ</item>
+        <item>ທຸກໆ​ 10 ນາທີ</item>
+    </string-array>
+    <string-array name="select_ua_item">
+        <item>GT-I5700</item>
+        <item>GT-I9000</item>
+        <item>SGH-U900</item>
+        <item>SCH-I510</item>
+        <item>SGH-T989</item>
+        <item>SGH-I727</item>
+    </string-array>
+    <string-array name="select_vzw_test_mode_item">
+        <item>commercial</item>
+        <item>lab</item>
+        <item>ພາຍໃນ</item>
+    </string-array>
+    <string-array name="expiry_date_entries">
+        <item>1 ຊົ່ວໂມງ</item>
+        <item>6 ຊົ່ວໂມງ</item>
+        <item>24 ຊົ່ວໂມງ</item>
+        <item>2 ວັນ</item>
+        <item>ຄ່າມາດຕະຖານເຄືອຂ່າຍ</item>
+        <item>ສູງສຸດ</item>
+    </string-array>
+    <string-array name="expiry_date_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mms_priority_entries">
+        <item>ສູງ</item>
+        <item>ປົກກະຕິ</item>
+        <item>ໍຕໍ່າ</item>
+    </string-array>
+    <string-array name="mms_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="delivery_time_entries">
+        <item>ທັນທີ</item>
+        <item>1 ຊົ່ວໂມງ</item>
+        <item>6 ຊົ່ວໂມງ</item>
+        <item>24 ຊົ່ວໂມງ</item>
+        <item>1 ອາທິດ</item>
+    </string-array>
+    <string-array name="delivery_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msg_delay_alert_Array">
+        <item>3 ວິນາທີ</item>
+        <item>5 ວິນາທີ</item>
+        <item>10 ວິນາທີ</item>
+        <item>20 ວິນາທີ</item>
+        <item>30 ວິນາທີ</item>
+    </string-array>
+    <string-array name="pref_entries_spam_option">
+        <item>ມອດ</item>
+        <item>ບລັອກທຸກຂໍ້ຄວາມ</item>
+        <item>ບລັອກໝາຍເລກ ແລະວະລີທີ່ໄດ້ລົງທະບຽນແລ້ວ</item>
+    </string-array>
+    <string-array name="pref_entries_spam_match_criteria">
+        <item>​ເປັນ​ແບບ​ດຽວ​ກັນ​ກັບ</item>
+        <item>ເລີ່ມຕົ້ນດ້ວຍ</item>
+        <item>ຈົບລົງດ້ວຍ</item>
+        <item>ລວມມີ</item>
+    </string-array>
+    <string-array name="spam_alert">
+        <item>ບັນທຶກຫຼ້າສຸດ</item>
+        <item>ບັນດາຜູ້ຕິດຕໍ່</item>
+    </string-array>
+    <string-array name="block_number_setting_items">
+        <item>ບລັອກຂໍ້ຄວາມ</item>
+        <item>ບລັອກການໂທ</item>
+    </string-array>
+    <string-array name="block_number_setting_items_with_videocall">
+        <item>ບລັອກຂໍ້ຄວາມ</item>
+        <item>ບລັອກການໂທດ້ວຍສຽງ</item>
+        <item>ບລັອກການໂທດ້ວຍສຽງ</item>
+    </string-array>
+    <string-array name="error_codes">
+        <item>Addr.Vcnt.</item>
+        <item>Addr.Trns.</item>
+        <item>Ntwk.Res.</item>
+        <item>Ntwk.Fail.</item>
+        <item>Invld.T.ID</item>
+        <item>Othr.Ntwk.</item>
+        <item>Othr.Fst.</item>
+        <item>Othr.Lst.</item>
+        <item>NoPg.Res.</item>
+        <item>Dst.Busy</item>
+        <item>NoAck.</item>
+        <item>Dst.Rs.Sht</item>
+        <item>SMS Dlv.Pp</item>
+        <item>Dest.NoLng</item>
+        <item>Dest.NoLng</item>
+        <item>OthrT.Prbl</item>
+        <item>OthrT.Fst</item>
+        <item>OthrT.Lst</item>
+        <item>SMS Dlv.Ft</item>
+        <item>SMS Dlv.Lt</item>
+        <item>Rdo.IF.R.S</item>
+        <item>Rdo.IF.Inc</item>
+        <item>Othr.Rdo.I</item>
+        <item>Othr.Rdo.F</item>
+        <item>Othr.Rdo.L</item>
+        <item>Encd.Prbl.</item>
+        <item>SMS Org.D.</item>
+        <item>SMS Trm.D.</item>
+        <item>Suppl.Svc.</item>
+        <item>SMS No.Spt</item>
+        <item>ແບັກອັບແລ້ວ</item>
+        <item>Mss.Expt.P</item>
+        <item>Mss.Mndtry</item>
+        <item>Unrcgnzd.P</item>
+        <item>Unexpctd.P</item>
+        <item>Usr.Dr.S.E</item>
+        <item>Othr.Gnr.P</item>
+        <item>Other.Gnr.F</item>
+        <item>Other.Gnr.L</item>
+        <item>OK or Msg Dlvd.</item>
+        <item>Wait TLAck</item>
+        <item>Outof Rsc.</item>
+        <item>Accss.Lrg.</item>
+        <item>DRC Lrg.</item>
+        <item>Ntwk.NoRdy</item>
+        <item>Phon.NoRdy</item>
+        <item>Nt.Allwd.A</item>
+        <item>Nt.Spprtd</item>
+        <item>Invld.Trnx.</item>
+        <item>Msg.No.Snt</item>
+        <item>MsgBgn.Snt</item>
+    </string-array>
+    <string-array name="priority_array">
+        <item>ປົກກະຕິ</item>
+        <item>ສູງ</item>
+    </string-array>
+    <string-array name="templates">
+        <item>ຂໍອະໄພ, ຂ້ອຍບໍ່ໄດ້ຮັບສາຍເຈົ້າ.</item>
+        <item>ຂ້ອຍມາຊ້າ, ແຕ່ຂ້ອຍຈະໄປຮອດທີ່ນັ້ນພາຍໃນບໍ່ເທົ່າໃດນາທີນີ້ລະ.</item>
+        <item>ມັນເປັນໄປແນວໃດ?</item>
+        <item>ເກີດອັນໃດຂຶ້ນ?</item>
+        <item>ເຈົ້າຢູ່ໃສ?</item>
+        <item>ເມື່ອເຈົ້າໄດ້ຂໍ້ຄວາມນີ້ແລ້ວ ກະລຸນາໂທກັບຫາຂ້ອຍແດ່.</item>
+        <item>ພວກເຮົາສາມາດປະຊຸມກັນໄດ້ເມື່ອໃດ?</item>
+        <item>ຂ້ອຍຈະລົມກັບເຈົ້າໃນໄວໆນີ້ລະ.</item>
+        <item>ກອງປະຊຸມຢູ່ໃສ?</item>
+        <item>ໝາຍເລກເທົ່າໃດ?</item>
+    </string-array>
+    <string-array name="translate_lang">
+        <item>ພາສາປັອກຕຸຍການເບຣຊິນ</item>
+        <item>ອັງກິດ (UK)</item>
+        <item>ອັງກິດ (US)</item>
+        <item>ພາສາຝຣັ່ງ</item>
+        <item>ພາສາເຢຍລະມັນ</item>
+        <item>ພາສາອີຕາລີ</item>
+        <item>ພາສາຍີປຸ່ນ</item>
+        <item>ພາສາເກົາຫຼີ</item>
+        <item>ພາສາຈີນສະໄໝໃໝ່</item>
+        <item>ພາສາຣັດເຊຍ</item>
+        <item>ພາສາສະເປນ</item>
+    </string-array>
+    <string-array name="pref_entries_widget_font_size">
+        <item>ຈ່ອຍ</item>
+        <item>ນ້ອຍ</item>
+        <item>ປົກກະຕິ</item>
+        <item>ກວ້າງ</item>
+    </string-array>
+    <string-array name="search_type_spinner_labels">
+        <item>ທັງໝົດ</item>
+        <item>ຜູ້ສົ່ງ</item>
+        <item>ເນື້ອໃນ</item>
+    </string-array>
+</resources>

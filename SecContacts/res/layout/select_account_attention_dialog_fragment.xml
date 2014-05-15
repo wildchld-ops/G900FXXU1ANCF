@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/contact_tips_layout" android:paddingTop="@dimen/popup_vertical_paddingTop" android:paddingBottom="@dimen/popup_vertical_paddingBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/popup_horizontal_padding" android:paddingEnd="@dimen/popup_horizontal_padding">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/do_not_show_again_check_box_text_size" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/confirm_send_title" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/do_not_show_again_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/do_not_show_again_container_margin_top">
+            <com.sec.android.touchwiz.widget.TwCheckBox android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/do_not_show_again_check_box_text_size" android:id="@id/do_not_show_again_check_box" android:paddingLeft="@dimen/do_not_show_again_check_box_padding_left" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_tips_naver_show_again" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

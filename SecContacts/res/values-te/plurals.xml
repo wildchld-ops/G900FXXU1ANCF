@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">%d పరిచయాలు ప్రదర్శించుతుంది</item>
+        <item quantity="one">1 పరిచయంను ప్రదర్శించుతుంది</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">ఫోన్ నంబర్ల తో %d పరిచయాలను ప్రదర్శించుతుంది</item>
+        <item quantity="one">ఫోన్‌ నంబర్ తో 1 పరిచయంను ప్రదర్శించుతుంది</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">ఫోన్ నంబర్లతో %d పరిచయాలు</item>
+        <item quantity="one">ఫోన్‌ నంబర్ తో 1 పరిచయం</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d పరిచయాలు</item>
+        <item quantity="one">1 పరిచయం</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">%d దొరకలేదు</item>
+        <item quantity="one">1 దొరకలేదు</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d దొరకలేదు</item>
+        <item quantity="one">1 దొరకలేదు</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d సమూహాలు</item>
+        <item quantity="one">1 సమూహం</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">సమూహం %2$s లో %1$d వ్యక్తులు</item>
+        <item quantity="one">సమూహం %2$s లో %1$d వ్యక్తి</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d వ్యక్తులు</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d వాయిస్‌మెయిళ్ళు</item>
+        <item quantity="one">వాయిస్‌మెయిల్</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d పరిచయాలు కాపీ చేయబడ్డాయి.</item>
+        <item quantity="one">%d పరిచయం కాపీ అయ్యింది.</item>
+    </plurals>
+</resources>

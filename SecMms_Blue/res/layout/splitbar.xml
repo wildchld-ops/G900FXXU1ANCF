@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/splitbar" android:layout_width="@dimen/splitbar_width" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="left" android:id="@id/splitbar_screen" android:background="@drawable/tw_split_holo" android:layout_width="@dimen/splitbar_screen" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="right" android:id="@id/splitshadow" android:background="@drawable/tw_list_shadow_holo_light" android:layout_width="@dimen/splitbar_screen" android:layout_height="fill_parent" />
+</LinearLayout>

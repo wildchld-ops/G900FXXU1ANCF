@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="threads_results_title">
+        <item quantity="other">%1$s sarunas</item>
+        <item quantity="one">1 saruna</item>
+    </plurals>
+    <plurals name="message_results_title">
+        <item quantity="other">%1$s ziņas</item>
+        <item quantity="one">1 message</item>
+    </plurals>
+    <plurals name="Conversation_count">
+        <item quantity="other">%d sarunas</item>
+        <item quantity="one">%d saruna</item>
+    </plurals>
+    <plurals name="recipient_more">
+        <item quantity="other">%1$s un vēl %2$d</item>
+        <item quantity="one">%s un vēl 1</item>
+    </plurals>
+    <plurals name="attachment_more">
+        <item quantity="other">%1$s un vēl %2$d</item>
+        <item quantity="one">%s un vēl 1</item>
+    </plurals>
+    <plurals name="sim_delete_completed">
+        <item quantity="other">No SIM kartes izdzēstās ziņas.</item>
+        <item quantity="one">Ziņa izdzēsta no SIM kartes.</item>
+    </plurals>
+    <plurals name="sim_copy_to_phone_completed">
+        <item quantity="other">No SIM kartes kopētas ziņas.</item>
+        <item quantity="one">Ziņa nokopēta no SIM kartes.</item>
+    </plurals>
+</resources>

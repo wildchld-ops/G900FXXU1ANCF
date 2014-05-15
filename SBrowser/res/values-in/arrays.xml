@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Selalu aktif</item>
+        <item>Sesuai permintaan</item>
+        <item>Nonaktif</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Halaman default</item>
+        <item>Halaman aktif</item>
+        <item>Akses cepat</item>
+        <item>Situs yang paling sering dikunjungi</item>
+        <item>Lain</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Perangkat</item>
+        <item>Kartu SD</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Bahasa China (GBK)</item>
+        <item>Bahasa China (Big5)</item>
+        <item>Jepang (ISO-2022-JP)</item>
+        <item>Jepang (SHIFT JIS)</item>
+        <item>Jepang (EUC-JP)</item>
+        <item>Korea (EUC-KR)</item>
+        <item>Deteksi otomatis</item>
+    </string-array>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listNumberOfTotalContacts">
+        <item quantity="other">%d kontakti kuvamine</item>
+        <item quantity="one">Kuvatakse 1 kontakt</item>
+    </plurals>
+    <plurals name="listNumberOfTotalPhoneContacts">
+        <item quantity="other">Kuvatakse %d kontakti koos telefoninumbriga</item>
+        <item quantity="one">Kuvatakse 1 kontakt koos telefoninumbriga</item>
+    </plurals>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d kontakti on telefoninumbriga</item>
+        <item quantity="one">1 kontakt on telefoninumbriga</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d kontakti</item>
+        <item quantity="one">1 kontakt</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Leiti %d</item>
+        <item quantity="one">Leiti 1</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Leiti %d</item>
+        <item quantity="one">Leiti 1</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">ühendati %0$d allikast</item>
+        <item quantity="one">pole liidetud</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d rühma</item>
+        <item quantity="one">1 rühm</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d isikut rühmas %2$s</item>
+        <item quantity="one">%1$d isik rühmas %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%d inimest</item>
+        <item quantity="one">%1$d isik</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%d kõnepostiteadet</item>
+        <item quantity="one">Kõnepost</item>
+    </plurals>
+    <plurals name="copied_N">
+        <item quantity="other">%d kontakti kopeeritud.</item>
+        <item quantity="one">%d kontakt kopeeritud.</item>
+    </plurals>
+</resources>

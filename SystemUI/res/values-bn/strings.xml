@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_date_format_day_month_k">"E
+d MMM"</string>
+    <string name="status_bar_date_format_month_day_k">"E
+MMM d"</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">E, MMM d</string>
+    <string name="abbrev_wday_day_abbrev_month_no_year">E, d MMM</string>
+    <string name="app_label">সিস্টেম UI</string>
+    <string name="status_bar_clear_all_button">পরিষ্কার</string>
+    <string name="status_bar_do_not_disturb_button">বিরক্ত করবেন না</string>
+    <string name="status_bar_please_disturb_button">বিজ্ঞপ্তি প্রদর্শন করুন</string>
+    <string name="status_bar_recent_remove_item_title">তালিকা থেকে অপসারণ করুন</string>
+    <string name="status_bar_recent_inspect_item_title">অ্যাপ্লিকেশন তথ্য</string>
+    <string name="status_bar_no_recent_apps">সাম্প্রতিক কোনও অ্যাপস নেই</string>
+    <string name="status_bar_no_notifications_title">কোনও বিজ্ঞপ্তি নেই</string>
+    <string name="status_bar_ongoing_events_title">চলমান</string>
+    <string name="status_bar_latest_events_title">বিজ্ঞপ্তিগুলি</string>
+    <string name="battery_low_title">চার্জার সংযুক্ত করুন।</string>
+    <string name="battery_low_percent_format">%d%% অবশিষ্ট।</string>
+    <string name="invalid_charger">USB চার্জিং সমর্থিত নয়। প্রদত্ত চার্জারটি ব্যবহার করুন।</string>
+    <string name="battery_low_why">ব্যাটারি ব্যবহার</string>
+    <string name="status_bar_settings_settings_button">সেটিংস</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">বিমান প্রণালী</string>
+    <string name="status_bar_settings_auto_rotation">স্বতঃ ঘূর্ণন স্ক্রিন</string>
+    <string name="status_bar_settings_mute_label">নীরব</string>
+    <string name="status_bar_settings_auto_brightness_label">স্বতঃ</string>
+    <string name="status_bar_settings_notifications">বিজ্ঞপ্তি</string>
+    <string name="bluetooth_tethered">ব্লুটুথ টেথার করা হয়েছে</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">ইনপুট পদ্ধতি সেটআপ</string>
+    <string name="status_bar_use_physical_keyboard">ফিজিকাল কীবোর্ড</string>
+    <string name="usb_device_permission_prompt">%1$s অ্যাপ্লিকেশনকে USB ডিভাইস অ্যাক্সেস করার সম্মতি প্রদান করুন?</string>
+    <string name="usb_accessory_permission_prompt">%1$s অ্যাপ্লিকেশনকে USB উপকরণ অ্যাক্সেস করার সম্মতি প্রদান করুন?</string>
+    <string name="usb_device_confirm_prompt">এই USB ডিভাইসটি সংযুক্ত থাকা অবস্থায় %1$s খুলবেন?</string>
+    <string name="usb_accessory_confirm_prompt">এই USB উপকরণটি সংযুক্ত থাকা অবস্থায় %1$s খুলবেন?</string>
+    <string name="usb_accessory_uri_prompt">এই USB উপকরণটির সঙ্গে ইনস্টল করা কোনও অ্যাপ্লিকেশন কাজ করে না। %s-এ এই আনুষঙ্গিকটির সম্বন্ধে আরও জানুন৷</string>
+    <string name="title_usb_accessory">USB আনুষঙ্গিক</string>
+    <string name="label_view">দেখুন</string>
+    <string name="always_use_device">এই USB ডিভাইসটির জন্য ডিফল্টরূপে ব্যবহার করুন</string>
+    <string name="always_use_accessory">এই USB উপকরণটির জন্য ডিফল্টরূপে ব্যবহার করুন</string>
+    <string name="usb_debugging_title">USB ডিবাগিং-এর সম্মতি প্রদান করবেন?</string>
+    <string name="usb_debugging_message">"PC-র RSA কী ফিঙ্গারপ্রিন্ট:
+%1$s"</string>
+    <string name="usb_debugging_always">সর্বদা এই PCটিকে অনুমতি দিন</string>
+    <string name="compat_mode_on">স্ক্রিন পূরণ করতে জুম করুন</string>
+    <string name="compat_mode_off">স্ক্রিন পূরণ করতে বিস্তৃত করুন</string>
+    <string name="compat_mode_help_header">সুসঙ্গতি জুম</string>
+    <string name="compat_mode_help_body">কোনও অ্যাপ্লিকেশন একটি ক্ষুদ্রতর স্ক্রীনের জন্য ডিজাইন করা হলে, ঘড়ির পাশে একটি জুম নিয়ন্ত্রণ উপস্থাপিত হবে।</string>
+    <string name="screenshot_saving_ticker">স্ক্রিনশট সংরক্ষণ করা হচ্ছে…</string>
+    <string name="screenshot_saving_title">স্ক্রিনশট সংরক্ষণ করা হচ্ছে…</string>
+    <string name="screenshot_saving_text">স্ক্রিনশট সংরক্ষিত হচ্ছে।</string>
+    <string name="screenshot_saved_title">স্ক্রিনশট ক্যাপচার করা হয়েছে</string>
+    <string name="screenshot_saved_text">স্ক্রিনশট দেখতে ট্যাপ করুন।</string>
+    <string name="screenshot_failed_title">স্ক্রিনশট ক্যাপচার করতে অক্ষম।</string>
+    <string name="screenshot_failed_text">স্ক্রিনশট সংরক্ষণ করতে অক্ষম৷ USB স্টোরেজ ব্যবহারে থাকতে পারে৷</string>
+    <string name="screenshot_failed_due_to_drm_text">স্ক্রিন ক্যাপচার করতে অক্ষম৷ DRM সুরক্ষিত ছবি৷</string>
+    <string name="one_item_will_be_deleted">1 আইটেম মোছা হবে।</string>
+    <string name="usb_preference_title">USB ফাইল স্থানান্তরণ বিকল্প</string>
+    <string name="use_mtp_button_title">মিডিয়া প্লেয়াররূপে মাউন্ট করুন (MTP)</string>
+    <string name="use_ptp_button_title">ক্যামেরারূপে মাউন্ট করুন (PTP)</string>
+    <string name="installer_cd_button_title">ম্যাকের অ্যান্ড্রয়েড ফাইল স্থানান্তরণ অ্যাপ্লিকেশন ইনস্টল করুন</string>
+    <string name="accessibility_back">ব্যাক</string>
+    <string name="accessibility_home">হোম</string>
+    <string name="accessibility_menu">মেনু</string>
+    <string name="accessibility_recent">সাম্প্রতিক অ্যাপ্লিকেশন</string>
+    <string name="accessibility_ime_switch_button">ইনপুট পদ্ধতি বোতাম স্যুইচ করুন।</string>
+    <string name="accessibility_compatibility_zoom_button">সামঞ্জস্যের জুম বোতাম</string>
+    <string name="accessibility_compatibility_zoom_example">বড় স্ক্রিনে জুম করুন</string>
+    <string name="accessibility_bluetooth_connected">ব্লুটুথে সংযোগ স্থাপিত হয়েছে</string>
+    <string name="accessibility_bluetooth_disconnected">ব্লুটুথ সংযোগবিচ্ছিন্ন।</string>
+    <string name="accessibility_no_battery">কোনও ব্যাটারি নেই</string>
+    <string name="accessibility_battery_one_bar">ব্যাটারি পাওয়ারের একটি বার</string>
+    <string name="accessibility_battery_two_bars">ব্যাটারি পাওয়ারের দুটি বার</string>
+    <string name="accessibility_battery_three_bars">ব্যাটারি পাওয়ারের তিনটি বার</string>
+    <string name="accessibility_battery_full">ব্যাটারি পূর্ণ।</string>
+    <string name="accessibility_no_phone">ফোন সিগন্যাল নেই</string>
+    <string name="accessibility_phone_one_bar">ফোন সিগন্যালের একটি বার</string>
+    <string name="accessibility_phone_two_bars">ফোন সিগন্যালের দুটি বার</string>
+    <string name="accessibility_phone_three_bars">ফোন সিগন্যালের তিনটি বার</string>
+    <string name="accessibility_phone_signal_full">সম্পূর্ণ ফোন সিগন্যাল</string>
+    <string name="accessibility_no_data">কোনও তথ্য নেই</string>
+    <string name="accessibility_data_one_bar">তথ্য সিগন্যালের একটি বার</string>
+    <string name="accessibility_data_two_bars">তথ্য সিগন্যালের দুটি বার</string>
+    <string name="accessibility_data_three_bars">তথ্য সিগন্যালের তিনটি বার</string>
+    <string name="accessibility_data_four_bars">তথ্য সংকেতের চারটি বার</string>
+    <string name="accessibility_data_five_bars">তথ্য সংকেতের পাঁচটি বার</string>
+    <string name="accessibility_data_signal_full">সম্পূর্ণ তথ্য সিগন্যাল</string>
+    <string name="accessibility_wifi_off">Wi-Fi Off</string>
+    <string name="accessibility_no_wifi">কোনও Wi-Fi সংকেত নেই</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi সিগন্যালের একটি বার</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi সিগন্যালের দুটি বার</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi সিগন্যালের তিনটি বার</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi সিগন্যাল সম্পূর্ণ।</string>
+    <string name="accessibility_no_signal">কোনো সংকেত নেই</string>
+    <string name="accessibility_not_connected">সংযুক্ত নয়।</string>
+    <string name="accessibility_phone_four_bars">ফোন সংকেতের চারটি বার</string>
+    <string name="accessibility_phone_five_bars">ফোন সংকেতের পাঁচটি বার</string>
+    <string name="accessibility_desc_on">চালু</string>
+    <string name="accessibility_desc_off">বন্ধ</string>
+    <string name="accessibility_desc_connected">সংযুক্ত।</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">রোমিং</string>
+    <string name="accessibility_data_connection_edge">এজ</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">কোনও SIM নেই</string>
+    <string name="accessibility_bluetooth_tether">ব্লুটুথ টেথারিং</string>
+    <string name="accessibility_airplane_mode">বিমান প্রণালী</string>
+    <string name="accessibility_battery_level">ব্যাটারি %d শতাংশ আছে।</string>
+    <string name="accessibility_settings_button">সিস্টেম সেটিংস</string>
+    <string name="accessibility_notifications_button">বিজ্ঞপ্তি</string>
+    <string name="accessibility_remove_notification">বিজ্ঞপ্তি সাফাই</string>
+    <string name="accessibility_gps_enabled">GPS চালু</string>
+    <string name="accessibility_gps_acquiring">GPS প্রাপ্ত করা হচ্ছে…</string>
+    <string name="accessibility_tty_enabled">টেলিটাইপরাইটার সক্ষম</string>
+    <string name="accessibility_ringer_vibrate">রিংটোন কম্পন</string>
+    <string name="accessibility_ringer_silent">নীরব রিংটোন</string>
+    <string name="accessibility_desc_quick_settings">দ্রুত সেটিংস</string>
+    <string name="accessibility_desc_recent_apps">সাম্প্রতিক অ্যাপ্লিকেশন</string>
+    <string name="accessibility_quick_settings_alarm">অ্যালার্ম %s-এ সেট করা হয়েছে।</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">দ্রুত সংযোগ</string>
+    <string name="accessibility_qconnect_button_tts">দ্রুত সংযোগ</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G-3G তথ্য নিষ্ক্রিয়</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G তথ্য অক্ষম</string>
+    <string name="data_usage_disabled_dialog_mobile_title">মোবাইল তথ্য অক্ষম</string>
+    <string name="data_usage_disabled_dialog_title">তথ্য অক্ষম</string>
+    <string name="data_usage_disabled_dialog">নির্দিষ্ট তথ্য ব্যবহার সীমায় পৌঁছেছে। অতিরিক্ত তথ্য ব্যবহারের জন্য পরিষেবা প্রদানকারী মূল্য ধার্য করতে পারে৷</string>
+    <string name="data_usage_disabled_dialog_enable">আবার তথ্য সংযোগ সক্ষম করুন</string>
+    <string name="data_usage_enable_mobile_warning">প্যাকেট তথ্যের মাধ্যমে সংযোগ স্থাপন করা হলে অতিরিক্ত খরচ হতে পারে। অবিরত থাকবেন?</string>
+    <string name="data_usage_disable_mobile">মোবাইল তথ্য সংযোগ অক্ষম করবেন?</string>
+    <string name="status_bar_settings_signal_meter_disconnected">কোনও ইন্টারনেট সংযোগ নেই</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi সংযুক্ত।</string>
+    <string name="gps_notification_searching_text">GPS ব্যবহার করে সন্ধান করা হচ্ছে…</string>
+    <string name="gps_notification_found_text">GPS দ্বারা সেট করা অবস্থান</string>
+    <string name="accessibility_clear_all">সব বিজ্ঞপ্তি পরিষ্কার করুন</string>
+    <string name="status_bar_notification_inspect_item_title">অ্যাপ্লিকেশন তথ্য</string>
+    <string name="close_universe">বন্ধ</string>
+    <string name="notifications_off_title">বিজ্ঞপ্তি অক্ষম আছে</string>
+    <string name="notifications_off_text">বিজ্ঞপ্তি সক্ষম করতে ট্যাপ করুন।</string>
+    <string name="accessibility_rotation_lock_off">স্ক্রিন স্বয়ংক্রিয়ভাবে ঘোরান হবে।</string>
+    <string name="start_dreams">স্ক্রিনসেভার</string>
+    <string name="ethernet_label">ইথারনেট</string>
+    <string name="quick_settings_battery_charged_label">চার্জ পূর্ণ।</string>
+    <string name="quick_settings_bluetooth_label">ব্লুটুথ</string>
+    <string name="quick_settings_bluetooth_off_label">ব্লুটুথ বন্ধ।</string>
+    <string name="quick_settings_brightness_label">উজ্জ্বলতা</string>
+    <string name="quick_settings_ime_label">ইনপুট প্রণালী</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">শুধুমাত্র জরুরী কল।</string>
+    <string name="quick_settings_settings_label">সেটিংস</string>
+    <string name="quick_settings_time_label">সময়</string>
+    <string name="quick_settings_user_label">আমি</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">সংযুক্ত নয়।</string>
+    <string name="quick_settings_wifi_no_network">কোনো নেটওয়ার্ক নেই</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi Off</string>
+    <string name="quick_settings_wifi_display_label">"Wi-Fi
+প্রদর্শন"</string>
+    <string name="quick_settings_brightness_dialog_title">উজ্জ্বলতা</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">স্বতঃ</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">ব্লুটুথ</string>
+    <string name="quickpanel_gps_text">অবস্থান</string>
+    <string name="quickpanel_silent_mode_text">"নীরব
+মোড"</string>
+    <string name="quickpanel_silent_mode_sound">ধ্বনি</string>
+    <string name="quickpanel_silent_mode_vibrate">কম্পন</string>
+    <string name="quickpanel_silent_mode_mute">নীরব</string>
+    <string name="quickpanel_rotation_text">"স্ক্রিন
+ঘূর্ণন"</string>
+    <string name="quickpanel_mobile_data_text">"মোবাইল
+তথ্য"</string>
+    <string name="quickpanel_dormant_mode_text">"অবরোধ করার
+মোড"</string>
+    <string name="quickpanel_notification_text">বিজ্ঞপ্তি</string>
+    <string name="quickpanel_airplane_mode_text">"বিমান
+মোড"</string>
+    <string name="quickpanel_sync_text">সিঙ্ক</string>
+    <string name="quickpanel_power_saving_text">"শক্তি
+সাশ্রয়"</string>
+    <string name="quickpanel_ultra_power_saving_text">"U. পাওয়ার
+সাশ্রয়"</string>
+    <string name="quickpanel_driving_mode_text">"হ্যান্ডস-ফ্রি
+মোড"</string>
+    <string name="quickpanel_smart_stay_text">"স্মার্ট
+স্টে"</string>
+    <string name="quickpanel_smart_scroll_text">"স্মার্ট
+স্ক্রোল"</string>
+    <string name="quickpanel_smart_pause_text">"স্মার্ট
+পজ"</string>
+    <string name="quickpanel_smart_network_text">"স্মার্ট
+নেটওয়ার্ক"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_wifi_hotspot_text">"Wi-Fi
+হটস্পট"</string>
+    <string name="quickpanel_multiwindow_text">"মাল্টি
+উইন্ডো"</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_brightness_text">উজ্জ্বলতা</string>
+    <string name="quickpanel_airview_text">"এয়ার
+ভিউ"</string>
+    <string name="quickpanel_airgesture_text">"এয়ার
+জেশ্চার"</string>
+    <string name="quickpanel_ebook_text">"পঠন
+মোড"</string>
+    <string name="quickpanel_personal_mode_text">"ব্যক্তিগত
+মোড"</string>
+    <string name="quickpanel_car_mode_text">"গাড়ীর
+মোড"</string>
+    <string name="quickpanel_network_booster_text">"ডাউনলোড
+বুস্টার"</string>
+    <string name="quickpanel_toolbox_text">সরঞ্জামবক্স</string>
+    <string name="quickpanel_touch_sensitivity_text">"স্পর্শ
+সংবেদনশীলতা"</string>
+    <string name="quickpanel_wifi_content_description">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_content_description">ব্লুটুথ</string>
+    <string name="quickpanel_gps_content_description">অবস্থান</string>
+    <string name="quickpanel_silent_mode_sound_content_description">ধ্বনি</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">কম্পন</string>
+    <string name="quickpanel_silent_mode_mute_content_description">নীরব করুন</string>
+    <string name="quickpanel_rotation_content_description">স্ক্রিন ঘুর্ণন</string>
+    <string name="quickpanel_mobile_data_content_description">মোবাইল তথ্য</string>
+    <string name="quickpanel_dormant_mode_content_description">অবরোধ করার মোড</string>
+    <string name="quickpanel_airplane_mode_content_description">বিমান মোড</string>
+    <string name="quickpanel_sync_content_description">সিঙ্ক করুন</string>
+    <string name="quickpanel_power_saving_content_description">পাওয়ার সাশ্রয় মোড</string>
+    <string name="quickpanel_ultra_power_saving_content_description">অতিরিক্ত পাওয়ার সাশ্রয় মোড</string>
+    <string name="quickpanel_smart_stay_content_description">স্মার্ট স্টে</string>
+    <string name="quickpanel_smart_pause_content_description">স্মার্ট বিরাম</string>
+    <string name="quickpanel_smart_network_content_description">স্মার্ট নেটওয়ার্ক</string>
+    <string name="quickpanel_wifi_hotspot_content_description">পোর্টেবল Wi-Fi হটস্পট</string>
+    <string name="quickpanel_multiwindow_content_description">মাল্টি উইন্ডো</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_ebook_content_description">পঠন মোড</string>
+    <string name="quickpanel_personal_mode_content_description">ব্যক্তিগত মোড</string>
+    <string name="quickpanel_car_mode_content_description">গাড়ি মোড</string>
+    <string name="quickpanel_network_booster_content_description">ডাউনলোড বুস্টার</string>
+    <string name="quickpanel_toolbox_content_description">সরঞ্জামবক্স</string>
+    <string name="air_gesture_use_popup_title">এয়ার জেশ্চারটি সক্ষম করুন</string>
+    <string name="air_gesture_use_popup_msg">এয়ার জেশ্চার এবং TalkBack উভয়ই সক্ষম করতে পারা যায় না৷ TalkBack অক্ষম হবে৷</string>
+    <string name="air_view_use_popup_title">এয়ার ভিউ সক্ষম করুন</string>
+    <string name="air_view_use_popup_msg">এয়ার ভিউ এবং নিচের বিকল্পগুলি একসাথে সক্ষম করা যাবে না৷ নীচের বিকল্পগুলি অক্ষম হবে৷</string>
+    <string name="multi_window_use_popup_title">মাল্টি উইন্ডো সক্ষম করুন</string>
+    <string name="multi_window_use_popup_msg">মাল্টি উইন্ডো এবং TalkBack উভয়ই সক্ষম করতে পারা যায় না। TalkBack অক্ষম হবে৷</string>
+    <string name="smart_pause_use_popup_title">স্মার্ট বিরাম সক্ষম করুন</string>
+    <string name="smart_pause_use_popup_msg">স্মার্ট বিরাম এবং TalkBack এর উভয়ই সক্ষম করতে পারা যায় না৷ TalkBack অক্ষম হবে৷</string>
+    <string name="smart_scroll_use_popup_title">স্মার্ট স্ক্রোল সক্ষম করুন</string>
+    <string name="smart_scroll_use_popup_msg">স্মার্ট স্ক্রোল এবং TalkBack উভয়ই সক্ষম করতে পারা যায় না৷ TalkBack অক্ষম হবে৷</string>
+    <string name="smart_stay_use_popup_title">স্মার্ট স্টে সক্ষম করুন</string>
+    <string name="smart_stay_use_popup_msg">স্মার্ট স্টে এবং TalkBack উভয়ই সক্ষম করতে পারা যায় না৷ TalkBack অক্ষম হবে৷</string>
+    <string name="quickpanel_content_description_led_on">%s সক্ষম করা আছে।</string>
+    <string name="quickpanel_content_description_led_off">%s অক্ষম করা আছে।</string>
+    <string name="quickpanel_content_description_led_dim">%s সক্ষম করা যাবে না।</string>
+    <string name="smart_network">স্মার্ট নেটওয়ার্ক</string>
+    <string name="smart_network_guide_msg">"স্মার্ট নেটওয়ার্ক ব্যাটারির আয়ুষ্কালটি রক্ষণে সহায়তা করে৷
+
+এটি স্ক্রিনটি বন্ধ থাকলে ডিভাইসটি যাতে কম ব্যাটারি ব্যবহার করে সে উদ্দেশ্যে মোবাইল তথ্য ও Wi-Fi অক্ষম করে৷
+
+তবে আপনি যখন স্ক্রিনটি চালু করেন তখন আপনি উপচিত পুশ তথ্য পেতে পারেন৷"</string>
+    <string name="quickpanel_data_roaming_text">তথ্য রোমিং</string>
+    <string name="data_roaming_dialog_text">রোমিং-এর জন্য অতিরিক্ত মূল্য ধার্য হবে। অবিরত থাকবেন?</string>
+    <string name="mobile_data_enable_dialog_text">মোবাইল নেটওয়ার্কগুলির সাথে সংযোগ আপনার তথ্য পরিকল্পনার উপর নির্ভর করে অতিরিক্ত চার্জ ধার্য করতে পারে৷ চালিয়ে যাবেন?</string>
+    <string name="quickpanel_edit_current">ঘোষণার প্যানেল</string>
+    <string name="quickpanel_edit_available">সুলভ বোতামগুলি</string>
+    <string name="mobile_data_dialog_text">আপনি মোবাইল নেটওয়ার্কের মাধ্যমে ইন্টারনেট, ইমেল এবং YouTube-এর মতো আবেদনগুলি ব্যবহার করতে আর সক্ষম হবেন না৷ চালিয়ে যাবেন?</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"আপনি Wi-Fi ব্যবহার না করলে আপনি তথ্য সংযোগের প্রয়োজন এমন ইন্টারনেট, ইমেল বা অন্যান্য অ্যাপস ব্যবহার করতে আর সক্ষম হবেন না।
+
+মোবাইল তথ্য অক্ষম হবে৷"</string>
+    <string name="mobile_data_connect">সংযোগ</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">ফ্লাইট মোডটি সক্ষম থাকলে মোবাইল নেটওয়ার্কগুলিতে সংযোগ করতে অক্ষম৷ ফ্লাইট মোডটি অক্ষম করে আবার চেষ্টা করুন৷</string>
+    <string name="warning_alert_check">আর দেখানো হবে না</string>
+    <string name="blocking_mode_enable">মোডটি যখন সক্ষম থাকে, নির্বাচিত বৈশিষ্ট্যগুলির জন্য বিজ্ঞপ্তিকরণগুলি অক্ষম হবে৷ আপনি কেবল আপনার অনুমোদিত তালিকাটিতে থাকা ব্যক্তিদের কাছ থেকে বিজ্ঞপ্তিগুলি পাবেন৷</string>
+    <string name="blocking_mode_enable_for_grid_settings">অবরোধের মোডটি নির্বাচিত বৈশিষ্ট্যগুলির জন্য ঘোষণাগুলি অক্ষম করে। যখন আগত কলগুলি অবরুদ্ধ হয় তখন আপনি কেবল নিজের অনুমোদিত পরিচিতিগুলিতে থাকা ব্যক্তিদের থেকে আগত কলগুলির বিজ্ঞপ্তি পাবেন। আপনার অবরোধ মোড সেটিংস পরিবর্তন করতে, সেটিংস > ব্যক্তিগতকরণ > অবরোধ মোড-এ যান।</string>
+    <string name="blocking_mode_enable_wifi">এই মোডটি সক্ষম থাকার সময় নির্বাচিত বৈশিষ্ট্যগুলির জন্য বিজ্ঞপ্তিগুলি অক্ষম হবে।</string>
+    <string name="blocking_mode_title">অবরুদ্ধকারী মোড</string>
+    <string name="dormant_mode_off_message">অবরোধের মোডটি সক্ষম করতে, কমপক্ষে নীচের একটি বিকল্প সক্ষম করুন।</string>
+    <string name="driving_mode_title">হ্যান্ডস-ফ্রী মোড</string>
+    <string name="driving_mode_on_dialog_msg_1">আপনি S Voice হ্যান্ডস-ফ্রী বন্ধ করার পরে সেটিংসে হ্যান্ডস-ফ্রী মোড অক্ষম করা আবশ্যক৷ হ্যান্ডস-ফ্রী মোড চালু থেকে গেলে, নতুন বিজ্ঞপ্তি ও আগত কল তথ্য এখনও স্বয়ংক্রিয়ভাবে পড়া হবে৷</string>
+    <string name="driving_mode_on_dialog_msg_2">আপনি S Voice হ্যান্ডস-ফ্রিতে “হ্যান্ডস-ফ্রি মোড বন্ধ করুন” বলে বা সেটিংস বা বিজ্ঞপ্তিকরণের প্যানেলে গিয়ে হ্যান্ডস-ফ্রি মোড বন্ধ করতে পারেন।</string>
+    <string name="insert_sim_card">SIM কার্ড ঢোকান</string>
+    <string name="insert_sim_card_message">নেটওয়ার্ক পরিষেবা অ্যাক্সেস করার জন্যে SIM কার্ড অন্তর্ভুক্ত করুন।</string>
+    <string name="wifi_enable_warning">Wi-Fi চালু করা পোর্টেবল Wi-Fi হটস্পট অক্ষম করবে৷ চালিয়ে যাবেন?</string>
+    <string name="wifi_ap_turning_off">পোর্টেবল Wi-Fi হটস্পট অক্ষম করা হচ্ছে…</string>
+    <string name="no_sim_notification_title">কোনও SIM নেই</string>
+    <string name="no_sim_notification_title_tmo">কোনও SIM কার্ড অন্তর্ভুক্ত করা হয়নি।</string>
+    <string name="no_sim_notification_text">SIM কার্ড অন্তর্ভুক্ত করুন।</string>
+    <string name="accessibility_power_saving_mode">শক্তি সাশ্রয় মোডটি সক্ষম করতে কমপক্ষে একটি কার্যকারিতা সক্ষম করুন।</string>
+    <string name="accessibility_power_saving_mode_title">পাওয়ার সংরক্ষণ মোড</string>
+    <string name="accessibility_driving_mode">হ্যান্ডস-ফ্রী মোড চালু করতে কমপক্ষে একটি সম্পর্কিত ফাংশন সক্ষম করুন।</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Network restriction mode will be disabled.</string>
+    <string name="charging_interruption_title">চার্জ করতে অক্ষম</string>
+    <string name="charging_interruption_by_terminal_open_text">আপনার ডিভাইস চার্জ করতে অক্ষম। আপনি স্যামসাংয়ের সাথে সুসঙ্গত ব্যাটারি ও চার্জার ব্যবহার করছেন এবং আপনার ডিভাইসটি যথাযথভাবে চার্জারের সাথে সংযুক্ত রয়েছে তা নিশ্চিত করুন।</string>
+    <string name="charging_interruption_by_too_high_temperature_text">চার্জিং স্থগিত। ব্যাটারির তাপমাত্রা অত্যন্ত বেশি।</string>
+    <string name="charging_interruption_by_too_low_temperature_text">চার্জিং স্থগিত। ব্যাটারির তাপমাত্রা অত্যন্ত কম।</string>
+    <string name="charging_interruption_by_limit_high_temperature_text">"ডিভাইসটি চার্জ হওয়া বন্ধ করেছে। ব্যাটারির তাপমাত্রাটি অত্যন্ত বেশি। চার্জারটি সংযোগ বিচ্ছিন্ন করার সময় সতর্ক হন। এটি অত্যন্ত উত্তপ্ত হতে পারে।
+
+চার্জারটি সংযোগ বিচ্ছিন্ন করে পুনরায় সংযোগ করা স্বাভাবিকভাবে চার্জিং চালিয়ে যেতে সহায়তা করতে পারে। যদি অতিরিক্ত উত্তপ্ত হওয়া চলতে থাকে তবে অগ্নিকাণ্ড বা আঘাতের ঝুঁকির সম্ভাবনা থাকার কারণে গ্রাহক পরিষেবার সাথে যোগাযোগ করুন।"</string>
+    <string name="full_battery_title">তথ্য</string>
+    <string name="full_battery_text">"ব্যাটারী পুরোপুরি চার্জ হয়ে গেছে৷
+চার্জার আনপ্লাগ করুন৷"</string>
+    <string name="low_battery_title">ব্যাটারি কম</string>
+    <string name="critical_low_battery_title">ব্যাটারি অত্যন্ত কম</string>
+    <string name="low_battery_text">ডিভাইসটি চার্জ করতে একটি প্লাগ সকেটের সাথে সংযোগ করুন এবং টাস্ক ম্যানেজারে অব্যবহৃত অ্যাপ্লিকেশন থেকে প্রস্থান করুন। চার্জ করার সময় অবিরত ব্যবহার করার ফলে কার্যকর চার্জিং বাধা পেতে পারে।</string>
+    <string name="low_battery_text_charged_via_ta">টাস্ক ম্যানেজারে অব্যবহৃত অ্যাপ্লিকেশন থেকে প্রস্থান করুন। চার্জ করার সময় অবিরত ব্যবহার করার ফলে কার্যকর চার্জিং বাধা পেতে পারে।</string>
+    <string name="low_battery_camera_warning_text">যদি ব্যাটারিটি %d%%-এর নীচে নামে তবে আপনি ক্যামেরাটি চালু করতে অক্ষম হবেন।</string>
+    <string name="critical_low_battery_camera_warning_text">ক্যামেরা চালু করতে অক্ষম৷ ব্যাটারি পাওয়ার %d%% বা তার চেয়ে কম৷</string>
+    <string name="start_force_consume_battery_title">সতর্কতা</string>
+    <string name="start_force_consume_battery_text">আপনার ডিভাইসটি ব্যবহার করার আগে এটি ঠান্ডা না হওয়া অবধি অপেক্ষা করুন।</string>
+    <string name="stop_force_consume_battery_title">তথ্য</string>
+    <string name="stop_force_consume_battery_text">ডিভাইস ঠান্ডা হয়েছে।</string>
+    <string name="wireless_charging_title">ওয়্যারলেস চার্জিং।</string>
+    <string name="cable_charging_title">কেবল চার্জিং</string>
+    <string name="wireless_charging_text">আপনি সীমার মধ্যে ডিভাইসটি স্থাপন করেছেন৷ এখন ওয়্যারলেস অবস্থায় চার্জ করা হচ্ছে…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">ওয়্যারলেস চার্জিং থেকে কেবল চার্জিংয়ে স্যুইচ করছে</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">কেবল চার্জিং থেকে ওয়্যারলেস চার্জিংয়ে স্যুইচ করছে</string>
+    <string name="wireless_charging_spen_warning_text">এখন আপনার ডিভাইস ওয়্যারলেসভাবে চার্জ হচ্ছে৷ S Pen-টি ওয়্যারলেস চার্জারের পরিসীমার মধ্যে কাজ করবে না৷</string>
+    <string name="incompatible_charger_title">চার্জ হচ্ছে না।</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_dialog_text_for_tablet">The connected charger is incompatible with this tablet. To prevent damage to your tablet, charging has been stopped. To continue charging, use the original charger and cable that were provided with this tablet.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_notification_text">To charge faster, use the original charger</string>
+    <string name="slow_charging_toast_text">To charge faster, use the charger and cable that were provided with this phone</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="water_damage_warning_title">চার্জিং কভার পরীক্ষা করুন</string>
+    <string name="water_damage_warning_text">জলের ক্ষতির বিরুদ্ধে সুরক্ষার জন্য ব্যবহারের আগে ব্যাটারির কভারটি দৃঢ়তার সাথে সিল করুন।</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">ডিভাইস বন্ধ করুন</string>
+    <string name="overheat_poweroff_warning_text">আপনার ডিভাইসটি অতিরিক্ত উত্তপ্ত হচ্ছে। ঠান্ডা হওয়ার জন্য এটি এখন বন্ধ হবে।</string>
+    <string name="overheat_poweroff_warning_button_text">বন্ধ করবেন না</string>
+    <string name="overheat_poweroff_notice_title">ডিভাইস স্বয়ংক্রিয়ভাবে বন্ধ হয়েছে</string>
+    <string name="overheat_poweroff_notice_text">"আপনার ডিভাইস অতিরিক্ত উত্তপ্ত হয়েছে। ক্ষতি এড়াতে এটি বন্ধ হয়েছে।
+
+এই সব কারণে ডিভাইসটি অতিরিক্ত গরম হতে পারে:
+বিভিন্ন গ্রাফিক্স-ইনটেনসিভ অ্যাপ্লিকেশন যেমন গেম ও নেভিগেশন অ্যাপ্লিকেশনগুলি দীর্ঘক্ষণ ব্যবহার করলে।
+বড় ফাইলগুলি স্থানান্তর করলে।
+গরম পরিবেশে আপনার ডিভাইস ব্যবহার করলে।"</string>
+    <string name="power_sharing_warning_title">পাওয়ার শেয়ারিং</string>
+    <string name="power_sharing_warning_text">আপনার ব্যাটারি পাওয়ারটি পাওয়ার শেয়ারিং সীমার চেয়ে কম। পাওয়ার শেয়ারিং অবিরত রাখতে বর্তমান ব্যাটারি পাওয়ার সীমার নীচে পাওয়ার শেয়ারিংয়ের সীমা সামঞ্জস্য করুন।</string>
+    <string name="power_sharing_start_toast_text">পাওয়ার শেয়ারিং শুরু করা হচ্ছে…</string>
+    <string name="power_sharing_end_notification_text">শক্তি শেয়ারিং সমাপ্ত হয়েছে। কেবলটি সংযোগ বিচ্ছিন্ন করুন।</string>
+    <string name="face_detection_failure_text">স্মার্ট স্টে আপনার চোখগুলি সনাক্ত করতে পারেনা।</string>
+    <string name="status_bar_recent_launch_task_manager_title">টাস্ক ম্যানেজার</string>
+    <string name="status_bar_recent_launch_google_button">গুগল</string>
+    <string name="status_bar_recent_remove_all_button">সব বন্ধ করুন</string>
+    <string name="screen_capture_fail_for_storage_capacity">ডিভাইস সঞ্চয়স্থান পূর্ণ। কিছু আইটেম মুছে ফেলুন।</string>
+    <string name="no_such_item">আইটেম খুঁজতে অক্ষম।</string>
+    <string name="pickup_tutorial_title">স্মার্ট সতর্কতার চেষ্টা করে দেখুন</string>
+    <string name="put_your_phone">আপনার ডিভাইসটিকে নিচে রাখার পরে, স্ক্রিনটি বন্ধ হয়ে যাবে</string>
+    <string name="phone_detect">মনে করুন আপনি মিস করা কল বা বার্তা পেয়েছেন৷ আপনার ডিভাইসটি নীচে নামান তারপরে স্ক্রিনটি বন্ধ হলে এটিকে আবার উপরে তুলুন৷</string>
+    <string name="pick_up_your_phone">আপনার ডিভাইসটিকে উপরে তুলুন</string>
+    <string name="tutorial_complete">টিউটোরিয়াল সম্পূর্ণ</string>
+    <string name="camera_alert">কলের সময় ক্যামেরা চালু করা যায়নি।</string>
+    <string name="stms_version">SM-G900F_EUR_20140228_0507</string>
+    <string name="wifi_cw_ready">China Telecom WLAN connected</string>
+    <string name="wifi_cw_ready_message">You have access to China Telecom WLAN network, consult 10000 to understand billing information, please turn off when not use</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">সম্মত</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="quickpanel_ctwap_text">CTWAP</string>
+    <string name="quickpanel_ctnet_text">CTNET</string>
+    <string name="tethering_attention_title">সজাগ হন</string>
+    <string name="tethering_wifi_off_warning">পোর্টেবল Wi-Fi হটস্পট সক্ষম করা Wi-Fi বন্ধ করে দেবে।</string>
+    <string name="quickpanel_air_view_warning">এয়ার ভিউ সক্ষম করতে কমপক্ষে একটি ক্রিয়াকলাপ সক্ষম করুন।</string>
+    <string name="quickpanel_air_view_warning_pen_support">এয়ার ভিউ সক্ষম করতে, নির্বাচিত এয়ার ভিউ মোড থেকে অন্ততপক্ষে একটি কার্যকারিতা সক্ষম করুন।</string>
+    <string name="quickpanel_air_gesture_warning">এয়ার জেশ্চার সক্ষম করতে, অন্ততপক্ষে একটি প্রাসঙ্গিক ক্রিয়া সক্ষম করুন।</string>
+    <string name="quickpanel_air_gesture_warning_continue">সম্পর্কিত সেটিংসে যেতে একটি দ্রুত সেটিং বোতাম ট্যাপ করুন ও ধরে থাকুন।</string>
+    <string name="roaming_title">রোমিং</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="gps_donotshow">আর প্রদর্শন না করা হোক</string>
+    <string name="quickpanel_brightess_level">স্তর</string>
+    <string name="quickpanel_brightess_minus">মাইনাস</string>
+    <string name="reading_mode_title">পঠন মোড</string>
+    <string name="reading_mode_alert">পঠন মোডটি সক্ষম হয়েছে৷ স্ক্রিনটি এখন পঠনের জন্য কাম্য৷ এই মোডটি এখন কেবল নির্বাচিত অ্যাপ্লিকেশনের জন্য সুলভ</string>
+    <string name="reading_mode_settings">সেটিংস</string>
+    <string name="manual_brightness_message">উজ্জ্বলতা ম্যানুয়ালি সামঞ্জস্য করা হয়েছে৷ স্বতঃ উজ্জ্বলতা অক্ষম করা হয়েছে৷</string>
+    <string name="flight_mode_message_for_wifi_only">ফ্লাইট মোড আপনাকে Wi-Fi এবং ব্লুটুথ সহ নেটওয়ার্ক বৈশিষ্ট্যগুলি বন্ধ করার অনুমতি দেয়। Wi-Fi এবং ব্লুটুথ ব্যবহার করতে সেগুলি সেটিংস বা বিজ্ঞপ্তিকরণ প্যানেলে গিয়ে চালু করুন।</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tutorial_notification_panel_drag_down">স্থিতি বারটিকে স্ক্রিনের শীর্ষ থেকে নীচে নামাতে একটি আঙুল ব্যবহার করুন৷</string>
+    <string name="tutorial_notification_panel_drag_down_complete">বিজ্ঞপ্তি প্যানেলটি প্রদর্শিত হয়৷</string>
+    <string name="tutorial_quick_panel_drag_down">স্থিতি বারটিকে স্ক্রিনের শীর্ষ থেকে নীচে নামাতে দুটি আঙুল ব্যবহার করুন৷</string>
+    <string name="tutorial_quick_panel_drag_down_complete">দ্রুত সেটিং প্যানেল প্রদর্শিত হয়৷</string>
+    <string name="tutorial_expand_notification_panel_drag_down">বিজ্ঞপ্তি প্যানেল থেকে তালিকাগুলির একটিকে নীচে নামাতে দুটি আঙুল ব্যবহার করুন৷</string>
+    <string name="tutorial_expand_notification_panel_drag_down_complete">নির্বাচিত তালিকা সম্পর্কে আরও তথ্য প্রদর্শিত হয়৷</string>
+    <string name="tutorial_invaild_action">অবৈধ ক্রিয়া৷ আবার চেষ্টা করুন৷</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="magnification_text_for_air_view_button">বিবর্ধিতকরণের জেশ্চারগুলি</string>
+    <string name="smartbonding_dialog_title">ডাউনলোড বুস্টার</string>
+    <string name="smartbonding_dialog_wifi_text">Wi-Fi ও LTE নেটওয়ার্কগুলি একসাথে ব্যবহার করে বড় ফাইলগুলিকে (%d MB-এর বড়) আরও দ্রুত ডাউনলোড করুন। মনে রাখবেন নেটওয়ার্কের স্থিতির উপর নির্ভর করে ডাউনলোড বুস্টার ফাইলগুলি ডাউনলোড করতে কেবলমাত্র Wi-Fi বা LTE নেটওয়ার্কগুলি ব্যবহার করতে পারে।</string>
+    <string name="smartbonding_dialog_mobile_text">Wi-Fi ও LTE নেটওয়ার্কগুলি একসাথে ব্যবহার করে বড় ফাইলগুলিকে (%d MB-এর বড়) আরও দ্রুত ডাউনলোড করুন। মনে রাখবেন নেটওয়ার্কের স্থিতির উপর নির্ভর করে ডাউনলোড বুস্টার ফাইলগুলি ডাউনলোড করতে কেবলমাত্র Wi-Fi বা LTE নেটওয়ার্কগুলি ব্যবহার করতে পারে।</string>
+    <string name="smart_bonding_popup_msg">ডাউনলোড বুস্টার সক্ষম করা হবে। আপনার প্রদানের পরিকল্পনার উপর নির্ভর করে মোবাইল নেটওয়ার্কগুলির মাধ্যমে ডাউনলোড করার ফলে অতিরিক্ত চার্জ ধার্য হতে পারে।</string>
+    <string name="smart_bonding_popup_msg_wifi">Wi-Fi বর্তমানে বন্ধ আছে। ডাউনলোড বুস্টার সক্ষম করতে Wi-Fi এবং মোবাইল তথ্য উভয়ই চালু থাকা আবশ্যক। আপনার প্রদানের পরিকল্পনার উপর নির্ভর করে মোবাইল নেটওয়ার্কগুলির মাধ্যমে ডাউনলোড করার ফলে অতিরিক্ত চার্জ ধার্য হতে পারে।</string>
+    <string name="smart_bonding_popup_msg_data">বর্তমানে মোবাইল তথ্য বন্ধ আছে। ডাউনলোড বুস্টার সক্ষম করতে Wi-Fi এবং মোবাইল তথ্য উভয়ই চালু থাকা আবশ্যক। আপনার প্রদানের পরিকল্পনার উপর নির্ভর করে মোবাইল নেটওয়ার্কগুলির মাধ্যমে ডাউনলোড করার ফলে অতিরিক্ত চার্জ ধার্য হতে পারে।</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Wi-Fi ও মোবাইল তথ্য বর্তমানে বন্ধ আছে। ডাউনলোড বুস্টার সক্ষম করতে Wi-Fi এবং মোবাইল তথ্য উভয়ই চালু থাকা আবশ্যক। আপনার প্রদানের পরিকল্পনার উপর নির্ভর করে মোবাইল নেটওয়ার্কগুলির মাধ্যমে ডাউনলোড করার ফলে অতিরিক্ত চার্জ ধার্য হতে পারে।</string>
+    <string name="smart_bonding_popup_msg_roaming">রোমিং-এ থাকার সময় ডাউনলোড বুস্টার ব্যবহার করতে অক্ষম। আমরা কোনও Wi-Fi নেটওয়ার্কের মাধ্যমে ডাউনলোড করার প্রস্তাব দিই।</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">Wi-Fi চালু করুন</string>
+    <string name="smart_bonding_popup_msg_data_btn">মোবাইল তথ্য চালু করুন</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">Wi-Fi এবং মোবাইল তথ্য চালু করুন</string>
+    <string name="smart_bonding_turn_off_text">%1$s সক্ষম থাকাকালীন ডাউনলোড বুস্টার ব্যবহার করতে অক্ষম। %2$s অক্ষম করুন এবং পুনরায় চেষ্টা করুন।</string>
+    <string name="smart_bonding_turn_off_text_airplane_mode">ফ্লাইট মোডটি সক্ষম থাকলে মোবাইল নেটওয়ার্কগুলিতে সংযোগ করতে অক্ষম৷ ফ্লাইট মোডটি অক্ষম করে আবার চেষ্টা করুন৷</string>
+    <string name="dialog_battery_data_warning">পোর্টেবল Wi-Fi হটস্পট প্রচুর পরিমাণে ব্যাটারির পাওয়ার ব্যবহার করে এবং আপনার তথ্যের ব্যবহার বৃদ্ধি করে। অবিরত থাকবেন?</string>
+    <string name="tether_settings_title_wifi">পোর্টেবল হটস্পট</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">বিজ্ঞপ্তি</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="cooling_title">ডিভাইস অতিরিক্ত গরম হচ্ছে</string>
+    <string name="cooling_body">"আপনার ডিভাইসটি অতিরিক্ত উত্তপ্ত হচ্ছে৷ এটিকে শীতল করতে পদক্ষেপ গ্রহণ করা হবে৷
+
+আপনি এখনও আপনার ডিভাইস ব্যবহার করতে পারেন তবে
+- স্ক্রিনটি নিষ্প্রভ হতে পারে৷
+- ডিভাইসটি ধীর গতি হতে পারে৷
+- চার্জিংয়ে বিরাম হতে পারে৷
+
+বর্তমান অ্যাপটি বন্ধ করা আপনার ডিভাইসটি বন্ধ করতে সহায়তা করতে পারে৷
+
+ডিভাইসটি শীতল হওয়ার পরে কর্মক্ষমতাটি স্বয়ংক্রিয়ভাবে স্বাভাবিকে ফিরে আসবে৷"</string>
+    <string name="cooling_noti_text">বিশদ দেখতে এখানে ট্যাপ করুন।</string>
+    <string name="cooling_popup_name">বিজ্ঞপ্তি</string>
+    <string name="cooling_noti_title">ডিভাইস অতিরিক্ত গরম হচ্ছে</string>
+    <string name="btn_text_yes">ওকে</string>
+    <string name="btn_text_no">বাতিল</string>
+    <string name="device_overheating">ডিভাইস অতিরিক্ত গরম হচ্ছে</string>
+    <string name="colling_noti_text_2">অ্যাপ্লিকেশনগুলি খুলতে অক্ষম৷ আপনি কেবলমাত্র ফোন ও পরিচিতি অ্যাপ্লিকেশনগুলি ব্যবহার করতে পারেন৷</string>
+    <string name="vol_panel_audio_settings">আপনার অডিও সেটিংস পরিবর্তন করুন।</string>
+    <string name="guest_launge_warning_toast_text">অতিথি মোডে থাকার সময় %s সক্ষম বা অক্ষম করতে অক্ষম।</string>
+    <string name="safe_mode_title_vzw">নিরাপদ মোড বন্ধ করুন</string>
+    <string name="safe_mode_popup_body_vzw">নিরাপদ মোড বন্ধ করার জন্য আপনি কি আপনার ফোনটিকে পুনরায় চালু করতে চান? আপনার সমস্ত প্রয়োগ পুনঃস্থাপিত হবে।</string>
+    <string name="safe_mode_btn_cancel_vzw">বাতিল</string>
+    <string name="safe_mode_off_btn_vzw">নিরাপদ মোড বন্ধ করুন</string>
+    <string name="safe_mode_noti_on_vzw">নিরাপদ মোড চালু আছে</string>
+    <string name="safe_mode_noti_body_vzw">নিরাপদ মোড বন্ধ করার জন্য টোকা দিন</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">আরও জানতে এখানে ট্যাপ করুন।</string>
+    <string name="cooling_popup_name_VZW">বিজ্ঞপ্তি</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">ওকে</string>
+    <string name="btn_text_no_VZW">বাতিল</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance will Automatically go back to normal."</string>
+    <string name="recent_menukey_press_description">মেনু দেখার জন্য সাম্প্রতিক কী-টি চেপে ধরে রাখুন।</string>
+    <string name="recent_menukey_press_description_vzw">আপনি অতি সম্প্রতি যে অ্যাপ্লিকেশনগুলি ব্যবহার করেছেন তার মধ্যে পরিবর্তন করতে আপনাকে অনুমতি দিতে মেনু কীটি সাম্প্রতিক কী দ্বারা প্রতিস্থাপিত হয়েছে। আরও তথ্যের জন্য সহায়্তা করুন ট্যাপ করুন।</string>
+    <string name="recent_menukey_help_button">সাহায্য</string>
+</resources>

@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_date_format_day_month">E d日 MMMM</string>
+    <string name="status_bar_date_format_month_day">MMMM d日, E</string>
+    <string name="status_bar_date_format_day_month_k">"E
+d 日 MMMM"</string>
+    <string name="status_bar_date_format_month_day_k">"E
+MMMM d 日"</string>
+    <string name="abbrev_wday_abbrev_month_day_no_year">MMM d日, E</string>
+    <string name="abbrev_wday_day_abbrev_month_no_year">E d日 MMM</string>
+    <string name="status_bar_date_formatter">"%2$s
+%1$s"</string>
+    <string name="app_label">系統使用者介面</string>
+    <string name="status_bar_clear_all_button">清除</string>
+    <string name="status_bar_do_not_disturb_button">請勿打擾</string>
+    <string name="status_bar_please_disturb_button">顯示通知</string>
+    <string name="status_bar_recent_remove_item_title">從清單移除</string>
+    <string name="status_bar_recent_inspect_item_title">應用程式資訊</string>
+    <string name="status_bar_no_recent_apps">無最近使用的應用程式</string>
+    <string name="status_bar_accessibility_dismiss_recents">關閉最近使用的應用程式</string>
+    <string name="status_bar_no_notifications_title">無通知</string>
+    <string name="status_bar_ongoing_events_title">正在進行</string>
+    <string name="status_bar_latest_events_title">通知</string>
+    <string name="battery_low_title">連接充電器。</string>
+    <string name="battery_low_subtitle">電池電量即將不足。</string>
+    <string name="battery_low_percent_format">剩餘 %d%%。</string>
+    <string name="invalid_charger">不支援 USB 充電。請使用隨附的充電器。</string>
+    <string name="battery_low_why">電池使用</string>
+    <string name="status_bar_settings_settings_button">設定</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">飛航模式</string>
+    <string name="status_bar_settings_auto_rotation">自動旋轉螢幕</string>
+    <string name="status_bar_settings_mute_label">靜音</string>
+    <string name="status_bar_settings_auto_brightness_label">自動</string>
+    <string name="status_bar_settings_notifications">通知</string>
+    <string name="bluetooth_tethered">藍牙共享</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">設定輸入法</string>
+    <string name="status_bar_use_physical_keyboard">實體鍵盤</string>
+    <string name="usb_device_permission_prompt">允許應用程式 %1$s 存取 USB 裝置嗎？</string>
+    <string name="usb_accessory_permission_prompt">允許應用程式 %1$s 存取 USB 配件嗎？</string>
+    <string name="usb_device_confirm_prompt">連接此 USB 裝置時即開啟 %1$s 嗎？</string>
+    <string name="usb_accessory_confirm_prompt">連接此 USB 配件時即開啟 %1$s 嗎？</string>
+    <string name="usb_accessory_uri_prompt">沒有已安裝的應用程式可搭配此 USB 配件使用。請前往 %s 瞭解有關此配件的詳細資訊。</string>
+    <string name="title_usb_accessory">USB 配件</string>
+    <string name="label_view">檢視</string>
+    <string name="always_use_device">依預設使用此 USB 裝置</string>
+    <string name="always_use_accessory">依預設使用此 USB 配件</string>
+    <string name="usb_debugging_title">允許 USB偵錯？</string>
+    <string name="usb_debugging_message">"電腦的 RSA 鍵指紋為：
+%1$s"</string>
+    <string name="usb_debugging_always">永遠允許該電腦</string>
+    <string name="compat_mode_on">放大以填滿螢幕</string>
+    <string name="compat_mode_off">延伸以填滿螢幕</string>
+    <string name="compat_mode_help_header">相容性縮放</string>
+    <string name="compat_mode_help_body">當應用程式是為較小型的螢幕設計時，時鐘旁將出現縮放控制。</string>
+    <string name="screenshot_saving_ticker">正在儲存螢幕截圖…</string>
+    <string name="screenshot_saving_title">正在儲存螢幕截圖…</string>
+    <string name="screenshot_saving_text">已儲存螢幕截圖。</string>
+    <string name="screenshot_saved_title">已截取螢幕截圖</string>
+    <string name="screenshot_saved_text">輕觸以檢視螢幕截圖。</string>
+    <string name="screenshot_failed_title">無法擷取螢幕截圖。</string>
+    <string name="screenshot_failed_text">無法儲存螢幕截圖。USB 儲存裝置可能在使用中。</string>
+    <string name="screenshot_failed_due_to_drm_text">無法擷取螢幕圖像。此圖像受 DRM 保護。</string>
+    <string name="one_item_will_be_deleted">將刪除 1 個項目。</string>
+    <string name="usb_preference_title">USB 檔案傳輸選項</string>
+    <string name="use_mtp_button_title">掛載為媒體播放器 (MTP)</string>
+    <string name="use_ptp_button_title">掛載為相機 (PTP)</string>
+    <string name="installer_cd_button_title">安裝 Mac 使用的 Android 檔案傳輸應用程式</string>
+    <string name="accessibility_back">返回</string>
+    <string name="accessibility_home">住家</string>
+    <string name="accessibility_menu">功能表</string>
+    <string name="accessibility_recent">最近的應用程式</string>
+    <string name="accessibility_ime_switch_button">切換輸入法按鈕。</string>
+    <string name="accessibility_compatibility_zoom_button">相容性縮放按鈕</string>
+    <string name="accessibility_compatibility_zoom_example">放大至較大螢幕</string>
+    <string name="accessibility_bluetooth_connected">已連接至藍牙</string>
+    <string name="accessibility_bluetooth_disconnected">藍牙已中斷</string>
+    <string name="accessibility_no_battery">無電池</string>
+    <string name="accessibility_battery_one_bar">電量一格</string>
+    <string name="accessibility_battery_two_bars">電量二格</string>
+    <string name="accessibility_battery_three_bars">電量三格</string>
+    <string name="accessibility_battery_full">電池已滿</string>
+    <string name="accessibility_no_phone">手機無訊號</string>
+    <string name="accessibility_phone_one_bar">手機訊號一格</string>
+    <string name="accessibility_phone_two_bars">手機訊號二格</string>
+    <string name="accessibility_phone_three_bars">手機訊號三格</string>
+    <string name="accessibility_phone_signal_full">手機訊號滿格</string>
+    <string name="accessibility_no_data">無資料</string>
+    <string name="accessibility_data_one_bar">資料訊號一格</string>
+    <string name="accessibility_data_two_bars">資料訊號二格</string>
+    <string name="accessibility_data_three_bars">資料訊號三格</string>
+    <string name="accessibility_data_four_bars">四格數據訊號</string>
+    <string name="accessibility_data_five_bars">五格數據訊號</string>
+    <string name="accessibility_data_signal_full">完整資料訊號</string>
+    <string name="accessibility_wifi_off">Wifi Off</string>
+    <string name="accessibility_no_wifi">無 Wi-Fi 訊號</string>
+    <string name="accessibility_wifi_one_bar">Wi-Fi 訊號一格</string>
+    <string name="accessibility_wifi_two_bars">Wi-Fi 訊號二格</string>
+    <string name="accessibility_wifi_three_bars">Wi-Fi 訊號三格</string>
+    <string name="accessibility_wifi_signal_full">Wi-Fi 訊號為滿格。</string>
+    <string name="accessibility_no_wimax">沒有 WiMAX 訊號。</string>
+    <string name="accessibility_wimax_one_bar">WiMAX 訊號一格。</string>
+    <string name="accessibility_wimax_two_bars">WiMAX 訊號兩格。</string>
+    <string name="accessibility_wimax_three_bars">WiMAX 訊號三格。</string>
+    <string name="accessibility_wimax_signal_full">WiMAX 訊號滿格。</string>
+    <string name="accessibility_no_signal">無訊號</string>
+    <string name="accessibility_not_connected">未連線</string>
+    <string name="accessibility_zero_bars">訊號強度零格。</string>
+    <string name="accessibility_one_bar">訊號強度一格。</string>
+    <string name="accessibility_two_bars">訊號強度兩格。</string>
+    <string name="accessibility_three_bars">訊號強度三格。</string>
+    <string name="accessibility_phone_four_bars">四格電話訊號</string>
+    <string name="accessibility_phone_five_bars">五格電話訊號</string>
+    <string name="accessibility_signal_full">訊號滿格。</string>
+    <string name="accessibility_desc_on">開</string>
+    <string name="accessibility_desc_off">關</string>
+    <string name="accessibility_desc_connected">已連線</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">漫遊</string>
+    <string name="accessibility_data_connection_edge">邊緣</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">無 SIM 卡</string>
+    <string name="accessibility_bluetooth_tether">藍牙網路共享</string>
+    <string name="accessibility_airplane_mode">飛航模式</string>
+    <string name="accessibility_battery_level">電池剩餘百分之 %d。</string>
+    <string name="accessibility_settings_button">系統設定</string>
+    <string name="accessibility_notifications_button">通知</string>
+    <string name="accessibility_remove_notification">清除通知</string>
+    <string name="accessibility_gps_enabled">已開啟 GPS</string>
+    <string name="accessibility_gps_acquiring">正在取得 GPS…</string>
+    <string name="accessibility_tty_enabled">已啟用 TeleTypewriter</string>
+    <string name="accessibility_ringer_vibrate">鈴聲震動</string>
+    <string name="accessibility_ringer_silent">靜音鈴聲</string>
+    <string name="accessibility_recents_item_dismissed">「%s」已關閉。</string>
+    <string name="accessibility_notification_dismissed">已關閉通知。</string>
+    <string name="accessibility_desc_notification_shade">通知欄。</string>
+    <string name="accessibility_desc_quick_settings">快速設定</string>
+    <string name="accessibility_desc_recent_apps">最近的應用程式</string>
+    <string name="accessibility_quick_settings_user">使用者：%s。</string>
+    <string name="accessibility_quick_settings_wifi">%1$s，%2$s</string>
+    <string name="accessibility_quick_settings_mobile">行動數據連線：%1$s，%2$s，%3$s。</string>
+    <string name="accessibility_quick_settings_battery">電池電量：%s。</string>
+    <string name="accessibility_quick_settings_airplane">飛航模式：%s。</string>
+    <string name="accessibility_quick_settings_bluetooth">藍牙：%s。</string>
+    <string name="accessibility_quick_settings_alarm">鬧鈴設定於 %s。</string>
+    <string name="accessibility_sfinder_button">S Finder</string>
+    <string name="accessibility_qconnect_button">快速連接</string>
+    <string name="accessibility_qconnect_button_tts">快速連接</string>
+    <string name="data_usage_disabled_dialog_3g_title">已停用 2G-3G 數據</string>
+    <string name="data_usage_disabled_dialog_4g_title">已停用 4G 數據</string>
+    <string name="data_usage_disabled_dialog_mobile_title">已停用行動數據</string>
+    <string name="data_usage_disabled_dialog_title">已停用資料</string>
+    <string name="data_usage_disabled_dialog">已達到指定的資料使用限制。使用額外的資料需向系統業者付費。</string>
+    <string name="data_usage_disabled_dialog_enable">再次啟用資料連線</string>
+    <string name="data_usage_enable_mobile_warning">透過數據傳輸連線可能會產生額外費用。要繼續嗎？</string>
+    <string name="data_usage_disable_mobile">停用行動數據連接嗎？</string>
+    <string name="status_bar_settings_signal_meter_disconnected">無網路連接</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">已連接 Wi-Fi。</string>
+    <string name="gps_notification_searching_text">正使用 GPS 搜尋…</string>
+    <string name="gps_notification_found_text">由 GPS 設定位置</string>
+    <string name="accessibility_clear_all">清除所有通知</string>
+    <string name="status_bar_notification_inspect_item_title">應用程式資訊</string>
+    <string name="close_universe">關閉</string>
+    <string name="notifications_off_title">已停用通知</string>
+    <string name="notifications_off_text">輕觸以啟用通知。</string>
+    <string name="accessibility_rotation_lock_off">螢幕將自動旋轉。</string>
+    <string name="accessibility_rotation_lock_on_landscape">螢幕已鎖定為橫向模式。</string>
+    <string name="accessibility_rotation_lock_on_portrait">螢幕已鎖定為垂直模式。</string>
+    <string name="jelly_bean_dream_name">BeanFlinger</string>
+    <string name="start_dreams">螢幕保護程式</string>
+    <string name="ethernet_label">乙太網路</string>
+    <string name="quick_settings_airplane_mode_label">飛航模式</string>
+    <string name="quick_settings_battery_charging_label">充電中 (%d%%)</string>
+    <string name="quick_settings_battery_charged_label">充電完成。</string>
+    <string name="quick_settings_bluetooth_label">藍牙</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">藍牙 (%d 個裝置)</string>
+    <string name="quick_settings_bluetooth_off_label">藍牙關閉</string>
+    <string name="quick_settings_brightness_label">亮度</string>
+    <string name="quick_settings_rotation_unlocked_label">自動旋轉</string>
+    <string name="quick_settings_rotation_locked_label">已鎖定螢幕旋轉功能</string>
+    <string name="quick_settings_ime_label">輸入法</string>
+    <string name="quick_settings_location_label">使用位置</string>
+    <string name="quick_settings_media_device_label">媒體裝置</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">僅限緊急通話</string>
+    <string name="quick_settings_settings_label">設定</string>
+    <string name="quick_settings_time_label">時間</string>
+    <string name="quick_settings_user_label">我</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">未連線</string>
+    <string name="quick_settings_wifi_no_network">無網路</string>
+    <string name="quick_settings_wifi_off_label">Wifi Off</string>
+    <string name="quick_settings_wifi_display_label">"Wi-Fi
+顯示"</string>
+    <string name="quick_settings_wifi_display_no_connection_label">無線螢幕分享</string>
+    <string name="quick_settings_brightness_dialog_title">亮度</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">自動</string>
+    <string name="status_bar_help_title">系統會在這裡顯示通知</string>
+    <string name="status_bar_help_text">"向下滑動即可隨時存取通知。
+再次向下滑動即可使用系統控制項。"</string>
+    <string name="quickpanel_wifi_text">Wi-Fi</string>
+    <string name="quickpanel_bluetooth_text">藍牙</string>
+    <string name="quickpanel_gps_text">位置</string>
+    <string name="quickpanel_silent_mode_text">"靜音
+模式"</string>
+    <string name="quickpanel_silent_mode_sound">聲音</string>
+    <string name="quickpanel_silent_mode_vibrate">震動</string>
+    <string name="quickpanel_silent_mode_mute">靜音</string>
+    <string name="quickpanel_rotation_text">"畫面
+旋轉"</string>
+    <string name="quickpanel_mobile_data_text">"行動
+數據"</string>
+    <string name="quickpanel_dormant_mode_text">"停用
+模式"</string>
+    <string name="quickpanel_notification_text">通知</string>
+    <string name="quickpanel_airplane_mode_text">"飛航
+模式"</string>
+    <string name="quickpanel_sync_text">同步</string>
+    <string name="quickpanel_power_saving_text">"省電
+模式"</string>
+    <string name="quickpanel_ultra_power_saving_text">"超
+省電"</string>
+    <string name="quickpanel_driving_mode_text">"免持
+模式"</string>
+    <string name="quickpanel_smart_stay_text">"智慧
+休眠"</string>
+    <string name="quickpanel_smart_scroll_text">"智慧
+捲動"</string>
+    <string name="quickpanel_smart_pause_text">"智慧
+暫停"</string>
+    <string name="quickpanel_smart_network_text">"智慧
+網路"</string>
+    <string name="quickpanel_s_beam_text">S Beam</string>
+    <string name="quickpanel_wifi_hotspot_text">"Wi-Fi
+無線基地台"</string>
+    <string name="quickpanel_multiwindow_text">多重視窗</string>
+    <string name="quickpanel_nfcc_text">NFC</string>
+    <string name="quickpanel_brightness_text">亮度</string>
+    <string name="quickpanel_airview_text">"懸浮
+預覽"</string>
+    <string name="quickpanel_airgesture_text">"懸浮
+手勢"</string>
+    <string name="quickpanel_ebook_text">"閱讀
+模式"</string>
+    <string name="quickpanel_personal_mode_text">"隱私
+模式"</string>
+    <string name="quickpanel_car_mode_text">"車用
+模式"</string>
+    <string name="quickpanel_network_booster_text">"下載
+加速器"</string>
+    <string name="quickpanel_toolbox_text">工具箱</string>
+    <string name="quickpanel_touch_sensitivity_text">"觸控
+靈敏度"</string>
+    <string name="quickpanel_wifi_content_description">WI-FI</string>
+    <string name="quickpanel_bluetooth_content_description">藍牙</string>
+    <string name="quickpanel_gps_content_description">位置</string>
+    <string name="quickpanel_silent_mode_sound_content_description">音效</string>
+    <string name="quickpanel_silent_mode_vibrate_content_description">震動</string>
+    <string name="quickpanel_silent_mode_mute_content_description">靜音</string>
+    <string name="quickpanel_rotation_content_description">螢幕旋轉</string>
+    <string name="quickpanel_mobile_data_content_description">行動數據</string>
+    <string name="quickpanel_dormant_mode_content_description">封鎖模式</string>
+    <string name="quickpanel_airplane_mode_content_description">飛航模式</string>
+    <string name="quickpanel_sync_content_description">同步</string>
+    <string name="quickpanel_power_saving_content_description">省電模式</string>
+    <string name="quickpanel_smart_stay_content_description">智慧休眠</string>
+    <string name="quickpanel_smart_pause_content_description">智慧暫停</string>
+    <string name="quickpanel_smart_network_content_description">智慧網路</string>
+    <string name="quickpanel_wifi_hotspot_content_description">可攜式 Wi-Fi 無線基地台</string>
+    <string name="quickpanel_multiwindow_content_description">多重視窗</string>
+    <string name="quickpanel_nfcc_content_description">NFC</string>
+    <string name="quickpanel_ebook_content_description">閱讀模式</string>
+    <string name="quickpanel_personal_mode_content_description">私密模式</string>
+    <string name="quickpanel_car_mode_content_description">車用模式</string>
+    <string name="quickpanel_network_booster_content_description">下載加速器</string>
+    <string name="quickpanel_toolbox_content_description">工具箱</string>
+    <string name="air_gesture_use_popup_title">啟用懸浮手勢</string>
+    <string name="air_gesture_use_popup_msg">懸浮手勢與 TalkBack 無法同時啟用。TalkBack 將停用。</string>
+    <string name="air_view_use_popup_title">啟用懸浮預覽</string>
+    <string name="air_view_use_popup_msg">懸浮預覽與下列選項無法同時啟用。將停用下方選項。</string>
+    <string name="multi_window_use_popup_title">啟用多重視窗</string>
+    <string name="multi_window_use_popup_msg">多重視窗與 TalkBack 無法同時啟用。TalkBack 將被停用。</string>
+    <string name="smart_pause_use_popup_title">啟用智慧暫停</string>
+    <string name="smart_pause_use_popup_msg">智慧暫停與 TalkBack 無法同時啟用。TalkBack 將停用。</string>
+    <string name="smart_scroll_use_popup_title">啟用智慧捲動</string>
+    <string name="smart_scroll_use_popup_msg">智慧捲動與 TalkBack 無法同時啟用。TalkBack 將停用。</string>
+    <string name="smart_stay_use_popup_title">啟用智慧休眠</string>
+    <string name="smart_stay_use_popup_msg">智慧休眠與 TalkBack 無法同時啟用。TalkBack 將停用。</string>
+    <string name="quickpanel_content_description_led_on">%s 已啟用。</string>
+    <string name="quickpanel_content_description_led_off">%s 已停用。</string>
+    <string name="quickpanel_content_description_led_dim">%s 無法啟用。</string>
+    <string name="smart_network">智慧網路</string>
+    <string name="smart_network_guide_msg">"智慧網路可協助保存電池壽命。
+
+可在螢幕關閉時停用行動數據與 Wi-Fi，讓裝置消耗較少電力。
+
+但是，在開啟螢幕後可能收到累積的推送資料。"</string>
+    <string name="quickpanel_data_roaming_text">數據漫遊</string>
+    <string name="data_roaming_dialog_text">漫遊將額外收費。要繼續嗎？</string>
+    <string name="mobile_data_enable_dialog_text">連接至手機網路連接可能根據您的資費方案產生額外費用。繼續嗎？</string>
+    <string name="quickpanel_edit_current">通知面板</string>
+    <string name="quickpanel_edit_available">可用按鈕</string>
+    <string name="mobile_data_dialog_text">您無法再透過行動網路使用如網際網路、電子郵件與 YouTube 等的應用程式。繼續嗎？</string>
+    <string name="data_usage_disable_mobile_vzw_1">Unless you use Wi-Fi, you will no longer be able to use the Internet, Email or other apps that require a data connection.</string>
+    <string name="data_usage_disable_mobile_vzw_2">Turn off the mobile data connection?</string>
+    <string name="data_usage_disable_mobile_vzw">"除非您使用 Wi-Fi 網路，否則將無法使用網際網路、電子郵件或其他需要數據連接的應用程式。
+
+行動數據將被停用。"</string>
+    <string name="mobile_data_connect">連線</string>
+    <string name="mobile_data_connection_dialog_text">Mobile data connection is currently disabled. You need to connect Mobile data to use data applications such as Browser, Email and YouTube via mobile network. Do you want to make the connection?</string>
+    <string name="mobile_data_enable_toast_text">啟用飛航模式時無法連接行動網路。停用飛航模式然後重試。</string>
+    <string name="warning_alert_check">不再顯示</string>
+    <string name="blocking_mode_enable">當此模式啟用時，您選擇的功能通知將被停用。將僅能接收允許清單中的人的來電通知。</string>
+    <string name="blocking_mode_enable_for_grid_settings">封鎖模式將停用所選功能的通知。封鎖來電時，將只會收到允許聯絡人的來電通知。若要變更您的封鎖模式設定，請前往設定 > 個人化 > 封鎖模式。</string>
+    <string name="blocking_mode_enable_wifi">當此模式啟用時，您選擇的功能通知將被停用。</string>
+    <string name="blocking_mode_title">停用模式</string>
+    <string name="dormant_mode_off_message">若要啟用停用模式，請至少啟用一項下列功能。</string>
+    <string name="driving_mode_title">免持裝置模式</string>
+    <string name="driving_mode_on_dialog_msg_1">免持模式需在關閉 S Voice 免持後於設定中停用。若免持模式保持啟用，將自動讀出新通知與來電資訊。</string>
+    <string name="driving_mode_on_dialog_msg_2">可在 S Voice 免持中說出「關閉免持模式」或前往設定或通知面板中關閉免持模式。</string>
+    <string name="insert_sim_card">插入SIM卡</string>
+    <string name="insert_sim_card_message">請插入 SIM 卡以存取網路服務。</string>
+    <string name="wifi_enable_warning">開啟 Wi-Fi 將停用可攜式 Wi-Fi 無線基地台。繼續嗎？</string>
+    <string name="wifi_ap_turning_off">正在停用可攜式 Wi-Fi 無線基地台…</string>
+    <string name="no_sim_notification_title">無 SIM 卡</string>
+    <string name="no_sim_notification_title_tmo">沒有插入SIM卡。</string>
+    <string name="no_sim_notification_text">請插入 SIM 卡。</string>
+    <string name="accessibility_power_saving_mode">若要啟用省電模式，需至少啟用一個功能。</string>
+    <string name="accessibility_power_saving_mode_title">省電模式</string>
+    <string name="accessibility_driving_mode">若要啟用免持模式，至少啟用一個相關功能。</string>
+    <string name="accessibility_toddler_mode_activate">In Network restriction mode, you can use all your applications without connecting to the network. You can also receive calls and SMS messages. Network restriction mode will be enabled.</string>
+    <string name="accessibility_toddler_mode_deactivate">Network restriction mode will be disabled.</string>
+    <string name="charging_interruption_title">無法充電</string>
+    <string name="charging_interruption_by_terminal_open_text">無法變更您的裝置。請確認您使用與三星相容的電池與充電器，且您的裝置正確連接至充電器。</string>
+    <string name="charging_interruption_by_too_high_temperature_text">充電已暫停。電池溫度過高。</string>
+    <string name="charging_interruption_by_too_low_temperature_text">充電已暫停。電池溫度過低。</string>
+    <string name="charging_interruption_by_limit_high_temperature_text">"裝置已停止充電。電池溫度過高。中斷充電器連接時請小心。充電器可能非常熱。
+
+中斷充電器連接後重新連接可能可恢復正常充電。若過熱情況持續發生，請聯絡客戶服務以避免火災或傷害的風險。"</string>
+    <string name="full_battery_title">資訊</string>
+    <string name="full_battery_text">"電池已完全充電。
+請拔除充電器。"</string>
+    <string name="low_battery_title">電量不足</string>
+    <string name="critical_low_battery_title">電力嚴重不足</string>
+    <string name="low_battery_text">請連接到插頭插座以充電手機，並結束工作管理員中未使用的應用程式。若充電期間繼續使用手機，可能會影響充電效能。</string>
+    <string name="low_battery_text_charged_via_ta">結束工作管理員中未使用的應用程式。若充電期間繼續使用手機，可能會影響充電效能。</string>
+    <string name="low_battery_camera_warning_text">若電量低於 %d%% 將無法開啟相機。</string>
+    <string name="critical_low_battery_camera_warning_text">無法開啟相機。電量為 %d%% 或更低。</string>
+    <string name="start_force_consume_battery_title">提醒</string>
+    <string name="start_force_consume_battery_text">繼續使用裝置前請先等候至裝置降溫。</string>
+    <string name="stop_force_consume_battery_title">資訊</string>
+    <string name="stop_force_consume_battery_text">裝置已降溫。</string>
+    <string name="wireless_charging_title">無線充電。</string>
+    <string name="cable_charging_title">傳輸線充電</string>
+    <string name="wireless_charging_text">裝置已放置於充電範圍內。現在進行無線充電中…</string>
+    <string name="wireless_charging_from_wireless_to_cable_text">自無線充電切換至傳輸線充電</string>
+    <string name="wireless_charging_from_cable_to_wireless_text">自傳輸線充電切換至無線充電</string>
+    <string name="wireless_charging_spen_warning_text">您的裝置正在進行無線充電。S Pen 在無線充電器範圍內時將無法運作。</string>
+    <string name="incompatible_charger_title">未充電。</string>
+    <string name="incompatible_charger_dialog_text">The connected charger is incompatible with this phone. To prevent damage to your phone, charging has been stopped. To continue charging, use the original charger and cable that were provided with this phone.</string>
+    <string name="incompatible_charger_dialog_text_for_tablet">The connected charger is incompatible with this tablet. To prevent damage to your tablet, charging has been stopped. To continue charging, use the original charger and cable that were provided with this tablet.</string>
+    <string name="incompatible_charger_notification_text">Unable to charge. Use the original charger.</string>
+    <string name="slow_charging_title">Slow charging</string>
+    <string name="slow_charging_dialog_text">The connected charger will take longer to charge. To charge faster, use the original charger and cable that were provided with this phone.</string>
+    <string name="slow_charging_dialog_text_for_tablet">The connected charger will take longer to charge or may not charge at all. To charge faster, use the original charger and cable that were provided with this tablet.</string>
+    <string name="slow_charging_notification_text">To charge faster, use the original charger</string>
+    <string name="slow_charging_toast_text">To charge faster, use the charger and cable that were provided with this phone</string>
+    <string name="slow_charging_toast_text_for_tablet">To charge faster, use the charger and cable that were provided with this tablet.</string>
+    <string name="water_damage_warning_title">檢查充電背蓋</string>
+    <string name="water_damage_warning_text">若要防止水分滲入損害，使用前請緊密蓋上充電蓋。</string>
+    <string name="overheat_shutdown_warning_title">Too hot - Turning off</string>
+    <string name="overheat_shutdown_warning_text">Your phone is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_text_tablet">Your tablet is getting too hot. It will now turn off to cool down.</string>
+    <string name="overheat_shutdown_warning_button_text">"Don't turn off"</string>
+    <string name="overheat_shutdown_notice_title">Why did my phone turn off by itself?</string>
+    <string name="overheat_shutdown_notice_title_tablet">Why did my tablet turn off by itself?</string>
+    <string name="overheat_shutdown_notice_text">"Your phone got too hot. It turned off to prevent damage to the phone.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your phone in a very hot location."</string>
+    <string name="overheat_shutdown_notice_text_tablet">"Your tablet got too hot. It turned off to prevent damage to the tablet.
+
+Overheating can be caused by:
+Using graphics intensive apps like video games and navigation apps for long periods of time.
+Downloading or uploading large files.
+Using your tablet in a very hot location."</string>
+    <string name="overheat_poweroff_warning_title">關閉裝置</string>
+    <string name="overheat_poweroff_warning_text">您的裝置過熱。現在將關機以冷卻。</string>
+    <string name="overheat_poweroff_warning_button_text">不要關機</string>
+    <string name="overheat_poweroff_notice_title">裝置自動關機</string>
+    <string name="overheat_poweroff_notice_text">"您的裝置過熱。已關機以避免損壞。
+
+過熱可能因以下原因造成：
+長時間使用大量圖形處理的應用程式，例如遊戲與導航應用程式。
+傳輸大型檔案。
+在炎熱天氣中使用裝置。"</string>
+    <string name="power_sharing_warning_title">電力共享</string>
+    <string name="power_sharing_warning_text">您的電池電力低於電力共享上限。若要繼續電力共享，請將電力共享上限調整至低於目前的電池電力。</string>
+    <string name="power_sharing_start_toast_text">正在開始電力共享…</string>
+    <string name="power_sharing_end_notification_text">已結束電力共享。請中斷傳輸線連接。</string>
+    <string name="face_detection_failure_text">智慧休眠無法偵測您的雙眼。</string>
+    <string name="status_bar_recent_launch_task_manager_title">工作管理員</string>
+    <string name="status_bar_recent_launch_google_button">Google</string>
+    <string name="status_bar_recent_remove_all_button">關閉全部</string>
+    <string name="screen_capture_fail_for_storage_capacity">儲存裝置已滿。刪除部份項目。</string>
+    <string name="no_such_item">找不到項目。</string>
+    <string name="pickup_tutorial_title">嘗試智慧提醒</string>
+    <string name="put_your_phone">將裝置放下後，螢幕將關閉。</string>
+    <string name="phone_detect">假設您有未接來電或訊息。放下裝置，然後在螢幕關閉的情況下再次拿起。</string>
+    <string name="pick_up_your_phone">拿起裝置</string>
+    <string name="tutorial_complete">教學完成。</string>
+    <string name="camera_alert">通話期間無法啟動相機。</string>
+    <string name="stms_version">SM-G900F_EUR_20140228_0507</string>
+    <string name="wifi_cw_ready">已連接中國電信 Wi-Fi</string>
+    <string name="wifi_cw_ready_message">已連接至 Wi-Fi 網路，請撥打 10000 以瞭解帳單資訊，不使用時請關閉</string>
+    <string name="location_title">Standalone GPS consent</string>
+    <string name="location_3rdparty_gps_dialogtext">By selecting this setting, you are allowing access to all location information by any third party through web access or any software or peripheral components you chose to install, download, add/or attach to the device or any other means. Enabling this functionality could pose certain risks to users of this device. Data usage will apply.</string>
+    <string name="agree">同意</string>
+    <string name="location_masterswitch_dialogtext">"Your phone can share its approximate location with apps and services like maps, shopping and weather.
+
+Apps and services that use your location should inform you. Read the privacy policy of any app or service provider you are considering to understand how they collect, use and share your location information before you use them.
+
+Determining your location will use the mobile network. Data usage will apply."</string>
+    <string name="quickpanel_ctwap_text">CTWAP</string>
+    <string name="quickpanel_ctnet_text">CTNET</string>
+    <string name="tethering_attention_title">注意</string>
+    <string name="tethering_wifi_off_warning">啟用可攜式 Wi-Fi 無線基地台將關閉 Wi-Fi。</string>
+    <string name="quickpanel_air_view_warning">若要啟用懸筆感應，請至少啟用一項功能。</string>
+    <string name="quickpanel_air_view_warning_pen_support">若要啟用懸浮預覽，請自選擇的懸浮預覽模式中至少啟用一個功能。</string>
+    <string name="quickpanel_air_gesture_warning">若要啟用懸浮手勢，請至少啟用一項相關功能。</string>
+    <string name="quickpanel_air_gesture_warning_continue">輕觸並按住快速設定按鈕以前往相關設定。</string>
+    <string name="roaming_title">漫遊</string>
+    <string name="voice_and_data_roaming">Voice and data roaming</string>
+    <string name="data_only_roaming">Data only roaming</string>
+    <string name="voice_only_roaming">Voice only roaming</string>
+    <string name="gps_donotshow">不再顯示</string>
+    <string name="quickpanel_brightess_level">等級</string>
+    <string name="quickpanel_brightess_minus">減</string>
+    <string name="reading_mode_title">閱讀模式</string>
+    <string name="reading_mode_alert">閱讀模式已啟用。螢幕現在已為閱讀完成最佳化。此模式僅可於選擇的應用程式中使用。</string>
+    <string name="reading_mode_settings">設定</string>
+    <string name="automatic_brightness_message">自動亮度設定僅能套用於內部螢幕</string>
+    <string name="manual_brightness_message">亮度已經手動調整。自動亮度已停用。</string>
+    <string name="flight_mode_message_for_wifi_only">飛航模式可讓您關閉網路功能，包括 Wi-Fi 與藍牙。若要使用 Wi-Fi 與藍牙，請在設定中或通知面板上開啟。</string>
+    <string name="airplane_mode_message_on_for_vzw_only">Airplane mode turns off calling, messaging, and mobile network functions.</string>
+    <string name="tutorial_notification_panel_drag_down">使用一指自螢幕上方下拉狀態列。</string>
+    <string name="tutorial_notification_panel_drag_down_complete">將顯示通知面板。</string>
+    <string name="tutorial_quick_panel_drag_down">使用兩指自螢幕上方下拉狀態列。</string>
+    <string name="tutorial_quick_panel_drag_down_complete">將顯示快速設定面板。</string>
+    <string name="tutorial_expand_notification_panel_drag_down">使用兩指自通知面板下拉其中一個清單。</string>
+    <string name="tutorial_expand_notification_panel_drag_down_complete">將顯示更多關於選擇的清單資訊。</string>
+    <string name="tutorial_invaild_action">動作無效。請重試。</string>
+    <string name="talkback_text_for_air_view_button">TalkBack</string>
+    <string name="magnification_text_for_air_view_button">放大手勢</string>
+    <string name="smartbonding_dialog_title">下載加速器</string>
+    <string name="smartbonding_dialog_wifi_text">同時使用 Wi-Fi 與行動網路，以更快的速度下載大型檔案 (大於 %d MB)。請注意，根據網路狀態的不同，下載加速器可能透過僅使用 Wi-Fi 或 LTE 網路來下載檔案。</string>
+    <string name="smartbonding_dialog_mobile_text">同時使用 Wi-Fi 與行動網路，以更快的速度下載大型檔案 (大於 %d MB)。請注意，根據網路狀態的不同，下載加速器可能透過僅使用 Wi-Fi 或 LTE 網路來下載檔案。</string>
+    <string name="smart_bonding_popup_msg">將啟用下載加速器。經行動網路下載可能根據您的資費方案產生額外費用。</string>
+    <string name="smart_bonding_popup_msg_wifi">Wi-Fi 目前已關閉。若要啟用下載加速器， Wi-Fi 與行動數據將同時開啟。經行動網路下載可能根據您的資費方案產生額外費用。</string>
+    <string name="smart_bonding_popup_msg_data">行動數據目前已關閉。若要啟用下載加速器， Wi-Fi 與行動數據將同時開啟。經行動網路下載可能根據您的資費方案產生額外費用。</string>
+    <string name="smart_bonding_popup_msg_wifi_data">Wi-Fi 與行動數據目前均已關閉。若要啟用下載加速器， Wi-Fi 與行動數據將同時開啟。經行動網路下載可能根據您的資費方案產生額外費用。</string>
+    <string name="smart_bonding_popup_msg_roaming">漫遊時無法使用下載加速器。我們建議透過 Wi-Fi 網路下載。</string>
+    <string name="smart_bonding_popup_msg_wifi_btn">開啟 Wi-Fi</string>
+    <string name="smart_bonding_popup_msg_data_btn">開啟行動資料</string>
+    <string name="smart_bonding_popup_msg_wifi_data_btn">開啟 Wi-Fi 與行動數據</string>
+    <string name="smart_bonding_turn_off_text">%1$s 啟用時無法使用下載加速器。停用 %2$s 並重試。</string>
+    <string name="smart_bonding_turn_off_text_airplane_mode">啟用飛航模式時無法連接行動網路。停用飛航模式然後重試。</string>
+    <string name="dialog_battery_data_warning">可攜式 Wi-Fi 無線基地台會消耗大部份的電力並增加您的數據使用量。繼續嗎？</string>
+    <string name="tether_settings_title_wifi">可攜式無線基地台</string>
+    <string name="airplane_mode_usb_3_popup_text">Turning off Airplane mode will end your USB 3.0 connection and stop any ongoing data transfers.</string>
+    <string name="airplane_mode_usb_3_popup_title">通知</string>
+    <string name="airplane_mode_usb_3_popup_ok_button">End USB 3.0</string>
+    <string name="cooling_title">裝置過熱</string>
+    <string name="cooling_body">"您的裝置過熱。將執行降溫步驟。
+
+您仍可使用裝置，但是
+- 螢幕可能越來越暗。
+- 裝置速度可能變慢。
+- 充電可能暫停。
+
+關閉目前應用程式將協助使您的裝置降溫。
+
+在裝置降溫後，將自動回到正常效能。"</string>
+    <string name="cooling_noti_text">輕觸此處查看詳情。</string>
+    <string name="cooling_popup_name">通知</string>
+    <string name="cooling_noti_title">裝置過熱</string>
+    <string name="btn_text_yes">確定</string>
+    <string name="btn_text_no">取消</string>
+    <string name="device_overheating">裝置過熱</string>
+    <string name="colling_noti_text_2">無法開啟應用程式。僅能使用手機與聯絡人應用程式。</string>
+    <string name="vol_panel_audio_settings">更改您的音訊設定。</string>
+    <string name="guest_launge_warning_toast_text">處於訪客模式時無法啟用或停用 %s。</string>
+    <string name="safe_mode_title_vzw">關閉安全模式</string>
+    <string name="safe_mode_popup_body_vzw">你想重啟手機以關閉安全模式嗎？ 您的所有應用將被還原</string>
+    <string name="safe_mode_btn_cancel_vzw">取消</string>
+    <string name="safe_mode_off_btn_vzw">關閉安全模式</string>
+    <string name="safe_mode_noti_on_vzw">安全模式運行中</string>
+    <string name="safe_mode_noti_body_vzw">觸摸以關閉安全模式</string>
+    <string name="cooling_title_VZW">Cooling down</string>
+    <string name="cooling_body_VZW">"Your phone is getting too hot, so it's taking steps to cool itself down.
+
+You can still use your phone, but you may notice:
+The screen might dim.
+The phone might slow down.
+Charging might pause.
+
+After the phone cools down, performance will automatically go back to normal."</string>
+    <string name="cooling_noti_text_VZW">輕觸此處以深入瞭解。</string>
+    <string name="cooling_popup_name_VZW">通知</string>
+    <string name="cooling_noti_title_VZW">Cooling down</string>
+    <string name="btn_text_yes_VZW">確定</string>
+    <string name="btn_text_no_VZW">取消</string>
+    <string name="cooling_body_vzw_tablet">"Your tablet is getting too hot, so it’s taking steps to cool itself down.
+
+You can still use your tablet, but you may notice:
+The screen might dim.
+The tablet might slow down.
+Charging might pause.
+
+After the tablet cools down, performance will Automatically go back to normal."</string>
+    <string name="recent_menukey_press_description">長按最近使用的按鍵來檢視功能表。</string>
+    <string name="recent_menukey_press_description_vzw">功能表鍵已被最近使用的按鍵取代，以讓您在最近使用的應用程式間快速切換。輕觸說明取得更多資訊。</string>
+    <string name="recent_menukey_help_button">幫助</string>
+</resources>

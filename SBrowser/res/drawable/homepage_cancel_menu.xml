@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:layout_width="30.0dip" android:layout_height="30.0dip" android:drawable="@drawable/tw_action_bar_icon_cancel_02_holo_light" />
+    <item android:state_enabled="true" android:layout_width="30.0dip" android:layout_height="30.0dip" android:drawable="@drawable/tw_action_bar_icon_cancel_02_holo_light" />
+</selector>

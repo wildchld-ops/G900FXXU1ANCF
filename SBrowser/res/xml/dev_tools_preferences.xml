@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.google.android.apps.chrome">
+    <CheckBoxPreference android:title="@string/enable_reader_title" android:key="enable_reader" android:summary="@string/enable_reader_summary" android:defaultValue="true" />
+</PreferenceScreen>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_content_plugins_choices">
+        <item>Air i gcónaí</item>
+        <item>Ar éileamh</item>
+        <item>As</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Leathanach réamhshocraithe</item>
+        <item>Leathanach reatha</item>
+        <item>Mear-rochtain</item>
+        <item>Láithreáin is mó cuairt orthu</item>
+        <item>Eile</item>
+    </string-array>
+    <string-array name="pref_default_storage_choices">
+        <item>Gléas</item>
+        <item>Cárta SD</item>
+    </string-array>
+    <string-array name="pref_default_text_encoding_choices">
+        <item>Laidin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Sínis (GBK)</item>
+        <item>Sínis (Big5)</item>
+        <item>Seapáinis (ISO-2022-JP)</item>
+        <item>Seapáinis (SHIFT JIS)</item>
+        <item>Seapáinis (EUC-JP)</item>
+        <item>Cóiréis (EUC-KR)</item>
+        <item>Uathbhraith</item>
+    </string-array>
+</resources>

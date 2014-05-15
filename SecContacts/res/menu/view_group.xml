@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/tw_action_bar_icon_delete" android:id="@id/menu_remove_from_group" android:title="@string/menu_removeFromGroup" />
+    <item android:icon="@drawable/tw_action_bar_icon_edit_group" android:id="@id/menu_edit_group" android:title="@string/editGroupDescription" android:alphabeticShortcut="e" />
+    <item android:icon="@drawable/tw_action_bar_icon_sendmsg" android:id="@id/menu_send_group" android:title="@string/menu_send" />
+</menu>
