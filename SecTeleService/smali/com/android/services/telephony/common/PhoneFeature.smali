@@ -920,7 +920,7 @@
 .end method
 
 .method public static makeFeature(Landroid/content/Context;)V
-    .locals 0
+    .locals 4
 
     sput-object p0, Lcom/android/services/telephony/common/PhoneFeature;->mContext:Landroid/content/Context;
 
@@ -947,6 +947,60 @@
     invoke-static {}, Lcom/android/services/telephony/common/PhoneFeature;->makeFeatureForLatin()V
 
     invoke-static {}, Lcom/android/services/telephony/common/PhoneFeature;->makeFeatureForAustralia()V
+
+    sget-object v0, Lcom/android/services/telephony/common/PhoneFeature;->mFeatureList:Ljava/util/HashMap;
+
+    const-string v2, "voice_call_recording"
+
+    const/4 v1, 0x1
+
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v3
+
+    invoke-virtual {v0, v2, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    new-instance v0, Ljava/io/File;
+
+    const-string v1, "/sdcard/tweak/avcr_button"
+
+    invoke-direct {v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0}, Ljava/io/File;->exists()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    sget-object v0, Lcom/android/services/telephony/common/PhoneFeature;->mFeatureList:Ljava/util/HashMap;
+
+    const-string v2, "voice_call_recording_menu"
+
+    const/4 v1, 0x1
+
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v3
+
+    invoke-virtual {v0, v2, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    goto :goto_0
+
+    :cond_0
+    sget-object v0, Lcom/android/services/telephony/common/PhoneFeature;->mFeatureList:Ljava/util/HashMap;
+
+    const-string v2, "voice_call_recording_menu"
+
+    const/4 v1, 0x0
+
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v3
+
+    invoke-virtual {v0, v2, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    :goto_0
+    return-void
 
     return-void
 .end method
