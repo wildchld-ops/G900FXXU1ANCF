@@ -8,6 +8,8 @@
 
 
 # instance fields
+.field private mColor:I
+
 .field protected mLocationbar:Lcom/sec/android/app/sbrowser/toolbar/ui/LocationBar;
 
 .field public mOriginalUrlLocation:Ljava/lang/String;
@@ -129,6 +131,65 @@
 
 
 # virtual methods
+.method color_stuff()V
+    .locals 5
+
+    iget-object v0, p0, Lcom/sec/android/app/sbrowser/toolbar/ui/UrlEditTextBaseUi;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "link_url"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_0
+
+    iget-object v0, p0, Lcom/sec/android/app/sbrowser/toolbar/ui/UrlEditTextBaseUi;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_color"
+
+    const v3, -0x1000000
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/sec/android/app/sbrowser/toolbar/ui/UrlEditTextBaseUi;->mColor:I
+
+    return-void
+
+    :cond_0
+    iget-object v0, p0, Lcom/sec/android/app/sbrowser/toolbar/ui/UrlEditTextBaseUi;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "url_color"
+
+    const v3, -0x1000000
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/sec/android/app/sbrowser/toolbar/ui/UrlEditTextBaseUi;->mColor:I
+
+    return-void
+.end method
+
 .method public onKeyPreIme(ILandroid/view/KeyEvent;)Z
     .locals 3
 
@@ -234,7 +295,7 @@
 .end method
 
 .method public setUrl(Ljava/lang/String;Z)Z
-    .locals 8
+    .locals 9
 
     const/4 v5, 0x0
 
@@ -283,6 +344,12 @@
     if-nez v2, :cond_4
 
     invoke-virtual {p0, v3}, Lcom/sec/android/app/sbrowser/toolbar/ui/UrlEditTextBaseUi;->setText(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {p0}, Lcom/sec/android/app/sbrowser/toolbar/ui/UrlEditTextBaseUi;->color_stuff()V
+
+    iget v8, p0, Lcom/sec/android/app/sbrowser/toolbar/ui/UrlEditTextBaseUi;->mColor:I
+
+    invoke-virtual {p0, v8}, Landroid/widget/TextView;->setTextColor(I)V
 
     :cond_0
     :goto_1
@@ -340,6 +407,12 @@
     if-nez v6, :cond_0
 
     invoke-virtual {p0, v3}, Lcom/sec/android/app/sbrowser/toolbar/ui/UrlEditTextBaseUi;->setText(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {p0}, Lcom/sec/android/app/sbrowser/toolbar/ui/UrlEditTextBaseUi;->color_stuff()V
+
+    iget v8, p0, Lcom/sec/android/app/sbrowser/toolbar/ui/UrlEditTextBaseUi;->mColor:I
+
+    invoke-virtual {p0, v8}, Landroid/widget/TextView;->setTextColor(I)V
 
     goto :goto_1
 .end method
