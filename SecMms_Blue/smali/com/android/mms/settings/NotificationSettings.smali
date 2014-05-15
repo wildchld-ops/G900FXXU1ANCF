@@ -2205,8 +2205,6 @@
 
     move-result-object v1
 
-    invoke-direct {p0, v0, v1}, Lcom/android/mms/settings/NotificationSettings;->removePreference(Landroid/preference/PreferenceScreen;Landroid/preference/Preference;)V
-
     sget-boolean v0, Lcom/android/mms/settings/NotificationSettings;->isMultiSim:Z
 
     if-eqz v0, :cond_0
