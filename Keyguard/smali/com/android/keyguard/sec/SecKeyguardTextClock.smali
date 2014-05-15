@@ -3,6 +3,10 @@
 .source "SecKeyguardTextClock.java"
 
 
+# instance fields
+.field private mColor:I
+
+
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
@@ -51,6 +55,65 @@
 
 
 # virtual methods
+.method color_stuff()V
+    .locals 5
+
+    iget-object v0, p0, Lcom/android/keyguard/sec/SecKeyguardTextClock;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "link_lock_colors"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_0
+
+    iget-object v0, p0, Lcom/android/keyguard/sec/SecKeyguardTextClock;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/keyguard/sec/SecKeyguardTextClock;->mColor:I
+
+    return-void
+
+    :cond_0
+    iget-object v0, p0, Lcom/android/keyguard/sec/SecKeyguardTextClock;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "lock_colors"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/keyguard/sec/SecKeyguardTextClock;->mColor:I
+
+    return-void
+.end method
+
 .method public is24HourModeEnabled()Z
     .locals 8
 
@@ -431,7 +494,7 @@
 .end method
 
 .method protected onAttachedToWindow()V
-    .locals 3
+    .locals 4
 
     invoke-static {}, Lcom/android/keyguard/sec/KeyguardProperties;->isJapanFeature()Z
 
@@ -483,6 +546,12 @@
 
     invoke-virtual {p0, v0}, Lcom/android/keyguard/sec/SecKeyguardTextClock;->setFormat12Hour(Ljava/lang/CharSequence;)V
 
+    invoke-virtual {p0}, Lcom/android/keyguard/sec/SecKeyguardTextClock;->color_stuff()V
+
+    iget v3, p0, Lcom/android/keyguard/sec/SecKeyguardTextClock;->mColor:I
+
+    invoke-virtual {p0, v3}, Landroid/widget/TextView;->setTextColor(I)V
+
     :goto_0
     invoke-virtual {p0}, Lcom/android/keyguard/sec/SecKeyguardTextClock;->getFormat24Hour()Ljava/lang/CharSequence;
 
@@ -528,6 +597,12 @@
 
     invoke-virtual {p0, v0}, Lcom/android/keyguard/sec/SecKeyguardTextClock;->setFormat24Hour(Ljava/lang/CharSequence;)V
 
+    invoke-virtual {p0}, Lcom/android/keyguard/sec/SecKeyguardTextClock;->color_stuff()V
+
+    iget v3, p0, Lcom/android/keyguard/sec/SecKeyguardTextClock;->mColor:I
+
+    invoke-virtual {p0, v3}, Landroid/widget/TextView;->setTextColor(I)V
+
     :goto_1
     invoke-super {p0}, Landroid/widget/TextClock;->onAttachedToWindow()V
 
@@ -540,6 +615,12 @@
 
     invoke-virtual {p0, v0}, Lcom/android/keyguard/sec/SecKeyguardTextClock;->setFormat12Hour(Ljava/lang/CharSequence;)V
 
+    invoke-virtual {p0}, Lcom/android/keyguard/sec/SecKeyguardTextClock;->color_stuff()V
+
+    iget v3, p0, Lcom/android/keyguard/sec/SecKeyguardTextClock;->mColor:I
+
+    invoke-virtual {p0, v3}, Landroid/widget/TextView;->setTextColor(I)V
+
     goto :goto_0
 
     :cond_1
@@ -548,6 +629,12 @@
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/android/keyguard/sec/SecKeyguardTextClock;->setFormat24Hour(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {p0}, Lcom/android/keyguard/sec/SecKeyguardTextClock;->color_stuff()V
+
+    iget v3, p0, Lcom/android/keyguard/sec/SecKeyguardTextClock;->mColor:I
+
+    invoke-virtual {p0, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
     goto :goto_1
 
@@ -558,11 +645,23 @@
 
     invoke-virtual {p0, v0}, Lcom/android/keyguard/sec/SecKeyguardTextClock;->setFormat12Hour(Ljava/lang/CharSequence;)V
 
+    invoke-virtual {p0}, Lcom/android/keyguard/sec/SecKeyguardTextClock;->color_stuff()V
+
+    iget v3, p0, Lcom/android/keyguard/sec/SecKeyguardTextClock;->mColor:I
+
+    invoke-virtual {p0, v3}, Landroid/widget/TextView;->setTextColor(I)V
+
     invoke-virtual {p0}, Lcom/android/keyguard/sec/SecKeyguardTextClock;->getFormat24Hour()Ljava/lang/CharSequence;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/android/keyguard/sec/SecKeyguardTextClock;->setFormat24Hour(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {p0}, Lcom/android/keyguard/sec/SecKeyguardTextClock;->color_stuff()V
+
+    iget v3, p0, Lcom/android/keyguard/sec/SecKeyguardTextClock;->mColor:I
+
+    invoke-virtual {p0, v3}, Landroid/widget/TextView;->setTextColor(I)V
 
     goto :goto_1
 .end method

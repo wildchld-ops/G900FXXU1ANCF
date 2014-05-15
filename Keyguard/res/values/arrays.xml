@@ -286,6 +286,7 @@
         <item>p4note</item>
         <item>t0lte</item>
         <item>kona</item>
+        <item>klte</item>
     </string-array>
     <string-array name="keyguard_local_config_is_use_favorite_app_widget">
         <item>hlte</item>

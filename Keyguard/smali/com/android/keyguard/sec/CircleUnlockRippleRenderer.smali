@@ -140,6 +140,12 @@
 
 .field private drawCount:I
 
+.field fBlue:F
+
+.field fGreen:F
+
+.field fRed:F
+
 .field fWaterBrightness:F
 
 .field glX:F
@@ -287,6 +293,8 @@
 
 .field private moveCount:I
 
+.field mrandom:I
+
 .field private prevPressTime:J
 
 .field private prevWidth_sufaceChanged:I
@@ -366,7 +374,7 @@
 
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Landroid/view/View;)V
-    .locals 10
+    .locals 11
 
     const/high16 v9, 0x3f80
 
@@ -554,9 +562,25 @@
 
     iput v2, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->HOVER_EXPONENT_RATIO_MAX:F
 
+    const/high16 v0, -0x4080
+
+    iput v2, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fRed:F
+
+    iput v2, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fGreen:F
+
+    iput v2, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fBlue:F
+
     const v2, 0x3ccccccd
 
     iput v2, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->HOVER_INTENSITY_MAX:F
+
+    const/high16 v2, -0x4080
+
+    iput v2, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fRed:F
+
+    iput v2, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fGreen:F
+
+    iput v2, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fBlue:F
 
     const v2, 0x3c23d70a
 
@@ -602,7 +626,7 @@
 
     iput v2, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->mLightHeight:F
 
-    const v2, 0x3f6e147b
+    const v2, 0x1
 
     iput v2, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->refractiveIndex:F
 
@@ -610,9 +634,13 @@
 
     iput v2, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->reflectionRatio:F
 
-    iput v9, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->alphaRatio1:F
+    const v2, 0x0
 
-    iput v9, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->alphaRatio2:F
+    iput v2, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->alphaRatio1:F
+
+    const/high16 v2, 0x3f80
+
+    iput v2, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->alphaRatio2:F
 
     iput-object v3, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->bitmapBG:Landroid/graphics/Bitmap;
 
@@ -3437,7 +3465,7 @@
 
     move-result-object v0
 
-    const-string v1, "pen_hovering_ink_effect"
+    const-string v1, "db_pen_hovering_ink_effect"
 
     const/4 v2, 0x0
 
@@ -5105,7 +5133,7 @@
 
     const/16 v2, 0x4002
 
-    if-ne v1, v2, :cond_9
+    if-ne v1, v1, :cond_9
 
     iget v1, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->mouseX:F
 
@@ -5361,7 +5389,7 @@
 
     sget-object v2, Lcom/android/keyguard/sec/inkeffect/Def$ModeType;->RIPPLE_LIGHT:Lcom/android/keyguard/sec/inkeffect/Def$ModeType;
 
-    if-ne v1, v2, :cond_6
+    if-ne v1, v2, :cond_7
 
     move-object/from16 v0, p0
 
@@ -5403,7 +5431,7 @@
 
     move-result v1
 
-    if-eqz v1, :cond_7
+    if-eqz v1, :cond_8
 
     const-string v1, "CircleUnlockRippleRenderer"
 
@@ -5429,13 +5457,13 @@
 
     iget-boolean v1, v0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->mLandscape:Z
 
-    if-nez v1, :cond_9
+    if-nez v1, :cond_b
 
     sget-object v1, Lcom/android/keyguard/sec/inkeffect/Def;->MODE:Lcom/android/keyguard/sec/inkeffect/Def$ModeType;
 
     sget-object v2, Lcom/android/keyguard/sec/inkeffect/Def$ModeType;->RIPPLE_LIGHT_WITH_GRAVITY:Lcom/android/keyguard/sec/inkeffect/Def$ModeType;
 
-    if-ne v1, v2, :cond_8
+    if-ne v1, v2, :cond_9
 
     move-object/from16 v0, p0
 
@@ -5633,6 +5661,31 @@
 
     move/from16 v29, v0
 
+    invoke-virtual/range {p0 .. p0}, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->parseColor()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fRed:F
+
+    move/from16 v16, v0
+
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fGreen:F
+
+    move/from16 v17, v0
+
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fBlue:F
+
+    move/from16 v18, v0
+
+    :cond_4
     invoke-static/range {v1 .. v29}, Lcom/android/keyguard/sec/JniWaterRippleRender;->onDrawGravity([F[F[SIII[FIIIIFFFFFFFFFFIFFFFFZF)V
 
     :goto_2
@@ -5640,18 +5693,18 @@
 
     iget v1, v0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->drawCount:I
 
-    if-lez v1, :cond_4
+    if-lez v1, :cond_5
 
     invoke-direct/range {p0 .. p0}, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->move()V
 
-    :cond_4
+    :cond_5
     move-object/from16 v0, p0
 
     iget v1, v0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->drawCount:I
 
     const/4 v2, 0x2
 
-    if-ge v1, v2, :cond_5
+    if-ge v1, v2, :cond_6
 
     move-object/from16 v0, p0
 
@@ -5663,10 +5716,10 @@
 
     iput v1, v0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->drawCount:I
 
-    :cond_5
+    :cond_6
     return-void
 
-    :cond_6
+    :cond_7
     sget-object v1, Lcom/android/keyguard/sec/inkeffect/Def;->MODE:Lcom/android/keyguard/sec/inkeffect/Def$ModeType;
 
     sget-object v2, Lcom/android/keyguard/sec/inkeffect/Def$ModeType;->RIPPLE_LIGHT_WITH_INK:Lcom/android/keyguard/sec/inkeffect/Def$ModeType;
@@ -5689,7 +5742,7 @@
 
     goto/16 :goto_0
 
-    :cond_7
+    :cond_8
     sget-object v1, Lcom/android/keyguard/sec/inkeffect/Def;->MODE:Lcom/android/keyguard/sec/inkeffect/Def$ModeType;
 
     sget-object v2, Lcom/android/keyguard/sec/inkeffect/Def$ModeType;->RIPPLE_LIGHT_WITH_GRAVITY:Lcom/android/keyguard/sec/inkeffect/Def$ModeType;
@@ -5704,7 +5757,7 @@
 
     goto/16 :goto_1
 
-    :cond_8
+    :cond_9
     move-object/from16 v0, p0
 
     iget-object v1, v0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->vertices:[F
@@ -5857,16 +5910,41 @@
 
     move/from16 v21, v0
 
+    invoke-virtual/range {p0 .. p0}, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->parseColor()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fRed:F
+
+    move/from16 v16, v0
+
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fGreen:F
+
+    move/from16 v17, v0
+
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fBlue:F
+
+    move/from16 v18, v0
+
+    :cond_a
     invoke-static/range {v1 .. v21}, Lcom/android/keyguard/sec/JniWaterRippleRender;->onDraw([F[F[SIII[FIIIIFFFFFFFFFF)V
 
     goto/16 :goto_2
 
-    :cond_9
+    :cond_b
     sget-object v1, Lcom/android/keyguard/sec/inkeffect/Def;->MODE:Lcom/android/keyguard/sec/inkeffect/Def$ModeType;
 
     sget-object v2, Lcom/android/keyguard/sec/inkeffect/Def$ModeType;->RIPPLE_LIGHT_WITH_GRAVITY:Lcom/android/keyguard/sec/inkeffect/Def$ModeType;
 
-    if-ne v1, v2, :cond_a
+    if-ne v1, v2, :cond_d
 
     move-object/from16 v0, p0
 
@@ -6064,11 +6142,36 @@
 
     move/from16 v29, v0
 
+    invoke-virtual/range {p0 .. p0}, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->parseColor()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_c
+
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fRed:F
+
+    move/from16 v16, v0
+
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fGreen:F
+
+    move/from16 v17, v0
+
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fBlue:F
+
+    move/from16 v18, v0
+
+    :cond_c
     invoke-static/range {v1 .. v29}, Lcom/android/keyguard/sec/JniWaterRippleRender;->onDrawGravity([F[F[SIII[FIIIIFFFFFFFFFFIFFFFFZF)V
 
     goto/16 :goto_2
 
-    :cond_a
+    :cond_d
     move-object/from16 v0, p0
 
     iget-object v1, v0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->vertices:[F
@@ -6221,6 +6324,31 @@
 
     move/from16 v21, v0
 
+    invoke-virtual/range {p0 .. p0}, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->parseColor()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_e
+
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fRed:F
+
+    move/from16 v16, v0
+
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fGreen:F
+
+    move/from16 v17, v0
+
+    move-object/from16 v0, p0
+
+    iget v0, v0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fBlue:F
+
+    move/from16 v18, v0
+
+    :cond_e
     invoke-static/range {v1 .. v21}, Lcom/android/keyguard/sec/JniWaterRippleRender;->onDraw([F[F[SIII[FIIIIFFFFFFFFFF)V
 
     goto/16 :goto_2
@@ -7389,6 +7517,125 @@
     return-void
 .end method
 
+.method public parseColor()Z
+    .locals 9
+
+    const-wide v7, 0x406fe00000000000L
+
+    const-wide/high16 v5, 0x3ff0
+
+    iget-object v2, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v2}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v2
+
+    const-string v3, "random_ink"
+
+    const/4 v4, 0x0
+
+    invoke-static {v2, v3, v4}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v3
+
+    if-nez v3, :cond_0
+
+    const-string v3, "db_inkeffect_picker"
+
+    const/4 v4, 0x0
+
+    invoke-static {v2, v3, v4}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    goto :goto_0
+
+    :cond_0
+    iget v1, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->mrandom:I
+
+    :goto_0
+    const/4 v0, 0x0
+
+    if-eqz v1, :cond_1
+
+    const/4 v0, 0x1
+
+    invoke-static {v1}, Landroid/graphics/Color;->red(I)I
+
+    move-result v2
+
+    int-to-double v2, v2
+
+    mul-double/2addr v2, v5
+
+    div-double/2addr v2, v7
+
+    double-to-float v2, v2
+
+    iput v2, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fRed:F
+
+    invoke-static {v1}, Landroid/graphics/Color;->green(I)I
+
+    move-result v2
+
+    int-to-double v2, v2
+
+    mul-double/2addr v2, v5
+
+    div-double/2addr v2, v7
+
+    double-to-float v2, v2
+
+    iput v2, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fGreen:F
+
+    invoke-static {v1}, Landroid/graphics/Color;->blue(I)I
+
+    move-result v2
+
+    int-to-double v2, v2
+
+    mul-double/2addr v2, v5
+
+    div-double/2addr v2, v7
+
+    double-to-float v2, v2
+
+    iput v2, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->fBlue:F
+
+    :cond_1
+    return v0
+.end method
+
+.method public randomcolor()I
+    .locals 6
+
+    const/16 v5, 0x100
+
+    new-instance v1, Ljava/util/Random;
+
+    invoke-direct {v1}, Ljava/util/Random;-><init>()V
+
+    const/16 v2, 0xff
+
+    invoke-virtual {v1, v5}, Ljava/util/Random;->nextInt(I)I
+
+    move-result v3
+
+    invoke-virtual {v1, v5}, Ljava/util/Random;->nextInt(I)I
+
+    move-result v4
+
+    invoke-virtual {v1, v5}, Ljava/util/Random;->nextInt(I)I
+
+    move-result v5
+
+    invoke-static {v2, v3, v4, v5}, Landroid/graphics/Color;->argb(IIII)I
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public reset()V
     .locals 2
 
@@ -7438,7 +7685,13 @@
 .end method
 
 .method public screenTurnedOn()V
-    .locals 2
+    .locals 5
+
+    invoke-virtual {p0}, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->randomcolor()I
+
+    move-result v4
+
+    iput v4, p0, Lcom/android/keyguard/sec/CircleUnlockRippleRenderer;->mrandom:I
 
     const-string v0, "CircleUnlockRippleRenderer"
 

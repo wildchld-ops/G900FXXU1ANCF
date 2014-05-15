@@ -2183,6 +2183,26 @@
     goto :goto_0
 .end method
 
+.method private checkLockType()Z
+    .locals 3
+
+    const/4 v2, 0x0
+
+    iget-object v0, p0, Lcom/android/keyguard/KeyguardHostView;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v0
+
+    const-string v1, "lockscreen_style_type"
+
+    invoke-static {v0, v1, v2}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    return v1
+.end method
+
 .method private cleanupAppWidgetIds()V
     .locals 10
 
@@ -3385,11 +3405,17 @@
     return v0
 
     :pswitch_0
+    invoke-direct {p0}, Lcom/android/keyguard/KeyguardHostView;->checkLockType()Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
     invoke-static {}, Lcom/android/keyguard/sec/KeyguardProperties;->isJapanFeature()Z
 
     move-result v0
 
-    if-eqz v0, :cond_0
+    if-eqz v0, :cond_1
 
     invoke-static {}, Landroid/app/ActivityManager;->getCurrentUser()I
 
@@ -3403,15 +3429,16 @@
 
     move-result v1
 
-    if-eqz v1, :cond_0
+    if-eqz v1, :cond_1
 
-    if-nez v0, :cond_0
+    if-nez v0, :cond_1
 
+    :cond_0
     const v0, 0x7f030029
 
     goto :goto_0
 
-    :cond_0
+    :cond_1
     const v0, 0x7f030035
 
     goto :goto_0
@@ -3431,12 +3458,12 @@
 
     move-result v2
 
-    if-ne v2, v1, :cond_1
+    if-ne v2, v1, :cond_2
 
     move v0, v1
 
-    :cond_1
-    if-ne v0, v1, :cond_2
+    :cond_2
+    if-ne v0, v1, :cond_3
 
     iget-object v0, p0, Lcom/android/keyguard/KeyguardHostView;->mLockPatternUtils:Lcom/android/internal/widget/LockPatternUtils;
 
@@ -3444,13 +3471,13 @@
 
     move-result v0
 
-    if-nez v0, :cond_2
+    if-nez v0, :cond_3
 
     const v0, 0x7f030021
 
     goto :goto_0
 
-    :cond_2
+    :cond_3
     const v0, 0x7f030020
 
     goto :goto_0
@@ -3468,18 +3495,18 @@
     :pswitch_4
     iget-boolean v0, p0, Lcom/android/keyguard/KeyguardHostView;->mIsVoiceUnlockOn:Z
 
-    if-eqz v0, :cond_3
+    if-eqz v0, :cond_4
 
     iget-boolean v0, p0, Lcom/android/keyguard/KeyguardHostView;->mIsTalkbackDrvModeOn:Z
 
-    if-eqz v0, :cond_4
+    if-eqz v0, :cond_5
 
-    :cond_3
+    :cond_4
     const v0, 0x7f03000d
 
     goto :goto_0
 
-    :cond_4
+    :cond_5
     const v0, 0x7f03000e
 
     goto :goto_0
@@ -3527,13 +3554,13 @@
     :pswitch_d
     sget-boolean v0, Lcom/android/keyguard/KeyguardUpdateMonitor;->sIsMultiSimEnabled:Z
 
-    if-eqz v0, :cond_5
+    if-eqz v0, :cond_6
 
     const v0, 0x7f030039
 
-    goto :goto_0
+    goto/16 :goto_0
 
-    :cond_5
+    :cond_6
     const v0, 0x7f03002d
 
     goto/16 :goto_0
@@ -3541,13 +3568,13 @@
     :pswitch_e
     sget-boolean v0, Lcom/android/keyguard/KeyguardUpdateMonitor;->sIsMultiSimEnabled:Z
 
-    if-eqz v0, :cond_6
+    if-eqz v0, :cond_7
 
     const v0, 0x7f03003a
 
     goto/16 :goto_0
 
-    :cond_6
+    :cond_7
     const v0, 0x7f03002e
 
     goto/16 :goto_0
@@ -3571,6 +3598,8 @@
     const v0, 0x7f03002f
 
     goto/16 :goto_0
+
+    nop
 
     :pswitch_data_0
     .packed-switch 0x1
@@ -3823,11 +3852,17 @@
     return v0
 
     :pswitch_0
+    invoke-direct {p0}, Lcom/android/keyguard/KeyguardHostView;->checkLockType()Z
+
+    move-result v1
+
+    if-nez v1, :cond_0
+
     invoke-static {}, Lcom/android/keyguard/sec/KeyguardProperties;->isJapanFeature()Z
 
     move-result v0
 
-    if-eqz v0, :cond_0
+    if-eqz v0, :cond_1
 
     invoke-static {}, Landroid/app/ActivityManager;->getCurrentUser()I
 
@@ -3841,15 +3876,16 @@
 
     move-result v1
 
-    if-eqz v1, :cond_0
+    if-eqz v1, :cond_1
 
-    if-nez v0, :cond_0
+    if-nez v0, :cond_1
 
+    :cond_0
     const v0, 0x7f0b00be
 
     goto :goto_0
 
-    :cond_0
+    :cond_1
     const v0, 0x7f0b00e5
 
     goto :goto_0
@@ -3869,12 +3905,12 @@
 
     move-result v2
 
-    if-ne v2, v1, :cond_1
+    if-ne v2, v1, :cond_2
 
     move v0, v1
 
-    :cond_1
-    if-ne v0, v1, :cond_2
+    :cond_2
+    if-ne v0, v1, :cond_3
 
     iget-object v0, p0, Lcom/android/keyguard/KeyguardHostView;->mLockPatternUtils:Lcom/android/internal/widget/LockPatternUtils;
 
@@ -3882,13 +3918,13 @@
 
     move-result v0
 
-    if-nez v0, :cond_2
+    if-nez v0, :cond_3
 
     const v0, 0x7f0b00ab
 
     goto :goto_0
 
-    :cond_2
+    :cond_3
     const v0, 0x7f0b00a9
 
     goto :goto_0
@@ -3906,18 +3942,18 @@
     :pswitch_4
     iget-boolean v0, p0, Lcom/android/keyguard/KeyguardHostView;->mIsVoiceUnlockOn:Z
 
-    if-eqz v0, :cond_3
+    if-eqz v0, :cond_4
 
     iget-boolean v0, p0, Lcom/android/keyguard/KeyguardHostView;->mIsTalkbackDrvModeOn:Z
 
-    if-eqz v0, :cond_4
+    if-eqz v0, :cond_5
 
-    :cond_3
+    :cond_4
     const v0, 0x7f0b004c
 
     goto :goto_0
 
-    :cond_4
+    :cond_5
     const v0, 0x7f0b0050
 
     goto :goto_0
@@ -3965,13 +4001,13 @@
     :pswitch_d
     sget-boolean v0, Lcom/android/keyguard/KeyguardUpdateMonitor;->sIsMultiSimEnabled:Z
 
-    if-eqz v0, :cond_5
+    if-eqz v0, :cond_6
 
     const v0, 0x7f0b00eb
 
-    goto :goto_0
+    goto/16 :goto_0
 
-    :cond_5
+    :cond_6
     const v0, 0x7f0b00c7
 
     goto/16 :goto_0
@@ -3979,13 +4015,13 @@
     :pswitch_e
     sget-boolean v0, Lcom/android/keyguard/KeyguardUpdateMonitor;->sIsMultiSimEnabled:Z
 
-    if-eqz v0, :cond_6
+    if-eqz v0, :cond_7
 
     const v0, 0x7f0b00ec
 
     goto/16 :goto_0
 
-    :cond_6
+    :cond_7
     const v0, 0x7f0b00c9
 
     goto/16 :goto_0
@@ -4009,6 +4045,8 @@
     const v0, 0x7f0b00ca
 
     goto/16 :goto_0
+
+    nop
 
     nop
 

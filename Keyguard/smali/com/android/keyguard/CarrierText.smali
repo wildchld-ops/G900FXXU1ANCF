@@ -20,6 +20,8 @@
 # instance fields
 .field private mCallback:Lcom/android/keyguard/KeyguardUpdateMonitorCallback;
 
+.field private mColor:I
+
 .field private mLockPatternUtils:Lcom/android/internal/widget/LockPatternUtils;
 
 
@@ -301,6 +303,65 @@
 
 
 # virtual methods
+.method color_stuff()V
+    .locals 5
+
+    iget-object v0, p0, Lcom/android/keyguard/CarrierText;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "link_lock_colors"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_0
+
+    iget-object v0, p0, Lcom/android/keyguard/CarrierText;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/keyguard/CarrierText;->mColor:I
+
+    return-void
+
+    :cond_0
+    iget-object v0, p0, Lcom/android/keyguard/CarrierText;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "lock_colors"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/keyguard/CarrierText;->mColor:I
+
+    return-void
+.end method
+
 .method protected getCarrierTextForSimState(Lcom/android/internal/telephony/IccCardConstants$State;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
     .locals 6
 
@@ -655,13 +716,19 @@
 .end method
 
 .method protected updateCarrierText(Lcom/android/internal/telephony/IccCardConstants$State;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V
-    .locals 1
+    .locals 2
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/android/keyguard/CarrierText;->getCarrierTextForSimState(Lcom/android/internal/telephony/IccCardConstants$State;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/android/keyguard/CarrierText;->setText(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {p0}, Lcom/android/keyguard/CarrierText;->color_stuff()V
+
+    iget v1, p0, Lcom/android/keyguard/CarrierText;->mColor:I
+
+    invoke-virtual {p0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
     return-void
 .end method

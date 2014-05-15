@@ -14,6 +14,8 @@
 
 .field private mBroadcastReceiver:Landroid/content/BroadcastReceiver;
 
+.field private mColor:I
+
 .field private mContentObserver:Landroid/database/ContentObserver;
 
 .field private mDualClock:Landroid/view/View;
@@ -524,7 +526,7 @@
 .end method
 
 .method private refreshAlarm()V
-    .locals 7
+    .locals 8
 
     const/16 v6, 0x8
 
@@ -575,6 +577,12 @@
     move-result-object v2
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {p0}, Lcom/android/keyguard/sec/SecKeyguardClock;->color_stuff()V
+
+    iget v7, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mColor:I
+
+    invoke-virtual {v1, v7}, Landroid/widget/TextView;->setTextColor(I)V
 
     invoke-static {}, Lcom/android/keyguard/sec/KeyguardProperties;->isPreviousLook()Z
 
@@ -640,7 +648,7 @@
 .end method
 
 .method private refreshOwnerInfo()V
-    .locals 4
+    .locals 5
 
     iget-object v1, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mOwnerInfo:Landroid/widget/TextView;
 
@@ -670,6 +678,12 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
+    invoke-virtual {p0}, Lcom/android/keyguard/sec/SecKeyguardClock;->color_stuff()V
+
+    iget v4, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mColor:I
+
+    invoke-virtual {v1, v4}, Landroid/widget/TextView;->setTextColor(I)V
+
     iget-object v1, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mOwnerInfo:Landroid/widget/TextView;
 
     const/4 v2, 0x0
@@ -689,7 +703,7 @@
 .end method
 
 .method private refreshTravelInfo()V
-    .locals 4
+    .locals 5
 
     invoke-static {}, Lcom/android/keyguard/sec/KeyguardProperties;->isTablet()Z
 
@@ -737,6 +751,12 @@
     iget-object v1, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mTravelText:Landroid/widget/TextView;
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {p0}, Lcom/android/keyguard/sec/SecKeyguardClock;->color_stuff()V
+
+    iget v4, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mColor:I
+
+    invoke-virtual {v1, v4}, Landroid/widget/TextView;->setTextColor(I)V
 
     iget-object v1, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mTravelText:Landroid/widget/TextView;
 
@@ -1731,7 +1751,7 @@
 .end method
 
 .method private updateDualClock()V
-    .locals 11
+    .locals 12
 
     const v10, 0x7f0600d1
 
@@ -1973,6 +1993,12 @@
 
     invoke-virtual {v5, v8}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
+    invoke-virtual {p0}, Lcom/android/keyguard/sec/SecKeyguardClock;->color_stuff()V
+
+    iget v11, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mColor:I
+
+    invoke-virtual {v5, v11}, Landroid/widget/TextView;->setTextColor(I)V
+
     iget-object v8, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mDualHomeDate:Landroid/widget/TextView;
 
     if-eqz v2, :cond_9
@@ -2048,6 +2074,12 @@
     move-result-object v8
 
     invoke-virtual {v5, v8}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {p0}, Lcom/android/keyguard/sec/SecKeyguardClock;->color_stuff()V
+
+    iget v11, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mColor:I
+
+    invoke-virtual {v5, v11}, Landroid/widget/TextView;->setTextColor(I)V
 
     iget-object v5, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mDualRoamingDate:Landroid/widget/TextView;
 
@@ -2136,6 +2168,12 @@
 
     invoke-virtual {v5, v8}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
+    invoke-virtual {p0}, Lcom/android/keyguard/sec/SecKeyguardClock;->color_stuff()V
+
+    iget v11, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mColor:I
+
+    invoke-virtual {v5, v11}, Landroid/widget/TextView;->setTextColor(I)V
+
     goto/16 :goto_3
 
     :cond_8
@@ -2154,6 +2192,12 @@
     move-result-object v8
 
     invoke-virtual {v5, v8}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {p0}, Lcom/android/keyguard/sec/SecKeyguardClock;->color_stuff()V
+
+    iget v11, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mColor:I
+
+    invoke-virtual {v5, v11}, Landroid/widget/TextView;->setTextColor(I)V
 
     goto/16 :goto_3
 
@@ -2175,6 +2219,12 @@
 
     invoke-virtual {v5, v8}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
+    invoke-virtual {p0}, Lcom/android/keyguard/sec/SecKeyguardClock;->color_stuff()V
+
+    iget v11, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mColor:I
+
+    invoke-virtual {v5, v11}, Landroid/widget/TextView;->setTextColor(I)V
+
     goto/16 :goto_5
 
     :cond_b
@@ -2190,6 +2240,12 @@
 
     invoke-virtual {v5, v8}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
+    invoke-virtual {p0}, Lcom/android/keyguard/sec/SecKeyguardClock;->color_stuff()V
+
+    iget v11, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mColor:I
+
+    invoke-virtual {v5, v11}, Landroid/widget/TextView;->setTextColor(I)V
+
     goto/16 :goto_5
 
     :cond_c
@@ -2199,7 +2255,7 @@
 .end method
 
 .method private updateSingleClock()V
-    .locals 9
+    .locals 10
 
     const/16 v6, 0x8
 
@@ -2262,6 +2318,12 @@
     move-result-object v7
 
     invoke-virtual {v3, v7}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {p0}, Lcom/android/keyguard/sec/SecKeyguardClock;->color_stuff()V
+
+    iget v9, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mColor:I
+
+    invoke-virtual {v3, v9}, Landroid/widget/TextView;->setTextColor(I)V
 
     iget-object v3, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mSingleDate:Landroid/widget/TextView;
 
@@ -2435,6 +2497,65 @@
 
 
 # virtual methods
+.method color_stuff()V
+    .locals 5
+
+    iget-object v0, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "link_lock_colors"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_0
+
+    iget-object v0, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mColor:I
+
+    return-void
+
+    :cond_0
+    iget-object v0, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "lock_colors"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/keyguard/sec/SecKeyguardClock;->mColor:I
+
+    return-void
+.end method
+
 .method protected onAttachedToWindow()V
     .locals 5
 
