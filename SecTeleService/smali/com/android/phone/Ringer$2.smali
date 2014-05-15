@@ -29,6 +29,34 @@
     return-void
 .end method
 
+.method private static isIncVolumeDisable(Landroid/content/Context;)Z
+    .locals 4
+
+    const/4 v0, 0x1
+
+    const/4 v1, 0x0
+
+    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v2
+
+    const-string v3, "db_inc_volume_disable"
+
+    invoke-static {v2, v3, v0}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v2
+
+    if-ne v2, v0, :cond_0
+
+    :goto_0
+    return v0
+
+    :cond_0
+    move v0, v1
+
+    goto :goto_0
+.end method
+
 
 # virtual methods
 .method public handleMessage(Landroid/os/Message;)V
@@ -165,7 +193,7 @@
 
     move-result v2
 
-    if-eqz v2, :cond_c
+    if-eqz v2, :cond_d
 
     iget-object v2, p0, Lcom/android/phone/Ringer$2;->this$0:Lcom/android/phone/Ringer;
 
@@ -174,7 +202,7 @@
 
     move-result v2
 
-    if-ne v3, v2, :cond_c
+    if-ne v3, v2, :cond_d
 
     :cond_3
     iget-object v2, p0, Lcom/android/phone/Ringer$2;->this$0:Lcom/android/phone/Ringer;
@@ -184,7 +212,7 @@
 
     move-result v2
 
-    if-nez v2, :cond_b
+    if-nez v2, :cond_c
 
     iget-object v2, p0, Lcom/android/phone/Ringer$2;->this$0:Lcom/android/phone/Ringer;
 
@@ -261,7 +289,7 @@
 
     move-result-object v0
 
-    if-nez v0, :cond_f
+    if-nez v0, :cond_10
 
     iget-object v2, p0, Lcom/android/phone/Ringer$2;->this$0:Lcom/android/phone/Ringer;
 
@@ -350,7 +378,7 @@
     :cond_8
     iget v2, p1, Landroid/os/Message;->what:I
 
-    if-eq v2, v3, :cond_10
+    if-eq v2, v3, :cond_11
 
     iget-object v2, p0, Lcom/android/phone/Ringer$2;->this$0:Lcom/android/phone/Ringer;
 
@@ -359,7 +387,7 @@
 
     move-result v2
 
-    if-eqz v2, :cond_10
+    if-eqz v2, :cond_11
 
     invoke-virtual {v1, v3}, Landroid/media/Ringtone;->setRepeat(Z)V
 
@@ -370,7 +398,7 @@
 
     move-result v2
 
-    if-eqz v2, :cond_12
+    if-eqz v2, :cond_13
 
     iget-object v2, p0, Lcom/android/phone/Ringer$2;->this$0:Lcom/android/phone/Ringer;
 
@@ -379,13 +407,13 @@
 
     move-result v2
 
-    if-eqz v2, :cond_12
+    if-eqz v2, :cond_13
 
     invoke-virtual {p0, v9}, Lcom/android/phone/Ringer$2;->hasMessages(I)Z
 
     move-result v2
 
-    if-nez v2, :cond_11
+    if-nez v2, :cond_12
 
     iget-object v2, p0, Lcom/android/phone/Ringer$2;->this$0:Lcom/android/phone/Ringer;
 
@@ -399,6 +427,14 @@
 
     #setter for: Lcom/android/phone/Ringer;->mOriginRingtoneVolume:I
     invoke-static {v2, v5}, Lcom/android/phone/Ringer;->access$1202(Lcom/android/phone/Ringer;I)I
+
+    iget-object v2, v2, Lcom/android/phone/Ringer;->mContext:Landroid/content/Context;
+
+    invoke-static {v2}, Lcom/android/phone/Ringer$2;->isIncVolumeDisable(Landroid/content/Context;)Z
+
+    move-result v2
+
+    if-nez v2, :cond_9
 
     iget-object v2, p0, Lcom/android/phone/Ringer$2;->this$0:Lcom/android/phone/Ringer;
 
@@ -436,11 +472,12 @@
 
     invoke-virtual {v2, v7, v3, v4}, Landroid/media/AudioManager;->setStreamVolume(III)V
 
+    :cond_9
     const-wide/16 v2, 0x7d0
 
     invoke-virtual {p0, v9, v2, v3}, Lcom/android/phone/Ringer$2;->sendEmptyMessageDelayed(IJ)Z
 
-    :cond_9
+    :cond_a
     :goto_4
     invoke-virtual {v1}, Landroid/media/Ringtone;->play()V
 
@@ -460,7 +497,7 @@
 
     cmp-long v2, v4, v6
 
-    if-gez v2, :cond_a
+    if-gez v2, :cond_b
 
     iget-object v2, p0, Lcom/android/phone/Ringer$2;->this$0:Lcom/android/phone/Ringer;
 
@@ -471,7 +508,7 @@
     #setter for: Lcom/android/phone/Ringer;->mFirstRingStartTime:J
     invoke-static {v2, v4, v5}, Lcom/android/phone/Ringer;->access$1402(Lcom/android/phone/Ringer;J)J
 
-    :cond_a
+    :cond_b
     monitor-exit v3
 
     goto/16 :goto_0
@@ -485,7 +522,7 @@
 
     throw v2
 
-    :cond_b
+    :cond_c
     iget-object v2, p0, Lcom/android/phone/Ringer$2;->this$0:Lcom/android/phone/Ringer;
 
     iget-object v2, v2, Lcom/android/phone/Ringer;->mContext:Landroid/content/Context;
@@ -507,7 +544,7 @@
 
     goto/16 :goto_1
 
-    :cond_c
+    :cond_d
     iget-object v2, p0, Lcom/android/phone/Ringer$2;->this$0:Lcom/android/phone/Ringer;
 
     #getter for: Lcom/android/phone/Ringer;->mRingtoneHighlightSec:I
@@ -515,7 +552,7 @@
 
     move-result v2
 
-    if-nez v2, :cond_e
+    if-nez v2, :cond_f
 
     iget-object v2, p0, Lcom/android/phone/Ringer$2;->this$0:Lcom/android/phone/Ringer;
 
@@ -539,7 +576,7 @@
 
     move-result-object v5
 
-    if-nez v1, :cond_d
+    if-nez v1, :cond_e
 
     move v2, v3
 
@@ -571,12 +608,12 @@
 
     goto/16 :goto_1
 
-    :cond_d
+    :cond_e
     move v2, v4
 
     goto :goto_5
 
-    :cond_e
+    :cond_f
     iget-object v2, p0, Lcom/android/phone/Ringer$2;->this$0:Lcom/android/phone/Ringer;
 
     iget-object v2, v2, Lcom/android/phone/Ringer;->mContext:Landroid/content/Context;
@@ -598,7 +635,7 @@
 
     goto/16 :goto_1
 
-    :cond_f
+    :cond_10
     iget-object v2, p0, Lcom/android/phone/Ringer$2;->this$0:Lcom/android/phone/Ringer;
 
     iget-object v2, v2, Lcom/android/phone/Ringer;->mContext:Landroid/content/Context;
@@ -628,12 +665,12 @@
 
     throw v2
 
-    :cond_10
+    :cond_11
     invoke-virtual {v1, v4}, Landroid/media/Ringtone;->setRepeat(Z)V
 
     goto/16 :goto_3
 
-    :cond_11
+    :cond_12
     iget-object v2, p0, Lcom/android/phone/Ringer$2;->this$0:Lcom/android/phone/Ringer;
 
     const-string v4, "mRingHandler: has RETURN_ORIGIN_VOLUME message"
@@ -643,14 +680,14 @@
 
     goto/16 :goto_4
 
-    :cond_12
+    :cond_13
     const-string v2, "extra_ringer"
 
     invoke-static {v2}, Lcom/android/services/telephony/common/PhoneFeature;->hasFeature(Ljava/lang/String;)Z
 
     move-result v2
 
-    if-eqz v2, :cond_9
+    if-eqz v2, :cond_a
 
     iget-object v2, p0, Lcom/android/phone/Ringer$2;->this$0:Lcom/android/phone/Ringer;
 
@@ -718,7 +755,7 @@
 
     check-cast v1, Landroid/media/Ringtone;
 
-    if-eqz v1, :cond_14
+    if-eqz v1, :cond_15
 
     invoke-virtual {v1}, Landroid/media/Ringtone;->stop()V
 
@@ -730,7 +767,7 @@
 
     move-result-object v2
 
-    if-eqz v2, :cond_13
+    if-eqz v2, :cond_14
 
     iget-object v2, p0, Lcom/android/phone/Ringer$2;->this$0:Lcom/android/phone/Ringer;
 
@@ -748,7 +785,7 @@
     #setter for: Lcom/android/phone/Ringer;->mCallTextToSpeech:Lcom/android/phone/CallTextToSpeech;
     invoke-static {v2, v3}, Lcom/android/phone/Ringer;->access$1502(Lcom/android/phone/Ringer;Lcom/android/phone/CallTextToSpeech;)Lcom/android/phone/CallTextToSpeech;
 
-    :cond_13
+    :cond_14
     invoke-virtual {p0}, Lcom/android/phone/Ringer$2;->getLooper()Landroid/os/Looper;
 
     move-result-object v2
@@ -757,7 +794,7 @@
 
     goto/16 :goto_0
 
-    :cond_14
+    :cond_15
     iget-object v2, p0, Lcom/android/phone/Ringer$2;->this$0:Lcom/android/phone/Ringer;
 
     new-instance v4, Ljava/lang/StringBuilder;
