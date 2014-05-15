@@ -37,7 +37,7 @@
 
     sget-object v1, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_CLIENT_UPGRADE_DOWNLOAD:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -53,7 +53,7 @@
 
     sget-object v1, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_CLIENT_UPGRADE_INSTALL:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -69,7 +69,7 @@
 
     sget-object v1, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_POSSIBLE_UPGRADE:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -85,7 +85,7 @@
 
     sget-object v1, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_CHECK_UPGRADE:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -101,7 +101,7 @@
 
     sget-object v1, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_CLIENT_UPGRADE_DOWNLOAD_CANCEL:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 

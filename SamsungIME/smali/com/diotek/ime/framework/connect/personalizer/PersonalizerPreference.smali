@@ -164,7 +164,7 @@
 
     sget-object v0, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->PERSONALIZERS:Ljava/util/HashMap;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getKey()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getKey()Ljava/lang/String;
 
     move-result-object v1
 
@@ -180,7 +180,7 @@
 
     iput v0, p0, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->ID:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -230,7 +230,7 @@
 
     sget-object v0, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->PERSONALIZERS:Ljava/util/HashMap;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getKey()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getKey()Ljava/lang/String;
 
     move-result-object v1
 
@@ -246,7 +246,7 @@
 
     iput v0, p0, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->ID:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -334,7 +334,7 @@
 
     invoke-direct {v3, v4}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v3, v0}, Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
+    invoke-virtual {v3, v0}, Ljava/text/DateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -446,7 +446,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->mContext:Landroid/content/Context;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getSummary()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getSummary()Ljava/lang/CharSequence;
 
     move-result-object v1
 
@@ -470,7 +470,7 @@
 
     iput-object v1, p0, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->mGmailConnectModule:Lcom/diotek/ime/framework/connect/GmailConnectModule;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -506,7 +506,7 @@
 
     invoke-virtual {v0, v1}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -544,7 +544,7 @@
 
     if-nez v5, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
@@ -604,13 +604,13 @@
 
     new-instance v4, Landroid/content/Intent;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
     invoke-direct {v4, v5, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
@@ -623,7 +623,7 @@
     :catch_0
     move-exception v2
 
-    invoke-virtual {v2}, Ljava/lang/ClassNotFoundException;->printStackTrace()V
+    invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 
@@ -663,13 +663,13 @@
 
     new-instance v4, Landroid/content/Intent;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
     invoke-direct {v4, v5, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
@@ -682,7 +682,7 @@
     :catch_1
     move-exception v2
 
-    invoke-virtual {v2}, Ljava/lang/ClassNotFoundException;->printStackTrace()V
+    invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto/16 :goto_0
 
@@ -699,7 +699,7 @@
 
     if-nez v5, :cond_2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
@@ -753,13 +753,13 @@
 
     new-instance v4, Landroid/content/Intent;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
     invoke-direct {v4, v5, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
@@ -772,7 +772,7 @@
     :catch_2
     move-exception v2
 
-    invoke-virtual {v2}, Ljava/lang/ClassNotFoundException;->printStackTrace()V
+    invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto/16 :goto_0
 
@@ -783,7 +783,7 @@
 
     if-nez v5, :cond_3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
@@ -847,13 +847,13 @@
 
     new-instance v4, Landroid/content/Intent;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
     invoke-direct {v4, v5, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
@@ -869,28 +869,28 @@
     :catch_3
     move-exception v2
 
-    invoke-virtual {v2}, Ljava/lang/ClassNotFoundException;->printStackTrace()V
+    invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto/16 :goto_0
 
     :catch_4
     move-exception v2
 
-    invoke-virtual {v2}, Ljava/lang/NoSuchFieldException;->printStackTrace()V
+    invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto/16 :goto_0
 
     :catch_5
     move-exception v2
 
-    invoke-virtual {v2}, Ljava/lang/IllegalArgumentException;->printStackTrace()V
+    invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto/16 :goto_0
 
     :catch_6
     move-exception v2
 
-    invoke-virtual {v2}, Ljava/lang/IllegalAccessException;->printStackTrace()V
+    invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto/16 :goto_0
 
@@ -919,7 +919,7 @@
 
     move-result-object v5
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->setSummary(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v5}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
     invoke-direct {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->setUpdatedTime()V
 
@@ -950,7 +950,7 @@
 
     move-result-object v5
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->setSummary(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v5}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
     invoke-direct {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->setUpdatedTime()V
 
@@ -959,7 +959,7 @@
     :pswitch_5
     iget-object v5, p0, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->mContactsConnectModule:Lcom/diotek/ime/framework/connect/ContactsConnectModule;
 
-    invoke-virtual {v5}, Lcom/diotek/ime/framework/connect/ContactsConnectModule;->resetPersonalizedData()S
+    invoke-virtual {v5}, Lcom/diotek/ime/framework/connect/AbstractConnectModule;->resetPersonalizedData()S
 
     goto/16 :goto_0
 
@@ -1074,7 +1074,7 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
@@ -1120,7 +1120,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -1135,7 +1135,7 @@
 .method public getPreferenceKey()Ljava/lang/String;
     .locals 1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getKey()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getKey()Ljava/lang/String;
 
     move-result-object v0
 
@@ -1238,7 +1238,7 @@
     move-exception v2
 
     :try_start_2
-    invoke-virtual {v2}, Ljava/lang/IllegalArgumentException;->printStackTrace()V
+    invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
     :goto_1
     move v6, v7
@@ -1248,7 +1248,7 @@
     :catch_2
     move-exception v2
 
-    invoke-virtual {v2}, Ljava/lang/IllegalAccessException;->printStackTrace()V
+    invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
     :try_end_2
     .catch Ljava/lang/ClassNotFoundException; {:try_start_2 .. :try_end_2} :catch_3
     .catch Ljava/lang/NoSuchFieldException; {:try_start_2 .. :try_end_2} :catch_4
@@ -1258,14 +1258,14 @@
     :catch_3
     move-exception v3
 
-    invoke-virtual {v3}, Ljava/lang/ClassNotFoundException;->printStackTrace()V
+    invoke-virtual {v3}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_1
 
     :catch_4
     move-exception v3
 
-    invoke-virtual {v3}, Ljava/lang/NoSuchFieldException;->printStackTrace()V
+    invoke-virtual {v3}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_1
 .end method
@@ -1307,7 +1307,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -1342,7 +1342,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -1361,13 +1361,13 @@
 
     new-instance v0, Landroid/app/AlertDialog$Builder;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v3
 
     invoke-direct {v0, v3}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v3
 
@@ -1413,7 +1413,7 @@
 
     invoke-direct {v4, p0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference$2;-><init>(Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;)V
 
-    invoke-virtual {v3, v4}, Landroid/widget/EditText;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
+    invoke-virtual {v3, v4}, Landroid/view/View;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
 
     invoke-virtual {v0, v5}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -1480,7 +1480,7 @@
     if-eqz p1, :cond_0
 
     :goto_1
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->setSummary(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v0}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
     goto :goto_0
 
@@ -1493,7 +1493,7 @@
     if-eqz p1, :cond_1
 
     :goto_2
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->setSummary(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v0}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
     goto :goto_0
 
@@ -1506,7 +1506,7 @@
     if-eqz p1, :cond_2
 
     :goto_3
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->setSummary(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v0}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
     goto :goto_0
 
@@ -1519,7 +1519,7 @@
     if-eqz p1, :cond_3
 
     :goto_4
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->setSummary(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v0}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
     goto :goto_0
 
@@ -1532,7 +1532,7 @@
     if-eqz p1, :cond_4
 
     :goto_5
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->setSummary(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v0}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
     goto :goto_0
 

@@ -176,7 +176,7 @@
 
     invoke-direct {v0, p0}, Lcom/diotek/ime/framework/view/emoticon/EmoticonAdapter$1;-><init>(Lcom/diotek/ime/framework/view/emoticon/EmoticonAdapter;)V
 
-    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     return-void
 .end method
@@ -237,7 +237,7 @@
 
     invoke-direct {v9, v10, v11}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    invoke-virtual {v8, v9}, Landroid/widget/TextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v8, v9}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     const/4 v9, 0x1
 
@@ -251,7 +251,7 @@
 
     iget v9, p0, Lcom/diotek/ime/framework/view/emoticon/EmoticonAdapter;->mItemBackgroundResId:I
 
-    invoke-virtual {v8, v9}, Landroid/widget/TextView;->setBackgroundResource(I)V
+    invoke-virtual {v8, v9}, Landroid/view/View;->setBackgroundResource(I)V
 
     iget v9, p0, Lcom/diotek/ime/framework/view/emoticon/EmoticonAdapter;->mItemPaddingLeft:I
 
@@ -269,7 +269,7 @@
 
     new-instance v7, Landroid/view/ViewGroup$MarginLayoutParams;
 
-    invoke-virtual {v8}, Landroid/widget/TextView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v8}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v9
 
@@ -289,17 +289,17 @@
 
     invoke-direct {v9, v7}, Landroid/widget/LinearLayout$LayoutParams;-><init>(Landroid/view/ViewGroup$MarginLayoutParams;)V
 
-    invoke-virtual {v8, v9}, Landroid/widget/TextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v8, v9}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     invoke-virtual {v8, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     const/4 v9, 0x0
 
-    invoke-virtual {v8, v9}, Landroid/widget/TextView;->setSoundEffectsEnabled(Z)V
+    invoke-virtual {v8, v9}, Landroid/view/View;->setSoundEffectsEnabled(Z)V
 
     invoke-direct {p0, v8}, Lcom/diotek/ime/framework/view/emoticon/EmoticonAdapter;->setClickListener(Landroid/widget/TextView;)V
 
-    invoke-virtual {v6, v8}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+    invoke-virtual {v6, v8}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     goto :goto_0
 
@@ -316,7 +316,7 @@
 
     check-cast v2, Ljava/util/ArrayList;
 
-    invoke-virtual {v6}, Landroid/widget/LinearLayout;->getChildCount()I
+    invoke-virtual {v6}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v0
 
@@ -333,7 +333,7 @@
 
     if-ge v4, v0, :cond_1
 
-    invoke-virtual {v6, v4}, Landroid/widget/LinearLayout;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {v6, v4}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v8
 
@@ -348,7 +348,7 @@
 
     invoke-direct {v9, v10, v11}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    invoke-virtual {v8, v9}, Landroid/widget/TextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v8, v9}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     const/4 v9, 0x1
 
@@ -362,7 +362,7 @@
 
     iget v9, p0, Lcom/diotek/ime/framework/view/emoticon/EmoticonAdapter;->mItemBackgroundResId:I
 
-    invoke-virtual {v8, v9}, Landroid/widget/TextView;->setBackgroundResource(I)V
+    invoke-virtual {v8, v9}, Landroid/view/View;->setBackgroundResource(I)V
 
     iget v9, p0, Lcom/diotek/ime/framework/view/emoticon/EmoticonAdapter;->mItemPaddingLeft:I
 
@@ -380,7 +380,7 @@
 
     new-instance v7, Landroid/view/ViewGroup$MarginLayoutParams;
 
-    invoke-virtual {v8}, Landroid/widget/TextView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v8}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v9
 
@@ -400,7 +400,7 @@
 
     invoke-direct {v9, v7}, Landroid/widget/LinearLayout$LayoutParams;-><init>(Landroid/view/ViewGroup$MarginLayoutParams;)V
 
-    invoke-virtual {v8, v9}, Landroid/widget/TextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v8, v9}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     invoke-virtual {v2, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -412,7 +412,7 @@
 
     const/4 v9, 0x0
 
-    invoke-virtual {v8, v9}, Landroid/widget/TextView;->setSoundEffectsEnabled(Z)V
+    invoke-virtual {v8, v9}, Landroid/view/View;->setSoundEffectsEnabled(Z)V
 
     add-int/lit8 v4, v4, 0x1
 
@@ -427,7 +427,7 @@
 
     invoke-direct {p0, v8}, Lcom/diotek/ime/framework/view/emoticon/EmoticonAdapter;->setClickListener(Landroid/widget/TextView;)V
 
-    invoke-virtual {v6, v8}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+    invoke-virtual {v6, v8}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     goto :goto_2
 
@@ -439,7 +439,7 @@
     :goto_3
     if-lt v4, v1, :cond_3
 
-    invoke-virtual {v6, v4}, Landroid/widget/LinearLayout;->removeViewAt(I)V
+    invoke-virtual {v6, v4}, Landroid/view/ViewGroup;->removeViewAt(I)V
 
     add-int/lit8 v4, v4, -0x1
 

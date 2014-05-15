@@ -96,7 +96,7 @@
 
     sget-object v0, Lcom/nuance/connect/service/manager/MessageManager;->MESSAGES_HANDLED:[Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/MessageManager;->setMessagesHandled([Lcom/nuance/connect/internal/common/InternalMessages;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->setMessagesHandled([Lcom/nuance/connect/internal/common/InternalMessages;)V
 
     iget-object v0, p0, Lcom/nuance/connect/service/manager/AbstractCommandManager;->validCommands:Lcom/nuance/connect/service/manager/AbstractCommandManager$ValidCommands;
 
@@ -448,7 +448,7 @@
 
     iget-object v5, p0, Lcom/nuance/connect/service/manager/MessageManager;->log:Lcom/nuance/connect/util/Logger$Log;
 
-    invoke-virtual {v9}, Lorg/json/JSONException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v9}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v6
 
@@ -462,11 +462,11 @@
 
     sget-object v2, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_COMMAND_RETRIEVE_MESSAGE:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v2
 
-    invoke-virtual {p0, p1, v2}, Lcom/nuance/connect/service/manager/MessageManager;->preProcessResponse(Lcom/nuance/connect/service/comm/Response;I)Z
+    invoke-virtual {p0, p1, v2}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->preProcessResponse(Lcom/nuance/connect/service/comm/Response;I)Z
 
     move-result v2
 
@@ -612,11 +612,11 @@
 
     sget-object v0, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_COMMAND_RETRIEVE_MESSAGE:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v0}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
 
     move-result v0
 
-    invoke-virtual {p0, p1, v0}, Lcom/nuance/connect/service/manager/MessageManager;->preProcessResponse(Lcom/nuance/connect/service/comm/Response;I)Z
+    invoke-virtual {p0, p1, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->preProcessResponse(Lcom/nuance/connect/service/comm/Response;I)Z
 
     move-result v0
 
@@ -766,11 +766,11 @@
 
     sget-object v3, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->BACKGROUND:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v2, v3, v1}, Lcom/nuance/connect/service/manager/MessageManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v2, v3, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/MessageManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     invoke-direct {p0}, Lcom/nuance/connect/service/manager/MessageManager;->loadPreferences()V
 
@@ -868,11 +868,11 @@
 
     sget-object v3, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->BACKGROUND:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v2, v3, v1}, Lcom/nuance/connect/service/manager/MessageManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v2, v3, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/MessageManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     invoke-direct {p0}, Lcom/nuance/connect/service/manager/MessageManager;->loadPreferences()V
 
@@ -904,7 +904,7 @@
 
     sget-object v3, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->BACKGROUND:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v2, v3, v1}, Lcom/nuance/connect/service/manager/MessageManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v2, v3, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -912,7 +912,7 @@
 
     iput-boolean v2, v0, Lcom/nuance/connect/service/comm/Command;->allowDuplicateOfCommand:Z
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/MessageManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     invoke-direct {p0}, Lcom/nuance/connect/service/manager/MessageManager;->loadPreferences()V
 
@@ -940,7 +940,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v2
 
@@ -1033,7 +1033,7 @@
 .method public start()V
     .locals 0
 
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/MessageManager;->managerStartComplete()V
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->managerStartComplete()V
 
     return-void
 .end method

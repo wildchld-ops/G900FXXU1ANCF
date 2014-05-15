@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment$26;->this$0:Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -50,7 +50,7 @@
 
     const-string v7, "com.sec.android.inputmethod_preferences"
 
-    invoke-virtual {v6, v7, v4}, Landroid/app/Activity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual {v6, v7, v4}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v2
 
@@ -94,7 +94,7 @@
 
     check-cast v3, Landroid/preference/SwitchPreference;
 
-    invoke-virtual {v3}, Landroid/preference/SwitchPreference;->isChecked()Z
+    invoke-virtual {v3}, Landroid/preference/TwoStatePreference;->isChecked()Z
 
     move-result v1
 
@@ -103,7 +103,7 @@
     move v4, v5
 
     :cond_1
-    invoke-virtual {v3, v4}, Landroid/preference/SwitchPreference;->setChecked(Z)V
+    invoke-virtual {v3, v4}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     :cond_2
     new-instance v0, Landroid/content/Intent;
@@ -123,7 +123,7 @@
 
     iget-object v4, p0, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment$26;->this$0:Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;
 
-    invoke-virtual {v4, v0}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {v4, v0}, Landroid/app/Fragment;->startActivity(Landroid/content/Intent;)V
 
     goto :goto_0
 .end method

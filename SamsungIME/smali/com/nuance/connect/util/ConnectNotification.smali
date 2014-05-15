@@ -79,7 +79,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const v0, 0x3491d0c
 
@@ -107,7 +107,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const v0, 0x3491d0c
 
@@ -762,7 +762,7 @@
 
     invoke-static {v1}, Lcom/nuance/connect/util/ConnectNotification;->traverseGroup(Landroid/view/ViewGroup;)Z
 
-    invoke-virtual {v2}, Landroid/widget/LinearLayout;->removeAllViews()V
+    invoke-virtual {v2}, Landroid/view/ViewGroup;->removeAllViews()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1050,7 +1050,7 @@
 
     iget-object v7, v1, Landroid/content/pm/ResolveInfo;->serviceInfo:Landroid/content/pm/ServiceInfo;
 
-    iget-object v7, v7, Landroid/content/pm/ServiceInfo;->packageName:Ljava/lang/String;
+    iget-object v7, v7, Landroid/content/pm/PackageItemInfo;->packageName:Ljava/lang/String;
 
     invoke-virtual {v6, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1070,7 +1070,7 @@
 
     iget-object v7, v1, Landroid/content/pm/ResolveInfo;->serviceInfo:Landroid/content/pm/ServiceInfo;
 
-    iget-object v7, v7, Landroid/content/pm/ServiceInfo;->name:Ljava/lang/String;
+    iget-object v7, v7, Landroid/content/pm/PackageItemInfo;->name:Ljava/lang/String;
 
     invoke-virtual {v2, v6, v7}, Landroid/content/Intent;->setClassName(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -1436,7 +1436,7 @@
 .method public setVibrate([J)V
     .locals 1
 
-    invoke-virtual {p1}, [J->clone()Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 

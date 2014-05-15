@@ -17,7 +17,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object v1, p0, Lcom/diotek/ime/framework/util/AssetXmlManager;->mDirectory:Ljava/lang/String;
 
@@ -45,7 +45,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/diotek/ime/framework/util/AssetXmlManager;->mDirectory:Ljava/lang/String;
 
@@ -149,7 +149,7 @@
     move-exception v0
 
     :try_start_1
-    invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -314,7 +314,7 @@
     :catch_0
     move-exception v0
 
-    invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_1
 .end method

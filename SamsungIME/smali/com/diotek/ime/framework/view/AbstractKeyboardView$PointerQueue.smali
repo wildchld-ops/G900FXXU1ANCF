@@ -33,7 +33,7 @@
 .method constructor <init>()V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Ljava/util/LinkedList;
 
@@ -75,7 +75,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView$PointerQueue;->mQueue:Ljava/util/LinkedList;
 
-    invoke-virtual {v2}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v2}, Ljava/util/AbstractSequentialList;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -130,7 +130,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView$PointerQueue;->mQueue:Ljava/util/LinkedList;
 
-    invoke-virtual {v2}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v2}, Ljava/util/AbstractSequentialList;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -290,7 +290,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView$PointerQueue;->mQueue:Ljava/util/LinkedList;
 
-    invoke-virtual {v2}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v2}, Ljava/util/AbstractSequentialList;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 

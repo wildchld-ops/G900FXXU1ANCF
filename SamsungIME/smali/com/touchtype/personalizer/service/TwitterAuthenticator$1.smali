@@ -162,7 +162,7 @@
     :catch_0
     move-exception v1
 
-    invoke-virtual {v1}, Loauth/signpost/exception/OAuthException;->printStackTrace()V
+    invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     const/4 v2, 0x0
 

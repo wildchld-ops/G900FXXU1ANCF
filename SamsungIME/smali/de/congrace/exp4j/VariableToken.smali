@@ -21,13 +21,13 @@
 
     if-eqz v0, :cond_0
 
-    invoke-super {p0}, Lde/congrace/exp4j/CalculationToken;->getValue()Ljava/lang/String;
+    invoke-super {p0}, Lde/congrace/exp4j/Token;->getValue()Ljava/lang/String;
 
     move-result-object v0
 
     check-cast p1, Lde/congrace/exp4j/VariableToken;
 
-    invoke-virtual {p1}, Lde/congrace/exp4j/VariableToken;->getValue()Ljava/lang/String;
+    invoke-virtual {p1}, Lde/congrace/exp4j/Token;->getValue()Ljava/lang/String;
 
     move-result-object v1
 
@@ -47,7 +47,7 @@
 .method public hashCode()I
     .locals 1
 
-    invoke-super {p0}, Lde/congrace/exp4j/CalculationToken;->getValue()Ljava/lang/String;
+    invoke-super {p0}, Lde/congrace/exp4j/Token;->getValue()Ljava/lang/String;
 
     move-result-object v0
 
@@ -75,7 +75,7 @@
         }
     .end annotation
 
-    invoke-virtual {p0}, Lde/congrace/exp4j/VariableToken;->getValue()Ljava/lang/String;
+    invoke-virtual {p0}, Lde/congrace/exp4j/Token;->getValue()Ljava/lang/String;
 
     move-result-object v2
 
@@ -112,7 +112,7 @@
         }
     .end annotation
 
-    invoke-virtual {p0}, Lde/congrace/exp4j/VariableToken;->getValue()Ljava/lang/String;
+    invoke-virtual {p0}, Lde/congrace/exp4j/Token;->getValue()Ljava/lang/String;
 
     move-result-object v0
 

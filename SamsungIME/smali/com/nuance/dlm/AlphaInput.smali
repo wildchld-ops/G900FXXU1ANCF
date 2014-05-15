@@ -20,7 +20,7 @@
 .method public constructor <init>(Lcom/nuance/swypeconnect/ac/ACDlmService;)V
     .locals 2
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/nuance/dlm/AlphaInput;->service:Lcom/nuance/swypeconnect/ac/ACDlmService;
 
@@ -43,7 +43,7 @@
     :catch_0
     move-exception v0
 
-    invoke-virtual {v0}, Lcom/nuance/swypeconnect/ac/ACException;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 .end method

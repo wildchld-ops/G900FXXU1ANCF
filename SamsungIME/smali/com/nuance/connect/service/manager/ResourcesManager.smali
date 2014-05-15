@@ -81,7 +81,7 @@
 
     sget-object v0, Lcom/nuance/connect/service/manager/ResourcesManager;->MESSAGES_HANDLED:[Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/ResourcesManager;->setMessagesHandled([Lcom/nuance/connect/internal/common/InternalMessages;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->setMessagesHandled([Lcom/nuance/connect/internal/common/InternalMessages;)V
 
     iget-object v0, p0, Lcom/nuance/connect/service/manager/AbstractCommandManager;->validCommands:Lcom/nuance/connect/service/manager/AbstractCommandManager$ValidCommands;
 
@@ -115,7 +115,7 @@
 
     sget-object v2, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->CRITICAL:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v1, v2}, Lcom/nuance/connect/service/manager/ResourcesManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v1, v2}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -135,7 +135,7 @@
 
     iput-boolean v1, v0, Lcom/nuance/connect/service/comm/Command;->allowDuplicateOfCommand:Z
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/ResourcesManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     return-void
 .end method
@@ -149,7 +149,7 @@
 
     sget-object v2, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->CRITICAL:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v1, v2}, Lcom/nuance/connect/service/manager/ResourcesManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v1, v2}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -169,7 +169,7 @@
 
     iput-boolean v1, v0, Lcom/nuance/connect/service/comm/Command;->allowDuplicateOfCommand:Z
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/ResourcesManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     return-void
 .end method
@@ -303,7 +303,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
 
     move-result v4
 
@@ -373,7 +373,7 @@
 
     invoke-virtual {v0, v1}, Lcom/nuance/connect/service/ConnectClient;->sendMessageToHost(Lcom/nuance/connect/internal/common/InternalMessages;)V
 
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/ResourcesManager;->managerStartComplete()V
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->managerStartComplete()V
 
     return-void
 .end method

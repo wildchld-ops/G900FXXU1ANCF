@@ -135,7 +135,7 @@
 .method private initLastestEmoticonList()V
     .locals 7
 
-    iget-object v4, p0, Lcom/diotek/ime/framework/view/emoticon/AbstractEmoticonLayout;->mContext:Landroid/content/Context;
+    iget-object v4, p0, Landroid/view/View;->mContext:Landroid/content/Context;
 
     const-string v5, "emoticons"
 
@@ -264,19 +264,19 @@
 
     invoke-direct {v1, v2, v3}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/ListView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/emoticon/AbstractEmoticonLayout;->mListView:Landroid/widget/ListView;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/emoticon/AbstractEmoticonLayout;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/emoticon/AbstractEmoticonLayout;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v2
 
-    invoke-virtual {v0, v1, v2, v4, v4}, Landroid/widget/ListView;->setPadding(IIII)V
+    invoke-virtual {v0, v1, v2, v4, v4}, Landroid/view/View;->setPadding(IIII)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/emoticon/AbstractEmoticonLayout;->mListView:Landroid/widget/ListView;
 
@@ -286,7 +286,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/emoticon/AbstractEmoticonLayout;->mListView:Landroid/widget/ListView;
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/view/emoticon/AbstractEmoticonLayout;->addView(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     invoke-virtual {p0}, Lcom/diotek/ime/framework/view/emoticon/AbstractEmoticonLayout;->getLastestEmoticonCount()I
 
@@ -304,7 +304,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/emoticon/AbstractEmoticonLayout;->mLastestEmoticon:Ljava/util/ArrayList;
 
-    invoke-virtual {v0}, Ljava/util/ArrayList;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->toString()Ljava/lang/String;
 
     move-result-object v0
 
@@ -316,7 +316,7 @@
 
     const/4 v5, 0x0
 
-    iget-object v3, p0, Lcom/diotek/ime/framework/view/emoticon/AbstractEmoticonLayout;->mContext:Landroid/content/Context;
+    iget-object v3, p0, Landroid/view/View;->mContext:Landroid/content/Context;
 
     const-string v4, "emoticons"
 
@@ -502,7 +502,7 @@
     :cond_1
     iget-object v5, p0, Lcom/diotek/ime/framework/view/emoticon/AbstractEmoticonLayout;->mListView:Landroid/widget/ListView;
 
-    invoke-virtual {v5, v6, v6}, Landroid/widget/ListView;->scrollTo(II)V
+    invoke-virtual {v5, v6, v6}, Landroid/view/View;->scrollTo(II)V
 
     if-nez p2, :cond_2
 

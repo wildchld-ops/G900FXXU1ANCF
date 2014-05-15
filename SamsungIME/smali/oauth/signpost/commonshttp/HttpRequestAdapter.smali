@@ -16,7 +16,7 @@
 .method public constructor <init>(Lorg/apache/http/client/methods/HttpUriRequest;)V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Loauth/signpost/commonshttp/HttpRequestAdapter;->request:Lorg/apache/http/client/methods/HttpUriRequest;
 

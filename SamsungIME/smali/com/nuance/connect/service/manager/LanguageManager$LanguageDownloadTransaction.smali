@@ -513,7 +513,7 @@
 
     invoke-direct {v3, p0}, Lcom/nuance/connect/service/manager/LanguageManager$LanguageDownloadTransaction$3;-><init>(Lcom/nuance/connect/service/manager/LanguageManager$LanguageDownloadTransaction;)V
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/nuance/connect/service/manager/LanguageManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Lcom/nuance/connect/service/comm/ResponseCallback;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Lcom/nuance/connect/service/comm/ResponseCallback;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -605,7 +605,7 @@
 
     invoke-direct {v3, p0}, Lcom/nuance/connect/service/manager/LanguageManager$LanguageDownloadTransaction$2;-><init>(Lcom/nuance/connect/service/manager/LanguageManager$LanguageDownloadTransaction;)V
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/nuance/connect/service/manager/LanguageManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Lcom/nuance/connect/service/comm/ResponseCallback;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Lcom/nuance/connect/service/comm/ResponseCallback;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -914,7 +914,7 @@
 
     invoke-direct {v3, p0}, Lcom/nuance/connect/service/manager/LanguageManager$LanguageDownloadTransaction$1;-><init>(Lcom/nuance/connect/service/manager/LanguageManager$LanguageDownloadTransaction;)V
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/nuance/connect/service/manager/LanguageManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Lcom/nuance/connect/service/comm/ResponseCallback;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Lcom/nuance/connect/service/comm/ResponseCallback;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -1102,7 +1102,7 @@
 
     iget-object v3, v3, Lcom/nuance/connect/service/manager/AbstractCommandManager;->client:Lcom/nuance/connect/service/ConnectClient;
 
-    invoke-virtual {v3}, Lcom/nuance/connect/service/ConnectClient;->getCacheDir()Ljava/io/File;
+    invoke-virtual {v3}, Landroid/content/ContextWrapper;->getCacheDir()Ljava/io/File;
 
     move-result-object v3
 
@@ -1274,7 +1274,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/nuance/connect/service/manager/LanguageManager;->finishTransaction(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->finishTransaction(Ljava/lang/String;)V
 
     return-void
 .end method

@@ -102,7 +102,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mCurrentView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
@@ -412,7 +412,7 @@
 
     move-object/from16 v20, v0
 
-    invoke-virtual/range {v20 .. v20}, Landroid/widget/FrameLayout;->removeAllViews()V
+    invoke-virtual/range {v20 .. v20}, Landroid/view/ViewGroup;->removeAllViews()V
 
     const/16 v20, 0x0
 
@@ -437,7 +437,7 @@
 
     move-object/from16 v20, v0
 
-    invoke-virtual/range {v20 .. v20}, Landroid/widget/FrameLayout;->removeAllViews()V
+    invoke-virtual/range {v20 .. v20}, Landroid/view/ViewGroup;->removeAllViews()V
 
     const/16 v20, 0x0
 
@@ -462,7 +462,7 @@
 
     move-object/from16 v20, v0
 
-    invoke-virtual/range {v20 .. v20}, Landroid/widget/FrameLayout;->removeAllViews()V
+    invoke-virtual/range {v20 .. v20}, Landroid/view/ViewGroup;->removeAllViews()V
 
     const/16 v20, 0x0
 
@@ -487,7 +487,7 @@
 
     move-object/from16 v20, v0
 
-    invoke-virtual/range {v20 .. v20}, Landroid/widget/FrameLayout;->removeAllViews()V
+    invoke-virtual/range {v20 .. v20}, Landroid/view/ViewGroup;->removeAllViews()V
 
     const/16 v20, 0x0
 
@@ -512,7 +512,7 @@
 
     move-object/from16 v20, v0
 
-    invoke-virtual/range {v20 .. v20}, Lcom/diotek/ime/framework/view/emoticon/AbstractEmoticonLayout;->removeAllViews()V
+    invoke-virtual/range {v20 .. v20}, Landroid/view/ViewGroup;->removeAllViews()V
 
     const/16 v20, 0x0
 
@@ -537,7 +537,7 @@
 
     move-object/from16 v20, v0
 
-    invoke-virtual/range {v20 .. v20}, Landroid/widget/FrameLayout;->removeAllViews()V
+    invoke-virtual/range {v20 .. v20}, Landroid/view/ViewGroup;->removeAllViews()V
 
     const/16 v20, 0x0
 
@@ -608,7 +608,7 @@
 
     move-object/from16 v20, v0
 
-    invoke-virtual/range {v20 .. v20}, Landroid/widget/FrameLayout;->removeAllViews()V
+    invoke-virtual/range {v20 .. v20}, Landroid/view/ViewGroup;->removeAllViews()V
 
     const/16 v20, 0x0
 
@@ -641,7 +641,7 @@
 
     move-object/from16 v20, v0
 
-    invoke-virtual/range {v20 .. v20}, Landroid/widget/LinearLayout;->removeAllViews()V
+    invoke-virtual/range {v20 .. v20}, Landroid/view/ViewGroup;->removeAllViews()V
 
     const/16 v20, 0x0
 
@@ -749,7 +749,7 @@
 
     move-object/from16 v20, v0
 
-    invoke-virtual/range {v20 .. v20}, Lcom/diotek/ime/framework/view/FullScreenHwrPanelView;->closing()V
+    invoke-virtual/range {v20 .. v20}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->closing()V
 
     :cond_f
     const/16 v20, 0x0
@@ -848,7 +848,7 @@
 
     move-object/from16 v20, v0
 
-    invoke-virtual/range {v20 .. v20}, Landroid/widget/LinearLayout;->removeAllViews()V
+    invoke-virtual/range {v20 .. v20}, Landroid/view/ViewGroup;->removeAllViews()V
 
     const/16 v20, 0x0
 
@@ -1034,7 +1034,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -1056,7 +1056,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -1078,7 +1078,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -1379,7 +1379,7 @@
 
     const v21, 0x7f080017
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -1607,7 +1607,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -1629,7 +1629,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -1714,7 +1714,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -1765,7 +1765,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -1900,7 +1900,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -2041,7 +2041,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -2063,7 +2063,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -2186,7 +2186,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -2208,7 +2208,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -2230,7 +2230,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -2250,7 +2250,7 @@
 
     const/16 v21, 0x8
 
-    invoke-virtual/range {v20 .. v21}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->setVisibility(I)V
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->setVisibility(I)V
 
     move-object/from16 v0, p0
 
@@ -2286,7 +2286,7 @@
 
     const/16 v21, 0x8
 
-    invoke-virtual/range {v20 .. v21}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->setVisibility(I)V
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->setVisibility(I)V
 
     goto/16 :goto_3
 
@@ -2507,7 +2507,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -2529,7 +2529,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -2620,7 +2620,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -2682,7 +2682,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -2745,7 +2745,7 @@
 
     move-object/from16 v20, v0
 
-    invoke-virtual/range {v20 .. v20}, Landroid/widget/LinearLayout;->removeAllViews()V
+    invoke-virtual/range {v20 .. v20}, Landroid/view/ViewGroup;->removeAllViews()V
 
     :cond_27
     move-object/from16 v0, p0
@@ -2758,7 +2758,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -2780,7 +2780,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -2800,7 +2800,7 @@
 
     const/16 v21, 0x8
 
-    invoke-virtual/range {v20 .. v21}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->setVisibility(I)V
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->setVisibility(I)V
 
     move-object/from16 v0, p0
 
@@ -2843,7 +2843,7 @@
 
     move-object/from16 v21, v0
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     move-object/from16 v0, p0
 
@@ -2857,7 +2857,7 @@
 
     move-object/from16 v21, v0
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     goto/16 :goto_7
 
@@ -2909,7 +2909,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -3308,7 +3308,7 @@
 
     move-object/from16 v20, v0
 
-    invoke-virtual/range {v20 .. v20}, Lcom/diotek/ime/framework/view/FullScreenHwrPanelView;->closing()V
+    invoke-virtual/range {v20 .. v20}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->closing()V
 
     :cond_2f
     const/16 v20, 0x0
@@ -3359,7 +3359,7 @@
 
     move-object/from16 v21, v0
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     move-object/from16 v0, p0
 
@@ -3373,7 +3373,7 @@
 
     move-object/from16 v21, v0
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     goto/16 :goto_9
 
@@ -3459,7 +3459,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -3628,7 +3628,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -3717,7 +3717,7 @@
 
     invoke-direct {v0, v1}, Lcom/diotek/ime/framework/view/AbstractViewController$1;-><init>(Lcom/diotek/ime/framework/view/AbstractViewController;)V
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     move-object/from16 v0, p0
 
@@ -3917,7 +3917,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -3979,7 +3979,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -4095,7 +4095,7 @@
 
     move-object/from16 v20, v0
 
-    invoke-virtual/range {v20 .. v20}, Lcom/diotek/ime/framework/view/FullScreenHwrPanelView;->closing()V
+    invoke-virtual/range {v20 .. v20}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->closing()V
 
     :cond_3a
     const/16 v20, 0x0
@@ -4276,7 +4276,7 @@
 
     move-object/from16 v21, v0
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     move-object/from16 v0, p0
 
@@ -4290,7 +4290,7 @@
 
     move-object/from16 v21, v0
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     goto/16 :goto_d
 
@@ -4389,7 +4389,7 @@
 
     move-result v21
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -4614,7 +4614,7 @@
 
     const v21, 0x7f080017
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual/range {v20 .. v21}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -4680,7 +4680,7 @@
 
     const/16 v24, 0x0
 
-    invoke-virtual/range {v20 .. v24}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setPadding(IIII)V
+    invoke-virtual/range {v20 .. v24}, Landroid/view/View;->setPadding(IIII)V
 
     goto/16 :goto_5
 
@@ -4793,7 +4793,7 @@
 
     const/16 v24, 0x0
 
-    invoke-virtual/range {v20 .. v24}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setPadding(IIII)V
+    invoke-virtual/range {v20 .. v24}, Landroid/view/View;->setPadding(IIII)V
 
     :cond_47
     move-object/from16 v0, p0
@@ -5382,7 +5382,7 @@
 
     move-object/from16 v0, v20
 
-    invoke-virtual {v0, v6}, Lcom/diotek/ime/framework/view/FullScreenHwrKeyboardView;->setKeyboard(Lcom/diotek/ime/framework/view/DefaultKeyboard;)V
+    invoke-virtual {v0, v6}, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->setKeyboard(Lcom/diotek/ime/framework/view/DefaultKeyboard;)V
 
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractViewController;->getFullHwrKeyboard()Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
@@ -5396,7 +5396,7 @@
 
     move-object/from16 v0, v20
 
-    invoke-virtual {v0, v5}, Lcom/diotek/ime/framework/view/FullScreenHwrPanelView;->setKeyboard(Lcom/diotek/ime/framework/view/DefaultKeyboard;)V
+    invoke-virtual {v0, v5}, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->setKeyboard(Lcom/diotek/ime/framework/view/DefaultKeyboard;)V
 
     move-object/from16 v0, p0
 
@@ -5450,7 +5450,7 @@
 
     move-object/from16 v0, v20
 
-    invoke-virtual {v0, v13}, Lcom/diotek/ime/framework/view/FullScreenHwrKeyboardView;->setOnKeyboardActionListener(Lcom/diotek/ime/framework/view/AbstractKeyboardView$OnKeyboardActionListener;)V
+    invoke-virtual {v0, v13}, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->setOnKeyboardActionListener(Lcom/diotek/ime/framework/view/AbstractKeyboardView$OnKeyboardActionListener;)V
 
     move-object/from16 v0, p0
 
@@ -5582,7 +5582,7 @@
 
     move-object/from16 v20, v0
 
-    invoke-virtual/range {v20 .. v20}, Landroid/widget/LinearLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual/range {v20 .. v20}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v15
 
@@ -5592,7 +5592,7 @@
 
     move-object/from16 v20, v0
 
-    invoke-virtual/range {v20 .. v20}, Landroid/widget/LinearLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual/range {v20 .. v20}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v16
 
@@ -5602,7 +5602,7 @@
 
     move-object/from16 v20, v0
 
-    invoke-virtual/range {v20 .. v20}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual/range {v20 .. v20}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v14
 
@@ -5662,7 +5662,7 @@
 
     move-object/from16 v0, v20
 
-    invoke-virtual {v0, v15}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v0, v15}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     move-object/from16 v0, p0
 
@@ -5674,7 +5674,7 @@
 
     move-object/from16 v1, v16
 
-    invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     move-object/from16 v0, p0
 
@@ -5684,7 +5684,7 @@
 
     move-object/from16 v0, v20
 
-    invoke-virtual {v0, v14}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v0, v14}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     :cond_51
     move-object/from16 v0, p0
@@ -5917,7 +5917,7 @@
 
     move-object/from16 v21, v0
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/LinearLayout;->removeView(Landroid/view/View;)V
+    invoke-virtual/range {v20 .. v21}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
     :cond_58
     move-object/from16 v0, p0
@@ -6071,7 +6071,7 @@
 
     move-object/from16 v21, v0
 
-    invoke-virtual/range {v20 .. v21}, Landroid/widget/LinearLayout;->removeView(Landroid/view/View;)V
+    invoke-virtual/range {v20 .. v21}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
     :cond_60
     move-object/from16 v0, p0
@@ -6218,7 +6218,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mEmoticonScrollLayout:Lcom/diotek/ime/framework/view/emoticon/AbstractEmoticonLayout;
 
-    invoke-virtual {v0}, Lcom/diotek/ime/framework/view/emoticon/AbstractEmoticonLayout;->removeAllViews()V
+    invoke-virtual {v0}, Landroid/view/ViewGroup;->removeAllViews()V
 
     iput-object v2, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mEmoticonScrollLayout:Lcom/diotek/ime/framework/view/emoticon/AbstractEmoticonLayout;
 
@@ -6229,7 +6229,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mCurrentLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v0}, Landroid/widget/LinearLayout;->removeAllViews()V
+    invoke-virtual {v0}, Landroid/view/ViewGroup;->removeAllViews()V
 
     iput-object v2, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mCurrentLayout:Landroid/widget/LinearLayout;
 
@@ -6728,7 +6728,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mEmoticonScrollLayout:Lcom/diotek/ime/framework/view/emoticon/AbstractEmoticonLayout;
 
-    invoke-virtual {v0}, Lcom/diotek/ime/framework/view/emoticon/AbstractEmoticonLayout;->getHeight()I
+    invoke-virtual {v0}, Landroid/view/View;->getHeight()I
 
     move-result v0
 
@@ -7271,7 +7271,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mPhoneticSpellScrollLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v1}, Landroid/widget/LinearLayout;->removeAllViews()V
+    invoke-virtual {v1}, Landroid/view/ViewGroup;->removeAllViews()V
 
     :cond_1
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mFloatingPhonepadView:Landroid/widget/FrameLayout;
@@ -7280,7 +7280,7 @@
 
     move-result v2
 
-    invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -7294,7 +7294,7 @@
 
     move-result v2
 
-    invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -7304,7 +7304,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mPhoneticSpellScrollView:Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;
 
-    invoke-virtual {v1, v3}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->setVisibility(I)V
+    invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mPhoneticSpellScrollView:Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;
 
@@ -7338,7 +7338,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mPhoneticSpellScrollLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v1}, Landroid/widget/LinearLayout;->removeAllViews()V
+    invoke-virtual {v1}, Landroid/view/ViewGroup;->removeAllViews()V
 
     :cond_5
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mPhonepadView:Landroid/widget/FrameLayout;
@@ -7347,7 +7347,7 @@
 
     move-result v2
 
-    invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -7361,7 +7361,7 @@
 
     move-result v2
 
-    invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -7371,7 +7371,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mPhoneticSpellScrollView:Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;
 
-    invoke-virtual {v1, v3}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->setVisibility(I)V
+    invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mPhoneticSpellScrollView:Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;
 
@@ -8209,7 +8209,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mCurrentLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -8245,7 +8245,7 @@
 
     const/4 v2, 0x4
 
-    invoke-virtual {v1, v2}, Lcom/diotek/ime/framework/view/emoticon/AbstractEmoticonLayout;->setVisibility(I)V
+    invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -8278,7 +8278,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mFloatingPhonepadView:Landroid/widget/FrameLayout;
 
-    invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -8293,7 +8293,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mCurrentFrameLayout:Landroid/widget/FrameLayout;
 
-    invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -8306,7 +8306,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v1, v2}, Lcom/diotek/ime/framework/view/emoticon/AbstractEmoticonLayout;->setVisibility(I)V
+    invoke-virtual {v1, v2}, Landroid/view/View;->setVisibility(I)V
 
     const-string v1, ""
 
@@ -8340,7 +8340,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mCurrentView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->removeView(Landroid/view/View;)V
+    invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
     :cond_0
     return-void
@@ -8471,11 +8471,11 @@
 
     iget-object v2, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mOneHandLeftViewLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-virtual {v2, v3}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v2, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mOneHandRightViewLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-virtual {v2, v3}, Landroid/view/View;->setVisibility(I)V
 
     :goto_0
     invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractViewController;->dismissPopupKeyboard()V
@@ -8540,22 +8540,22 @@
     :pswitch_0
     iget-object v2, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mOneHandLeftViewLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-virtual {v2, v3}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v2, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mOneHandRightViewLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v2, v4}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-virtual {v2, v4}, Landroid/view/View;->setVisibility(I)V
 
     goto :goto_0
 
     :pswitch_1
     iget-object v2, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mOneHandLeftViewLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v2, v4}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-virtual {v2, v4}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v2, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mOneHandRightViewLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-virtual {v2, v3}, Landroid/view/View;->setVisibility(I)V
 
     goto :goto_0
 
@@ -8617,7 +8617,7 @@
 
     move-result v2
 
-    invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -8631,7 +8631,7 @@
 
     move-result v2
 
-    invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -8641,7 +8641,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mPhoneticSpellScrollView:Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;
 
-    invoke-virtual {v1, v3}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->setVisibility(I)V
+    invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mPhoneticSpellScrollView:Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;
 
@@ -8694,7 +8694,7 @@
 
     move-result v2
 
-    invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -8708,7 +8708,7 @@
 
     move-result v2
 
-    invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -8718,7 +8718,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mPhoneticSpellScrollView:Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;
 
-    invoke-virtual {v1, v3}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->setVisibility(I)V
+    invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mPhoneticSpellScrollView:Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;
 
@@ -8936,7 +8936,7 @@
     :catch_0
     move-exception v0
 
-    invoke-virtual {v0}, Landroid/content/pm/PackageManager$NameNotFoundException;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 .end method
@@ -9410,7 +9410,7 @@
     :catch_0
     move-exception v0
 
-    invoke-virtual {v0}, Landroid/content/pm/PackageManager$NameNotFoundException;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 .end method
@@ -10418,7 +10418,7 @@
 
     iget-object v10, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mCurrentView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v10, v11, v11, v11, v11}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setPadding(IIII)V
+    invoke-virtual {v10, v11, v11, v11, v11}, Landroid/view/View;->setPadding(IIII)V
 
     :cond_6
     invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractViewController;->initHWR()V
@@ -10497,7 +10497,7 @@
 
     iget-object v10, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mFullScreenHwrKeyboardView:Lcom/diotek/ime/framework/view/FullScreenHwrKeyboardView;
 
-    invoke-virtual {v10, v0}, Lcom/diotek/ime/framework/view/FullScreenHwrKeyboardView;->setKeyboard(Lcom/diotek/ime/framework/view/DefaultKeyboard;)V
+    invoke-virtual {v10, v0}, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->setKeyboard(Lcom/diotek/ime/framework/view/DefaultKeyboard;)V
 
     iget-object v10, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 

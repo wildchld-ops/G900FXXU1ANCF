@@ -205,7 +205,7 @@
 
     move-result v0
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -219,7 +219,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellView;->setTextColor(I)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellLayout;->mSpellTextView:Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellView;
 
@@ -229,11 +229,11 @@
 
     move-result v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellView;->setTextSize(IF)V
+    invoke-virtual {v0, v1, v2}, Landroid/widget/TextView;->setTextSize(IF)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellLayout;->mSpellTextView:Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellView;
 
-    invoke-virtual {v0, v4, v3, v4, v3}, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellView;->setPadding(IIII)V
+    invoke-virtual {v0, v4, v3, v4, v3}, Landroid/widget/TextView;->setPadding(IIII)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellLayout;->mFloatingWindow:Landroid/widget/PopupWindow;
 
@@ -312,7 +312,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellLayout;->mSpellText:Ljava/lang/CharSequence;
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellLayout;->mFloatingWindowTimer:Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellLayout$PopupTimer;
 
@@ -326,7 +326,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellLayout;->mFloatingWindowTimer:Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellLayout$PopupTimer;
 

@@ -32,7 +32,7 @@
 
     const/16 v1, 0x40
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-array v0, v1, [S
 

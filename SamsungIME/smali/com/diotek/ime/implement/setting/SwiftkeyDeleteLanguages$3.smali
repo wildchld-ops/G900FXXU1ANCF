@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages$3;->this$0:Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -56,7 +56,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Landroid/widget/ListView;->getMeasuredHeight()I
+    invoke-virtual {v1}, Landroid/view/View;->getMeasuredHeight()I
 
     move-result v1
 

@@ -21,7 +21,7 @@
 .method constructor <init>()V
     .locals 0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 
     sget-object v0, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyWrapper$23;->$SwitchMap$com$touchtype_fluency$LoggingListener$Level:[I
 
-    invoke-virtual {p1}, Lcom/touchtype_fluency/LoggingListener$Level;->ordinal()I
+    invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 

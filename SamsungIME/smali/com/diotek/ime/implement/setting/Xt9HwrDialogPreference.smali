@@ -116,7 +116,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;->getKey()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getKey()Ljava/lang/String;
 
     move-result-object v2
 
@@ -132,7 +132,7 @@
 
     aget-object v2, v2, p1
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;->setSummary(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v2}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
     return-void
 .end method
@@ -144,11 +144,11 @@
 
     if-eqz v2, :cond_1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;->getSharedPreferences()Landroid/content/SharedPreferences;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getSharedPreferences()Landroid/content/SharedPreferences;
 
     move-result-object v2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;->getKey()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getKey()Ljava/lang/String;
 
     move-result-object v3
 
@@ -244,9 +244,9 @@
 
     aget-object v0, v0, v1
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;->setSummary(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v0}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
-    invoke-super {p0, p1}, Landroid/preference/DialogPreference;->onBindView(Landroid/view/View;)V
+    invoke-super {p0, p1}, Landroid/preference/Preference;->onBindView(Landroid/view/View;)V
 
     return-void
 .end method
@@ -260,7 +260,7 @@
 
     invoke-direct {p0}, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;->setDefaultThickness()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -272,7 +272,7 @@
 
     check-cast v0, Landroid/view/LayoutInflater;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;->getDialogLayoutResource()I
+    invoke-virtual {p0}, Landroid/preference/DialogPreference;->getDialogLayoutResource()I
 
     move-result v1
 
@@ -306,17 +306,17 @@
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;->mThicknessListClickListener:Landroid/widget/AdapterView$OnItemClickListener;
 
-    invoke-virtual {v1, v2}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
+    invoke-virtual {v1, v2}, Landroid/widget/AdapterView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
     iget-object v1, p0, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;->mThicknessListView:Landroid/widget/ListView;
 
-    invoke-virtual {v1, v3}, Landroid/widget/ListView;->setChoiceMode(I)V
+    invoke-virtual {v1, v3}, Landroid/widget/AbsListView;->setChoiceMode(I)V
 
     iget-object v1, p0, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;->mThicknessListView:Landroid/widget/ListView;
 
     iget v2, p0, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;->mCurrentIndex:I
 
-    invoke-virtual {v1, v2, v3}, Landroid/widget/ListView;->setItemChecked(IZ)V
+    invoke-virtual {v1, v2, v3}, Landroid/widget/AbsListView;->setItemChecked(IZ)V
 
     iget-object v1, p0, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;->mThicknessListView:Landroid/widget/ListView;
 
@@ -392,7 +392,7 @@
 .method public setSummary(Ljava/lang/String;Ljava/lang/String;)V
     .locals 3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;->getSharedPreferences()Landroid/content/SharedPreferences;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getSharedPreferences()Landroid/content/SharedPreferences;
 
     move-result-object v2
 
@@ -416,7 +416,7 @@
 
     aget-object v2, v2, v0
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;->setSummary(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v2}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
     goto :goto_0
 .end method

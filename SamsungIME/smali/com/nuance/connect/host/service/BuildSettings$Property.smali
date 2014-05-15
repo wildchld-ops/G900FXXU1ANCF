@@ -430,7 +430,7 @@
 
     sget-object v0, Lcom/nuance/connect/host/service/BuildSettings$Property;->$VALUES:[Lcom/nuance/connect/host/service/BuildSettings$Property;
 
-    invoke-virtual {v0}, [Lcom/nuance/connect/host/service/BuildSettings$Property;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 

@@ -27,7 +27,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "STATUS_AVAILABLE"
 
@@ -49,7 +49,7 @@
         }
     .end annotation
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "PROP_ID"
 

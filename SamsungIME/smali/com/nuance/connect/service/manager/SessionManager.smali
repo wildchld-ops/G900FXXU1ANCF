@@ -188,7 +188,7 @@
 
     sget-object v0, Lcom/nuance/connect/service/manager/SessionManager;->MESSAGES_HANDLED:[Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/SessionManager;->setMessagesHandled([Lcom/nuance/connect/internal/common/InternalMessages;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->setMessagesHandled([Lcom/nuance/connect/internal/common/InternalMessages;)V
 
     iget-object v0, p0, Lcom/nuance/connect/service/manager/AbstractCommandManager;->validCommands:Lcom/nuance/connect/service/manager/AbstractCommandManager$ValidCommands;
 
@@ -290,7 +290,7 @@
 
     sget-object v2, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->CRITICAL:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v1, v2}, Lcom/nuance/connect/service/manager/SessionManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v1, v2}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -302,7 +302,7 @@
 
     iput-boolean v3, v0, Lcom/nuance/connect/service/comm/Command;->allowDuplicateOfCommand:Z
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/SessionManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     return-void
 .end method
@@ -432,7 +432,7 @@
 
     sget-object v3, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->CRITICAL:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v2, v3, v1}, Lcom/nuance/connect/service/manager/SessionManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v2, v3, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -440,7 +440,7 @@
 
     iput-boolean v4, v0, Lcom/nuance/connect/service/comm/Command;->requireDevice:Z
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/SessionManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     goto :goto_0
 .end method
@@ -521,7 +521,7 @@
 
     sget-object v2, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->CRITICAL:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v1, v2}, Lcom/nuance/connect/service/manager/SessionManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v1, v2}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -558,11 +558,11 @@
 
     sget-object v0, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_COMMAND_SESSION_CREATE:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v0}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
 
     move-result v0
 
-    invoke-virtual {p0, p1, v0}, Lcom/nuance/connect/service/manager/SessionManager;->preProcessResponse(Lcom/nuance/connect/service/comm/Response;I)Z
+    invoke-virtual {p0, p1, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->preProcessResponse(Lcom/nuance/connect/service/comm/Response;I)Z
 
     move-result v0
 
@@ -578,7 +578,7 @@
 
     :cond_1
     :goto_1
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/SessionManager;->managerStartComplete()V
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->managerStartComplete()V
 
     goto :goto_0
 
@@ -591,7 +591,7 @@
 
     sget-object v1, Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;->STARTING:Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;
 
-    invoke-virtual {v0, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -641,11 +641,11 @@
 
     sget-object v4, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_COMMAND_SYSTEM_POLL:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v4}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
 
     move-result v4
 
-    invoke-virtual {p0, p1, v4}, Lcom/nuance/connect/service/manager/SessionManager;->preProcessResponse(Lcom/nuance/connect/service/comm/Response;I)Z
+    invoke-virtual {p0, p1, v4}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->preProcessResponse(Lcom/nuance/connect/service/comm/Response;I)Z
 
     move-result v4
 
@@ -933,7 +933,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v3}, Ljava/lang/Enum;->ordinal()I
 
     move-result v3
 
@@ -1080,7 +1080,7 @@
 
     invoke-direct {p0, v0}, Lcom/nuance/connect/service/manager/SessionManager;->poll(Z)V
 
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/SessionManager;->managerStartComplete()V
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->managerStartComplete()V
 
     goto :goto_0
 .end method

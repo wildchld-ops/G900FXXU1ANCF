@@ -53,7 +53,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/TapAndHoldView$1;->this$0:Lcom/diotek/ime/implement/setting/TapAndHoldView;
 
-    invoke-virtual {v0}, Lcom/diotek/ime/implement/setting/TapAndHoldView;->invalidate()V
+    invoke-virtual {v0}, Landroid/view/View;->invalidate()V
 
     goto :goto_0
 

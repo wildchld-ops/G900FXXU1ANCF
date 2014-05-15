@@ -38,7 +38,7 @@
     <color name="pen_color_green">#ff009a04</color>
     <color name="pen_color_brown">#ffa44324</color>
     <color name="phoneticpell_select_color">#ff4eaaed</color>
-    <color name="preview_text_color">#ff2d5a8c</color>
+    <color name="preview_text_color">#fff3d400</color>
     <color name="xt9_words_list_no_words_color">#ff414141</color>
     <color name="xt9_words_list_color">#ffd7d7d7</color>
     <color name="phonepad_text_labelcolor_month_press">#ff2d5a8c</color>

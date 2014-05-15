@@ -30,7 +30,7 @@
 
     const/16 v3, 0x20
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v1, Lcom/diotek/ime/framework/engine/xt9/Xt9Datatype$S_ET9ALdbHeaderData;
 

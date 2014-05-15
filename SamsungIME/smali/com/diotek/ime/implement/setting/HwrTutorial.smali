@@ -110,7 +110,7 @@
 
     iput-object v13, p0, Lcom/diotek/ime/implement/setting/HwrTutorial;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/HwrTutorial;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v13
 
@@ -120,13 +120,13 @@
 
     move-result-object v13
 
-    invoke-virtual {p0, v13}, Lcom/diotek/ime/implement/setting/HwrTutorial;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v13}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
     const v13, 0x7f030054
 
-    invoke-virtual {p0, v13}, Lcom/diotek/ime/implement/setting/HwrTutorial;->setContentView(I)V
+    invoke-virtual {p0, v13}, Landroid/app/Activity;->setContentView(I)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/HwrTutorial;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -141,7 +141,7 @@
 
     const v13, 0x7f080070
 
-    invoke-virtual {p0, v13}, Lcom/diotek/ime/implement/setting/HwrTutorial;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v13}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v11
 
@@ -251,7 +251,7 @@
 
     const v13, 0x7f08007a
 
-    invoke-virtual {p0, v13}, Lcom/diotek/ime/implement/setting/HwrTutorial;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v13}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v8
 
@@ -261,11 +261,11 @@
 
     const/16 v13, 0x8
 
-    invoke-virtual {v8, v13}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v8, v13}, Landroid/view/View;->setVisibility(I)V
 
     const v13, 0x7f080099
 
-    invoke-virtual {p0, v13}, Lcom/diotek/ime/implement/setting/HwrTutorial;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v13}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v10
 
@@ -275,12 +275,12 @@
 
     const/16 v13, 0x8
 
-    invoke-virtual {v10, v13}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-virtual {v10, v13}, Landroid/view/View;->setVisibility(I)V
 
     :cond_6
     const v13, 0x7f08007b
 
-    invoke-virtual {p0, v13}, Lcom/diotek/ime/implement/setting/HwrTutorial;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v13}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v9
 
@@ -290,7 +290,7 @@
 
     const/16 v13, 0x8
 
-    invoke-virtual {v9, v13}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-virtual {v9, v13}, Landroid/view/View;->setVisibility(I)V
 
     :cond_7
     iget-object v13, p0, Lcom/diotek/ime/implement/setting/HwrTutorial;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -360,7 +360,7 @@
     :cond_a
     const v13, 0x7f080077
 
-    invoke-virtual {p0, v13}, Lcom/diotek/ime/implement/setting/HwrTutorial;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v13}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
@@ -435,7 +435,7 @@
     :cond_d
     const v13, 0x7f080078
 
-    invoke-virtual {p0, v13}, Lcom/diotek/ime/implement/setting/HwrTutorial;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v13}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v7
 
@@ -528,7 +528,7 @@
     return v0
 
     :pswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/HwrTutorial;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     const/4 v0, 0x1
 

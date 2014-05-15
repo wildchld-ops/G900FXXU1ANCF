@@ -263,7 +263,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v0}, Ljava/io/IOException;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
 
     move-result-object v0
 
@@ -322,7 +322,7 @@
 
     move-result-object v6
 
-    invoke-virtual {v0}, Ljava/security/DigestException;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
 
     move-result-object v0
 

@@ -3,8 +3,8 @@
 .source "ReverseComparator.java"
 
 # interfaces
-.implements Ljava/util/Comparator;
 .implements Ljava/io/Serializable;
+.implements Ljava/util/Comparator;
 
 
 # instance fields
@@ -15,7 +15,7 @@
 .method public constructor <init>(Ljava/util/Comparator;)V
     .locals 2
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     if-nez p1, :cond_0
 

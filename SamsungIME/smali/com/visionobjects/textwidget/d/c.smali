@@ -40,7 +40,7 @@
 
     iput p7, p0, Lcom/visionobjects/textwidget/d/c;->f:I
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method

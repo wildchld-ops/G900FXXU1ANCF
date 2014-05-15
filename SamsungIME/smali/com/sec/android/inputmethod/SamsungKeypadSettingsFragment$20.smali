@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment$20;->this$0:Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -43,7 +43,7 @@
 
     const-string v4, "SETTINGS_DEFAULT_TRACE"
 
-    invoke-virtual {v3, v4}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v3, v4}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -51,7 +51,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, v5}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v0, v5}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     :cond_0
     if-nez v0, :cond_1
@@ -108,7 +108,7 @@
 
     const-string v4, "SETTINGS_DEFAULT_KEYPAD_SWEEPING"
 
-    invoke-virtual {v3, v4}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v3, v4}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -116,7 +116,7 @@
 
     const/4 v3, 0x1
 
-    invoke-virtual {v0, v3}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v0, v3}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     return-void
 .end method

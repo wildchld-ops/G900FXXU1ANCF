@@ -31,7 +31,7 @@
 
     new-instance v0, Lcom/nuance/swypeconnect/ac/ACManager;
 
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/SamsungKeypadApplication;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
 

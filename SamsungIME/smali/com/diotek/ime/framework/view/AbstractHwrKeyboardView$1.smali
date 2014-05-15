@@ -64,7 +64,7 @@
 
     iget-object v8, p0, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView$1;->this$0:Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;
 
-    invoke-virtual {v8}, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->getWidth()I
+    invoke-virtual {v8}, Landroid/view/View;->getWidth()I
 
     move-result v8
 
@@ -72,7 +72,7 @@
 
     iget-object v8, p0, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView$1;->this$0:Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;
 
-    invoke-virtual {v8}, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->getHeight()I
+    invoke-virtual {v8}, Landroid/view/View;->getHeight()I
 
     move-result v8
 

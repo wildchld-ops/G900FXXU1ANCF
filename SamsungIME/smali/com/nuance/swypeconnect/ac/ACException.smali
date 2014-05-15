@@ -149,7 +149,7 @@
 
     move-result-object v0
 
-    invoke-super {p0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+    invoke-super {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v1
 

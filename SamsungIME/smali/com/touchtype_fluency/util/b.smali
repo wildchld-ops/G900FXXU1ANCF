@@ -67,7 +67,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v1, Lcom/touchtype_fluency/util/b$1;
 
@@ -2014,7 +2014,7 @@
 
     iget-object v3, p0, Lcom/touchtype_fluency/util/b;->j:Ljava/util/Vector;
 
-    invoke-virtual {v3}, Ljava/util/Vector;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v3}, Ljava/util/AbstractList;->iterator()Ljava/util/Iterator;
 
     move-result-object v4
 

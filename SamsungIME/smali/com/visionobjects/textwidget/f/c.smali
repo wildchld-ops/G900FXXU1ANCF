@@ -73,7 +73,7 @@
 .method public constructor <init>(Lcom/visionobjects/stylus/core/Segment;Landroid/graphics/Paint;IIII[Ljava/lang/String;[Lcom/visionobjects/textwidget/f/b;[Landroid/graphics/RectF;[F[F[CFFLandroid/graphics/RectF;J)V
     .locals 2
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/visionobjects/textwidget/f/c;->a:Lcom/visionobjects/stylus/core/Segment;
 

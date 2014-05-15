@@ -42,7 +42,7 @@
 
     iput-object p1, p0, Lcom/nuance/swypeconnect/ac/ACManager$ConnectBuildSettings;->this$0:Lcom/nuance/swypeconnect/ac/ACManager;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Landroid/util/SparseArray;
 
@@ -58,7 +58,7 @@
 
     sget-object v1, Lcom/nuance/connect/host/service/BuildSettings$Property;->OEM_ID:Lcom/nuance/connect/host/service/BuildSettings$Property;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/host/service/BuildSettings$Property;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -70,7 +70,7 @@
 
     sget-object v1, Lcom/nuance/connect/host/service/BuildSettings$Property;->ANALYTICS_LEVEL:Lcom/nuance/connect/host/service/BuildSettings$Property;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/host/service/BuildSettings$Property;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -86,7 +86,7 @@
 
     sget-object v1, Lcom/nuance/connect/host/service/BuildSettings$Property;->LOCATION_LEVEL:Lcom/nuance/connect/host/service/BuildSettings$Property;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/host/service/BuildSettings$Property;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -98,7 +98,7 @@
 
     sget-object v1, Lcom/nuance/connect/host/service/BuildSettings$Property;->VERSION:Lcom/nuance/connect/host/service/BuildSettings$Property;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/host/service/BuildSettings$Property;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -110,7 +110,7 @@
 
     sget-object v1, Lcom/nuance/connect/host/service/BuildSettings$Property;->APPLICATION_ID:Lcom/nuance/connect/host/service/BuildSettings$Property;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/host/service/BuildSettings$Property;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -125,7 +125,7 @@
 
     sget-object v1, Lcom/nuance/connect/host/service/BuildSettings$Property;->BUILD_TIMESTAMP:Lcom/nuance/connect/host/service/BuildSettings$Property;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/host/service/BuildSettings$Property;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -137,7 +137,7 @@
 
     sget-object v1, Lcom/nuance/connect/host/service/BuildSettings$Property;->APP_KEY_STARTS:Lcom/nuance/connect/host/service/BuildSettings$Property;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/host/service/BuildSettings$Property;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -149,7 +149,7 @@
 
     sget-object v1, Lcom/nuance/connect/host/service/BuildSettings$Property;->BUILD_EXPIRATION:Lcom/nuance/connect/host/service/BuildSettings$Property;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/host/service/BuildSettings$Property;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -169,7 +169,7 @@
 
     sget-object v1, Lcom/nuance/connect/host/service/BuildSettings$Property;->ANALYTICS_LEVEL:Lcom/nuance/connect/host/service/BuildSettings$Property;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/host/service/BuildSettings$Property;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -197,7 +197,7 @@
 
     sget-object v1, Lcom/nuance/connect/host/service/BuildSettings$Property;->APP_KEY_STARTS:Lcom/nuance/connect/host/service/BuildSettings$Property;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/host/service/BuildSettings$Property;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -248,7 +248,7 @@
 
     sget-object v1, Lcom/nuance/connect/host/service/BuildSettings$Property;->BUILD_EXPIRATION:Lcom/nuance/connect/host/service/BuildSettings$Property;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/host/service/BuildSettings$Property;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -268,7 +268,7 @@
 
     sget-object v1, Lcom/nuance/connect/host/service/BuildSettings$Property;->BUILD_TIMESTAMP:Lcom/nuance/connect/host/service/BuildSettings$Property;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/host/service/BuildSettings$Property;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -407,7 +407,7 @@
 
     sget-object v1, Lcom/nuance/connect/host/service/BuildSettings$Property;->LOCATION_LEVEL:Lcom/nuance/connect/host/service/BuildSettings$Property;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/host/service/BuildSettings$Property;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -464,7 +464,7 @@
 
     sget-object v1, Lcom/nuance/connect/host/service/BuildSettings$Property;->OEM_ID:Lcom/nuance/connect/host/service/BuildSettings$Property;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/host/service/BuildSettings$Property;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -500,7 +500,7 @@
 
     sget-object v1, Lcom/nuance/connect/host/service/BuildSettings$Property;->VERSION:Lcom/nuance/connect/host/service/BuildSettings$Property;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/host/service/BuildSettings$Property;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 

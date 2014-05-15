@@ -89,7 +89,7 @@
 
     move-result-object v5
 
-    invoke-virtual {p0, v5}, Lcom/nuance/connect/sqlite/ReportingDataSource;->decryptString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v5}, Lcom/nuance/connect/sqlite/SQLDataSource;->decryptString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -127,7 +127,7 @@
 
     move-result-object v6
 
-    invoke-virtual {p0, v6}, Lcom/nuance/connect/sqlite/ReportingDataSource;->decryptString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v6}, Lcom/nuance/connect/sqlite/SQLDataSource;->decryptString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
@@ -141,7 +141,7 @@
 
     move-result-object v6
 
-    invoke-virtual {p0, v6}, Lcom/nuance/connect/sqlite/ReportingDataSource;->decryptString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v6}, Lcom/nuance/connect/sqlite/SQLDataSource;->decryptString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
@@ -155,7 +155,7 @@
 
     move-result-object v6
 
-    invoke-virtual {p0, v6}, Lcom/nuance/connect/sqlite/ReportingDataSource;->decryptFloat(Ljava/lang/String;)F
+    invoke-virtual {p0, v6}, Lcom/nuance/connect/sqlite/SQLDataSource;->decryptFloat(Ljava/lang/String;)F
 
     move-result v6
 
@@ -181,7 +181,7 @@
 
     move-result-object v6
 
-    invoke-virtual {p0, v6}, Lcom/nuance/connect/sqlite/ReportingDataSource;->decryptInt(Ljava/lang/String;)I
+    invoke-virtual {p0, v6}, Lcom/nuance/connect/sqlite/SQLDataSource;->decryptInt(Ljava/lang/String;)I
 
     move-result v6
 
@@ -195,7 +195,7 @@
 
     move-result-object v6
 
-    invoke-virtual {p0, v6}, Lcom/nuance/connect/sqlite/ReportingDataSource;->decryptDouble(Ljava/lang/String;)D
+    invoke-virtual {p0, v6}, Lcom/nuance/connect/sqlite/SQLDataSource;->decryptDouble(Ljava/lang/String;)D
 
     move-result-wide v6
 
@@ -209,7 +209,7 @@
 
     move-result-object v6
 
-    invoke-virtual {p0, v6}, Lcom/nuance/connect/sqlite/ReportingDataSource;->decryptDouble(Ljava/lang/String;)D
+    invoke-virtual {p0, v6}, Lcom/nuance/connect/sqlite/SQLDataSource;->decryptDouble(Ljava/lang/String;)D
 
     move-result-wide v6
 
@@ -273,7 +273,7 @@
 
     move-result-object v4
 
-    invoke-virtual {p0, v4}, Lcom/nuance/connect/sqlite/ReportingDataSource;->decryptString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v4}, Lcom/nuance/connect/sqlite/SQLDataSource;->decryptString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -287,7 +287,7 @@
 
     move-result-object v4
 
-    invoke-virtual {p0, v4}, Lcom/nuance/connect/sqlite/ReportingDataSource;->decryptString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v4}, Lcom/nuance/connect/sqlite/SQLDataSource;->decryptString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -301,7 +301,7 @@
 
     move-result-object v4
 
-    invoke-virtual {p0, v4}, Lcom/nuance/connect/sqlite/ReportingDataSource;->decryptString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v4}, Lcom/nuance/connect/sqlite/SQLDataSource;->decryptString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -315,7 +315,7 @@
 
     move-result-object v4
 
-    invoke-virtual {p0, v4}, Lcom/nuance/connect/sqlite/ReportingDataSource;->decryptString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v4}, Lcom/nuance/connect/sqlite/SQLDataSource;->decryptString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -575,7 +575,7 @@
 
     iget-object v0, p0, Lcom/nuance/connect/sqlite/ReportingDataSource;->helper:Lcom/nuance/connect/sqlite/ReportingSQLiteHelper;
 
-    invoke-virtual {v0}, Lcom/nuance/connect/sqlite/ReportingSQLiteHelper;->close()V
+    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteOpenHelper;->close()V
 
     return-void
 .end method
@@ -766,7 +766,7 @@
 
     move-object/from16 v1, p3
 
-    invoke-virtual {v0, v1}, Lcom/nuance/connect/sqlite/ReportingDataSource;->decryptDouble(Ljava/lang/String;)D
+    invoke-virtual {v0, v1}, Lcom/nuance/connect/sqlite/SQLDataSource;->decryptDouble(Ljava/lang/String;)D
 
     move-result-wide v24
 
@@ -774,7 +774,7 @@
 
     move-object/from16 v1, p4
 
-    invoke-virtual {v0, v1}, Lcom/nuance/connect/sqlite/ReportingDataSource;->decryptDouble(Ljava/lang/String;)D
+    invoke-virtual {v0, v1}, Lcom/nuance/connect/sqlite/SQLDataSource;->decryptDouble(Ljava/lang/String;)D
 
     move-result-wide v22
 
@@ -782,7 +782,7 @@
 
     move-object/from16 v1, p5
 
-    invoke-virtual {v0, v1}, Lcom/nuance/connect/sqlite/ReportingDataSource;->decryptString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/nuance/connect/sqlite/SQLDataSource;->decryptString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p5
 
@@ -802,7 +802,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v3}, Lcom/nuance/connect/sqlite/ReportingDataSource;->decryptDouble(Ljava/lang/String;)D
+    invoke-virtual {v0, v3}, Lcom/nuance/connect/sqlite/SQLDataSource;->decryptDouble(Ljava/lang/String;)D
 
     move-result-wide v17
 
@@ -822,7 +822,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v3}, Lcom/nuance/connect/sqlite/ReportingDataSource;->decryptDouble(Ljava/lang/String;)D
+    invoke-virtual {v0, v3}, Lcom/nuance/connect/sqlite/SQLDataSource;->decryptDouble(Ljava/lang/String;)D
 
     move-result-wide v15
 
@@ -842,7 +842,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v3}, Lcom/nuance/connect/sqlite/ReportingDataSource;->decryptInt(Ljava/lang/String;)I
+    invoke-virtual {v0, v3}, Lcom/nuance/connect/sqlite/SQLDataSource;->decryptInt(Ljava/lang/String;)I
 
     move-result v13
 
@@ -862,7 +862,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v3}, Lcom/nuance/connect/sqlite/ReportingDataSource;->decryptString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v3}, Lcom/nuance/connect/sqlite/SQLDataSource;->decryptString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v14
 
@@ -924,7 +924,7 @@
 
     move-wide/from16 v1, v32
 
-    invoke-virtual {v0, v1, v2}, Lcom/nuance/connect/sqlite/ReportingDataSource;->encryptString(D)Ljava/lang/String;
+    invoke-virtual {v0, v1, v2}, Lcom/nuance/connect/sqlite/SQLDataSource;->encryptString(D)Ljava/lang/String;
 
     move-result-object v4
 
@@ -938,7 +938,7 @@
 
     move-wide/from16 v1, v30
 
-    invoke-virtual {v0, v1, v2}, Lcom/nuance/connect/sqlite/ReportingDataSource;->encryptString(D)Ljava/lang/String;
+    invoke-virtual {v0, v1, v2}, Lcom/nuance/connect/sqlite/SQLDataSource;->encryptString(D)Ljava/lang/String;
 
     move-result-object v4
 
@@ -950,7 +950,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v11}, Lcom/nuance/connect/sqlite/ReportingDataSource;->encryptString(I)Ljava/lang/String;
+    invoke-virtual {v0, v11}, Lcom/nuance/connect/sqlite/SQLDataSource;->encryptString(I)Ljava/lang/String;
 
     move-result-object v4
 
@@ -964,7 +964,7 @@
 
     move-object/from16 v1, v21
 
-    invoke-virtual {v0, v1}, Lcom/nuance/connect/sqlite/ReportingDataSource;->encryptString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/nuance/connect/sqlite/SQLDataSource;->encryptString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -1103,7 +1103,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v4}, Lcom/nuance/connect/sqlite/ReportingDataSource;->encryptString(I)Ljava/lang/String;
+    invoke-virtual {v0, v4}, Lcom/nuance/connect/sqlite/SQLDataSource;->encryptString(I)Ljava/lang/String;
 
     move-result-object v4
 
@@ -1472,7 +1472,7 @@
 
     move-result-object v6
 
-    invoke-virtual {v0}, Landroid/database/SQLException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v7
 
@@ -1913,7 +1913,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v3}, Lcom/nuance/connect/sqlite/ReportingDataSource;->encryptString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v3}, Lcom/nuance/connect/sqlite/SQLDataSource;->encryptString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -2021,7 +2021,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v12}, Landroid/database/sqlite/SQLiteException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v12}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v5
 
@@ -2906,7 +2906,7 @@
 
     iget-object v0, p0, Lcom/nuance/connect/sqlite/ReportingDataSource;->helper:Lcom/nuance/connect/sqlite/ReportingSQLiteHelper;
 
-    invoke-virtual {v0}, Lcom/nuance/connect/sqlite/ReportingSQLiteHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v0
 

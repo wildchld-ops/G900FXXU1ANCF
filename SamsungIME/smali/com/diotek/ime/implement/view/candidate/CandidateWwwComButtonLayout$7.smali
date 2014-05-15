@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout$7;->this$0:Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method

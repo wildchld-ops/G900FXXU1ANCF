@@ -32,7 +32,7 @@
         }
     .end annotation
 
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/databases/SipProvider;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
     move-result-object v12
 
@@ -49,7 +49,7 @@
     return-void
 
     :cond_1
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/databases/SipProvider;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
     move-result-object v12
 
@@ -59,7 +59,7 @@
 
     const/4 v8, 0x0
 
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/databases/SipProvider;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
     move-result-object v12
 
@@ -73,7 +73,7 @@
 
     if-eqz v12, :cond_3
 
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/databases/SipProvider;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
     move-result-object v12
 
@@ -196,7 +196,7 @@
 
     move-result-object v12
 
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/databases/SipProvider;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
     move-result-object v13
 
@@ -263,7 +263,7 @@
     move-exception v4
 
     :try_start_1
-    invoke-virtual {v4}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -309,7 +309,7 @@
     move-exception v4
 
     :goto_6
-    invoke-virtual {v4}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto/16 :goto_0
 
@@ -317,7 +317,7 @@
     move-exception v4
 
     :try_start_6
-    invoke-virtual {v4}, Ljava/lang/IndexOutOfBoundsException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
 
@@ -410,70 +410,70 @@
     :catch_4
     move-exception v4
 
-    invoke-virtual {v4}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_b
 
     :catch_5
     move-exception v4
 
-    invoke-virtual {v4}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_c
 
     :catch_6
     move-exception v4
 
-    invoke-virtual {v4}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_d
 
     :catch_7
     move-exception v4
 
-    invoke-virtual {v4}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_a
 
     :catch_8
     move-exception v4
 
-    invoke-virtual {v4}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_4
 
     :catch_9
     move-exception v4
 
-    invoke-virtual {v4}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_5
 
     :catch_a
     move-exception v4
 
-    invoke-virtual {v4}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_3
 
     :catch_b
     move-exception v4
 
-    invoke-virtual {v4}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_8
 
     :catch_c
     move-exception v4
 
-    invoke-virtual {v4}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_9
 
     :catch_d
     move-exception v4
 
-    invoke-virtual {v4}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_7
 
@@ -524,21 +524,21 @@
     :catch_f
     move-exception v4
 
-    invoke-virtual {v4}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_f
 
     :catch_10
     move-exception v4
 
-    invoke-virtual {v4}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_10
 
     :catch_11
     move-exception v4
 
-    invoke-virtual {v4}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_e
 .end method

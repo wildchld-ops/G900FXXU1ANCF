@@ -121,7 +121,7 @@
 
     iget-object v2, p0, Lcom/visionobjects/textwidget/h/i;->e:Lcom/visionobjects/textwidget/h/a;
 
-    invoke-virtual {v2, v9}, Lcom/visionobjects/textwidget/h/a;->setMinimumWidth(I)V
+    invoke-virtual {v2, v9}, Landroid/view/View;->setMinimumWidth(I)V
 
     new-instance v2, Lcom/visionobjects/textwidget/h/d;
 
@@ -131,7 +131,7 @@
 
     iget-object v2, p0, Lcom/visionobjects/textwidget/h/i;->f:Lcom/visionobjects/textwidget/h/d;
 
-    invoke-virtual {v2, v9}, Lcom/visionobjects/textwidget/h/d;->setMinimumWidth(I)V
+    invoke-virtual {v2, v9}, Landroid/view/View;->setMinimumWidth(I)V
 
     new-instance v2, Lcom/visionobjects/textwidget/h/d;
 
@@ -141,7 +141,7 @@
 
     iget-object v2, p0, Lcom/visionobjects/textwidget/h/i;->g:Lcom/visionobjects/textwidget/h/d;
 
-    invoke-virtual {v2, v9}, Lcom/visionobjects/textwidget/h/d;->setMinimumWidth(I)V
+    invoke-virtual {v2, v9}, Landroid/view/View;->setMinimumWidth(I)V
 
     new-instance v2, Landroid/widget/ImageView;
 
@@ -157,7 +157,7 @@
 
     iget-object v2, p0, Lcom/visionobjects/textwidget/h/i;->h:Landroid/widget/ImageView;
 
-    invoke-virtual {v2, v13}, Landroid/widget/ImageView;->setMinimumWidth(I)V
+    invoke-virtual {v2, v13}, Landroid/view/View;->setMinimumWidth(I)V
 
     new-instance v2, Lcom/visionobjects/a/b;
 
@@ -167,7 +167,7 @@
 
     iget-object v2, p0, Lcom/visionobjects/textwidget/h/i;->i:Lcom/visionobjects/a/b;
 
-    invoke-virtual {v2, v9}, Lcom/visionobjects/a/b;->setMinimumWidth(I)V
+    invoke-virtual {v2, v9}, Landroid/view/View;->setMinimumWidth(I)V
 
     new-instance v2, Lcom/visionobjects/textwidget/h/c;
 
@@ -177,7 +177,7 @@
 
     iget-object v2, p0, Lcom/visionobjects/textwidget/h/i;->j:Lcom/visionobjects/textwidget/h/c;
 
-    invoke-virtual {v2, v9}, Lcom/visionobjects/textwidget/h/c;->setMinimumWidth(I)V
+    invoke-virtual {v2, v9}, Landroid/view/View;->setMinimumWidth(I)V
 
     new-instance v2, Lcom/visionobjects/textwidget/h/b;
 
@@ -187,7 +187,7 @@
 
     iget-object v2, p0, Lcom/visionobjects/textwidget/h/i;->k:Lcom/visionobjects/textwidget/h/b;
 
-    invoke-virtual {v2, v9}, Lcom/visionobjects/textwidget/h/b;->setMinimumWidth(I)V
+    invoke-virtual {v2, v9}, Landroid/view/View;->setMinimumWidth(I)V
 
     new-instance v2, Landroid/widget/FrameLayout$LayoutParams;
 
@@ -229,61 +229,61 @@
 
     iget-object v1, p0, Lcom/visionobjects/textwidget/h/i;->d:Landroid/widget/FrameLayout;
 
-    invoke-virtual {v1, v10}, Landroid/widget/FrameLayout;->setBackgroundColor(I)V
+    invoke-virtual {v1, v10}, Landroid/view/View;->setBackgroundColor(I)V
 
     iget-object v1, p0, Lcom/visionobjects/textwidget/h/i;->d:Landroid/widget/FrameLayout;
 
     iget-object v8, p0, Lcom/visionobjects/textwidget/h/i;->e:Lcom/visionobjects/textwidget/h/a;
 
-    invoke-virtual {v1, v8, v2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v1, v8, v2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     iget-object v1, p0, Lcom/visionobjects/textwidget/h/i;->d:Landroid/widget/FrameLayout;
 
     iget-object v2, p0, Lcom/visionobjects/textwidget/h/i;->k:Lcom/visionobjects/textwidget/h/b;
 
-    invoke-virtual {v1, v2, v6}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v1, v2, v6}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     iget-object v1, p0, Lcom/visionobjects/textwidget/h/i;->d:Landroid/widget/FrameLayout;
 
     iget-object v2, p0, Lcom/visionobjects/textwidget/h/i;->j:Lcom/visionobjects/textwidget/h/c;
 
-    invoke-virtual {v1, v2, v7}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v1, v2, v7}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     iget-object v1, p0, Lcom/visionobjects/textwidget/h/i;->d:Landroid/widget/FrameLayout;
 
     iget-object v2, p0, Lcom/visionobjects/textwidget/h/i;->g:Lcom/visionobjects/textwidget/h/d;
 
-    invoke-virtual {v1, v2, v4}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v1, v2, v4}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     iget-object v1, p0, Lcom/visionobjects/textwidget/h/i;->d:Landroid/widget/FrameLayout;
 
     iget-object v2, p0, Lcom/visionobjects/textwidget/h/i;->f:Lcom/visionobjects/textwidget/h/d;
 
-    invoke-virtual {v1, v2, v3}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v1, v2, v3}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     iget-object v1, p0, Lcom/visionobjects/textwidget/h/i;->d:Landroid/widget/FrameLayout;
 
     iget-object v2, p0, Lcom/visionobjects/textwidget/h/i;->h:Landroid/widget/ImageView;
 
-    invoke-virtual {v1, v2, v0}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v1, v2, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/h/i;->d:Landroid/widget/FrameLayout;
 
     iget-object v1, p0, Lcom/visionobjects/textwidget/h/i;->i:Lcom/visionobjects/a/b;
 
-    invoke-virtual {v0, v1, v5}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v0, v1, v5}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/h/i;->d:Landroid/widget/FrameLayout;
 
-    invoke-virtual {p0, v0, v9, v10}, Lcom/visionobjects/textwidget/h/i;->addView(Landroid/view/View;II)V
+    invoke-virtual {p0, v0, v9, v10}, Landroid/view/ViewGroup;->addView(Landroid/view/View;II)V
 
-    invoke-virtual {p0, v13}, Lcom/visionobjects/textwidget/h/i;->setFillViewport(Z)V
+    invoke-virtual {p0, v13}, Landroid/widget/HorizontalScrollView;->setFillViewport(Z)V
 
-    invoke-virtual {p0, v12}, Lcom/visionobjects/textwidget/h/i;->setHorizontalScrollBarEnabled(Z)V
+    invoke-virtual {p0, v12}, Landroid/view/View;->setHorizontalScrollBarEnabled(Z)V
 
-    invoke-virtual {p0, v12}, Lcom/visionobjects/textwidget/h/i;->setHorizontalFadingEdgeEnabled(Z)V
+    invoke-virtual {p0, v12}, Landroid/view/View;->setHorizontalFadingEdgeEnabled(Z)V
 
-    invoke-virtual {p0, v12}, Lcom/visionobjects/textwidget/h/i;->setFadingEdgeLength(I)V
+    invoke-virtual {p0, v12}, Landroid/view/View;->setFadingEdgeLength(I)V
 
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -293,7 +293,7 @@
 
     const/4 v0, 0x2
 
-    invoke-virtual {p0, v0}, Lcom/visionobjects/textwidget/h/i;->setOverScrollMode(I)V
+    invoke-virtual {p0, v0}, Landroid/widget/HorizontalScrollView;->setOverScrollMode(I)V
 
     :cond_0
     new-instance v0, Landroid/view/GestureDetector;
@@ -545,7 +545,7 @@
 
     iget-object v2, p0, Lcom/visionobjects/textwidget/h/i;->j:Lcom/visionobjects/textwidget/h/c;
 
-    invoke-virtual {v2}, Lcom/visionobjects/textwidget/h/c;->getTop()I
+    invoke-virtual {v2}, Landroid/view/View;->getTop()I
 
     move-result v2
 
@@ -723,7 +723,7 @@
 .method protected final onScrollChanged(IIII)V
     .locals 1
 
-    invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/HorizontalScrollView;->onScrollChanged(IIII)V
+    invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onScrollChanged(IIII)V
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/h/i;->j:Lcom/visionobjects/textwidget/h/c;
 

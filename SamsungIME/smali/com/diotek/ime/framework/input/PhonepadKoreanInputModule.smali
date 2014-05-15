@@ -153,7 +153,7 @@
 
     move-result-object v8
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->clearCandidateList()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     move-object/from16 v0, p0
 
@@ -179,7 +179,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v14}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {v0, v14}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     const-string v9, ""
 
@@ -330,7 +330,7 @@
     :cond_3
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v9}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->setDeleteCount(Ljava/lang/String;)V
+    invoke-virtual {v0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setDeleteCount(Ljava/lang/String;)V
 
     move-object/from16 v0, p0
 
@@ -532,7 +532,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v14, v15}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
+    invoke-virtual {v0, v14, v15}, Lcom/diotek/ime/framework/input/AbstractInputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
 
     goto :goto_4
 
@@ -546,7 +546,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v14}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->finishComposing(Z)V
+    invoke-virtual {v0, v14}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->initComposingBuffer()V
 
@@ -556,7 +556,7 @@
 
     invoke-interface {v14}, Lcom/diotek/ime/framework/engine/InputEngineManager;->clearContext()I
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->getDeleteCount()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getDeleteCount()I
 
     move-result v14
 
@@ -592,7 +592,7 @@
 
     if-eqz v8, :cond_5
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->getLastWordDividerIndex()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getLastWordDividerIndex()I
 
     move-result v14
 
@@ -603,13 +603,13 @@
     goto/16 :goto_4
 
     :cond_b
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->initWordDividerIndexList()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initWordDividerIndexList()V
 
     const/16 v14, 0x43
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v14}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {v0, v14}, Lcom/diotek/ime/framework/input/AbstractInputModule;->onKeyDownUpHandle(I)V
 
     goto/16 :goto_4
 .end method
@@ -684,7 +684,7 @@
 
     move-object/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
 
     move-result v14
 
@@ -698,7 +698,7 @@
 
     move-object/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     new-instance v6, Ljava/lang/StringBuilder;
 
@@ -768,7 +768,7 @@
 
     move/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->finishComposing(Z)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->initComposingBuffer()V
 
@@ -1028,7 +1028,7 @@
 
     if-eqz v10, :cond_b
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->getTimeoutComposingLength()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getTimeoutComposingLength()I
 
     move-result v17
 
@@ -1041,7 +1041,7 @@
 
     move/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->finishComposing(Z)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     goto/16 :goto_0
 
@@ -1092,7 +1092,7 @@
 
     move/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->finishComposing(Z)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     goto/16 :goto_0
 
@@ -1182,7 +1182,7 @@
 
     invoke-interface/range {v17 .. v18}, Lcom/diotek/ime/framework/engine/InputEngineManager;->inputCharSequence(Ljava/lang/CharSequence;)I
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->clearCandidateList()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     move-object/from16 v0, p0
 
@@ -1266,7 +1266,7 @@
 
     move/from16 v2, v18
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
 
     if-eqz v10, :cond_8
 
@@ -1283,7 +1283,7 @@
 
     if-nez v14, :cond_16
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->getTimeoutComposingLength()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getTimeoutComposingLength()I
 
     move-result v17
 
@@ -1291,7 +1291,7 @@
 
     if-lez v15, :cond_16
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->getTimeoutComposingLength()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getTimeoutComposingLength()I
 
     move-result v17
 
@@ -1308,7 +1308,7 @@
     :cond_16
     if-ge v15, v8, :cond_1b
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->finishComposingWithoutInit()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposingWithoutInit()V
 
     if-lez v15, :cond_17
 
@@ -1408,7 +1408,7 @@
 
     if-nez v14, :cond_1d
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->getTimeoutComposingLength()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getTimeoutComposingLength()I
 
     move-result v17
 
@@ -1416,7 +1416,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v10}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->setComposingTextWithoutBatch(Landroid/view/inputmethod/InputConnection;)V
+    invoke-virtual {v0, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingTextWithoutBatch(Landroid/view/inputmethod/InputConnection;)V
 
     :goto_8
     if-nez v11, :cond_19
@@ -1445,7 +1445,7 @@
 
     move/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->setTimeoutComposingLength(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setTimeoutComposingLength(I)V
 
     move-object/from16 v0, p0
 
@@ -1461,7 +1461,7 @@
 
     move/from16 v2, v18
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
 
     goto/16 :goto_5
 
@@ -1475,7 +1475,7 @@
     :cond_1c
     if-nez v8, :cond_18
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->finishComposingWithoutInit()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposingWithoutInit()V
 
     invoke-static {v6}, Lcom/diotek/ime/framework/input/ComposingTextManager;->replace(Ljava/lang/StringBuilder;)V
 
@@ -1533,7 +1533,7 @@
 
     iget-object v6, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget-object v6, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -1582,7 +1582,7 @@
 
     move-result-object v6
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     invoke-static {v2}, Lcom/diotek/ime/framework/input/ComposingTextManager;->append(C)V
 
@@ -1684,7 +1684,7 @@
 
     const/4 v8, 0x0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     iget-object v5, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -1761,7 +1761,7 @@
 
     invoke-interface {v5}, Lcom/diotek/ime/framework/engine/InputEngineManager;->clearContext()I
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     invoke-virtual {p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->initComposingBuffer()V
 
@@ -1774,9 +1774,9 @@
 
     if-ne p1, v5, :cond_3
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->sendEnterKeyHandle()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->sendEnterKeyHandle()V
 
     :cond_2
     :goto_0
@@ -1797,12 +1797,12 @@
 
     if-eqz v3, :cond_4
 
-    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->processMultiTapSymbolicKey(I[I)V
+    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->processMultiTapSymbolicKey(I[I)V
 
     goto :goto_0
 
     :cond_4
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->finishComposingWithoutInit()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposingWithoutInit()V
 
     const/4 v5, 0x4
 
@@ -1812,7 +1812,7 @@
 
     iget-object v5, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
 
     move-result v5
 
@@ -1820,10 +1820,10 @@
 
     iget-object v5, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     :cond_5
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->resetTimeoutComposingLength()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetTimeoutComposingLength()V
 
     invoke-virtual {p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->initComposingBuffer()V
 
@@ -1856,7 +1856,7 @@
 
     move-result-object v5
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     goto :goto_0
 .end method
@@ -1868,7 +1868,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -1906,7 +1906,7 @@
     invoke-interface {v1}, Lcom/diotek/ime/framework/engine/InputEngineManager;->doResetMultitap()I
 
     :cond_1
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->getTimeoutComposingLength()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getTimeoutComposingLength()I
 
     move-result v1
 
@@ -1918,7 +1918,7 @@
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     invoke-static {}, Lcom/diotek/ime/framework/repository/PropertyItems;->isEnableDefaultCandidateview()Z
 
@@ -2015,7 +2015,7 @@
 
     move-result v2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     iget-object v6, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -2095,7 +2095,7 @@
 
     invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->processSymbolicKey(I[I)V
 
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->autoPeriod(I)V
+    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->autoPeriod(I)V
 
     goto :goto_1
 
@@ -2119,7 +2119,7 @@
     :cond_7
     invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->processSymbolicKey(I[I)V
 
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->autoPeriod(I)V
+    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->autoPeriod(I)V
 
     goto :goto_1
 .end method
@@ -2295,7 +2295,7 @@
 
     invoke-interface {v7, p1}, Lcom/diotek/ime/framework/engine/InputEngineManager;->processWhenPickSuggestionManually(I)I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     iget-object v7, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -2371,7 +2371,7 @@
     :cond_3
     const/4 v7, 0x1
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     invoke-virtual {p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->initComposingBuffer()V
 
@@ -2429,7 +2429,7 @@
 
     const/4 v4, 0x1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     iget-object v5, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -2470,19 +2470,19 @@
     :goto_0
     iget-object v5, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
 
     move-result v5
 
     if-nez v5, :cond_1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->getTimeoutComposingLength()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getTimeoutComposingLength()I
 
     move-result v5
 
     if-gtz v5, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->getTimeoutComposingLength()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getTimeoutComposingLength()I
 
     move-result v5
 
@@ -2491,7 +2491,7 @@
     if-eqz v1, :cond_1
 
     :cond_0
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     :cond_1
     const-string v5, " .,;:!?\n()[]*&@{}/<>_-+=|\'\u061b\u060c\u061f\""
@@ -2597,12 +2597,12 @@
 
     if-eqz v2, :cond_8
 
-    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->processMultiTapSymbolicKey(I[I)V
+    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->processMultiTapSymbolicKey(I[I)V
 
     goto :goto_1
 
     :cond_8
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     iget-object v4, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -2618,7 +2618,7 @@
 
     move-result-object v4
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     goto :goto_1
 .end method
@@ -2725,7 +2725,7 @@
     invoke-static {v3}, Lcom/diotek/ime/framework/input/ComposingTextManager;->replace(Ljava/lang/String;)V
 
     :cond_0
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;->nomalizerFormNFC()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->nomalizerFormNFC()V
 
     sget-boolean v4, Lcom/diotek/ime/framework/util/Debug;->DEBUG:Z
 

@@ -1095,7 +1095,7 @@
 
     move-object/from16 v18, v0
 
-    invoke-virtual/range {v18 .. v18}, Lcom/touchtype_fluency/Sequence;->isEmpty()Z
+    invoke-virtual/range {v18 .. v18}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v18
 
@@ -2154,7 +2154,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v0}, Lcom/touchtype_fluency/LicenseException;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
 
     move-result-object v4
 
@@ -2309,7 +2309,7 @@
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     :cond_1
-    invoke-virtual {v2}, Lcom/touchtype_fluency/Predictions;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v2}, Ljava/util/AbstractList;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -2935,7 +2935,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0}, Lcom/touchtype_fluency/LicenseException;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
 
     move-result-object v3
 
@@ -3903,7 +3903,7 @@
 
     move-result v3
 
-    invoke-virtual {v5}, Ljava/util/AbstractList;->hashCode()I
+    invoke-virtual {v5}, Ljava/util/ArrayList;->hashCode()I
 
     move-result v9
 
@@ -5832,7 +5832,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p1}, Lcom/touchtype_fluency/Sequence;->isEmpty()Z
+    invoke-virtual {p1}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v4
 
@@ -6053,7 +6053,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyWrapper;->mSequence:Lcom/touchtype_fluency/Sequence;
 
-    invoke-virtual {v2}, Lcom/touchtype_fluency/Sequence;->isEmpty()Z
+    invoke-virtual {v2}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v2
 
@@ -6300,7 +6300,7 @@
 
     move-object/from16 v17, v0
 
-    invoke-virtual/range {v17 .. v17}, Lcom/touchtype_fluency/Sequence;->isEmpty()Z
+    invoke-virtual/range {v17 .. v17}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v17
 
@@ -7005,7 +7005,7 @@
 
     iget-object v9, p0, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyWrapper;->mSequence:Lcom/touchtype_fluency/Sequence;
 
-    invoke-virtual {v9}, Lcom/touchtype_fluency/Sequence;->isEmpty()Z
+    invoke-virtual {v9}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v9
 
@@ -7137,7 +7137,7 @@
 
     iget-object v8, p0, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyWrapper;->mSequence:Lcom/touchtype_fluency/Sequence;
 
-    invoke-virtual {v8}, Lcom/touchtype_fluency/Sequence;->isEmpty()Z
+    invoke-virtual {v8}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v8
 
@@ -7555,7 +7555,7 @@
 
     invoke-virtual {p0}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyWrapper;->updateSelectList()I
 
-    invoke-virtual {p0, p2}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyWrapper;->getSuggestion(Ljava/util/ArrayList;)I
+    invoke-virtual {p0, p2}, Lcom/diotek/ime/framework/engine/AbstractInputEngine;->getSuggestion(Ljava/util/ArrayList;)I
 
     invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
 
@@ -10408,7 +10408,7 @@
     return-void
 
     :cond_0
-    invoke-virtual {p1}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {p1}, Ljava/util/AbstractSequentialList;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -10541,7 +10541,7 @@
     :cond_2
     iget-object v4, p0, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyWrapper;->mSequence:Lcom/touchtype_fluency/Sequence;
 
-    invoke-virtual {v4}, Lcom/touchtype_fluency/Sequence;->isEmpty()Z
+    invoke-virtual {v4}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v4
 

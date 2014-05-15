@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/nuance/connect/internal/CategoryServiceInternal$3;->this$0:Lcom/nuance/connect/internal/CategoryServiceInternal;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -49,7 +49,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, [I->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -71,7 +71,7 @@
 
     move-result-object v11
 
-    invoke-virtual {v11}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v11}, Ljava/lang/Enum;->ordinal()I
 
     move-result v11
 

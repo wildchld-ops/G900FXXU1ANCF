@@ -18,7 +18,7 @@
         }
     .end annotation
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v1, 0x1
 
@@ -70,7 +70,7 @@
         }
     .end annotation
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p2, p0, Lde/congrace/exp4j/CustomFunction;->argc:I
 

@@ -1467,7 +1467,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/engine/dwp/DWPWrapper;->isLanguageForToUseBestWord()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/engine/AbstractInputEngine;->isLanguageForToUseBestWord()Z
 
     move-result v0
 

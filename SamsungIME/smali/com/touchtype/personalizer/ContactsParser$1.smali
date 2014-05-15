@@ -133,7 +133,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v2}, Lcom/touchtype/personalizer/ContactsParser$1;->publishProgress([Ljava/lang/Object;)V
+    invoke-virtual {v0, v2}, Landroid/os/AsyncTask;->publishProgress([Ljava/lang/Object;)V
 
     :cond_0
     :goto_0
@@ -183,10 +183,10 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v2}, Lcom/touchtype/personalizer/ContactsParser$1;->publishProgress([Ljava/lang/Object;)V
+    invoke-virtual {v0, v2}, Landroid/os/AsyncTask;->publishProgress([Ljava/lang/Object;)V
 
     :cond_3
-    invoke-virtual/range {p0 .. p0}, Lcom/touchtype/personalizer/ContactsParser$1;->isCancelled()Z
+    invoke-virtual/range {p0 .. p0}, Landroid/os/AsyncTask;->isCancelled()Z
 
     move-result v2
 
@@ -309,7 +309,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v2}, Lcom/touchtype/personalizer/ContactsParser$1;->publishProgress([Ljava/lang/Object;)V
+    invoke-virtual {v0, v2}, Landroid/os/AsyncTask;->publishProgress([Ljava/lang/Object;)V
 
     goto/16 :goto_1
 
@@ -381,7 +381,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v2}, Lcom/touchtype/personalizer/ContactsParser$1;->publishProgress([Ljava/lang/Object;)V
+    invoke-virtual {v0, v2}, Landroid/os/AsyncTask;->publishProgress([Ljava/lang/Object;)V
 
     goto/16 :goto_1
 
@@ -475,9 +475,9 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v2}, Lcom/touchtype/personalizer/ContactsParser$1;->publishProgress([Ljava/lang/Object;)V
+    invoke-virtual {v0, v2}, Landroid/os/AsyncTask;->publishProgress([Ljava/lang/Object;)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/touchtype/personalizer/ContactsParser$1;->isCancelled()Z
+    invoke-virtual/range {p0 .. p0}, Landroid/os/AsyncTask;->isCancelled()Z
     :try_end_2
     .catch Landroid/database/sqlite/SQLiteException; {:try_start_2 .. :try_end_2} :catch_0
     .catch Ljava/lang/SecurityException; {:try_start_2 .. :try_end_2} :catch_1
@@ -534,7 +534,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v2}, Lcom/touchtype/personalizer/ContactsParser$1;->publishProgress([Ljava/lang/Object;)V
+    invoke-virtual {v0, v2}, Landroid/os/AsyncTask;->publishProgress([Ljava/lang/Object;)V
 
     goto/16 :goto_0
 

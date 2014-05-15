@@ -171,7 +171,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object v3, p0, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->mSwiftKeyUtilSession:Lcom/touchtype_fluency/util/SwiftKeySession;
 
@@ -856,7 +856,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lcom/touchtype_fluency/Sequence;->isEmpty()Z
+    invoke-virtual {p1}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v0
 
@@ -1628,7 +1628,7 @@
     iget p3, p0, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->mCandidateWordNumber:I
 
     :cond_0
-    invoke-virtual {p1}, Lcom/touchtype_fluency/Sequence;->isEmpty()Z
+    invoke-virtual {p1}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v7
 
@@ -1643,7 +1643,7 @@
     invoke-direct {p0}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->removeDefaultSymbolLayoutKey()V
 
     :goto_0
-    invoke-virtual {p1}, Lcom/touchtype_fluency/Sequence;->isEmpty()Z
+    invoke-virtual {p1}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v7
 
@@ -1699,11 +1699,11 @@
 
     move-result v8
 
-    invoke-virtual {p1, v7, v8}, Lcom/touchtype_fluency/Sequence;->subList(II)Ljava/util/List;
+    invoke-virtual {p1, v7, v8}, Ljava/util/AbstractList;->subList(II)Ljava/util/List;
 
     move-result-object v7
 
-    invoke-virtual {v0, v7}, Lcom/touchtype_fluency/Sequence;->addAll(Ljava/util/Collection;)Z
+    invoke-virtual {v0, v7}, Ljava/util/AbstractCollection;->addAll(Ljava/util/Collection;)Z
 
     new-instance v1, Lcom/touchtype_fluency/TouchHistory;
 
@@ -1791,7 +1791,7 @@
     iget p3, p0, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->mCandidateWordNumber:I
 
     :cond_0
-    invoke-virtual {p1}, Lcom/touchtype_fluency/Sequence;->isEmpty()Z
+    invoke-virtual {p1}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v0
 
@@ -3352,7 +3352,7 @@
     invoke-virtual {p0}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->enableAllModel()V
 
     :cond_1
-    invoke-virtual {v3}, Lcom/touchtype_fluency/Predictions;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v3}, Ljava/util/AbstractList;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -3631,7 +3631,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0}, Lcom/touchtype_fluency/LicenseException;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
 
     move-result-object v3
 
@@ -3881,7 +3881,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lcom/touchtype_fluency/Sequence;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v4}, Ljava/util/AbstractList;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
@@ -3989,7 +3989,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-virtual {v0, p1}, Lcom/touchtype_fluency/Sequence;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/AbstractList;->add(Ljava/lang/Object;)Z
 
     iget-object v1, p0, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->mTrainer:Lcom/touchtype_fluency/Trainer;
 
@@ -4352,7 +4352,7 @@
 
     move-result v3
 
-    invoke-virtual {p1, v2, v3}, Lcom/touchtype_fluency/Sequence;->subList(II)Ljava/util/List;
+    invoke-virtual {p1, v2, v3}, Ljava/util/AbstractList;->subList(II)Ljava/util/List;
 
     move-result-object v0
 
@@ -4369,7 +4369,7 @@
     :goto_0
     iget-object v2, p0, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->mPreviewSequence:Lcom/touchtype_fluency/Sequence;
 
-    invoke-virtual {v2, v0}, Lcom/touchtype_fluency/Sequence;->addAll(Ljava/util/Collection;)Z
+    invoke-virtual {v2, v0}, Ljava/util/AbstractCollection;->addAll(Ljava/util/Collection;)Z
 
     iget-object v2, p0, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->mTouchHistory:Lcom/touchtype_fluency/TouchHistory;
 
@@ -4431,7 +4431,7 @@
     :cond_2
     iget-object v2, p0, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->mPreviewSequence:Lcom/touchtype_fluency/Sequence;
 
-    invoke-virtual {v2}, Lcom/touchtype_fluency/Sequence;->clear()V
+    invoke-virtual {v2}, Ljava/util/AbstractList;->clear()V
 
     goto :goto_0
 
@@ -4852,7 +4852,7 @@
 
     iget-object v3, p0, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->mTouchHistoryRepository:Ljava/util/LinkedList;
 
-    invoke-virtual {v3}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v3}, Ljava/util/AbstractSequentialList;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
@@ -5168,7 +5168,7 @@
     move-exception v1
 
     :try_start_5
-    invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
+    invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     const/4 v6, 0x0
 
@@ -5187,7 +5187,7 @@
     move-exception v1
 
     :try_start_6
-    invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     const/4 v6, 0x0
 
@@ -5702,14 +5702,14 @@
     :catch_0
     move-exception v0
 
-    invoke-virtual {v0}, Ljava/lang/ClassCastException;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 
     :catch_1
     move-exception v0
 
-    invoke-virtual {v0}, Lcom/touchtype_fluency/ParameterOutOfRangeException;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 .end method
@@ -5750,14 +5750,14 @@
     :catch_0
     move-exception v0
 
-    invoke-virtual {v0}, Ljava/lang/ClassCastException;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 
     :catch_1
     move-exception v0
 
-    invoke-virtual {v0}, Lcom/touchtype_fluency/ParameterOutOfRangeException;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 .end method
@@ -5794,14 +5794,14 @@
     :catch_0
     move-exception v0
 
-    invoke-virtual {v0}, Ljava/lang/ClassCastException;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 
     :catch_1
     move-exception v0
 
-    invoke-virtual {v0}, Lcom/touchtype_fluency/ParameterOutOfRangeException;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 .end method
@@ -5877,7 +5877,7 @@
 
     iget-object v5, p0, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->mPredictions:Lcom/touchtype_fluency/Predictions;
 
-    invoke-virtual {v5}, Lcom/touchtype_fluency/Predictions;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v5}, Ljava/util/AbstractList;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 

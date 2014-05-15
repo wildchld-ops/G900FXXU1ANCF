@@ -28,11 +28,11 @@
     return-void
 
     :cond_1
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->clearCandidateList()V
 
     iget-object v12, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     const-string v5, ""
 
@@ -194,7 +194,7 @@
     const-string v7, ""
 
     :cond_6
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->setDeleteCount(Ljava/lang/String;)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->setDeleteCount(Ljava/lang/String;)V
 
     const/4 v11, 0x0
 
@@ -217,7 +217,7 @@
     if-ne v12, v13, :cond_8
 
     :cond_7
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->isBeforeTraceInput()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->isBeforeTraceInput()Z
 
     move-result v12
 
@@ -232,7 +232,7 @@
 
     if-le v12, v13, :cond_c
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->isBeforeTraceInput()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->isBeforeTraceInput()Z
 
     move-result v12
 
@@ -248,7 +248,7 @@
 
     if-nez v12, :cond_b
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->isRecapture()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->isRecapture()Z
 
     move-result v12
 
@@ -262,13 +262,13 @@
 
     const/4 v12, 0x1
 
-    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
     const/4 v12, -0x5
 
-    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->processReCaptureForXT9(I)V
+    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->processReCaptureForXT9(I)V
 
     iget-object v12, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -285,7 +285,7 @@
     invoke-interface {v12, v13}, Lcom/diotek/ime/framework/engine/InputEngineManager;->getExactCharSequence(Ljava/lang/StringBuilder;)I
 
     :goto_4
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->setComposingText()V
 
     iget-object v12, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -311,13 +311,13 @@
     :cond_a
     const/4 v12, 0x1
 
-    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
     const/16 v12, 0x43
 
-    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->onKeyDownUpHandle(I)V
 
     goto :goto_4
 
@@ -361,7 +361,7 @@
 
     move-result-object v12
 
-    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     goto/16 :goto_0
 
@@ -372,7 +372,7 @@
 
     move-result-object v12
 
-    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v12, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -397,9 +397,9 @@
 
     const/4 v12, 0x1
 
-    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
     :cond_f
     iget v12, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mInputLanguage:I
@@ -463,7 +463,7 @@
 
     invoke-interface {v12, v13}, Lcom/diotek/ime/framework/engine/InputEngineManager;->inputKey(I)I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->getDeleteCount()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->getDeleteCount()I
 
     move-result v12
 
@@ -495,7 +495,7 @@
 
     if-eqz v4, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->getLastWordDividerIndex()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->getLastWordDividerIndex()I
 
     move-result v12
 
@@ -508,13 +508,13 @@
     :cond_11
     const/16 v12, 0x43
 
-    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->onKeyDownUpHandle(I)V
 
     iget-boolean v12, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mIsPredictionOn:Z
 
     if-eqz v12, :cond_14
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->isRecapture()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->isRecapture()Z
 
     move-result v12
 
@@ -579,7 +579,7 @@
     :cond_14
     const/4 v12, 0x1
 
-    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
     goto/16 :goto_0
 .end method
@@ -597,19 +597,19 @@
 
     const/4 v6, 0x0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->clearCandidateList()V
 
     const/4 v4, 0x0
 
     iget-object v7, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
+    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
 
     move-result v3
 
     iget-object v7, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     const/4 v2, 0x0
 
@@ -647,9 +647,9 @@
 
     if-lt v7, v9, :cond_1
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
     iget-object v7, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -714,11 +714,11 @@
 
     if-eqz v7, :cond_3
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->selectWordInList(I)V
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->selectWordInList(I)V
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
     iget-object v6, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mAutoSpaceController:Lcom/diotek/ime/framework/input/autospace/AutoSpaceController;
 
@@ -738,7 +738,7 @@
 
     move-result-object v6
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v6, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
 
@@ -763,9 +763,9 @@
     :cond_3
     if-eqz v3, :cond_6
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
     iget-object v5, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mAutoSpaceController:Lcom/diotek/ime/framework/input/autospace/AutoSpaceController;
 
@@ -781,7 +781,7 @@
 
     move-result-object v5
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     :cond_4
     iget-object v5, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
@@ -828,7 +828,7 @@
 
     invoke-virtual {v5}, Lcom/diotek/ime/framework/trace/KeyboardTrace;->clearTraceInfo()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->resetPredictionWord()V
 
     :goto_2
     return-void
@@ -856,9 +856,9 @@
     :cond_a
     if-eqz v3, :cond_b
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
     iget-object v7, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -879,9 +879,9 @@
     goto/16 :goto_1
 
     :cond_b
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
     iget-object v7, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mAutoSpaceController:Lcom/diotek/ime/framework/input/autospace/AutoSpaceController;
 
@@ -905,7 +905,7 @@
 
     move-result-object v7
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     :cond_c
     iget-object v7, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
@@ -935,9 +935,9 @@
 
     if-eqz v5, :cond_e
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->clearAction()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->clearAction()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->resetPredictionWord()V
 
     :cond_e
     :goto_4
@@ -949,10 +949,10 @@
 
     iget-boolean v5, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mIsPredictionOn:Z
 
-    invoke-virtual {p0, p1, v5}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->processVietnameseTone(IZ)V
+    invoke-virtual {p0, p1, v5}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->processVietnameseTone(IZ)V
 
     :cond_f
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->setComposingText()V
 
     if-nez v4, :cond_10
 
@@ -974,9 +974,9 @@
 
     if-eqz v3, :cond_17
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
     iget-object v5, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mAutoSpaceController:Lcom/diotek/ime/framework/input/autospace/AutoSpaceController;
 
@@ -1000,7 +1000,7 @@
 
     move-result-object v5
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     :cond_12
     iget-object v5, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
@@ -1087,9 +1087,9 @@
 
     move-result-object v5
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->processReCaptureForXT9(I)V
+    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->processReCaptureForXT9(I)V
 
     iput v6, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mStateCandidate:I
 
@@ -1145,7 +1145,7 @@
     invoke-interface {v5, v6}, Lcom/diotek/ime/framework/engine/InputEngineManager;->getExactCharSequence(Ljava/lang/StringBuilder;)I
 
     :cond_16
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->clearAction()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->clearAction()V
 
     goto/16 :goto_4
 
@@ -1164,11 +1164,11 @@
 
     if-eqz v7, :cond_19
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->selectWordInList(I)V
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->selectWordInList(I)V
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
     iget-object v5, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mAutoSpaceController:Lcom/diotek/ime/framework/input/autospace/AutoSpaceController;
 
@@ -1184,7 +1184,7 @@
 
     move-result-object v5
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v5, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
 
@@ -1220,7 +1220,7 @@
 
     if-eqz v7, :cond_1c
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->isRecapture()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->isRecapture()Z
 
     move-result v7
 
@@ -1275,9 +1275,9 @@
 
     invoke-interface {v5, v6}, Lcom/diotek/ime/framework/common/InputManager;->setXt9Recapture(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->makeCompoingTextCursoroWrod()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->makeCompoingTextCursoroWrod()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->setComposingText()V
 
     iget-object v5, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -1290,9 +1290,9 @@
 
     move-result-object v5
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->processReCaptureForXT9(I)V
+    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->processReCaptureForXT9(I)V
 
     goto/16 :goto_2
 
@@ -1325,7 +1325,7 @@
 
     const/16 v6, 0x5dc
 
-    invoke-virtual {p0, v5, v6}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
+    invoke-virtual {p0, v5, v6}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
 
     goto/16 :goto_2
 .end method
@@ -1333,11 +1333,11 @@
 .method private processSingleTap(I[I)V
     .locals 3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->clearCandidateList()V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
+    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
 
     move-result v0
 
@@ -1345,7 +1345,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -1357,9 +1357,9 @@
 
     const/4 v0, 0x1
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
     :cond_0
     invoke-static {}, Lcom/diotek/ime/framework/repository/InputStatus;->isKeyLongpressed()Z
@@ -1386,7 +1386,7 @@
 
     if-eqz v0, :cond_3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->setComposingText()V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -1421,7 +1421,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
@@ -1439,13 +1439,13 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->wordSeparatorPretreatment(I)V
+    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->wordSeparatorPretreatment(I)V
 
     const/16 v1, 0xa
 
     if-ne p1, v1, :cond_2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->sendEnterKeyHandle()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->sendEnterKeyHandle()V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -1483,14 +1483,14 @@
 
     if-eqz v0, :cond_3
 
-    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->processMultiTapSymbolicKey(I[I)V
+    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->processMultiTapSymbolicKey(I[I)V
 
     goto :goto_0
 
     :cond_3
     iget-object v1, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
 
     move-result v1
 
@@ -1500,9 +1500,9 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
@@ -1518,7 +1518,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     :cond_4
     :goto_1
@@ -1526,7 +1526,7 @@
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->doNextWordPrediction(Z)V
+    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->doNextWordPrediction(Z)V
 
     goto :goto_0
 
@@ -1539,7 +1539,7 @@
 
     if-eqz v1, :cond_6
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
     invoke-static {v3}, Lcom/diotek/ime/framework/input/ComposingTextManager;->replace(C)V
 
@@ -1547,7 +1547,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     :cond_6
     int-to-char v1, p1
@@ -1573,7 +1573,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     goto :goto_1
 .end method
@@ -1585,7 +1585,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -1648,7 +1648,7 @@
     invoke-interface {v6}, Lcom/diotek/ime/framework/engine/InputEngineManager;->clearContext()I
 
     :cond_0
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->setPredictionWord(Z)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->setPredictionWord(Z)V
 
     iget-boolean v6, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mIsTraceOn:Z
 
@@ -1745,7 +1745,7 @@
 
     move-result-object v6
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v6, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
 
@@ -1800,7 +1800,7 @@
 
     invoke-static {v5}, Lcom/diotek/ime/framework/repository/InputStatus;->setFlagPhonepadPopupNumberInput(Z)V
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->setBeforeTraceInput(Z)V
+    invoke-virtual {p0, v3}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->setBeforeTraceInput(Z)V
 
     return-void
 
@@ -1883,7 +1883,7 @@
 
     move-result-object v4
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     :cond_e
     invoke-static {}, Lcom/diotek/ime/framework/repository/InputStatus;->isPhonepadPopupNumberInput()Z
@@ -1900,7 +1900,7 @@
 
     move-result-object v4
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     goto :goto_1
 
@@ -1912,7 +1912,7 @@
     :cond_10
     invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->processSymbolicKey(I[I)V
 
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->autoPeriod(I)V
+    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->autoPeriod(I)V
 
     goto/16 :goto_1
 .end method
@@ -1976,7 +1976,7 @@
 
     invoke-interface {v1, v2}, Lcom/diotek/ime/framework/engine/InputEngineManager;->getExactCharSequence(Ljava/lang/StringBuilder;)I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->setComposingText()V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -2027,7 +2027,7 @@
 
     invoke-interface {v1, v2}, Lcom/diotek/ime/framework/engine/InputEngineManager;->getExactCharSequence(Ljava/lang/StringBuilder;)I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->setComposingText()V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -2065,7 +2065,7 @@
 
     const/16 v3, 0x20
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->clearCandidateList()V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -2135,16 +2135,16 @@
 
     if-eqz v0, :cond_5
 
-    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->processMultiTapSymbolicKey(I[I)V
+    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->processMultiTapSymbolicKey(I[I)V
 
     goto :goto_0
 
     :cond_5
     const/4 v1, 0x1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
@@ -2167,7 +2167,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     goto :goto_0
 .end method

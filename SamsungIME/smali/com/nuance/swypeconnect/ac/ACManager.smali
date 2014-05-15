@@ -113,7 +113,7 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 5
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     sget-object v2, Lcom/nuance/connect/util/Logger$LoggerType;->DEVELOPER:Lcom/nuance/connect/util/Logger$LoggerType;
 

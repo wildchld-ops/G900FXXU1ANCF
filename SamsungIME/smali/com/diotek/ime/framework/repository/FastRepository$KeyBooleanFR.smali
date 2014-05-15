@@ -110,7 +110,7 @@
 
     sget-object v0, Lcom/diotek/ime/framework/repository/FastRepository$KeyBooleanFR;->$VALUES:[Lcom/diotek/ime/framework/repository/FastRepository$KeyBooleanFR;
 
-    invoke-virtual {v0}, [Lcom/diotek/ime/framework/repository/FastRepository$KeyBooleanFR;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 

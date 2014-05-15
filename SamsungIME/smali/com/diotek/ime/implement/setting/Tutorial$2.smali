@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/setting/Tutorial$2;->this$0:Lcom/diotek/ime/implement/setting/Tutorial;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -87,7 +87,7 @@
 
     const-string v1, ""
 
-    invoke-virtual {v0, v1}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :cond_0
     return-void

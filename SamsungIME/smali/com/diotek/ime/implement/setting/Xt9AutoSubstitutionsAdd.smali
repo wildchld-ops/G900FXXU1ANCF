@@ -67,7 +67,7 @@
 
     const v8, 0x7f0800a7
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
@@ -75,13 +75,13 @@
 
     const-string v8, "input_method"
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Landroid/view/inputmethod/InputMethodManager;
 
-    invoke-virtual {v4}, Landroid/widget/EditText;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v4}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v8
 
@@ -127,7 +127,7 @@
 
     if-eqz v8, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v3
 
@@ -139,7 +139,7 @@
 
     invoke-virtual {v7}, Landroid/widget/Toast;->show()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     :goto_0
     return-void
@@ -188,7 +188,7 @@
     invoke-interface {v8, v9}, Lcom/diotek/ime/framework/engine/xt9/Xt9DBController;->writeDBdataToFile(B)V
 
     :cond_2
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
@@ -220,7 +220,7 @@
     goto :goto_1
 
     :cond_4
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v3
 
@@ -264,7 +264,7 @@
     invoke-static {v8, v9}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_6
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v3
 
@@ -284,7 +284,7 @@
 
     const v2, 0x7f0800a7
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -292,13 +292,13 @@
 
     const-string v2, "input_method"
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v2}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Landroid/view/inputmethod/InputMethodManager;
 
-    invoke-virtual {v0}, Landroid/widget/EditText;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v0}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v2
 
@@ -306,7 +306,7 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/view/inputmethod/InputMethodManager;->hideSoftInputFromWindow(Landroid/os/IBinder;I)Z
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     return-void
 .end method
@@ -585,7 +585,7 @@
 
     invoke-interface {v1}, Landroid/view/Menu;->clear()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->getMenuInflater()Landroid/view/MenuInflater;
+    invoke-virtual {p0}, Landroid/app/Activity;->getMenuInflater()Landroid/view/MenuInflater;
 
     move-result-object v0
 
@@ -627,9 +627,9 @@
 
     const v6, 0x7f030084
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->setContentView(I)V
+    invoke-virtual {p0, v6}, Landroid/app/Activity;->setContentView(I)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -638,7 +638,7 @@
     invoke-virtual {v0, v2}, Landroid/app/ActionBar;->setDisplayHomeAsUpEnabled(Z)V
 
     :cond_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v6
 
@@ -654,7 +654,7 @@
 
     if-ne v1, v6, :cond_3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
 
@@ -662,15 +662,15 @@
 
     move-result-object v6
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v6}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
     :cond_1
     :goto_0
     const-string v6, ""
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v6}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
 
@@ -687,7 +687,7 @@
     :goto_1
     if-nez v2, :cond_6
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->getWindow()Landroid/view/Window;
+    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object v6
 
@@ -698,7 +698,7 @@
     :goto_2
     const v6, 0x7f0800a7
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v6}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v6
 
@@ -708,11 +708,11 @@
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->mAddingShortcutEditText:Landroid/widget/EditText;
 
-    invoke-virtual {v6, v7}, Landroid/widget/EditText;->setVisibility(I)V
+    invoke-virtual {v6, v7}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->mAddingShortcutEditText:Landroid/widget/EditText;
 
-    invoke-virtual {v6}, Landroid/widget/EditText;->requestFocus()Z
+    invoke-virtual {v6}, Landroid/view/View;->requestFocus()Z
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->mAddingShortcutEditText:Landroid/widget/EditText;
 
@@ -720,11 +720,11 @@
 
     move-result-object v8
 
-    invoke-virtual {v6, v8}, Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
+    invoke-virtual {v6, v8}, Landroid/widget/TextView;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
     const v6, 0x7f0800a8
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v6}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v6
 
@@ -734,7 +734,7 @@
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->mAddingSubstitutionEditText:Landroid/widget/EditText;
 
-    invoke-virtual {v6, v7}, Landroid/widget/EditText;->setVisibility(I)V
+    invoke-virtual {v6, v7}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->mAddingSubstitutionEditText:Landroid/widget/EditText;
 
@@ -742,9 +742,9 @@
 
     move-result-object v7
 
-    invoke-virtual {v6, v7}, Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
+    invoke-virtual {v6, v7}, Landroid/widget/TextView;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v6
 
@@ -784,7 +784,7 @@
 
     iget-object v7, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->mEdittingShortcutWord:Ljava/lang/String;
 
-    invoke-virtual {v6, v7}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v6, v7}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->mAddingShortcutEditText:Landroid/widget/EditText;
 
@@ -808,7 +808,7 @@
 
     move-result-object v7
 
-    invoke-virtual {v6, v7}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v6, v7}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->mAddingSubstitutionEditText:Landroid/widget/EditText;
 
@@ -836,7 +836,7 @@
 
     if-ne v1, v6, :cond_1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
 
@@ -846,12 +846,12 @@
 
     move-result-object v6
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v6}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
     goto/16 :goto_0
 
     :cond_4
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
 
@@ -859,7 +859,7 @@
 
     move-result-object v6
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v6}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
     goto/16 :goto_0
 
@@ -869,7 +869,7 @@
     goto/16 :goto_1
 
     :cond_6
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->getWindow()Landroid/view/Window;
+    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object v6
 
@@ -885,7 +885,7 @@
 
     invoke-interface {p1}, Landroid/view/Menu;->clear()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->getMenuInflater()Landroid/view/MenuInflater;
+    invoke-virtual {p0}, Landroid/app/Activity;->getMenuInflater()Landroid/view/MenuInflater;
 
     move-result-object v0
 
@@ -947,7 +947,7 @@
     return v0
 
     :sswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsAdd;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 

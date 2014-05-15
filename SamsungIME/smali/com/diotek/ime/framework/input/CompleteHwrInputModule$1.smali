@@ -103,7 +103,7 @@
     :cond_2
     const/4 v0, 0x5
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/CompleteHwrInputModule$1;->removeMessages(I)V
+    invoke-virtual {p0, v0}, Landroid/os/Handler;->removeMessages(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/input/CompleteHwrInputModule$1;->this$0:Lcom/diotek/ime/framework/input/CompleteHwrInputModule;
 

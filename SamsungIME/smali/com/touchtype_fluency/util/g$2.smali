@@ -61,7 +61,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "3"
 
@@ -83,7 +83,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "4"
 
@@ -101,7 +101,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "5"
 
@@ -123,7 +123,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "6"
 
@@ -145,7 +145,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "7"
 
@@ -171,7 +171,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "8"
 
@@ -185,7 +185,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "9"
 
@@ -211,7 +211,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "22"
 
@@ -229,7 +229,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "23"
 
@@ -243,7 +243,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "24"
 
@@ -265,7 +265,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "26"
 
@@ -287,7 +287,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "28"
 
@@ -305,7 +305,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "32"
 
@@ -323,7 +323,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "33"
 
@@ -337,7 +337,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "34"
 
@@ -355,7 +355,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "36"
 
@@ -373,7 +373,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "37"
 
@@ -387,7 +387,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "38"
 
@@ -405,7 +405,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "42"
 
@@ -423,7 +423,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "43"
 
@@ -441,7 +441,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "48"
 
@@ -459,7 +459,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "52"
 
@@ -477,7 +477,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "53"
 
@@ -495,7 +495,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "54"
 
@@ -513,7 +513,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "56"
 
@@ -527,7 +527,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "58"
 
@@ -553,7 +553,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "62"
 
@@ -571,7 +571,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "63"
 
@@ -589,7 +589,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "64"
 
@@ -607,7 +607,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "66"
 
@@ -621,7 +621,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "68"
 
@@ -647,7 +647,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "72"
 
@@ -665,7 +665,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "73"
 
@@ -683,7 +683,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "74"
 
@@ -709,7 +709,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "76"
 
@@ -723,7 +723,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "78"
 
@@ -749,7 +749,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "82"
 
@@ -763,7 +763,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "83"
 
@@ -777,7 +777,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "84"
 
@@ -791,7 +791,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "88"
 
@@ -805,7 +805,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "92"
 
@@ -827,7 +827,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "93"
 
@@ -845,7 +845,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "94"
 
@@ -867,7 +867,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "96"
 
@@ -885,7 +885,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "98"
 
@@ -911,7 +911,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "224"
 
@@ -929,7 +929,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "226"
 
@@ -955,7 +955,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "234"
 
@@ -969,7 +969,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "236"
 
@@ -987,7 +987,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "242"
 
@@ -1001,7 +1001,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "243"
 
@@ -1019,7 +1019,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "244"
 
@@ -1033,7 +1033,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "246"
 
@@ -1047,7 +1047,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "248"
 
@@ -1061,7 +1061,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "264"
 
@@ -1075,7 +1075,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "268"
 
@@ -1089,7 +1089,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "284"
 
@@ -1103,7 +1103,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "286"
 
@@ -1121,7 +1121,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "324"
 
@@ -1135,7 +1135,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "326"
 
@@ -1157,7 +1157,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "334"
 
@@ -1175,7 +1175,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "336"
 
@@ -1193,7 +1193,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "342"
 
@@ -1207,7 +1207,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "343"
 
@@ -1221,7 +1221,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "348"
 
@@ -1235,7 +1235,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "364"
 
@@ -1249,7 +1249,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "368"
 
@@ -1267,7 +1267,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "384"
 
@@ -1281,7 +1281,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "386"
 
@@ -1299,7 +1299,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "424"
 
@@ -1317,7 +1317,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "426"
 
@@ -1343,7 +1343,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "434"
 
@@ -1361,7 +1361,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "436"
 
@@ -1379,7 +1379,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "468"
 
@@ -1397,7 +1397,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "482"
 
@@ -1415,7 +1415,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "484"
 
@@ -1433,7 +1433,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "486"
 
@@ -1459,7 +1459,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "524"
 
@@ -1477,7 +1477,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "526"
 
@@ -1503,7 +1503,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "534"
 
@@ -1517,7 +1517,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "536"
 
@@ -1531,7 +1531,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "542"
 
@@ -1549,7 +1549,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "543"
 
@@ -1567,7 +1567,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "546"
 
@@ -1585,7 +1585,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "548"
 
@@ -1603,7 +1603,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "568"
 
@@ -1621,7 +1621,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "582"
 
@@ -1635,7 +1635,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "583"
 
@@ -1653,7 +1653,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "584"
 
@@ -1667,7 +1667,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "586"
 
@@ -1699,7 +1699,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "624"
 
@@ -1717,7 +1717,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "626"
 
@@ -1743,7 +1743,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "634"
 
@@ -1761,7 +1761,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "636"
 
@@ -1779,7 +1779,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "643"
 
@@ -1797,7 +1797,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "646"
 
@@ -1815,7 +1815,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "648"
 
@@ -1833,7 +1833,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "668"
 
@@ -1851,7 +1851,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "683"
 
@@ -1865,7 +1865,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "686"
 
@@ -1883,7 +1883,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "724"
 
@@ -1901,7 +1901,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "726"
 
@@ -1939,7 +1939,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "734"
 
@@ -1953,7 +1953,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "736"
 
@@ -1975,7 +1975,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "742"
 
@@ -1993,7 +1993,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "743"
 
@@ -2015,7 +2015,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "744"
 
@@ -2029,7 +2029,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "746"
 
@@ -2047,7 +2047,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "748"
 
@@ -2065,7 +2065,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "768"
 
@@ -2087,7 +2087,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "782"
 
@@ -2101,7 +2101,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "783"
 
@@ -2115,7 +2115,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "784"
 
@@ -2133,7 +2133,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "786"
 
@@ -2165,7 +2165,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "824"
 
@@ -2179,7 +2179,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "826"
 
@@ -2197,7 +2197,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "843"
 
@@ -2211,7 +2211,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "868"
 
@@ -2225,7 +2225,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "884"
 
@@ -2239,7 +2239,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "886"
 
@@ -2257,7 +2257,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "924"
 
@@ -2275,7 +2275,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "926"
 
@@ -2307,7 +2307,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "934"
 
@@ -2325,7 +2325,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "936"
 
@@ -2343,7 +2343,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "942"
 
@@ -2361,7 +2361,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "943"
 
@@ -2379,7 +2379,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "944"
 
@@ -2393,7 +2393,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "946"
 
@@ -2411,7 +2411,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "948"
 
@@ -2429,7 +2429,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "968"
 
@@ -2447,7 +2447,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "983"
 
@@ -2465,7 +2465,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "984"
 
@@ -2479,7 +2479,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "986"
 
@@ -2505,7 +2505,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "2264"
 
@@ -2523,7 +2523,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "2364"
 
@@ -2541,7 +2541,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "2424"
 
@@ -2555,7 +2555,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "2426"
 
@@ -2581,7 +2581,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "2436"
 
@@ -2595,7 +2595,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "2464"
 
@@ -2609,7 +2609,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "2468"
 
@@ -2623,7 +2623,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "2482"
 
@@ -2637,7 +2637,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "2484"
 
@@ -2651,7 +2651,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "2486"
 
@@ -2669,7 +2669,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "2664"
 
@@ -2683,7 +2683,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "2826"
 
@@ -2697,7 +2697,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "3264"
 
@@ -2715,7 +2715,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "3364"
 
@@ -2733,7 +2733,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "3426"
 
@@ -2751,7 +2751,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "3464"
 
@@ -2765,7 +2765,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "3664"
 
@@ -2779,7 +2779,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "3826"
 
@@ -2793,7 +2793,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "4264"
 
@@ -2811,7 +2811,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "4364"
 
@@ -2829,7 +2829,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "4664"
 
@@ -2847,7 +2847,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "4824"
 
@@ -2865,7 +2865,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "4826"
 
@@ -2883,7 +2883,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "5264"
 
@@ -2901,7 +2901,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "5364"
 
@@ -2919,7 +2919,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "5426"
 
@@ -2945,7 +2945,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "5464"
 
@@ -2963,7 +2963,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "5664"
 
@@ -2981,7 +2981,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "5824"
 
@@ -2995,7 +2995,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "5826"
 
@@ -3017,7 +3017,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "6264"
 
@@ -3035,7 +3035,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "6364"
 
@@ -3053,7 +3053,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "6426"
 
@@ -3079,7 +3079,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "6464"
 
@@ -3097,7 +3097,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "6664"
 
@@ -3111,7 +3111,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "6826"
 
@@ -3125,7 +3125,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "7264"
 
@@ -3147,7 +3147,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "7364"
 
@@ -3169,7 +3169,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "7424"
 
@@ -3183,7 +3183,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "7426"
 
@@ -3221,7 +3221,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "7434"
 
@@ -3235,7 +3235,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "7436"
 
@@ -3249,7 +3249,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "7464"
 
@@ -3267,7 +3267,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "7468"
 
@@ -3281,7 +3281,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "7482"
 
@@ -3295,7 +3295,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "7484"
 
@@ -3309,7 +3309,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "7486"
 
@@ -3327,7 +3327,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "7664"
 
@@ -3345,7 +3345,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "7826"
 
@@ -3367,7 +3367,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "8264"
 
@@ -3381,7 +3381,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "8364"
 
@@ -3395,7 +3395,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "8426"
 
@@ -3413,7 +3413,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "8464"
 
@@ -3427,7 +3427,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "8664"
 
@@ -3441,7 +3441,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "8826"
 
@@ -3455,7 +3455,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "9264"
 
@@ -3477,7 +3477,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "9364"
 
@@ -3495,7 +3495,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "9424"
 
@@ -3509,7 +3509,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "9426"
 
@@ -3535,7 +3535,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "9436"
 
@@ -3549,7 +3549,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "9464"
 
@@ -3567,7 +3567,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "9468"
 
@@ -3581,7 +3581,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "9482"
 
@@ -3595,7 +3595,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "9484"
 
@@ -3609,7 +3609,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "9486"
 
@@ -3627,7 +3627,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "9664"
 
@@ -3645,7 +3645,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "9826"
 
@@ -3667,7 +3667,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "24264"
 
@@ -3681,7 +3681,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "24364"
 
@@ -3695,7 +3695,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "24664"
 
@@ -3709,7 +3709,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "24824"
 
@@ -3723,7 +3723,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "24826"
 
@@ -3737,7 +3737,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "48264"
 
@@ -3755,7 +3755,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "54264"
 
@@ -3773,7 +3773,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "54664"
 
@@ -3787,7 +3787,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "58264"
 
@@ -3801,7 +3801,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "64264"
 
@@ -3815,7 +3815,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "74264"
 
@@ -3833,7 +3833,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "74364"
 
@@ -3847,7 +3847,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "74664"
 
@@ -3861,7 +3861,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "74824"
 
@@ -3875,7 +3875,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "74826"
 
@@ -3889,7 +3889,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "94264"
 
@@ -3907,7 +3907,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "94364"
 
@@ -3921,7 +3921,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "94664"
 
@@ -3939,7 +3939,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "94824"
 
@@ -3953,7 +3953,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "94826"
 
@@ -3967,7 +3967,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "248264"
 
@@ -3981,7 +3981,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "748264"
 
@@ -3995,7 +3995,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "948264"
 
@@ -4009,7 +4009,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lcom/touchtype_fluency/util/g$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method

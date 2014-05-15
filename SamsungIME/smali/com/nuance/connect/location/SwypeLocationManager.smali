@@ -110,7 +110,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Ljava/util/HashMap;
 
@@ -770,7 +770,7 @@
 
     invoke-direct {v1, p0, v0}, Lcom/nuance/connect/location/SwypeLocationManager$2;-><init>(Lcom/nuance/connect/location/SwypeLocationManager;Lcom/nuance/connect/location/SwypeLocation;)V
 
-    invoke-virtual {v1}, Lcom/nuance/connect/location/SwypeLocationManager$2;->start()V
+    invoke-virtual {v1}, Ljava/lang/Thread;->start()V
 
     sget-object v1, Lcom/nuance/connect/location/SwypeLocationManager;->log:Lcom/nuance/connect/util/Logger$Log;
 
@@ -1348,7 +1348,7 @@
 
     iget-object v1, p0, Lcom/nuance/connect/location/SwypeLocationManager;->currentMode:Lcom/nuance/connect/location/SwypeLocationSettings$LocationMode;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/location/SwypeLocationSettings$LocationMode;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -1696,7 +1696,7 @@
     :try_start_1
     iget-object v5, p0, Lcom/nuance/connect/location/SwypeLocationManager;->currentMode:Lcom/nuance/connect/location/SwypeLocationSettings$LocationMode;
 
-    invoke-virtual {v2, v5}, Lcom/nuance/connect/location/SwypeLocationSettings$LocationMode;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v5}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -1718,7 +1718,7 @@
 
     sget-object v5, Lcom/nuance/connect/location/SwypeLocationSettings$LocationMode;->DISABLED:Lcom/nuance/connect/location/SwypeLocationSettings$LocationMode;
 
-    invoke-virtual {v2, v5}, Lcom/nuance/connect/location/SwypeLocationSettings$LocationMode;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v5}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v5
 

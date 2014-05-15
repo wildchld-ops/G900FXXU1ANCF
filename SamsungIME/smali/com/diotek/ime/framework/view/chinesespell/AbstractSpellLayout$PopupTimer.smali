@@ -75,7 +75,7 @@
 
     const/16 v1, 0x8
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellView;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellLayout$PopupTimer;->this$0:Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellLayout;
 
@@ -98,7 +98,7 @@
     invoke-interface {v0, v1}, Lcom/diotek/ime/framework/common/InputManager;->invalidateKey(I)V
 
     :cond_0
-    invoke-virtual {p0, p0}, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellLayout$PopupTimer;->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {p0, p0}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
     return-void
 .end method
@@ -115,7 +115,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, v1, v1}, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellView;->measure(II)V
+    invoke-virtual {v0, v1, v1}, Landroid/view/View;->measure(II)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellLayout$PopupTimer;->this$0:Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellLayout;
 
@@ -131,7 +131,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellView;->getMeasuredWidth()I
+    invoke-virtual {v1}, Landroid/view/View;->getMeasuredWidth()I
 
     move-result v1
 
@@ -151,13 +151,13 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellView;->getMeasuredHeight()I
+    invoke-virtual {v1}, Landroid/view/View;->getMeasuredHeight()I
 
     move-result v1
 
     invoke-virtual {v0, v1}, Landroid/widget/PopupWindow;->setHeight(I)V
 
-    invoke-virtual {p0, p0}, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellLayout$PopupTimer;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p0, p0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
     return-void
 .end method
@@ -258,7 +258,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v5, v8}, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellView;->setVisibility(I)V
+    invoke-virtual {v5, v8}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v5, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellLayout$PopupTimer;->this$0:Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellLayout;
 
@@ -267,7 +267,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v5}, Lcom/diotek/ime/framework/view/chinesespell/AbstractSpellView;->requestLayout()V
+    invoke-virtual {v5}, Landroid/view/View;->requestLayout()V
 
     if-ne v1, v10, :cond_6
 

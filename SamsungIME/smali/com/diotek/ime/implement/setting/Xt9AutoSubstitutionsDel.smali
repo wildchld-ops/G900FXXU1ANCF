@@ -338,7 +338,7 @@
 
     iput-object v1, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->mRepository:Lcom/diotek/ime/framework/repository/Repository;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -373,7 +373,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->DeleteDlg:Landroid/app/AlertDialog;
 
-    invoke-virtual {v1}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual {v1}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v1
 
@@ -418,7 +418,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
@@ -449,7 +449,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->DeleteDlg:Landroid/app/AlertDialog;
 
-    invoke-virtual {v1}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
     goto :goto_1
 .end method
@@ -486,7 +486,7 @@
 
     invoke-interface {v1}, Landroid/view/Menu;->clear()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->getMenuInflater()Landroid/view/MenuInflater;
+    invoke-virtual {p0}, Landroid/app/Activity;->getMenuInflater()Landroid/view/MenuInflater;
 
     move-result-object v0
 
@@ -548,13 +548,13 @@
 
     const v4, 0x7f030085
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->setContentView(I)V
+    invoke-virtual {p0, v4}, Landroid/app/Activity;->setContentView(I)V
 
     const-string v4, ""
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v4}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -569,7 +569,7 @@
 
     const v4, 0x7f0800a9
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v4}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
@@ -577,7 +577,7 @@
 
     iput-object v4, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->mSelectallview:Landroid/widget/ListView;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v4
 
@@ -621,7 +621,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v4, v5}, Landroid/widget/ListView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {v4, v5}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->mSelectallview:Landroid/widget/ListView;
 
@@ -629,7 +629,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v4, v5}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
+    invoke-virtual {v4, v5}, Landroid/widget/AdapterView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
     new-instance v2, Ljava/util/ArrayList;
 
@@ -716,7 +716,7 @@
 
     const v4, 0x7f0800aa
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v4}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
@@ -740,13 +740,13 @@
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->mDisplayView:Landroid/widget/ListView;
 
-    invoke-virtual {v4, v8}, Landroid/widget/ListView;->setClickable(Z)V
+    invoke-virtual {v4, v8}, Landroid/view/View;->setClickable(Z)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->mDisplayView:Landroid/widget/ListView;
 
     const/4 v5, 0x2
 
-    invoke-virtual {v4, v5}, Landroid/widget/ListView;->setChoiceMode(I)V
+    invoke-virtual {v4, v5}, Landroid/widget/AbsListView;->setChoiceMode(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->mDisplayView:Landroid/widget/ListView;
 
@@ -754,7 +754,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v4, v5}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
+    invoke-virtual {v4, v5}, Landroid/widget/AdapterView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
     goto/16 :goto_0
 .end method
@@ -766,7 +766,7 @@
 
     invoke-interface {p1}, Landroid/view/Menu;->clear()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->getMenuInflater()Landroid/view/MenuInflater;
+    invoke-virtual {p0}, Landroid/app/Activity;->getMenuInflater()Landroid/view/MenuInflater;
 
     move-result-object v0
 
@@ -822,7 +822,7 @@
     return v0
 
     :sswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
@@ -832,7 +832,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 

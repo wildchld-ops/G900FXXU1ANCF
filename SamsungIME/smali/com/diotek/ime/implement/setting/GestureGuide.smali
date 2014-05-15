@@ -56,7 +56,7 @@
 
     const v0, 0x7f080080
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/GestureGuide;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -66,7 +66,7 @@
 
     const v0, 0x7f080081
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/GestureGuide;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -76,7 +76,7 @@
 
     const v0, 0x7f080082
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/GestureGuide;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -86,7 +86,7 @@
 
     const v0, 0x7f080084
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/GestureGuide;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -96,7 +96,7 @@
 
     const v0, 0x7f080083
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/GestureGuide;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -106,7 +106,7 @@
 
     const v0, 0x7f080085
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/GestureGuide;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -124,7 +124,7 @@
 
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/GestureGuide;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -134,13 +134,13 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/GestureGuide;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
     const v1, 0x7f03004c
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/GestureGuide;->setContentView(I)V
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->setContentView(I)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/GestureGuide;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -173,7 +173,7 @@
     return v0
 
     :pswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/GestureGuide;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     const/4 v0, 0x1
 

@@ -56,7 +56,7 @@
 
     iput v0, p0, Lcom/visionobjects/textwidget/h/g;->c:I
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/h/g;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     return-void
 .end method
@@ -76,7 +76,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/visionobjects/textwidget/h/g;->invalidate(Landroid/graphics/Rect;)V
+    invoke-virtual {p0, v0}, Landroid/view/View;->invalidate(Landroid/graphics/Rect;)V
 
     return-void
 .end method
@@ -110,7 +110,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/visionobjects/textwidget/h/g;->invalidate(Landroid/graphics/Rect;)V
+    invoke-virtual {p0, v0}, Landroid/view/View;->invalidate(Landroid/graphics/Rect;)V
 
     return-void
 .end method
@@ -134,7 +134,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/visionobjects/textwidget/h/g;->invalidate(Landroid/graphics/Rect;)V
+    invoke-virtual {p0, v0}, Landroid/view/View;->invalidate(Landroid/graphics/Rect;)V
 
     return-void
 .end method

@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings$6;->this$0:Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -43,7 +43,7 @@
 
     const-string v4, "SETTINGS_DEFAULT_KEYPAD_SWEEPING"
 
-    invoke-virtual {v3, v4}, Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v3, v4}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -51,7 +51,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, v5}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v0, v5}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     :goto_0
     invoke-static {v5}, Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings;->access$202(Z)Z

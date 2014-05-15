@@ -88,20 +88,20 @@
     return v3
 
     :cond_1
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/AutoReplacementSettingsFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual {p0}, Landroid/preference/PreferenceFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v2
 
     const/4 v0, 0x0
 
     :goto_1
-    invoke-virtual {v2}, Landroid/preference/PreferenceScreen;->getPreferenceCount()I
+    invoke-virtual {v2}, Landroid/preference/PreferenceGroup;->getPreferenceCount()I
 
     move-result v5
 
     if-ge v0, v5, :cond_3
 
-    invoke-virtual {v2, v0}, Landroid/preference/PreferenceScreen;->getPreference(I)Landroid/preference/Preference;
+    invoke-virtual {v2, v0}, Landroid/preference/PreferenceGroup;->getPreference(I)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -109,13 +109,13 @@
 
     if-eqz v5, :cond_2
 
-    invoke-virtual {v2, v0}, Landroid/preference/PreferenceScreen;->getPreference(I)Landroid/preference/Preference;
+    invoke-virtual {v2, v0}, Landroid/preference/PreferenceGroup;->getPreference(I)Landroid/preference/Preference;
 
     move-result-object v1
 
     check-cast v1, Landroid/preference/CheckBoxPreference;
 
-    invoke-virtual {v1}, Landroid/preference/CheckBoxPreference;->isChecked()Z
+    invoke-virtual {v1}, Landroid/preference/TwoStatePreference;->isChecked()Z
 
     move-result v5
 
@@ -135,7 +135,7 @@
 .method private createLanguageList(Z)V
     .locals 18
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/setting/AutoReplacementSettingsFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual/range {p0 .. p0}, Landroid/preference/PreferenceFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v11
 
@@ -188,7 +188,7 @@
 
     const/4 v7, 0x0
 
-    invoke-virtual {v11}, Landroid/preference/PreferenceScreen;->removeAll()V
+    invoke-virtual {v11}, Landroid/preference/PreferenceGroup;->removeAll()V
 
     invoke-static {}, Lcom/sec/android/app/CscFeature;->getInstance()Lcom/sec/android/app/CscFeature;
 
@@ -207,7 +207,7 @@
     invoke-virtual {v1, v14}, Landroid/preference/Preference;->setSummary(I)V
 
     :goto_1
-    invoke-virtual {v11, v1}, Landroid/preference/PreferenceScreen;->addPreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v11, v1}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
     const/4 v4, 0x0
 
@@ -339,7 +339,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v8}, Lcom/diotek/ime/implement/setting/AutoReplacementSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v8}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v9
 
@@ -376,7 +376,7 @@
     :goto_4
     if-eqz v9, :cond_4
 
-    invoke-virtual {v11, v9}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v11, v9}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_4
     new-instance v9, Landroid/preference/CheckBoxPreference;
@@ -387,7 +387,7 @@
 
     invoke-direct {v9, v14}, Landroid/preference/CheckBoxPreference;-><init>(Landroid/content/Context;)V
 
-    invoke-virtual {v9, v8}, Landroid/preference/CheckBoxPreference;->setKey(Ljava/lang/String;)V
+    invoke-virtual {v9, v8}, Landroid/preference/Preference;->setKey(Ljava/lang/String;)V
 
     aget-object v14, v13, v4
 
@@ -395,19 +395,19 @@
 
     move-result-object v14
 
-    invoke-virtual {v9, v14}, Landroid/preference/CheckBoxPreference;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {v9, v14}, Landroid/preference/Preference;->setTitle(Ljava/lang/CharSequence;)V
 
     move/from16 v0, p1
 
-    invoke-virtual {v9, v0}, Landroid/preference/CheckBoxPreference;->setEnabled(Z)V
+    invoke-virtual {v9, v0}, Landroid/preference/Preference;->setEnabled(Z)V
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v14
 
-    invoke-virtual {v9, v14}, Landroid/preference/CheckBoxPreference;->setDefaultValue(Ljava/lang/Object;)V
+    invoke-virtual {v9, v14}, Landroid/preference/Preference;->setDefaultValue(Ljava/lang/Object;)V
 
-    invoke-virtual {v11, v9}, Landroid/preference/PreferenceScreen;->addPreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v11, v9}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
     goto/16 :goto_3
 
@@ -427,7 +427,7 @@
     :cond_6
     if-eqz v9, :cond_0
 
-    invoke-virtual {v11, v9}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v11, v9}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     goto/16 :goto_3
 
@@ -452,7 +452,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v8}, Lcom/diotek/ime/implement/setting/AutoReplacementSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v8}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v9
 
@@ -491,25 +491,25 @@
     move-result v2
 
     :goto_5
-    invoke-virtual {v9, v8}, Landroid/preference/CheckBoxPreference;->setKey(Ljava/lang/String;)V
+    invoke-virtual {v9, v8}, Landroid/preference/Preference;->setKey(Ljava/lang/String;)V
 
     invoke-virtual {v10}, Lcom/diotek/ime/framework/common/Language;->getName()Ljava/lang/String;
 
     move-result-object v14
 
-    invoke-virtual {v9, v14}, Landroid/preference/CheckBoxPreference;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {v9, v14}, Landroid/preference/Preference;->setTitle(Ljava/lang/CharSequence;)V
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v14
 
-    invoke-virtual {v9, v14}, Landroid/preference/CheckBoxPreference;->setDefaultValue(Ljava/lang/Object;)V
+    invoke-virtual {v9, v14}, Landroid/preference/Preference;->setDefaultValue(Ljava/lang/Object;)V
 
     move/from16 v0, p1
 
-    invoke-virtual {v9, v0}, Landroid/preference/CheckBoxPreference;->setEnabled(Z)V
+    invoke-virtual {v9, v0}, Landroid/preference/Preference;->setEnabled(Z)V
 
-    invoke-virtual {v11, v9}, Landroid/preference/PreferenceScreen;->addPreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v11, v9}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
     :cond_8
     move-object/from16 v0, p0
@@ -544,7 +544,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v8}, Lcom/diotek/ime/implement/setting/AutoReplacementSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v8}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v9
 
@@ -570,25 +570,25 @@
 
     move-result v2
 
-    invoke-virtual {v9, v8}, Landroid/preference/CheckBoxPreference;->setKey(Ljava/lang/String;)V
+    invoke-virtual {v9, v8}, Landroid/preference/Preference;->setKey(Ljava/lang/String;)V
 
     invoke-virtual {v3}, Lcom/diotek/ime/framework/common/Language;->getName()Ljava/lang/String;
 
     move-result-object v14
 
-    invoke-virtual {v9, v14}, Landroid/preference/CheckBoxPreference;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {v9, v14}, Landroid/preference/Preference;->setTitle(Ljava/lang/CharSequence;)V
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v14
 
-    invoke-virtual {v9, v14}, Landroid/preference/CheckBoxPreference;->setDefaultValue(Ljava/lang/Object;)V
+    invoke-virtual {v9, v14}, Landroid/preference/Preference;->setDefaultValue(Ljava/lang/Object;)V
 
     move/from16 v0, p1
 
-    invoke-virtual {v9, v0}, Landroid/preference/CheckBoxPreference;->setEnabled(Z)V
+    invoke-virtual {v9, v0}, Landroid/preference/Preference;->setEnabled(Z)V
 
-    invoke-virtual {v11, v9}, Landroid/preference/PreferenceScreen;->addPreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v11, v9}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
     :cond_9
     return-void
@@ -622,7 +622,7 @@
 
     const/4 v5, 0x0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/AutoReplacementSettingsFragment;->getActivity()Landroid/app/Activity;
+    invoke-virtual {p0}, Landroid/app/Fragment;->getActivity()Landroid/app/Activity;
 
     move-result-object v3
 
@@ -713,7 +713,7 @@
 
     const v3, 0x7f030047
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/implement/setting/AutoReplacementSettingsFragment;->addPreferencesFromResource(I)V
+    invoke-virtual {p0, v3}, Landroid/preference/PreferenceFragment;->addPreferencesFromResource(I)V
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/AutoReplacementSettingsFragment;->settingActivity:Landroid/app/Activity;
 
@@ -729,7 +729,7 @@
 
     invoke-virtual {v0, v3}, Landroid/app/ActionBar;->setTitle(I)V
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/implement/setting/AutoReplacementSettingsFragment;->setHasOptionsMenu(Z)V
+    invoke-virtual {p0, v6}, Landroid/app/Fragment;->setHasOptionsMenu(Z)V
 
     new-instance v3, Landroid/widget/Switch;
 
@@ -739,7 +739,7 @@
 
     iput-object v3, p0, Lcom/diotek/ime/implement/setting/AutoReplacementSettingsFragment;->actionBarSwitch:Landroid/widget/Switch;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/AutoReplacementSettingsFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/app/Fragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -753,7 +753,7 @@
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/AutoReplacementSettingsFragment;->actionBarSwitch:Landroid/widget/Switch;
 
-    invoke-virtual {v3, v5, v5, v2, v5}, Landroid/widget/Switch;->setPadding(IIII)V
+    invoke-virtual {v3, v5, v5, v2, v5}, Landroid/widget/TextView;->setPadding(IIII)V
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/AutoReplacementSettingsFragment;->actionBarSwitch:Landroid/widget/Switch;
 
@@ -775,7 +775,7 @@
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/AutoReplacementSettingsFragment;->onAutoReplacementSwitchListener:Landroid/widget/CompoundButton$OnCheckedChangeListener;
 
-    invoke-virtual {v3, v4}, Landroid/widget/Switch;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
+    invoke-virtual {v3, v4}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
     :cond_4
     invoke-direct {p0, v1}, Lcom/diotek/ime/implement/setting/AutoReplacementSettingsFragment;->createLanguageList(Z)V
@@ -806,7 +806,7 @@
 
     packed-switch v0, :pswitch_data_0
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceFragment;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    invoke-super {p0, p1}, Landroid/app/Fragment;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
 
     move-result v0
 
@@ -843,7 +843,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/implement/setting/AutoReplacementSettingsFragment;->actionBarSwitch:Landroid/widget/Switch;
 
-    invoke-virtual {v1, v3}, Landroid/widget/Switch;->setEnabled(Z)V
+    invoke-virtual {v1, v3}, Landroid/widget/TextView;->setEnabled(Z)V
 
     iget-object v1, p0, Lcom/diotek/ime/implement/setting/AutoReplacementSettingsFragment;->mSPref:Landroid/content/SharedPreferences;
 
@@ -868,7 +868,7 @@
     invoke-virtual {v1}, Landroid/widget/Toast;->show()V
 
     :cond_0
-    invoke-super {p0}, Landroid/preference/PreferenceFragment;->onPause()V
+    invoke-super {p0}, Landroid/app/Fragment;->onPause()V
 
     return-void
 .end method

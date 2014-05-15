@@ -44,7 +44,7 @@
 
     const/4 v0, -0x1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput v0, p0, Lcom/diotek/ime/framework/view/tracker/PointerTracker$KeyState;->mKeyIndex:I
 

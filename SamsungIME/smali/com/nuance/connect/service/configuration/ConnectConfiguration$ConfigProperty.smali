@@ -998,7 +998,7 @@
 
     sget-object v0, Lcom/nuance/connect/service/configuration/ConnectConfiguration$ConfigProperty;->$VALUES:[Lcom/nuance/connect/service/configuration/ConnectConfiguration$ConfigProperty;
 
-    invoke-virtual {v0}, [Lcom/nuance/connect/service/configuration/ConnectConfiguration$ConfigProperty;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 

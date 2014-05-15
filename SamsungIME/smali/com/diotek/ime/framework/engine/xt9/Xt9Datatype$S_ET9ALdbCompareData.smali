@@ -62,7 +62,7 @@
 
     const/16 v5, 0x20
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     filled-new-array {v5, v6}, [I
 

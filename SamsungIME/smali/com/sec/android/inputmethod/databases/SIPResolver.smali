@@ -47,7 +47,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "content://com.sec.android.inputmethod.databases.SipProvider"
 
@@ -84,7 +84,7 @@
 
     iget-object v1, p0, Lcom/sec/android/inputmethod/databases/SIPResolver;->mFrequencyUpdateTask:Lcom/sec/android/inputmethod/databases/SIPResolver$FrequencyUpdateTask;
 
-    invoke-virtual {v1}, Lcom/sec/android/inputmethod/databases/SIPResolver$FrequencyUpdateTask;->getStatus()Landroid/os/AsyncTask$Status;
+    invoke-virtual {v1}, Landroid/os/AsyncTask;->getStatus()Landroid/os/AsyncTask$Status;
 
     move-result-object v1
 
@@ -96,7 +96,7 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {v1, v2}, Lcom/sec/android/inputmethod/databases/SIPResolver$FrequencyUpdateTask;->cancel(Z)Z
+    invoke-virtual {v1, v2}, Landroid/os/AsyncTask;->cancel(Z)Z
 
     :cond_0
     new-instance v1, Lcom/sec/android/inputmethod/databases/SIPResolver$FrequencyUpdateTask;
@@ -107,7 +107,7 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    invoke-virtual {v1, v2}, Lcom/sec/android/inputmethod/databases/SIPResolver$FrequencyUpdateTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+    invoke-virtual {v1, v2}, Landroid/os/AsyncTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     move-result-object v1
 
@@ -243,7 +243,7 @@
 
     iget-object v1, p0, Lcom/sec/android/inputmethod/databases/SIPResolver;->mTask:Lcom/sec/android/inputmethod/databases/SIPResolver$SearchTask;
 
-    invoke-virtual {v1}, Lcom/sec/android/inputmethod/databases/SIPResolver$SearchTask;->getStatus()Landroid/os/AsyncTask$Status;
+    invoke-virtual {v1}, Landroid/os/AsyncTask;->getStatus()Landroid/os/AsyncTask$Status;
 
     move-result-object v1
 
@@ -255,7 +255,7 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {v1, v2}, Lcom/sec/android/inputmethod/databases/SIPResolver$SearchTask;->cancel(Z)Z
+    invoke-virtual {v1, v2}, Landroid/os/AsyncTask;->cancel(Z)Z
 
     :cond_0
     new-instance v1, Lcom/sec/android/inputmethod/databases/SIPResolver$SearchTask;
@@ -266,7 +266,7 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    invoke-virtual {v1, v2}, Lcom/sec/android/inputmethod/databases/SIPResolver$SearchTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+    invoke-virtual {v1, v2}, Landroid/os/AsyncTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     move-result-object v1
 

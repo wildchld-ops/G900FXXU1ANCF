@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/touchtype/personalizer/PersonalizationRequest$DownloadRunnable$1$1;->this$2:Lcom/touchtype/personalizer/PersonalizationRequest$DownloadRunnable$1;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method

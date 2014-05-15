@@ -165,21 +165,21 @@
 
     sget-object v4, Landroid/graphics/Paint$Align;->CENTER:Landroid/graphics/Paint$Align;
 
-    invoke-virtual {v3, v4}, Landroid/text/TextPaint;->setTextAlign(Landroid/graphics/Paint$Align;)V
+    invoke-virtual {v3, v4}, Landroid/graphics/Paint;->setTextAlign(Landroid/graphics/Paint$Align;)V
 
     iget-object v3, p0, Lcom/diotek/ime/framework/view/SlidingLocaleDrawable;->mTextPaint:Landroid/text/TextPaint;
 
     const/16 v4, 0xff
 
-    invoke-virtual {v3, v4}, Landroid/text/TextPaint;->setAlpha(I)V
+    invoke-virtual {v3, v4}, Landroid/graphics/Paint;->setAlpha(I)V
 
     iget-object v3, p0, Lcom/diotek/ime/framework/view/SlidingLocaleDrawable;->mTextPaint:Landroid/text/TextPaint;
 
-    invoke-virtual {v3, v5}, Landroid/text/TextPaint;->setAntiAlias(Z)V
+    invoke-virtual {v3, v5}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     iget-object v3, p0, Lcom/diotek/ime/framework/view/SlidingLocaleDrawable;->mTextPaint:Landroid/text/TextPaint;
 
-    invoke-virtual {v3}, Landroid/text/TextPaint;->ascent()F
+    invoke-virtual {v3}, Landroid/graphics/Paint;->ascent()F
 
     move-result v3
 
@@ -224,7 +224,7 @@
 
     iget-object v4, p0, Lcom/diotek/ime/framework/view/SlidingLocaleDrawable;->mCurrentLanguage:Ljava/lang/String;
 
-    invoke-virtual {v3, v4}, Landroid/text/TextPaint;->measureText(Ljava/lang/String;)F
+    invoke-virtual {v3, v4}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
 
     move-result v3
 
@@ -238,7 +238,7 @@
 
     iget-object v4, p0, Lcom/diotek/ime/framework/view/SlidingLocaleDrawable;->mPrevLanguage:Ljava/lang/String;
 
-    invoke-virtual {v3, v4}, Landroid/text/TextPaint;->measureText(Ljava/lang/String;)F
+    invoke-virtual {v3, v4}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
 
     move-result v3
 
@@ -254,7 +254,7 @@
 
     iget-object v4, p0, Lcom/diotek/ime/framework/view/SlidingLocaleDrawable;->mNextLanguage:Ljava/lang/String;
 
-    invoke-virtual {v3, v4}, Landroid/text/TextPaint;->measureText(Ljava/lang/String;)F
+    invoke-virtual {v3, v4}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
 
     move-result v3
 
@@ -286,7 +286,7 @@
 
     iget-object v5, p0, Lcom/diotek/ime/framework/view/SlidingLocaleDrawable;->mNextLanguage:Ljava/lang/String;
 
-    invoke-virtual {v4, v5}, Landroid/text/TextPaint;->measureText(Ljava/lang/String;)F
+    invoke-virtual {v4, v5}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
 
     move-result v4
 
@@ -298,7 +298,7 @@
 
     iget-object v6, p0, Lcom/diotek/ime/framework/view/SlidingLocaleDrawable;->mPrevLanguage:Ljava/lang/String;
 
-    invoke-virtual {v5, v6}, Landroid/text/TextPaint;->measureText(Ljava/lang/String;)F
+    invoke-virtual {v5, v6}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
 
     move-result v5
 
@@ -1215,7 +1215,7 @@
     iput-boolean v0, p0, Lcom/diotek/ime/framework/view/SlidingLocaleDrawable;->mHitThreshold:Z
 
     :cond_3
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/SlidingLocaleDrawable;->invalidateSelf()V
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
 
     goto :goto_0
 

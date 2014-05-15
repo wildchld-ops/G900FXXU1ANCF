@@ -119,7 +119,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object v2, p0, Lcom/diotek/ime/framework/trace/KeyboardFlickforUmlaut;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -494,13 +494,13 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/trace/KeyboardFlickforUmlaut;->mFlickMessageHandler:Lcom/diotek/ime/framework/trace/KeyboardFlickforUmlaut$FlickMessageHandler;
 
-    invoke-virtual {v0, v3}, Lcom/diotek/ime/framework/trace/KeyboardFlickforUmlaut$FlickMessageHandler;->removeMessages(I)V
+    invoke-virtual {v0, v3}, Landroid/os/Handler;->removeMessages(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/trace/KeyboardFlickforUmlaut;->mFlickMessageHandler:Lcom/diotek/ime/framework/trace/KeyboardFlickforUmlaut$FlickMessageHandler;
 
     const-wide/16 v1, 0x12c
 
-    invoke-virtual {v0, v3, v1, v2}, Lcom/diotek/ime/framework/trace/KeyboardFlickforUmlaut$FlickMessageHandler;->sendEmptyMessageDelayed(IJ)Z
+    invoke-virtual {v0, v3, v1, v2}, Landroid/os/Handler;->sendEmptyMessageDelayed(IJ)Z
 
     :cond_0
     :goto_0

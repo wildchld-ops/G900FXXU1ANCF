@@ -85,7 +85,7 @@
 .method public constructor <init>(ILcom/touchtype_fluency/ResultsFilter$CapitalizationHint;Lcom/touchtype_fluency/ResultsFilter$VerbatimMode;Lcom/touchtype_fluency/ResultsFilter$PredictionMode;Lcom/touchtype_fluency/ResultsFilter$CorrectionMode;Lcom/touchtype_fluency/ResultsFilter$PredictionSearchType;)V
     .locals 0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcom/touchtype_fluency/ResultsFilter;->mnTotal:I
 
@@ -150,7 +150,7 @@
 
     iget-object v2, p1, Lcom/touchtype_fluency/ResultsFilter;->mcapitalization:Lcom/touchtype_fluency/ResultsFilter$CapitalizationHint;
 
-    invoke-virtual {v1, v2}, Lcom/touchtype_fluency/ResultsFilter$CapitalizationHint;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -160,7 +160,7 @@
 
     iget-object v2, p1, Lcom/touchtype_fluency/ResultsFilter;->mverbatim:Lcom/touchtype_fluency/ResultsFilter$VerbatimMode;
 
-    invoke-virtual {v1, v2}, Lcom/touchtype_fluency/ResultsFilter$VerbatimMode;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -170,7 +170,7 @@
 
     iget-object v2, p1, Lcom/touchtype_fluency/ResultsFilter;->mprediction:Lcom/touchtype_fluency/ResultsFilter$PredictionMode;
 
-    invoke-virtual {v1, v2}, Lcom/touchtype_fluency/ResultsFilter$PredictionMode;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -180,7 +180,7 @@
 
     iget-object v2, p1, Lcom/touchtype_fluency/ResultsFilter;->mcorrection:Lcom/touchtype_fluency/ResultsFilter$CorrectionMode;
 
-    invoke-virtual {v1, v2}, Lcom/touchtype_fluency/ResultsFilter$CorrectionMode;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -190,7 +190,7 @@
 
     iget-object v2, p1, Lcom/touchtype_fluency/ResultsFilter;->msearchType:Lcom/touchtype_fluency/ResultsFilter$PredictionSearchType;
 
-    invoke-virtual {v1, v2}, Lcom/touchtype_fluency/ResultsFilter$PredictionSearchType;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -257,31 +257,31 @@
 
     iget-object v1, p0, Lcom/touchtype_fluency/ResultsFilter;->mcapitalization:Lcom/touchtype_fluency/ResultsFilter$CapitalizationHint;
 
-    invoke-virtual {v1}, Lcom/touchtype_fluency/ResultsFilter$CapitalizationHint;->hashCode()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->hashCode()I
 
     move-result v1
 
     iget-object v2, p0, Lcom/touchtype_fluency/ResultsFilter;->mverbatim:Lcom/touchtype_fluency/ResultsFilter$VerbatimMode;
 
-    invoke-virtual {v2}, Lcom/touchtype_fluency/ResultsFilter$VerbatimMode;->hashCode()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->hashCode()I
 
     move-result v2
 
     iget-object v3, p0, Lcom/touchtype_fluency/ResultsFilter;->mprediction:Lcom/touchtype_fluency/ResultsFilter$PredictionMode;
 
-    invoke-virtual {v3}, Lcom/touchtype_fluency/ResultsFilter$PredictionMode;->hashCode()I
+    invoke-virtual {v3}, Ljava/lang/Enum;->hashCode()I
 
     move-result v3
 
     iget-object v4, p0, Lcom/touchtype_fluency/ResultsFilter;->mcorrection:Lcom/touchtype_fluency/ResultsFilter$CorrectionMode;
 
-    invoke-virtual {v4}, Lcom/touchtype_fluency/ResultsFilter$CorrectionMode;->hashCode()I
+    invoke-virtual {v4}, Ljava/lang/Enum;->hashCode()I
 
     move-result v4
 
     iget-object v5, p0, Lcom/touchtype_fluency/ResultsFilter;->msearchType:Lcom/touchtype_fluency/ResultsFilter$PredictionSearchType;
 
-    invoke-virtual {v5}, Lcom/touchtype_fluency/ResultsFilter$PredictionSearchType;->hashCode()I
+    invoke-virtual {v5}, Ljava/lang/Enum;->hashCode()I
 
     move-result v5
 

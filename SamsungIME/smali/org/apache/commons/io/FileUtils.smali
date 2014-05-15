@@ -29,7 +29,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -4462,7 +4462,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Ljava/io/FileOutputStream;->write([B)V
+    invoke-virtual {v0, p1}, Ljava/io/OutputStream;->write([B)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

@@ -15,7 +15,7 @@
 .method private getPhonePadFromHandwritingMethod()I
     .locals 3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->getCurrentKeypadType()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->getCurrentKeypadType()I
 
     move-result v0
 
@@ -64,7 +64,7 @@
 
     move-result v9
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->isKorSeperatlyInputMethod()Z
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->isKorSeperatlyInputMethod()Z
 
     move-result v8
 
@@ -215,7 +215,7 @@
 
     move/from16 v1, v18
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->setNeedUpdateKeyboardView(Z)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->setNeedUpdateKeyboardView(Z)V
 
     :cond_3
     return v14
@@ -271,7 +271,7 @@
 
     if-eqz v18, :cond_6
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->getCurrentPreferenceInputMethod()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->getCurrentPreferenceInputMethod()I
 
     move-result v14
 
@@ -322,7 +322,7 @@
 
     if-ne v5, v0, :cond_9
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->isKorTabletCji()Z
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->isKorTabletCji()Z
 
     move-result v18
 
@@ -342,7 +342,7 @@
     if-ne v5, v0, :cond_b
 
     :cond_a
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->getInputMethodOnKor()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->getInputMethodOnKor()I
 
     move-result v11
 
@@ -366,7 +366,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v5}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->isHandwritingInputMode(I)Z
+    invoke-virtual {v0, v5}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->isHandwritingInputMode(I)Z
 
     move-result v18
 
@@ -508,13 +508,13 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v5}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->isHandwritingInputMode(I)Z
+    invoke-virtual {v0, v5}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->isHandwritingInputMode(I)Z
 
     move-result v18
 
     if-eqz v18, :cond_18
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->getCurrentPreferenceInputMethod()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->getCurrentPreferenceInputMethod()I
 
     move-result v14
 
@@ -571,7 +571,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v5}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->isHandwritingInputMode(I)Z
+    invoke-virtual {v0, v5}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->isHandwritingInputMode(I)Z
 
     move-result v18
 
@@ -581,7 +581,7 @@
 
     invoke-static/range {v18 .. v18}, Lcom/diotek/ime/framework/repository/InputModeStatus;->setFlagIsHwrMode(Z)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->getCurrentPreferenceInputMethod()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->getCurrentPreferenceInputMethod()I
 
     move-result v14
 
@@ -613,7 +613,7 @@
     if-nez v5, :cond_20
 
     :cond_1c
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->getInputRange()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->getInputRange()I
 
     move-result v13
 
@@ -637,7 +637,7 @@
     :cond_1e
     if-nez v13, :cond_1f
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->getCurrentPreferenceInputMethod()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->getCurrentPreferenceInputMethod()I
 
     move-result v14
 
@@ -664,7 +664,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v5}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->isHandwritingInputMode(I)Z
+    invoke-virtual {v0, v5}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->isHandwritingInputMode(I)Z
 
     move-result v18
 
@@ -674,7 +674,7 @@
 
     invoke-static/range {v18 .. v18}, Lcom/diotek/ime/framework/repository/InputModeStatus;->setFlagIsHwrMode(Z)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->getCurrentPreferenceInputMethod()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->getCurrentPreferenceInputMethod()I
 
     move-result v14
 
@@ -725,7 +725,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v5}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->isHandwritingInputMode(I)Z
+    invoke-virtual {v0, v5}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->isHandwritingInputMode(I)Z
 
     move-result v18
 
@@ -735,7 +735,7 @@
 
     invoke-static/range {v18 .. v18}, Lcom/diotek/ime/framework/repository/InputModeStatus;->setFlagIsHwrMode(Z)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->getCurrentPreferenceInputMethod()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->getCurrentPreferenceInputMethod()I
 
     move-result v14
 
@@ -788,7 +788,7 @@
     if-eqz v18, :cond_30
 
     :cond_27
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->getInputRange()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->getInputRange()I
 
     move-result v13
 
@@ -860,7 +860,7 @@
     :cond_2d
     if-nez v13, :cond_2e
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->getCurrentPreferenceInputMethod()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->getCurrentPreferenceInputMethod()I
 
     move-result v14
 
@@ -889,13 +889,13 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v5}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->isHandwritingInputMode(I)Z
+    invoke-virtual {v0, v5}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->isHandwritingInputMode(I)Z
 
     move-result v18
 
     if-nez v18, :cond_2f
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/inputmode/InputModeManagerImpl;->getCurrentPreferenceInputMethod()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->getCurrentPreferenceInputMethod()I
 
     move-result v14
 

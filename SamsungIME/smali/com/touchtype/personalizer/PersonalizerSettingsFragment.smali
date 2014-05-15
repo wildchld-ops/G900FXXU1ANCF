@@ -199,7 +199,7 @@
 
     const/4 v3, 0x1
 
-    invoke-virtual {v1, v0, v2, v3}, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->bindService(Landroid/content/Intent;Landroid/content/ServiceConnection;I)Z
+    invoke-virtual {v1, v0, v2, v3}, Landroid/content/ContextWrapper;->bindService(Landroid/content/Intent;Landroid/content/ServiceConnection;I)Z
 
     return-void
 .end method
@@ -253,7 +253,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/app/Fragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -300,11 +300,11 @@
 
     invoke-direct {v6}, Ljava/util/Vector;-><init>()V
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual {p0}, Landroid/preference/PreferenceFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v8
 
-    invoke-virtual {v8}, Landroid/preference/PreferenceScreen;->getPreferenceCount()I
+    invoke-virtual {v8}, Landroid/preference/PreferenceGroup;->getPreferenceCount()I
 
     move-result v5
 
@@ -333,7 +333,7 @@
     :goto_0
     if-ge v1, v5, :cond_7
 
-    invoke-virtual {v8, v1}, Landroid/preference/PreferenceScreen;->getPreference(I)Landroid/preference/Preference;
+    invoke-virtual {v8, v1}, Landroid/preference/PreferenceGroup;->getPreference(I)Landroid/preference/Preference;
 
     move-result-object v11
 
@@ -345,13 +345,13 @@
 
     if-eqz v13, :cond_5
 
-    invoke-virtual {v8, v1}, Landroid/preference/PreferenceScreen;->getPreference(I)Landroid/preference/Preference;
+    invoke-virtual {v8, v1}, Landroid/preference/PreferenceGroup;->getPreference(I)Landroid/preference/Preference;
 
     move-result-object v9
 
     check-cast v9, Landroid/preference/PreferenceCategory;
 
-    invoke-virtual {v9}, Landroid/preference/PreferenceCategory;->getPreferenceCount()I
+    invoke-virtual {v9}, Landroid/preference/PreferenceGroup;->getPreferenceCount()I
 
     move-result v13
 
@@ -360,7 +360,7 @@
     :goto_1
     if-ltz v3, :cond_4
 
-    invoke-virtual {v9, v3}, Landroid/preference/PreferenceCategory;->getPreference(I)Landroid/preference/Preference;
+    invoke-virtual {v9, v3}, Landroid/preference/PreferenceGroup;->getPreference(I)Landroid/preference/Preference;
 
     move-result-object v12
 
@@ -368,7 +368,7 @@
 
     if-eqz v13, :cond_0
 
-    invoke-virtual {v9, v3}, Landroid/preference/PreferenceCategory;->getPreference(I)Landroid/preference/Preference;
+    invoke-virtual {v9, v3}, Landroid/preference/PreferenceGroup;->getPreference(I)Landroid/preference/Preference;
 
     move-result-object v4
 
@@ -418,7 +418,7 @@
     goto :goto_3
 
     :cond_4
-    invoke-virtual {v7}, Ljava/util/Vector;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v7}, Ljava/util/AbstractList;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
 
@@ -435,7 +435,7 @@
 
     check-cast v4, Lcom/touchtype/personalizer/PersonalizerPreference;
 
-    invoke-virtual {v9, v4}, Landroid/preference/PreferenceCategory;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v9, v4}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     goto :goto_5
 
@@ -497,7 +497,7 @@
 
     iget-object v0, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->settingActivity:Lcom/touchtype/personalizer/PersonalizerSettingsActivity;
 
-    invoke-virtual {v0, p3}, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v0, p3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v0
 
@@ -529,7 +529,7 @@
     :cond_1
     iget-object v0, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->settingActivity:Lcom/touchtype/personalizer/PersonalizerSettingsActivity;
 
-    invoke-virtual {v0}, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -550,7 +550,7 @@
 
     iget-object v2, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->settingActivity:Lcom/touchtype/personalizer/PersonalizerSettingsActivity;
 
-    invoke-virtual {v2}, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {v2}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
 
@@ -566,7 +566,7 @@
 
     iput-object v2, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->mPreferences:Ljava/util/Vector;
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/app/Fragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
@@ -576,7 +576,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0, v2}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v2}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v2
 
@@ -606,7 +606,7 @@
 
     iget-object v6, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v6}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual {v6}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v6
 
@@ -615,7 +615,7 @@
     :cond_0
     const v5, 0x7f030035
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/app/Fragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
 
@@ -654,7 +654,7 @@
 
     const-string v7, "layout_inflater"
 
-    invoke-virtual {v6, v7}, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v6, v7}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -682,7 +682,7 @@
 
     invoke-direct {v6, p0}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment$5;-><init>(Lcom/touchtype/personalizer/PersonalizerSettingsFragment;)V
 
-    invoke-virtual {v1, v6}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v1, v6}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     const v6, 0x104000a
 
@@ -714,7 +714,7 @@
 
     iget-object v6, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v6}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v6}, Landroid/app/Dialog;->show()V
 
     goto :goto_0
 .end method
@@ -732,7 +732,7 @@
 
     iget-object v6, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v6}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual {v6}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v6
 
@@ -741,7 +741,7 @@
     :cond_0
     const v5, 0x7f030041
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/app/Fragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
 
@@ -780,7 +780,7 @@
 
     const-string v7, "layout_inflater"
 
-    invoke-virtual {v6, v7}, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v6, v7}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -828,7 +828,7 @@
 
     iget-object v6, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v6}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v6}, Landroid/app/Dialog;->show()V
 
     goto :goto_0
 .end method
@@ -860,7 +860,7 @@
 
     const v2, 0x7f0d021c
 
-    invoke-virtual {v1, v2}, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->getString(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -897,7 +897,7 @@
 
     iget-object v1, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->mConnection:Lcom/touchtype/personalizer/PersonalizerSettingsFragment$PersonalizerServiceConnection;
 
-    invoke-virtual {v0, v1}, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->unbindService(Landroid/content/ServiceConnection;)V
+    invoke-virtual {v0, v1}, Landroid/content/ContextWrapper;->unbindService(Landroid/content/ServiceConnection;)V
 
     :cond_0
     return-void
@@ -931,7 +931,7 @@
     :cond_0
     if-eqz v1, :cond_1
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/app/Fragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -944,7 +944,7 @@
     :goto_0
     iget-object v3, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->settingActivity:Lcom/touchtype/personalizer/PersonalizerSettingsActivity;
 
-    invoke-virtual {v3}, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v3}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v3
 
@@ -965,7 +965,7 @@
     return-void
 
     :cond_1
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/app/Fragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -989,7 +989,7 @@
 
     iget-object v5, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->mPreferences:Ljava/util/Vector;
 
-    invoke-virtual {v5}, Ljava/util/Vector;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v5}, Ljava/util/AbstractList;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
@@ -1078,7 +1078,7 @@
 
     iget-object v5, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->settingActivity:Lcom/touchtype/personalizer/PersonalizerSettingsActivity;
 
-    invoke-virtual {v5}, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v5}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v5
 
@@ -1088,7 +1088,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v2, v5}, Lcom/touchtype/personalizer/PersonalizerPreference;->setSummary(Ljava/lang/CharSequence;)V
+    invoke-virtual {v2, v5}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
     :cond_2
     invoke-virtual {v2}, Lcom/touchtype/personalizer/PersonalizerPreference;->getPersonalizer()Lcom/touchtype/personalizer/Personalizer;
@@ -1108,7 +1108,7 @@
     :pswitch_2
     iget-object v5, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->settingActivity:Lcom/touchtype/personalizer/PersonalizerSettingsActivity;
 
-    invoke-virtual {v5}, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v5}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v5
 
@@ -1128,7 +1128,7 @@
 
     iget-object v5, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->settingActivity:Lcom/touchtype/personalizer/PersonalizerSettingsActivity;
 
-    invoke-virtual {v5}, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v5}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v5
 
@@ -1174,7 +1174,7 @@
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 12
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->getActivity()Landroid/app/Activity;
+    invoke-virtual {p0}, Landroid/app/Fragment;->getActivity()Landroid/app/Activity;
 
     move-result-object v8
 
@@ -1186,7 +1186,7 @@
 
     iget-object v8, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->settingActivity:Lcom/touchtype/personalizer/PersonalizerSettingsActivity;
 
-    invoke-virtual {v8}, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v8}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v8
 
@@ -1249,7 +1249,7 @@
 
     iget-object v8, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->settingActivity:Lcom/touchtype/personalizer/PersonalizerSettingsActivity;
 
-    invoke-virtual {v8}, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->getWindow()Landroid/view/Window;
+    invoke-virtual {v8}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object v8
 
@@ -1284,12 +1284,12 @@
 
     const v8, 0x7f0501fd
 
-    invoke-virtual {p0, v8}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->addPreferencesFromResource(I)V
+    invoke-virtual {p0, v8}, Landroid/preference/PreferenceFragment;->addPreferencesFromResource(I)V
 
     :goto_0
     iget-object v8, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->settingActivity:Lcom/touchtype/personalizer/PersonalizerSettingsActivity;
 
-    invoke-virtual {v8}, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {v8}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v1
 
@@ -1305,7 +1305,7 @@
 
     invoke-direct {v0, v8}, Landroid/widget/Switch;-><init>(Landroid/content/Context;)V
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/app/Fragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v8
 
@@ -1323,7 +1323,7 @@
 
     const/4 v10, 0x0
 
-    invoke-virtual {v0, v8, v9, v5, v10}, Landroid/widget/Switch;->setPadding(IIII)V
+    invoke-virtual {v0, v8, v9, v5, v10}, Landroid/widget/TextView;->setPadding(IIII)V
 
     iget-boolean v8, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->mIsPredictive:Z
 
@@ -1349,11 +1349,11 @@
 
     iget-object v8, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->onPredictiveSwitchListener:Landroid/widget/CompoundButton$OnCheckedChangeListener;
 
-    invoke-virtual {v0, v8}, Landroid/widget/Switch;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
+    invoke-virtual {v0, v8}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
     const-string v8, "SETTINGS_USE_STANDARD_DATA"
 
-    invoke-virtual {p0, v8}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v8}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v2
 
@@ -1361,11 +1361,11 @@
 
     iget-boolean v8, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->mIsPredictive:Z
 
-    invoke-virtual {v2, v8}, Landroid/preference/CheckBoxPreference;->setEnabled(Z)V
+    invoke-virtual {v2, v8}, Landroid/preference/Preference;->setEnabled(Z)V
 
     const-string v8, "SETTINGS_DEFAULT_USE_LIVE_LANGUAGE"
 
-    invoke-virtual {p0, v8}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v8}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v2
 
@@ -1375,12 +1375,12 @@
 
     iget-boolean v8, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->mIsPredictive:Z
 
-    invoke-virtual {v2, v8}, Landroid/preference/CheckBoxPreference;->setEnabled(Z)V
+    invoke-virtual {v2, v8}, Landroid/preference/Preference;->setEnabled(Z)V
 
     :cond_2
     const-string v8, "SETTINGS_DEFAULT_AUTO_CORRECTION"
 
-    invoke-virtual {p0, v8}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v8}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v2
 
@@ -1388,11 +1388,11 @@
 
     if-eqz v2, :cond_3
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual {p0}, Landroid/preference/PreferenceFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v4
 
-    invoke-virtual {v4, v2}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v4, v2}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_3
     const-string v8, "V1_4"
@@ -1418,7 +1418,7 @@
     :cond_4
     const-string v8, "SETTINGS_DEFAULT_USE_LIVE_LANGUAGE"
 
-    invoke-virtual {p0, v8}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v8}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v3
 
@@ -1430,7 +1430,7 @@
 
     invoke-direct {v8, p0}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment$1;-><init>(Lcom/touchtype/personalizer/PersonalizerSettingsFragment;)V
 
-    invoke-virtual {v3, v8}, Landroid/preference/CheckBoxPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
+    invoke-virtual {v3, v8}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
     :cond_5
     :goto_1
@@ -1449,7 +1449,7 @@
     :cond_6
     const-string v8, "SETTINGS_USE_STANDARD_DATA"
 
-    invoke-virtual {p0, v8}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v8}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v7
 
@@ -1461,7 +1461,7 @@
 
     invoke-direct {v8, p0}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment$2;-><init>(Lcom/touchtype/personalizer/PersonalizerSettingsFragment;)V
 
-    invoke-virtual {v7, v8}, Landroid/preference/CheckBoxPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
+    invoke-virtual {v7, v8}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
     :cond_7
     invoke-static {}, Lcom/sec/android/app/CscFeature;->getInstance()Lcom/sec/android/app/CscFeature;
@@ -1485,14 +1485,14 @@
     :cond_9
     const v8, 0x7f0501fc
 
-    invoke-virtual {p0, v8}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->addPreferencesFromResource(I)V
+    invoke-virtual {p0, v8}, Landroid/preference/PreferenceFragment;->addPreferencesFromResource(I)V
 
     goto/16 :goto_0
 
     :cond_a
     const-string v8, "SETTINGS_DEFAULT_USE_LIVE_LANGUAGE"
 
-    invoke-virtual {p0, v8}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v8}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v3
 
@@ -1500,18 +1500,18 @@
 
     if-eqz v3, :cond_5
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual {p0}, Landroid/preference/PreferenceFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v4
 
-    invoke-virtual {v4, v3}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v4, v3}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     goto :goto_1
 
     :cond_b
     const-string v8, "SETTINGS_DEFAULT_AUTO_CORRECTION"
 
-    invoke-virtual {p0, v8}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v8}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v2
 
@@ -1519,13 +1519,13 @@
 
     if-eqz v2, :cond_8
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual {p0}, Landroid/preference/PreferenceFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v4
 
     if-eqz v4, :cond_8
 
-    invoke-virtual {v4, v2}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v4, v2}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     goto :goto_2
 .end method
@@ -1611,7 +1611,7 @@
 
     const-string v11, "SETTINGS_USE_STANDARD_DATA"
 
-    invoke-virtual {p0, v11}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v11}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v10
 
@@ -1619,7 +1619,7 @@
 
     iget-object v11, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->mPreferences:Ljava/util/Vector;
 
-    invoke-virtual {v11}, Ljava/util/Vector;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v11}, Ljava/util/AbstractList;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
@@ -1640,7 +1640,7 @@
 
     const/4 v0, 0x1
 
-    invoke-virtual {v10}, Landroid/preference/CheckBoxPreference;->isEnabled()Z
+    invoke-virtual {v10}, Landroid/preference/Preference;->isEnabled()Z
 
     move-result v0
 
@@ -1700,12 +1700,12 @@
     :pswitch_0
     invoke-virtual {v5, v9}, Lcom/touchtype/personalizer/PersonalizerPreference;->update(Ljava/lang/String;)V
 
-    invoke-virtual {v5, v0}, Lcom/touchtype/personalizer/PersonalizerPreference;->setEnabled(Z)V
+    invoke-virtual {v5, v0}, Landroid/preference/Preference;->setEnabled(Z)V
 
     goto :goto_0
 
     :cond_1
-    invoke-virtual {v5}, Lcom/touchtype/personalizer/PersonalizerPreference;->getKey()Ljava/lang/String;
+    invoke-virtual {v5}, Landroid/preference/Preference;->getKey()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1740,7 +1740,7 @@
     :pswitch_1
     iget-object v11, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->settingActivity:Lcom/touchtype/personalizer/PersonalizerSettingsActivity;
 
-    invoke-virtual {v11}, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v11}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v11
 
@@ -1803,7 +1803,7 @@
     :pswitch_6
     iget-object v11, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->settingActivity:Lcom/touchtype/personalizer/PersonalizerSettingsActivity;
 
-    invoke-virtual {v11}, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v11}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v11
 
@@ -1833,7 +1833,7 @@
 
     const/4 v12, 0x1
 
-    invoke-virtual {v11, v12}, Lcom/touchtype/personalizer/DeleteDynamicLanguageModelDialog;->setEnabled(Z)V
+    invoke-virtual {v11, v12}, Landroid/preference/Preference;->setEnabled(Z)V
 
     :cond_5
     return-void

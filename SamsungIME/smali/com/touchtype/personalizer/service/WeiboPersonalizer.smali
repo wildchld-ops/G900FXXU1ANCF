@@ -69,7 +69,7 @@
 
     new-instance v0, Landroid/content/Intent;
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/service/WeiboPersonalizer;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lcom/touchtype/personalizer/Personalizer;->getContext()Landroid/content/Context;
 
     move-result-object v1
 

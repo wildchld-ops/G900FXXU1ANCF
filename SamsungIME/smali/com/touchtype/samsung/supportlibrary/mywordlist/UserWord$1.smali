@@ -36,7 +36,7 @@
 
     sget-object v1, Lcom/touchtype/samsung/supportlibrary/mywordlist/UserWord$Ordering;->UNICODE_ASC:Lcom/touchtype/samsung/supportlibrary/mywordlist/UserWord$Ordering;
 
-    invoke-virtual {v1}, Lcom/touchtype/samsung/supportlibrary/mywordlist/UserWord$Ordering;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -52,7 +52,7 @@
 
     sget-object v1, Lcom/touchtype/samsung/supportlibrary/mywordlist/UserWord$Ordering;->UNICODE_DESC:Lcom/touchtype/samsung/supportlibrary/mywordlist/UserWord$Ordering;
 
-    invoke-virtual {v1}, Lcom/touchtype/samsung/supportlibrary/mywordlist/UserWord$Ordering;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -68,7 +68,7 @@
 
     sget-object v1, Lcom/touchtype/samsung/supportlibrary/mywordlist/UserWord$Ordering;->COUNT_ASC:Lcom/touchtype/samsung/supportlibrary/mywordlist/UserWord$Ordering;
 
-    invoke-virtual {v1}, Lcom/touchtype/samsung/supportlibrary/mywordlist/UserWord$Ordering;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -84,7 +84,7 @@
 
     sget-object v1, Lcom/touchtype/samsung/supportlibrary/mywordlist/UserWord$Ordering;->COUNT_DESC:Lcom/touchtype/samsung/supportlibrary/mywordlist/UserWord$Ordering;
 
-    invoke-virtual {v1}, Lcom/touchtype/samsung/supportlibrary/mywordlist/UserWord$Ordering;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 

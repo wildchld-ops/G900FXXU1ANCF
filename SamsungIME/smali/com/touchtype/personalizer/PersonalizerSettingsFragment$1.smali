@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment$1;->this$0:Lcom/touchtype/personalizer/PersonalizerSettingsFragment;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -47,7 +47,7 @@
 
     check-cast v0, Landroid/preference/CheckBoxPreference;
 
-    invoke-virtual {v0}, Landroid/preference/CheckBoxPreference;->isChecked()Z
+    invoke-virtual {v0}, Landroid/preference/TwoStatePreference;->isChecked()Z
 
     move-result v1
 
@@ -70,7 +70,7 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {v0, v3}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v0, v3}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     iget-object v3, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment$1;->this$0:Lcom/touchtype/personalizer/PersonalizerSettingsFragment;
 

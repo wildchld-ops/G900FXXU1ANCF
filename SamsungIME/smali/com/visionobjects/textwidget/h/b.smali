@@ -47,7 +47,7 @@
 
     iput p1, p0, Lcom/visionobjects/textwidget/h/b;->b:F
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/h/b;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     return-void
 .end method
@@ -59,7 +59,7 @@
 
     invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setColor(I)V
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/h/b;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     return-void
 .end method
@@ -69,7 +69,7 @@
 
     iput p1, p0, Lcom/visionobjects/textwidget/h/b;->c:F
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/h/b;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     return-void
 .end method
@@ -91,7 +91,7 @@
 
     iget v3, p0, Lcom/visionobjects/textwidget/h/b;->c:F
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/h/b;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v0
 
@@ -111,7 +111,7 @@
 
     iget v3, p0, Lcom/visionobjects/textwidget/h/b;->b:F
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/h/b;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v0
 

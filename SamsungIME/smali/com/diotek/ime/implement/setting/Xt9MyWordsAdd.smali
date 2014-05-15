@@ -79,7 +79,7 @@
 
     const v11, 0x7f0800b0
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
@@ -140,13 +140,13 @@
     :cond_1
     const-string v11, "input_method"
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Landroid/view/inputmethod/InputMethodManager;
 
-    invoke-virtual {v3}, Landroid/widget/EditText;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v3}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v11
 
@@ -182,7 +182,7 @@
 
     if-eqz v8, :cond_3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -194,7 +194,7 @@
 
     :cond_2
     :goto_1
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
@@ -257,7 +257,7 @@
 
     if-ne v7, v11, :cond_7
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -299,7 +299,7 @@
     invoke-static {v11, v12}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_8
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -353,7 +353,7 @@
 
     const v2, 0x7f0800b0
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -361,13 +361,13 @@
 
     const-string v2, "input_method"
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v2}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Landroid/view/inputmethod/InputMethodManager;
 
-    invoke-virtual {v0}, Landroid/widget/EditText;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v0}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v2
 
@@ -375,7 +375,7 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/view/inputmethod/InputMethodManager;->hideSoftInputFromWindow(Landroid/os/IBinder;I)Z
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     return-void
 .end method
@@ -495,7 +495,7 @@
 
     invoke-interface {v1}, Landroid/view/Menu;->clear()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->getMenuInflater()Landroid/view/MenuInflater;
+    invoke-virtual {p0}, Landroid/app/Activity;->getMenuInflater()Landroid/view/MenuInflater;
 
     move-result-object v0
 
@@ -554,9 +554,9 @@
 
     const v3, 0x7f030089
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->setContentView(I)V
+    invoke-virtual {p0, v3}, Landroid/app/Activity;->setContentView(I)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -565,7 +565,7 @@
     invoke-virtual {v0, v2}, Landroid/app/ActionBar;->setDisplayHomeAsUpEnabled(Z)V
 
     :cond_1
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v3
 
@@ -575,7 +575,7 @@
 
     move-result v1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v3
 
@@ -601,7 +601,7 @@
 
     if-ne v1, v3, :cond_4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -609,15 +609,15 @@
 
     move-result-object v3
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v3}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
     :cond_2
     :goto_0
     const-string v3, ""
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v3}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -634,7 +634,7 @@
     :goto_1
     if-nez v2, :cond_7
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->getWindow()Landroid/view/Window;
+    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object v3
 
@@ -645,7 +645,7 @@
     :goto_2
     const v3, 0x7f0800b0
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v3}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
@@ -655,11 +655,11 @@
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->mAddingEditText:Landroid/widget/EditText;
 
-    invoke-virtual {v3, v4}, Landroid/widget/EditText;->setVisibility(I)V
+    invoke-virtual {v3, v4}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->mAddingEditText:Landroid/widget/EditText;
 
-    invoke-virtual {v3}, Landroid/widget/EditText;->requestFocus()Z
+    invoke-virtual {v3}, Landroid/view/View;->requestFocus()Z
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->mEdittingWord:Ljava/lang/String;
 
@@ -669,7 +669,7 @@
 
     iget-object v5, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->mEdittingWord:Ljava/lang/String;
 
-    invoke-virtual {v3, v5}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->mAddingEditText:Landroid/widget/EditText;
 
@@ -694,7 +694,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v3, v5}, Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
+    invoke-virtual {v3, v5}, Landroid/widget/TextView;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -725,7 +725,7 @@
 
     if-ne v1, v3, :cond_2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -735,12 +735,12 @@
 
     move-result-object v3
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v3}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
     goto/16 :goto_0
 
     :cond_5
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -748,7 +748,7 @@
 
     move-result-object v3
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v3}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
     goto/16 :goto_0
 
@@ -758,7 +758,7 @@
     goto :goto_1
 
     :cond_7
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->getWindow()Landroid/view/Window;
+    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object v3
 
@@ -774,7 +774,7 @@
 
     invoke-interface {p1}, Landroid/view/Menu;->clear()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->getMenuInflater()Landroid/view/MenuInflater;
+    invoke-virtual {p0}, Landroid/app/Activity;->getMenuInflater()Landroid/view/MenuInflater;
 
     move-result-object v0
 
@@ -836,7 +836,7 @@
     return v0
 
     :sswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsAdd;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 

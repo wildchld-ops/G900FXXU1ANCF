@@ -54,7 +54,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->isInputViewShown()Z
+    invoke-virtual {v2}, Landroid/inputmethodservice/InputMethodService;->isInputViewShown()Z
 
     move-result v2
 
@@ -64,7 +64,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->hideWindow()V
+    invoke-virtual {v2}, Landroid/inputmethodservice/InputMethodService;->hideWindow()V
 
     :cond_0
     iget-object v2, p0, Lcom/diotek/ime/framework/common/InputManagerImpl$32;->this$0:Lcom/diotek/ime/framework/common/InputManagerImpl;

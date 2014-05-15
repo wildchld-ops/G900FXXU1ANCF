@@ -35,15 +35,15 @@
 
     const v2, 0x7f0300a2
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/WebviewActivity;->setContentView(I)V
+    invoke-virtual {p0, v2}, Landroid/app/Activity;->setContentView(I)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/WebviewActivity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
 
     const v2, 0x7f0800cc
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/WebviewActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
@@ -95,7 +95,7 @@
 
     sget-object v0, Lcom/diotek/ime/implement/setting/WebviewActivity;->_instance:Lcom/diotek/ime/implement/setting/WebviewActivity;
 
-    invoke-virtual {v0}, Lcom/diotek/ime/implement/setting/WebviewActivity;->isFinishing()Z
+    invoke-virtual {v0}, Landroid/app/Activity;->isFinishing()Z
 
     move-result v0
 
@@ -103,7 +103,7 @@
 
     sget-object v0, Lcom/diotek/ime/implement/setting/WebviewActivity;->_instance:Lcom/diotek/ime/implement/setting/WebviewActivity;
 
-    invoke-virtual {v0}, Lcom/diotek/ime/implement/setting/WebviewActivity;->finish()V
+    invoke-virtual {v0}, Landroid/app/Activity;->finish()V
 
     :cond_0
     return-void

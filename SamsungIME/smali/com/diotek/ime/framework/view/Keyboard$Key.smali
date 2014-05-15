@@ -437,7 +437,7 @@
 .method public constructor <init>(Lcom/diotek/ime/framework/view/Keyboard$Row;)V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     #getter for: Lcom/diotek/ime/framework/view/Keyboard$Row;->parent:Lcom/diotek/ime/framework/view/Keyboard;
     invoke-static {p1}, Lcom/diotek/ime/framework/view/Keyboard$Row;->access$600(Lcom/diotek/ime/framework/view/Keyboard$Row;)Lcom/diotek/ime/framework/view/Keyboard;

@@ -52,7 +52,7 @@
 
     const/4 v4, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p2, p0, Lcom/diotek/ime/framework/engine/xt9/XT9KeyboardDatabase$XT9Key;->type:I
 
@@ -181,7 +181,7 @@
 
     const/4 v4, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p2, p0, Lcom/diotek/ime/framework/engine/xt9/XT9KeyboardDatabase$XT9Key;->type:I
 
@@ -358,7 +358,7 @@
 .method constructor <init>([IIIIIILjava/lang/CharSequence;Z)V
     .locals 7
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p2, p0, Lcom/diotek/ime/framework/engine/xt9/XT9KeyboardDatabase$XT9Key;->type:I
 

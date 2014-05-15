@@ -2790,7 +2790,7 @@
 
     if-le v1, v0, :cond_7
 
-    invoke-virtual {v12}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual {v12}, Landroid/view/View;->getHeight()I
 
     move-result v2
 

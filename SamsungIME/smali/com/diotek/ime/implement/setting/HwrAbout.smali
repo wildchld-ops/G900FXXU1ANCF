@@ -172,7 +172,7 @@
 
     iget-object v5, p0, Lcom/diotek/ime/implement/setting/HwrAbout;->dwpTextView:Landroid/widget/TextView;
 
-    invoke-virtual {v2, v5}, Landroid/widget/LinearLayout;->removeView(Landroid/view/View;)V
+    invoke-virtual {v2, v5}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
     goto :goto_0
 .end method

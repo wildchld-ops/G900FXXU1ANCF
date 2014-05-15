@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings$7;->this$0:Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -49,7 +49,7 @@
 
     check-cast v0, Landroid/preference/CheckBoxPreference;
 
-    invoke-virtual {v0}, Landroid/preference/CheckBoxPreference;->isChecked()Z
+    invoke-virtual {v0}, Landroid/preference/TwoStatePreference;->isChecked()Z
 
     move-result v3
 
@@ -57,7 +57,7 @@
 
     const-string v10, "SETTINGS_DEFAULT_KEYPAD_POINTING"
 
-    invoke-virtual {v9, v10}, Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v9, v10}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -67,7 +67,7 @@
 
     if-eqz v1, :cond_2
 
-    invoke-virtual {v1}, Landroid/preference/CheckBoxPreference;->isChecked()Z
+    invoke-virtual {v1}, Landroid/preference/TwoStatePreference;->isChecked()Z
 
     move-result v5
 
@@ -93,7 +93,7 @@
 
     const-string v10, "SETTINGS_DEFAULT_KEYPAD_SWEEPING"
 
-    invoke-virtual {v9, v10}, Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v9, v10}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -101,7 +101,7 @@
 
     if-eqz v1, :cond_4
 
-    invoke-virtual {v1}, Landroid/preference/CheckBoxPreference;->isChecked()Z
+    invoke-virtual {v1}, Landroid/preference/TwoStatePreference;->isChecked()Z
 
     move-result v6
 

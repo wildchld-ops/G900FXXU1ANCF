@@ -76,7 +76,7 @@
 .method public constructor <init>(Lcom/nuance/connect/store/PersistentDataStore;)V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Lcom/nuance/connect/internal/PropertyStore;
 
@@ -106,7 +106,7 @@
 
     sget-object v1, Lcom/nuance/connect/internal/AppSettings$Key;->CONFIGURATION_REFRESH_INTERVAL:Lcom/nuance/connect/internal/AppSettings$Key;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/internal/AppSettings$Key;->name()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -132,7 +132,7 @@
 
     sget-object v1, Lcom/nuance/connect/internal/AppSettings$Key;->CONFIGURATION_CONNECTION_CONCURRENT_LIMIT:Lcom/nuance/connect/internal/AppSettings$Key;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/internal/AppSettings$Key;->name()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -156,7 +156,7 @@
 
     sget-object v1, Lcom/nuance/connect/internal/AppSettings$Key;->DOWNLOAD_IDLE_TIMEOUT:Lcom/nuance/connect/internal/AppSettings$Key;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/internal/AppSettings$Key;->name()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -182,7 +182,7 @@
 
     sget-object v1, Lcom/nuance/connect/internal/AppSettings$Key;->CUSTOMER_STRING:Lcom/nuance/connect/internal/AppSettings$Key;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/internal/AppSettings$Key;->name()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -204,7 +204,7 @@
 
     sget-object v1, Lcom/nuance/connect/internal/AppSettings$Key;->OEM_LOG_LEVEL:Lcom/nuance/connect/internal/AppSettings$Key;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/internal/AppSettings$Key;->name()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -332,7 +332,7 @@
 
     iget-object v0, p0, Lcom/nuance/connect/internal/AppSettings;->propertyStore:Lcom/nuance/connect/internal/PropertyStore;
 
-    invoke-virtual {p1}, Lcom/nuance/connect/internal/AppSettings$Key;->name()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 

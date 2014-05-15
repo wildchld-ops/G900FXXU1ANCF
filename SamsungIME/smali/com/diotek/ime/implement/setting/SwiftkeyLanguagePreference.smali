@@ -186,7 +186,7 @@
 
     if-eqz v3, :cond_2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v3
 
@@ -257,7 +257,7 @@
 
     if-eqz v3, :cond_3
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->setLayoutResource(I)V
+    invoke-virtual {p0, v8}, Landroid/preference/Preference;->setLayoutResource(I)V
 
     :goto_2
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->mLanguagePack:Lcom/touchtype_fluency/util/LanguagePack;
@@ -374,7 +374,7 @@
     goto/16 :goto_1
 
     :cond_3
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->setWidgetLayoutResource(I)V
+    invoke-virtual {p0, v8}, Landroid/preference/Preference;->setWidgetLayoutResource(I)V
 
     goto :goto_2
 
@@ -482,7 +482,7 @@
 
     invoke-direct {v1, p0, v0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference$9;-><init>(Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;Ljava/lang/String;)V
 
-    invoke-virtual {v1}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference$9;->start()V
+    invoke-virtual {v1}, Ljava/lang/Thread;->start()V
 
     :cond_0
     return-void
@@ -757,7 +757,7 @@
 
     iget-object v5, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->parent:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;
 
-    invoke-virtual {v5, v1}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v5, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v5
 
@@ -879,7 +879,7 @@
 
     iget-object v5, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->parent:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;
 
-    invoke-virtual {v5, p1}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v5, p1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v5
 
@@ -916,7 +916,7 @@
 
     iget-object v5, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->parent:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;
 
-    invoke-virtual {v5}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getPackageName()Ljava/lang/String;
+    invoke-virtual {v5}, Landroid/content/ContextWrapper;->getPackageName()Ljava/lang/String;
 
     move-result-object v5
 
@@ -948,7 +948,7 @@
 
     const v8, 0x7f0d000f
 
-    invoke-virtual {v7, v8}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v7, v8}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v7
 
@@ -1171,7 +1171,7 @@
 
     invoke-direct {v0, p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference$10;-><init>(Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;)V
 
-    invoke-virtual {v0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference$10;->start()V
+    invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
     :cond_0
     return-void
@@ -1182,7 +1182,7 @@
 
     const/4 v3, 0x1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -1192,7 +1192,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -1642,7 +1642,7 @@
 
     iget-object v1, v0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->titleTextView:Landroid/widget/TextView;
 
-    invoke-virtual {v1, v9}, Landroid/widget/TextView;->setContentDescription(Ljava/lang/CharSequence;)V
+    invoke-virtual {v1, v9}, Landroid/view/View;->setContentDescription(Ljava/lang/CharSequence;)V
 
     :cond_2
     move-object/from16 v0, p0
@@ -1651,7 +1651,7 @@
 
     const v2, 0x7f0903e6
 
-    invoke-virtual {v1, v2}, Landroid/widget/Button;->setHeight(I)V
+    invoke-virtual {v1, v2}, Landroid/widget/TextView;->setHeight(I)V
 
     move-object/from16 v0, p0
 
@@ -1659,7 +1659,7 @@
 
     const v2, 0x7f0903e6
 
-    invoke-virtual {v1, v2}, Landroid/widget/Button;->setHeight(I)V
+    invoke-virtual {v1, v2}, Landroid/widget/TextView;->setHeight(I)V
 
     goto/16 :goto_0
 .end method
@@ -1933,7 +1933,7 @@
 .method private sendAccessibilityEvent(Landroid/view/View;)V
     .locals 3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -1982,28 +1982,28 @@
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->cancelButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v3}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->enableCheckBox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v0, v2}, Landroid/widget/CheckBox;->setVisibility(I)V
+    invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->updateButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v2}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->statusTextView:Landroid/widget/TextView;
 
-    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
     :goto_0
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->cancelButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v4}, Landroid/widget/Button;->setHeight(I)V
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setHeight(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->updateButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v4}, Landroid/widget/Button;->setHeight(I)V
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setHeight(I)V
 
     return-void
 
@@ -2024,7 +2024,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->enableCheckBox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v0, v3}, Landroid/widget/CheckBox;->setVisibility(I)V
+    invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->downloadProgressBar:Landroid/widget/ProgressBar;
 
@@ -2032,15 +2032,15 @@
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->cancelButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v2}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->updateButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v3}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->statusTextView:Landroid/widget/TextView;
 
-    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
     goto :goto_0
 
@@ -2051,19 +2051,19 @@
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->cancelButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v2}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->updateButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v2}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->enableCheckBox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v0, v2}, Landroid/widget/CheckBox;->setVisibility(I)V
+    invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->statusTextView:Landroid/widget/TextView;
 
-    invoke-virtual {v0, v3}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->titleTextView:Landroid/widget/TextView;
 
@@ -2160,7 +2160,7 @@
 
     const-string v2, "SETTINGS_DEFAULT_USE_SYSTEM_LANGUAGE"
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {p0, v2}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -2173,7 +2173,7 @@
     return-void
 
     :cond_1
-    invoke-virtual {v1}, Landroid/preference/CheckBoxPreference;->isChecked()Z
+    invoke-virtual {v1}, Landroid/preference/TwoStatePreference;->isChecked()Z
 
     move-result v2
 
@@ -2192,19 +2192,19 @@
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->cancelButton:Landroid/widget/Button;
 
-    invoke-virtual {v2, v0}, Landroid/widget/Button;->setEnabled(Z)V
+    invoke-virtual {v2, v0}, Landroid/widget/TextView;->setEnabled(Z)V
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->enableCheckBox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v2, v0}, Landroid/widget/CheckBox;->setEnabled(Z)V
+    invoke-virtual {v2, v0}, Landroid/widget/TextView;->setEnabled(Z)V
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->updateButton:Landroid/widget/Button;
 
-    invoke-virtual {v2, v0}, Landroid/widget/Button;->setEnabled(Z)V
+    invoke-virtual {v2, v0}, Landroid/widget/TextView;->setEnabled(Z)V
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->downloadProgressBar:Landroid/widget/ProgressBar;
 
-    invoke-virtual {v2, v0}, Landroid/widget/ProgressBar;->setEnabled(Z)V
+    invoke-virtual {v2, v0}, Landroid/view/View;->setEnabled(Z)V
 
     goto :goto_0
 
@@ -2287,11 +2287,11 @@
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->cancelButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setHeight(I)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setHeight(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->updateButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setHeight(I)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setHeight(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->titleTextView:Landroid/widget/TextView;
 
@@ -2303,11 +2303,11 @@
 
     iget-object v1, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->languageNameTitle:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setContentDescription(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setContentDescription(Ljava/lang/CharSequence;)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->statusTextView:Landroid/widget/TextView;
 
-    invoke-virtual {v0, v3}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
     invoke-static {}, Lcom/sec/android/app/CscFeature;->getInstance()Lcom/sec/android/app/CscFeature;
 
@@ -2340,15 +2340,15 @@
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->cancelButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v2}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->enableCheckBox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v0, v3}, Landroid/widget/CheckBox;->setVisibility(I)V
+    invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->updateButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v3}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->mLanguagePack:Lcom/touchtype_fluency/util/LanguagePack;
 
@@ -2397,7 +2397,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->cancelButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v3}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->mLanguagePack:Lcom/touchtype_fluency/util/LanguagePack;
 
@@ -2409,7 +2409,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->enableCheckBox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v0, v2}, Landroid/widget/CheckBox;->setVisibility(I)V
+    invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->mLanguagePack:Lcom/touchtype_fluency/util/LanguagePack;
 
@@ -2421,7 +2421,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->enableCheckBox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v0, v4}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v0, v4}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     :goto_1
     invoke-direct {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->isUpdateAvailable()Z
@@ -2432,7 +2432,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->updateButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v2}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
     :goto_2
     invoke-direct {p0, v4}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->updateNotificationBar(Z)V
@@ -2452,29 +2452,29 @@
     :cond_5
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->enableCheckBox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v0, v2}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v0, v2}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     goto :goto_1
 
     :cond_6
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->updateButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v3}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
     goto :goto_2
 
     :cond_7
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->updateButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v3}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->enableCheckBox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v0, v3}, Landroid/widget/CheckBox;->setVisibility(I)V
+    invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->statusTextView:Landroid/widget/TextView;
 
-    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
     invoke-direct {p0, v2}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->updateNotificationBar(Z)V
 
@@ -2484,7 +2484,7 @@
 .method public IntentForDialog(I)V
     .locals 4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -2566,7 +2566,7 @@
 
     const-string v10, "layout_inflater"
 
-    invoke-virtual {v9, v10}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v9, v10}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v6
 
@@ -2582,7 +2582,7 @@
 
     const v10, 0x7f0d024e
 
-    invoke-virtual {v9, v10}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v9, v10}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v9
 
@@ -2604,7 +2604,7 @@
 
     const v10, 0x7f0d024f
 
-    invoke-virtual {v9, v10}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v9, v10}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v9
 
@@ -2638,14 +2638,14 @@
 
     invoke-direct {v9, p0, v4}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference$6;-><init>(Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;Landroid/widget/CheckBox;)V
 
-    invoke-virtual {v4, v9}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v4, v9}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_1
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
     goto :goto_0
 .end method
@@ -2705,7 +2705,7 @@
 
     const-string v11, "layout_inflater"
 
-    invoke-virtual {v10, v11}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v10, v11}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v6
 
@@ -2729,7 +2729,7 @@
 
     const v11, 0x7f0d01e8
 
-    invoke-virtual {v10, v11}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v10, v11}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v10
 
@@ -2752,7 +2752,7 @@
 
     const v11, 0x7f0d024d
 
-    invoke-virtual {v10, v11}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v10, v11}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v10
 
@@ -2786,14 +2786,14 @@
 
     invoke-direct {v10, p0, v4}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference$8;-><init>(Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;Landroid/widget/CheckBox;)V
 
-    invoke-virtual {v4, v10}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v4, v10}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_1
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
     goto/16 :goto_0
 
@@ -2802,7 +2802,7 @@
 
     const v11, 0x7f0d024c
 
-    invoke-virtual {v10, v11}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v10, v11}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v10
 
@@ -2845,7 +2845,7 @@
 
     invoke-direct {v1, p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference$1;-><init>(Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->updateButton:Landroid/widget/Button;
 
@@ -2853,7 +2853,7 @@
 
     invoke-direct {v1, p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference$2;-><init>(Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     iput-object p1, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->languageItemView:Landroid/view/View;
 
@@ -2943,7 +2943,7 @@
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->parent:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;
 
-    invoke-virtual {v4, v2}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v4, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v4
 
@@ -2983,7 +2983,7 @@
     :goto_1
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->parent:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;
 
-    invoke-virtual {v3}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->invalidateOptionsMenu()V
+    invoke-virtual {v3}, Landroid/app/Activity;->invalidateOptionsMenu()V
 
     return-void
 
@@ -3002,11 +3002,11 @@
 
     move-result-object v4
 
-    invoke-virtual {v3, v4}, Landroid/widget/CheckBox;->setContentDescription(Ljava/lang/CharSequence;)V
+    invoke-virtual {v3, v4}, Landroid/view/View;->setContentDescription(Ljava/lang/CharSequence;)V
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->enableCheckBox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v3, v7}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v3, v7}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     sget-object v3, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->mlanguageID:Ljava/lang/String;
 
@@ -3056,11 +3056,11 @@
 
     move-result-object v4
 
-    invoke-virtual {v3, v4}, Landroid/widget/CheckBox;->setContentDescription(Ljava/lang/CharSequence;)V
+    invoke-virtual {v3, v4}, Landroid/view/View;->setContentDescription(Ljava/lang/CharSequence;)V
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->enableCheckBox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v3, v5}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v3, v5}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     goto :goto_0
 
@@ -3071,7 +3071,7 @@
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->parent:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;
 
-    invoke-virtual {v4, v2}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v4, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v4
 
@@ -3106,7 +3106,7 @@
 
     if-nez v3, :cond_1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v3
 
@@ -3129,7 +3129,7 @@
 .method public showDownloadGuideDialog()V
     .locals 2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 

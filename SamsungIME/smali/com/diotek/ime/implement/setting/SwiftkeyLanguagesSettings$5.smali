@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings$5;->this$0:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -43,7 +43,7 @@
 
     invoke-direct {v1, p0, p1}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings$5$1;-><init>(Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings$5;Lcom/touchtype_fluency/util/RefreshListener$RefreshResult;)V
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->runOnUiThread(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Landroid/app/Activity;->runOnUiThread(Ljava/lang/Runnable;)V
 
     return-void
 .end method

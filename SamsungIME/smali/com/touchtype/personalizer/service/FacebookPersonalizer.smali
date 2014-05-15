@@ -277,7 +277,7 @@
     :catch_0
     move-exception v4
 
-    invoke-virtual {v4}, Landroid/os/RemoteException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 .end method
@@ -414,7 +414,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
     return-void
 .end method
@@ -583,7 +583,7 @@
     :cond_0
     new-instance v0, Landroid/content/Intent;
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/service/FacebookPersonalizer;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lcom/touchtype/personalizer/Personalizer;->getContext()Landroid/content/Context;
 
     move-result-object v2
 

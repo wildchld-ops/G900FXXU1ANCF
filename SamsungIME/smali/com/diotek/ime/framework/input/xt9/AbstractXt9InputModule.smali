@@ -5807,7 +5807,7 @@
 
     int-to-char v4, p1
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->isEnableAutoCorrection(C)Z
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isEnableAutoCorrection(C)Z
 
     move-result v3
 

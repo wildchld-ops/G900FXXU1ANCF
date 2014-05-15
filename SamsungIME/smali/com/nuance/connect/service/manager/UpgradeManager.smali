@@ -165,7 +165,7 @@
 
     sget-object v1, Lcom/nuance/connect/service/manager/UpgradeManager;->MESSAGES_HANDLED:[Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {p0, v1}, Lcom/nuance/connect/service/manager/UpgradeManager;->setMessagesHandled([Lcom/nuance/connect/internal/common/InternalMessages;)V
+    invoke-virtual {p0, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->setMessagesHandled([Lcom/nuance/connect/internal/common/InternalMessages;)V
 
     iget-object v1, p0, Lcom/nuance/connect/service/manager/AbstractCommandManager;->validCommands:Lcom/nuance/connect/service/manager/AbstractCommandManager$ValidCommands;
 
@@ -431,7 +431,7 @@
 
     move-result-object v6
 
-    invoke-virtual {v0}, Ljava/lang/SecurityException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v7
 
@@ -703,7 +703,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v0}, Ljava/lang/SecurityException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v6
 
@@ -1093,7 +1093,7 @@
     const/4 v14, 0x0
 
     :goto_1
-    invoke-virtual {v13, v2}, Ljava/io/FileInputStream;->read([B)I
+    invoke-virtual {v13, v2}, Ljava/io/InputStream;->read([B)I
 
     move-result v14
 
@@ -1300,7 +1300,7 @@
 
     move-object/from16 v0, v17
 
-    invoke-virtual {v0, v11}, Lcom/nuance/connect/service/ConnectClient;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {v0, v11}, Landroid/content/ContextWrapper;->startActivity(Landroid/content/Intent;)V
 
     goto/16 :goto_0
 
@@ -1413,7 +1413,7 @@
 
     sget-object v3, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->USER:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v2, v3, v1}, Lcom/nuance/connect/service/manager/UpgradeManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v2, v3, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -1421,7 +1421,7 @@
 
     iput-object v2, v0, Lcom/nuance/connect/service/comm/Command;->transactionId:Ljava/lang/String;
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/UpgradeManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     goto :goto_0
 .end method
@@ -1488,7 +1488,7 @@
 
     sget-object v2, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->BACKGROUND:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v1, v2}, Lcom/nuance/connect/service/manager/UpgradeManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v1, v2}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -1496,7 +1496,7 @@
 
     iput-boolean v1, v0, Lcom/nuance/connect/service/comm/Command;->allowDuplicateOfCommand:Z
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/UpgradeManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     goto :goto_0
 .end method
@@ -1581,7 +1581,7 @@
 
     sget-object v3, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->USER:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v2, v3}, Lcom/nuance/connect/service/manager/UpgradeManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v2, v3}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v1
 
@@ -1603,7 +1603,7 @@
 
     iput-boolean v5, v1, Lcom/nuance/connect/service/comm/Command;->wifiOnly:Z
 
-    invoke-virtual {p0, v1}, Lcom/nuance/connect/service/manager/UpgradeManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     goto :goto_0
 .end method
@@ -1790,7 +1790,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v3}, Ljava/lang/Enum;->ordinal()I
 
     move-result v3
 
@@ -1849,11 +1849,11 @@
 
     sget-object v2, Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;->DISABLED:Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;
 
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/UpgradeManager;->getManagerStartState()Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->getManagerStartState()Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -2405,11 +2405,11 @@
 
     sget-object v0, Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;->STARTED:Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;
 
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/UpgradeManager;->getManagerStartState()Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->getManagerStartState()Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -2428,7 +2428,7 @@
 
     sget-object v6, Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;->STARTED:Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;
 
-    invoke-virtual {v5, v6}, Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v6}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v5
 
@@ -2478,13 +2478,13 @@
 
     sget-object v6, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->BACKGROUND:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v5, v6, v1}, Lcom/nuance/connect/service/manager/UpgradeManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v5, v6, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
     iput-object p2, v0, Lcom/nuance/connect/service/comm/Command;->transactionId:Ljava/lang/String;
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/UpgradeManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     :goto_0
     return-void
@@ -2546,7 +2546,7 @@
     :cond_1
     invoke-direct {p0}, Lcom/nuance/connect/service/manager/UpgradeManager;->sendHostUpgradeStatus()V
 
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/UpgradeManager;->managerStartComplete()V
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->managerStartComplete()V
 
     return-void
 .end method

@@ -55,7 +55,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     sget-object v0, Lcom/nuance/connect/util/Logger$LoggerType;->DEVELOPER:Lcom/nuance/connect/util/Logger$LoggerType;
 
@@ -540,7 +540,7 @@
 
     move-result-object v6
 
-    invoke-virtual {v6}, Lcom/nuance/connect/internal/common/InternalMessages;->toString()Ljava/lang/String;
+    invoke-virtual {v6}, Ljava/lang/Enum;->toString()Ljava/lang/String;
 
     move-result-object v6
 
@@ -674,7 +674,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {p1}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v3
 

@@ -102,7 +102,7 @@
     :cond_0
     iget-object v1, p0, Lcom/nuance/connect/internal/ConnectServiceManagerInternal$IncomingHandler;->connectRef:Ljava/lang/ref/WeakReference;
 
-    invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -131,7 +131,7 @@
 
     if-gt v0, v1, :cond_0
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/internal/ConnectServiceManagerInternal$IncomingHandler;->removeMessages(I)V
+    invoke-virtual {p0, v0}, Landroid/os/Handler;->removeMessages(I)V
 
     add-int/lit8 v0, v0, 0x1
 

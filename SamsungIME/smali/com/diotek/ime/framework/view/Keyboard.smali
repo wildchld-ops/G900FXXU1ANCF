@@ -153,7 +153,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-array v1, v4, [Lcom/diotek/ime/framework/view/Keyboard$Key;
 
@@ -251,7 +251,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-array v0, v3, [Lcom/diotek/ime/framework/view/Keyboard$Key;
 
@@ -997,7 +997,7 @@
 
     invoke-static {v2, v7}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-virtual {v8}, Ljava/lang/Exception;->printStackTrace()V
+    invoke-virtual {v8}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_5
     move-object/from16 v0, p0

@@ -37,7 +37,7 @@
 
     sget-object v1, Lcom/touchtype_fluency/LoggingListener$Level;->DEBUG:Lcom/touchtype_fluency/LoggingListener$Level;
 
-    invoke-virtual {v1}, Lcom/touchtype_fluency/LoggingListener$Level;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -53,7 +53,7 @@
 
     sget-object v1, Lcom/touchtype_fluency/LoggingListener$Level;->INFO:Lcom/touchtype_fluency/LoggingListener$Level;
 
-    invoke-virtual {v1}, Lcom/touchtype_fluency/LoggingListener$Level;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -69,7 +69,7 @@
 
     sget-object v1, Lcom/touchtype_fluency/LoggingListener$Level;->SEVERE:Lcom/touchtype_fluency/LoggingListener$Level;
 
-    invoke-virtual {v1}, Lcom/touchtype_fluency/LoggingListener$Level;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 

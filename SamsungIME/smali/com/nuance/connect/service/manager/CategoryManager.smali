@@ -203,7 +203,7 @@
 
     sget-object v2, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_COMMAND_CDB_LIST_UPDATE:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v2
 
@@ -213,7 +213,7 @@
 
     sget-object v2, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_COMMAND_CDB_AVAILABLE:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v2
 
@@ -223,7 +223,7 @@
 
     sget-object v2, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_CLIENT_SET_CATEGORY_HOTWORD_STATUS:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v2
 
@@ -233,7 +233,7 @@
 
     sget-object v2, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_CLIENT_PROCESS_CATEGORY_EVENTS_ACK:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v2
 
@@ -243,7 +243,7 @@
 
     sget-object v2, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_CLIENT_PROCESS_CATEGORY_DELETE_CATEGORY_ACK:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v2
 
@@ -253,7 +253,7 @@
 
     sget-object v2, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_CLIENT_CATEGORY_INSTALL:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v2
 
@@ -263,7 +263,7 @@
 
     sget-object v2, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_CLIENT_CATEGORY_DB_SUBSCRIBE:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v2
 
@@ -273,7 +273,7 @@
 
     sget-object v2, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_CLIENT_CATEGORY_DB_UNSUBSCRIBE:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v2
 
@@ -283,7 +283,7 @@
 
     sget-object v2, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_CLIENT_CATEGORY_INSTALL_COMPLETE:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v2
 
@@ -293,7 +293,7 @@
 
     sget-object v2, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_CLIENT_SET_CHINESE_CAT_DB_STATUS:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v2
 
@@ -303,7 +303,7 @@
 
     sget-object v2, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_CLIENT_CATEGORY_DB_SUBSCRIBE_OR_DOWNLOAD:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v2
 
@@ -313,7 +313,7 @@
 
     sget-object v2, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_CLIENT_CATEGORY_DB_SUBSCRIBE_NO_DOWNLOAD:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v2
 
@@ -974,7 +974,7 @@
 
     sget-object v3, Lcom/nuance/connect/service/manager/AbstractCommandManager$DownloadState;->DOWNLOAD_LIST_STATE_UNKNOWN:Lcom/nuance/connect/service/manager/AbstractCommandManager$DownloadState;
 
-    invoke-virtual {v3}, Lcom/nuance/connect/service/manager/AbstractCommandManager$DownloadState;->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/Enum;->toString()Ljava/lang/String;
 
     move-result-object v3
 
@@ -1453,7 +1453,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/nuance/connect/service/manager/CategoryManager;->finishTransaction(Ljava/lang/String;)V
+    invoke-virtual {p0, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->finishTransaction(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -1471,7 +1471,7 @@
 
     iget-object v2, p0, Lcom/nuance/connect/service/manager/AbstractCommandManager;->managerDownloadListState:Lcom/nuance/connect/service/manager/AbstractCommandManager$DownloadState;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/service/manager/AbstractCommandManager$DownloadState;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Enum;->toString()Ljava/lang/String;
 
     move-result-object v2
 
@@ -2027,7 +2027,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0, v2}, Lcom/nuance/connect/service/manager/CategoryManager;->isTransactionActive(Ljava/lang/String;)Z
+    invoke-virtual {p0, v2}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->isTransactionActive(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -2068,7 +2068,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/nuance/connect/service/manager/CategoryManager$DownloadDatabaseTransaction;-><init>(Lcom/nuance/connect/service/manager/CategoryManager;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/CategoryManager;->startTransaction(Lcom/nuance/connect/service/comm/Transaction;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->startTransaction(Lcom/nuance/connect/service/comm/Transaction;)V
 
     goto/16 :goto_0
 .end method
@@ -2212,7 +2212,7 @@
 
     iget-object v0, p0, Lcom/nuance/connect/service/manager/AbstractCommandManager;->messages:[I
 
-    invoke-virtual {v0}, [I->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -2517,7 +2517,7 @@
 
     sget-object v4, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_CLIENT_PROCESS_CATEGORY_EVENTS_ACK:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v4}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
 
     move-result v4
 
@@ -2744,7 +2744,7 @@
 
     move-result-object v8
 
-    invoke-virtual {v8}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v8}, Ljava/lang/Enum;->ordinal()I
 
     move-result v8
 
@@ -3621,7 +3621,7 @@
 
     move-result-object v16
 
-    invoke-virtual {v5}, Lorg/json/JSONException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v5}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v17
 
@@ -4092,7 +4092,7 @@
 
     sget-object v3, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->CRITICAL:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v2, v3, v1}, Lcom/nuance/connect/service/manager/CategoryManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v2, v3, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -4100,7 +4100,7 @@
 
     iput-boolean v2, v0, Lcom/nuance/connect/service/comm/Command;->allowDuplicateOfCommand:Z
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/CategoryManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     return-void
 .end method
@@ -4207,7 +4207,7 @@
 
     invoke-virtual {v0}, Lcom/nuance/connect/service/manager/CategorySubmanagerResources;->start()V
 
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/CategoryManager;->managerStartComplete()V
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->managerStartComplete()V
 
     return-void
 .end method
@@ -4219,11 +4219,11 @@
 
     sget-object v2, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->CRITICAL:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v1, v2}, Lcom/nuance/connect/service/manager/CategoryManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v1, v2}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/CategoryManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     return-void
 .end method
@@ -4362,7 +4362,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/nuance/connect/service/manager/CategoryManager;->isTransactionActive(Ljava/lang/String;)Z
+    invoke-virtual {p0, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->isTransactionActive(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -4403,7 +4403,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/nuance/connect/service/manager/CategoryManager$DownloadDatabaseTransaction;-><init>(Lcom/nuance/connect/service/manager/CategoryManager;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/CategoryManager;->startTransaction(Lcom/nuance/connect/service/comm/Transaction;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->startTransaction(Lcom/nuance/connect/service/comm/Transaction;)V
 
     goto :goto_0
 .end method
@@ -4484,7 +4484,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0, v2}, Lcom/nuance/connect/service/manager/CategoryManager;->isTransactionActive(Ljava/lang/String;)Z
+    invoke-virtual {p0, v2}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->isTransactionActive(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -4494,7 +4494,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0, v2}, Lcom/nuance/connect/service/manager/CategoryManager;->getActiveTransaction(Ljava/lang/String;)Lcom/nuance/connect/service/comm/Transaction;
+    invoke-virtual {p0, v2}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->getActiveTransaction(Ljava/lang/String;)Lcom/nuance/connect/service/comm/Transaction;
 
     move-result-object v1
 
@@ -4527,7 +4527,7 @@
 
     sget-object v3, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->BACKGROUND:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v2, v3}, Lcom/nuance/connect/service/manager/CategoryManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v2, v3}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -4539,7 +4539,7 @@
 
     iput-object p1, v0, Lcom/nuance/connect/service/comm/Command;->identifier:Ljava/lang/String;
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/CategoryManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     goto :goto_0
 
@@ -4863,7 +4863,7 @@
 
     sget-object v5, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_CLIENT_CATEGORY_INSTALL:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v5}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v5}, Ljava/lang/Enum;->ordinal()I
 
     move-result v5
 
@@ -4875,7 +4875,7 @@
 
     iget-object v4, p0, Lcom/nuance/connect/service/manager/AbstractCommandManager;->client:Lcom/nuance/connect/service/ConnectClient;
 
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/CategoryManager;->calcDefaultMilliDelay()J
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->calcDefaultMilliDelay()J
 
     move-result-wide v5
 

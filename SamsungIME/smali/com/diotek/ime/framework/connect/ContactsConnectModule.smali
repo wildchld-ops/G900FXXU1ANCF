@@ -243,7 +243,7 @@
     :try_start_3
     const-string v2, "[GetPhonenumberAdapter] getContactData"
 
-    invoke-virtual {v14}, Ljava/lang/Exception;->toString()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
 
     move-result-object v4
 
@@ -487,7 +487,7 @@
 
     invoke-direct {v0, p0}, Lcom/diotek/ime/framework/connect/ContactsConnectModule$1;-><init>(Lcom/diotek/ime/framework/connect/ContactsConnectModule;)V
 
-    invoke-virtual {v0}, Lcom/diotek/ime/framework/connect/ContactsConnectModule$1;->start()V
+    invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
     return-void
 .end method

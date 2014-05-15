@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference$4;->this$0:Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -200,7 +200,7 @@
 
     iget-object v5, p0, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference$4;->this$0:Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;
 
-    invoke-virtual {v5}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {v5}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
@@ -224,7 +224,7 @@
 
     iget-object v5, p0, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference$4;->this$0:Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;
 
-    invoke-virtual {v5}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {v5}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
@@ -238,20 +238,20 @@
     :catch_0
     move-exception v2
 
-    invoke-virtual {v2}, Ljava/lang/ClassNotFoundException;->printStackTrace()V
+    invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 
     :cond_0
     iget-object v5, p0, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference$4;->this$0:Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;
 
-    invoke-virtual {v5}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {v5}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
     iget-object v6, p0, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference$4;->this$0:Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;
 
-    invoke-virtual {v6}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {v6}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v6
 
@@ -270,13 +270,13 @@
     :cond_1
     iget-object v5, p0, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference$4;->this$0:Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;
 
-    invoke-virtual {v5}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {v5}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
     iget-object v6, p0, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference$4;->this$0:Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;
 
-    invoke-virtual {v6}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {v6}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v6
 

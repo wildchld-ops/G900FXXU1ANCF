@@ -140,7 +140,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->setSummary(Ljava/lang/CharSequence;)V
+    invoke-virtual {v2, v3}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
     iget-object v2, p0, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference$1;->this$0:Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;
 

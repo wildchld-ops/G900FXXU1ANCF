@@ -52,7 +52,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Landroid/widget/Button;->getTag()Ljava/lang/Object;
+    invoke-virtual {v1}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object v1
 

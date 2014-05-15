@@ -33,7 +33,7 @@
 .method public constructor <init>(Ljava/net/URL;Ljava/lang/String;ZLcom/touchtype_fluency/util/Storage;Ljava/lang/String;Z)V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Lcom/touchtype_fluency/util/e$1;
 
@@ -70,7 +70,7 @@
         }
     .end annotation
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Lcom/touchtype_fluency/util/e$1;
 

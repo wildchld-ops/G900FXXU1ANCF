@@ -32,7 +32,7 @@
         }
     .end annotation
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/touchtype_fluency/internal/TaggedWithSelector;->withTags:Ljava/util/Collection;
 

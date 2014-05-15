@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel$3;->this$0:Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -74,7 +74,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/diotek/ime/implement/setting/adapter/CheckboxArrayAdapter;->notifyDataSetChanged()V
+    invoke-virtual {v3}, Landroid/widget/ArrayAdapter;->notifyDataSetChanged()V
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel$3;->this$0:Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;
 
@@ -95,7 +95,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v3}, Landroid/widget/ListView;->getChildCount()I
+    invoke-virtual {v3}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v3
 
@@ -108,7 +108,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v3, v1}, Landroid/widget/ListView;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {v3, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v3
 
@@ -127,7 +127,7 @@
 
     move-result v3
 
-    invoke-virtual {v0, v3}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v0, v3}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     add-int/lit8 v1, v1, 0x1
 

@@ -80,7 +80,7 @@
 
     const/16 v7, 0x10
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/PhraseSettings;->getWindow()Landroid/view/Window;
+    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object v5
 
@@ -149,19 +149,19 @@
 
     move-result-object v5
 
-    invoke-virtual {v3, v5}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {v3, v0}, Landroid/widget/EditText;->setId(I)V
+    invoke-virtual {v3, v0}, Landroid/view/View;->setId(I)V
 
     new-instance v5, Lcom/diotek/ime/implement/setting/PhraseSettings$1;
 
     invoke-direct {v5, p0}, Lcom/diotek/ime/implement/setting/PhraseSettings$1;-><init>(Lcom/diotek/ime/implement/setting/PhraseSettings;)V
 
-    invoke-virtual {v3, v5}, Landroid/widget/EditText;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
+    invoke-virtual {v3, v5}, Landroid/view/View;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
 
     iget-object v5, p0, Lcom/diotek/ime/implement/setting/PhraseSettings;->mContainer:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v5, v4, v0}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;I)V
+    invoke-virtual {v5, v4, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;I)V
 
     add-int/lit8 v0, v0, 0x1
 
@@ -178,7 +178,7 @@
 
     invoke-super {p0}, Landroid/app/Activity;->onBackPressed()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/PhraseSettings;->getCurrentFocus()Landroid/view/View;
+    invoke-virtual {p0}, Landroid/app/Activity;->getCurrentFocus()Landroid/view/View;
 
     move-result-object v1
 
@@ -186,7 +186,7 @@
 
     const-string v1, "input_method"
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/PhraseSettings;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -194,7 +194,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/PhraseSettings;->getCurrentFocus()Landroid/view/View;
+    invoke-virtual {p0}, Landroid/app/Activity;->getCurrentFocus()Landroid/view/View;
 
     move-result-object v1
 
@@ -207,7 +207,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/view/inputmethod/InputMethodManager;->hideSoftInputFromWindow(Landroid/os/IBinder;I)Z
 
     :cond_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/PhraseSettings;->getCurrentFocus()Landroid/view/View;
+    invoke-virtual {p0}, Landroid/app/Activity;->getCurrentFocus()Landroid/view/View;
 
     move-result-object v1
 
@@ -226,7 +226,7 @@
 
     const v5, 0x7f03006e
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/implement/setting/PhraseSettings;->setContentView(I)V
+    invoke-virtual {p0, v5}, Landroid/app/Activity;->setContentView(I)V
 
     invoke-static {}, Lcom/diotek/ime/framework/common/InputManagerImpl;->getInstance()Lcom/diotek/ime/framework/common/InputManager;
 
@@ -247,7 +247,7 @@
     :cond_0
     const v5, 0x7f0800a2
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/implement/setting/PhraseSettings;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v5}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v5
 
@@ -310,7 +310,7 @@
 
     const/high16 v6, 0x2
 
-    invoke-virtual {v5, v6}, Landroid/widget/LinearLayout;->setDescendantFocusability(I)V
+    invoke-virtual {v5, v6}, Landroid/view/ViewGroup;->setDescendantFocusability(I)V
 
     iget-object v5, p0, Lcom/diotek/ime/implement/setting/PhraseSettings;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -394,7 +394,7 @@
 
     if-ne v1, v2, :cond_1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/PhraseSettings;->getCurrentFocus()Landroid/view/View;
+    invoke-virtual {p0}, Landroid/app/Activity;->getCurrentFocus()Landroid/view/View;
 
     move-result-object v0
 
@@ -403,7 +403,7 @@
     invoke-virtual {v0}, Landroid/view/View;->clearFocus()V
 
     :cond_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/PhraseSettings;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     const/4 v1, 0x1
 
@@ -529,7 +529,7 @@
 
     const/4 v4, 0x0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/PhraseSettings;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -553,7 +553,7 @@
 
     iput-object v2, p0, Lcom/diotek/ime/implement/setting/PhraseSettings;->actionBarSwitch:Landroid/widget/Switch;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/PhraseSettings;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
@@ -567,7 +567,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/PhraseSettings;->actionBarSwitch:Landroid/widget/Switch;
 
-    invoke-virtual {v2, v4, v4, v1, v4}, Landroid/widget/Switch;->setPadding(IIII)V
+    invoke-virtual {v2, v4, v4, v1, v4}, Landroid/widget/TextView;->setPadding(IIII)V
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/PhraseSettings;->actionBarSwitch:Landroid/widget/Switch;
 
@@ -591,7 +591,7 @@
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/PhraseSettings;->onShortCutPhraseSwitchListener:Landroid/widget/CompoundButton$OnCheckedChangeListener;
 
-    invoke-virtual {v2, v3}, Landroid/widget/Switch;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
+    invoke-virtual {v2, v3}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
     :cond_0
     return-void
@@ -608,7 +608,7 @@
 
     const/high16 v2, 0x2
 
-    invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setDescendantFocusability(I)V
+    invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setDescendantFocusability(I)V
 
     :cond_0
     :goto_0
@@ -619,7 +619,7 @@
 
     const/high16 v3, 0x6
 
-    invoke-virtual {v1, v3}, Landroid/widget/LinearLayout;->setDescendantFocusability(I)V
+    invoke-virtual {v1, v3}, Landroid/view/ViewGroup;->setDescendantFocusability(I)V
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/PhraseSettings;->mContainer:Landroid/widget/LinearLayout;
 
@@ -628,9 +628,9 @@
     const/4 v1, 0x1
 
     :goto_1
-    invoke-virtual {v3, v1}, Landroid/widget/LinearLayout;->setEnabled(Z)V
+    invoke-virtual {v3, v1}, Landroid/view/View;->setEnabled(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/PhraseSettings;->getCurrentFocus()Landroid/view/View;
+    invoke-virtual {p0}, Landroid/app/Activity;->getCurrentFocus()Landroid/view/View;
 
     move-result-object v1
 
@@ -638,7 +638,7 @@
 
     const-string v1, "input_method"
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/PhraseSettings;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -646,7 +646,7 @@
 
     if-eqz v0, :cond_2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/PhraseSettings;->getCurrentFocus()Landroid/view/View;
+    invoke-virtual {p0}, Landroid/app/Activity;->getCurrentFocus()Landroid/view/View;
 
     move-result-object v1
 
@@ -657,7 +657,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/view/inputmethod/InputMethodManager;->hideSoftInputFromWindow(Landroid/os/IBinder;I)Z
 
     :cond_2
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/PhraseSettings;->getCurrentFocus()Landroid/view/View;
+    invoke-virtual {p0}, Landroid/app/Activity;->getCurrentFocus()Landroid/view/View;
 
     move-result-object v1
 

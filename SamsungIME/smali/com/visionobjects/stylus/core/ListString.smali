@@ -57,7 +57,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0, v2}, Lcom/visionobjects/stylus/core/ListString;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v0, v0, 0x1
 
@@ -116,7 +116,7 @@
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-virtual {p0, v0}, Lcom/visionobjects/stylus/core/ListString;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
@@ -220,7 +220,7 @@
     :catch_0
     move-exception v1
 
-    invoke-virtual {v1}, Ljava/io/UnsupportedEncodingException;->printStackTrace()V
+    invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 .end method
@@ -249,7 +249,7 @@
     :catch_0
     move-exception v0
 
-    invoke-virtual {v0}, Ljava/io/UnsupportedEncodingException;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     const/4 v0, 0x0
 

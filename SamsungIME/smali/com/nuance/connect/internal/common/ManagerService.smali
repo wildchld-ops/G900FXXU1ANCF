@@ -473,7 +473,7 @@
 
     iget-object v4, v3, Lcom/nuance/connect/internal/common/ManagerService;->service:Lcom/nuance/connect/common/ConnectFeature;
 
-    invoke-virtual {v4}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v4
 
@@ -518,7 +518,7 @@
 
     sget-object v0, Lcom/nuance/connect/internal/common/ManagerService;->$VALUES:[Lcom/nuance/connect/internal/common/ManagerService;
 
-    invoke-virtual {v0}, [Lcom/nuance/connect/internal/common/ManagerService;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -534,7 +534,7 @@
 
     iget-object v0, p0, Lcom/nuance/connect/internal/common/ManagerService;->managerDependencies:[Lcom/nuance/connect/internal/common/ManagerService;
 
-    invoke-virtual {v0}, [Lcom/nuance/connect/internal/common/ManagerService;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 

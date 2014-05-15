@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/nuance/connect/internal/MessageServiceInternal$1;->this$0:Lcom/nuance/connect/internal/MessageServiceInternal;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -70,7 +70,7 @@
 
     aget-object v2, v2, v0
 
-    invoke-virtual {v2}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v2
 
@@ -95,7 +95,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v3}, Ljava/lang/Enum;->ordinal()I
 
     move-result v3
 

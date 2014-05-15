@@ -153,7 +153,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     sget-object v0, Lcom/nuance/connect/util/Logger$LoggerType;->DEVELOPER:Lcom/nuance/connect/util/Logger$LoggerType;
 
@@ -815,7 +815,7 @@
 
     iget-object v9, p0, Lcom/nuance/connect/service/comm/CommandQueue;->executor:Lcom/nuance/connect/service/comm/CommandQueue$ConnectionPool;
 
-    invoke-virtual {v9}, Lcom/nuance/connect/service/comm/CommandQueue$ConnectionPool;->getActiveCount()I
+    invoke-virtual {v9}, Ljava/util/concurrent/ThreadPoolExecutor;->getActiveCount()I
 
     move-result v9
 
@@ -831,7 +831,7 @@
 
     iget-object v9, p0, Lcom/nuance/connect/service/comm/CommandQueue;->executor:Lcom/nuance/connect/service/comm/CommandQueue$ConnectionPool;
 
-    invoke-virtual {v9}, Lcom/nuance/connect/service/comm/CommandQueue$ConnectionPool;->getCompletedTaskCount()J
+    invoke-virtual {v9}, Ljava/util/concurrent/ThreadPoolExecutor;->getCompletedTaskCount()J
 
     move-result-wide v9
 
@@ -1174,7 +1174,7 @@
 
     iget-object v7, p0, Lcom/nuance/connect/service/comm/CommandQueue;->executor:Lcom/nuance/connect/service/comm/CommandQueue$ConnectionPool;
 
-    invoke-virtual {v7, v4}, Lcom/nuance/connect/service/comm/CommandQueue$ConnectionPool;->execute(Ljava/lang/Runnable;)V
+    invoke-virtual {v7, v4}, Ljava/util/concurrent/ThreadPoolExecutor;->execute(Ljava/lang/Runnable;)V
 
     iget-object v7, p0, Lcom/nuance/connect/service/comm/CommandQueue;->pendingQueue:Ljava/util/List;
 
@@ -1316,7 +1316,7 @@
 
     const/4 v5, 0x3
 
-    invoke-virtual {v4, v5}, Lcom/nuance/connect/service/comm/CommandQueue$MessageHandler;->sendEmptyMessage(I)Z
+    invoke-virtual {v4, v5}, Landroid/os/Handler;->sendEmptyMessage(I)Z
 
     return-void
 
@@ -1419,7 +1419,7 @@
 
     const/4 v1, 0x2
 
-    invoke-virtual {v0, v1}, Lcom/nuance/connect/service/comm/CommandQueue$MessageHandler;->removeMessages(I)V
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->removeMessages(I)V
 
     iput v2, p0, Lcom/nuance/connect/service/comm/CommandQueue;->backdownCounter:I
 
@@ -1517,7 +1517,7 @@
 
     const/4 v5, 0x2
 
-    invoke-virtual {p1, v5}, Lcom/nuance/connect/service/comm/CommandQueue$MessageHandler;->obtainMessage(I)Landroid/os/Message;
+    invoke-virtual {p1, v5}, Landroid/os/Handler;->obtainMessage(I)Landroid/os/Message;
 
     move-result-object v3
 
@@ -1559,7 +1559,7 @@
 
     iget-object v1, p0, Lcom/nuance/connect/service/comm/CommandQueue;->executor:Lcom/nuance/connect/service/comm/CommandQueue$ConnectionPool;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/service/comm/CommandQueue$ConnectionPool;->getActiveCount()I
+    invoke-virtual {v1}, Ljava/util/concurrent/ThreadPoolExecutor;->getActiveCount()I
 
     move-result v1
 
@@ -1621,7 +1621,7 @@
 
     const/4 v1, 0x2
 
-    invoke-virtual {v0, v1}, Lcom/nuance/connect/service/comm/CommandQueue$MessageHandler;->sendEmptyMessage(I)Z
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->sendEmptyMessage(I)Z
 
     return-void
 .end method
@@ -1648,7 +1648,7 @@
     :try_start_0
     iget-object v3, p0, Lcom/nuance/connect/service/comm/CommandQueue;->executor:Lcom/nuance/connect/service/comm/CommandQueue$ConnectionPool;
 
-    invoke-virtual {v3}, Lcom/nuance/connect/service/comm/CommandQueue$ConnectionPool;->isShutdown()Z
+    invoke-virtual {v3}, Ljava/util/concurrent/ThreadPoolExecutor;->isShutdown()Z
 
     move-result v3
 
@@ -1823,7 +1823,7 @@
 
     iget-object v0, p0, Lcom/nuance/connect/service/comm/CommandQueue;->executor:Lcom/nuance/connect/service/comm/CommandQueue$ConnectionPool;
 
-    invoke-virtual {v0}, Lcom/nuance/connect/service/comm/CommandQueue$ConnectionPool;->shutdown()V
+    invoke-virtual {v0}, Ljava/util/concurrent/ThreadPoolExecutor;->shutdown()V
 
     return-void
 .end method

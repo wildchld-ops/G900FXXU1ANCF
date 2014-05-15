@@ -261,7 +261,7 @@
 
     sget-object v0, Lcom/nuance/connect/service/manager/ReportingManager;->MESSAGES_HANDLED:[Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/ReportingManager;->setMessagesHandled([Lcom/nuance/connect/internal/common/InternalMessages;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->setMessagesHandled([Lcom/nuance/connect/internal/common/InternalMessages;)V
 
     iget-object v0, p0, Lcom/nuance/connect/service/manager/AbstractCommandManager;->validCommands:Lcom/nuance/connect/service/manager/AbstractCommandManager$ValidCommands;
 
@@ -683,7 +683,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v1}, Lorg/json/JSONException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v6
 
@@ -997,7 +997,7 @@
 
     sget-object v3, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->BACKGROUND:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v2, v3}, Lcom/nuance/connect/service/manager/ReportingManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v2, v3}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -1011,7 +1011,7 @@
 
     iput-boolean v2, v0, Lcom/nuance/connect/service/comm/Command;->allowDuplicateOfCommand:Z
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/ReportingManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     goto :goto_1
 .end method
@@ -1100,7 +1100,7 @@
 
     new-array v9, v9, [Ljava/lang/String;
 
-    invoke-virtual {v8, v9}, Ljava/util/HashSet;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-virtual {v8, v9}, Ljava/util/AbstractCollection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object v3
 
@@ -1145,13 +1145,13 @@
 
     sget-object v9, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->BACKGROUND:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v8, v9, v6}, Lcom/nuance/connect/service/manager/ReportingManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v8, v9, v6}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
     iput-boolean v11, v0, Lcom/nuance/connect/service/comm/Command;->wifiOnly:Z
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/ReportingManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     const/4 v7, 0x1
 
@@ -1202,13 +1202,13 @@
 
     sget-object v9, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->BACKGROUND:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v8, v9, v6}, Lcom/nuance/connect/service/manager/ReportingManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v8, v9, v6}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v4
 
     iput-boolean v11, v4, Lcom/nuance/connect/service/comm/Command;->wifiOnly:Z
 
-    invoke-virtual {p0, v4}, Lcom/nuance/connect/service/manager/ReportingManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v4}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     const/4 v7, 0x1
 
@@ -1295,7 +1295,7 @@
 
     iget-object v1, v0, Lcom/nuance/connect/service/manager/ReportingManager;->dataSource:Lcom/nuance/connect/sqlite/ReportingDataSource;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/sqlite/ReportingDataSource;->isOpen()Z
+    invoke-virtual {v1}, Lcom/nuance/connect/sqlite/SQLDataSource;->isOpen()Z
 
     move-result v1
 
@@ -1642,7 +1642,7 @@
 
     sget-object v1, Lcom/nuance/connect/service/configuration/ConnectConfiguration$ConfigProperty;->REPORTING_STATISTICS:Lcom/nuance/connect/service/configuration/ConnectConfiguration$ConfigProperty;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/service/configuration/ConnectConfiguration$ConfigProperty;->name()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1654,7 +1654,7 @@
 
     sget-object v1, Lcom/nuance/connect/service/configuration/ConnectConfiguration$ConfigProperty;->REPORTING_USAGE:Lcom/nuance/connect/service/configuration/ConnectConfiguration$ConfigProperty;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/service/configuration/ConnectConfiguration$ConfigProperty;->name()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1731,7 +1731,7 @@
 
     iget-object v0, p0, Lcom/nuance/connect/service/manager/ReportingManager;->dataSource:Lcom/nuance/connect/sqlite/ReportingDataSource;
 
-    invoke-virtual {v0}, Lcom/nuance/connect/sqlite/ReportingDataSource;->openSafe()Z
+    invoke-virtual {v0}, Lcom/nuance/connect/sqlite/SQLDataSource;->openSafe()Z
 
     move-result v0
 
@@ -1815,7 +1815,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v3}, Ljava/lang/Enum;->ordinal()I
 
     move-result v3
 
@@ -2044,7 +2044,7 @@
 
     invoke-direct {p0}, Lcom/nuance/connect/service/manager/ReportingManager;->sendAllowedMetricsToHost()V
 
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/ReportingManager;->managerStartComplete()V
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->managerStartComplete()V
 
     return-void
 .end method

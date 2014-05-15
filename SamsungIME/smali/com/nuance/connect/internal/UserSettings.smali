@@ -130,7 +130,7 @@
 .method public constructor <init>(Lcom/nuance/connect/store/PersistentDataStore;ZZLjava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/nuance/connect/internal/UserSettings;->store:Lcom/nuance/connect/store/PersistentDataStore;
 

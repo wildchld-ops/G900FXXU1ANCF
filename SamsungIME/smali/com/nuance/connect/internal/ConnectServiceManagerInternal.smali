@@ -146,7 +146,7 @@
 
     const-wide/high16 v2, -0x8000
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Ljava/util/HashMap;
 
@@ -368,7 +368,7 @@
 
     sget-object v0, Lcom/nuance/connect/internal/AppSettings$Key;->OEM_LOG_LEVEL:Lcom/nuance/connect/internal/AppSettings$Key;
 
-    invoke-virtual {v0}, Lcom/nuance/connect/internal/AppSettings$Key;->name()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v0
 
@@ -475,7 +475,7 @@
 
     iget-object v4, p0, Lcom/nuance/connect/internal/ConnectServiceManagerInternal;->services:Ljava/util/HashMap;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v5
 
@@ -516,7 +516,7 @@
 
     iget-object v0, p0, Lcom/nuance/connect/internal/ConnectServiceManagerInternal;->services:Ljava/util/HashMap;
 
-    invoke-virtual {p1}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -562,7 +562,7 @@
 
     move-result-object v13
 
-    invoke-virtual {v13}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v13}, Ljava/lang/Enum;->ordinal()I
 
     move-result v13
 
@@ -1069,7 +1069,7 @@
 
     check-cast v5, Ljava/lang/ref/WeakReference;
 
-    invoke-virtual {v5}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
+    invoke-virtual {v5}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -1180,7 +1180,7 @@
 
     sget-object v0, Lcom/nuance/connect/internal/ConnectServiceManagerInternal$9;->$SwitchMap$com$nuance$connect$common$ConnectFeature:[I
 
-    invoke-virtual {p1}, Lcom/nuance/connect/common/ConnectFeature;->ordinal()I
+    invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -1197,7 +1197,7 @@
     :pswitch_0
     iget-object v0, p0, Lcom/nuance/connect/internal/ConnectServiceManagerInternal;->services:Ljava/util/HashMap;
 
-    invoke-virtual {p1}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1221,7 +1221,7 @@
 
     sget-object v2, Lcom/nuance/connect/common/ConnectFeature;->LANGUAGE:Lcom/nuance/connect/common/ConnectFeature;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1252,7 +1252,7 @@
     :pswitch_1
     iget-object v0, p0, Lcom/nuance/connect/internal/ConnectServiceManagerInternal;->services:Ljava/util/HashMap;
 
-    invoke-virtual {p1}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1276,7 +1276,7 @@
 
     sget-object v2, Lcom/nuance/connect/common/ConnectFeature;->CONFIG:Lcom/nuance/connect/common/ConnectFeature;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1306,7 +1306,7 @@
     :pswitch_2
     iget-object v0, p0, Lcom/nuance/connect/internal/ConnectServiceManagerInternal;->services:Ljava/util/HashMap;
 
-    invoke-virtual {p1}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1330,7 +1330,7 @@
 
     sget-object v2, Lcom/nuance/connect/common/ConnectFeature;->RESOURCES:Lcom/nuance/connect/common/ConnectFeature;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1360,7 +1360,7 @@
     :pswitch_3
     iget-object v0, p0, Lcom/nuance/connect/internal/ConnectServiceManagerInternal;->services:Ljava/util/HashMap;
 
-    invoke-virtual {p1}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1384,7 +1384,7 @@
 
     sget-object v2, Lcom/nuance/connect/common/ConnectFeature;->ACCOUNT:Lcom/nuance/connect/common/ConnectFeature;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1414,7 +1414,7 @@
     :pswitch_4
     iget-object v0, p0, Lcom/nuance/connect/internal/ConnectServiceManagerInternal;->services:Ljava/util/HashMap;
 
-    invoke-virtual {p1}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1438,7 +1438,7 @@
 
     sget-object v2, Lcom/nuance/connect/common/ConnectFeature;->ADDON:Lcom/nuance/connect/common/ConnectFeature;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1468,7 +1468,7 @@
     :pswitch_5
     iget-object v0, p0, Lcom/nuance/connect/internal/ConnectServiceManagerInternal;->services:Ljava/util/HashMap;
 
-    invoke-virtual {p1}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1492,7 +1492,7 @@
 
     sget-object v2, Lcom/nuance/connect/common/ConnectFeature;->REPORTING:Lcom/nuance/connect/common/ConnectFeature;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1522,7 +1522,7 @@
     :pswitch_6
     iget-object v0, p0, Lcom/nuance/connect/internal/ConnectServiceManagerInternal;->services:Ljava/util/HashMap;
 
-    invoke-virtual {p1}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1546,7 +1546,7 @@
 
     sget-object v2, Lcom/nuance/connect/common/ConnectFeature;->MESSAGE:Lcom/nuance/connect/common/ConnectFeature;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1576,7 +1576,7 @@
     :pswitch_7
     iget-object v0, p0, Lcom/nuance/connect/internal/ConnectServiceManagerInternal;->services:Ljava/util/HashMap;
 
-    invoke-virtual {p1}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1600,7 +1600,7 @@
 
     sget-object v2, Lcom/nuance/connect/common/ConnectFeature;->UPGRADE:Lcom/nuance/connect/common/ConnectFeature;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1630,7 +1630,7 @@
     :pswitch_8
     iget-object v0, p0, Lcom/nuance/connect/internal/ConnectServiceManagerInternal;->services:Ljava/util/HashMap;
 
-    invoke-virtual {p1}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1654,7 +1654,7 @@
 
     sget-object v2, Lcom/nuance/connect/common/ConnectFeature;->DLM:Lcom/nuance/connect/common/ConnectFeature;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1684,7 +1684,7 @@
     :pswitch_9
     iget-object v0, p0, Lcom/nuance/connect/internal/ConnectServiceManagerInternal;->services:Ljava/util/HashMap;
 
-    invoke-virtual {p1}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1708,7 +1708,7 @@
 
     sget-object v2, Lcom/nuance/connect/common/ConnectFeature;->CATEGORY:Lcom/nuance/connect/common/ConnectFeature;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1756,7 +1756,7 @@
     :pswitch_c
     iget-object v0, p0, Lcom/nuance/connect/internal/ConnectServiceManagerInternal;->services:Ljava/util/HashMap;
 
-    invoke-virtual {p1}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1780,7 +1780,7 @@
 
     sget-object v2, Lcom/nuance/connect/common/ConnectFeature;->SYNC:Lcom/nuance/connect/common/ConnectFeature;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1810,7 +1810,7 @@
     :pswitch_d
     iget-object v0, p0, Lcom/nuance/connect/internal/ConnectServiceManagerInternal;->services:Ljava/util/HashMap;
 
-    invoke-virtual {p1}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -1834,7 +1834,7 @@
 
     sget-object v2, Lcom/nuance/connect/common/ConnectFeature;->DOCUMENTS:Lcom/nuance/connect/common/ConnectFeature;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v2
 
@@ -2660,7 +2660,7 @@
 
     check-cast v3, Ljava/lang/ref/WeakReference;
 
-    invoke-virtual {v3}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
+    invoke-virtual {v3}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     move-result-object v2
 

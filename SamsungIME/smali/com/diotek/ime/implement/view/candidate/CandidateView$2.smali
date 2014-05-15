@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/view/candidate/CandidateView$2;->this$0:Lcom/diotek/ime/implement/view/candidate/CandidateView;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -105,7 +105,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/implement/view/candidate/CandidateView$2;->this$0:Lcom/diotek/ime/implement/view/candidate/CandidateView;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/implement/view/candidate/CandidateView;->dismissExpandPopup()V
+    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateView;->dismissExpandPopup()V
 
     iget-object v2, p0, Lcom/diotek/ime/implement/view/candidate/CandidateView$2;->this$0:Lcom/diotek/ime/implement/view/candidate/CandidateView;
 
@@ -218,11 +218,11 @@
     :cond_5
     iget-object v2, p0, Lcom/diotek/ime/implement/view/candidate/CandidateView$2;->this$0:Lcom/diotek/ime/implement/view/candidate/CandidateView;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/implement/view/candidate/CandidateView;->updateCandidates()V
+    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateView;->updateCandidates()V
 
     iget-object v2, p0, Lcom/diotek/ime/implement/view/candidate/CandidateView$2;->this$0:Lcom/diotek/ime/implement/view/candidate/CandidateView;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/implement/view/candidate/CandidateView;->showExpandPopup()V
+    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateView;->showExpandPopup()V
 
     goto/16 :goto_0
 .end method

@@ -120,7 +120,7 @@
 
     sget-object v0, Lcom/nuance/connect/host/service/HostInterface$HostService;->$VALUES:[Lcom/nuance/connect/host/service/HostInterface$HostService;
 
-    invoke-virtual {v0}, [Lcom/nuance/connect/host/service/HostInterface$HostService;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 

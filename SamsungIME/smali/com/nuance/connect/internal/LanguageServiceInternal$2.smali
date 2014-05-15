@@ -49,7 +49,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Albanian"
 
@@ -59,7 +59,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Amharic"
 
@@ -69,7 +69,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Arabic"
 
@@ -79,7 +79,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Armenian"
 
@@ -89,7 +89,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Assamese"
 
@@ -99,7 +99,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Azerbaijani"
 
@@ -109,7 +109,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Basque"
 
@@ -119,7 +119,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Belarusian"
 
@@ -129,7 +129,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Bengali"
 
@@ -139,7 +139,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Bosnian"
 
@@ -149,7 +149,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Bulgarian"
 
@@ -159,7 +159,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Catalan"
 
@@ -169,7 +169,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Chinese_CN"
 
@@ -177,7 +177,7 @@
 
     fill-array-data v1, :array_0
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Chinese_HK"
 
@@ -185,7 +185,7 @@
 
     fill-array-data v1, :array_1
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Chinese_TW"
 
@@ -193,7 +193,7 @@
 
     fill-array-data v1, :array_2
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Croatian"
 
@@ -203,7 +203,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Czech"
 
@@ -213,7 +213,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Danish"
 
@@ -223,7 +223,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Dutch_BE"
 
@@ -233,7 +233,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Dutch"
 
@@ -243,7 +243,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "English"
 
@@ -253,7 +253,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "English_UK"
 
@@ -263,7 +263,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Estonian"
 
@@ -273,7 +273,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Farsi"
 
@@ -283,7 +283,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Finnish"
 
@@ -293,7 +293,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "French"
 
@@ -303,7 +303,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "French_CA"
 
@@ -313,7 +313,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "French_CH"
 
@@ -323,7 +323,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Galician"
 
@@ -333,7 +333,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Georgian"
 
@@ -343,7 +343,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "German"
 
@@ -353,7 +353,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Greek"
 
@@ -363,7 +363,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Gujarati"
 
@@ -373,7 +373,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Hausa"
 
@@ -383,7 +383,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Hebrew"
 
@@ -393,7 +393,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Hindi"
 
@@ -403,7 +403,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Hinglish"
 
@@ -413,7 +413,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Hungarian"
 
@@ -423,7 +423,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Icelandic"
 
@@ -433,7 +433,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Igbo"
 
@@ -443,7 +443,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Indonesian"
 
@@ -453,7 +453,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Irish"
 
@@ -463,7 +463,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Italian"
 
@@ -473,7 +473,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Italian_CH"
 
@@ -483,7 +483,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Japanese"
 
@@ -493,7 +493,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Javanese"
 
@@ -503,7 +503,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Kannada"
 
@@ -513,7 +513,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Kazakh"
 
@@ -523,7 +523,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Khmer"
 
@@ -533,7 +533,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Kirghiz"
 
@@ -543,7 +543,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Korean"
 
@@ -551,7 +551,7 @@
 
     fill-array-data v1, :array_3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Latvian"
 
@@ -561,7 +561,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Lingala"
 
@@ -571,7 +571,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Lithuanian"
 
@@ -581,7 +581,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Macedonian"
 
@@ -591,7 +591,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Malagasy"
 
@@ -601,7 +601,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Malay"
 
@@ -611,7 +611,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Malayalam"
 
@@ -621,7 +621,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Marathi"
 
@@ -631,7 +631,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Mongolian"
 
@@ -641,7 +641,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Norwegian"
 
@@ -651,7 +651,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Oriya"
 
@@ -661,7 +661,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Pashto"
 
@@ -671,7 +671,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Polish"
 
@@ -681,7 +681,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Portuguese"
 
@@ -691,7 +691,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Portuguese_PT"
 
@@ -701,7 +701,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Punjabi"
 
@@ -711,7 +711,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Romanian"
 
@@ -721,7 +721,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Russian"
 
@@ -731,7 +731,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Serbian"
 
@@ -741,7 +741,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Sesotho"
 
@@ -751,7 +751,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Sinhala"
 
@@ -761,7 +761,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Slovak"
 
@@ -771,7 +771,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Slovenian"
 
@@ -781,7 +781,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Spanish"
 
@@ -791,7 +791,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Sundanese"
 
@@ -801,7 +801,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Swahili"
 
@@ -811,7 +811,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Swedish"
 
@@ -821,7 +821,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Tagalog"
 
@@ -831,7 +831,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Tajik"
 
@@ -841,7 +841,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Tamil"
 
@@ -851,7 +851,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Telugu"
 
@@ -861,7 +861,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Thai"
 
@@ -871,7 +871,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Turkish"
 
@@ -881,7 +881,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Turkmen"
 
@@ -891,7 +891,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Ukrainian"
 
@@ -901,7 +901,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Urdu"
 
@@ -911,7 +911,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Uzbek"
 
@@ -921,7 +921,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "UzbekLatin"
 
@@ -931,7 +931,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Vietnamese"
 
@@ -941,7 +941,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Welsh"
 
@@ -951,7 +951,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Xhosa"
 
@@ -961,7 +961,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Yoruba"
 
@@ -971,7 +971,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "Zulu"
 
@@ -981,7 +981,7 @@
 
     aput v2, v1, v3
 
-    invoke-virtual {p0, v0, v1}, Lcom/nuance/connect/internal/LanguageServiceInternal$2;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 

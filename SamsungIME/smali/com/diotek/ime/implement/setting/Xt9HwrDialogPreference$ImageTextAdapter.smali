@@ -131,7 +131,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v1, v5}, Landroid/widget/ImageView;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v1, v5}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     :cond_1
     if-eqz v2, :cond_2
@@ -140,7 +140,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v2, v5}, Landroid/widget/CheckedTextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v2, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     iget-object v5, p0, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference$ImageTextAdapter;->this$0:Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;
 

@@ -108,7 +108,7 @@
     :catch_0
     move-exception v1
 
-    invoke-virtual {v1}, Ljava/io/UnsupportedEncodingException;->printStackTrace()V
+    invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 .end method

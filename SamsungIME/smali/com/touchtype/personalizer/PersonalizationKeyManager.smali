@@ -31,7 +31,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, "ca2760a9ec95dab713e5471f76ddad36f7cd35c5"
 

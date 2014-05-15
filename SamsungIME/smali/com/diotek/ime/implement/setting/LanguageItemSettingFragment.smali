@@ -393,7 +393,7 @@
 
     move-result-object v8
 
-    invoke-virtual {v7, v8}, Landroid/preference/PreferenceCategory;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v7, v8}, Landroid/preference/PreferenceGroup;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v2
 
@@ -442,7 +442,7 @@
 
     invoke-super {p0, p1}, Landroid/preference/PreferenceFragment;->onCreate(Landroid/os/Bundle;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/LanguageItemSettingFragment;->getActivity()Landroid/app/Activity;
+    invoke-virtual {p0}, Landroid/app/Fragment;->getActivity()Landroid/app/Activity;
 
     move-result-object v8
 
@@ -571,7 +571,7 @@
     :cond_4
     const v8, 0x7f030057
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/LanguageItemSettingFragment;->addPreferencesFromResource(I)V
+    invoke-virtual {p0, v8}, Landroid/preference/PreferenceFragment;->addPreferencesFromResource(I)V
 
     iget-object v8, p0, Lcom/diotek/ime/implement/setting/LanguageItemSettingFragment;->settingActivity:Landroid/app/Activity;
 
@@ -579,7 +579,7 @@
 
     invoke-virtual {v8, v9}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/LanguageItemSettingFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual {p0}, Landroid/preference/PreferenceFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v5
 
@@ -616,7 +616,7 @@
     :cond_5
     const-string v8, "keyboard_types"
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/LanguageItemSettingFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v8}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v4
 
@@ -624,12 +624,12 @@
 
     if-eqz v4, :cond_6
 
-    invoke-virtual {v5, v4}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v5, v4}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_6
     const-string v8, "floating_keyboard_types"
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/LanguageItemSettingFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v8}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v8
 
@@ -701,7 +701,7 @@
 
     aget-object v9, v9, v2
 
-    invoke-virtual {v8, v9}, Lcom/diotek/ime/implement/setting/LanguageItemPreference;->setKey(Ljava/lang/String;)V
+    invoke-virtual {v8, v9}, Landroid/preference/Preference;->setKey(Ljava/lang/String;)V
 
     aget-object v8, v3, v2
 
@@ -709,13 +709,13 @@
 
     aget-object v9, v9, v2
 
-    invoke-virtual {v8, v9}, Lcom/diotek/ime/implement/setting/LanguageItemPreference;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {v8, v9}, Landroid/preference/Preference;->setTitle(Ljava/lang/CharSequence;)V
 
     aget-object v8, v3, v2
 
     const/4 v9, 0x0
 
-    invoke-virtual {v8, v9}, Lcom/diotek/ime/implement/setting/LanguageItemPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
+    invoke-virtual {v8, v9}, Landroid/preference/Preference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
     aget-object v8, v3, v2
 
@@ -723,13 +723,13 @@
 
     invoke-direct {v9, p0}, Lcom/diotek/ime/implement/setting/LanguageItemSettingFragment$1;-><init>(Lcom/diotek/ime/implement/setting/LanguageItemSettingFragment;)V
 
-    invoke-virtual {v8, v9}, Lcom/diotek/ime/implement/setting/LanguageItemPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
+    invoke-virtual {v8, v9}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
     iget-object v8, p0, Lcom/diotek/ime/implement/setting/LanguageItemSettingFragment;->mCategory:Landroid/preference/PreferenceCategory;
 
     aget-object v9, v3, v2
 
-    invoke-virtual {v8, v9}, Landroid/preference/PreferenceCategory;->addPreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v8, v9}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
     add-int/lit8 v2, v2, 0x1
 
@@ -738,7 +738,7 @@
     :cond_9
     const-string v8, "floating_keyboard_types"
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/LanguageItemSettingFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v8}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -746,12 +746,12 @@
 
     if-eqz v1, :cond_a
 
-    invoke-virtual {v5, v1}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v5, v1}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_a
     const-string v8, "keyboard_types"
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/LanguageItemSettingFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v8}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v8
 

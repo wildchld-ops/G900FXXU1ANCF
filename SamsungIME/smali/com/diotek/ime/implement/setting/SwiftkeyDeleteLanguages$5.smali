@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages$5;->this$0:Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -162,11 +162,11 @@
 
     move-result-object v5
 
-    invoke-virtual {v3, v4, v5}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->setResult(ILandroid/content/Intent;)V
+    invoke-virtual {v3, v4, v5}, Landroid/app/Activity;->setResult(ILandroid/content/Intent;)V
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages$5;->this$0:Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;
 
-    invoke-virtual {v3}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->finish()V
+    invoke-virtual {v3}, Landroid/app/Activity;->finish()V
 
     return-void
 .end method

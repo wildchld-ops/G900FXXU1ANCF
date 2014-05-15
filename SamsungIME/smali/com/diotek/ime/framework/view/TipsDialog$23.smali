@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/framework/view/TipsDialog$23;->this$0:Lcom/diotek/ime/framework/view/TipsDialog;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -47,7 +47,7 @@
 
     iget-object v2, v2, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {v2}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -59,7 +59,7 @@
 
     iget-object v2, v2, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {v2}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v2
 

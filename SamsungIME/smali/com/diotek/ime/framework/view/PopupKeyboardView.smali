@@ -756,7 +756,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/PopupKeyboardView;->mCandidateFrame:Landroid/widget/FrameLayout;
 
-    invoke-virtual {v1}, Landroid/widget/FrameLayout;->removeAllViews()V
+    invoke-virtual {v1}, Landroid/view/ViewGroup;->removeAllViews()V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/PopupKeyboardView;->mCandidateFrame:Landroid/widget/FrameLayout;
 
@@ -768,7 +768,7 @@
 
     invoke-direct {v2, v3, v4}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
 
-    invoke-virtual {v1, p2, v2}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v1, p2, v2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     invoke-virtual {p2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -794,7 +794,7 @@
 
     check-cast v0, Landroid/widget/FrameLayout;
 
-    invoke-virtual {v0}, Landroid/widget/FrameLayout;->removeAllViews()V
+    invoke-virtual {v0}, Landroid/view/ViewGroup;->removeAllViews()V
 
     new-instance v1, Landroid/widget/FrameLayout$LayoutParams;
 
@@ -804,7 +804,7 @@
 
     invoke-direct {v1, v2, v3}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
 
-    invoke-virtual {v0, p2, v1}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v0, p2, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     return-void
 .end method
@@ -2239,7 +2239,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/PopupKeyboardView;->mCandidateFrame:Landroid/widget/FrameLayout;
 
-    invoke-virtual {v0}, Landroid/widget/FrameLayout;->getVisibility()I
+    invoke-virtual {v0}, Landroid/view/View;->getVisibility()I
 
     move-result v0
 
@@ -2247,7 +2247,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/PopupKeyboardView;->mCandidateFrame:Landroid/widget/FrameLayout;
 
-    invoke-virtual {v0, v3}, Landroid/widget/FrameLayout;->setVisibility(I)V
+    invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/PopupKeyboardView;->mCurrentLocation:Landroid/graphics/Point;
 
@@ -2290,7 +2290,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/PopupKeyboardView;->mCandidateFrame:Landroid/widget/FrameLayout;
 
-    invoke-virtual {v0}, Landroid/widget/FrameLayout;->getVisibility()I
+    invoke-virtual {v0}, Landroid/view/View;->getVisibility()I
 
     move-result v0
 
@@ -2298,7 +2298,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/PopupKeyboardView;->mCandidateFrame:Landroid/widget/FrameLayout;
 
-    invoke-virtual {v0, v2}, Landroid/widget/FrameLayout;->setVisibility(I)V
+    invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
     iput v1, p0, Lcom/diotek/ime/framework/view/PopupKeyboardView;->mCandidateViewHeight:I
 
@@ -2544,7 +2544,7 @@
 
     move-result v5
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->setBackgroundColor(I)V
+    invoke-virtual {p0, v5}, Landroid/view/View;->setBackgroundColor(I)V
 
     iget-object v5, p0, Lcom/diotek/ime/framework/view/PopupKeyboardView;->mFloatingRootView:Landroid/view/View;
 
@@ -2647,7 +2647,7 @@
 
     const/4 v6, 0x0
 
-    invoke-virtual {v2, v1, v5, v3, v6}, Landroid/widget/LinearLayout;->setPadding(IIII)V
+    invoke-virtual {v2, v1, v5, v3, v6}, Landroid/view/View;->setPadding(IIII)V
 
     iget-object v5, p0, Lcom/diotek/ime/framework/view/PopupKeyboardView;->mCandidateFrame:Landroid/widget/FrameLayout;
 
@@ -2655,7 +2655,7 @@
 
     const/4 v7, 0x0
 
-    invoke-virtual {v5, v1, v6, v3, v7}, Landroid/widget/FrameLayout;->setPadding(IIII)V
+    invoke-virtual {v5, v1, v6, v3, v7}, Landroid/view/View;->setPadding(IIII)V
 
     :cond_3
     :goto_2
@@ -3125,7 +3125,7 @@
 
     const/4 v7, 0x0
 
-    invoke-virtual {v2, v5, v6, v3, v7}, Landroid/widget/LinearLayout;->setPadding(IIII)V
+    invoke-virtual {v2, v5, v6, v3, v7}, Landroid/view/View;->setPadding(IIII)V
 
     iget-object v5, p0, Lcom/diotek/ime/framework/view/PopupKeyboardView;->mSplitRightRootView:Landroid/view/View;
 
@@ -3143,7 +3143,7 @@
 
     const/4 v7, 0x0
 
-    invoke-virtual {v2, v1, v5, v6, v7}, Landroid/widget/LinearLayout;->setPadding(IIII)V
+    invoke-virtual {v2, v1, v5, v6, v7}, Landroid/view/View;->setPadding(IIII)V
 
     sget-boolean v5, Lcom/diotek/ime/framework/view/PopupKeyboardView;->mIsRightSide:Z
 
@@ -3157,7 +3157,7 @@
 
     const/4 v8, 0x0
 
-    invoke-virtual {v5, v1, v6, v7, v8}, Landroid/widget/FrameLayout;->setPadding(IIII)V
+    invoke-virtual {v5, v1, v6, v7, v8}, Landroid/view/View;->setPadding(IIII)V
 
     goto/16 :goto_2
 
@@ -3170,7 +3170,7 @@
 
     const/4 v8, 0x0
 
-    invoke-virtual {v5, v6, v7, v3, v8}, Landroid/widget/FrameLayout;->setPadding(IIII)V
+    invoke-virtual {v5, v6, v7, v3, v8}, Landroid/view/View;->setPadding(IIII)V
 
     goto/16 :goto_2
 
@@ -3429,7 +3429,7 @@
 
     iget-object v3, p0, Lcom/diotek/ime/framework/view/PopupKeyboardView;->mCandidateFrame:Landroid/widget/FrameLayout;
 
-    invoke-virtual {v3, v0, v5, v5, v5}, Landroid/widget/FrameLayout;->setPadding(IIII)V
+    invoke-virtual {v3, v0, v5, v5, v5}, Landroid/view/View;->setPadding(IIII)V
 
     :cond_1
     :goto_0
@@ -3505,7 +3505,7 @@
 
     iget-object v3, p0, Lcom/diotek/ime/framework/view/PopupKeyboardView;->mCandidateFrame:Landroid/widget/FrameLayout;
 
-    invoke-virtual {v3, v5, v5, v2, v5}, Landroid/widget/FrameLayout;->setPadding(IIII)V
+    invoke-virtual {v3, v5, v5, v2, v5}, Landroid/view/View;->setPadding(IIII)V
 
     goto :goto_0
 
@@ -3664,7 +3664,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v0, v1}, Landroid/view/View;->setMeasuredDimension(II)V
 
     return-void
 .end method
@@ -4003,7 +4003,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/PopupKeyboardView;->mCandidateFrame:Landroid/widget/FrameLayout;
 
-    invoke-virtual {v0}, Landroid/widget/FrameLayout;->getVisibility()I
+    invoke-virtual {v0}, Landroid/view/View;->getVisibility()I
 
     move-result v0
 
@@ -4013,7 +4013,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/PopupKeyboardView;->mCurrentLocation:Landroid/graphics/Point;
 
@@ -4118,7 +4118,7 @@
     if-nez v4, :cond_4
 
     :cond_0
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->isShown()Z
+    invoke-virtual {p0}, Landroid/view/View;->isShown()Z
 
     move-result v4
 
@@ -4275,7 +4275,7 @@
 
     if-nez v4, :cond_4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->isShown()Z
+    invoke-virtual {p0}, Landroid/view/View;->isShown()Z
 
     move-result v4
 
@@ -4565,7 +4565,7 @@
 
     invoke-direct {v4}, Landroid/graphics/Rect;-><init>()V
 
-    iget-object v6, p0, Lcom/diotek/ime/framework/view/PopupKeyboardView;->mContext:Landroid/content/Context;
+    iget-object v6, p0, Landroid/view/View;->mContext:Landroid/content/Context;
 
     const-string v7, "window"
 
@@ -4595,7 +4595,7 @@
 
     move-result-object v6
 
-    invoke-virtual {v6}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->getWindow()Landroid/app/Dialog;
+    invoke-virtual {v6}, Landroid/inputmethodservice/InputMethodService;->getWindow()Landroid/app/Dialog;
 
     move-result-object v6
 

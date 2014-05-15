@@ -48,7 +48,7 @@
 .method constructor <init>(Ljava/lang/String;Ljava/lang/Long;)V
     .locals 0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/touchtype/samsung/supportlibrary/mywordlist/UserWord;->b:Ljava/lang/String;
 
@@ -74,7 +74,7 @@
 
     sget-object v1, Lcom/touchtype/samsung/supportlibrary/mywordlist/UserWord;->a:Lcom/touchtype/samsung/supportlibrary/mywordlist/UserWord$Ordering;
 
-    invoke-virtual {v1}, Lcom/touchtype/samsung/supportlibrary/mywordlist/UserWord$Ordering;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 

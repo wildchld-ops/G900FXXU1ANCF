@@ -38,7 +38,7 @@
 
     const/4 v0, 0x2
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->removeMessages(I)V
+    invoke-virtual {p0, v0}, Landroid/os/Handler;->removeMessages(I)V
 
     return-void
 .end method
@@ -58,7 +58,7 @@
 
     const/4 v0, 0x2
 
-    invoke-virtual {p0, v0, p1}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->removeMessages(ILjava/lang/Object;)V
+    invoke-virtual {p0, v0, p1}, Landroid/os/Handler;->removeMessages(ILjava/lang/Object;)V
 
     return-void
 .end method
@@ -77,7 +77,7 @@
 
     const/4 v0, 0x3
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->removeMessages(I)V
+    invoke-virtual {p0, v0}, Landroid/os/Handler;->removeMessages(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->this$0:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
@@ -107,7 +107,7 @@
 
     const/16 v0, 0x12
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->removeMessages(I)V
+    invoke-virtual {p0, v0}, Landroid/os/Handler;->removeMessages(I)V
 
     return-void
 .end method
@@ -117,7 +117,7 @@
 
     const/4 v0, 0x4
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->removeMessages(I)V
+    invoke-virtual {p0, v0}, Landroid/os/Handler;->removeMessages(I)V
 
     return-void
 .end method
@@ -127,7 +127,7 @@
 
     const/16 v0, 0x2a
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->removeMessages(I)V
+    invoke-virtual {p0, v0}, Landroid/os/Handler;->removeMessages(I)V
 
     return-void
 .end method
@@ -151,7 +151,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2}, Landroid/widget/FrameLayout;->getChildCount()I
+    invoke-virtual {v2}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v0
 
@@ -167,7 +167,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2, v1}, Landroid/widget/FrameLayout;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {v2, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v2
 
@@ -182,7 +182,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2, v1}, Landroid/widget/FrameLayout;->removeViewAt(I)V
+    invoke-virtual {v2, v1}, Landroid/view/ViewGroup;->removeViewAt(I)V
 
     iget-object v2, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->this$0:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
@@ -191,7 +191,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2}, Landroid/widget/FrameLayout;->getChildCount()I
+    invoke-virtual {v2}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v0
 
@@ -219,11 +219,11 @@
 
     const/4 v0, 0x2
 
-    invoke-virtual {p0, v0, p3}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
+    invoke-virtual {p0, v0, p3}, Landroid/os/Handler;->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0, p1, p2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->sendMessageDelayed(Landroid/os/Message;J)Z
+    invoke-virtual {p0, v0, p1, p2}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
     return-void
 .end method
@@ -274,7 +274,7 @@
 
     const/4 v3, 0x4
 
-    invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-virtual {v2, v3}, Landroid/view/View;->setVisibility(I)V
 
     goto :goto_0
 
@@ -363,14 +363,14 @@
 
     move/from16 v0, v20
 
-    invoke-virtual {v14, v0}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v14, v0}, Landroid/view/View;->setVisibility(I)V
 
     :cond_3
     if-eqz v15, :cond_0
 
     move/from16 v0, v20
 
-    invoke-virtual {v15, v0}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v15, v0}, Landroid/view/View;->setVisibility(I)V
 
     goto :goto_0
 
@@ -381,7 +381,7 @@
 
     move/from16 v1, v20
 
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     :cond_5
     if-eqz v18, :cond_0
@@ -390,7 +390,7 @@
 
     move/from16 v1, v20
 
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     goto/16 :goto_0
 
@@ -399,7 +399,7 @@
 
     iget-object v2, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->this$0:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->isShown()Z
+    invoke-virtual {v2}, Landroid/view/View;->isShown()Z
 
     move-result v2
 
@@ -724,7 +724,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->obtainMessage(I)Landroid/os/Message;
+    invoke-virtual {v0, v2}, Landroid/os/Handler;->obtainMessage(I)Landroid/os/Message;
 
     move-result-object v2
 
@@ -732,7 +732,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v2, v3, v4}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->sendMessageDelayed(Landroid/os/Message;J)Z
+    invoke-virtual {v0, v2, v3, v4}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
     move-object/from16 v0, p0
 
@@ -752,7 +752,7 @@
 
     iget-object v2, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->this$0:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->invalidate()V
+    invoke-virtual {v2}, Landroid/view/View;->invalidate()V
 
     goto/16 :goto_0
 
@@ -845,7 +845,7 @@
 
     const/16 v2, 0x1e
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->removeMessages(I)V
+    invoke-virtual {p0, v2}, Landroid/os/Handler;->removeMessages(I)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->this$0:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
@@ -872,7 +872,7 @@
 
     const-wide/16 v1, 0x0
 
-    invoke-virtual {p0, v0, v1, v2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->sendMessageDelayed(Landroid/os/Message;J)Z
+    invoke-virtual {p0, v0, v1, v2}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
     goto :goto_0
 .end method
@@ -892,13 +892,13 @@
 
     const/16 v0, 0x1f
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->obtainMessage(I)Landroid/os/Message;
+    invoke-virtual {p0, v0}, Landroid/os/Handler;->obtainMessage(I)Landroid/os/Message;
 
     move-result-object v0
 
     const-wide/16 v1, 0x0
 
-    invoke-virtual {p0, v0, v1, v2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->sendMessageDelayed(Landroid/os/Message;J)Z
+    invoke-virtual {p0, v0, v1, v2}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
     :cond_0
     return-void
@@ -917,7 +917,7 @@
 
     const/16 v0, 0x12
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->hasMessages(I)Z
+    invoke-virtual {p0, v0}, Landroid/os/Handler;->hasMessages(I)Z
 
     move-result v0
 
@@ -942,11 +942,11 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {p0, v0, p3, v1, p4}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->obtainMessage(IIILjava/lang/Object;)Landroid/os/Message;
+    invoke-virtual {p0, v0, p3, v1, p4}, Landroid/os/Handler;->obtainMessage(IIILjava/lang/Object;)Landroid/os/Message;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0, p1, p2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->sendMessageDelayed(Landroid/os/Message;J)Z
+    invoke-virtual {p0, v0, p1, p2}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
     return-void
 .end method
@@ -956,7 +956,7 @@
 
     const/16 v1, 0x12
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->removeMessages(I)V
+    invoke-virtual {p0, v1}, Landroid/os/Handler;->removeMessages(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->this$0:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
@@ -968,11 +968,11 @@
 
     if-nez v0, :cond_0
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->obtainMessage(I)Landroid/os/Message;
+    invoke-virtual {p0, v1}, Landroid/os/Handler;->obtainMessage(I)Landroid/os/Message;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0, p1, p2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->sendMessageDelayed(Landroid/os/Message;J)Z
+    invoke-virtual {p0, v0, p1, p2}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
     :cond_0
     return-void
@@ -992,15 +992,15 @@
 
     if-nez v0, :cond_0
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->removeMessages(I)V
+    invoke-virtual {p0, v1}, Landroid/os/Handler;->removeMessages(I)V
 
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v1, p3, v0, p4}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->obtainMessage(IIILjava/lang/Object;)Landroid/os/Message;
+    invoke-virtual {p0, v1, p3, v0, p4}, Landroid/os/Handler;->obtainMessage(IIILjava/lang/Object;)Landroid/os/Message;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0, p1, p2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->sendMessageDelayed(Landroid/os/Message;J)Z
+    invoke-virtual {p0, v0, p1, p2}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
     :cond_0
     return-void
@@ -1011,11 +1011,11 @@
 
     const/16 v0, 0x2a
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->obtainMessage(I)Landroid/os/Message;
+    invoke-virtual {p0, v0}, Landroid/os/Handler;->obtainMessage(I)Landroid/os/Message;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0, p1, p2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->sendMessageDelayed(Landroid/os/Message;J)Z
+    invoke-virtual {p0, v0, p1, p2}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
     return-void
 .end method

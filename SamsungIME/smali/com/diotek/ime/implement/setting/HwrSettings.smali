@@ -75,7 +75,7 @@
 .method private getEntries(II)[Ljava/lang/String;
     .locals 7
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/HwrSettings;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v4
 
@@ -83,7 +83,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/HwrSettings;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v4
 
@@ -131,7 +131,7 @@
 .method private setEntries(Ljava/lang/String;II)V
     .locals 9
 
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/implement/setting/HwrSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, p1}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v3
 
@@ -145,7 +145,7 @@
 
     check-cast v2, Landroid/preference/ListPreference;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/HwrSettings;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
 
@@ -153,7 +153,7 @@
 
     move-result-object v4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/HwrSettings;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
 
@@ -246,10 +246,10 @@
 
     move/from16 v1, v20
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/HwrSettings;->addPreferencesFromResource(I)V
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceActivity;->addPreferencesFromResource(I)V
 
     :goto_0
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/setting/HwrSettings;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual/range {p0 .. p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v4
 
@@ -323,7 +323,7 @@
 
     move-object/from16 v1, v20
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/HwrSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v20
 
@@ -393,7 +393,7 @@
 
     move-object/from16 v21, v0
 
-    invoke-virtual/range {v20 .. v21}, Landroid/preference/ListPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
+    invoke-virtual/range {v20 .. v21}, Landroid/preference/Preference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
     const-string v20, "SETTINGS_DEFAULT_HWR_PENTHICKNESS"
 
@@ -401,7 +401,7 @@
 
     move-object/from16 v1, v20
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/HwrSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v8
 
@@ -433,7 +433,7 @@
 
     invoke-virtual {v8, v11, v0}, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;->setEntries(Landroid/content/res/TypedArray;[Ljava/lang/String;)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/setting/HwrSettings;->getResources()Landroid/content/res/Resources;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v20
 
@@ -465,7 +465,7 @@
 
     move-object/from16 v1, v20
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/HwrSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v8
 
@@ -477,7 +477,7 @@
 
     move-result-object v11
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/setting/HwrSettings;->getResources()Landroid/content/res/Resources;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v20
 
@@ -491,7 +491,7 @@
 
     invoke-virtual {v8, v11, v0}, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;->setEntries(Landroid/content/res/TypedArray;[Ljava/lang/String;)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/setting/HwrSettings;->getResources()Landroid/content/res/Resources;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v20
 
@@ -523,7 +523,7 @@
 
     move-object/from16 v1, v20
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/HwrSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v20
 
@@ -593,7 +593,7 @@
 
     move-object/from16 v21, v0
 
-    invoke-virtual/range {v20 .. v21}, Landroid/preference/ListPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
+    invoke-virtual/range {v20 .. v21}, Landroid/preference/Preference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
     invoke-static {}, Lcom/diotek/ime/framework/repository/PropertyItems;->isSupportFullHandwriting()Z
 
@@ -607,7 +607,7 @@
 
     move-object/from16 v1, v20
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/HwrSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v19
 
@@ -615,7 +615,7 @@
 
     if-eqz v19, :cond_1
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/setting/HwrSettings;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual/range {p0 .. p0}, Landroid/preference/PreferenceActivity;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v14
 
@@ -623,7 +623,7 @@
 
     move-object/from16 v0, v19
 
-    invoke-virtual {v14, v0}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v14, v0}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
     :try_end_0
     .catch Landroid/content/res/Resources$NotFoundException; {:try_start_0 .. :try_end_0} :catch_1
 
@@ -693,7 +693,7 @@
 
     move-object/from16 v1, v20
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/HwrSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v15
 
@@ -703,24 +703,24 @@
 
     move-object/from16 v1, v20
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/HwrSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v16
 
     if-eqz v15, :cond_2
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/setting/HwrSettings;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual/range {p0 .. p0}, Landroid/preference/PreferenceActivity;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v14
 
     if-eqz v14, :cond_2
 
-    invoke-virtual {v14, v15}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v14, v15}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_2
     if-eqz v16, :cond_3
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/setting/HwrSettings;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual/range {p0 .. p0}, Landroid/preference/PreferenceActivity;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v14
 
@@ -728,7 +728,7 @@
 
     move-object/from16 v0, v16
 
-    invoke-virtual {v14, v0}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v14, v0}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_3
     move-object/from16 v0, p0
@@ -766,7 +766,7 @@
 
     move-object/from16 v1, v20
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/HwrSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -774,13 +774,13 @@
 
     if-eqz v5, :cond_4
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/setting/HwrSettings;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual/range {p0 .. p0}, Landroid/preference/PreferenceActivity;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v14
 
     if-eqz v14, :cond_4
 
-    invoke-virtual {v14, v5}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v14, v5}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
     :try_end_3
     .catch Landroid/content/res/Resources$NotFoundException; {:try_start_3 .. :try_end_3} :catch_2
 
@@ -806,7 +806,7 @@
 
     move-object/from16 v1, v20
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/HwrSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -814,13 +814,13 @@
 
     if-eqz v5, :cond_5
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/setting/HwrSettings;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual/range {p0 .. p0}, Landroid/preference/PreferenceActivity;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v14
 
     if-eqz v14, :cond_5
 
-    invoke-virtual {v14, v5}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v14, v5}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
     :try_end_5
     .catch Landroid/content/res/Resources$NotFoundException; {:try_start_5 .. :try_end_5} :catch_3
 
@@ -833,7 +833,7 @@
 
     move-object/from16 v1, v20
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/HwrSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -841,13 +841,13 @@
 
     if-eqz v5, :cond_6
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/setting/HwrSettings;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual/range {p0 .. p0}, Landroid/preference/PreferenceActivity;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v14
 
     if-eqz v14, :cond_6
 
-    invoke-virtual {v14, v5}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v14, v5}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
     :try_end_6
     .catch Landroid/content/res/Resources$NotFoundException; {:try_start_6 .. :try_end_6} :catch_4
 
@@ -862,7 +862,7 @@
 
     move/from16 v1, v20
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/HwrSettings;->addPreferencesFromResource(I)V
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceActivity;->addPreferencesFromResource(I)V
 
     goto/16 :goto_0
 
@@ -875,7 +875,7 @@
     move-exception v9
 
     :try_start_7
-    invoke-virtual {v9}, Landroid/content/pm/PackageManager$NameNotFoundException;->printStackTrace()V
+    invoke-virtual {v9}, Ljava/lang/Throwable;->printStackTrace()V
     :try_end_7
     .catch Landroid/content/res/Resources$NotFoundException; {:try_start_7 .. :try_end_7} :catch_1
 
@@ -932,7 +932,7 @@
 .method public onCreateOptionsMenu(Landroid/view/Menu;)Z
     .locals 1
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onCreateOptionsMenu(Landroid/view/Menu;)Z
 
     move-result v0
 
@@ -950,7 +950,7 @@
 
     sparse-switch v1, :sswitch_data_0
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
 
     move-result v0
 
@@ -960,14 +960,14 @@
     :sswitch_0
     const/4 v1, -0x1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/HwrSettings;->setResult(I)V
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->setResult(I)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/HwrSettings;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
     :sswitch_1
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/HwrSettings;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
@@ -985,7 +985,7 @@
 
     invoke-interface {p1}, Landroid/view/Menu;->clear()V
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onPrepareOptionsMenu(Landroid/view/Menu;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onPrepareOptionsMenu(Landroid/view/Menu;)Z
 
     move-result v0
 

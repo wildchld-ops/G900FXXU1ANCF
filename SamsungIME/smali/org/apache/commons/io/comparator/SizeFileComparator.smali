@@ -3,8 +3,8 @@
 .source "SizeFileComparator.java"
 
 # interfaces
-.implements Ljava/util/Comparator;
 .implements Ljava/io/Serializable;
+.implements Ljava/util/Comparator;
 
 
 # static fields
@@ -61,7 +61,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
@@ -73,7 +73,7 @@
 .method public constructor <init>(Z)V
     .locals 0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-boolean p1, p0, Lorg/apache/commons/io/comparator/SizeFileComparator;->sumDirectoryContents:Z
 

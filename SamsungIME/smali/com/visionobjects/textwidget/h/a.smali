@@ -297,7 +297,7 @@
 
     sub-float v3, v0, v2
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/h/a;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v0
 
@@ -311,7 +311,7 @@
 
     sub-float v4, v0, v2
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/h/a;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v0
 
@@ -481,7 +481,7 @@
 
     iput-boolean v0, p0, Lcom/visionobjects/textwidget/h/a;->s:Z
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/h/a;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     return-void
 .end method
@@ -571,7 +571,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/h/a;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     return-void
 .end method
@@ -851,7 +851,7 @@
 
     sub-float v2, v0, v5
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/h/a;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v0
 
@@ -865,7 +865,7 @@
 
     sub-float v3, v0, v5
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/h/a;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v0
 

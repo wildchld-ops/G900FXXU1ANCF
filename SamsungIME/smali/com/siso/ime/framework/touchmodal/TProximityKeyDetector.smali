@@ -264,11 +264,11 @@
 
     const/4 v8, 0x0
 
-    invoke-virtual {p0, p1}, Lcom/siso/ime/framework/touchmodal/TProximityKeyDetector;->getTouchX(I)I
+    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/view/tracker/KeyDetector;->getTouchX(I)I
 
     move-result v0
 
-    invoke-virtual {p0, p2}, Lcom/siso/ime/framework/touchmodal/TProximityKeyDetector;->getTouchY(I)I
+    invoke-virtual {p0, p2}, Lcom/diotek/ime/framework/view/tracker/KeyDetector;->getTouchY(I)I
 
     move-result v1
 
@@ -282,7 +282,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/framework/view/tracker/KeyDetector;->mKeyboard:Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v2
 
@@ -765,7 +765,7 @@
 
     iget-object v2, v0, Lcom/diotek/ime/framework/view/tracker/KeyDetector;->mKeyboard:Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v2
 

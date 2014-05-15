@@ -85,21 +85,21 @@
 
     const/4 v4, 0x0
 
-    invoke-virtual {v1, v4}, Ljavax/net/ssl/HttpsURLConnection;->setInstanceFollowRedirects(Z)V
+    invoke-virtual {v1, v4}, Ljava/net/HttpURLConnection;->setInstanceFollowRedirects(Z)V
 
     const-string v4, "DELETE"
 
-    invoke-virtual {v1, v4}, Ljavax/net/ssl/HttpsURLConnection;->setRequestMethod(Ljava/lang/String;)V
+    invoke-virtual {v1, v4}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
     const/4 v4, 0x0
 
-    invoke-virtual {v1, v4}, Ljavax/net/ssl/HttpsURLConnection;->setDoOutput(Z)V
+    invoke-virtual {v1, v4}, Ljava/net/URLConnection;->setDoOutput(Z)V
 
     const/16 v4, 0x2710
 
-    invoke-virtual {v1, v4}, Ljavax/net/ssl/HttpsURLConnection;->setConnectTimeout(I)V
+    invoke-virtual {v1, v4}, Ljava/net/URLConnection;->setConnectTimeout(I)V
 
-    invoke-virtual {v1}, Ljavax/net/ssl/HttpsURLConnection;->getResponseCode()I
+    invoke-virtual {v1}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     move-result v2
 
@@ -270,7 +270,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v0}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v6
 

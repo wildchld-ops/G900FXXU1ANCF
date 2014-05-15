@@ -19,7 +19,7 @@
 
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lcom/touchtype/personalizer/DeleteDynamicLanguageModelDialog;->setEnabled(Z)V
+    invoke-virtual {p0, v0}, Landroid/preference/Preference;->setEnabled(Z)V
 
     return-void
 .end method

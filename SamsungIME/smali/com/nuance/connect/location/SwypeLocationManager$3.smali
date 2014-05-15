@@ -37,7 +37,7 @@
 
     sget-object v1, Lcom/nuance/connect/location/SwypeLocationSettings$LocationMode;->DISABLED:Lcom/nuance/connect/location/SwypeLocationSettings$LocationMode;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/location/SwypeLocationSettings$LocationMode;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -53,7 +53,7 @@
 
     sget-object v1, Lcom/nuance/connect/location/SwypeLocationSettings$LocationMode;->PASSIVE:Lcom/nuance/connect/location/SwypeLocationSettings$LocationMode;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/location/SwypeLocationSettings$LocationMode;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -69,7 +69,7 @@
 
     sget-object v1, Lcom/nuance/connect/location/SwypeLocationSettings$LocationMode;->GET_LOCATION:Lcom/nuance/connect/location/SwypeLocationSettings$LocationMode;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/location/SwypeLocationSettings$LocationMode;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -85,7 +85,7 @@
 
     sget-object v1, Lcom/nuance/connect/location/SwypeLocationSettings$LocationMode;->LISTEN_LOCATION:Lcom/nuance/connect/location/SwypeLocationSettings$LocationMode;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/location/SwypeLocationSettings$LocationMode;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 

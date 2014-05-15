@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/nuance/connect/service/manager/DlmSyncManager$4;->this$0:Lcom/nuance/connect/service/manager/DlmSyncManager;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -104,7 +104,7 @@
 
     iget-object v5, p0, Lcom/nuance/connect/service/manager/DlmSyncManager$4;->this$0:Lcom/nuance/connect/service/manager/DlmSyncManager;
 
-    invoke-virtual {v5}, Lcom/nuance/connect/service/manager/DlmSyncManager;->managerStartComplete()V
+    invoke-virtual {v5}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->managerStartComplete()V
 
     :cond_2
     iget-object v5, p0, Lcom/nuance/connect/service/manager/DlmSyncManager$4;->this$0:Lcom/nuance/connect/service/manager/DlmSyncManager;

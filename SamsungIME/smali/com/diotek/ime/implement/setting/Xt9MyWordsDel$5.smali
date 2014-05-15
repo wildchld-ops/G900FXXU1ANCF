@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel$5;->this$0:Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -150,7 +150,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v2, v3, v4}, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->setResult(ILandroid/content/Intent;)V
+    invoke-virtual {v2, v3, v4}, Landroid/app/Activity;->setResult(ILandroid/content/Intent;)V
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel$5;->this$0:Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;
 
@@ -186,7 +186,7 @@
     :cond_2
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel$5;->this$0:Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->finish()V
+    invoke-virtual {v2}, Landroid/app/Activity;->finish()V
 
     return-void
 .end method

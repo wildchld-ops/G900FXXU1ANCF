@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference$1;->this$0:Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -65,7 +65,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference$1;->this$0:Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;
 
-    invoke-virtual {v0}, Lcom/diotek/ime/implement/setting/Xt9HwrDialogPreference;->onActivityDestroy()V
+    invoke-virtual {v0}, Landroid/preference/DialogPreference;->onActivityDestroy()V
 
     return-void
 .end method

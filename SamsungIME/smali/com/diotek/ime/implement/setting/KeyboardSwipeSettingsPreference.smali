@@ -67,7 +67,7 @@
     iput-object v4, p0, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->mRepository:Lcom/diotek/ime/framework/repository/Repository;
 
     :cond_1
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->getKey()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getKey()Ljava/lang/String;
 
     move-result-object v1
 
@@ -186,7 +186,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->getKey()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getKey()Ljava/lang/String;
 
     move-result-object v1
 
@@ -246,7 +246,7 @@
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->mRadioButton:Landroid/widget/RadioButton;
 
-    invoke-virtual {v3, v6}, Landroid/widget/RadioButton;->setChecked(Z)V
+    invoke-virtual {v3, v6}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     :cond_0
     :goto_0
@@ -265,7 +265,7 @@
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->mRadioButton:Landroid/widget/RadioButton;
 
-    invoke-virtual {v3, v6}, Landroid/widget/RadioButton;->setChecked(Z)V
+    invoke-virtual {v3, v6}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     goto :goto_0
 .end method
@@ -291,7 +291,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setClickable(Z)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setClickable(Z)V
 
     invoke-direct {p0}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->currentSelected()V
 
@@ -311,7 +311,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->getKey()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getKey()Ljava/lang/String;
 
     move-result-object v1
 
@@ -503,7 +503,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->mRadioButton:Landroid/widget/RadioButton;
 
-    invoke-virtual {v0, p1}, Landroid/widget/RadioButton;->setChecked(Z)V
+    invoke-virtual {v0, p1}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     :cond_0
     return-void

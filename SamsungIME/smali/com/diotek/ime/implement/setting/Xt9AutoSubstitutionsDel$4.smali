@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel$4;->this$0:Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -114,7 +114,7 @@
     :cond_1
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel$4;->this$0:Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutionsDel;->finish()V
+    invoke-virtual {v2}, Landroid/app/Activity;->finish()V
 
     return-void
 .end method

@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings$handwritingLanguageSettingListener;->this$0:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -58,7 +58,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings$handwritingLanguageSettingListener;->this$0:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->finish()V
+    invoke-virtual {v2}, Landroid/app/Activity;->finish()V
 
     const-string v2, "ro.build.characteristics"
 
@@ -90,7 +90,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings$handwritingLanguageSettingListener;->this$0:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;
 
-    invoke-virtual {v2, v0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {v2, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     :goto_0
     return-void
@@ -118,7 +118,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings$handwritingLanguageSettingListener;->this$0:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;
 
-    invoke-virtual {v2, v0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {v2, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     goto :goto_0
 .end method

@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment$37;->this$0:Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -48,7 +48,7 @@
 
     const-string v3, "com.sec.android.inputmethod_preferences"
 
-    invoke-virtual {v2, v3, v4}, Landroid/app/Activity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual {v2, v3, v4}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v1
 

@@ -89,7 +89,7 @@
 
     invoke-virtual {v0, v3}, Landroid/graphics/Paint;->setDither(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -101,7 +101,7 @@
 
     iput-object v0, p0, Lcom/diotek/ime/implement/setting/TapAndHoldView;->mBitmapTapStandBy:Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -113,7 +113,7 @@
 
     iput-object v0, p0, Lcom/diotek/ime/implement/setting/TapAndHoldView;->mBitmapTapConfirm:Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -125,7 +125,7 @@
 
     iput-object v0, p0, Lcom/diotek/ime/implement/setting/TapAndHoldView;->mBitmapHoldStandBy:Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -189,7 +189,7 @@
 
     invoke-virtual {v0, v3}, Landroid/graphics/Paint;->setDither(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -201,7 +201,7 @@
 
     iput-object v0, p0, Lcom/diotek/ime/implement/setting/TapAndHoldView;->mBitmapTapStandBy:Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -213,7 +213,7 @@
 
     iput-object v0, p0, Lcom/diotek/ime/implement/setting/TapAndHoldView;->mBitmapTapConfirm:Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -225,7 +225,7 @@
 
     iput-object v0, p0, Lcom/diotek/ime/implement/setting/TapAndHoldView;->mBitmapHoldStandBy:Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -289,7 +289,7 @@
 
     invoke-virtual {v0, v3}, Landroid/graphics/Paint;->setDither(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -301,7 +301,7 @@
 
     iput-object v0, p0, Lcom/diotek/ime/implement/setting/TapAndHoldView;->mBitmapTapStandBy:Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -313,7 +313,7 @@
 
     iput-object v0, p0, Lcom/diotek/ime/implement/setting/TapAndHoldView;->mBitmapTapConfirm:Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -325,7 +325,7 @@
 
     iput-object v0, p0, Lcom/diotek/ime/implement/setting/TapAndHoldView;->mBitmapHoldStandBy:Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -365,7 +365,7 @@
 
     const/high16 v4, 0x4000
 
-    invoke-super {p0, p1}, Landroid/widget/ImageView;->draw(Landroid/graphics/Canvas;)V
+    invoke-super {p0, p1}, Landroid/view/View;->draw(Landroid/graphics/Canvas;)V
 
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
@@ -380,14 +380,14 @@
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     :goto_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldView;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     return-void
 
     :pswitch_0
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/TapAndHoldView;->mBitmapTapStandBy:Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldView;->getWidth()I
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v1
 
@@ -403,7 +403,7 @@
 
     div-float/2addr v1, v4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldView;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v2
 
@@ -630,7 +630,7 @@
 
     :cond_0
     :goto_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldView;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     return v4
 
@@ -692,7 +692,7 @@
 
     iput-boolean v1, p0, Lcom/diotek/ime/implement/setting/TapAndHoldView;->isLongPressDone:Z
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldView;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     return-void
 .end method

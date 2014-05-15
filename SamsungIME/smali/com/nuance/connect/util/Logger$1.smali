@@ -37,7 +37,7 @@
 
     sget-object v1, Lcom/nuance/connect/util/Logger$LoggerType;->OEM:Lcom/nuance/connect/util/Logger$LoggerType;
 
-    invoke-virtual {v1}, Lcom/nuance/connect/util/Logger$LoggerType;->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 

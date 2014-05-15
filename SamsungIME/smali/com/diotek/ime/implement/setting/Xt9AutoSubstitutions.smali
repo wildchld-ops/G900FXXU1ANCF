@@ -65,7 +65,7 @@
 
     invoke-virtual {v1, v2, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     return-void
 .end method
@@ -154,7 +154,7 @@
 
     invoke-virtual {v0, p0, v1}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     return-void
 .end method
@@ -210,7 +210,7 @@
 
     invoke-interface {v2}, Landroid/view/Menu;->clear()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->getMenuInflater()Landroid/view/MenuInflater;
+    invoke-virtual {p0}, Landroid/app/Activity;->getMenuInflater()Landroid/view/MenuInflater;
 
     move-result-object v1
 
@@ -222,7 +222,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->mEmptyLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v2}, Landroid/widget/LinearLayout;->getVisibility()I
+    invoke-virtual {v2}, Landroid/view/View;->getVisibility()I
 
     move-result v2
 
@@ -272,9 +272,9 @@
 
     const v1, 0x7f030083
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->setContentView(I)V
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->setContentView(I)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -284,11 +284,11 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
     const v1, 0x7f0800a5
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -296,7 +296,7 @@
 
     iput-object v1, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->mEmptyLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -317,7 +317,7 @@
 
     invoke-interface {p1}, Landroid/view/Menu;->clear()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->getMenuInflater()Landroid/view/MenuInflater;
+    invoke-virtual {p0}, Landroid/app/Activity;->getMenuInflater()Landroid/view/MenuInflater;
 
     move-result-object v0
 
@@ -366,7 +366,7 @@
     return v0
 
     :sswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
@@ -417,7 +417,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->mEmptyLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v2}, Landroid/widget/LinearLayout;->getVisibility()I
+    invoke-virtual {v2}, Landroid/view/View;->getVisibility()I
 
     move-result v2
 
@@ -450,7 +450,7 @@
 
     const v4, 0x7f0800a6
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v4}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
@@ -558,11 +558,11 @@
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->mMainListView:Landroid/widget/ListView;
 
-    invoke-virtual {v4, v8}, Landroid/widget/ListView;->setVisibility(I)V
+    invoke-virtual {v4, v8}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->mEmptyLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v4, v5}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-virtual {v4, v5}, Landroid/view/View;->setVisibility(I)V
 
     :goto_1
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->mArrayAdapter:Lcom/diotek/ime/implement/setting/adapter/DoubleArrayAdapter;
@@ -589,13 +589,13 @@
 
     move-result-object v5
 
-    invoke-virtual {v4, v5}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
+    invoke-virtual {v4, v5}, Landroid/widget/AdapterView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->mMainListView:Landroid/widget/ListView;
 
     const/high16 v5, 0x10
 
-    invoke-virtual {v4, v5}, Landroid/widget/ListView;->setDrawingCacheQuality(I)V
+    invoke-virtual {v4, v5}, Landroid/view/View;->setDrawingCacheQuality(I)V
 
     invoke-super {p0}, Landroid/app/Activity;->onResume()V
 
@@ -609,11 +609,11 @@
     :cond_2
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->mMainListView:Landroid/widget/ListView;
 
-    invoke-virtual {v4, v5}, Landroid/widget/ListView;->setVisibility(I)V
+    invoke-virtual {v4, v5}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->mEmptyLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v4, v8}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-virtual {v4, v8}, Landroid/view/View;->setVisibility(I)V
 
     goto :goto_1
 .end method

@@ -27,7 +27,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
@@ -39,7 +39,7 @@
 .method constructor <init>(Z)V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
@@ -526,7 +526,7 @@
 
     :cond_0
     :goto_0
-    invoke-virtual {v1, v2}, Ljava/io/InputStreamReader;->read([C)I
+    invoke-virtual {v1, v2}, Ljava/io/Reader;->read([C)I
 
     move-result v3
 
@@ -710,7 +710,7 @@
 
     :cond_0
     :goto_0
-    invoke-virtual {v1, v2}, Ljava/io/InputStreamReader;->read([C)I
+    invoke-virtual {v1, v2}, Ljava/io/Reader;->read([C)I
 
     move-result v4
 
@@ -1024,7 +1024,7 @@
     new-array v1, v1, [B
 
     :cond_0
-    invoke-virtual {v0, v1}, Ljava/security/DigestInputStream;->read([B)I
+    invoke-virtual {v0, v1}, Ljava/io/InputStream;->read([B)I
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_2 .. :try_end_2} :catch_2
@@ -1479,7 +1479,7 @@
 
     invoke-direct {v6, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v0}, Ljava/lang/RuntimeException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v0
 
@@ -1692,7 +1692,7 @@
 
     check-cast v0, Ljava/net/HttpURLConnection;
 
-    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getHeaderFields()Ljava/util/Map;
+    invoke-virtual {v0}, Ljava/net/URLConnection;->getHeaderFields()Ljava/util/Map;
 
     move-result-object v0
 
@@ -2342,7 +2342,7 @@
 
     :goto_2
     :try_start_5
-    invoke-virtual {v3}, Ljava/security/NoSuchAlgorithmException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v3
 
@@ -2599,7 +2599,7 @@
     move-exception v3
 
     :try_start_11
-    invoke-virtual {v3}, Ljava/lang/NullPointerException;->printStackTrace()V
+    invoke-virtual {v3}, Ljava/lang/Throwable;->printStackTrace()V
     :try_end_11
     .catchall {:try_start_11 .. :try_end_11} :catchall_3
 
@@ -2618,7 +2618,7 @@
     move-exception v3
 
     :try_start_12
-    invoke-virtual {v3}, Ljava/lang/NullPointerException;->printStackTrace()V
+    invoke-virtual {v3}, Ljava/lang/Throwable;->printStackTrace()V
     :try_end_12
     .catchall {:try_start_12 .. :try_end_12} :catchall_4
 
@@ -2637,7 +2637,7 @@
     move-exception v2
 
     :try_start_13
-    invoke-virtual {v2}, Ljava/lang/NullPointerException;->printStackTrace()V
+    invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
     :try_end_13
     .catchall {:try_start_13 .. :try_end_13} :catchall_5
 

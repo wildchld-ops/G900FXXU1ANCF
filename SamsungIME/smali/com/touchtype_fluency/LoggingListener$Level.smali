@@ -120,7 +120,7 @@
 
     sget-object v0, Lcom/touchtype_fluency/LoggingListener$Level;->$VALUES:[Lcom/touchtype_fluency/LoggingListener$Level;
 
-    invoke-virtual {v0}, [Lcom/touchtype_fluency/LoggingListener$Level;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 

@@ -67,7 +67,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     move-object v0, v1
 
@@ -321,7 +321,7 @@
 
     move-result-object v12
 
-    invoke-virtual {v6, v12}, Ljava/io/FileOutputStream;->write([B)V
+    invoke-virtual {v6, v12}, Ljava/io/OutputStream;->write([B)V
 
     const/4 v12, 0x0
 
@@ -344,7 +344,7 @@
     if-eqz v6, :cond_5
 
     :try_start_2
-    invoke-virtual {v6}, Ljava/io/FileOutputStream;->flush()V
+    invoke-virtual {v6}, Ljava/io/OutputStream;->flush()V
 
     invoke-virtual {v6}, Ljava/io/FileOutputStream;->close()V
     :try_end_2
@@ -372,7 +372,7 @@
     if-eqz v5, :cond_0
 
     :try_start_4
-    invoke-virtual {v5}, Ljava/io/FileOutputStream;->flush()V
+    invoke-virtual {v5}, Ljava/io/OutputStream;->flush()V
 
     invoke-virtual {v5}, Ljava/io/FileOutputStream;->close()V
     :try_end_4
@@ -417,7 +417,7 @@
     if-eqz v5, :cond_0
 
     :try_start_6
-    invoke-virtual {v5}, Ljava/io/FileOutputStream;->flush()V
+    invoke-virtual {v5}, Ljava/io/OutputStream;->flush()V
 
     invoke-virtual {v5}, Ljava/io/FileOutputStream;->close()V
     :try_end_6
@@ -450,7 +450,7 @@
     if-eqz v5, :cond_0
 
     :try_start_8
-    invoke-virtual {v5}, Ljava/io/FileOutputStream;->flush()V
+    invoke-virtual {v5}, Ljava/io/OutputStream;->flush()V
 
     invoke-virtual {v5}, Ljava/io/FileOutputStream;->close()V
     :try_end_8
@@ -474,7 +474,7 @@
     if-eqz v5, :cond_7
 
     :try_start_9
-    invoke-virtual {v5}, Ljava/io/FileOutputStream;->flush()V
+    invoke-virtual {v5}, Ljava/io/OutputStream;->flush()V
 
     invoke-virtual {v5}, Ljava/io/FileOutputStream;->close()V
     :try_end_9
@@ -1893,7 +1893,7 @@
 
     iput-object v5, v0, Lcom/siso/ime/framework/touchmodal/TouchModalDataStructure;->keys:[Lcom/diotek/ime/framework/view/Keyboard$Key;
 
-    invoke-virtual/range {p1 .. p1}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {p1 .. p1}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v5
 
@@ -1957,7 +1957,7 @@
 
     if-ne v5, v0, :cond_0
 
-    invoke-virtual/range {p1 .. p1}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {p1 .. p1}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v5
 
@@ -2125,7 +2125,7 @@
 
     if-ne v5, v0, :cond_4
 
-    invoke-virtual/range {p1 .. p1}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {p1 .. p1}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v5
 
@@ -2211,7 +2211,7 @@
 
     if-ne v5, v0, :cond_6
 
-    invoke-virtual/range {p1 .. p1}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {p1 .. p1}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v5
 
@@ -2402,7 +2402,7 @@
 
     if-ne v5, v0, :cond_a
 
-    invoke-virtual/range {p1 .. p1}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {p1 .. p1}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v5
 
@@ -2621,7 +2621,7 @@
 
     if-ne v5, v0, :cond_10
 
-    invoke-virtual/range {p1 .. p1}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {p1 .. p1}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v5
 
@@ -3017,7 +3017,7 @@
     new-array v12, v14, [B
 
     :cond_2
-    invoke-virtual {v5, v12}, Ljava/io/FileInputStream;->read([B)I
+    invoke-virtual {v5, v12}, Ljava/io/InputStream;->read([B)I
 
     move-result v11
 
@@ -3050,7 +3050,7 @@
 
     if-ne v14, v0, :cond_3
 
-    invoke-virtual/range {p7 .. p7}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {p7 .. p7}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v14
 

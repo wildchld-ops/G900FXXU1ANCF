@@ -33,7 +33,7 @@
 
     iput-object v0, p0, Lcom/sec/android/inputmethod/SamsungKeypadSettings;->mSamsungKeypadSettingsFragment:Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;
 
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/SamsungKeypadSettings;->getFragmentManager()Landroid/app/FragmentManager;
+    invoke-virtual {p0}, Landroid/app/Activity;->getFragmentManager()Landroid/app/FragmentManager;
 
     move-result-object v0
 

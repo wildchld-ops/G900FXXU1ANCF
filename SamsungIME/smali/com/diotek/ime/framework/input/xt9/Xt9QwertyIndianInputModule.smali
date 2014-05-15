@@ -52,11 +52,11 @@
     return-void
 
     :cond_1
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->clearCandidateList()V
 
     iget-object v6, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     const-string v4, ""
 
@@ -73,7 +73,7 @@
     const-string v4, ""
 
     :cond_2
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->setDeleteCount(Ljava/lang/String;)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->setDeleteCount(Ljava/lang/String;)V
 
     iget-object v6, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -101,7 +101,7 @@
 
     if-eqz v6, :cond_3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->isBeforeTraceInput()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->isBeforeTraceInput()Z
 
     move-result v6
 
@@ -112,7 +112,7 @@
 
     if-eqz v6, :cond_4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->isRecapture()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->isRecapture()Z
 
     move-result v6
 
@@ -124,11 +124,11 @@
 
     if-eqz v6, :cond_4
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->processReCaptureForXT9(I)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->processReCaptureForXT9(I)V
 
     iget-object v6, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -143,7 +143,7 @@
     invoke-interface {v6, v7}, Lcom/diotek/ime/framework/engine/InputEngineManager;->getExactCharSequence(Ljava/lang/StringBuilder;)I
 
     :goto_1
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->setComposingText()V
 
     iget-object v6, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -152,11 +152,11 @@
     goto :goto_0
 
     :cond_4
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
-    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->onKeyDownUpHandle(I)V
 
     goto :goto_1
 
@@ -192,7 +192,7 @@
 
     move-result-object v6
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v6, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -207,7 +207,7 @@
 
     move-result-object v6
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v6, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -238,7 +238,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->resetPredictionWord()V
 
     if-eqz v2, :cond_b
 
@@ -253,7 +253,7 @@
     :cond_9
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->getDeleteCount()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->getDeleteCount()I
 
     move-result v6
 
@@ -271,7 +271,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->getLastWordDividerIndex()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->getLastWordDividerIndex()I
 
     move-result v6
 
@@ -280,7 +280,7 @@
     goto/16 :goto_0
 
     :cond_a
-    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->onKeyDownUpHandle(I)V
 
     goto/16 :goto_0
 
@@ -291,9 +291,9 @@
 
     if-eqz v6, :cond_c
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
     :cond_c
     iget v6, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mInputLanguage:I
@@ -347,7 +347,7 @@
 
     invoke-interface {v6, v9}, Lcom/diotek/ime/framework/engine/InputEngineManager;->inputKey(I)I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->getDeleteCount()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->getDeleteCount()I
 
     move-result v6
 
@@ -365,7 +365,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->getLastWordDividerIndex()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->getLastWordDividerIndex()I
 
     move-result v6
 
@@ -374,13 +374,13 @@
     goto/16 :goto_0
 
     :cond_e
-    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {p0, v12}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->onKeyDownUpHandle(I)V
 
     iget-boolean v6, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mIsPredictionOn:Z
 
     if-eqz v6, :cond_f
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->isRecapture()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->isRecapture()Z
 
     move-result v6
 
@@ -399,7 +399,7 @@
     goto/16 :goto_0
 
     :cond_f
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
     goto/16 :goto_0
 .end method
@@ -411,17 +411,17 @@
 
     const/4 v4, 0x0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->clearCandidateList()V
 
     iget-object v5, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
 
     move-result v2
 
     iget-object v5, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget v5, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mLastKeyCode:I
 
@@ -483,7 +483,7 @@
 
     invoke-interface {v3, v4}, Lcom/diotek/ime/framework/engine/InputEngineManager;->getExactCharSequence(Ljava/lang/StringBuilder;)I
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->isThaiAcceptable(Z)Z
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->isThaiAcceptable(Z)Z
 
     move-result v3
 
@@ -492,7 +492,7 @@
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
     :cond_4
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->setComposingText()V
 
     iget-boolean v3, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mIsPredictionOn:Z
 
@@ -513,9 +513,9 @@
     goto :goto_0
 
     :cond_6
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v3}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
     iget-object v3, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -528,7 +528,7 @@
 
     const/16 v4, 0x5dc
 
-    invoke-virtual {p0, v3, v4}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
+    invoke-virtual {p0, v3, v4}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
 
     goto :goto_2
 .end method
@@ -536,13 +536,13 @@
 .method private processSingleTap(I[I)V
     .locals 11
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->clearCandidateList()V
 
     const/4 v6, 0x0
 
     iget-object v7, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
+    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
 
     move-result v7
 
@@ -550,7 +550,7 @@
 
     iget-object v7, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget-object v7, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -562,9 +562,9 @@
 
     const/4 v7, 0x1
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
     :cond_0
     iget-boolean v7, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mIsPredictionOn:Z
@@ -615,13 +615,13 @@
 
     const/4 v7, 0x0
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->selectWordInList(I)V
+    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->selectWordInList(I)V
 
     const/4 v7, 0x1
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
     iget-object v7, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mAutoSpaceController:Lcom/diotek/ime/framework/input/autospace/AutoSpaceController;
 
@@ -639,7 +639,7 @@
 
     move-result-object v7
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v7, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
 
@@ -688,7 +688,7 @@
 
     invoke-virtual {v7}, Lcom/diotek/ime/framework/trace/KeyboardTrace;->clearTraceInfo()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->resetPredictionWord()V
 
     :goto_0
     return-void
@@ -728,10 +728,10 @@
 
     invoke-virtual {v7}, Lcom/diotek/ime/framework/input/autospace/AutoSpaceController;->disableSetUpAutoSpace()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->resetPredictionWord()V
 
     :cond_3
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->isThaiAcceptable()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->isThaiAcceptable()Z
 
     move-result v7
 
@@ -756,7 +756,7 @@
 
     iget-boolean v7, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mIsPredictionOn:Z
 
-    invoke-virtual {p0, p1, v7}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->processVietnameseTone(IZ)V
+    invoke-virtual {p0, p1, v7}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->processVietnameseTone(IZ)V
 
     :cond_5
     iget-boolean v7, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mIsPredictionOn:Z
@@ -765,7 +765,7 @@
 
     if-eqz v6, :cond_17
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->setComposingText()V
 
     iget-object v7, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -792,13 +792,13 @@
 
     const/4 v7, 0x0
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->selectWordInList(I)V
+    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->selectWordInList(I)V
 
     const/4 v7, 0x1
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
     iget-object v7, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mAutoSpaceController:Lcom/diotek/ime/framework/input/autospace/AutoSpaceController;
 
@@ -816,7 +816,7 @@
 
     move-result-object v7
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v7, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
 
@@ -853,7 +853,7 @@
 
     if-nez v7, :cond_13
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->resetPredictionWord()V
 
     goto/16 :goto_0
 
@@ -882,7 +882,7 @@
 
     if-nez v7, :cond_13
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->resetPredictionWord()V
 
     goto/16 :goto_0
 
@@ -907,7 +907,7 @@
 
     if-nez v7, :cond_13
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->resetPredictionWord()V
 
     goto/16 :goto_0
 
@@ -916,7 +916,7 @@
 
     if-eqz v7, :cond_e
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->isRecapture()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->isRecapture()Z
 
     move-result v7
 
@@ -948,7 +948,7 @@
 
     if-nez v7, :cond_d
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->resetPredictionWord()V
 
     goto/16 :goto_0
 
@@ -977,7 +977,7 @@
 
     if-nez v7, :cond_d
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->resetPredictionWord()V
 
     goto/16 :goto_0
 
@@ -998,7 +998,7 @@
 
     if-nez v7, :cond_d
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->resetPredictionWord()V
 
     goto/16 :goto_0
 
@@ -1015,9 +1015,9 @@
 
     move-result-object v7
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->processReCaptureForXT9(I)V
+    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->processReCaptureForXT9(I)V
 
     goto/16 :goto_0
 
@@ -1069,7 +1069,7 @@
 
     invoke-virtual {v2, v7}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     goto/16 :goto_0
 
@@ -1088,7 +1088,7 @@
 
     if-nez v7, :cond_13
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->resetPredictionWord()V
 
     goto/16 :goto_0
 
@@ -1117,7 +1117,7 @@
 
     if-nez v7, :cond_13
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->resetPredictionWord()V
 
     goto/16 :goto_0
 
@@ -1142,12 +1142,12 @@
 
     if-nez v7, :cond_13
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->resetPredictionWord()V
 
     goto/16 :goto_0
 
     :cond_13
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->clearAction()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->clearAction()V
 
     goto/16 :goto_1
 
@@ -1156,7 +1156,7 @@
 
     if-eqz v7, :cond_15
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->isAvailablePrediction()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->isAvailablePrediction()Z
 
     move-result v7
 
@@ -1195,13 +1195,13 @@
 
     if-eqz v7, :cond_18
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->isAvailablePrediction()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->isAvailablePrediction()Z
 
     move-result v7
 
     if-eqz v7, :cond_18
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->setComposingText()V
 
     iget-object v7, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -1260,7 +1260,7 @@
 
     move-result-object v7
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
@@ -1303,7 +1303,7 @@
     invoke-interface {v1, v2}, Lcom/diotek/ime/framework/engine/InputEngineManager;->doNoteWordDoneForXt9(I)I
 
     :cond_0
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v3}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
     :cond_1
     const/16 v1, 0xa
@@ -1316,7 +1316,7 @@
 
     invoke-interface {v1}, Lcom/diotek/ime/framework/common/InputManager;->updateIndianToggleState()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->sendEnterKeyHandle()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->sendEnterKeyHandle()V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -1347,7 +1347,7 @@
 
     if-eqz v0, :cond_4
 
-    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->processMultiTapSymbolicKey(I[I)V
+    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->processMultiTapSymbolicKey(I[I)V
 
     goto :goto_0
 
@@ -1360,7 +1360,7 @@
 
     if-eqz v1, :cond_5
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v3}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
     invoke-static {v4}, Lcom/diotek/ime/framework/input/ComposingTextManager;->replace(C)V
 
@@ -1368,7 +1368,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     :cond_5
     int-to-char v1, p1
@@ -1394,13 +1394,13 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-boolean v1, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mIsPredictionOn:Z
 
     if-eqz v1, :cond_2
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->doNextWordPrediction(Z)V
+    invoke-virtual {p0, v3}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->doNextWordPrediction(Z)V
 
     goto :goto_0
 .end method
@@ -1412,7 +1412,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -1559,7 +1559,7 @@
 
     move-result v2
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->setPredictionWord(Z)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->setPredictionWord(Z)V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->isEmpty()Z
 
@@ -1653,7 +1653,7 @@
 
     move-result-object v6
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v6, p0, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
 
@@ -1822,14 +1822,14 @@
 
     move-result-object v4
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     :cond_10
     invoke-direct {p0, p1, p2}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->processSingleTap(I[I)V
 
     :cond_11
     :goto_3
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->autoPeriod(I)V
+    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->autoPeriod(I)V
 
     goto :goto_1
 
@@ -1886,7 +1886,7 @@
 
     const/4 v6, 0x0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->clearCandidateList()V
 
     const-string v4, " .,;:!?\n()[]*&@{}/<>_-+=|\'\u061b\u060c\u061f\""
 
@@ -2005,14 +2005,14 @@
 
     if-eqz v2, :cond_7
 
-    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->processMultiTapSymbolicKey(I[I)V
+    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->processMultiTapSymbolicKey(I[I)V
 
     goto :goto_0
 
     :cond_7
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->initComposingBuffer()V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
@@ -2035,7 +2035,7 @@
 
     move-result-object v4
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/xt9/AbstractXt9InputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     goto/16 :goto_0
 .end method

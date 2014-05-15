@@ -77,7 +77,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object v1, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -371,9 +371,9 @@
 
     move-result v0
 
-    invoke-virtual {v1, v2, v0}, Landroid/widget/TextView;->measure(II)V
+    invoke-virtual {v1, v2, v0}, Landroid/view/View;->measure(II)V
 
-    invoke-virtual {v1}, Landroid/widget/TextView;->getMeasuredHeight()I
+    invoke-virtual {v1}, Landroid/view/View;->getMeasuredHeight()I
 
     move-result v3
 
@@ -755,7 +755,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v0}, Landroid/app/AlertDialog;->dismiss()V
+    invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
 
     :cond_0
     iget-object v0, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAttentionDialog:Landroid/app/AlertDialog;
@@ -764,7 +764,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAttentionDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v0}, Landroid/app/AlertDialog;->dismiss()V
+    invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
 
     :cond_1
     sget-object v0, Lcom/diotek/ime/framework/view/TipsDialog;->mDiscoverability:Landroid/widget/PopupWindow;
@@ -1364,7 +1364,7 @@
 
     move-object/from16 v0, v25
 
-    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {v0, v2}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     :cond_9
     add-int v2, v13, v18
@@ -1500,7 +1500,7 @@
 
     iget-object v2, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v2}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
@@ -1523,7 +1523,7 @@
 
     move-object/from16 v0, v25
 
-    invoke-virtual {v0, v8}, Landroid/widget/TextView;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v8}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     const v2, 0x7f09000c
 
@@ -1557,7 +1557,7 @@
 
     iget-object v2, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v2}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
@@ -1793,7 +1793,7 @@
 
     iget-object v2, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v2}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
@@ -1816,7 +1816,7 @@
 
     move-object/from16 v0, v25
 
-    invoke-virtual {v0, v8}, Landroid/widget/TextView;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v8}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     const v2, 0x7f09000c
 
@@ -1852,7 +1852,7 @@
 
     iget-object v2, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v2}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
@@ -2070,7 +2070,7 @@
 
     move-object/from16 v16, v0
 
-    invoke-virtual/range {v16 .. v16}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual/range {v16 .. v16}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v16
 
@@ -2194,7 +2194,7 @@
 
     move-object/from16 v16, v0
 
-    invoke-virtual/range {v16 .. v16}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual/range {v16 .. v16}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v16
 
@@ -2274,7 +2274,7 @@
 
     move-object/from16 v0, v16
 
-    invoke-virtual {v7, v0}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v7, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_4
     new-instance v16, Lcom/diotek/ime/framework/view/TipsDialog$70;
@@ -2313,7 +2313,7 @@
 
     invoke-direct {v0, v1}, Lcom/diotek/ime/framework/view/TipsDialog$71;-><init>(Lcom/diotek/ime/framework/view/TipsDialog;)V
 
-    invoke-virtual/range {v16 .. v17}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual/range {v16 .. v17}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
     move-object/from16 v0, p0
 
@@ -2321,7 +2321,7 @@
 
     move-object/from16 v16, v0
 
-    invoke-virtual/range {v16 .. v16}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+    invoke-virtual/range {v16 .. v16}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v14
 
@@ -2368,7 +2368,7 @@
 
     move-result-object v16
 
-    invoke-virtual/range {v16 .. v16}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual/range {v16 .. v16}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v6
 
@@ -2396,7 +2396,7 @@
 
     move-object/from16 v16, v0
 
-    invoke-virtual/range {v16 .. v16}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual/range {v16 .. v16}, Landroid/app/Dialog;->show()V
     :try_end_0
     .catch Landroid/view/WindowManager$BadTokenException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -2409,7 +2409,7 @@
 
     if-eqz v16, :cond_0
 
-    invoke-virtual {v9}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v9}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto/16 :goto_0
 
@@ -2425,7 +2425,7 @@
 
     move-object/from16 v16, v0
 
-    invoke-virtual/range {v16 .. v16}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual/range {v16 .. v16}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v6
 
@@ -2469,7 +2469,7 @@
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v14}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual {v14}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v14
 
@@ -2589,7 +2589,7 @@
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v14}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {v14}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v14
 
@@ -2668,7 +2668,7 @@
 
     invoke-direct {v14, v0}, Lcom/diotek/ime/framework/view/TipsDialog$8;-><init>(Lcom/diotek/ime/framework/view/TipsDialog;)V
 
-    invoke-virtual {v3, v14}, Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
+    invoke-virtual {v3, v14}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
     :cond_5
     invoke-virtual {v2}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
@@ -2691,13 +2691,13 @@
 
     move-result-object v15
 
-    invoke-virtual {v14, v15}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual {v14, v15}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
     move-object/from16 v0, p0
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v14}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+    invoke-virtual {v14}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v12
 
@@ -2730,7 +2730,7 @@
 
     move-result-object v14
 
-    invoke-virtual {v14}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v14}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v14
 
@@ -2754,7 +2754,7 @@
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v14}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v14}, Landroid/app/Dialog;->show()V
     :try_end_0
     .catch Landroid/view/WindowManager$BadTokenException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -2767,7 +2767,7 @@
 
     if-eqz v14, :cond_1
 
-    invoke-virtual {v4}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto/16 :goto_0
 
@@ -2781,7 +2781,7 @@
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v14}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v14}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v14
 
@@ -2841,7 +2841,7 @@
 
     iget-object v10, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v10}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {v10}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v10
 
@@ -2881,7 +2881,7 @@
 
     iget-object v10, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v10}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v10}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v10
 
@@ -2893,7 +2893,7 @@
 
     iget-object v10, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v10}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v10}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v10
 
@@ -2934,7 +2934,7 @@
 
     iget-object v10, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v10}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v10}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v10
 
@@ -2956,9 +2956,9 @@
 
     move-result-object v10
 
-    invoke-virtual {v7, v10}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual {v7, v10}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
-    invoke-virtual {v7}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+    invoke-virtual {v7}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v8
 
@@ -2985,7 +2985,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v10}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v10}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -3013,7 +3013,7 @@
     invoke-virtual {v8, v10}, Landroid/view/Window;->addFlags(I)V
 
     :try_start_0
-    invoke-virtual {v7}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v7}, Landroid/app/Dialog;->show()V
     :try_end_0
     .catch Landroid/view/WindowManager$BadTokenException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -3033,7 +3033,7 @@
     :cond_6
     iget-object v10, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v10}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v10}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -3050,7 +3050,7 @@
 
     if-eqz v10, :cond_4
 
-    invoke-virtual {v3}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v3}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_3
 .end method
@@ -3148,11 +3148,11 @@
 
     move-result-object v6
 
-    invoke-virtual {v5, v6}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual {v5, v6}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
     iget-object v5, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v5}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+    invoke-virtual {v5}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v3
 
@@ -3187,7 +3187,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v5}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v5}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v5
 
@@ -3201,7 +3201,7 @@
     :try_start_0
     iget-object v5, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v5}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v5}, Landroid/app/Dialog;->show()V
 
     iget-object v5, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -3227,7 +3227,7 @@
     :cond_3
     iget-object v5, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v5}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v5}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v5
 
@@ -3242,7 +3242,7 @@
 
     if-eqz v5, :cond_1
 
-    invoke-virtual {v1}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_1
 .end method
@@ -3322,7 +3322,7 @@
 
     move-object/from16 v16, v0
 
-    invoke-virtual/range {v16 .. v16}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual/range {v16 .. v16}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v16
 
@@ -3456,7 +3456,7 @@
 
     move-object/from16 v16, v0
 
-    invoke-virtual/range {v16 .. v16}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual/range {v16 .. v16}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v16
 
@@ -3532,7 +3532,7 @@
 
     move-object/from16 v0, v16
 
-    invoke-virtual {v4, v0}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v4, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_4
     new-instance v16, Lcom/diotek/ime/framework/view/TipsDialog$17;
@@ -3573,7 +3573,7 @@
 
     move-result-object v17
 
-    invoke-virtual/range {v16 .. v17}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual/range {v16 .. v17}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
     move-object/from16 v0, p0
 
@@ -3581,7 +3581,7 @@
 
     move-object/from16 v16, v0
 
-    invoke-virtual/range {v16 .. v16}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+    invoke-virtual/range {v16 .. v16}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v14
 
@@ -3628,7 +3628,7 @@
 
     move-result-object v16
 
-    invoke-virtual/range {v16 .. v16}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual/range {v16 .. v16}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v3
 
@@ -3656,7 +3656,7 @@
 
     move-object/from16 v16, v0
 
-    invoke-virtual/range {v16 .. v16}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual/range {v16 .. v16}, Landroid/app/Dialog;->show()V
     :try_end_0
     .catch Landroid/view/WindowManager$BadTokenException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -3676,7 +3676,7 @@
 
     const-wide/16 v18, 0x1f4
 
-    invoke-virtual/range {v16 .. v19}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual/range {v16 .. v19}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z
 
     goto/16 :goto_0
 
@@ -3692,7 +3692,7 @@
 
     move-object/from16 v16, v0
 
-    invoke-virtual/range {v16 .. v16}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual/range {v16 .. v16}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v3
 
@@ -3709,7 +3709,7 @@
 
     if-eqz v16, :cond_6
 
-    invoke-virtual {v5}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v5}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_3
 .end method
@@ -3753,7 +3753,7 @@
 
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v11}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual {v11}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v11
 
@@ -3812,7 +3812,7 @@
 
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v11}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {v11}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v11
 
@@ -3877,7 +3877,7 @@
     :cond_4
     const/4 v11, 0x1
 
-    invoke-virtual {v2, v11}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v2, v11}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     const/4 v11, 0x1
 
@@ -3888,7 +3888,7 @@
 
     invoke-direct {v11, p0, v2}, Lcom/diotek/ime/framework/view/TipsDialog$20;-><init>(Lcom/diotek/ime/framework/view/TipsDialog;Landroid/widget/CheckBox;)V
 
-    invoke-virtual {v2, v11}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v2, v11}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_6
     new-instance v11, Lcom/diotek/ime/framework/view/TipsDialog$21;
@@ -3911,11 +3911,11 @@
 
     move-result-object v12
 
-    invoke-virtual {v11, v12}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual {v11, v12}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v11}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+    invoke-virtual {v11}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v9
 
@@ -3942,7 +3942,7 @@
 
     move-result-object v11
 
-    invoke-virtual {v11}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v11}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -3962,7 +3962,7 @@
     :try_start_0
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v11}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v11}, Landroid/app/Dialog;->show()V
     :try_end_0
     .catch Landroid/view/WindowManager$BadTokenException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -3975,14 +3975,14 @@
 
     if-eqz v11, :cond_0
 
-    invoke-virtual {v3}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v3}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto/16 :goto_0
 
     :cond_8
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v11}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v11}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -4056,7 +4056,7 @@
 
     move-object/from16 v17, v0
 
-    invoke-virtual/range {v17 .. v17}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual/range {v17 .. v17}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v17
 
@@ -4210,7 +4210,7 @@
 
     move-object/from16 v17, v0
 
-    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual/range {v17 .. v17}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v17
 
@@ -4251,7 +4251,7 @@
 
     check-cast v8, Landroid/widget/ImageView;
 
-    invoke-virtual {v8}, Landroid/widget/ImageView;->getBackground()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v8}, Landroid/view/View;->getBackground()Landroid/graphics/drawable/Drawable;
 
     move-result-object v17
 
@@ -4269,7 +4269,7 @@
 
     check-cast v7, Landroid/widget/ImageView;
 
-    invoke-virtual {v7}, Landroid/widget/ImageView;->getBackground()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v7}, Landroid/view/View;->getBackground()Landroid/graphics/drawable/Drawable;
 
     move-result-object v17
 
@@ -4335,7 +4335,7 @@
 
     move-result-object v18
 
-    invoke-virtual/range {v17 .. v18}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual/range {v17 .. v18}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
     move-object/from16 v0, p0
 
@@ -4343,7 +4343,7 @@
 
     move-object/from16 v17, v0
 
-    invoke-virtual/range {v17 .. v17}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+    invoke-virtual/range {v17 .. v17}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v15
 
@@ -4390,7 +4390,7 @@
 
     move-result-object v17
 
-    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual/range {v17 .. v17}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v3
 
@@ -4424,7 +4424,7 @@
 
     move-object/from16 v17, v0
 
-    invoke-virtual/range {v17 .. v17}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual/range {v17 .. v17}, Landroid/app/Dialog;->show()V
     :try_end_0
     .catch Landroid/view/WindowManager$BadTokenException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -4444,7 +4444,7 @@
 
     const-wide/16 v19, 0x1f4
 
-    invoke-virtual/range {v17 .. v20}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual/range {v17 .. v20}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z
 
     goto/16 :goto_0
 
@@ -4460,7 +4460,7 @@
 
     move-object/from16 v17, v0
 
-    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual/range {v17 .. v17}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v3
 
@@ -4479,7 +4479,7 @@
 
     if-eqz v17, :cond_6
 
-    invoke-virtual {v4}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_3
 .end method
@@ -4511,7 +4511,7 @@
 
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAttentionDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v11}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual {v11}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v11
 
@@ -4593,7 +4593,7 @@
 
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v11}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {v11}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v11
 
@@ -4621,7 +4621,7 @@
 
     if-eqz v2, :cond_3
 
-    invoke-virtual {v2, v13}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v2, v13}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     iput-boolean v13, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mIsCheckboxStandardData:Z
 
@@ -4629,7 +4629,7 @@
 
     invoke-direct {v11, p0, v2}, Lcom/diotek/ime/framework/view/TipsDialog$12;-><init>(Lcom/diotek/ime/framework/view/TipsDialog;Landroid/widget/CheckBox;)V
 
-    invoke-virtual {v2, v11}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v2, v11}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_3
     invoke-virtual {v0, v5}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
@@ -4664,11 +4664,11 @@
 
     move-result-object v12
 
-    invoke-virtual {v11, v12}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual {v11, v12}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAttentionDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v11}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+    invoke-virtual {v11}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v9
 
@@ -4703,7 +4703,7 @@
 
     move-result-object v11
 
-    invoke-virtual {v11}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v11}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -4723,7 +4723,7 @@
     :try_start_0
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAttentionDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v11}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v11}, Landroid/app/Dialog;->show()V
     :try_end_0
     .catch Landroid/view/WindowManager$BadTokenException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -4740,7 +4740,7 @@
     :cond_6
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v11}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v11}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -4757,7 +4757,7 @@
 
     if-eqz v11, :cond_5
 
-    invoke-virtual {v4}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v4}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_2
 .end method
@@ -4898,9 +4898,9 @@
 
     move-result-object v8
 
-    invoke-virtual {v4, v8}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual {v4, v8}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
-    invoke-virtual {v4}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+    invoke-virtual {v4}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v6
 
@@ -4927,7 +4927,7 @@
 
     move-result-object v8
 
-    invoke-virtual {v8}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v8}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -4955,7 +4955,7 @@
     invoke-virtual {v6, v8}, Landroid/view/Window;->addFlags(I)V
 
     :try_start_0
-    invoke-virtual {v4}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v4}, Landroid/app/Dialog;->show()V
     :try_end_0
     .catch Landroid/view/WindowManager$BadTokenException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -4970,7 +4970,7 @@
     :cond_6
     iget-object v8, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v8}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v8}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -4987,7 +4987,7 @@
 
     if-eqz v8, :cond_5
 
-    invoke-virtual {v3}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v3}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_2
 .end method
@@ -5045,7 +5045,7 @@
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v14}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual {v14}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v14
 
@@ -5134,7 +5134,7 @@
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v14}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {v14}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v14
 
@@ -5234,7 +5234,7 @@
 
     const/4 v14, 0x1
 
-    invoke-virtual {v7, v14}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v7, v14}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     :cond_4
     new-instance v14, Lcom/diotek/ime/framework/view/TipsDialog$46;
@@ -5243,7 +5243,7 @@
 
     invoke-direct {v14, v0, v7}, Lcom/diotek/ime/framework/view/TipsDialog$46;-><init>(Lcom/diotek/ime/framework/view/TipsDialog;Landroid/widget/CheckBox;)V
 
-    invoke-virtual {v7, v14}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v7, v14}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_5
     new-instance v14, Lcom/diotek/ime/framework/view/TipsDialog$47;
@@ -5272,7 +5272,7 @@
 
     invoke-direct {v15, v0}, Lcom/diotek/ime/framework/view/TipsDialog$48;-><init>(Lcom/diotek/ime/framework/view/TipsDialog;)V
 
-    invoke-virtual {v14, v15}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual {v14, v15}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
     move-object/from16 v0, p0
 
@@ -5284,13 +5284,13 @@
 
     invoke-direct {v15, v0}, Lcom/diotek/ime/framework/view/TipsDialog$49;-><init>(Lcom/diotek/ime/framework/view/TipsDialog;)V
 
-    invoke-virtual {v14, v15}, Landroid/app/AlertDialog;->setOnShowListener(Landroid/content/DialogInterface$OnShowListener;)V
+    invoke-virtual {v14, v15}, Landroid/app/Dialog;->setOnShowListener(Landroid/content/DialogInterface$OnShowListener;)V
 
     move-object/from16 v0, p0
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v14}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+    invoke-virtual {v14}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v12
 
@@ -5323,7 +5323,7 @@
 
     move-result-object v14
 
-    invoke-virtual {v14}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v14}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v6
 
@@ -5355,7 +5355,7 @@
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v14}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v14}, Landroid/app/Dialog;->show()V
     :try_end_0
     .catch Landroid/view/WindowManager$BadTokenException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -5368,7 +5368,7 @@
 
     if-eqz v14, :cond_0
 
-    invoke-virtual {v8}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v8}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto/16 :goto_0
 
@@ -5377,7 +5377,7 @@
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v14}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v14}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v6
 
@@ -5450,7 +5450,7 @@
 
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAttentionDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v11}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual {v11}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v11
 
@@ -5468,7 +5468,7 @@
 
     const-string v11, ""
 
-    invoke-virtual {v8}, Landroid/widget/Button;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {v8}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
 
     move-result-object v12
 
@@ -5548,7 +5548,7 @@
 
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v11}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {v11}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v11
 
@@ -5604,11 +5604,11 @@
 
     move-result-object v12
 
-    invoke-virtual {v11, v12}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual {v11, v12}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAttentionDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v11}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+    invoke-virtual {v11}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v9
 
@@ -5643,7 +5643,7 @@
 
     move-result-object v11
 
-    invoke-virtual {v11}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v11}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -5663,7 +5663,7 @@
     :try_start_0
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAttentionDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v11}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v11}, Landroid/app/Dialog;->show()V
     :try_end_0
     .catch Landroid/view/WindowManager$BadTokenException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -5686,7 +5686,7 @@
     :cond_5
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v11}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v11}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -5703,7 +5703,7 @@
 
     if-eqz v11, :cond_4
 
-    invoke-virtual {v3}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v3}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_2
 .end method
@@ -5771,7 +5771,7 @@
 
     move-object/from16 v17, v0
 
-    invoke-virtual/range {v17 .. v17}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual/range {v17 .. v17}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v17
 
@@ -5905,7 +5905,7 @@
 
     move-object/from16 v17, v0
 
-    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual/range {v17 .. v17}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v17
 
@@ -5981,7 +5981,7 @@
 
     move-object/from16 v0, v17
 
-    invoke-virtual {v4, v0}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v4, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_4
     new-instance v17, Lcom/diotek/ime/framework/view/TipsDialog$34;
@@ -6020,7 +6020,7 @@
 
     invoke-direct {v0, v1}, Lcom/diotek/ime/framework/view/TipsDialog$35;-><init>(Lcom/diotek/ime/framework/view/TipsDialog;)V
 
-    invoke-virtual/range {v17 .. v18}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual/range {v17 .. v18}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
     move-object/from16 v0, p0
 
@@ -6028,7 +6028,7 @@
 
     move-object/from16 v17, v0
 
-    invoke-virtual/range {v17 .. v17}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+    invoke-virtual/range {v17 .. v17}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v15
 
@@ -6077,7 +6077,7 @@
 
     if-eqz v13, :cond_6
 
-    invoke-virtual {v13}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v13}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v3
 
@@ -6112,7 +6112,7 @@
 
     move-object/from16 v17, v0
 
-    invoke-virtual/range {v17 .. v17}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual/range {v17 .. v17}, Landroid/app/Dialog;->show()V
     :try_end_0
     .catch Landroid/view/WindowManager$BadTokenException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -6132,7 +6132,7 @@
 
     const-wide/16 v19, 0x1f4
 
-    invoke-virtual/range {v17 .. v20}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual/range {v17 .. v20}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z
 
     goto/16 :goto_0
 
@@ -6148,7 +6148,7 @@
 
     move-object/from16 v17, v0
 
-    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual/range {v17 .. v17}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v3
 
@@ -6167,7 +6167,7 @@
 
     if-eqz v17, :cond_7
 
-    invoke-virtual {v5}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v5}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_3
 .end method
@@ -6225,7 +6225,7 @@
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v14}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual {v14}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v14
 
@@ -6314,7 +6314,7 @@
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v14}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {v14}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v14
 
@@ -6414,7 +6414,7 @@
 
     const/4 v14, 0x1
 
-    invoke-virtual {v4, v14}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v4, v14}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     :cond_4
     new-instance v14, Lcom/diotek/ime/framework/view/TipsDialog$60;
@@ -6423,7 +6423,7 @@
 
     invoke-direct {v14, v0, v4}, Lcom/diotek/ime/framework/view/TipsDialog$60;-><init>(Lcom/diotek/ime/framework/view/TipsDialog;Landroid/widget/CheckBox;)V
 
-    invoke-virtual {v4, v14}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v4, v14}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_5
     new-instance v14, Lcom/diotek/ime/framework/view/TipsDialog$61;
@@ -6452,7 +6452,7 @@
 
     invoke-direct {v15, v0}, Lcom/diotek/ime/framework/view/TipsDialog$62;-><init>(Lcom/diotek/ime/framework/view/TipsDialog;)V
 
-    invoke-virtual {v14, v15}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual {v14, v15}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
     move-object/from16 v0, p0
 
@@ -6464,13 +6464,13 @@
 
     invoke-direct {v15, v0}, Lcom/diotek/ime/framework/view/TipsDialog$63;-><init>(Lcom/diotek/ime/framework/view/TipsDialog;)V
 
-    invoke-virtual {v14, v15}, Landroid/app/AlertDialog;->setOnShowListener(Landroid/content/DialogInterface$OnShowListener;)V
+    invoke-virtual {v14, v15}, Landroid/app/Dialog;->setOnShowListener(Landroid/content/DialogInterface$OnShowListener;)V
 
     move-object/from16 v0, p0
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v14}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+    invoke-virtual {v14}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v12
 
@@ -6503,7 +6503,7 @@
 
     move-result-object v14
 
-    invoke-virtual {v14}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v14}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v3
 
@@ -6525,7 +6525,7 @@
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v14}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v14}, Landroid/app/Dialog;->show()V
     :try_end_0
     .catch Landroid/view/WindowManager$BadTokenException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -6538,7 +6538,7 @@
 
     if-eqz v14, :cond_0
 
-    invoke-virtual {v5}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v5}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto/16 :goto_0
 
@@ -6547,7 +6547,7 @@
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v14}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v14}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v3
 
@@ -6611,7 +6611,7 @@
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v14}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual {v14}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v14
 
@@ -6700,7 +6700,7 @@
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v14}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {v14}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v14
 
@@ -6800,7 +6800,7 @@
 
     const/4 v14, 0x1
 
-    invoke-virtual {v4, v14}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v4, v14}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     :cond_4
     new-instance v14, Lcom/diotek/ime/framework/view/TipsDialog$53;
@@ -6809,7 +6809,7 @@
 
     invoke-direct {v14, v0, v4}, Lcom/diotek/ime/framework/view/TipsDialog$53;-><init>(Lcom/diotek/ime/framework/view/TipsDialog;Landroid/widget/CheckBox;)V
 
-    invoke-virtual {v4, v14}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v4, v14}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_5
     new-instance v14, Lcom/diotek/ime/framework/view/TipsDialog$54;
@@ -6838,7 +6838,7 @@
 
     invoke-direct {v15, v0}, Lcom/diotek/ime/framework/view/TipsDialog$55;-><init>(Lcom/diotek/ime/framework/view/TipsDialog;)V
 
-    invoke-virtual {v14, v15}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual {v14, v15}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
     move-object/from16 v0, p0
 
@@ -6850,13 +6850,13 @@
 
     invoke-direct {v15, v0}, Lcom/diotek/ime/framework/view/TipsDialog$56;-><init>(Lcom/diotek/ime/framework/view/TipsDialog;)V
 
-    invoke-virtual {v14, v15}, Landroid/app/AlertDialog;->setOnShowListener(Landroid/content/DialogInterface$OnShowListener;)V
+    invoke-virtual {v14, v15}, Landroid/app/Dialog;->setOnShowListener(Landroid/content/DialogInterface$OnShowListener;)V
 
     move-object/from16 v0, p0
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v14}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+    invoke-virtual {v14}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v12
 
@@ -6889,7 +6889,7 @@
 
     move-result-object v14
 
-    invoke-virtual {v14}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v14}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v3
 
@@ -6911,7 +6911,7 @@
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v14}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v14}, Landroid/app/Dialog;->show()V
     :try_end_0
     .catch Landroid/view/WindowManager$BadTokenException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -6924,7 +6924,7 @@
 
     if-eqz v14, :cond_0
 
-    invoke-virtual {v5}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v5}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto/16 :goto_0
 
@@ -6933,7 +6933,7 @@
 
     iget-object v14, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v14}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v14}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v3
 
@@ -6983,7 +6983,7 @@
 
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v11}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual {v11}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v11
 
@@ -7036,7 +7036,7 @@
 
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v11}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {v11}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v11
 
@@ -7066,7 +7066,7 @@
 
     const/4 v11, 0x1
 
-    invoke-virtual {v2, v11}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v2, v11}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     const/4 v11, 0x1
 
@@ -7076,7 +7076,7 @@
 
     invoke-direct {v11, p0, v2}, Lcom/diotek/ime/framework/view/TipsDialog$25;-><init>(Lcom/diotek/ime/framework/view/TipsDialog;Landroid/widget/CheckBox;)V
 
-    invoke-virtual {v2, v11}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v2, v11}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_4
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
@@ -7117,11 +7117,11 @@
 
     invoke-direct {v12, p0}, Lcom/diotek/ime/framework/view/TipsDialog$29;-><init>(Lcom/diotek/ime/framework/view/TipsDialog;)V
 
-    invoke-virtual {v11, v12}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual {v11, v12}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v11}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+    invoke-virtual {v11}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v9
 
@@ -7150,7 +7150,7 @@
 
     if-eqz v6, :cond_6
 
-    invoke-virtual {v6}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v6}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -7171,7 +7171,7 @@
     :try_start_0
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v11}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v11}, Landroid/app/Dialog;->show()V
     :try_end_0
     .catch Landroid/view/WindowManager$BadTokenException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -7184,14 +7184,14 @@
 
     if-eqz v11, :cond_0
 
-    invoke-virtual {v3}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v3}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto/16 :goto_0
 
     :cond_7
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v11}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v11}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -7255,7 +7255,7 @@
 
     iget-object v15, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v15}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual {v15}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v15
 
@@ -7346,7 +7346,7 @@
 
     iget-object v15, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v15}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {v15}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v15
 
@@ -7477,7 +7477,7 @@
     :cond_4
     const/4 v15, 0x1
 
-    invoke-virtual {v5, v15}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v5, v15}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     const/4 v15, 0x1
 
@@ -7492,7 +7492,7 @@
 
     invoke-direct {v15, v0, v5}, Lcom/diotek/ime/framework/view/TipsDialog$39;-><init>(Lcom/diotek/ime/framework/view/TipsDialog;Landroid/widget/CheckBox;)V
 
-    invoke-virtual {v5, v15}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v5, v15}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_6
     new-instance v15, Lcom/diotek/ime/framework/view/TipsDialog$40;
@@ -7523,7 +7523,7 @@
 
     invoke-direct {v0, v1}, Lcom/diotek/ime/framework/view/TipsDialog$41;-><init>(Lcom/diotek/ime/framework/view/TipsDialog;)V
 
-    invoke-virtual/range {v15 .. v16}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual/range {v15 .. v16}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
     move-object/from16 v0, p0
 
@@ -7537,13 +7537,13 @@
 
     invoke-direct {v0, v1}, Lcom/diotek/ime/framework/view/TipsDialog$42;-><init>(Lcom/diotek/ime/framework/view/TipsDialog;)V
 
-    invoke-virtual/range {v15 .. v16}, Landroid/app/AlertDialog;->setOnShowListener(Landroid/content/DialogInterface$OnShowListener;)V
+    invoke-virtual/range {v15 .. v16}, Landroid/app/Dialog;->setOnShowListener(Landroid/content/DialogInterface$OnShowListener;)V
 
     move-object/from16 v0, p0
 
     iget-object v15, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v15}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+    invoke-virtual {v15}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v13
 
@@ -7580,7 +7580,7 @@
 
     move-result-object v15
 
-    invoke-virtual {v15}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v15}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v3
 
@@ -7612,7 +7612,7 @@
 
     iget-object v15, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v15}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v15}, Landroid/app/Dialog;->show()V
     :try_end_0
     .catch Landroid/view/WindowManager$BadTokenException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -7625,7 +7625,7 @@
 
     if-eqz v15, :cond_0
 
-    invoke-virtual {v6}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v6}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto/16 :goto_0
 
@@ -7634,7 +7634,7 @@
 
     iget-object v15, v0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v15}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v15}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v3
 
@@ -7720,7 +7720,7 @@
 
     move-object/from16 v16, v0
 
-    invoke-virtual/range {v16 .. v16}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual/range {v16 .. v16}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v16
 
@@ -7862,7 +7862,7 @@
 
     move-object/from16 v16, v0
 
-    invoke-virtual/range {v16 .. v16}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual/range {v16 .. v16}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v16
 
@@ -7957,7 +7957,7 @@
 
     move/from16 v0, v16
 
-    invoke-virtual {v5, v0}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v5, v0}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     const/16 v16, 0x1
 
@@ -7978,7 +7978,7 @@
 
     move-object/from16 v0, v16
 
-    invoke-virtual {v5, v0}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v5, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_6
     new-instance v16, Lcom/diotek/ime/framework/view/TipsDialog$11;
@@ -8019,7 +8019,7 @@
 
     move-result-object v17
 
-    invoke-virtual/range {v16 .. v17}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual/range {v16 .. v17}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
     move-object/from16 v0, p0
 
@@ -8027,7 +8027,7 @@
 
     move-object/from16 v16, v0
 
-    invoke-virtual/range {v16 .. v16}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+    invoke-virtual/range {v16 .. v16}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v14
 
@@ -8076,7 +8076,7 @@
 
     if-eqz v9, :cond_8
 
-    invoke-virtual {v9}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v9}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v3
 
@@ -8105,7 +8105,7 @@
 
     move-object/from16 v16, v0
 
-    invoke-virtual/range {v16 .. v16}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual/range {v16 .. v16}, Landroid/app/Dialog;->show()V
     :try_end_0
     .catch Landroid/view/WindowManager$BadTokenException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -8118,7 +8118,7 @@
 
     if-eqz v16, :cond_0
 
-    invoke-virtual {v6}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v6}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto/16 :goto_0
 
@@ -8134,7 +8134,7 @@
 
     move-object/from16 v16, v0
 
-    invoke-virtual/range {v16 .. v16}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual/range {v16 .. v16}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v3
 
@@ -8154,7 +8154,7 @@
 
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAttentionDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v11}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual {v11}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v11
 
@@ -8172,7 +8172,7 @@
 
     const-string v11, ""
 
-    invoke-virtual {v6}, Landroid/widget/Button;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {v6}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
 
     move-result-object v12
 
@@ -8253,7 +8253,7 @@
 
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v11}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {v11}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v11
 
@@ -8328,11 +8328,11 @@
 
     move-result-object v12
 
-    invoke-virtual {v11, v12}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual {v11, v12}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAttentionDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v11}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+    invoke-virtual {v11}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v8
 
@@ -8367,7 +8367,7 @@
 
     move-result-object v11
 
-    invoke-virtual {v11}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v11}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -8387,7 +8387,7 @@
     :try_start_0
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mAttentionDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v11}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v11}, Landroid/app/Dialog;->show()V
     :try_end_0
     .catch Landroid/view/WindowManager$BadTokenException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -8419,7 +8419,7 @@
     :cond_6
     iget-object v11, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v11}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v11}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -8436,7 +8436,7 @@
 
     if-eqz v11, :cond_4
 
-    invoke-virtual {v2}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_2
 .end method
@@ -8562,9 +8562,9 @@
 
     move-result-object v8
 
-    invoke-virtual {v4, v8}, Landroid/app/AlertDialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
+    invoke-virtual {v4, v8}, Landroid/app/Dialog;->setOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)V
 
-    invoke-virtual {v4}, Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+    invoke-virtual {v4}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v5
 
@@ -8591,7 +8591,7 @@
 
     move-result-object v8
 
-    invoke-virtual {v8}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v8}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -8619,7 +8619,7 @@
     invoke-virtual {v5, v8}, Landroid/view/Window;->addFlags(I)V
 
     :try_start_0
-    invoke-virtual {v4}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v4}, Landroid/app/Dialog;->show()V
     :try_end_0
     .catch Landroid/view/WindowManager$BadTokenException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -8634,7 +8634,7 @@
     :cond_5
     iget-object v8, p0, Lcom/diotek/ime/framework/view/TipsDialog;->mkeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v8}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v8}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -8651,7 +8651,7 @@
 
     if-eqz v8, :cond_4
 
-    invoke-virtual {v3}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v3}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_2
 .end method

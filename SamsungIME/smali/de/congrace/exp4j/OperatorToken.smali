@@ -63,11 +63,11 @@
 
     check-cast v0, Lde/congrace/exp4j/OperatorToken;
 
-    invoke-virtual {v0}, Lde/congrace/exp4j/OperatorToken;->getValue()Ljava/lang/String;
+    invoke-virtual {v0}, Lde/congrace/exp4j/Token;->getValue()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lde/congrace/exp4j/OperatorToken;->getValue()Ljava/lang/String;
+    invoke-virtual {p0}, Lde/congrace/exp4j/Token;->getValue()Ljava/lang/String;
 
     move-result-object v2
 
@@ -87,7 +87,7 @@
 .method public hashCode()I
     .locals 1
 
-    invoke-virtual {p0}, Lde/congrace/exp4j/OperatorToken;->getValue()Ljava/lang/String;
+    invoke-virtual {p0}, Lde/congrace/exp4j/Token;->getValue()Ljava/lang/String;
 
     move-result-object v0
 
@@ -185,7 +185,7 @@
     .end annotation
 
     :goto_0
-    invoke-virtual {p1}, Ljava/util/Stack;->isEmpty()Z
+    invoke-virtual {p1}, Ljava/util/Vector;->isEmpty()Z
 
     move-result v2
 

@@ -98,7 +98,7 @@
     :cond_0
     iget-object v1, p0, Lcom/nuance/connect/service/comm/CommandQueue$MessageHandler;->mgrRef:Ljava/lang/ref/WeakReference;
 
-    invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -119,7 +119,7 @@
 
     int-to-long v1, v0
 
-    invoke-virtual {p0, p1, v1, v2}, Lcom/nuance/connect/service/comm/CommandQueue$MessageHandler;->sendMessageDelayed(Landroid/os/Message;J)Z
+    invoke-virtual {p0, p1, v1, v2}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
     return-void
 .end method
@@ -129,7 +129,7 @@
 
     iget-object v1, p0, Lcom/nuance/connect/service/comm/CommandQueue$MessageHandler;->mgrRef:Ljava/lang/ref/WeakReference;
 
-    invoke-virtual {v1}, Ljava/lang/ref/WeakReference;->clear()V
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;->clear()V
 
     const/4 v0, 0x0
 
@@ -138,7 +138,7 @@
 
     if-gt v0, v1, :cond_0
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/comm/CommandQueue$MessageHandler;->removeMessages(I)V
+    invoke-virtual {p0, v0}, Landroid/os/Handler;->removeMessages(I)V
 
     add-int/lit8 v0, v0, 0x1
 

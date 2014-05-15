@@ -31,7 +31,7 @@
 
     iput p2, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateView$1;->val$inputMethod:I
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -163,7 +163,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v3}, Landroid/widget/LinearLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v3}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v10
 
@@ -173,11 +173,11 @@
 
     iget v8, v10, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
 
-    invoke-virtual {v3}, Landroid/widget/LinearLayout;->getBottom()I
+    invoke-virtual {v3}, Landroid/view/View;->getBottom()I
 
     move-result v14
 
-    invoke-virtual {v3}, Landroid/widget/LinearLayout;->getTop()I
+    invoke-virtual {v3}, Landroid/view/View;->getTop()I
 
     move-result v15
 
@@ -236,7 +236,7 @@
     const/4 v4, 0x0
 
     :goto_1
-    invoke-virtual {v3}, Landroid/widget/LinearLayout;->getLeft()I
+    invoke-virtual {v3}, Landroid/view/View;->getLeft()I
 
     move-result v14
 
@@ -246,7 +246,7 @@
 
     if-lez v14, :cond_3
 
-    invoke-virtual {v3}, Landroid/widget/LinearLayout;->getRight()I
+    invoke-virtual {v3}, Landroid/view/View;->getRight()I
 
     move-result v14
 

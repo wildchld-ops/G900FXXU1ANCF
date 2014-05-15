@@ -627,7 +627,7 @@
 
     invoke-direct {p0}, Lcom/visionobjects/textwidget/h/c;->e()V
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/h/c;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     return-void
 .end method
@@ -647,9 +647,9 @@
 
     invoke-direct {p0}, Lcom/visionobjects/textwidget/h/c;->e()V
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/h/c;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/h/c;->requestLayout()V
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
 
     return-void
 .end method
@@ -659,7 +659,7 @@
 
     iput-boolean p1, p0, Lcom/visionobjects/textwidget/h/c;->m:Z
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/h/c;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     return-void
 .end method
@@ -669,7 +669,7 @@
 
     iput p1, p0, Lcom/visionobjects/textwidget/h/c;->l:I
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/h/c;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     return-void
 .end method
@@ -681,7 +681,7 @@
 
     invoke-direct {p0}, Lcom/visionobjects/textwidget/h/c;->c()V
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/h/c;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     return-void
 .end method
@@ -693,7 +693,7 @@
 
     invoke-direct {p0}, Lcom/visionobjects/textwidget/h/c;->d()V
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/h/c;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     return-void
 .end method
@@ -848,7 +848,7 @@
     move-result v0
 
     :goto_0
-    invoke-virtual {p0, v1, v0}, Lcom/visionobjects/textwidget/h/c;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v1, v0}, Landroid/view/View;->setMeasuredDimension(II)V
 
     return-void
 

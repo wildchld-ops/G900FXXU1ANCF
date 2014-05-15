@@ -26,7 +26,7 @@
 
     iput-object p1, p0, Lcom/touchtype_fluency/util/HttpDownload$2;->a:Lcom/touchtype_fluency/util/HttpDownload;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method

@@ -57,7 +57,7 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/touchtype/personalizer/PersonalizerActivity;)V
     .locals 4
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v1, ""
 
@@ -186,7 +186,7 @@
     :catch_0
     move-exception v0
 
-    invoke-virtual {v0}, Ljava/io/UnsupportedEncodingException;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     sget-boolean v1, Lcom/touchtype/personalizer/service/GmailAuthenticator;->$assertionsDisabled:Z
 

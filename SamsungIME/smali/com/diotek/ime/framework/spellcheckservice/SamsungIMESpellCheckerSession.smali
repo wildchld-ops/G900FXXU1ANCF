@@ -49,7 +49,7 @@
     :goto_1
     aget-object v5, p1, v0
 
-    invoke-virtual {p0, v5, v2, p2}, Lcom/diotek/ime/framework/spellcheckservice/SamsungIMESpellCheckerSession;->onGetSuggestions(Landroid/view/textservice/TextInfo;Ljava/lang/String;I)Landroid/view/textservice/SuggestionsInfo;
+    invoke-virtual {p0, v5, v2, p2}, Lcom/diotek/ime/framework/spellcheckservice/SamsungIMEWordLevelSpellCheckerSession;->onGetSuggestions(Landroid/view/textservice/TextInfo;Ljava/lang/String;I)Landroid/view/textservice/SuggestionsInfo;
 
     move-result-object v5
 

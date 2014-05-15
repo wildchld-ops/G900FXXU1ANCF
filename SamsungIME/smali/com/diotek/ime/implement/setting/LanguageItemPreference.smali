@@ -40,7 +40,7 @@
     :cond_0
     const v0, 0x7f03006b
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/LanguageItemPreference;->setWidgetLayoutResource(I)V
+    invoke-virtual {p0, v0}, Landroid/preference/Preference;->setWidgetLayoutResource(I)V
 
     return-void
 .end method
@@ -54,7 +54,7 @@
 
     move-result v0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/LanguageItemPreference;->getKey()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getKey()Ljava/lang/String;
 
     move-result-object v1
 
@@ -76,7 +76,7 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {v1, v2}, Landroid/widget/RadioButton;->setChecked(Z)V
+    invoke-virtual {v1, v2}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     :cond_0
     return-void
@@ -103,7 +103,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setClickable(Z)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setClickable(Z)V
 
     invoke-direct {p0}, Lcom/diotek/ime/implement/setting/LanguageItemPreference;->currentSelected()V
 
@@ -119,7 +119,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/LanguageItemPreference;->mRadioButton:Landroid/widget/RadioButton;
 
-    invoke-virtual {v0, p1}, Landroid/widget/RadioButton;->setChecked(Z)V
+    invoke-virtual {v0, p1}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     :cond_0
     return-void

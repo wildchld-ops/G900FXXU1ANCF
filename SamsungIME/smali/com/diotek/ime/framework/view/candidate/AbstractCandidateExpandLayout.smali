@@ -179,7 +179,7 @@
 
     new-instance v1, Landroid/widget/ScrollView;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -193,11 +193,11 @@
 
     invoke-direct {v2, v3, v3}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    invoke-virtual {v1, v2}, Landroid/widget/ScrollView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v1, v2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     new-instance v1, Landroid/widget/LinearLayout;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -211,7 +211,7 @@
 
     invoke-direct {v2, v3, v3}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v1, v2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->mScrollViewLayout:Landroid/widget/LinearLayout;
 
@@ -225,7 +225,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->mScrollViewLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v1, v4, v4, v0, v4}, Landroid/widget/LinearLayout;->setPadding(IIII)V
+    invoke-virtual {v1, v4, v4, v0, v4}, Landroid/view/View;->setPadding(IIII)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->mScrollView:Landroid/widget/ScrollView;
 
@@ -235,7 +235,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->mScrollView:Landroid/widget/ScrollView;
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->addView(Landroid/view/View;)V
+    invoke-virtual {p0, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     invoke-static {}, Lcom/diotek/ime/framework/engine/InputEngineManagerImpl;->getInstance()Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -263,7 +263,7 @@
 
     new-instance v6, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v8
 
@@ -320,9 +320,9 @@
 
     move-result v8
 
-    invoke-virtual {v6, v9, v8}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->setTextSize(IF)V
+    invoke-virtual {v6, v9, v8}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    invoke-virtual {v6}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->getPaint()Landroid/text/TextPaint;
+    invoke-virtual {v6}, Landroid/widget/TextView;->getPaint()Landroid/text/TextPaint;
 
     move-result-object v4
 
@@ -338,7 +338,7 @@
 
     move-result-object v8
 
-    invoke-virtual {v4, v8}, Landroid/text/TextPaint;->measureText(Ljava/lang/String;)F
+    invoke-virtual {v4, v8}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
 
     move-result v8
 
@@ -425,7 +425,7 @@
 
     new-instance v2, Landroid/widget/ImageView;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
@@ -435,20 +435,20 @@
 
     invoke-direct {v5, v9, v8}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    invoke-virtual {v2, v5}, Landroid/widget/ImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v2, v5}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setBackgroundResource(I)V
+    invoke-virtual {v2, v3}, Landroid/view/View;->setBackgroundResource(I)V
 
-    invoke-virtual {v4, v2}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+    invoke-virtual {v4, v2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     :cond_0
-    invoke-virtual {v4, v0}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+    invoke-virtual {v4, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     if-eqz v3, :cond_1
 
     new-instance v2, Landroid/widget/ImageView;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
@@ -458,16 +458,16 @@
 
     invoke-direct {v5, v9, v8}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    invoke-virtual {v2, v5}, Landroid/widget/ImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v2, v5}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setBackgroundResource(I)V
+    invoke-virtual {v2, v3}, Landroid/view/View;->setBackgroundResource(I)V
 
-    invoke-virtual {v4, v2}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+    invoke-virtual {v4, v2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     :cond_1
     iget-object v5, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->mScrollViewLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v5, v4}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+    invoke-virtual {v5, v4}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     return-object v0
 .end method
@@ -538,7 +538,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->mScrollViewLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v1}, Landroid/widget/LinearLayout;->getChildCount()I
+    invoke-virtual {v1}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v0
 
@@ -655,7 +655,7 @@
 
     move-object/from16 v30, v0
 
-    invoke-virtual/range {v30 .. v30}, Landroid/widget/LinearLayout;->removeAllViews()V
+    invoke-virtual/range {v30 .. v30}, Landroid/view/ViewGroup;->removeAllViews()V
 
     move-object/from16 v0, p1
 
@@ -702,11 +702,11 @@
     invoke-virtual/range {v30 .. v32}, Landroid/widget/ScrollView;->scrollTo(II)V
 
     :cond_0
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->getPaddingTop()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v21
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->getPaddingBottom()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingBottom()I
 
     move-result v18
 
@@ -722,7 +722,7 @@
 
     if-nez v30, :cond_1
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->getPaddingLeft()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v30
 
@@ -732,7 +732,7 @@
 
     iput v0, v1, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->mOriginLeftPadding:I
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->getPaddingRight()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingRight()I
 
     move-result v30
 
@@ -851,7 +851,7 @@
 
     move/from16 v4, v18
 
-    invoke-virtual {v0, v1, v2, v3, v4}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->setPadding(IIII)V
+    invoke-virtual {v0, v1, v2, v3, v4}, Landroid/view/View;->setPadding(IIII)V
 
     move-object/from16 v0, p0
 
@@ -893,7 +893,7 @@
 
     move/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->setGravity(I)V
+    invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setGravity(I)V
 
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->getSuggestionFontSize()F
 
@@ -1033,7 +1033,7 @@
 
     new-instance v25, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->getContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v30
 
@@ -1139,7 +1139,7 @@
 
     move/from16 v1, v30
 
-    invoke-virtual {v0, v1, v8}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->setTextSize(IF)V
+    invoke-virtual {v0, v1, v8}, Landroid/widget/TextView;->setTextSize(IF)V
 
     move-object/from16 v0, v25
 
@@ -1149,7 +1149,7 @@
 
     move-object/from16 v0, v25
 
-    invoke-virtual {v0, v9}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->setHeight(I)V
+    invoke-virtual {v0, v9}, Landroid/widget/TextView;->setHeight(I)V
 
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->getTextColor()I
 
@@ -1199,7 +1199,7 @@
 
     move/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->setBackgroundResource(I)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
     move-object/from16 v0, v25
 
@@ -1207,7 +1207,7 @@
 
     move/from16 v2, v22
 
-    invoke-virtual {v0, v15, v1, v2, v6}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->setPadding(IIII)V
+    invoke-virtual {v0, v15, v1, v2, v6}, Landroid/widget/TextView;->setPadding(IIII)V
 
     const/16 v30, 0x11
 
@@ -1215,7 +1215,7 @@
 
     move/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->setGravity(I)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setGravity(I)V
 
     if-eqz v12, :cond_8
 
@@ -1227,7 +1227,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
 
     :cond_8
     move-object/from16 v0, p0
@@ -1302,7 +1302,7 @@
 
     move/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->setSingleLine(Z)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setSingleLine(Z)V
 
     sget-object v30, Landroid/text/TextUtils$TruncateAt;->START:Landroid/text/TextUtils$TruncateAt;
 
@@ -1310,7 +1310,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
 
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->addNewLine()Landroid/widget/LinearLayout;
 
@@ -1328,7 +1328,7 @@
     :goto_6
     new-instance v24, Landroid/widget/TextView;
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->getContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v30
 
@@ -1386,7 +1386,7 @@
 
     move/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setBackgroundResource(I)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
     const/16 v30, 0x11
 
@@ -1400,7 +1400,7 @@
 
     move-object/from16 v1, p0
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     move-object/from16 v0, p0
 
@@ -1440,7 +1440,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     new-instance v30, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout$2;
 
@@ -1454,7 +1454,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
     :cond_a
     :goto_7
@@ -1524,19 +1524,19 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
     :cond_b
     :goto_8
     move-object/from16 v0, v25
 
-    invoke-virtual {v7, v0}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+    invoke-virtual {v7, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     if-lez v10, :cond_c
 
     move-object/from16 v0, v24
 
-    invoke-virtual {v7, v0}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+    invoke-virtual {v7, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     :cond_c
     add-int/lit8 p2, p2, 0x1
@@ -1599,7 +1599,7 @@
 
     move/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->setWidth(I)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setWidth(I)V
 
     move/from16 v0, v17
 
@@ -1630,7 +1630,7 @@
 
     move/from16 v2, v31
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->setTextSize(IF)V
+    invoke-virtual {v0, v1, v2}, Landroid/widget/TextView;->setTextSize(IF)V
 
     move/from16 v0, v16
 
@@ -1701,7 +1701,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
     goto/16 :goto_7
 
@@ -1712,7 +1712,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
     goto/16 :goto_8
 

@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment$24;->this$0:Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -49,7 +49,7 @@
 
     check-cast v0, Landroid/preference/CheckBoxPreference;
 
-    invoke-virtual {v0}, Landroid/preference/CheckBoxPreference;->isChecked()Z
+    invoke-virtual {v0}, Landroid/preference/TwoStatePreference;->isChecked()Z
 
     move-result v3
 
@@ -57,7 +57,7 @@
 
     const-string v9, "SETTINGS_DEFAULT_TRACE"
 
-    invoke-virtual {v8, v9}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v8, v9}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -67,7 +67,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {v1}, Landroid/preference/CheckBoxPreference;->isChecked()Z
+    invoke-virtual {v1}, Landroid/preference/TwoStatePreference;->isChecked()Z
 
     move-result v5
 
@@ -119,7 +119,7 @@
 
     if-eqz v5, :cond_2
 
-    invoke-virtual {v0, v7}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v0, v7}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     iget-object v7, p0, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment$24;->this$0:Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;
 

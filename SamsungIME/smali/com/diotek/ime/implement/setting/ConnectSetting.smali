@@ -97,7 +97,7 @@
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/ConnectSetting;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v6}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual {v6}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v6
 
@@ -106,7 +106,7 @@
     :cond_0
     const v5, 0x7f030035
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/ConnectSetting;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
 
@@ -141,7 +141,7 @@
 
     const-string v6, "layout_inflater"
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/implement/setting/ConnectSetting;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v6}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -189,7 +189,7 @@
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/ConnectSetting;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v6}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v6}, Landroid/app/Dialog;->show()V
 
     goto :goto_0
 .end method
@@ -207,7 +207,7 @@
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/ConnectSetting;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v6}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual {v6}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v6
 
@@ -216,7 +216,7 @@
     :cond_0
     const v5, 0x7f030041
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/ConnectSetting;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
 
@@ -251,7 +251,7 @@
 
     const-string v6, "layout_inflater"
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/implement/setting/ConnectSetting;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v6}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -299,7 +299,7 @@
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/ConnectSetting;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v6}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v6}, Landroid/app/Dialog;->show()V
 
     goto :goto_0
 .end method
@@ -341,10 +341,10 @@
 
     const v7, 0x7f030049
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/implement/setting/ConnectSetting;->addPreferencesFromResource(I)V
+    invoke-virtual {p0, v7}, Landroid/preference/PreferenceActivity;->addPreferencesFromResource(I)V
 
     :goto_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/ConnectSetting;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -357,7 +357,7 @@
     :cond_0
     const-string v7, "connect_gmail_enable"
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/implement/setting/ConnectSetting;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v7}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v7
 
@@ -367,7 +367,7 @@
 
     const-string v7, "connect_facebook_enable"
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/implement/setting/ConnectSetting;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v7}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v7
 
@@ -377,7 +377,7 @@
 
     const-string v7, "connect_twitter_enable"
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/implement/setting/ConnectSetting;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v7}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v7
 
@@ -387,7 +387,7 @@
 
     const-string v7, "connect_messaging_enable"
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/implement/setting/ConnectSetting;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v7}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v7
 
@@ -397,7 +397,7 @@
 
     const-string v7, "connect_contacts_enable"
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/implement/setting/ConnectSetting;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v7}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v7
 
@@ -407,7 +407,7 @@
 
     const-string v7, "settings_use_spell_checker"
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/implement/setting/ConnectSetting;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v7}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v7
 
@@ -423,7 +423,7 @@
 
     const-string v7, "settings_use_spell_checker"
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/implement/setting/ConnectSetting;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v7}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -431,13 +431,13 @@
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/ConnectSetting;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual {p0}, Landroid/preference/PreferenceActivity;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v3
 
     if-eqz v3, :cond_1
 
-    invoke-virtual {v3, v1}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v3, v1}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_1
     iget-object v7, p0, Lcom/diotek/ime/implement/setting/ConnectSetting;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -481,7 +481,7 @@
     :cond_3
     const-string v7, "support_dlm"
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/implement/setting/ConnectSetting;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v7}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v6
 
@@ -493,12 +493,12 @@
 
     invoke-direct {v7, p0}, Lcom/diotek/ime/implement/setting/ConnectSetting$1;-><init>(Lcom/diotek/ime/implement/setting/ConnectSetting;)V
 
-    invoke-virtual {v6, v7}, Landroid/preference/CheckBoxPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
+    invoke-virtual {v6, v7}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
     :cond_4
     const-string v7, "SETTINGS_DEFAULT_AUTO_CORRECTION"
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/implement/setting/ConnectSetting;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v7}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -506,18 +506,18 @@
 
     if-eqz v1, :cond_5
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/ConnectSetting;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual {p0}, Landroid/preference/PreferenceActivity;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v3
 
     if-eqz v3, :cond_5
 
-    invoke-virtual {v3, v1}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v3, v1}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_5
     const-string v7, "SETTINGS_DEFAULT_USE_LIVE_LANGUAGE"
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/implement/setting/ConnectSetting;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v7}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v2
 
@@ -529,12 +529,12 @@
 
     invoke-direct {v7, p0}, Lcom/diotek/ime/implement/setting/ConnectSetting$2;-><init>(Lcom/diotek/ime/implement/setting/ConnectSetting;)V
 
-    invoke-virtual {v2, v7}, Landroid/preference/CheckBoxPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
+    invoke-virtual {v2, v7}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
     :cond_6
     const-string v7, "SETTINGS_DEFAULT_USE_LIVE_LANGUAGE"
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/implement/setting/ConnectSetting;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v7}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -542,13 +542,13 @@
 
     if-eqz v1, :cond_7
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/ConnectSetting;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual {p0}, Landroid/preference/PreferenceActivity;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v3
 
     if-eqz v3, :cond_7
 
-    invoke-virtual {v3, v1}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v3, v1}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_7
     invoke-static {}, Lcom/diotek/ime/framework/repository/InputStatus;->isKNOXStatus()Z
@@ -569,7 +569,7 @@
 
     const-string v7, "support_dlm"
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/implement/setting/ConnectSetting;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v7}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -579,7 +579,7 @@
 
     const/4 v7, 0x0
 
-    invoke-virtual {v1, v7}, Landroid/preference/CheckBoxPreference;->setEnabled(Z)V
+    invoke-virtual {v1, v7}, Landroid/preference/Preference;->setEnabled(Z)V
 
     :cond_8
     return-void
@@ -587,7 +587,7 @@
     :cond_9
     const v7, 0x7f030048
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/implement/setting/ConnectSetting;->addPreferencesFromResource(I)V
+    invoke-virtual {p0, v7}, Landroid/preference/PreferenceActivity;->addPreferencesFromResource(I)V
 
     goto/16 :goto_0
 
@@ -596,7 +596,7 @@
 
     if-eqz v7, :cond_2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/ConnectSetting;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual {p0}, Landroid/preference/PreferenceActivity;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v3
 
@@ -604,7 +604,7 @@
 
     iget-object v7, p0, Lcom/diotek/ime/implement/setting/ConnectSetting;->mMessagingPreference:Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;
 
-    invoke-virtual {v3, v7}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v3, v7}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     goto/16 :goto_1
 .end method
@@ -671,7 +671,7 @@
 
     packed-switch v0, :pswitch_data_0
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
 
     move-result v0
 
@@ -679,7 +679,7 @@
     return v0
 
     :pswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/ConnectSetting;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     const/4 v0, 0x1
 
@@ -706,7 +706,7 @@
 
     const-string v5, "layout_inflater"
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/implement/setting/ConnectSetting;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v5}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -750,7 +750,7 @@
 
     const v3, 0x7f0d010e
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/implement/setting/ConnectSetting;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v4}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v5
 
@@ -764,7 +764,7 @@
 
     invoke-virtual {v0, v5, v6}, Landroid/app/AlertDialog$Builder;->setNegativeButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/implement/setting/ConnectSetting;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v3}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v5
 

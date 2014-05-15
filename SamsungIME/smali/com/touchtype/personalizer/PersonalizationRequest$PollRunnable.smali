@@ -29,7 +29,7 @@
 
     iput-object p1, p0, Lcom/touchtype/personalizer/PersonalizationRequest$PollRunnable;->this$0:Lcom/touchtype/personalizer/PersonalizationRequest;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p2, p0, Lcom/touchtype/personalizer/PersonalizationRequest$PollRunnable;->m_delayIndex:I
 
@@ -215,15 +215,15 @@
 
     const/4 v4, 0x0
 
-    invoke-virtual {v0, v4}, Ljavax/net/ssl/HttpsURLConnection;->setInstanceFollowRedirects(Z)V
+    invoke-virtual {v0, v4}, Ljava/net/HttpURLConnection;->setInstanceFollowRedirects(Z)V
 
     const/4 v4, 0x0
 
-    invoke-virtual {v0, v4}, Ljavax/net/ssl/HttpsURLConnection;->setUseCaches(Z)V
+    invoke-virtual {v0, v4}, Ljava/net/URLConnection;->setUseCaches(Z)V
 
-    invoke-virtual {v0}, Ljavax/net/ssl/HttpsURLConnection;->connect()V
+    invoke-virtual {v0}, Ljava/net/URLConnection;->connect()V
 
-    invoke-virtual {v0}, Ljavax/net/ssl/HttpsURLConnection;->getResponseCode()I
+    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     move-result v2
 
@@ -281,7 +281,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v0}, Ljavax/net/ssl/HttpsURLConnection;->getResponseCode()I
+    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     move-result v6
 
@@ -342,7 +342,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v6
 
@@ -362,7 +362,7 @@
 
     invoke-direct {p0}, Lcom/touchtype/personalizer/PersonalizationRequest$PollRunnable;->pollLater()V
 
-    invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 
@@ -382,13 +382,13 @@
     :sswitch_2
     const-string v4, "X-progress"
 
-    invoke-virtual {v0, v4}, Ljavax/net/ssl/HttpsURLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v4}, Ljava/net/URLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
     const-string v5, "X-max-progress"
 
-    invoke-virtual {v0, v5}, Ljavax/net/ssl/HttpsURLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v5}, Ljava/net/URLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 

@@ -70,7 +70,7 @@
 
     invoke-virtual {v1, v2, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/Xt9MyWords;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     return-void
 .end method
@@ -86,7 +86,7 @@
 
     invoke-virtual {v0, p0, v1}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/Xt9MyWords;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     return-void
 .end method
@@ -224,7 +224,7 @@
 
     invoke-interface {v2}, Landroid/view/Menu;->clear()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWords;->getMenuInflater()Landroid/view/MenuInflater;
+    invoke-virtual {p0}, Landroid/app/Activity;->getMenuInflater()Landroid/view/MenuInflater;
 
     move-result-object v1
 
@@ -236,7 +236,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/Xt9MyWords;->mEmptyLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v2}, Landroid/widget/LinearLayout;->getVisibility()I
+    invoke-virtual {v2}, Landroid/view/View;->getVisibility()I
 
     move-result v2
 
@@ -296,7 +296,7 @@
     iput-object v1, p0, Lcom/diotek/ime/implement/setting/Xt9MyWords;->mXt9DBController:Lcom/diotek/ime/framework/engine/xt9/Xt9DBController;
 
     :cond_1
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWords;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -306,15 +306,15 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/Xt9MyWords;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
     const v1, 0x7f030088
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/Xt9MyWords;->setContentView(I)V
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->setContentView(I)V
 
     const v1, 0x7f0800ae
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/Xt9MyWords;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -322,7 +322,7 @@
 
     iput-object v1, p0, Lcom/diotek/ime/implement/setting/Xt9MyWords;->mEmptyLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWords;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -343,7 +343,7 @@
 
     invoke-interface {p1}, Landroid/view/Menu;->clear()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWords;->getMenuInflater()Landroid/view/MenuInflater;
+    invoke-virtual {p0}, Landroid/app/Activity;->getMenuInflater()Landroid/view/MenuInflater;
 
     move-result-object v0
 
@@ -408,7 +408,7 @@
     return v0
 
     :sswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWords;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
@@ -461,7 +461,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/Xt9MyWords;->mEmptyLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v2}, Landroid/widget/LinearLayout;->getVisibility()I
+    invoke-virtual {v2}, Landroid/view/View;->getVisibility()I
 
     move-result v2
 
@@ -496,7 +496,7 @@
 
     const v6, 0x7f0800af
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/implement/setting/Xt9MyWords;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v6}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v6
 
@@ -610,11 +610,11 @@
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/Xt9MyWords;->mMainListView:Landroid/widget/ListView;
 
-    invoke-virtual {v6, v10}, Landroid/widget/ListView;->setVisibility(I)V
+    invoke-virtual {v6, v10}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/Xt9MyWords;->mEmptyLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v6, v7}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-virtual {v6, v7}, Landroid/view/View;->setVisibility(I)V
 
     :goto_4
     invoke-direct {p0, v0}, Lcom/diotek/ime/implement/setting/Xt9MyWords;->setDeleteMenuItemEnabled(Z)V
@@ -643,13 +643,13 @@
 
     move-result-object v7
 
-    invoke-virtual {v6, v7}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
+    invoke-virtual {v6, v7}, Landroid/widget/AdapterView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/Xt9MyWords;->mMainListView:Landroid/widget/ListView;
 
     const/high16 v7, 0x10
 
-    invoke-virtual {v6, v7}, Landroid/widget/ListView;->setDrawingCacheQuality(I)V
+    invoke-virtual {v6, v7}, Landroid/view/View;->setDrawingCacheQuality(I)V
 
     invoke-super {p0}, Landroid/app/Activity;->onResume()V
 
@@ -708,11 +708,11 @@
     :cond_5
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/Xt9MyWords;->mMainListView:Landroid/widget/ListView;
 
-    invoke-virtual {v6, v7}, Landroid/widget/ListView;->setVisibility(I)V
+    invoke-virtual {v6, v7}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/Xt9MyWords;->mEmptyLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v6, v10}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-virtual {v6, v10}, Landroid/view/View;->setVisibility(I)V
 
     goto :goto_4
 .end method

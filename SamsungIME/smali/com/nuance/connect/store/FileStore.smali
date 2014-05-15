@@ -34,7 +34,7 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 2
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     sget-object v0, Lcom/nuance/connect/util/Logger$LoggerType;->OEM:Lcom/nuance/connect/util/Logger$LoggerType;
 
@@ -623,7 +623,7 @@
 
     move-result-object v6
 
-    invoke-virtual {v4, v0}, Ljava/io/FileOutputStream;->write([B)V
+    invoke-virtual {v4, v0}, Ljava/io/OutputStream;->write([B)V
 
     invoke-virtual {v6}, Ljava/nio/channels/FileLock;->release()V
     :try_end_3

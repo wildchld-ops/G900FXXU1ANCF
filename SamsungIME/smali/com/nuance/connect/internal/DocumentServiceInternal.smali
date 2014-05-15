@@ -381,7 +381,7 @@
 
     if-eqz v3, :cond_1
 
-    invoke-virtual {v3}, Lcom/nuance/connect/internal/common/Document$DocumentType;->name()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v1
 
@@ -507,7 +507,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
 
     move-result v4
 
@@ -911,7 +911,7 @@
 
     check-cast v1, Lcom/nuance/connect/api/ResourcesService;
 
-    invoke-virtual {p1}, Lcom/nuance/connect/internal/common/Document$DocumentType;->name()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v4
 
@@ -934,7 +934,7 @@
 
     move-result-object v5
 
-    invoke-virtual {p1}, Lcom/nuance/connect/internal/common/Document$DocumentType;->name()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v6
 
@@ -994,7 +994,7 @@
 
     sget-object v0, Lcom/nuance/connect/common/ConnectFeature;->DOCUMENTS:Lcom/nuance/connect/common/ConnectFeature;
 
-    invoke-virtual {v0}, Lcom/nuance/connect/common/ConnectFeature;->name()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v0
 

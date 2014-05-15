@@ -157,7 +157,7 @@
 
     invoke-virtual {v1, v2, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
-    iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mContext:Landroid/content/Context;
+    iget-object v1, p0, Landroid/view/View;->mContext:Landroid/content/Context;
 
     iget-object v2, p0, Lcom/diotek/ime/framework/view/FullScreenHwrPanelView;->mIntent:Landroid/content/Intent;
 
@@ -187,7 +187,7 @@
 .method public invalidateHwrBackgound()V
     .locals 1
 
-    invoke-super {p0}, Lcom/diotek/ime/implement/view/HwrKeyboardView;->invalidateHwrBackgound()V
+    invoke-super {p0}, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->invalidateHwrBackgound()V
 
     const/4 v0, 0x0
 
@@ -199,7 +199,7 @@
 .method public invalidateHwrRect()V
     .locals 1
 
-    invoke-super {p0}, Lcom/diotek/ime/implement/view/HwrKeyboardView;->invalidateHwrRect()V
+    invoke-super {p0}, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->invalidateHwrRect()V
 
     const/4 v0, 0x0
 
@@ -215,7 +215,7 @@
 
     iput-boolean v0, p0, Lcom/diotek/ime/framework/view/FullScreenHwrPanelView;->mOnIntentPointArea:Z
 
-    invoke-super {p0, p1}, Lcom/diotek/ime/implement/view/HwrKeyboardView;->onHwrPanelLongPressed(Landroid/graphics/Point;)V
+    invoke-super {p0, p1}, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->onHwrPanelLongPressed(Landroid/graphics/Point;)V
 
     iput-boolean v0, p0, Lcom/diotek/ime/framework/view/FullScreenHwrPanelView;->mOnHwrWriting:Z
 
@@ -334,7 +334,7 @@
     move-result v2
 
     :cond_2
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/FullScreenHwrPanelView;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v12
 
@@ -387,7 +387,7 @@
 
     if-eqz v12, :cond_6
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/FullScreenHwrPanelView;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v12
 
@@ -407,7 +407,7 @@
 
     iget-object v12, p0, Lcom/diotek/ime/framework/view/FullScreenHwrPanelView;->mParentView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v12, v4}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-virtual {v12, v4}, Landroid/view/View;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
 
     :goto_1
     const/4 v12, 0x1
@@ -473,7 +473,7 @@
     iput-boolean v12, p0, Lcom/diotek/ime/framework/view/FullScreenHwrPanelView;->mOnHwrWriting:Z
 
     :cond_a
-    invoke-super/range {p0 .. p2}, Lcom/diotek/ime/implement/view/HwrKeyboardView;->onTouchEvent(Landroid/view/MotionEvent;Z)Z
+    invoke-super/range {p0 .. p2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->onTouchEvent(Landroid/view/MotionEvent;Z)Z
 
     move-result v12
 
@@ -584,7 +584,7 @@
 
     invoke-direct/range {p0 .. p1}, Lcom/diotek/ime/framework/view/FullScreenHwrPanelView;->sendIntentMessage(Landroid/view/MotionEvent;)V
 
-    invoke-virtual {p0, v10, v11, v5, v6}, Lcom/diotek/ime/framework/view/FullScreenHwrPanelView;->handleHwrTouchCancel(IIJ)Z
+    invoke-virtual {p0, v10, v11, v5, v6}, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->handleHwrTouchCancel(IIJ)Z
 
     const/4 v12, 0x1
 

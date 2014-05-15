@@ -32,7 +32,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-boolean v3, p0, Lcom/diotek/ime/implement/effect/DefaultVibrateController;->mVibrateOn:Z
 

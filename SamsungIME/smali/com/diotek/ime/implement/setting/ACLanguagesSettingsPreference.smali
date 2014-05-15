@@ -89,7 +89,7 @@
 
     const v0, 0x7f03008e
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->setWidgetLayoutResource(I)V
+    invoke-virtual {p0, v0}, Landroid/preference/Preference;->setWidgetLayoutResource(I)V
 
     const-string v0, "0x%08x"
 
@@ -149,7 +149,7 @@
 
     const-string v1, "selected"
 
-    invoke-virtual {v0, v1, v3}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual {v0, v1, v3}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -271,7 +271,7 @@
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->parent:Lcom/diotek/ime/implement/setting/ACLanguagesSettings;
 
-    invoke-virtual {v3, v0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v3, v0}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v3
 
@@ -404,7 +404,7 @@
 .method public IntentForDialog(I)V
     .locals 4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -488,7 +488,7 @@
 
     const-string v11, "layout_inflater"
 
-    invoke-virtual {v10, v11}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v10, v11}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v6
 
@@ -504,7 +504,7 @@
 
     const v11, 0x7f0d024e
 
-    invoke-virtual {v10, v11}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v10, v11}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v10
 
@@ -526,7 +526,7 @@
 
     const v11, 0x7f0d024f
 
-    invoke-virtual {v10, v11}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v10, v11}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v10
 
@@ -560,14 +560,14 @@
 
     invoke-direct {v10, p0, v4}, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference$4;-><init>(Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;Landroid/widget/CheckBox;)V
 
-    invoke-virtual {v4, v10}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v4, v10}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_1
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
     goto :goto_0
 .end method
@@ -627,7 +627,7 @@
 
     const-string v11, "layout_inflater"
 
-    invoke-virtual {v10, v11}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v10, v11}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v6
 
@@ -651,7 +651,7 @@
 
     const v11, 0x7f0d01e8
 
-    invoke-virtual {v10, v11}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v10, v11}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v10
 
@@ -674,7 +674,7 @@
 
     const v11, 0x7f0d024d
 
-    invoke-virtual {v10, v11}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v10, v11}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v10
 
@@ -708,14 +708,14 @@
 
     invoke-direct {v10, p0, v4}, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference$6;-><init>(Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;Landroid/widget/CheckBox;)V
 
-    invoke-virtual {v4, v10}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v4, v10}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_1
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
     goto/16 :goto_0
 
@@ -724,7 +724,7 @@
 
     const v11, 0x7f0d024c
 
-    invoke-virtual {v10, v11}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v10, v11}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v10
 
@@ -755,7 +755,7 @@
     return-void
 
     :cond_1
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->getPreferenceManager()Landroid/preference/PreferenceManager;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getPreferenceManager()Landroid/preference/PreferenceManager;
 
     move-result-object v4
 
@@ -845,7 +845,7 @@
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->statusTextView:Landroid/widget/TextView;
 
-    invoke-virtual {v4, v7}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v4, v7}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->downloadProgressBar:Landroid/widget/ProgressBar;
 
@@ -853,15 +853,15 @@
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->cancelButton:Landroid/widget/Button;
 
-    invoke-virtual {v4, v6}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v4, v6}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->enableCheckBox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v4, v6}, Landroid/widget/CheckBox;->setVisibility(I)V
+    invoke-virtual {v4, v6}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->updateButton:Landroid/widget/Button;
 
-    invoke-virtual {v4, v6}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v4, v6}, Landroid/view/View;->setVisibility(I)V
 
     goto :goto_0
 
@@ -872,7 +872,7 @@
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->statusTextView:Landroid/widget/TextView;
 
-    invoke-virtual {v4, v6}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v4, v6}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->downloadProgressBar:Landroid/widget/ProgressBar;
 
@@ -880,19 +880,19 @@
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->cancelButton:Landroid/widget/Button;
 
-    invoke-virtual {v4, v6}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v4, v6}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->enableCheckBox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v4, v7}, Landroid/widget/CheckBox;->setVisibility(I)V
+    invoke-virtual {v4, v7}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->updateButton:Landroid/widget/Button;
 
-    invoke-virtual {v4, v6}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v4, v6}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->enableCheckBox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v4, v1}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v4, v1}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     goto/16 :goto_0
 
@@ -905,7 +905,7 @@
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->statusTextView:Landroid/widget/TextView;
 
-    invoke-virtual {v4, v6}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v4, v6}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->downloadProgressBar:Landroid/widget/ProgressBar;
 
@@ -913,15 +913,15 @@
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->cancelButton:Landroid/widget/Button;
 
-    invoke-virtual {v4, v7}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v4, v7}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->enableCheckBox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v4, v6}, Landroid/widget/CheckBox;->setVisibility(I)V
+    invoke-virtual {v4, v6}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->updateButton:Landroid/widget/Button;
 
-    invoke-virtual {v4, v6}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v4, v6}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->downloadProgressBar:Landroid/widget/ProgressBar;
 
@@ -945,11 +945,11 @@
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->cancelButton:Landroid/widget/Button;
 
-    invoke-virtual {v4, v9}, Landroid/widget/Button;->setHeight(I)V
+    invoke-virtual {v4, v9}, Landroid/widget/TextView;->setHeight(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->updateButton:Landroid/widget/Button;
 
-    invoke-virtual {v4, v9}, Landroid/widget/Button;->setHeight(I)V
+    invoke-virtual {v4, v9}, Landroid/widget/TextView;->setHeight(I)V
 
     goto/16 :goto_0
 
@@ -962,7 +962,7 @@
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->statusTextView:Landroid/widget/TextView;
 
-    invoke-virtual {v4, v6}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v4, v6}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->downloadProgressBar:Landroid/widget/ProgressBar;
 
@@ -970,15 +970,15 @@
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->cancelButton:Landroid/widget/Button;
 
-    invoke-virtual {v4, v6}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v4, v6}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->enableCheckBox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v4, v6}, Landroid/widget/CheckBox;->setVisibility(I)V
+    invoke-virtual {v4, v6}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->updateButton:Landroid/widget/Button;
 
-    invoke-virtual {v4, v7}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v4, v7}, Landroid/view/View;->setVisibility(I)V
 
     goto/16 :goto_0
 
@@ -991,7 +991,7 @@
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->statusTextView:Landroid/widget/TextView;
 
-    invoke-virtual {v4, v6}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v4, v6}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->downloadProgressBar:Landroid/widget/ProgressBar;
 
@@ -999,15 +999,15 @@
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->cancelButton:Landroid/widget/Button;
 
-    invoke-virtual {v4, v7}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v4, v7}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->enableCheckBox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v4, v6}, Landroid/widget/CheckBox;->setVisibility(I)V
+    invoke-virtual {v4, v6}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->updateButton:Landroid/widget/Button;
 
-    invoke-virtual {v4, v6}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v4, v6}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->downloadProgressBar:Landroid/widget/ProgressBar;
 
@@ -1063,7 +1063,7 @@
 
     invoke-direct {v1, p0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference$1;-><init>(Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->updateButton:Landroid/widget/Button;
 
@@ -1071,7 +1071,7 @@
 
     invoke-direct {v1, p0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference$2;-><init>(Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     return-void
 .end method
@@ -1085,7 +1085,7 @@
 
     const/4 v6, 0x0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->getPreferenceManager()Landroid/preference/PreferenceManager;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getPreferenceManager()Landroid/preference/PreferenceManager;
 
     move-result-object v4
 
@@ -1129,7 +1129,7 @@
 
     iget-object v5, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->parent:Lcom/diotek/ime/implement/setting/ACLanguagesSettings;
 
-    invoke-virtual {v5, v2}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v5, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v5
 
@@ -1168,7 +1168,7 @@
 
     iget-object v7, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->parent:Lcom/diotek/ime/implement/setting/ACLanguagesSettings;
 
-    invoke-virtual {v7, v2}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v7, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v7
 
@@ -1223,7 +1223,7 @@
 
     :cond_3
     :goto_1
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v4
 
@@ -1268,7 +1268,7 @@
     move v4, v5
 
     :goto_2
-    invoke-virtual {v7, v4}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v7, v4}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->key:Ljava/lang/String;
 
@@ -1366,7 +1366,7 @@
     move v4, v5
 
     :goto_4
-    invoke-virtual {v7, v4}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v7, v4}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->key:Ljava/lang/String;
 
@@ -1406,7 +1406,7 @@
 .method public showDownloadGuideDialog()V
     .locals 2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -1654,7 +1654,7 @@
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->parent:Lcom/diotek/ime/implement/setting/ACLanguagesSettings;
 
-    invoke-virtual {v3, v0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {v3, v0}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v3
 

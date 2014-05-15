@@ -60,7 +60,7 @@
     :try_start_0
     iput-boolean v0, p0, Lcom/visionobjects/textwidget/d/b$a;->b:Z
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/d/b$a;->get()Ljava/lang/Object;
+    invoke-virtual {p0}, Landroid/os/AsyncTask;->get()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -82,7 +82,7 @@
     :catch_0
     move-exception v0
 
-    invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 .end method

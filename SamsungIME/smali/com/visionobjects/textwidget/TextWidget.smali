@@ -587,9 +587,9 @@
 
     iput v6, p0, Lcom/visionobjects/textwidget/TextWidget;->b:I
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->clearAnimation()V
+    invoke-virtual {p0}, Landroid/view/View;->clearAnimation()V
 
-    invoke-virtual {p0, v0}, Lcom/visionobjects/textwidget/TextWidget;->setAnimation(Landroid/view/animation/Animation;)V
+    invoke-virtual {p0, v0}, Landroid/view/View;->setAnimation(Landroid/view/animation/Animation;)V
 
     :goto_1
     iget-object v0, p0, Lcom/visionobjects/textwidget/TextWidget;->E:Lcom/visionobjects/textwidget/c/i;
@@ -680,7 +680,7 @@
 
     const/4 v7, 0x0
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -1078,11 +1078,11 @@
 
     const/4 v5, -0x1
 
-    invoke-virtual {p0, v1, v4, v5}, Lcom/visionobjects/textwidget/TextWidget;->addView(Landroid/view/View;II)V
+    invoke-virtual {p0, v1, v4, v5}, Landroid/view/ViewGroup;->addView(Landroid/view/View;II)V
 
-    invoke-virtual {p0, v2, v8, v8}, Lcom/visionobjects/textwidget/TextWidget;->addView(Landroid/view/View;II)V
+    invoke-virtual {p0, v2, v8, v8}, Landroid/view/ViewGroup;->addView(Landroid/view/View;II)V
 
-    invoke-virtual {p0, v3, v8, v8}, Lcom/visionobjects/textwidget/TextWidget;->addView(Landroid/view/View;II)V
+    invoke-virtual {p0, v3, v8, v8}, Landroid/view/ViewGroup;->addView(Landroid/view/View;II)V
 
     iget v1, v0, Landroid/util/DisplayMetrics;->xdpi:F
 
@@ -1642,7 +1642,7 @@
 .method private h(F)V
     .locals 3
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getWidth()I
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v0
 
@@ -1917,7 +1917,7 @@
 
     iput v0, p0, Lcom/visionobjects/textwidget/TextWidget;->b:I
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->clearAnimation()V
+    invoke-virtual {p0}, Landroid/view/View;->clearAnimation()V
 
     return-void
 .end method
@@ -2110,7 +2110,7 @@
 .method private u()V
     .locals 2
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getWidth()I
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v0
 
@@ -2162,7 +2162,7 @@
 .method private v()V
     .locals 2
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getWidth()I
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v0
 
@@ -2566,7 +2566,7 @@
 
     invoke-direct {v3}, Ljava/util/Date;-><init>()V
 
-    invoke-virtual {v1, v3}, Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
+    invoke-virtual {v1, v3}, Ljava/text/DateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -2661,7 +2661,7 @@
 .method public final a(I)V
     .locals 1
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getHandler()Landroid/os/Handler;
+    invoke-virtual {p0}, Landroid/view/View;->getHandler()Landroid/os/Handler;
 
     move-result-object v0
 
@@ -2677,7 +2677,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/visionobjects/textwidget/k;-><init>(Lcom/visionobjects/textwidget/TextWidget;I)V
 
-    invoke-virtual {p0, v0}, Lcom/visionobjects/textwidget/TextWidget;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     goto :goto_0
 .end method
@@ -2958,7 +2958,7 @@
 .method public final a(Lcom/visionobjects/stylus/core/InkField;)V
     .locals 1
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getHandler()Landroid/os/Handler;
+    invoke-virtual {p0}, Landroid/view/View;->getHandler()Landroid/os/Handler;
 
     move-result-object v0
 
@@ -2972,7 +2972,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/visionobjects/textwidget/m;-><init>(Lcom/visionobjects/textwidget/TextWidget;Lcom/visionobjects/stylus/core/InkField;)V
 
-    invoke-virtual {p0, v0}, Lcom/visionobjects/textwidget/TextWidget;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     goto :goto_0
 .end method
@@ -3444,7 +3444,7 @@
 .method public final a()Z
     .locals 1
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->isEnabled()Z
+    invoke-virtual {p0}, Landroid/view/View;->isEnabled()Z
 
     move-result v0
 
@@ -3517,7 +3517,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/visionobjects/textwidget/r;-><init>(Lcom/visionobjects/textwidget/TextWidget;F)V
 
-    invoke-virtual {p0, v0}, Lcom/visionobjects/textwidget/TextWidget;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     return-void
 .end method
@@ -3726,7 +3726,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/visionobjects/textwidget/s;-><init>(Lcom/visionobjects/textwidget/TextWidget;F)V
 
-    invoke-virtual {p0, v0}, Lcom/visionobjects/textwidget/TextWidget;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     return-void
 .end method
@@ -3994,7 +3994,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/TextWidget;->t:Lcom/visionobjects/textwidget/d/b;
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getId()I
+    invoke-virtual {p0}, Landroid/view/View;->getId()I
 
     move-result v1
 
@@ -4192,7 +4192,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/visionobjects/textwidget/t;-><init>(Lcom/visionobjects/textwidget/TextWidget;F)V
 
-    invoke-virtual {p0, v0}, Lcom/visionobjects/textwidget/TextWidget;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     return-void
 .end method
@@ -4204,7 +4204,7 @@
 
     invoke-direct {v0, p0}, Lcom/visionobjects/textwidget/c;-><init>(Lcom/visionobjects/textwidget/TextWidget;)V
 
-    invoke-virtual {p0, v0}, Lcom/visionobjects/textwidget/TextWidget;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     return-void
 .end method
@@ -4216,7 +4216,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/visionobjects/textwidget/b;-><init>(Lcom/visionobjects/textwidget/TextWidget;F)V
 
-    invoke-virtual {p0, v0}, Lcom/visionobjects/textwidget/TextWidget;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     return-void
 .end method
@@ -4228,7 +4228,7 @@
 
     invoke-direct {v0, p0}, Lcom/visionobjects/textwidget/d;-><init>(Lcom/visionobjects/textwidget/TextWidget;)V
 
-    invoke-virtual {p0, v0}, Lcom/visionobjects/textwidget/TextWidget;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     return-void
 .end method
@@ -4240,7 +4240,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/visionobjects/textwidget/e;-><init>(Lcom/visionobjects/textwidget/TextWidget;F)V
 
-    invoke-virtual {p0, v0}, Lcom/visionobjects/textwidget/TextWidget;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     return-void
 .end method
@@ -4252,7 +4252,7 @@
 
     invoke-direct {v0, p0, p1}, Lcom/visionobjects/textwidget/f;-><init>(Lcom/visionobjects/textwidget/TextWidget;F)V
 
-    invoke-virtual {p0, v0}, Lcom/visionobjects/textwidget/TextWidget;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     return-void
 .end method
@@ -4678,7 +4678,7 @@
 .method public final n()Z
     .locals 1
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->isEnabled()Z
+    invoke-virtual {p0}, Landroid/view/View;->isEnabled()Z
 
     move-result v0
 
@@ -4708,7 +4708,7 @@
 .method public final o()Z
     .locals 1
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->isEnabled()Z
+    invoke-virtual {p0}, Landroid/view/View;->isEnabled()Z
 
     move-result v0
 
@@ -4784,7 +4784,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/TextWidget;->aj:Ljava/lang/Runnable;
 
-    invoke-virtual {p0, v0}, Lcom/visionobjects/textwidget/TextWidget;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     const/4 v0, 0x0
 
@@ -5454,7 +5454,7 @@
 .method public setAutoScrollMargin(F)V
     .locals 6
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -5909,9 +5909,9 @@
 
     iput v1, p0, Lcom/visionobjects/textwidget/TextWidget;->b:I
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->clearAnimation()V
+    invoke-virtual {p0}, Landroid/view/View;->clearAnimation()V
 
-    invoke-virtual {p0, v0}, Lcom/visionobjects/textwidget/TextWidget;->setAnimation(Landroid/view/animation/Animation;)V
+    invoke-virtual {p0, v0}, Landroid/view/View;->setAnimation(Landroid/view/animation/Animation;)V
 
     goto :goto_0
 
@@ -5967,7 +5967,7 @@
     :cond_0
     iget-object v0, p0, Lcom/visionobjects/textwidget/TextWidget;->F:Lcom/visionobjects/textwidget/c/i;
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -6033,7 +6033,7 @@
 
     const/4 v0, 0x0
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -6177,7 +6177,7 @@
     :cond_0
     iget-object v0, p0, Lcom/visionobjects/textwidget/TextWidget;->D:Lcom/visionobjects/textwidget/c/f;
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -6201,7 +6201,7 @@
 .method public setInkCapResources(II)V
     .locals 4
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -6209,7 +6209,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -6391,7 +6391,7 @@
 .method public setInkWidth(F)V
     .locals 6
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -6513,7 +6513,7 @@
     :cond_0
     iget-object v0, p0, Lcom/visionobjects/textwidget/TextWidget;->E:Lcom/visionobjects/textwidget/c/i;
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -6817,7 +6817,7 @@
     :cond_0
     iget-object v0, p0, Lcom/visionobjects/textwidget/TextWidget;->C:Lcom/visionobjects/textwidget/c/m;
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -6847,7 +6847,7 @@
     :cond_0
     iget-object v0, p0, Lcom/visionobjects/textwidget/TextWidget;->C:Lcom/visionobjects/textwidget/c/m;
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -6877,7 +6877,7 @@
     :cond_0
     iget-object v0, p0, Lcom/visionobjects/textwidget/TextWidget;->C:Lcom/visionobjects/textwidget/c/m;
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -7138,7 +7138,7 @@
 
     if-nez p1, :cond_0
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -7155,7 +7155,7 @@
 
     new-array v1, v0, [F
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -7368,7 +7368,7 @@
     :cond_0
     iget-object v0, p0, Lcom/visionobjects/textwidget/TextWidget;->C:Lcom/visionobjects/textwidget/c/m;
 
-    invoke-virtual {p0}, Lcom/visionobjects/textwidget/TextWidget;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 

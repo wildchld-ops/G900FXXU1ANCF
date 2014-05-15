@@ -104,7 +104,7 @@
 
     sget-object v0, Lcom/nuance/connect/util/Logger$LoggerType;->$VALUES:[Lcom/nuance/connect/util/Logger$LoggerType;
 
-    invoke-virtual {v0}, [Lcom/nuance/connect/util/Logger$LoggerType;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 

@@ -204,7 +204,7 @@
 
     invoke-super {p0, p1}, Landroid/preference/PreferenceFragment;->onCreate(Landroid/os/Bundle;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsFragment;->getActivity()Landroid/app/Activity;
+    invoke-virtual {p0}, Landroid/app/Fragment;->getActivity()Landroid/app/Activity;
 
     move-result-object v2
 
@@ -224,7 +224,7 @@
 
     invoke-virtual {v0, v2}, Landroid/app/ActionBar;->setTitle(I)V
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsFragment;->setHasOptionsMenu(Z)V
+    invoke-virtual {p0, v3}, Landroid/app/Fragment;->setHasOptionsMenu(Z)V
 
     :cond_0
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsFragment;->settingActivity:Landroid/app/Activity;
@@ -281,11 +281,11 @@
     :cond_2
     const v2, 0x7f030055
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsFragment;->addPreferencesFromResource(I)V
+    invoke-virtual {p0, v2}, Landroid/preference/PreferenceFragment;->addPreferencesFromResource(I)V
 
     const-string v2, "settings_keyboard_swipe_none"
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v2}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -310,7 +310,7 @@
     :cond_3
     const-string v2, "settings_keyboard_swipe_continuous_input"
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v2}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -335,7 +335,7 @@
     :cond_4
     const-string v2, "settings_keyboard_swipe_cursor_control"
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v2}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -360,7 +360,7 @@
     :cond_5
     const-string v2, "settings_keyboard_swipe_flick_umlaut"
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v2}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -395,7 +395,7 @@
 
     packed-switch v0, :pswitch_data_0
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceFragment;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    invoke-super {p0, p1}, Landroid/app/Fragment;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
 
     move-result v0
 
@@ -422,7 +422,7 @@
 .method public onResume()V
     .locals 21
 
-    invoke-super/range {p0 .. p0}, Landroid/preference/PreferenceFragment;->onResume()V
+    invoke-super/range {p0 .. p0}, Landroid/app/Fragment;->onResume()V
 
     move-object/from16 v0, p0
 
@@ -456,7 +456,7 @@
 
     move/from16 v18, v0
 
-    invoke-virtual/range {v17 .. v18}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->setEnabled(Z)V
+    invoke-virtual/range {v17 .. v18}, Landroid/preference/Preference;->setEnabled(Z)V
 
     move-object/from16 v0, p0
 
@@ -474,7 +474,7 @@
 
     const v18, 0x7f0d0077
 
-    invoke-virtual/range {v17 .. v18}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->setSummary(I)V
+    invoke-virtual/range {v17 .. v18}, Landroid/preference/Preference;->setSummary(I)V
 
     :goto_0
     const-string v17, "settings_keyboard_swipe"
@@ -483,7 +483,7 @@
 
     move-object/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v11
 
@@ -614,7 +614,7 @@
 
     const/16 v19, 0x0
 
-    invoke-virtual/range {v17 .. v19}, Landroid/app/Activity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual/range {v17 .. v19}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v13
 
@@ -713,7 +713,7 @@
 
     const v18, 0x7f0d0078
 
-    invoke-virtual/range {v17 .. v18}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->setSummary(I)V
+    invoke-virtual/range {v17 .. v18}, Landroid/preference/Preference;->setSummary(I)V
 
     goto/16 :goto_0
 
@@ -964,7 +964,7 @@
 
     const/16 v18, 0x0
 
-    invoke-virtual/range {v17 .. v18}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->setEnabled(Z)V
+    invoke-virtual/range {v17 .. v18}, Landroid/preference/Preference;->setEnabled(Z)V
 
     :goto_5
     return-void
@@ -1034,7 +1034,7 @@
 
     const/16 v18, 0x1
 
-    invoke-virtual/range {v17 .. v18}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->setEnabled(Z)V
+    invoke-virtual/range {v17 .. v18}, Landroid/preference/Preference;->setEnabled(Z)V
 
     goto :goto_5
 
@@ -1051,7 +1051,7 @@
 
     move/from16 v18, v0
 
-    invoke-virtual/range {v17 .. v18}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->setEnabled(Z)V
+    invoke-virtual/range {v17 .. v18}, Landroid/preference/Preference;->setEnabled(Z)V
 
     goto :goto_5
 
@@ -1068,7 +1068,7 @@
 
     move/from16 v18, v0
 
-    invoke-virtual/range {v17 .. v18}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->setEnabled(Z)V
+    invoke-virtual/range {v17 .. v18}, Landroid/preference/Preference;->setEnabled(Z)V
 
     goto :goto_5
 .end method

@@ -152,7 +152,7 @@
 
     sget-object v0, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyChineseManager$CHINESE_TYPE;->$VALUES:[Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyChineseManager$CHINESE_TYPE;
 
-    invoke-virtual {v0}, [Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyChineseManager$CHINESE_TYPE;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 

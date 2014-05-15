@@ -66,7 +66,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/framework/language/ContextAwareLanguageManager$ContextAwareLanguageDataStructure;->this$0:Lcom/diotek/ime/framework/language/ContextAwareLanguageManager;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput v2, p0, Lcom/diotek/ime/framework/language/ContextAwareLanguageManager$ContextAwareLanguageDataStructure;->INVAILD_KEY:I
 
@@ -171,7 +171,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/framework/language/ContextAwareLanguageManager$ContextAwareLanguageDataStructure;->this$0:Lcom/diotek/ime/framework/language/ContextAwareLanguageManager;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput v0, p0, Lcom/diotek/ime/framework/language/ContextAwareLanguageManager$ContextAwareLanguageDataStructure;->INVAILD_KEY:I
 
@@ -234,7 +234,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/framework/language/ContextAwareLanguageManager$ContextAwareLanguageDataStructure;->this$0:Lcom/diotek/ime/framework/language/ContextAwareLanguageManager;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput v0, p0, Lcom/diotek/ime/framework/language/ContextAwareLanguageManager$ContextAwareLanguageDataStructure;->INVAILD_KEY:I
 
@@ -301,7 +301,7 @@
     :cond_0
     iget-object v5, p0, Lcom/diotek/ime/framework/language/ContextAwareLanguageManager$ContextAwareLanguageDataStructure;->mCurPreferredLanguageList:Ljava/util/LinkedList;
 
-    invoke-virtual {v5}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v5}, Ljava/util/AbstractSequentialList;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
 
@@ -397,7 +397,7 @@
     :cond_6
     iget-object v5, p0, Lcom/diotek/ime/framework/language/ContextAwareLanguageManager$ContextAwareLanguageDataStructure;->mCurPreferredLanguageList:Ljava/util/LinkedList;
 
-    invoke-virtual {v5}, Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v5}, Ljava/util/AbstractSequentialList;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
 

@@ -70,7 +70,7 @@
 .method public constructor <init>(FF)V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcom/visionobjects/textwidget/d/b;->j:F
 
@@ -646,7 +646,7 @@
 
     aput-object v5, v1, v2
 
-    invoke-virtual {v0, v1}, Lcom/visionobjects/textwidget/d/b$a;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+    invoke-virtual {v0, v1}, Landroid/os/AsyncTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     goto/16 :goto_3
 .end method
@@ -742,7 +742,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/d/b;->p:Lcom/visionobjects/textwidget/d/b$a;
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/d/b$a;->getStatus()Landroid/os/AsyncTask$Status;
+    invoke-virtual {v0}, Landroid/os/AsyncTask;->getStatus()Landroid/os/AsyncTask$Status;
 
     move-result-object v0
 

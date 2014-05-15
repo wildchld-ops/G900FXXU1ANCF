@@ -25,7 +25,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
@@ -136,7 +136,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/framework/view/tracker/KeyDetector;->mKeyboard:Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v1
 

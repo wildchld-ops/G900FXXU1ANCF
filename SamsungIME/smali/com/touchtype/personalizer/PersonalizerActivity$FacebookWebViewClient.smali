@@ -107,7 +107,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p1}, Landroid/webkit/WebView;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v0
 

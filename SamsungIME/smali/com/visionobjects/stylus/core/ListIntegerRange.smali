@@ -57,7 +57,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0, v2}, Lcom/visionobjects/stylus/core/ListIntegerRange;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v0, v0, 0x1
 
@@ -116,7 +116,7 @@
 
     check-cast v0, Lcom/visionobjects/stylus/core/IntegerRange;
 
-    invoke-virtual {p0, v0}, Lcom/visionobjects/stylus/core/ListIntegerRange;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 

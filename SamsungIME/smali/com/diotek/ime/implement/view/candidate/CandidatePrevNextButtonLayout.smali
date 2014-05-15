@@ -67,7 +67,7 @@
 
     const-string v2, "button_prev"
 
-    invoke-virtual {v0}, Landroid/widget/Button;->getTag()Ljava/lang/Object;
+    invoke-virtual {v0}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -89,7 +89,7 @@
     :cond_0
     const-string v2, "button_next"
 
-    invoke-virtual {v0}, Landroid/widget/Button;->getTag()Ljava/lang/Object;
+    invoke-virtual {v0}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -156,7 +156,7 @@
 
     const-string v1, "button_prev"
 
-    invoke-virtual {v0}, Landroid/widget/Button;->getTag()Ljava/lang/Object;
+    invoke-virtual {v0}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -170,13 +170,13 @@
 
     invoke-direct {v1, p0}, Lcom/diotek/ime/implement/view/candidate/CandidatePrevNextButtonLayout$1;-><init>(Lcom/diotek/ime/implement/view/candidate/CandidatePrevNextButtonLayout;)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     new-instance v1, Lcom/diotek/ime/implement/view/candidate/CandidatePrevNextButtonLayout$2;
 
     invoke-direct {v1, p0}, Lcom/diotek/ime/implement/view/candidate/CandidatePrevNextButtonLayout$2;-><init>(Lcom/diotek/ime/implement/view/candidate/CandidatePrevNextButtonLayout;)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
 
     :cond_0
     :goto_0
@@ -185,7 +185,7 @@
     :cond_1
     const-string v1, "button_next"
 
-    invoke-virtual {v0}, Landroid/widget/Button;->getTag()Ljava/lang/Object;
+    invoke-virtual {v0}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -199,13 +199,13 @@
 
     invoke-direct {v1, p0}, Lcom/diotek/ime/implement/view/candidate/CandidatePrevNextButtonLayout$3;-><init>(Lcom/diotek/ime/implement/view/candidate/CandidatePrevNextButtonLayout;)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     new-instance v1, Lcom/diotek/ime/implement/view/candidate/CandidatePrevNextButtonLayout$4;
 
     invoke-direct {v1, p0}, Lcom/diotek/ime/implement/view/candidate/CandidatePrevNextButtonLayout$4;-><init>(Lcom/diotek/ime/implement/view/candidate/CandidatePrevNextButtonLayout;)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
 
     goto :goto_0
 .end method

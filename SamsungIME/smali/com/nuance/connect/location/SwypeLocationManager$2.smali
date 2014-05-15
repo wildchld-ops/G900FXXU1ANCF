@@ -254,7 +254,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v8}, Ljava/lang/IllegalArgumentException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v2
 
@@ -283,7 +283,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v8}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v2
 
@@ -312,7 +312,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v8}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v2
 

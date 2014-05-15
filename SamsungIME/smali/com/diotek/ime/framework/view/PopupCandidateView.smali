@@ -25,7 +25,7 @@
 
     move-result v0
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/view/PopupCandidateView;->setBackgroundColor(I)V
+    invoke-virtual {p0, v0}, Landroid/view/View;->setBackgroundColor(I)V
 
     return-void
 .end method
@@ -39,7 +39,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/view/PopupCandidateView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v0, v1}, Landroid/view/View;->setMeasuredDimension(II)V
 
     return-void
 .end method

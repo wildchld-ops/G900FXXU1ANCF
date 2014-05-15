@@ -21,7 +21,7 @@
 
     invoke-direct {v0}, Lorg/apache/commons/io/output/ClosedOutputStream;-><init>()V
 
-    iput-object v0, p0, Lorg/apache/commons/io/output/ProxyOutputStream;->out:Ljava/io/OutputStream;
+    iput-object v0, p0, Ljava/io/FilterOutputStream;->out:Ljava/io/OutputStream;
 
     return-void
 .end method

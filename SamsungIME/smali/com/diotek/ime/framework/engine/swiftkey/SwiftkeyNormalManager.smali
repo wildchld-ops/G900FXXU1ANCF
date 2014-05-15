@@ -5979,7 +5979,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v6}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyNormalManager;->getKeyModelHashCodeEx(Ljava/util/HashMap;)I
+    invoke-virtual {v0, v6}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->getKeyModelHashCodeEx(Ljava/util/HashMap;)I
 
     move-result v9
 
@@ -5987,7 +5987,7 @@
 
     move/from16 v1, p4
 
-    invoke-virtual {v0, v1, v9}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyNormalManager;->loadCurrentKeyPressModelFileName(II)Ljava/lang/String;
+    invoke-virtual {v0, v1, v9}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->loadCurrentKeyPressModelFileName(II)Ljava/lang/String;
 
     move-result-object v9
 
@@ -6007,7 +6007,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v5}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyNormalManager;->shouldLoadKeyPressModel(Ljava/lang/String;)Z
+    invoke-virtual {v0, v5}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->shouldLoadKeyPressModel(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -6028,7 +6028,7 @@
 
     move-object/from16 v2, v28
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyNormalManager;->setKeyShpae(Lcom/touchtype_fluency/KeyShape;[Ljava/lang/Character;)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->setKeyShpae(Lcom/touchtype_fluency/KeyShape;[Ljava/lang/Character;)V
 
     :cond_11
     if-nez p4, :cond_12
@@ -6037,7 +6037,7 @@
 
     move/from16 v1, p3
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyNormalManager;->loadKorCharacterMap(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->loadKorCharacterMap(I)V
 
     :cond_12
     const/4 v4, 0x0
@@ -6068,7 +6068,7 @@
     move/from16 v9, p3
 
     :try_start_0
-    invoke-virtual/range {v4 .. v9}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyNormalManager;->saveAndLoadKeyPressModel(Ljava/lang/String;Ljava/util/HashMap;Ljava/util/HashMap;Ljava/util/HashSet;I)V
+    invoke-virtual/range {v4 .. v9}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->saveAndLoadKeyPressModel(Ljava/lang/String;Ljava/util/HashMap;Ljava/util/HashMap;Ljava/util/HashSet;I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -6087,7 +6087,7 @@
 
     move-object/from16 v2, v28
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyNormalManager;->setKeyShpae(Lcom/touchtype_fluency/KeyShape;[Ljava/lang/Character;)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->setKeyShpae(Lcom/touchtype_fluency/KeyShape;[Ljava/lang/Character;)V
 
     :cond_14
     const/4 v4, 0x0
@@ -6096,13 +6096,13 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v4, v9}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyNormalManager;->setCacheSequenceAndTouchHistory(Lcom/touchtype_fluency/Sequence;Lcom/touchtype_fluency/TouchHistory;)V
+    invoke-virtual {v0, v4, v9}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->setCacheSequenceAndTouchHistory(Lcom/touchtype_fluency/Sequence;Lcom/touchtype_fluency/TouchHistory;)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyNormalManager;->clearIntentionalEvents()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->clearIntentionalEvents()V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyNormalManager;->clearTouchHistoryRepository()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->clearTouchHistoryRepository()V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyNormalManager;->cancelPreviewFlow()Z
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->cancelPreviewFlow()Z
 
     const/4 v4, 0x1
 
@@ -6122,7 +6122,7 @@
     move/from16 v14, p3
 
     :try_start_1
-    invoke-virtual/range {v9 .. v14}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyNormalManager;->saveAndLoadKeyPressModel(Ljava/lang/String;Ljava/util/HashMap;Ljava/util/HashMap;Ljava/util/HashSet;I)V
+    invoke-virtual/range {v9 .. v14}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->saveAndLoadKeyPressModel(Ljava/lang/String;Ljava/util/HashMap;Ljava/util/HashMap;Ljava/util/HashSet;I)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -6293,11 +6293,11 @@
     return v5
 
     :cond_1
-    invoke-virtual {p0, v1, v4}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyNormalManager;->saveAndLoadKeyPressModel(Ljava/util/HashMap;Ljava/util/HashSet;)V
+    invoke-virtual {p0, v1, v4}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->saveAndLoadKeyPressModel(Ljava/util/HashMap;Ljava/util/HashSet;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyNormalManager;->clearTouchHistoryRepository()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->clearTouchHistoryRepository()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyNormalManager;->cancelPreviewFlow()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->cancelPreviewFlow()Z
 
     move v5, v6
 

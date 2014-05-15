@@ -55,7 +55,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    invoke-virtual {v1}, Landroid/widget/LinearLayout;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {v1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v0
 
@@ -72,7 +72,7 @@
     :cond_0
     iget-object v2, p0, Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup;->mUmluatLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v2, v1}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+    invoke-virtual {v2, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     return-object v1
 .end method
@@ -127,9 +127,9 @@
 
     invoke-virtual {v1, v2, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup;->sendBroadcast(Landroid/content/Intent;)V
+    invoke-virtual {p0, v1}, Landroid/content/ContextWrapper;->sendBroadcast(Landroid/content/Intent;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     return-void
 
@@ -146,7 +146,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup;->mUmluatLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v1}, Landroid/widget/LinearLayout;->findFocus()Landroid/view/View;
+    invoke-virtual {v1}, Landroid/view/ViewGroup;->findFocus()Landroid/view/View;
 
     move-result-object v0
 
@@ -154,7 +154,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Landroid/widget/Button;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {v0}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
 
     move-result-object v1
 
@@ -177,7 +177,7 @@
 
     move-object/from16 v1, v22
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v21
 
@@ -197,9 +197,9 @@
 
     move/from16 v1, v22
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup;->setContentView(I)V
+    invoke-virtual {v0, v1}, Landroid/app/Activity;->setContentView(I)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup;->getIntent()Landroid/content/Intent;
+    invoke-virtual/range {p0 .. p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v22
 
@@ -215,7 +215,7 @@
 
     move/from16 v1, v22
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v22
 
@@ -227,7 +227,7 @@
 
     iput-object v0, v1, Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup;->mUmluatLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup;->getResources()Landroid/content/res/Resources;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v22
 
@@ -294,7 +294,7 @@
 
     move/from16 v1, v22
 
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setClickable(Z)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setClickable(Z)V
 
     const/16 v22, 0x0
 
@@ -302,7 +302,7 @@
 
     move/from16 v1, v22
 
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setFocusable(Z)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setFocusable(Z)V
 
     const/16 v22, 0x0
 
@@ -310,7 +310,7 @@
 
     move-object/from16 v1, v22
 
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     const/16 v22, -0x1
 
@@ -354,7 +354,7 @@
 
     move-object/from16 v0, v18
 
-    invoke-virtual {v7, v0}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+    invoke-virtual {v7, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     new-instance v6, Landroid/widget/Button;
 
@@ -370,7 +370,7 @@
 
     move-object/from16 v0, v22
 
-    invoke-virtual {v6, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v6, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     move-object/from16 v0, v19
 
@@ -384,21 +384,21 @@
 
     move-object/from16 v0, v22
 
-    invoke-virtual {v6, v0}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v6, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     add-int/lit8 v22, v11, 0x1
 
     move/from16 v0, v22
 
-    invoke-virtual {v6, v0}, Landroid/widget/Button;->setId(I)V
+    invoke-virtual {v6, v0}, Landroid/view/View;->setId(I)V
 
-    invoke-virtual {v6, v5}, Landroid/widget/Button;->setWidth(I)V
+    invoke-virtual {v6, v5}, Landroid/widget/TextView;->setWidth(I)V
 
     const/16 v22, 0x1
 
     move/from16 v0, v22
 
-    invoke-virtual {v6, v0}, Landroid/widget/Button;->setFocusable(Z)V
+    invoke-virtual {v6, v0}, Landroid/view/View;->setFocusable(Z)V
 
     if-nez v11, :cond_3
 
@@ -408,15 +408,15 @@
 
     move/from16 v0, v22
 
-    invoke-virtual {v6, v0}, Landroid/widget/Button;->setNextFocusLeftId(I)V
+    invoke-virtual {v6, v0}, Landroid/view/View;->setNextFocusLeftId(I)V
 
-    invoke-virtual {v6}, Landroid/widget/Button;->requestFocus()Z
+    invoke-virtual {v6}, Landroid/view/View;->requestFocus()Z
 
     :cond_0
     :goto_1
-    invoke-virtual {v7, v6}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+    invoke-virtual {v7, v6}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    invoke-virtual {v7}, Landroid/widget/LinearLayout;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {v7}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v8
 
@@ -441,9 +441,9 @@
 
     move/from16 v1, v23
 
-    invoke-virtual {v7, v0, v1}, Landroid/widget/LinearLayout;->measure(II)V
+    invoke-virtual {v7, v0, v1}, Landroid/view/View;->measure(II)V
 
-    invoke-virtual {v15, v7}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+    invoke-virtual {v15, v7}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     const/16 v22, -0x2
 
@@ -453,9 +453,9 @@
 
     move/from16 v1, v23
 
-    invoke-virtual {v15, v0, v1}, Landroid/widget/LinearLayout;->measure(II)V
+    invoke-virtual {v15, v0, v1}, Landroid/view/View;->measure(II)V
 
-    invoke-virtual {v15}, Landroid/widget/LinearLayout;->getMeasuredWidth()I
+    invoke-virtual {v15}, Landroid/view/View;->getMeasuredWidth()I
 
     move-result v22
 
@@ -483,7 +483,7 @@
 
     add-int v9, v22, v23
 
-    invoke-virtual {v15}, Landroid/widget/LinearLayout;->getChildCount()I
+    invoke-virtual {v15}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v13
 
@@ -492,7 +492,7 @@
     :goto_2
     if-ge v12, v13, :cond_4
 
-    invoke-virtual {v15, v9}, Landroid/widget/LinearLayout;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {v15, v9}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v20
 
@@ -519,7 +519,7 @@
 
     move-object/from16 v1, v20
 
-    invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+    invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     add-int/lit8 v12, v12, 0x1
 
@@ -540,7 +540,7 @@
 
     move/from16 v0, v22
 
-    invoke-virtual {v6, v0}, Landroid/widget/Button;->setNextFocusRightId(I)V
+    invoke-virtual {v6, v0}, Landroid/view/View;->setNextFocusRightId(I)V
 
     goto/16 :goto_1
 
@@ -592,7 +592,7 @@
     :goto_1
     iget-object v0, p0, Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup;->mUmluatLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v0, v10}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v0, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v8
 
@@ -600,13 +600,13 @@
 
     if-eqz v8, :cond_1
 
-    invoke-virtual {v8}, Landroid/widget/Button;->hasFocus()Z
+    invoke-virtual {v8}, Landroid/view/View;->hasFocus()Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
-    invoke-virtual {v8}, Landroid/widget/Button;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {v8}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
 
     move-result-object v0
 
@@ -626,7 +626,7 @@
     goto :goto_1
 
     :cond_3
-    invoke-virtual {v8}, Landroid/widget/Button;->requestFocus()Z
+    invoke-virtual {v8}, Landroid/view/View;->requestFocus()Z
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -656,9 +656,9 @@
 
     invoke-virtual {v11, v0}, Landroid/view/MotionEvent;->setAction(I)V
 
-    invoke-virtual {v8, v9}, Landroid/widget/Button;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-virtual {v8, v9}, Landroid/view/View;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
 
-    invoke-virtual {v8, v11}, Landroid/widget/Button;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-virtual {v8, v11}, Landroid/view/View;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
 
     invoke-virtual {v9}, Landroid/view/MotionEvent;->recycle()V
 
@@ -673,7 +673,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup;->mUmluatLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v0}, Landroid/widget/LinearLayout;->findFocus()Landroid/view/View;
+    invoke-virtual {v0}, Landroid/view/ViewGroup;->findFocus()Landroid/view/View;
 
     move-result-object v12
 
@@ -683,7 +683,7 @@
 
     const/16 v1, 0x42
 
-    invoke-virtual {v0, v12, v1}, Landroid/widget/LinearLayout;->focusSearch(Landroid/view/View;I)Landroid/view/View;
+    invoke-virtual {v0, v12, v1}, Landroid/view/ViewGroup;->focusSearch(Landroid/view/View;I)Landroid/view/View;
 
     move-result-object v0
 
@@ -696,7 +696,7 @@
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 

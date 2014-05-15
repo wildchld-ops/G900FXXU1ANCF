@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/setting/ConnectSetting$1;->this$0:Lcom/diotek/ime/implement/setting/ConnectSetting;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -47,13 +47,13 @@
 
     check-cast v0, Landroid/preference/CheckBoxPreference;
 
-    invoke-virtual {v0}, Landroid/preference/CheckBoxPreference;->isChecked()Z
+    invoke-virtual {v0}, Landroid/preference/TwoStatePreference;->isChecked()Z
 
     move-result v1
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/ConnectSetting$1;->this$0:Lcom/diotek/ime/implement/setting/ConnectSetting;
 
-    invoke-virtual {v4}, Lcom/diotek/ime/implement/setting/ConnectSetting;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v4}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v4
 

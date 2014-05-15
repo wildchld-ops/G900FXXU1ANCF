@@ -120,7 +120,7 @@
 
     sget-object v0, Lcom/nuance/connect/internal/common/ConnectAccount$AccountDevice$DeviceType;->$VALUES:[Lcom/nuance/connect/internal/common/ConnectAccount$AccountDevice$DeviceType;
 
-    invoke-virtual {v0}, [Lcom/nuance/connect/internal/common/ConnectAccount$AccountDevice$DeviceType;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 

@@ -28,7 +28,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/framework/input/remoteController/RemoteControllerDataStructure$Position;->this$0:Lcom/diotek/ime/framework/input/remoteController/RemoteControllerDataStructure;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p2, p0, Lcom/diotek/ime/framework/input/remoteController/RemoteControllerDataStructure$Position;->row:I
 

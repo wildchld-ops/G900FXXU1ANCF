@@ -17,7 +17,7 @@
 .method public getPreferenceKey()Ljava/lang/String;
     .locals 2
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/service/DeleteRemotePersonalizer;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lcom/touchtype/personalizer/Personalizer;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -45,7 +45,7 @@
 .method public getServiceName()Ljava/lang/String;
     .locals 2
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/service/DeleteRemotePersonalizer;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lcom/touchtype/personalizer/Personalizer;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -75,7 +75,7 @@
 
     new-instance v0, Landroid/content/Intent;
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/service/DeleteRemotePersonalizer;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lcom/touchtype/personalizer/Personalizer;->getContext()Landroid/content/Context;
 
     move-result-object v1
 

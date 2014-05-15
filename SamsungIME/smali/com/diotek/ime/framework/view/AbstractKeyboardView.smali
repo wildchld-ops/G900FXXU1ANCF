@@ -3,9 +3,9 @@
 .source "AbstractKeyboardView.java"
 
 # interfaces
-.implements Lcom/diotek/ime/framework/view/tracker/PointerTracker$UIProxy;
 .implements Lcom/diotek/ime/framework/common/Constant;
 .implements Lcom/diotek/ime/framework/common/Messages;
+.implements Lcom/diotek/ime/framework/view/tracker/PointerTracker$UIProxy;
 
 
 # annotations
@@ -2446,7 +2446,7 @@
     return-object v0
 
     :sswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2459,7 +2459,7 @@
     goto :goto_0
 
     :sswitch_1
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2472,7 +2472,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2485,7 +2485,7 @@
     goto :goto_0
 
     :sswitch_3
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2498,7 +2498,7 @@
     goto :goto_0
 
     :sswitch_4
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2511,7 +2511,7 @@
     goto :goto_0
 
     :sswitch_5
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2524,7 +2524,7 @@
     goto :goto_0
 
     :sswitch_6
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2537,7 +2537,7 @@
     goto :goto_0
 
     :sswitch_7
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2550,7 +2550,7 @@
     goto :goto_0
 
     :sswitch_8
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2563,7 +2563,7 @@
     goto :goto_0
 
     :sswitch_9
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2576,7 +2576,7 @@
     goto :goto_0
 
     :sswitch_a
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2589,7 +2589,7 @@
     goto/16 :goto_0
 
     :sswitch_b
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2602,7 +2602,7 @@
     goto/16 :goto_0
 
     :sswitch_c
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2615,7 +2615,7 @@
     goto/16 :goto_0
 
     :sswitch_d
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2628,7 +2628,7 @@
     goto/16 :goto_0
 
     :sswitch_e
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2641,7 +2641,7 @@
     goto/16 :goto_0
 
     :sswitch_f
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2654,7 +2654,7 @@
     goto/16 :goto_0
 
     :sswitch_10
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2667,7 +2667,7 @@
     goto/16 :goto_0
 
     :sswitch_11
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2680,7 +2680,7 @@
     goto/16 :goto_0
 
     :sswitch_12
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2693,7 +2693,7 @@
     goto/16 :goto_0
 
     :sswitch_13
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2706,7 +2706,7 @@
     goto/16 :goto_0
 
     :sswitch_14
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2719,7 +2719,7 @@
     goto/16 :goto_0
 
     :sswitch_15
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2732,7 +2732,7 @@
     goto/16 :goto_0
 
     :sswitch_16
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2745,7 +2745,7 @@
     goto/16 :goto_0
 
     :sswitch_17
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2758,7 +2758,7 @@
     goto/16 :goto_0
 
     :sswitch_18
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2771,7 +2771,7 @@
     goto/16 :goto_0
 
     :sswitch_19
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2784,7 +2784,7 @@
     goto/16 :goto_0
 
     :sswitch_1a
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2797,7 +2797,7 @@
     goto/16 :goto_0
 
     :sswitch_1b
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2810,7 +2810,7 @@
     goto/16 :goto_0
 
     :sswitch_1c
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2823,7 +2823,7 @@
     goto/16 :goto_0
 
     :sswitch_1d
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2836,7 +2836,7 @@
     goto/16 :goto_0
 
     :sswitch_1e
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2849,7 +2849,7 @@
     goto/16 :goto_0
 
     :sswitch_1f
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2862,7 +2862,7 @@
     goto/16 :goto_0
 
     :sswitch_20
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2875,7 +2875,7 @@
     goto/16 :goto_0
 
     :sswitch_21
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2888,7 +2888,7 @@
     goto/16 :goto_0
 
     :sswitch_22
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2901,7 +2901,7 @@
     goto/16 :goto_0
 
     :sswitch_23
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -2980,7 +2980,7 @@
 
     new-instance v0, Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v4
 
@@ -3126,7 +3126,7 @@
     return-void
 
     :cond_1
-    invoke-virtual {p1}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v3
 
@@ -3210,7 +3210,7 @@
 
     iget-object v4, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mKeyboard:Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {v4}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v4}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v4
 
@@ -3339,7 +3339,7 @@
 
     iget v0, p2, Lcom/diotek/ime/framework/view/Keyboard$Key;->x:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v5
 
@@ -3504,7 +3504,7 @@
 
     neg-int v0, v0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v1
 
@@ -3525,7 +3525,7 @@
     :cond_c
     iget v0, p2, Lcom/diotek/ime/framework/view/Keyboard$Key;->x:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v5
 
@@ -3535,7 +3535,7 @@
 
     iget v5, p2, Lcom/diotek/ime/framework/view/Keyboard$Key;->y:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v10
 
@@ -3580,7 +3580,7 @@
 
     neg-int v0, v0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v1
 
@@ -3592,7 +3592,7 @@
 
     neg-int v1, v1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v5
 
@@ -3618,7 +3618,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mKeyboard:Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {v0}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v9
 
@@ -3997,7 +3997,7 @@
 
     iget v3, p2, Lcom/diotek/ime/framework/view/Keyboard$Key;->height:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v4
 
@@ -4469,7 +4469,7 @@
 
     sub-int/2addr v8, v9
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v9
 
@@ -4479,7 +4479,7 @@
 
     iget v9, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->y:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v10
 
@@ -4515,7 +4515,7 @@
 
     add-int/2addr v8, v9
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v9
 
@@ -4527,7 +4527,7 @@
 
     neg-int v9, v9
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v10
 
@@ -4549,7 +4549,7 @@
 
     iget v8, v0, Lcom/diotek/ime/framework/view/Keyboard$Key;->x:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v9
 
@@ -4565,7 +4565,7 @@
 
     add-int/2addr v9, v10
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v10
 
@@ -4595,7 +4595,7 @@
 
     neg-int v8, v8
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v9
 
@@ -4613,7 +4613,7 @@
 
     sub-int/2addr v9, v10
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v10
 
@@ -5705,7 +5705,7 @@
 
     iget v14, v8, Lcom/diotek/ime/framework/view/Keyboard$Key;->height:I
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v15
 
@@ -5715,7 +5715,7 @@
 
     iget v11, v8, Lcom/diotek/ime/framework/view/Keyboard$Key;->x:I
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v12
 
@@ -5823,7 +5823,7 @@
 
     iget v12, v8, Lcom/diotek/ime/framework/view/Keyboard$Key;->height:I
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v13
 
@@ -5848,7 +5848,7 @@
 
     iget v12, v8, Lcom/diotek/ime/framework/view/Keyboard$Key;->height:I
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v13
 
@@ -5869,7 +5869,7 @@
 
     iget v11, v8, Lcom/diotek/ime/framework/view/Keyboard$Key;->x:I
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v12
 
@@ -5971,7 +5971,7 @@
 
     iget v11, v8, Lcom/diotek/ime/framework/view/Keyboard$Key;->x:I
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v12
 
@@ -5981,7 +5981,7 @@
 
     iget v12, v8, Lcom/diotek/ime/framework/view/Keyboard$Key;->y:I
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v13
 
@@ -6059,7 +6059,7 @@
     :cond_10
     iget v11, v8, Lcom/diotek/ime/framework/view/Keyboard$Key;->x:I
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v12
 
@@ -6071,7 +6071,7 @@
 
     iget v12, v8, Lcom/diotek/ime/framework/view/Keyboard$Key;->y:I
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v13
 
@@ -7412,7 +7412,7 @@
     :cond_9
     new-instance v4, Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
@@ -7571,7 +7571,7 @@
     :cond_10
     new-instance v4, Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v14
 
@@ -7626,7 +7626,7 @@
     :cond_13
     new-instance v4, Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v25
 
@@ -7813,7 +7813,7 @@
     :cond_1a
     new-instance v4, Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v25
 
@@ -7957,7 +7957,7 @@
 
     new-instance v4, Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v25
 
@@ -8059,7 +8059,7 @@
 
     new-instance v4, Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v31
 
@@ -8067,11 +8067,11 @@
 
     move-result v34
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v5
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingRight()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingRight()I
 
     move-result v6
 
@@ -8189,15 +8189,15 @@
 
     new-instance v4, Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v31
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v5
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingRight()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingRight()I
 
     move-result v6
 
@@ -8270,15 +8270,15 @@
     :cond_2a
     new-instance v4, Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v31
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v5
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingRight()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingRight()I
 
     move-result v6
 
@@ -8295,7 +8295,7 @@
     :cond_2b
     new-instance v4, Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
@@ -8420,15 +8420,15 @@
 
     new-instance v0, Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingRight()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingRight()I
 
     move-result v5
 
@@ -8450,15 +8450,15 @@
     :cond_1
     new-instance v0, Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingRight()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingRight()I
 
     move-result v5
 
@@ -8478,7 +8478,7 @@
 .method private getSpaceKeyLabelColor()I
     .locals 2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -8581,7 +8581,7 @@
 .method private getTextView()Landroid/widget/TextView;
     .locals 4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -8619,9 +8619,9 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setUseGestureDetectorExtension(Z)V
+    invoke-virtual {p0, v3}, Landroid/view/View;->setUseGestureDetectorExtension(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -8635,7 +8635,7 @@
 
     iput-object v1, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mClipExManager:Landroid/sec/clipboard/ClipboardExManager;
 
-    invoke-virtual {p0, v3, v3, v3, v3}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setPadding(IIII)V
+    invoke-virtual {p0, v3, v3, v3, v3}, Landroid/view/View;->setPadding(IIII)V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/IndianInputModule;->getInstance()Lcom/diotek/ime/framework/input/IndianInputModule;
 
@@ -8975,7 +8975,7 @@
 
     if-ne v1, v6, :cond_11
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -9305,7 +9305,7 @@
 
     const/high16 v1, 0x43fa
 
-    invoke-virtual {p1}, Landroid/inputmethodservice/InputMethodService;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Landroid/content/ContextWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v4
 
@@ -9496,7 +9496,7 @@
 
     iput-boolean v1, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mUseSymbolLayoutByATT:Z
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setImportantForAccessibility(I)V
+    invoke-virtual {p0, v2}, Landroid/view/View;->setImportantForAccessibility(I)V
 
     invoke-static {}, Landroid/util/GeneralUtil;->isTablet()Z
 
@@ -9537,7 +9537,7 @@
 
     iput-boolean v1, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mEnableSmileLongPressableIcon:Z
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -9575,7 +9575,7 @@
     invoke-virtual {v1}, Lcom/diotek/ime/framework/input/shortcutphrase/ShortcutPhraseController;->initialize()V
 
     :try_start_0
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -9782,7 +9782,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mTrace:Lcom/diotek/ime/framework/trace/KeyboardTrace;
 
-    invoke-virtual {v1}, Lcom/diotek/ime/framework/trace/KeyboardTrace;->getPathBound()Landroid/graphics/Rect;
+    invoke-virtual {v1}, Lcom/diotek/ime/framework/view/AbstractKeyboardTraceLine;->getPathBound()Landroid/graphics/Rect;
 
     move-result-object v0
 
@@ -9798,7 +9798,7 @@
 
     iget v4, v0, Landroid/graphics/Rect;->bottom:I
 
-    invoke-virtual {p0, v1, v2, v3, v4}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->invalidate(IIII)V
+    invoke-virtual {p0, v1, v2, v3, v4}, Landroid/view/View;->invalidate(IIII)V
 
     goto :goto_0
 
@@ -9811,19 +9811,19 @@
 
     iget v4, v0, Landroid/graphics/Rect;->bottom:I
 
-    invoke-virtual {p0, v1, v2, v3, v4}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->postInvalidate(IIII)V
+    invoke-virtual {p0, v1, v2, v3, v4}, Landroid/view/View;->postInvalidate(IIII)V
 
     goto :goto_0
 
     :cond_2
     if-eqz p1, :cond_3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     goto :goto_0
 
     :cond_3
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->postInvalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->postInvalidate()V
 
     goto :goto_0
 .end method
@@ -10099,7 +10099,7 @@
 
     iget v0, p2, Lcom/diotek/ime/framework/view/Keyboard$Key;->x:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v1
 
@@ -10115,7 +10115,7 @@
 
     iget v0, p2, Lcom/diotek/ime/framework/view/Keyboard$Key;->y:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v1
 
@@ -10135,7 +10135,7 @@
 
     add-int/2addr v0, v1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v1
 
@@ -10155,7 +10155,7 @@
 
     add-int/2addr v0, v1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v1
 
@@ -10785,7 +10785,7 @@
 
     div-float v2, v0, v7
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWidth()I
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v0
 
@@ -10797,7 +10797,7 @@
 
     sub-float v3, v0, v3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v0
 
@@ -11254,7 +11254,7 @@
 
     iget v2, v2, Lcom/diotek/ime/framework/view/Keyboard$Key;->x:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v3
 
@@ -11264,7 +11264,7 @@
 
     iget v3, v3, Lcom/diotek/ime/framework/view/Keyboard$Key;->y:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v4
 
@@ -11280,7 +11280,7 @@
 
     add-int/2addr v4, v5
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v5
 
@@ -11296,7 +11296,7 @@
 
     add-int/2addr v5, v6
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v6
 
@@ -11328,7 +11328,7 @@
 
     invoke-direct {p0, v0, v2, v3}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->drawKeyBackground(Landroid/graphics/Canvas;Lcom/diotek/ime/framework/view/Keyboard$Key;Z)V
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->invalidate(Landroid/graphics/Rect;)V
+    invoke-virtual {p0, v1}, Landroid/view/View;->invalidate(Landroid/graphics/Rect;)V
 
     return-void
 .end method
@@ -11504,7 +11504,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWidth()I
+    invoke-virtual {v0}, Landroid/view/View;->getWidth()I
 
     move-result v1
 
@@ -11585,7 +11585,7 @@
 
     new-instance v3, Ljava/util/ArrayList;
 
-    invoke-virtual {p1}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v4
 
@@ -11744,7 +11744,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v1, v2}, Landroid/widget/FrameLayout;->setLayerType(ILandroid/graphics/Paint;)V
+    invoke-virtual {v0, v1, v2}, Landroid/view/View;->setLayerType(ILandroid/graphics/Paint;)V
 
     :cond_0
     return-void
@@ -12292,7 +12292,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mKeyboard:Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v2
 
@@ -12309,7 +12309,7 @@
     :cond_1
     iget-object v2, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mKeyboard:Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v2
 
@@ -12357,7 +12357,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mKeyboard:Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v2}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v2
 
@@ -12622,7 +12622,7 @@
 .method public detectAndSendKey(IIIJ)V
     .locals 23
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->isShown()Z
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->isShown()Z
 
     move-result v18
 
@@ -12653,7 +12653,7 @@
 
     move-object/from16 v18, v0
 
-    invoke-virtual/range {v18 .. v18}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {v18 .. v18}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v18
 
@@ -12722,7 +12722,7 @@
 
     move-object/from16 v18, v0
 
-    invoke-virtual/range {v18 .. v18}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {v18 .. v18}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v18
 
@@ -12768,7 +12768,7 @@
 
     move-object/from16 v18, v0
 
-    invoke-virtual/range {v18 .. v18}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {v18 .. v18}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v18
 
@@ -13186,7 +13186,7 @@
 
     if-nez v18, :cond_14
 
-    invoke-virtual {v12}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v12}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v18
 
@@ -13523,7 +13523,7 @@
     goto/16 :goto_3
 
     :cond_14
-    invoke-virtual {v12}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v12}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v18
 
@@ -13539,7 +13539,7 @@
 
     if-ne v0, v1, :cond_9
 
-    invoke-virtual {v12}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v12}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v18
 
@@ -14173,7 +14173,7 @@
 
     if-nez v18, :cond_20
 
-    invoke-virtual {v12}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v12}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v18
 
@@ -14272,7 +14272,7 @@
     goto/16 :goto_6
 
     :cond_23
-    invoke-virtual {v12}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v12}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v18
 
@@ -14288,7 +14288,7 @@
 
     if-ne v0, v1, :cond_22
 
-    invoke-virtual {v12}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v12}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v18
 
@@ -15107,7 +15107,7 @@
 
     const/16 v1, 0x1e
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->removeMessages(I)V
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->removeMessages(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mHoverPopup:Landroid/widget/PopupWindow;
 
@@ -21771,7 +21771,7 @@
     :cond_1
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mKeyboard:Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {v1}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v1
 
@@ -21779,7 +21779,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mKeyboard:Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {v0}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v0
 
@@ -23965,7 +23965,7 @@
 
     int-to-float v5, v9
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -25151,11 +25151,11 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mDirtyRect:Landroid/graphics/Rect;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWidth()I
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v2
 
@@ -25165,7 +25165,7 @@
 
     iput-boolean v0, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mDrawPending:Z
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     return-void
 .end method
@@ -25183,7 +25183,7 @@
 
     iget v3, v1, Lcom/diotek/ime/framework/view/Keyboard$Key;->x:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v4
 
@@ -25191,7 +25191,7 @@
 
     iget v4, v1, Lcom/diotek/ime/framework/view/Keyboard$Key;->y:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v5
 
@@ -25203,7 +25203,7 @@
 
     add-int/2addr v5, v6
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v6
 
@@ -25215,7 +25215,7 @@
 
     add-int/2addr v6, v7
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v7
 
@@ -25326,7 +25326,7 @@
 
     iget v1, p1, Lcom/diotek/ime/framework/view/Keyboard$Key;->x:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v2
 
@@ -25340,7 +25340,7 @@
 
     add-int/2addr v3, v4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v4
 
@@ -25352,7 +25352,7 @@
 
     add-int/2addr v4, v5
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v5
 
@@ -25361,13 +25361,13 @@
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/graphics/Rect;->union(IIII)V
 
     :goto_1
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->isShown()Z
+    invoke-virtual {p0}, Landroid/view/View;->isShown()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v0
 
@@ -25396,7 +25396,7 @@
 
     iget v0, p1, Lcom/diotek/ime/framework/view/Keyboard$Key;->x:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v1
 
@@ -25410,7 +25410,7 @@
 
     add-int/2addr v2, v3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v3
 
@@ -25422,13 +25422,13 @@
 
     add-int/2addr v3, v4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v4
 
     add-int/2addr v3, v4
 
-    invoke-virtual {p0, v0, v1, v2, v3}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->invalidate(IIII)V
+    invoke-virtual {p0, v0, v1, v2, v3}, Landroid/view/View;->invalidate(IIII)V
 
     goto :goto_0
 
@@ -25437,7 +25437,7 @@
 
     iget v1, p1, Lcom/diotek/ime/framework/view/Keyboard$Key;->x:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v2
 
@@ -25445,7 +25445,7 @@
 
     iget v2, p1, Lcom/diotek/ime/framework/view/Keyboard$Key;->y:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v3
 
@@ -25457,7 +25457,7 @@
 
     add-int/2addr v3, v4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v4
 
@@ -25469,7 +25469,7 @@
 
     add-int/2addr v4, v5
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v5
 
@@ -25482,7 +25482,7 @@
     :cond_3
     iget v0, p1, Lcom/diotek/ime/framework/view/Keyboard$Key;->x:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v1
 
@@ -25490,7 +25490,7 @@
 
     iget v1, p1, Lcom/diotek/ime/framework/view/Keyboard$Key;->y:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v2
 
@@ -25502,7 +25502,7 @@
 
     add-int/2addr v2, v3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v3
 
@@ -25514,13 +25514,13 @@
 
     add-int/2addr v3, v4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v4
 
     add-int/2addr v3, v4
 
-    invoke-virtual {p0, v0, v1, v2, v3}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->invalidate(IIII)V
+    invoke-virtual {p0, v0, v1, v2, v3}, Landroid/view/View;->invalidate(IIII)V
 
     goto/16 :goto_0
 .end method
@@ -27706,7 +27706,7 @@
 
     if-nez v5, :cond_0
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getRootView()Landroid/view/View;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getRootView()Landroid/view/View;
 
     move-result-object v42
 
@@ -27779,7 +27779,7 @@
 
     const/4 v7, 0x0
 
-    invoke-virtual {v5, v6, v7}, Landroid/widget/TextView;->setLayerType(ILandroid/graphics/Paint;)V
+    invoke-virtual {v5, v6, v7}, Landroid/view/View;->setLayerType(ILandroid/graphics/Paint;)V
 
     move-object/from16 v0, p3
 
@@ -27789,7 +27789,7 @@
 
     const/4 v7, 0x0
 
-    invoke-virtual {v5, v6, v7}, Landroid/widget/TextView;->setLayerType(ILandroid/graphics/Paint;)V
+    invoke-virtual {v5, v6, v7}, Landroid/view/View;->setLayerType(ILandroid/graphics/Paint;)V
 
     :cond_1
     move-object/from16 v0, p3
@@ -27814,7 +27814,7 @@
 
     iget-object v5, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mPreviewTextView:Landroid/widget/TextView;
 
-    invoke-virtual {v5}, Landroid/widget/TextView;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {v5}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v5
 
@@ -27828,14 +27828,14 @@
 
     iget-object v6, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mPreviewTextView:Landroid/widget/TextView;
 
-    invoke-virtual {v5, v6}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
+    invoke-virtual {v5, v6}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     :cond_3
     move-object/from16 v0, p0
 
     iget-object v5, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mPreviewKeyTextView:Landroid/widget/TextView;
 
-    invoke-virtual {v5}, Landroid/widget/TextView;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {v5}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v5
 
@@ -27849,7 +27849,7 @@
 
     iget-object v6, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mPreviewKeyTextView:Landroid/widget/TextView;
 
-    invoke-virtual {v5, v6}, Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
+    invoke-virtual {v5, v6}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     :cond_4
     const/4 v5, -0x1
@@ -28145,7 +28145,7 @@
     goto/16 :goto_1
 
     :cond_10
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->isShown()Z
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->isShown()Z
 
     move-result v5
 
@@ -28461,7 +28461,7 @@
 
     iget-object v5, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mPreviewPlacer:Landroid/widget/FrameLayout;
 
-    invoke-virtual {v5}, Landroid/widget/FrameLayout;->getVisibility()I
+    invoke-virtual {v5}, Landroid/view/View;->getVisibility()I
 
     move-result v5
 
@@ -28914,7 +28914,7 @@
 
     move-object/from16 v0, v35
 
-    invoke-virtual {v5, v0}, Landroid/widget/TextView;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v5, v0}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     :cond_2b
     if-eqz v28, :cond_2c
@@ -28939,7 +28939,7 @@
 
     move-object/from16 v0, v30
 
-    invoke-virtual {v5, v0}, Landroid/widget/TextView;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v5, v0}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     :cond_2c
     if-eqz v4, :cond_35
@@ -28988,7 +28988,7 @@
 
     iget-object v5, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mPreviewTextView:Landroid/widget/TextView;
 
-    invoke-virtual {v5, v4}, Landroid/widget/TextView;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v5, v4}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     :cond_2d
     :goto_5
@@ -29025,7 +29025,7 @@
     if-ne v5, v6, :cond_3c
 
     :cond_2e
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v5
 
@@ -29039,7 +29039,7 @@
 
     move/from16 v31, v0
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v5
 
@@ -29053,7 +29053,7 @@
 
     move/from16 v41, v0
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v5
 
@@ -29067,7 +29067,7 @@
 
     move/from16 v45, v0
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v5
 
@@ -29129,7 +29129,7 @@
 
     const/4 v6, 0x0
 
-    invoke-virtual {v5, v6}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v5, v6}, Landroid/view/View;->setVisibility(I)V
 
     if-eqz v28, :cond_3e
 
@@ -29175,7 +29175,7 @@
 
     const/4 v6, 0x0
 
-    invoke-virtual {v5, v6}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v5, v6}, Landroid/view/View;->setVisibility(I)V
 
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->isTalkbackEnabled()Z
 
@@ -29265,7 +29265,7 @@
 
     const-string v6, "\u2022"
 
-    invoke-virtual {v5, v6}, Landroid/widget/TextView;->setContentDescription(Ljava/lang/CharSequence;)V
+    invoke-virtual {v5, v6}, Landroid/view/View;->setContentDescription(Ljava/lang/CharSequence;)V
 
     :goto_7
     move-object/from16 v0, p0
@@ -29278,7 +29278,7 @@
 
     invoke-direct {v6, v0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$11;-><init>(Lcom/diotek/ime/framework/view/AbstractKeyboardView;)V
 
-    invoke-virtual {v5, v6}, Landroid/widget/TextView;->setAccessibilityDelegate(Landroid/view/View$AccessibilityDelegate;)V
+    invoke-virtual {v5, v6}, Landroid/view/View;->setAccessibilityDelegate(Landroid/view/View$AccessibilityDelegate;)V
 
     :cond_30
     const/4 v5, 0x1
@@ -29706,7 +29706,7 @@
     goto/16 :goto_8
 
     :cond_3c
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v5
 
@@ -29720,7 +29720,7 @@
 
     move/from16 v31, v0
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v5
 
@@ -29734,7 +29734,7 @@
 
     move/from16 v41, v0
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v5
 
@@ -29748,7 +29748,7 @@
 
     move/from16 v45, v0
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v5
 
@@ -29771,7 +29771,7 @@
 
     const-string v6, ""
 
-    invoke-virtual {v5, v6}, Landroid/widget/TextView;->setContentDescription(Ljava/lang/CharSequence;)V
+    invoke-virtual {v5, v6}, Landroid/view/View;->setContentDescription(Ljava/lang/CharSequence;)V
 
     goto/16 :goto_7
 
@@ -29782,7 +29782,7 @@
 
     const/4 v6, 0x4
 
-    invoke-virtual {v5, v6}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v5, v6}, Landroid/view/View;->setVisibility(I)V
 
     const/4 v5, 0x0
 
@@ -29932,11 +29932,11 @@
 
     const/4 v9, 0x0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWidth()I
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v8
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v7
 
@@ -30290,13 +30290,13 @@
 
     invoke-virtual {v5, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWidth()I
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v2
 
     int-to-float v3, v2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v2
 
@@ -30456,7 +30456,7 @@
 
     move-result v3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v4
 
@@ -30487,7 +30487,7 @@
 
     move-result v3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWidth()I
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v4
 
@@ -30602,7 +30602,7 @@
 
     iget-object v3, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mMultiTouchHandler:Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;
 
-    invoke-virtual {v3, v8}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->hasMessages(I)Z
+    invoke-virtual {v3, v8}, Landroid/os/Handler;->hasMessages(I)Z
 
     move-result v3
 
@@ -30612,13 +30612,13 @@
 
     iget-object v4, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mMultiTouchHandler:Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;
 
-    invoke-virtual {v4, v8}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->obtainMessage(I)Landroid/os/Message;
+    invoke-virtual {v4, v8}, Landroid/os/Handler;->obtainMessage(I)Landroid/os/Message;
 
     move-result-object v4
 
     const-wide/16 v5, 0x64
 
-    invoke-virtual {v3, v4, v5, v6}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->sendMessageDelayed(Landroid/os/Message;J)Z
+    invoke-virtual {v3, v4, v5, v6}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
     goto/16 :goto_0
 
@@ -30950,7 +30950,7 @@
 .method protected onLongPress(Lcom/diotek/ime/framework/view/Keyboard$Key;I)Z
     .locals 15
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->isShown()Z
+    invoke-virtual {p0}, Landroid/view/View;->isShown()Z
 
     move-result v12
 
@@ -32848,19 +32848,19 @@
 
     if-nez v1, :cond_0
 
-    iget v1, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mPaddingLeft:I
+    iget v1, p0, Landroid/view/View;->mPaddingLeft:I
 
-    iget v2, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mPaddingRight:I
+    iget v2, p0, Landroid/view/View;->mPaddingRight:I
 
     add-int/2addr v1, v2
 
-    iget v2, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mPaddingTop:I
+    iget v2, p0, Landroid/view/View;->mPaddingTop:I
 
-    iget v3, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mPaddingBottom:I
+    iget v3, p0, Landroid/view/View;->mPaddingBottom:I
 
     add-int/2addr v2, v3
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v1, v2}, Landroid/view/View;->setMeasuredDimension(II)V
 
     :goto_0
     return-void
@@ -32872,11 +32872,11 @@
 
     move-result v1
 
-    iget v2, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mPaddingLeft:I
+    iget v2, p0, Landroid/view/View;->mPaddingLeft:I
 
     add-int/2addr v1, v2
 
-    iget v2, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mPaddingRight:I
+    iget v2, p0, Landroid/view/View;->mPaddingRight:I
 
     add-int v0, v1, v2
 
@@ -32899,15 +32899,15 @@
 
     move-result v1
 
-    iget v2, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mPaddingTop:I
+    iget v2, p0, Landroid/view/View;->mPaddingTop:I
 
     add-int/2addr v1, v2
 
-    iget v2, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mPaddingBottom:I
+    iget v2, p0, Landroid/view/View;->mPaddingBottom:I
 
     add-int/2addr v1, v2
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v0, v1}, Landroid/view/View;->setMeasuredDimension(II)V
 
     goto :goto_0
 .end method
@@ -33676,7 +33676,7 @@
 
     iget-object v11, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mMiniKeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v11}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWidth()I
+    invoke-virtual {v11}, Landroid/view/View;->getWidth()I
 
     move-result v11
 
@@ -33714,11 +33714,11 @@
     goto/16 :goto_2
 
     :cond_13
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWidth()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getWidth()I
 
     move-result v70
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getHeight()I
 
     move-result v42
 
@@ -34147,7 +34147,7 @@
 
     iget-object v7, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mMiniKeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v7}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getLeft()I
+    invoke-virtual {v7}, Landroid/view/View;->getLeft()I
 
     move-result v7
 
@@ -34262,7 +34262,7 @@
 
     iget-object v7, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mMiniKeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v7}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual {v7}, Landroid/view/View;->getHeight()I
 
     move-result v7
 
@@ -34307,7 +34307,7 @@
 
     iget-object v7, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mMiniKeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v7}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual {v7}, Landroid/view/View;->getHeight()I
 
     move-result v7
 
@@ -34345,7 +34345,7 @@
 
     move-object/from16 v0, v40
 
-    invoke-virtual {v6, v0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-virtual {v6, v0}, Landroid/view/View;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
 
     :cond_1e
     move-object/from16 v0, p0
@@ -34354,7 +34354,7 @@
 
     move-object/from16 v0, v23
 
-    invoke-virtual {v6, v0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-virtual {v6, v0}, Landroid/view/View;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
 
     :cond_1f
     :goto_6
@@ -34386,7 +34386,7 @@
 
     iget-object v7, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mMiniKeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v7}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual {v7}, Landroid/view/View;->getHeight()I
 
     move-result v7
 
@@ -34425,7 +34425,7 @@
 
     iget-object v7, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mMiniKeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v7}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual {v7}, Landroid/view/View;->getHeight()I
 
     move-result v7
 
@@ -34615,7 +34615,7 @@
 
     iget-object v7, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mMiniKeyboardView:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v7}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual {v7}, Landroid/view/View;->getHeight()I
 
     move-result v7
 
@@ -34851,7 +34851,7 @@
 
     move-object/from16 v0, v40
 
-    invoke-virtual {v6, v0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-virtual {v6, v0}, Landroid/view/View;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
 
     :cond_35
     move-object/from16 v0, p0
@@ -34860,7 +34860,7 @@
 
     move-object/from16 v0, v23
 
-    invoke-virtual {v6, v0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-virtual {v6, v0}, Landroid/view/View;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
 
     goto/16 :goto_6
 
@@ -34998,7 +34998,7 @@
 
     if-eqz v6, :cond_3f
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getParent()Landroid/view/ViewParent;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v69
 
@@ -35010,13 +35010,13 @@
 
     if-nez v54, :cond_41
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingBottom()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingBottom()I
 
     move-result v6
 
     sub-int/2addr v13, v6
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v6
 
@@ -35188,7 +35188,7 @@
     :cond_46
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mContext:Landroid/content/Context;
+    iget-object v6, v0, Landroid/view/View;->mContext:Landroid/content/Context;
 
     invoke-virtual {v6}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -36450,7 +36450,7 @@
 
     const/16 v7, 0x31
 
-    invoke-virtual {v6, v7}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->removeMessages(I)V
+    invoke-virtual {v6, v7}, Landroid/os/Handler;->removeMessages(I)V
 
     const/4 v6, 0x1
 
@@ -36750,7 +36750,7 @@
 
     const/16 v7, 0x1e
 
-    invoke-virtual {v6, v7}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->removeMessages(I)V
+    invoke-virtual {v6, v7}, Landroid/os/Handler;->removeMessages(I)V
 
     move-object/from16 v0, p0
 
@@ -37423,13 +37423,13 @@
 
     const/16 v2, 0x31
 
-    invoke-virtual {v1, v2}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->obtainMessage(I)Landroid/os/Message;
+    invoke-virtual {v1, v2}, Landroid/os/Handler;->obtainMessage(I)Landroid/os/Message;
 
     move-result-object v1
 
     const-wide/16 v2, 0x64
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->sendMessageDelayed(Landroid/os/Message;J)Z
+    invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
     const/4 v0, 0x1
 
@@ -37729,19 +37729,19 @@
 
     const/4 v1, 0x3
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->removeMessages(I)V
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->removeMessages(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mMultiTouchHandler:Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;
 
     const/4 v1, 0x4
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->removeMessages(I)V
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->removeMessages(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mMultiTouchHandler:Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;
 
     const/16 v1, 0x2a
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$UIHandler;->removeMessages(I)V
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->removeMessages(I)V
 
     return-void
 .end method
@@ -37899,7 +37899,7 @@
 
     sparse-switch p1, :sswitch_data_0
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-virtual {p0, v1}, Landroid/view/View;->onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
 
     iget-object v3, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mAccessibilityManager:Landroid/view/accessibility/AccessibilityManager;
 
@@ -37925,7 +37925,7 @@
 
     if-eq v3, v4, :cond_2
 
-    invoke-virtual {v1}, Landroid/view/accessibility/AccessibilityEvent;->getText()Ljava/util/List;
+    invoke-virtual {v1}, Landroid/view/accessibility/AccessibilityRecord;->getText()Ljava/util/List;
 
     move-result-object v3
 
@@ -37938,9 +37938,9 @@
     goto :goto_0
 
     :sswitch_1
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-virtual {p0, v1}, Landroid/view/View;->onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
 
-    invoke-virtual {v1}, Landroid/view/accessibility/AccessibilityEvent;->getText()Ljava/util/List;
+    invoke-virtual {v1}, Landroid/view/accessibility/AccessibilityRecord;->getText()Ljava/util/List;
 
     move-result-object v3
 
@@ -37957,7 +37957,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -37969,7 +37969,7 @@
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1}, Landroid/view/accessibility/AccessibilityEvent;->getText()Ljava/util/List;
+    invoke-virtual {v1}, Landroid/view/accessibility/AccessibilityRecord;->getText()Ljava/util/List;
 
     move-result-object v3
 
@@ -37993,9 +37993,9 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-virtual {p0, v1}, Landroid/view/View;->onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
 
-    invoke-virtual {v1}, Landroid/view/accessibility/AccessibilityEvent;->getText()Ljava/util/List;
+    invoke-virtual {v1}, Landroid/view/accessibility/AccessibilityRecord;->getText()Ljava/util/List;
 
     move-result-object v3
 
@@ -38027,9 +38027,9 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
+    invoke-virtual {p0, v0}, Landroid/view/View;->onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
 
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityEvent;->getText()Ljava/util/List;
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getText()Ljava/util/List;
 
     move-result-object v1
 
@@ -38250,7 +38250,7 @@
 
     if-eqz v13, :cond_3
 
-    invoke-virtual/range {p1 .. p1}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {p1 .. p1}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v8
 
@@ -38440,7 +38440,7 @@
 
     iget-object v13, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mKeyDetector:Lcom/diotek/ime/framework/view/tracker/KeyDetector;
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingLeft()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v14
 
@@ -38448,7 +38448,7 @@
 
     int-to-float v14, v14
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getPaddingTop()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v15
 
@@ -38651,7 +38651,7 @@
 
     iget-object v13, v0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mKeyboard:Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {v13}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v13}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v8
 
@@ -39106,10 +39106,10 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v13}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v13}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     :cond_18
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->requestLayout()V
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->requestLayout()V
 
     invoke-direct/range {p0 .. p1}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->computeProximityThreshold(Lcom/diotek/ime/framework/view/DefaultKeyboard;)V
 
@@ -39349,7 +39349,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v12}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getLocationOnScreen([I)V
+    invoke-virtual {v0, v12}, Landroid/view/View;->getLocationOnScreen([I)V
 
     move-object/from16 v0, p0
 
@@ -39440,7 +39440,7 @@
 
     move-result-object v12
 
-    invoke-virtual {v12}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v12}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v5
 
@@ -39466,7 +39466,7 @@
 
     if-eqz v12, :cond_4
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getHeight()I
 
     move-result v12
 
@@ -39478,7 +39478,7 @@
 
     sub-int/2addr v12, v13
 
-    invoke-virtual/range {p1 .. p1}, Landroid/widget/TextView;->getPaddingTop()I
+    invoke-virtual/range {p1 .. p1}, Landroid/view/View;->getPaddingTop()I
 
     move-result v13
 
@@ -39487,7 +39487,7 @@
     goto/16 :goto_0
 
     :cond_4
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getHeight()I
 
     move-result v12
 
@@ -39788,7 +39788,7 @@
     :catch_1
     move-exception v6
 
-    invoke-virtual {v6}, Ljava/lang/Exception;->printStackTrace()V
+    invoke-virtual {v6}, Ljava/lang/Throwable;->printStackTrace()V
 
     const/4 v4, 0x0
 
@@ -39837,7 +39837,7 @@
     :cond_1
     iget-object v4, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mScreenOffset:[I
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getLocationOnScreen([I)V
+    invoke-virtual {p0, v4}, Landroid/view/View;->getLocationOnScreen([I)V
 
     iget-object v4, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInvisiblePreviewPopup:Landroid/widget/PopupWindow;
 
@@ -40311,7 +40311,7 @@
 
     move-result v2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -40329,7 +40329,7 @@
 .method public showModeChangePopupKeyboard()Z
     .locals 12
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->isShown()Z
+    invoke-virtual {p0}, Landroid/view/View;->isShown()Z
 
     move-result v7
 
@@ -40347,7 +40347,7 @@
 
     invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->removeAllMsg()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v7
 
@@ -40428,18 +40428,18 @@
 
     move-result-object v7
 
-    invoke-virtual {v5, v7}, Landroid/widget/ImageButton;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v5, v7}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     :cond_4
     new-instance v7, Lcom/diotek/ime/framework/view/AbstractKeyboardView$1;
 
     invoke-direct {v7, p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$1;-><init>(Lcom/diotek/ime/framework/view/AbstractKeyboardView;)V
 
-    invoke-virtual {v5, v7}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v5, v7}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     const/4 v7, 0x0
 
-    invoke-virtual {v5, v7}, Landroid/widget/ImageButton;->setVisibility(I)V
+    invoke-virtual {v5, v7}, Landroid/widget/ImageView;->setVisibility(I)V
 
     :cond_5
     iget-object v7, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mMiniKeyboardContainer:Landroid/view/View;
@@ -40464,18 +40464,18 @@
 
     move-result-object v7
 
-    invoke-virtual {v0, v7}, Landroid/widget/ImageButton;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v7}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     :cond_6
     new-instance v7, Lcom/diotek/ime/framework/view/AbstractKeyboardView$2;
 
     invoke-direct {v7, p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$2;-><init>(Lcom/diotek/ime/framework/view/AbstractKeyboardView;)V
 
-    invoke-virtual {v0, v7}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v7}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     const/4 v7, 0x0
 
-    invoke-virtual {v0, v7}, Landroid/widget/ImageButton;->setVisibility(I)V
+    invoke-virtual {v0, v7}, Landroid/widget/ImageView;->setVisibility(I)V
 
     :cond_7
     iget-object v7, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mMiniKeyboardContainer:Landroid/view/View;
@@ -40500,18 +40500,18 @@
 
     move-result-object v7
 
-    invoke-virtual {v6, v7}, Landroid/widget/ImageButton;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v6, v7}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     :cond_8
     new-instance v7, Lcom/diotek/ime/framework/view/AbstractKeyboardView$3;
 
     invoke-direct {v7, p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$3;-><init>(Lcom/diotek/ime/framework/view/AbstractKeyboardView;)V
 
-    invoke-virtual {v6, v7}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v6, v7}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     const/4 v7, 0x0
 
-    invoke-virtual {v6, v7}, Landroid/widget/ImageButton;->setVisibility(I)V
+    invoke-virtual {v6, v7}, Landroid/widget/ImageView;->setVisibility(I)V
 
     :cond_9
     iget-object v7, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mMiniKeyboardContainer:Landroid/view/View;
@@ -40547,23 +40547,23 @@
 
     move-result-object v7
 
-    invoke-virtual {v4, v7}, Landroid/widget/ImageButton;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v4, v7}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     :cond_b
     new-instance v7, Lcom/diotek/ime/framework/view/AbstractKeyboardView$4;
 
     invoke-direct {v7, p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView$4;-><init>(Lcom/diotek/ime/framework/view/AbstractKeyboardView;)V
 
-    invoke-virtual {v4, v7}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v4, v7}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     const/4 v7, 0x0
 
-    invoke-virtual {v4, v7}, Landroid/widget/ImageButton;->setVisibility(I)V
+    invoke-virtual {v4, v7}, Landroid/widget/ImageView;->setVisibility(I)V
 
     :cond_c
     iget-object v7, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mMiniKeyboardContainer:Landroid/view/View;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWidth()I
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v8
 
@@ -40573,7 +40573,7 @@
 
     move-result v8
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v9
 
@@ -40609,7 +40609,7 @@
 
     iget-object v7, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mWindowOffset:[I
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getLocationInWindow([I)V
+    invoke-virtual {p0, v7}, Landroid/view/View;->getLocationInWindow([I)V
 
     :cond_d
     iget-object v7, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -40806,7 +40806,7 @@
 
     if-nez v41, :cond_2
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->isShown()Z
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->isShown()Z
 
     move-result v41
 
@@ -41478,7 +41478,7 @@
 
     const/16 v39, 0x1
 
-    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v18
 
@@ -41534,7 +41534,7 @@
 
     if-eqz v41, :cond_18
 
-    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v41
 
@@ -41605,7 +41605,7 @@
 
     const/16 v42, 0x0
 
-    invoke-virtual/range {v41 .. v42}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual/range {v41 .. v42}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     if-eqz v38, :cond_2f
 
@@ -42009,7 +42009,7 @@
 
     move-result-object v42
 
-    invoke-virtual/range {v41 .. v42}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual/range {v41 .. v42}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     move-object/from16 v0, p0
 
@@ -42044,7 +42044,7 @@
 
     move-result v42
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getHeight()I
 
     move-result v43
 
@@ -42113,7 +42113,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getLocationInWindow([I)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->getLocationInWindow([I)V
 
     :cond_1f
     move-object/from16 v0, p0
@@ -42161,7 +42161,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getLocationOnScreen([I)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->getLocationOnScreen([I)V
 
     :cond_21
     const/16 v30, 0x0
@@ -42369,7 +42369,7 @@
 
     if-ne v0, v1, :cond_24
 
-    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v41
 
@@ -42448,7 +42448,7 @@
 
     move-result-object v42
 
-    invoke-virtual/range {v41 .. v42}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual/range {v41 .. v42}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     move-object/from16 v0, p0
 
@@ -42741,7 +42741,7 @@
     :cond_28
     new-instance v18, Ljava/util/ArrayList;
 
-    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v41
 
@@ -42922,7 +42922,7 @@
 
     move-object/from16 v41, v0
 
-    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v42
 
@@ -43265,7 +43265,7 @@
 
     move-result-object v42
 
-    invoke-virtual/range {v41 .. v42}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual/range {v41 .. v42}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     move-object/from16 v0, p0
 
@@ -43474,7 +43474,7 @@
 
     if-ne v0, v1, :cond_24
 
-    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v41
 
@@ -43559,7 +43559,7 @@
 
     move-result-object v42
 
-    invoke-virtual/range {v41 .. v42}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual/range {v41 .. v42}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     move-object/from16 v0, p0
 
@@ -43800,7 +43800,7 @@
 
     move-result-object v42
 
-    invoke-virtual/range {v41 .. v42}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual/range {v41 .. v42}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     move-object/from16 v0, p0
 
@@ -44025,7 +44025,7 @@
 
     if-ne v0, v1, :cond_4e
 
-    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v41
 
@@ -44110,7 +44110,7 @@
 
     move-result-object v42
 
-    invoke-virtual/range {v41 .. v42}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual/range {v41 .. v42}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     move-object/from16 v0, p0
 
@@ -44372,7 +44372,7 @@
 
     move-result-object v42
 
-    invoke-virtual/range {v41 .. v42}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual/range {v41 .. v42}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     move-object/from16 v0, p0
 
@@ -44475,7 +44475,7 @@
 
     if-ne v0, v1, :cond_50
 
-    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v41
 
@@ -44812,7 +44812,7 @@
 
     if-eqz v41, :cond_55
 
-    invoke-virtual {v7}, Landroid/view/WindowManager$BadTokenException;->printStackTrace()V
+    invoke-virtual {v7}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_55
     const/16 v41, 0x0
@@ -45231,7 +45231,7 @@
 
     move-result-object v18
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->isShown()Z
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->isShown()Z
 
     move-result v23
 
@@ -45399,7 +45399,7 @@
 
     const/16 v24, 0x0
 
-    invoke-virtual/range {v23 .. v24}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual/range {v23 .. v24}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     move-object/from16 v0, p0
 
@@ -45543,7 +45543,7 @@
 
     move/from16 v0, v23
 
-    invoke-virtual {v5, v0}, Landroid/widget/ImageButton;->setVisibility(I)V
+    invoke-virtual {v5, v0}, Landroid/widget/ImageView;->setVisibility(I)V
 
     new-instance v23, Lcom/diotek/ime/framework/view/AbstractKeyboardView$13;
 
@@ -45555,7 +45555,7 @@
 
     move-object/from16 v0, v23
 
-    invoke-virtual {v5, v0}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v5, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_5
     move-object/from16 v0, p0
@@ -45582,7 +45582,7 @@
 
     move/from16 v1, v23
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getSymbolPopupKeyboardPageLabel()Ljava/lang/CharSequence;
 
@@ -45598,7 +45598,7 @@
 
     move-object/from16 v1, v23
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :cond_6
     new-instance v23, Lcom/diotek/ime/framework/view/AbstractKeyboardView$14;
@@ -45613,7 +45613,7 @@
 
     move-object/from16 v1, v23
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     const/4 v9, 0x1
 
@@ -45698,12 +45698,12 @@
 
     move/from16 v1, v23
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setTextColor(I)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
     :cond_8
     move-object/from16 v0, v16
 
-    invoke-virtual {v0, v9}, Landroid/widget/Button;->setEnabled(Z)V
+    invoke-virtual {v0, v9}, Landroid/widget/TextView;->setEnabled(Z)V
 
     move-object/from16 v0, p0
 
@@ -45723,7 +45723,7 @@
 
     move-object/from16 v1, v23
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setTypeface(Landroid/graphics/Typeface;)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
 
     :cond_9
     move-object/from16 v0, p0
@@ -45752,7 +45752,7 @@
 
     new-instance v10, Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v23
 
@@ -45801,11 +45801,11 @@
     invoke-virtual/range {v23 .. v24}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     :cond_a
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWidth()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getWidth()I
 
     move-result v20
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual/range {p0 .. p0}, Landroid/view/View;->getHeight()I
 
     move-result v7
 
@@ -45904,7 +45904,7 @@
 
     move-object/from16 v1, v23
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getLocationInWindow([I)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->getLocationInWindow([I)V
 
     :cond_d
     invoke-virtual {v10}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getPopupMiniKeyboardType()I
@@ -46317,7 +46317,7 @@
 
     iget-object v8, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mKeyboard:Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {v8}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v8}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v8
 
@@ -46430,7 +46430,7 @@
     :cond_3
     iget-object v8, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mKeyboard:Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {v8}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v8}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v8
 

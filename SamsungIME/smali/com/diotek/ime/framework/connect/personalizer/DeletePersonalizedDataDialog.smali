@@ -49,7 +49,7 @@
 
     iput-object v0, p0, Lcom/diotek/ime/framework/connect/personalizer/DeletePersonalizedDataDialog;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/DeletePersonalizedDataDialog;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -123,7 +123,7 @@
 
     const-string v2, "connect"
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/connect/personalizer/DeletePersonalizedDataDialog;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {p0, v2}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -133,7 +133,7 @@
 
     const-string v2, "connect_gmail_enable"
 
-    invoke-virtual {v1, v2}, Landroid/preference/PreferenceScreen;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v1, v2}, Landroid/preference/PreferenceGroup;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -143,12 +143,12 @@
 
     const v2, 0x7f0d01fa
 
-    invoke-virtual {v0, v2}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->setSummary(I)V
+    invoke-virtual {v0, v2}, Landroid/preference/Preference;->setSummary(I)V
 
     :cond_0
     const-string v2, "connect_facebook_enable"
 
-    invoke-virtual {v1, v2}, Landroid/preference/PreferenceScreen;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v1, v2}, Landroid/preference/PreferenceGroup;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -158,12 +158,12 @@
 
     const v2, 0x7f0d01f9
 
-    invoke-virtual {v0, v2}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->setSummary(I)V
+    invoke-virtual {v0, v2}, Landroid/preference/Preference;->setSummary(I)V
 
     :cond_1
     const-string v2, "connect_twitter_enable"
 
-    invoke-virtual {v1, v2}, Landroid/preference/PreferenceScreen;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v1, v2}, Landroid/preference/PreferenceGroup;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -173,12 +173,12 @@
 
     const v2, 0x7f0d01fb
 
-    invoke-virtual {v0, v2}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->setSummary(I)V
+    invoke-virtual {v0, v2}, Landroid/preference/Preference;->setSummary(I)V
 
     :cond_2
     const-string v2, "connect_messaging_enable"
 
-    invoke-virtual {v1, v2}, Landroid/preference/PreferenceScreen;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v1, v2}, Landroid/preference/PreferenceGroup;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -188,12 +188,12 @@
 
     const v2, 0x7f0d01fd
 
-    invoke-virtual {v0, v2}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->setSummary(I)V
+    invoke-virtual {v0, v2}, Landroid/preference/Preference;->setSummary(I)V
 
     :cond_3
     const-string v2, "connect_contacts_enable"
 
-    invoke-virtual {v1, v2}, Landroid/preference/PreferenceScreen;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v1, v2}, Landroid/preference/PreferenceGroup;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -203,7 +203,7 @@
 
     const v2, 0x7f0d01fe
 
-    invoke-virtual {v0, v2}, Lcom/diotek/ime/framework/connect/personalizer/PersonalizerPreference;->setSummary(I)V
+    invoke-virtual {v0, v2}, Landroid/preference/Preference;->setSummary(I)V
 
     :cond_4
     return-void
@@ -224,7 +224,7 @@
 
     invoke-interface {v0}, Lcom/diotek/ime/framework/engine/InputEngineManager;->resetDLMData()S
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/connect/personalizer/DeletePersonalizedDataDialog;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 

@@ -97,17 +97,17 @@
 
     if-lez p1, :cond_1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AncestorCandidateLayout;->getScrollX()I
+    invoke-virtual {p0}, Landroid/view/View;->getScrollX()I
 
     move-result v3
 
     if-le v2, v3, :cond_1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AncestorCandidateLayout;->getScrollY()I
+    invoke-virtual {p0}, Landroid/view/View;->getScrollY()I
 
     move-result v3
 
-    invoke-virtual {p0, v2, v3}, Lcom/diotek/ime/framework/view/candidate/AncestorCandidateLayout;->smoothScrollTo(II)V
+    invoke-virtual {p0, v2, v3}, Landroid/widget/HorizontalScrollView;->smoothScrollTo(II)V
 
     :cond_0
     :goto_1
@@ -116,17 +116,17 @@
     :cond_1
     if-gez p1, :cond_3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AncestorCandidateLayout;->getScrollX()I
+    invoke-virtual {p0}, Landroid/view/View;->getScrollX()I
 
     move-result v3
 
     if-le v2, v3, :cond_2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AncestorCandidateLayout;->getScrollY()I
+    invoke-virtual {p0}, Landroid/view/View;->getScrollY()I
 
     move-result v3
 
-    invoke-virtual {p0, v0, v3}, Lcom/diotek/ime/framework/view/candidate/AncestorCandidateLayout;->smoothScrollTo(II)V
+    invoke-virtual {p0, v0, v3}, Landroid/widget/HorizontalScrollView;->smoothScrollTo(II)V
 
     goto :goto_1
 
@@ -170,7 +170,7 @@
 
     move-result v4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AncestorCandidateLayout;->getScrollX()I
+    invoke-virtual {p0}, Landroid/view/View;->getScrollX()I
 
     move-result v5
 
@@ -194,11 +194,11 @@
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AncestorCandidateLayout;->getScrollY()I
+    invoke-virtual {p0}, Landroid/view/View;->getScrollY()I
 
     move-result v5
 
-    invoke-virtual {p0, v3, v5}, Lcom/diotek/ime/framework/view/candidate/AncestorCandidateLayout;->smoothScrollTo(II)V
+    invoke-virtual {p0, v3, v5}, Landroid/widget/HorizontalScrollView;->smoothScrollTo(II)V
 
     return-void
 .end method

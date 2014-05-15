@@ -92,7 +92,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/LanguagesSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v2}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -100,7 +100,7 @@
 
     if-eqz v1, :cond_2
 
-    invoke-virtual {v1, v5}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v1, v5}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     :cond_1
     :goto_0
@@ -127,13 +127,13 @@
 
     move-result-object v2
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/LanguagesSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v2}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
     check-cast v1, Landroid/preference/CheckBoxPreference;
 
-    invoke-virtual {v1, v5}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v1, v5}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     goto :goto_0
 
@@ -158,7 +158,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/LanguagesSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v2}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -166,7 +166,7 @@
 
     if-eqz v1, :cond_1
 
-    invoke-virtual {v1, v5}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v1, v5}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     goto :goto_0
 .end method
@@ -234,7 +234,7 @@
 
     move-result-object v11
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/LanguagesSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v11}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -244,7 +244,7 @@
 
     const/4 v11, 0x0
 
-    invoke-virtual {v5, v11}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v5, v11}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     :cond_0
     add-int/lit8 v3, v3, 0x1
@@ -420,7 +420,7 @@
 
     move-result-object v11
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/LanguagesSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v11}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -430,7 +430,7 @@
 
     const/4 v11, 0x1
 
-    invoke-virtual {v5, v11}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v5, v11}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     goto :goto_3
 
@@ -458,7 +458,7 @@
 
     move-result-object v11
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/LanguagesSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v11}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -468,7 +468,7 @@
 
     const/4 v11, 0x1
 
-    invoke-virtual {v5, v11}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v5, v11}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     :cond_c
     invoke-direct {p0, v7}, Lcom/diotek/ime/implement/setting/LanguagesSettings;->checkDefaultEnglishPreference([Lcom/diotek/ime/framework/common/Language;)V
@@ -516,7 +516,7 @@
 
     const/4 v11, 0x0
 
-    invoke-virtual {p0, v10, v11}, Lcom/diotek/ime/implement/setting/LanguagesSettings;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual {p0, v10, v11}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v7
 
@@ -539,14 +539,14 @@
 
     const v10, 0x7f030059
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/implement/setting/LanguagesSettings;->addPreferencesFromResource(I)V
+    invoke-virtual {p0, v10}, Landroid/preference/PreferenceActivity;->addPreferencesFromResource(I)V
 
     const v10, 0x7f0d002a
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/implement/setting/LanguagesSettings;->setTitle(I)V
+    invoke-virtual {p0, v10}, Landroid/app/Activity;->setTitle(I)V
 
     :goto_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/LanguagesSettings;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v1
 
@@ -593,7 +593,7 @@
 
     const-string v10, "languages_settings"
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/implement/setting/LanguagesSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v10}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v6
 
@@ -605,7 +605,7 @@
 
     const-string v10, "SETTINGS_DEFAULT_USE_SYSTEM_LANGUAGE"
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/implement/setting/LanguagesSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v10}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v9
 
@@ -615,10 +615,10 @@
 
     move-result-object v10
 
-    invoke-virtual {v9, v10}, Landroid/preference/CheckBoxPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
+    invoke-virtual {v9, v10}, Landroid/preference/Preference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
     :cond_2
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/LanguagesSettings;->getPreferenceManager()Landroid/preference/PreferenceManager;
+    invoke-virtual {p0}, Landroid/preference/PreferenceActivity;->getPreferenceManager()Landroid/preference/PreferenceManager;
 
     move-result-object v10
 
@@ -774,7 +774,7 @@
 
     aget-object v10, v4, v3
 
-    invoke-virtual {v10, v0}, Landroid/preference/CheckBoxPreference;->setKey(Ljava/lang/String;)V
+    invoke-virtual {v10, v0}, Landroid/preference/Preference;->setKey(Ljava/lang/String;)V
 
     aget-object v10, v4, v3
 
@@ -784,21 +784,21 @@
 
     move-result-object v11
 
-    invoke-virtual {v10, v11}, Landroid/preference/CheckBoxPreference;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {v10, v11}, Landroid/preference/Preference;->setTitle(Ljava/lang/CharSequence;)V
 
     aget-object v10, v4, v3
 
-    invoke-virtual {v10, v2}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v10, v2}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     aget-object v10, v4, v3
 
     const/4 v11, 0x0
 
-    invoke-virtual {v10, v11}, Landroid/preference/CheckBoxPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
+    invoke-virtual {v10, v11}, Landroid/preference/Preference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
     aget-object v10, v4, v3
 
-    invoke-virtual {v6, v10}, Landroid/preference/PreferenceScreen;->addPreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v6, v10}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
     iget-boolean v10, p0, Lcom/diotek/ime/implement/setting/LanguagesSettings;->mIsDaMode:Z
 
@@ -808,7 +808,7 @@
 
     const-string v11, "SETTINGS_DEFAULT_USE_SYSTEM_LANGUAGE"
 
-    invoke-virtual {v10, v11}, Landroid/preference/CheckBoxPreference;->setDependency(Ljava/lang/String;)V
+    invoke-virtual {v10, v11}, Landroid/preference/Preference;->setDependency(Ljava/lang/String;)V
 
     :cond_4
     add-int/lit8 v3, v3, 0x1
@@ -818,7 +818,7 @@
     :cond_5
     const v10, 0x7f030058
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/implement/setting/LanguagesSettings;->addPreferencesFromResource(I)V
+    invoke-virtual {p0, v10}, Landroid/preference/PreferenceActivity;->addPreferencesFromResource(I)V
 
     goto/16 :goto_0
 
@@ -835,7 +835,7 @@
 
     packed-switch v0, :pswitch_data_0
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
 
     move-result v0
 
@@ -843,7 +843,7 @@
     return v0
 
     :pswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/LanguagesSettings;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     const/4 v0, 0x1
 
@@ -862,7 +862,7 @@
 
     const-string v1, "SETTINGS_DEFAULT_USE_SYSTEM_LANGUAGE"
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/LanguagesSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v1}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -872,7 +872,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-virtual {v0}, Landroid/preference/CheckBoxPreference;->isChecked()Z
+    invoke-virtual {v0}, Landroid/preference/TwoStatePreference;->isChecked()Z
 
     move-result v1
 
@@ -881,7 +881,7 @@
     invoke-direct {p0}, Lcom/diotek/ime/implement/setting/LanguagesSettings;->initLanguageSettingsWithSystemLocale()V
 
     :cond_0
-    invoke-super {p0}, Landroid/preference/PreferenceActivity;->onResume()V
+    invoke-super {p0}, Landroid/app/Activity;->onResume()V
 
     return-void
 .end method

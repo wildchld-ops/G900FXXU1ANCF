@@ -246,7 +246,7 @@
     if-nez v3, :cond_2
 
     :cond_0
-    invoke-virtual {p0, p1, v1}, Lcom/google/gdata/util/common/base/PercentEscaper;->escapeSlow(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-virtual {p0, p1, v1}, Lcom/google/gdata/util/common/base/UnicodeEscaper;->escapeSlow(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p1
 

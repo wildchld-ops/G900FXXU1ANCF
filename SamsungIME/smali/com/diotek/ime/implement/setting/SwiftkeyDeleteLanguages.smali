@@ -247,7 +247,7 @@
 .method private deleteLanguage(Lcom/touchtype_fluency/util/LanguagePack;)V
     .locals 4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -378,7 +378,7 @@
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setOnKeyListener(Landroid/content/DialogInterface$OnKeyListener;)Landroid/app/AlertDialog$Builder;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
@@ -400,7 +400,7 @@
 
     const v1, 0x7f0d01dc
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v2
 
@@ -430,7 +430,7 @@
     :cond_1
     const v1, 0x7f0d01dd
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v2
 
@@ -470,7 +470,7 @@
 
     invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -511,7 +511,7 @@
 
     invoke-interface {v1}, Landroid/view/Menu;->clear()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->getMenuInflater()Landroid/view/MenuInflater;
+    invoke-virtual {p0}, Landroid/app/Activity;->getMenuInflater()Landroid/view/MenuInflater;
 
     move-result-object v0
 
@@ -559,13 +559,13 @@
 
     const v6, 0x7f03008f
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->setContentView(I)V
+    invoke-virtual {p0, v6}, Landroid/app/Activity;->setContentView(I)V
 
     const-string v6, ""
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v6}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v1
 
@@ -580,7 +580,7 @@
 
     const v6, 0x7f0800b1
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v6}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v6
 
@@ -588,7 +588,7 @@
 
     iput-object v6, p0, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->mSelectallview:Landroid/widget/ListView;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
 
@@ -632,7 +632,7 @@
 
     move-result-object v7
 
-    invoke-virtual {v6, v7}, Landroid/widget/ListView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {v6, v7}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->mSelectallview:Landroid/widget/ListView;
 
@@ -640,7 +640,7 @@
 
     move-result-object v7
 
-    invoke-virtual {v6, v7}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
+    invoke-virtual {v6, v7}, Landroid/widget/AdapterView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->mLPlist:Ljava/util/ArrayList;
 
@@ -727,7 +727,7 @@
 
     const v6, 0x7f0800b2
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v6}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v6
 
@@ -743,13 +743,13 @@
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->mDisplayView:Landroid/widget/ListView;
 
-    invoke-virtual {v6, v11}, Landroid/widget/ListView;->setClickable(Z)V
+    invoke-virtual {v6, v11}, Landroid/view/View;->setClickable(Z)V
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->mDisplayView:Landroid/widget/ListView;
 
     const/4 v7, 0x2
 
-    invoke-virtual {v6, v7}, Landroid/widget/ListView;->setChoiceMode(I)V
+    invoke-virtual {v6, v7}, Landroid/widget/AbsListView;->setChoiceMode(I)V
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->mDisplayView:Landroid/widget/ListView;
 
@@ -757,11 +757,11 @@
 
     move-result-object v7
 
-    invoke-virtual {v6, v7}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
+    invoke-virtual {v6, v7}, Landroid/widget/AdapterView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
     if-eqz v1, :cond_3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
 
@@ -802,7 +802,7 @@
 
     invoke-interface {p1}, Landroid/view/Menu;->clear()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->getMenuInflater()Landroid/view/MenuInflater;
+    invoke-virtual {p0}, Landroid/app/Activity;->getMenuInflater()Landroid/view/MenuInflater;
 
     move-result-object v0
 
@@ -851,7 +851,7 @@
     return v0
 
     :sswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
@@ -864,12 +864,12 @@
 
     sget-object v1, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->mDeleteDlg:Landroid/app/AlertDialog;
 
-    invoke-virtual {v1}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
     goto :goto_0
 
     :sswitch_2
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 

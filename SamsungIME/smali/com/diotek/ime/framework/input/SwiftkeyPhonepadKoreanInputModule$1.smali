@@ -57,7 +57,7 @@
 
     iget-object v2, v2, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadKoreanInputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {v1, v2}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadKoreanInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadKoreanInputModule$1;->this$0:Lcom/diotek/ime/framework/input/SwiftkeyPhonepadKoreanInputModule;
 
@@ -103,7 +103,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v1, v2}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadKoreanInputModule;->updateSequence(Ljava/lang/StringBuilder;)V
+    invoke-virtual {v1, v2}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->updateSequence(Ljava/lang/StringBuilder;)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadKoreanInputModule$1;->this$0:Lcom/diotek/ime/framework/input/SwiftkeyPhonepadKoreanInputModule;
 
@@ -114,7 +114,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v1, v2}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadKoreanInputModule;->finishComposing(Z)V
+    invoke-virtual {v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadKoreanInputModule$1;->this$0:Lcom/diotek/ime/framework/input/SwiftkeyPhonepadKoreanInputModule;
 

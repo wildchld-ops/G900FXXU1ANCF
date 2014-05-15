@@ -38,7 +38,7 @@
 .method public constructor <init>(Lcom/nuance/connect/service/ConnectClient;Lcom/nuance/connect/service/comm/CommandQueue$ConnectionStatus;Lcom/nuance/connect/service/comm/ConnectorCallback;Lcom/nuance/connect/service/comm/AnalyticsDataUsageScribe;)V
     .locals 2
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     sget-object v0, Lcom/nuance/connect/util/Logger$LoggerType;->DEVELOPER:Lcom/nuance/connect/util/Logger$LoggerType;
 
@@ -72,7 +72,7 @@
 
     sget-object v0, Lcom/nuance/connect/service/configuration/ConnectConfiguration$ConfigProperty;->URL:Lcom/nuance/connect/service/configuration/ConnectConfiguration$ConfigProperty;
 
-    invoke-virtual {v0}, Lcom/nuance/connect/service/configuration/ConnectConfiguration$ConfigProperty;->name()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v0
 
@@ -528,7 +528,7 @@
 
     iget-object v7, p0, Lcom/nuance/connect/service/comm/HttpConnector;->client:Lcom/nuance/connect/service/ConnectClient;
 
-    invoke-virtual {v7}, Lcom/nuance/connect/service/ConnectClient;->getCacheDir()Ljava/io/File;
+    invoke-virtual {v7}, Landroid/content/ContextWrapper;->getCacheDir()Ljava/io/File;
 
     move-result-object v7
 
@@ -978,7 +978,7 @@
 
     move-result-object v16
 
-    invoke-virtual {v4}, Lorg/json/JSONException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v17
 
@@ -1064,7 +1064,7 @@
 
     move-result-object v16
 
-    invoke-virtual {v4}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v17
 
@@ -1299,7 +1299,7 @@
 
     move-object/from16 v16, v0
 
-    invoke-virtual/range {v15 .. v16}, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->equals(Ljava/lang/Object;)Z
+    invoke-virtual/range {v15 .. v16}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v15
 
@@ -1436,7 +1436,7 @@
 
     move/from16 v1, v52
 
-    invoke-virtual {v0, v1}, Ljava/net/HttpURLConnection;->setAllowUserInteraction(Z)V
+    invoke-virtual {v0, v1}, Ljava/net/URLConnection;->setAllowUserInteraction(Z)V
 
     invoke-interface/range {p2 .. p2}, Lcom/nuance/connect/service/comm/Transaction;->getDownloadFile()Ljava/lang/String;
 
@@ -1556,7 +1556,7 @@
 
     move-object/from16 v2, v53
 
-    invoke-virtual {v0, v1, v2}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_1
     .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_17
     .catch Ljava/net/ProtocolException; {:try_start_1 .. :try_end_1} :catch_16
@@ -1583,7 +1583,7 @@
 
     move/from16 v1, v52
 
-    invoke-virtual {v0, v1}, Ljava/net/HttpURLConnection;->setDoOutput(Z)V
+    invoke-virtual {v0, v1}, Ljava/net/URLConnection;->setDoOutput(Z)V
 
     :cond_3
     const/16 v52, 0x0
@@ -1592,7 +1592,7 @@
 
     move/from16 v1, v52
 
-    invoke-virtual {v0, v1}, Ljava/net/HttpURLConnection;->setUseCaches(Z)V
+    invoke-virtual {v0, v1}, Ljava/net/URLConnection;->setUseCaches(Z)V
 
     move-object/from16 v0, p1
 
@@ -1622,7 +1622,7 @@
 
     move-result-object v53
 
-    invoke-virtual/range {v45 .. v45}, Ljava/net/HttpURLConnection;->getURL()Ljava/net/URL;
+    invoke-virtual/range {v45 .. v45}, Ljava/net/URLConnection;->getURL()Ljava/net/URL;
 
     move-result-object v54
 
@@ -1754,7 +1754,7 @@
 
     move-result-object v53
 
-    invoke-virtual {v14}, Lorg/json/JSONException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v54
 
@@ -1772,7 +1772,7 @@
 
     const/16 v46, 0x5
 
-    invoke-virtual {v14}, Lorg/json/JSONException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v47
 
@@ -1869,7 +1869,7 @@
     const/16 v29, 0x0
 
     :try_start_4
-    invoke-virtual/range {v45 .. v45}, Ljava/net/HttpURLConnection;->getContentLength()I
+    invoke-virtual/range {v45 .. v45}, Ljava/net/URLConnection;->getContentLength()I
 
     move-result v27
 
@@ -1879,7 +1879,7 @@
 
     move-object/from16 v1, v52
 
-    invoke-virtual {v0, v1}, Ljava/net/HttpURLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Ljava/net/URLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v32
 
@@ -1907,7 +1907,7 @@
 
     if-eqz v27, :cond_12
 
-    invoke-virtual/range {v45 .. v45}, Ljava/net/HttpURLConnection;->getContentType()Ljava/lang/String;
+    invoke-virtual/range {v45 .. v45}, Ljava/net/URLConnection;->getContentType()Ljava/lang/String;
 
     move-result-object v52
 
@@ -1919,7 +1919,7 @@
 
     if-eqz v52, :cond_12
 
-    invoke-virtual/range {v45 .. v45}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+    invoke-virtual/range {v45 .. v45}, Ljava/net/URLConnection;->getInputStream()Ljava/io/InputStream;
 
     move-result-object v24
 
@@ -2091,7 +2091,7 @@
 
     move/from16 v1, v52
 
-    invoke-virtual {v0, v1}, Ljava/net/HttpURLConnection;->setDoInput(Z)V
+    invoke-virtual {v0, v1}, Ljava/net/URLConnection;->setDoInput(Z)V
 
     invoke-direct/range {p0 .. p1}, Lcom/nuance/connect/service/comm/HttpConnector;->generateBody(Lcom/nuance/connect/service/comm/Command;)Lorg/json/JSONObject;
 
@@ -2107,7 +2107,7 @@
 
     move-object/from16 v2, v53
 
-    invoke-virtual {v0, v1, v2}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v52, "X-Swype-Connect"
 
@@ -2121,7 +2121,7 @@
 
     move-object/from16 v2, v53
 
-    invoke-virtual {v0, v1, v2}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual/range {v16 .. v16}, Ljava/io/File;->length()J
 
@@ -2158,7 +2158,7 @@
     const/16 v18, 0x0
 
     :try_start_8
-    invoke-virtual/range {v45 .. v45}, Ljava/net/HttpURLConnection;->getOutputStream()Ljava/io/OutputStream;
+    invoke-virtual/range {v45 .. v45}, Ljava/net/URLConnection;->getOutputStream()Ljava/io/OutputStream;
 
     move-result-object v29
 
@@ -2243,7 +2243,7 @@
 
     invoke-interface {v0, v1, v2, v3}, Lcom/nuance/connect/service/comm/AnalyticsDataUsageScribe;->writeRequest(Lcom/nuance/connect/service/comm/Command;J)V
 
-    invoke-virtual/range {v45 .. v45}, Ljava/net/HttpURLConnection;->connect()V
+    invoke-virtual/range {v45 .. v45}, Ljava/net/URLConnection;->connect()V
     :try_end_b
     .catch Lorg/json/JSONException; {:try_start_b .. :try_end_b} :catch_0
     .catch Ljava/net/ProtocolException; {:try_start_b .. :try_end_b} :catch_1
@@ -2275,7 +2275,7 @@
 
     move-result-object v53
 
-    invoke-virtual {v14}, Ljava/net/ProtocolException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v54
 
@@ -2293,7 +2293,7 @@
 
     const/16 v46, 0x6
 
-    invoke-virtual {v14}, Ljava/net/ProtocolException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v47
 
@@ -2380,7 +2380,7 @@
 
     move/from16 v1, v52
 
-    invoke-virtual {v0, v1}, Ljava/net/HttpURLConnection;->setDoInput(Z)V
+    invoke-virtual {v0, v1}, Ljava/net/URLConnection;->setDoInput(Z)V
 
     invoke-direct/range {p0 .. p1}, Lcom/nuance/connect/service/comm/HttpConnector;->generateBody(Lcom/nuance/connect/service/comm/Command;)Lorg/json/JSONObject;
 
@@ -2408,7 +2408,7 @@
 
     move-object/from16 v2, v53
 
-    invoke-virtual {v0, v1, v2}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     array-length v0, v13
 
@@ -2507,9 +2507,9 @@
 
     move-object/from16 v2, v53
 
-    invoke-virtual {v0, v1, v2}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual/range {v45 .. v45}, Ljava/net/HttpURLConnection;->getOutputStream()Ljava/io/OutputStream;
+    invoke-virtual/range {v45 .. v45}, Ljava/net/URLConnection;->getOutputStream()Ljava/io/OutputStream;
     :try_end_d
     .catch Lorg/json/JSONException; {:try_start_d .. :try_end_d} :catch_0
     .catch Ljava/net/ProtocolException; {:try_start_d .. :try_end_d} :catch_1
@@ -2541,7 +2541,7 @@
     :try_start_f
     move-object/from16 v0, v21
 
-    invoke-virtual {v0, v13}, Ljava/util/zip/GZIPOutputStream;->write([B)V
+    invoke-virtual {v0, v13}, Ljava/io/OutputStream;->write([B)V
 
     invoke-virtual/range {v21 .. v21}, Ljava/util/zip/GZIPOutputStream;->finish()V
     :try_end_f
@@ -2550,7 +2550,7 @@
     if-eqz v21, :cond_e
 
     :try_start_10
-    invoke-virtual/range {v21 .. v21}, Ljava/util/zip/GZIPOutputStream;->close()V
+    invoke-virtual/range {v21 .. v21}, Ljava/util/zip/DeflaterOutputStream;->close()V
 
     :cond_e
     invoke-virtual/range {v29 .. v29}, Ljava/io/OutputStream;->close()V
@@ -2640,7 +2640,7 @@
 
     move-result-object v53
 
-    invoke-virtual {v14}, Ljava/net/MalformedURLException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v54
 
@@ -2658,7 +2658,7 @@
 
     const/16 v46, 0x6
 
-    invoke-virtual {v14}, Ljava/net/MalformedURLException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v47
 
@@ -2676,7 +2676,7 @@
     :goto_e
     if-eqz v20, :cond_10
 
-    invoke-virtual/range {v20 .. v20}, Ljava/util/zip/GZIPOutputStream;->close()V
+    invoke-virtual/range {v20 .. v20}, Ljava/util/zip/DeflaterOutputStream;->close()V
 
     :cond_10
     invoke-virtual/range {v29 .. v29}, Ljava/io/OutputStream;->close()V
@@ -2711,7 +2711,7 @@
 
     move-result-object v53
 
-    invoke-virtual {v14}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v54
 
@@ -2729,7 +2729,7 @@
 
     const/16 v46, 0x2
 
-    invoke-virtual {v14}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v47
 
@@ -2737,7 +2737,7 @@
 
     :cond_11
     :try_start_12
-    invoke-virtual/range {v45 .. v45}, Ljava/net/HttpURLConnection;->getOutputStream()Ljava/io/OutputStream;
+    invoke-virtual/range {v45 .. v45}, Ljava/net/URLConnection;->getOutputStream()Ljava/io/OutputStream;
 
     move-result-object v29
 
@@ -2777,7 +2777,7 @@
 
     move-result-object v53
 
-    invoke-virtual {v14}, Ljava/lang/NullPointerException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v54
 
@@ -2795,7 +2795,7 @@
 
     const/16 v46, 0x2
 
-    invoke-virtual {v14}, Ljava/lang/NullPointerException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v47
 
@@ -2821,7 +2821,7 @@
 
     move-result-object v53
 
-    invoke-virtual {v14}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v54
 
@@ -2839,7 +2839,7 @@
 
     const/16 v46, 0x2
 
-    invoke-virtual {v14}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v47
 
@@ -2894,7 +2894,7 @@
 
     move-result-object v53
 
-    invoke-virtual {v12}, Ljavax/net/ssl/SSLException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v12}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v54
 
@@ -2914,7 +2914,7 @@
 
     const/16 v46, 0x4
 
-    invoke-virtual {v12}, Ljavax/net/ssl/SSLException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v12}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v47
 
@@ -2939,7 +2939,7 @@
 
     move-result-object v53
 
-    invoke-virtual {v12}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v12}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v54
 
@@ -2959,7 +2959,7 @@
 
     const/16 v46, 0x2
 
-    invoke-virtual {v12}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v12}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v47
 
@@ -2984,7 +2984,7 @@
 
     move-result-object v53
 
-    invoke-virtual {v12}, Ljava/lang/NullPointerException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v12}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v54
 
@@ -3002,7 +3002,7 @@
 
     const/16 v46, 0x2
 
-    invoke-virtual {v12}, Ljava/lang/NullPointerException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v12}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v47
 
@@ -3027,7 +3027,7 @@
 
     move-result-object v53
 
-    invoke-virtual {v12}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+    invoke-virtual {v12}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v54
 
@@ -3045,7 +3045,7 @@
 
     const/16 v46, 0x2
 
-    invoke-virtual {v12}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+    invoke-virtual {v12}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v47
 
@@ -3222,7 +3222,7 @@
 
     move-result-object v53
 
-    invoke-virtual {v14}, Lorg/json/JSONException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v54
 
@@ -3240,7 +3240,7 @@
 
     const/16 v46, 0x5
 
-    invoke-virtual {v14}, Lorg/json/JSONException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v47
 
@@ -3400,7 +3400,7 @@
     :cond_1a
     new-instance v25, Ljava/io/BufferedInputStream;
 
-    invoke-virtual/range {v45 .. v45}, Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+    invoke-virtual/range {v45 .. v45}, Ljava/net/URLConnection;->getInputStream()Ljava/io/InputStream;
 
     move-result-object v52
 
@@ -3677,7 +3677,7 @@
 
     move-result-object v53
 
-    invoke-virtual {v14}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v54
 
@@ -3718,7 +3718,7 @@
 
     move-result-object v53
 
-    invoke-virtual {v14}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v54
 
@@ -3736,7 +3736,7 @@
 
     const/16 v46, 0x2
 
-    invoke-virtual {v14}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v47
 

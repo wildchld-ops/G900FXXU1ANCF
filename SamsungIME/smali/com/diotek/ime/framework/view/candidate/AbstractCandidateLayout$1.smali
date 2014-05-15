@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateLayout$1;->this$0:Lcom/diotek/ime/framework/view/candidate/AbstractCandidateLayout;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -105,7 +105,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    invoke-virtual {p1, v3}, Landroid/widget/TextView;->setSoundEffectsEnabled(Z)V
+    invoke-virtual {p1, v3}, Landroid/view/View;->setSoundEffectsEnabled(Z)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateLayout$1;->this$0:Lcom/diotek/ime/framework/view/candidate/AbstractCandidateLayout;
 

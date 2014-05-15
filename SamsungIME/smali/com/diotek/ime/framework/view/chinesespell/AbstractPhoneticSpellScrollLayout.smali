@@ -150,7 +150,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->mPhoneticSpellLayout:Landroid/widget/LinearLayout;
 
-    invoke-virtual {v0, p1}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     :cond_0
     return-void
@@ -166,7 +166,7 @@
     :goto_0
     iget-object v2, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->mScrollView:Landroid/widget/ScrollView;
 
-    invoke-virtual {v2}, Landroid/widget/ScrollView;->getChildCount()I
+    invoke-virtual {v2}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v2
 
@@ -174,7 +174,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->mScrollView:Landroid/widget/ScrollView;
 
-    invoke-virtual {v2, v0}, Landroid/widget/ScrollView;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {v2, v0}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v2
 
@@ -205,7 +205,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
@@ -282,7 +282,7 @@
 .method public getPhoneticSpellScrollViewShown()Z
     .locals 1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->isShown()Z
+    invoke-virtual {p0}, Landroid/view/View;->isShown()Z
 
     move-result v0
 
@@ -292,7 +292,7 @@
 .method public getPhoneticSpellScrollViewWidth()I
     .locals 1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->getWidth()I
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v0
 
@@ -330,13 +330,13 @@
 
     move-result v2
 
-    invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setBackgroundColor(I)V
+    invoke-virtual {v1, v2}, Landroid/view/View;->setBackgroundColor(I)V
 
     invoke-virtual {p0}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->getPhoneticSpellScrollViewRscId()I
 
     move-result v1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -348,7 +348,7 @@
 
     move-result v1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -358,7 +358,7 @@
 
     move-result v1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -390,7 +390,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -404,7 +404,7 @@
 
     iput v1, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->mPhoneticSpellScrollViewBtnWidth:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -418,7 +418,7 @@
 
     iput v1, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->mPhoneticSpellScrollViewBtnHeight:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -433,7 +433,7 @@
     iput v1, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->mPhoneticSpellScrollViewHeight:I
 
     :goto_0
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -447,7 +447,7 @@
 
     iput v1, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->mPhoneticSpellScrollViewBtnVGap:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -464,7 +464,7 @@
     return-void
 
     :cond_0
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -478,7 +478,7 @@
 
     iput v1, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->mPhoneticSpellScrollViewBtnWidth:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -492,7 +492,7 @@
 
     iput v1, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->mPhoneticSpellScrollViewBtnHeight:I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -545,13 +545,13 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->mScrollView:Landroid/widget/ScrollView;
 
-    invoke-virtual {v0}, Landroid/widget/ScrollView;->getHeight()I
+    invoke-virtual {v0}, Landroid/view/View;->getHeight()I
 
     move-result v0
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->mScrollView:Landroid/widget/ScrollView;
 
-    invoke-virtual {v1}, Landroid/widget/ScrollView;->getScrollY()I
+    invoke-virtual {v1}, Landroid/view/View;->getScrollY()I
 
     move-result v1
 
@@ -570,7 +570,7 @@
     :goto_1
     iget-object v0, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->mScrollView:Landroid/widget/ScrollView;
 
-    invoke-virtual {v0}, Landroid/widget/ScrollView;->getScrollY()I
+    invoke-virtual {v0}, Landroid/view/View;->getScrollY()I
 
     move-result v0
 
@@ -581,7 +581,7 @@
     invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
     :goto_2
-    invoke-super {p0}, Landroid/widget/FrameLayout;->requestLayout()V
+    invoke-super {p0}, Landroid/view/View;->requestLayout()V
 
     goto :goto_0
 
@@ -635,7 +635,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->setVisibility(I)V
+    invoke-virtual {p0, v2}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->mRepository:Lcom/diotek/ime/framework/repository/Repository;
 
@@ -651,7 +651,7 @@
     :cond_0
     const/16 v0, 0x8
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->setVisibility(I)V
+    invoke-virtual {p0, v0}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->mPhoneticSpellList:Ljava/util/ArrayList;
 
@@ -865,7 +865,7 @@
 
     move-object/from16 v23, v0
 
-    invoke-virtual/range {v23 .. v23}, Landroid/widget/LinearLayout;->removeAllViews()V
+    invoke-virtual/range {v23 .. v23}, Landroid/view/ViewGroup;->removeAllViews()V
 
     :cond_0
     move-object/from16 v0, p0
@@ -974,14 +974,14 @@
 
     move/from16 v1, v24
 
-    invoke-virtual {v11, v0, v1}, Landroid/widget/Button;->setTextSize(IF)V
+    invoke-virtual {v11, v0, v1}, Landroid/widget/TextView;->setTextSize(IF)V
 
     :goto_9
     const/16 v23, -0x1
 
     move/from16 v0, v23
 
-    invoke-virtual {v11, v0}, Landroid/widget/Button;->setTextColor(I)V
+    invoke-virtual {v11, v0}, Landroid/widget/TextView;->setTextColor(I)V
 
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->getPhoneticSpellScrollViewBtnBgRscId()I
 
@@ -989,7 +989,7 @@
 
     move/from16 v0, v23
 
-    invoke-virtual {v11, v0}, Landroid/widget/Button;->setBackgroundResource(I)V
+    invoke-virtual {v11, v0}, Landroid/view/View;->setBackgroundResource(I)V
 
     if-nez p1, :cond_9
 
@@ -1020,7 +1020,7 @@
 
     move/from16 v0, v23
 
-    invoke-virtual {v11, v0}, Landroid/widget/Button;->setTextColor(I)V
+    invoke-virtual {v11, v0}, Landroid/widget/TextView;->setTextColor(I)V
 
     new-instance v12, Landroid/text/SpannableString;
 
@@ -1064,7 +1064,7 @@
 
     invoke-virtual {v12, v0, v1, v2, v3}, Landroid/text/SpannableString;->setSpan(Ljava/lang/Object;III)V
 
-    invoke-virtual {v11, v12}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v11, v12}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :goto_a
     move-object/from16 v0, p0
@@ -1089,7 +1089,7 @@
 
     move/from16 v0, v23
 
-    invoke-virtual {v11, v0}, Landroid/widget/Button;->setHeight(I)V
+    invoke-virtual {v11, v0}, Landroid/widget/TextView;->setHeight(I)V
 
     move-object/from16 v0, p0
 
@@ -1099,7 +1099,7 @@
 
     move/from16 v0, v23
 
-    invoke-virtual {v11, v0}, Landroid/widget/Button;->setWidth(I)V
+    invoke-virtual {v11, v0}, Landroid/widget/TextView;->setWidth(I)V
 
     new-instance v23, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout$1;
 
@@ -1111,7 +1111,7 @@
 
     move-object/from16 v0, v23
 
-    invoke-virtual {v11, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v11, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     move-object/from16 v0, p0
 
@@ -1208,7 +1208,7 @@
 
     move/from16 v1, v24
 
-    invoke-virtual {v11, v0, v1}, Landroid/widget/Button;->setTextSize(IF)V
+    invoke-virtual {v11, v0, v1}, Landroid/widget/TextView;->setTextSize(IF)V
 
     goto/16 :goto_9
 
@@ -1237,7 +1237,7 @@
 
     move/from16 v1, v24
 
-    invoke-virtual {v11, v0, v1}, Landroid/widget/Button;->setTextSize(IF)V
+    invoke-virtual {v11, v0, v1}, Landroid/widget/TextView;->setTextSize(IF)V
 
     goto/16 :goto_9
 
@@ -1266,7 +1266,7 @@
 
     move/from16 v1, v24
 
-    invoke-virtual {v11, v0, v1}, Landroid/widget/Button;->setTextSize(IF)V
+    invoke-virtual {v11, v0, v1}, Landroid/widget/TextView;->setTextSize(IF)V
 
     goto/16 :goto_9
 
@@ -1295,7 +1295,7 @@
 
     move/from16 v1, v24
 
-    invoke-virtual {v11, v0, v1}, Landroid/widget/Button;->setTextSize(IF)V
+    invoke-virtual {v11, v0, v1}, Landroid/widget/TextView;->setTextSize(IF)V
 
     goto/16 :goto_9
 
@@ -1324,7 +1324,7 @@
 
     move/from16 v1, v24
 
-    invoke-virtual {v11, v0, v1}, Landroid/widget/Button;->setTextSize(IF)V
+    invoke-virtual {v11, v0, v1}, Landroid/widget/TextView;->setTextSize(IF)V
 
     goto/16 :goto_9
 
@@ -1353,7 +1353,7 @@
 
     move/from16 v1, v24
 
-    invoke-virtual {v11, v0, v1}, Landroid/widget/Button;->setTextSize(IF)V
+    invoke-virtual {v11, v0, v1}, Landroid/widget/TextView;->setTextSize(IF)V
 
     goto/16 :goto_9
 
@@ -1380,7 +1380,7 @@
 
     move/from16 v1, v24
 
-    invoke-virtual {v11, v0, v1}, Landroid/widget/Button;->setTextSize(IF)V
+    invoke-virtual {v11, v0, v1}, Landroid/widget/TextView;->setTextSize(IF)V
 
     goto/16 :goto_9
 
@@ -1401,7 +1401,7 @@
 
     move-object/from16 v0, v23
 
-    invoke-virtual {v11, v0}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v11, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     goto/16 :goto_a
 
@@ -1422,7 +1422,7 @@
 
     move-object/from16 v0, v23
 
-    invoke-virtual {v11, v0}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v11, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     goto/16 :goto_a
 
@@ -1459,7 +1459,7 @@
 
     move-object/from16 v0, v23
 
-    invoke-virtual {v11, v0}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v11, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/chinesespell/AbstractPhoneticSpellScrollLayout;->getPhoneticSpellScrollViewBtnBgRscId()I
 
@@ -1467,7 +1467,7 @@
 
     move/from16 v0, v23
 
-    invoke-virtual {v11, v0}, Landroid/widget/Button;->setBackgroundResource(I)V
+    invoke-virtual {v11, v0}, Landroid/view/View;->setBackgroundResource(I)V
 
     move-object/from16 v0, p0
 
@@ -1479,7 +1479,7 @@
 
     move/from16 v0, v23
 
-    invoke-virtual {v11, v0}, Landroid/widget/Button;->setHeight(I)V
+    invoke-virtual {v11, v0}, Landroid/widget/TextView;->setHeight(I)V
 
     move-object/from16 v0, p0
 
@@ -1489,13 +1489,13 @@
 
     move/from16 v0, v23
 
-    invoke-virtual {v11, v0}, Landroid/widget/Button;->setWidth(I)V
+    invoke-virtual {v11, v0}, Landroid/widget/TextView;->setWidth(I)V
 
     const/16 v23, 0x0
 
     move/from16 v0, v23
 
-    invoke-virtual {v11, v0}, Landroid/widget/Button;->setClickable(Z)V
+    invoke-virtual {v11, v0}, Landroid/view/View;->setClickable(Z)V
 
     move-object/from16 v0, p0
 

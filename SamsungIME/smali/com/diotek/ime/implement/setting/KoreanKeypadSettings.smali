@@ -144,17 +144,17 @@
 
     iput-object v4, p0, Lcom/diotek/ime/implement/setting/KoreanKeypadSettings;->mRepository:Lcom/diotek/ime/framework/repository/Repository;
 
-    invoke-super {p0, p1}, Landroid/app/ListActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
     const v4, 0x7f030056
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/implement/setting/KoreanKeypadSettings;->setContentView(I)V
+    invoke-virtual {p0, v4}, Landroid/app/Activity;->setContentView(I)V
 
     const v4, 0x7f0d001c
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/implement/setting/KoreanKeypadSettings;->setTitle(I)V
+    invoke-virtual {p0, v4}, Landroid/app/Activity;->setTitle(I)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/KoreanKeypadSettings;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -177,18 +177,18 @@
 
     if-nez v4, :cond_1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/KoreanKeypadSettings;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     :cond_1
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/KoreanKeypadSettings;->mListAdapter:Landroid/widget/ArrayAdapter;
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/implement/setting/KoreanKeypadSettings;->setListAdapter(Landroid/widget/ListAdapter;)V
+    invoke-virtual {p0, v4}, Landroid/app/ListActivity;->setListAdapter(Landroid/widget/ListAdapter;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/KoreanKeypadSettings;->getListView()Landroid/widget/ListView;
+    invoke-virtual {p0}, Landroid/app/ListActivity;->getListView()Landroid/widget/ListView;
 
     move-result-object v4
 
-    invoke-virtual {v4, v5}, Landroid/widget/ListView;->setChoiceMode(I)V
+    invoke-virtual {v4, v5}, Landroid/widget/AbsListView;->setChoiceMode(I)V
 
     :try_start_0
     invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
@@ -226,7 +226,7 @@
     move-result-object v1
 
     :cond_2
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/KoreanKeypadSettings;->getListView()Landroid/widget/ListView;
+    invoke-virtual {p0}, Landroid/app/ListActivity;->getListView()Landroid/widget/ListView;
 
     move-result-object v4
 
@@ -238,7 +238,7 @@
 
     const/4 v6, 0x1
 
-    invoke-virtual {v4, v5, v6}, Landroid/widget/ListView;->setItemChecked(IZ)V
+    invoke-virtual {v4, v5, v6}, Landroid/widget/AbsListView;->setItemChecked(IZ)V
     :try_end_0
     .catch Landroid/content/res/Resources$NotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -260,7 +260,7 @@
 .method public onCreateOptionsMenu(Landroid/view/Menu;)Z
     .locals 1
 
-    invoke-super {p0, p1}, Landroid/app/ListActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onCreateOptionsMenu(Landroid/view/Menu;)Z
 
     move-result v0
 
@@ -331,7 +331,7 @@
 
     sparse-switch v1, :sswitch_data_0
 
-    invoke-super {p0, p1}, Landroid/app/ListActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
 
     move-result v0
 
@@ -341,14 +341,14 @@
     :sswitch_0
     const/4 v1, -0x1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/KoreanKeypadSettings;->setResult(I)V
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->setResult(I)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/KoreanKeypadSettings;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
     :sswitch_1
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/KoreanKeypadSettings;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
@@ -366,7 +366,7 @@
 
     invoke-interface {p1}, Landroid/view/Menu;->clear()V
 
-    invoke-super {p0, p1}, Landroid/app/ListActivity;->onPrepareOptionsMenu(Landroid/view/Menu;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onPrepareOptionsMenu(Landroid/view/Menu;)Z
 
     move-result v0
 

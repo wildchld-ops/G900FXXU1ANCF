@@ -116,7 +116,7 @@
 
     const-string v3, "SETTINGS_DEFAULT_HWR_ON"
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {p0, v3}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -124,7 +124,7 @@
 
     const-string v3, "hwr_settings"
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {p0, v3}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -259,7 +259,7 @@
 
     const-string v4, "prediction_setting"
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {p0, v4}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v2
 
@@ -372,7 +372,7 @@
     :cond_1
     const-string v4, "SETTINGS_DEFAULT_PREDICTION_ON"
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {p0, v4}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v2
 
@@ -467,7 +467,7 @@
 
     const-string v12, "SETTINGS_INPUT_LANGUAGES"
 
-    invoke-virtual {p0, v12}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {p0, v12}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v8
 
@@ -503,11 +503,11 @@
 
     const-string v12, "select_swiftkey_language_list"
 
-    invoke-virtual {p0, v12}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {p0, v12}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v11
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {p0, v3}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v2
 
@@ -516,7 +516,7 @@
     const/4 v6, 0x0
 
     :try_start_0
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {p0, v3}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v12
 
@@ -531,7 +531,7 @@
     const/4 v6, 0x1
 
     :goto_1
-    invoke-virtual {v8}, Landroid/preference/PreferenceCategory;->getPreferenceCount()I
+    invoke-virtual {v8}, Landroid/preference/PreferenceGroup;->getPreferenceCount()I
 
     move-result v9
 
@@ -540,7 +540,7 @@
     :goto_2
     if-ge v5, v9, :cond_2
 
-    invoke-virtual {v8, v5}, Landroid/preference/PreferenceCategory;->getPreference(I)Landroid/preference/Preference;
+    invoke-virtual {v8, v5}, Landroid/preference/PreferenceGroup;->getPreference(I)Landroid/preference/Preference;
 
     move-result-object v12
 
@@ -548,7 +548,7 @@
 
     move-result-object v7
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {p0, v7}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v12
 
@@ -1166,7 +1166,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v35
 
@@ -1211,7 +1211,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v6
 
@@ -1246,7 +1246,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v6
 
@@ -1281,7 +1281,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v35
 
@@ -1326,7 +1326,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v6
 
@@ -1364,7 +1364,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v6
 
@@ -1399,7 +1399,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v6
 
@@ -1434,7 +1434,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v6
 
@@ -1502,7 +1502,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v6
 
@@ -1570,7 +1570,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v6
 
@@ -1605,7 +1605,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v6
 
@@ -1648,7 +1648,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v6
 
@@ -1683,7 +1683,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v6
 
@@ -1718,7 +1718,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v6
 
@@ -1753,7 +1753,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v6
 
@@ -1796,7 +1796,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v28
 
@@ -1877,7 +1877,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v32
 
@@ -1955,7 +1955,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v33
 
@@ -1975,7 +1975,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v39
 
@@ -2012,7 +2012,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v6
 
@@ -2047,7 +2047,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v6
 
@@ -2100,7 +2100,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v33
 
@@ -2120,7 +2120,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v39
 
@@ -2165,7 +2165,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v23
 
@@ -2212,7 +2212,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v33
 
@@ -2232,7 +2232,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v39
 
@@ -2269,7 +2269,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v29
 
@@ -2320,7 +2320,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v29
 
@@ -2375,7 +2375,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v32
 
@@ -2414,7 +2414,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v29
 
@@ -2586,7 +2586,7 @@
 
     move-object/from16 v1, v41
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ResetSettings;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->findPreferenceInHierarchy(Ljava/lang/String;)Landroid/preference/Preference;
 
     move-result-object v26
 

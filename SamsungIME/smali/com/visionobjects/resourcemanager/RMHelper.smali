@@ -53,7 +53,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/visionobjects/resourcemanager/RMHelper;->mRMQueryGetAvailableAsyncHandler:Lcom/visionobjects/resourcemanager/RMHelper$ResourceManagerGetAvailableQueryAsyncHandler;
 
@@ -116,7 +116,7 @@
 
     const/4 v7, 0x0
 
-    invoke-virtual/range {v0 .. v7}, Lcom/visionobjects/resourcemanager/RMHelper$ResourceManagerGetAvailableQueryAsyncHandler;->startQuery(ILjava/lang/Object;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual/range {v0 .. v7}, Landroid/content/AsyncQueryHandler;->startQuery(ILjava/lang/Object;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Landroid/database/sqlite/SQLiteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -158,7 +158,7 @@
 
     const/4 v7, 0x0
 
-    invoke-virtual/range {v0 .. v7}, Lcom/visionobjects/resourcemanager/RMHelper$ResourceManagerGetDowndingQueryAsyncHandler;->startQuery(ILjava/lang/Object;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual/range {v0 .. v7}, Landroid/content/AsyncQueryHandler;->startQuery(ILjava/lang/Object;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Landroid/database/sqlite/SQLiteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -200,7 +200,7 @@
 
     const/4 v7, 0x0
 
-    invoke-virtual/range {v0 .. v7}, Lcom/visionobjects/resourcemanager/RMHelper$ResourceManagerGetInstalledQueryAsyncHandler;->startQuery(ILjava/lang/Object;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual/range {v0 .. v7}, Landroid/content/AsyncQueryHandler;->startQuery(ILjava/lang/Object;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Landroid/database/sqlite/SQLiteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -324,7 +324,7 @@
     :try_start_1
     sget-object v0, Lcom/visionobjects/resourcemanager/RMHelper;->TAG:Ljava/lang/String;
 
-    invoke-virtual {v7}, Landroid/os/RemoteException;->toString()Ljava/lang/String;
+    invoke-virtual {v7}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
 
     move-result-object v1
 
@@ -462,7 +462,7 @@
 
     sget-object v0, Lcom/visionobjects/resourcemanager/RMHelper;->TAG:Ljava/lang/String;
 
-    invoke-virtual {v7}, Landroid/os/RemoteException;->toString()Ljava/lang/String;
+    invoke-virtual {v7}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
 
     move-result-object v2
 
@@ -476,7 +476,7 @@
     :try_start_2
     sget-object v0, Lcom/visionobjects/resourcemanager/RMHelper;->TAG:Ljava/lang/String;
 
-    invoke-virtual {v7}, Ljava/lang/Exception;->toString()Ljava/lang/String;
+    invoke-virtual {v7}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
 
     move-result-object v2
 

@@ -145,11 +145,11 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->recognizeAll:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/HwrInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->recognizeFail:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/HwrInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget v1, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->mStrokeCount:I
 
@@ -159,7 +159,7 @@
     return-void
 
     :cond_0
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/HwrInputModule;->getCurrentLanguageID()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getCurrentLanguageID()I
 
     move-result v1
 
@@ -171,7 +171,7 @@
 
     const/16 v2, 0x190
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/HwrInputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
 
     goto :goto_0
 
@@ -186,7 +186,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/HwrInputModule;->commitHwrTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitHwrTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     :cond_2
     iget-boolean v1, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->mIsNeedCommitComposing:Z
@@ -211,7 +211,7 @@
     if-eqz v1, :cond_6
 
     :cond_4
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/HwrInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     iput-boolean v3, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->mIsNeedCommitComposing:Z
 
@@ -240,7 +240,7 @@
     :cond_5
     iget-object v1, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->mCurrentCompsing:Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/HwrInputModule;->commitHwrTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitHwrTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->mCurrentCompsing:Ljava/lang/StringBuilder;
 
@@ -281,7 +281,7 @@
 
     invoke-static {v1}, Lcom/diotek/ime/framework/input/ComposingTextManager;->append(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/HwrInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingText()V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -311,7 +311,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->recognizeAll:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v1, v0}, Lcom/diotek/ime/framework/input/HwrInputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
+    invoke-virtual {p0, v1, v0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
 
     goto/16 :goto_0
 
@@ -328,7 +328,7 @@
 
     const/4 v6, 0x0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/HwrInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     iget-object v4, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -391,7 +391,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/HwrInputModule;->increaseDeleteCount()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->increaseDeleteCount()V
 
     if-eqz v2, :cond_3
 
@@ -417,7 +417,7 @@
 
     invoke-interface {v4, v5}, Lcom/diotek/ime/framework/engine/InputEngineManager;->inputKey(I)I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/HwrInputModule;->getDeleteCount()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getDeleteCount()I
 
     move-result v4
 
@@ -449,7 +449,7 @@
 
     if-eqz v1, :cond_2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/HwrInputModule;->getLastWordDividerIndex()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getLastWordDividerIndex()I
 
     move-result v4
 
@@ -462,16 +462,16 @@
     :cond_3
     const/4 v4, 0x1
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/HwrInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     goto :goto_0
 
     :cond_4
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/HwrInputModule;->initWordDividerIndexList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initWordDividerIndexList()V
 
     const/16 v4, 0x43
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/HwrInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/AbstractInputModule;->onKeyDownUpHandle(I)V
 
     goto :goto_1
 .end method
@@ -483,7 +483,7 @@
 
     const/4 v5, 0x0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/HwrInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -552,9 +552,9 @@
 
     invoke-interface {v1}, Lcom/diotek/ime/framework/engine/InputEngineManager;->clearContext()I
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/HwrInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/HwrInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     :cond_1
     const/16 v1, 0xa
@@ -578,13 +578,13 @@
 
     invoke-interface {v1, v5}, Lcom/diotek/ime/framework/common/InputManager;->setCandidatesViewShown(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/HwrInputModule;->sendEnterKeyHandle()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->sendEnterKeyHandle()V
 
     :goto_1
     return-void
 
     :cond_2
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/HwrInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     goto :goto_0
 
@@ -610,11 +610,11 @@
     :goto_2
     iget-object v1, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->recognizeAll:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/HwrInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->recognizeFail:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/HwrInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -699,7 +699,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->setLength(I)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/HwrInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     return-void
 .end method
@@ -723,7 +723,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->recognizeFail:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v1, v0}, Lcom/diotek/ime/framework/input/HwrInputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
+    invoke-virtual {p0, v1, v0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
 
     :cond_0
     return-void
@@ -736,7 +736,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/HwrInputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
+    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
 
     return-void
 .end method
@@ -786,7 +786,7 @@
     invoke-interface {v3, p1}, Lcom/diotek/ime/framework/engine/InputEngineManager;->inputKey(I)I
 
     :goto_0
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/HwrInputModule;->autoPeriod(I)V
+    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->autoPeriod(I)V
 
     if-eqz v0, :cond_1
 
@@ -807,19 +807,19 @@
 
     iget-object v3, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->recognizeAll:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/framework/input/HwrInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v3}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     const/16 v3, 0xbb9
 
     if-ne v2, v3, :cond_4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/HwrInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     iput-boolean v5, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->mIsNeedCommitComposing:Z
 
     iget-object v3, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->mCurrentCompsing:Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/framework/input/HwrInputModule;->commitHwrTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v3}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitHwrTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v3, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->mCurrentCompsing:Ljava/lang/StringBuilder;
 
@@ -879,7 +879,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->recognizeAll:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/HwrInputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
+    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
 
     move-result v0
 
@@ -975,7 +975,7 @@
 
     const/4 v4, 0x0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/HwrInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     iget-object v2, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -1057,7 +1057,7 @@
 
     invoke-interface {v2, v3}, Lcom/diotek/ime/framework/engine/InputEngineManager;->getCharSequence(Ljava/lang/StringBuilder;)I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/HwrInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingText()V
 
     iget-object v2, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mCandidates:Ljava/util/ArrayList;
 
@@ -1089,9 +1089,9 @@
 
     :cond_3
     :goto_1
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/HwrInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/HwrInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     int-to-char v2, p1
 
@@ -1132,19 +1132,19 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->recognizeAll:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/HwrInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     const/16 v1, 0xbb9
 
     if-ne v0, v1, :cond_1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/HwrInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     iput-boolean v3, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->mIsNeedCommitComposing:Z
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->mCurrentCompsing:Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/HwrInputModule;->commitHwrTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitHwrTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/HwrInputModule;->mCurrentCompsing:Ljava/lang/StringBuilder;
 
@@ -1190,7 +1190,7 @@
 .method public updateVOHWRSuggestion()V
     .locals 3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/HwrInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 

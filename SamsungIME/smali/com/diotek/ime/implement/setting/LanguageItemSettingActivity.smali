@@ -35,7 +35,7 @@
 
     invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onCreate(Landroid/os/Bundle;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/LanguageItemSettingActivity;->getFragmentManager()Landroid/app/FragmentManager;
+    invoke-virtual {p0}, Landroid/app/Activity;->getFragmentManager()Landroid/app/FragmentManager;
 
     move-result-object v0
 
@@ -61,7 +61,7 @@
 .method public onCreateOptionsMenu(Landroid/view/Menu;)Z
     .locals 1
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onCreateOptionsMenu(Landroid/view/Menu;)Z
 
     move-result v0
 
@@ -79,7 +79,7 @@
 
     sparse-switch v1, :sswitch_data_0
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
 
     move-result v0
 
@@ -89,14 +89,14 @@
     :sswitch_0
     const/4 v1, -0x1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/LanguageItemSettingActivity;->setResult(I)V
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->setResult(I)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/LanguageItemSettingActivity;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
     :sswitch_1
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/LanguageItemSettingActivity;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
@@ -114,7 +114,7 @@
 
     invoke-interface {p1}, Landroid/view/Menu;->clear()V
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onPrepareOptionsMenu(Landroid/view/Menu;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onPrepareOptionsMenu(Landroid/view/Menu;)Z
 
     move-result v0
 

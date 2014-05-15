@@ -30,11 +30,11 @@
 
     const/16 v0, 0xa
 
-    invoke-virtual {p0, v0}, Lorg/apache/commons/io/FileCleaningTracker$Reaper;->setPriority(I)V
+    invoke-virtual {p0, v0}, Ljava/lang/Thread;->setPriority(I)V
 
     const/4 v0, 0x1
 
-    invoke-virtual {p0, v0}, Lorg/apache/commons/io/FileCleaningTracker$Reaper;->setDaemon(Z)V
+    invoke-virtual {p0, v0}, Ljava/lang/Thread;->setDaemon(Z)V
 
     return-void
 .end method
@@ -82,7 +82,7 @@
 
     invoke-virtual {v1}, Lorg/apache/commons/io/FileCleaningTracker$Tracker;->delete()Z
 
-    invoke-virtual {v1}, Lorg/apache/commons/io/FileCleaningTracker$Tracker;->clear()V
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;->clear()V
 
     iget-object v2, p0, Lorg/apache/commons/io/FileCleaningTracker$Reaper;->this$0:Lorg/apache/commons/io/FileCleaningTracker;
 

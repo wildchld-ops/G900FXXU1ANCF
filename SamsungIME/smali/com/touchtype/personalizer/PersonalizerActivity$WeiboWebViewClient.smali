@@ -85,7 +85,7 @@
 
     invoke-direct {v2, p0, v0}, Lcom/touchtype/personalizer/PersonalizerActivity$WeiboWebViewClient$1;-><init>(Lcom/touchtype/personalizer/PersonalizerActivity$WeiboWebViewClient;Ljava/lang/String;)V
 
-    invoke-virtual {v2}, Lcom/touchtype/personalizer/PersonalizerActivity$WeiboWebViewClient$1;->start()V
+    invoke-virtual {v2}, Ljava/lang/Thread;->start()V
 
     :cond_0
     :goto_0
@@ -119,7 +119,7 @@
     :cond_2
     iget-object v2, p0, Lcom/touchtype/personalizer/PersonalizerActivity$WeiboWebViewClient;->this$0:Lcom/touchtype/personalizer/PersonalizerActivity;
 
-    invoke-virtual {v2}, Lcom/touchtype/personalizer/PersonalizerActivity;->finish()V
+    invoke-virtual {v2}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 

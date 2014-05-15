@@ -7650,7 +7650,7 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
     :try_start_1
-    invoke-virtual {v7, v0}, Ljava/io/FileInputStream;->read([B)I
+    invoke-virtual {v7, v0}, Ljava/io/InputStream;->read([B)I
 
     move-result v8
 
@@ -7790,7 +7790,7 @@
 
     move-result-object v11
 
-    invoke-virtual {v3}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v12
 
@@ -7850,7 +7850,7 @@
 
     move-result-object v11
 
-    invoke-virtual {v3}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v12
 
@@ -7924,7 +7924,7 @@
 
     move-result-object v11
 
-    invoke-virtual {v3}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v12
 
@@ -7975,7 +7975,7 @@
 
     move-result-object v11
 
-    invoke-virtual {v3}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v12
 
@@ -8026,7 +8026,7 @@
 
     move-result-object v11
 
-    invoke-virtual {v3}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v12
 
@@ -10952,7 +10952,7 @@
 
     move-result-object v6
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/engine/xt9/Xt9Wrapper;->breakContext()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/engine/AbstractInputEngine;->breakContext()V
 
     invoke-virtual {p0}, Lcom/diotek/ime/framework/engine/xt9/Xt9Wrapper;->clearContext()I
 
@@ -11207,7 +11207,7 @@
 
     const/4 v5, 0x0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/engine/xt9/Xt9Wrapper;->breakContext()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/engine/AbstractInputEngine;->breakContext()V
 
     invoke-virtual {p0}, Lcom/diotek/ime/framework/engine/xt9/Xt9Wrapper;->clearContext()I
 
@@ -12882,7 +12882,7 @@
 
     invoke-virtual {p0}, Lcom/diotek/ime/framework/engine/xt9/Xt9Wrapper;->updateSelectList()I
 
-    invoke-virtual {p0, p2}, Lcom/diotek/ime/framework/engine/xt9/Xt9Wrapper;->getSuggestion(Ljava/util/ArrayList;)I
+    invoke-virtual {p0, p2}, Lcom/diotek/ime/framework/engine/AbstractInputEngine;->getSuggestion(Ljava/util/ArrayList;)I
 
     invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
 
@@ -16960,7 +16960,7 @@
     if-eqz v8, :cond_1
 
     :try_start_3
-    invoke-virtual {v8}, Ljava/io/FileOutputStream;->flush()V
+    invoke-virtual {v8}, Ljava/io/OutputStream;->flush()V
 
     invoke-virtual {v8}, Ljava/io/FileOutputStream;->getFD()Ljava/io/FileDescriptor;
 
@@ -17077,7 +17077,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v11
 
@@ -17130,7 +17130,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v4}, Ljava/io/FileNotFoundException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v11
 
@@ -17155,7 +17155,7 @@
     if-eqz v7, :cond_2
 
     :try_start_6
-    invoke-virtual {v7}, Ljava/io/FileOutputStream;->flush()V
+    invoke-virtual {v7}, Ljava/io/OutputStream;->flush()V
 
     invoke-virtual {v7}, Ljava/io/FileOutputStream;->getFD()Ljava/io/FileDescriptor;
 
@@ -17205,7 +17205,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v11
 
@@ -17259,7 +17259,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v11
 
@@ -17284,7 +17284,7 @@
     if-eqz v7, :cond_2
 
     :try_start_9
-    invoke-virtual {v7}, Ljava/io/FileOutputStream;->flush()V
+    invoke-virtual {v7}, Ljava/io/OutputStream;->flush()V
 
     invoke-virtual {v7}, Ljava/io/FileOutputStream;->getFD()Ljava/io/FileDescriptor;
 
@@ -17334,7 +17334,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v11
 
@@ -17361,7 +17361,7 @@
     if-eqz v7, :cond_8
 
     :try_start_b
-    invoke-virtual {v7}, Ljava/io/FileOutputStream;->flush()V
+    invoke-virtual {v7}, Ljava/io/OutputStream;->flush()V
 
     invoke-virtual {v7}, Ljava/io/FileOutputStream;->getFD()Ljava/io/FileDescriptor;
 
@@ -17414,7 +17414,7 @@
 
     move-result-object v11
 
-    invoke-virtual {v4}, Ljava/io/SyncFailedException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v12
 
@@ -17472,7 +17472,7 @@
 
     move-result-object v11
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v12
 
@@ -17525,7 +17525,7 @@
 
     move-result-object v11
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v12
 
@@ -17583,7 +17583,7 @@
 
     move-result-object v11
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v12
 
@@ -17643,7 +17643,7 @@
 
     move-result-object v11
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v12
 
@@ -17694,7 +17694,7 @@
 
     move-result-object v11
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v12
 
@@ -17744,7 +17744,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v4}, Ljava/io/SyncFailedException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v11
 
@@ -17802,7 +17802,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v11
 
@@ -17852,7 +17852,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v11
 
@@ -17910,7 +17910,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v11
 
@@ -17970,7 +17970,7 @@
 
     move-result-object v11
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v12
 
@@ -18022,7 +18022,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v4}, Ljava/io/SyncFailedException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v11
 
@@ -18080,7 +18080,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v11
 
@@ -18130,7 +18130,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v11
 
@@ -18188,7 +18188,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v11
 
@@ -18248,7 +18248,7 @@
 
     move-result-object v11
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v12
 
@@ -18300,7 +18300,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v4}, Ljava/io/SyncFailedException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v11
 
@@ -18358,7 +18358,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v11
 
@@ -18411,7 +18411,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v11
 
@@ -18469,7 +18469,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v11
 
@@ -18529,7 +18529,7 @@
 
     move-result-object v11
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v12
 
@@ -18580,7 +18580,7 @@
 
     move-result-object v10
 
-    invoke-virtual {v4}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v11
 

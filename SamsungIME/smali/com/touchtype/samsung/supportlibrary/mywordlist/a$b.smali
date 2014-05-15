@@ -240,7 +240,7 @@
 
     invoke-direct {v4}, Lcom/touchtype_fluency/Sequence;-><init>()V
 
-    invoke-virtual {v4, v2}, Lcom/touchtype_fluency/Sequence;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v4, v2}, Ljava/util/AbstractList;->add(Ljava/lang/Object;)Z
 
     invoke-interface {v0, v4}, Lcom/touchtype_fluency/Trainer;->addSequence(Lcom/touchtype_fluency/Sequence;)V
 

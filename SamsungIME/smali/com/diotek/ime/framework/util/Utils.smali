@@ -59,7 +59,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -2169,7 +2169,7 @@
     :catch_0
     move-exception v1
 
-    invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto/16 :goto_0
 
@@ -2744,7 +2744,7 @@
 
     aput v4, v8, v3
 
-    invoke-virtual/range {p2 .. p2}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {p2 .. p2}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v16
 
@@ -4893,7 +4893,7 @@
 
     invoke-direct {v3}, Ljava/lang/Exception;-><init>()V
 
-    invoke-virtual {v3}, Ljava/lang/Exception;->getStackTrace()[Ljava/lang/StackTraceElement;
+    invoke-virtual {v3}, Ljava/lang/Throwable;->getStackTrace()[Ljava/lang/StackTraceElement;
 
     move-result-object v0
 

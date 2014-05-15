@@ -211,7 +211,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/touchtype_fluency/Sequence$Type;->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/Enum;->hashCode()I
 
     move-result v0
 

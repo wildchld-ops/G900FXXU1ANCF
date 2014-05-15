@@ -31,7 +31,7 @@
 
     iput-object p2, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference$4;->val$chkbox:Landroid/widget/CheckBox;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -45,7 +45,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference$4;->val$chkbox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v1}, Landroid/widget/CheckBox;->isChecked()Z
+    invoke-virtual {v1}, Landroid/widget/CompoundButton;->isChecked()Z
 
     move-result v1
 

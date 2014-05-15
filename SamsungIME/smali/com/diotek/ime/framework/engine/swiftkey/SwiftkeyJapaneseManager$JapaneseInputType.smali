@@ -120,7 +120,7 @@
 
     sget-object v0, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyJapaneseManager$JapaneseInputType;->$VALUES:[Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyJapaneseManager$JapaneseInputType;
 
-    invoke-virtual {v0}, [Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyJapaneseManager$JapaneseInputType;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 

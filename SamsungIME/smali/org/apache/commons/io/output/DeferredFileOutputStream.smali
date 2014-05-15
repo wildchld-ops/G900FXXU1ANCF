@@ -138,7 +138,7 @@
 .method public isInMemory()Z
     .locals 1
 
-    invoke-virtual {p0}, Lorg/apache/commons/io/output/DeferredFileOutputStream;->isThresholdExceeded()Z
+    invoke-virtual {p0}, Lorg/apache/commons/io/output/ThresholdingOutputStream;->isThresholdExceeded()Z
 
     move-result v0
 

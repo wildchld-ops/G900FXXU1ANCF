@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup$2;->this$0:Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -47,7 +47,7 @@
 
     check-cast p1, Landroid/widget/Button;
 
-    invoke-virtual {p1}, Landroid/widget/Button;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
 
     move-result-object v2
 
@@ -69,11 +69,11 @@
 
     iget-object v2, p0, Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup$2;->this$0:Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup;
 
-    invoke-virtual {v2, v1}, Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup;->sendBroadcast(Landroid/content/Intent;)V
+    invoke-virtual {v2, v1}, Landroid/content/ContextWrapper;->sendBroadcast(Landroid/content/Intent;)V
 
     iget-object v2, p0, Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup$2;->this$0:Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/implement/input/umlaut/HwUmlautPopup;->finish()V
+    invoke-virtual {v2}, Landroid/app/Activity;->finish()V
 
     return-void
 .end method

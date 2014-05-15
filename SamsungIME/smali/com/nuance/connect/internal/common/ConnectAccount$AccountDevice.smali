@@ -46,7 +46,7 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;JZLcom/nuance/connect/internal/common/ConnectAccount$AccountDevice$DeviceType;)V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/nuance/connect/internal/common/ConnectAccount$AccountDevice;->deviceId:Ljava/lang/String;
 
@@ -218,7 +218,7 @@
 
     iget-object v1, p0, Lcom/nuance/connect/internal/common/ConnectAccount$AccountDevice;->status:Lcom/nuance/connect/internal/common/ConnectAccount$AccountDevice$DeviceStatus;
 
-    invoke-virtual {v0, v1}, Lcom/nuance/connect/internal/common/ConnectAccount$AccountDevice$DeviceStatus;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 

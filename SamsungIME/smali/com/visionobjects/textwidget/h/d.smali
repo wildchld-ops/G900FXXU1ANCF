@@ -34,11 +34,11 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/h/d;->a:Lcom/visionobjects/textwidget/h/g;
 
-    invoke-virtual {p0, v0, v1, v1}, Lcom/visionobjects/textwidget/h/d;->addView(Landroid/view/View;II)V
+    invoke-virtual {p0, v0, v1, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;II)V
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/h/d;->b:Lcom/visionobjects/textwidget/h/e;
 
-    invoke-virtual {p0, v0, v1, v1}, Lcom/visionobjects/textwidget/h/d;->addView(Landroid/view/View;II)V
+    invoke-virtual {p0, v0, v1, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;II)V
 
     return-void
 .end method

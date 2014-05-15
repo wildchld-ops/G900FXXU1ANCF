@@ -57,7 +57,7 @@
 .method public constructor <init>(Landroid/content/Context;I)V
     .locals 2
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/nuance/id/NuanceId;->context:Landroid/content/Context;
 
@@ -95,7 +95,7 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {v1, v2}, Ljava/lang/reflect/Field;->setAccessible(Z)V
+    invoke-virtual {v1, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     const-class v2, Landroid/os/Build;
 

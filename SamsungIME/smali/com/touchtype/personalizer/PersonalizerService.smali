@@ -1607,13 +1607,13 @@
 
     const/4 v6, 0x0
 
-    invoke-virtual {p0, v5, v6}, Lcom/touchtype/personalizer/PersonalizerService;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual {p0, v5, v6}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v5
 
     iput-object v5, p0, Lcom/touchtype/personalizer/PersonalizerService;->mPreferences:Landroid/content/SharedPreferences;
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerService;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v5
 

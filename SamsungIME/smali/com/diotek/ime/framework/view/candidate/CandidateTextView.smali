@@ -310,11 +310,11 @@
 .method public getCandidateTextViewWidth()F
     .locals 4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->getPaint()Landroid/text/TextPaint;
+    invoke-virtual {p0}, Landroid/widget/TextView;->getPaint()Landroid/text/TextPaint;
 
     move-result-object v0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
 
     move-result-object v2
 
@@ -322,7 +322,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v2}, Landroid/text/TextPaint;->measureText(Ljava/lang/String;)F
+    invoke-virtual {v0, v2}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
 
     move-result v1
 
@@ -332,7 +332,7 @@
 
     if-nez v2, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
 
     move-result-object v2
 
@@ -348,12 +348,12 @@
 
     const-string v2, "\u0e01"
 
-    invoke-virtual {v0, v2}, Landroid/text/TextPaint;->measureText(Ljava/lang/String;)F
+    invoke-virtual {v0, v2}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
 
     move-result v1
 
     :cond_0
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v2
 
@@ -361,7 +361,7 @@
 
     add-float/2addr v2, v1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->getPaddingRight()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingRight()I
 
     move-result v3
 
@@ -385,11 +385,11 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
 
     move-result-object v8
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->getPaint()Landroid/text/TextPaint;
+    invoke-virtual {p0}, Landroid/widget/TextView;->getPaint()Landroid/text/TextPaint;
 
     move-result-object v6
 
@@ -409,7 +409,7 @@
 
     const/4 v0, 0x1
 
-    invoke-virtual {v6, v0}, Landroid/text/TextPaint;->setAntiAlias(Z)V
+    invoke-virtual {v6, v0}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     const/4 v4, 0x0
 
@@ -425,16 +425,16 @@
 
     sget-object v0, Landroid/graphics/Paint$Align;->CENTER:Landroid/graphics/Paint$Align;
 
-    invoke-virtual {v6, v0}, Landroid/text/TextPaint;->setTextAlign(Landroid/graphics/Paint$Align;)V
+    invoke-virtual {v6, v0}, Landroid/graphics/Paint;->setTextAlign(Landroid/graphics/Paint$Align;)V
 
     :goto_0
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v0
 
     int-to-float v0, v0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->getTextSize()F
+    invoke-virtual {p0}, Landroid/widget/TextView;->getTextSize()F
 
     move-result v1
 
@@ -468,7 +468,7 @@
 
     sub-float v5, v0, v1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->isPressed()Z
+    invoke-virtual {p0}, Landroid/view/View;->isPressed()Z
 
     move-result v0
 
@@ -493,7 +493,7 @@
     return-void
 
     :cond_1
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v0
 
@@ -501,7 +501,7 @@
 
     sget-object v0, Landroid/graphics/Paint$Align;->LEFT:Landroid/graphics/Paint$Align;
 
-    invoke-virtual {v6, v0}, Landroid/text/TextPaint;->setTextAlign(Landroid/graphics/Paint$Align;)V
+    invoke-virtual {v6, v0}, Landroid/graphics/Paint;->setTextAlign(Landroid/graphics/Paint$Align;)V
 
     goto :goto_0
 
@@ -539,7 +539,7 @@
 
     invoke-super {p0, v0}, Landroid/widget/TextView;->setTextColor(I)V
 
-    invoke-super {p0, v2}, Landroid/widget/TextView;->setHoverPopupType(I)V
+    invoke-super {p0, v2}, Landroid/view/View;->setHoverPopupType(I)V
 
     invoke-super {p0, p1}, Landroid/widget/TextView;->onDraw(Landroid/graphics/Canvas;)V
 
@@ -689,7 +689,7 @@
 .method protected onSizeChanged(IIII)V
     .locals 2
 
-    invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/TextView;->onSizeChanged(IIII)V
+    invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
     int-to-float v0, p1
 
@@ -747,7 +747,7 @@
 
     iput-boolean p4, p0, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->mHighlight:Z
 
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/view/candidate/CandidateTextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     return-void
 .end method

@@ -21,7 +21,7 @@
 .method private setEntries(Ljava/lang/String;II)V
     .locals 9
 
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/implement/setting/Personalization;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, p1}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v3
 
@@ -35,7 +35,7 @@
 
     check-cast v2, Landroid/preference/ListPreference;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Personalization;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
 
@@ -43,7 +43,7 @@
 
     move-result-object v4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Personalization;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
 
@@ -100,9 +100,9 @@
 
     const v1, 0x7f03009c
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/Personalization;->addPreferencesFromResource(I)V
+    invoke-virtual {p0, v1}, Landroid/preference/PreferenceActivity;->addPreferencesFromResource(I)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Personalization;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -133,7 +133,7 @@
 
     packed-switch v0, :pswitch_data_0
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
 
     move-result v0
 
@@ -141,7 +141,7 @@
     return v0
 
     :pswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Personalization;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     const/4 v0, 0x1
 

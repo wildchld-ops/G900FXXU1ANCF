@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment$4;->this$0:Lcom/touchtype/personalizer/PersonalizerSettingsFragment;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -41,7 +41,7 @@
 
     const-string v2, "SETTINGS_USE_STANDARD_DATA"
 
-    invoke-virtual {v1, v2}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v1, v2}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -51,7 +51,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v0, v1}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     :cond_0
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V

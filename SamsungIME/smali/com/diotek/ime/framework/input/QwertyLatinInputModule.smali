@@ -68,7 +68,7 @@
 .method private processBackSpaceKey()V
     .locals 11
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->getXt9Version()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getXt9Version()I
 
     move-result v9
 
@@ -89,7 +89,7 @@
 
     if-eqz v3, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -103,7 +103,7 @@
 
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     const-string v6, ""
 
@@ -124,9 +124,9 @@
     const-string v6, ""
 
     :cond_2
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->setDeleteCount(Ljava/lang/String;)V
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setDeleteCount(Ljava/lang/String;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetPredictionWord()V
 
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -187,7 +187,7 @@
 
     if-eqz v9, :cond_4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isRecapture()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isRecapture()Z
 
     move-result v9
 
@@ -201,13 +201,13 @@
 
     const/4 v9, 0x1
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     const/4 v9, -0x5
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->processReCaptureForXT9(I)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->processReCaptureForXT9(I)V
 
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -224,7 +224,7 @@
     invoke-interface {v9, v10}, Lcom/diotek/ime/framework/engine/InputEngineManager;->getCharSequence(Ljava/lang/StringBuilder;)I
 
     :goto_1
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingText()V
 
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -259,13 +259,13 @@
     :cond_4
     const/4 v9, 0x1
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     const/16 v9, 0x43
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->onKeyDownUpHandle(I)V
 
     goto :goto_1
 
@@ -289,7 +289,7 @@
 
     const/16 v9, 0x43
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->onKeyDownUpHandle(I)V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
@@ -306,7 +306,7 @@
 
     move-result-object v9
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mCandidates:Ljava/util/ArrayList;
 
@@ -356,7 +356,7 @@
     :cond_9
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->getDeleteCount()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getDeleteCount()I
 
     move-result v9
 
@@ -388,7 +388,7 @@
 
     if-eqz v3, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->getLastWordDividerIndex()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getLastWordDividerIndex()I
 
     move-result v9
 
@@ -399,11 +399,11 @@
     goto/16 :goto_0
 
     :cond_a
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->initWordDividerIndexList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initWordDividerIndexList()V
 
     const/16 v9, 0x43
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->onKeyDownUpHandle(I)V
 
     goto/16 :goto_0
 
@@ -499,7 +499,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->getDeleteCount()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getDeleteCount()I
 
     move-result v9
 
@@ -519,7 +519,7 @@
 
     if-eqz v3, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->getLastWordDividerIndex()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getLastWordDividerIndex()I
 
     move-result v9
 
@@ -530,18 +530,18 @@
     goto/16 :goto_0
 
     :cond_e
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposingWithoutInit()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposingWithoutInit()V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
     goto :goto_2
 
     :cond_f
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->initWordDividerIndexList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initWordDividerIndexList()V
 
     const/16 v9, 0x43
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->onKeyDownUpHandle(I)V
 
     goto/16 :goto_0
 .end method
@@ -566,7 +566,7 @@
     return-void
 
     :cond_1
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->clearCandidateList()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     move-object/from16 v0, p0
 
@@ -598,7 +598,7 @@
 
     move-object/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     const-string v12, ""
 
@@ -795,9 +795,9 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v12}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->setDeleteCount(Ljava/lang/String;)V
+    invoke-virtual {v0, v12}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setDeleteCount(Ljava/lang/String;)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->resetPredictionWord()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetPredictionWord()V
 
     move-object/from16 v0, p0
 
@@ -867,7 +867,7 @@
 
     if-eqz v19, :cond_6
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isBeforeTraceInput()Z
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isBeforeTraceInput()Z
 
     move-result v19
 
@@ -882,7 +882,7 @@
 
     if-eqz v19, :cond_9
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isRecapture()Z
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isRecapture()Z
 
     move-result v19
 
@@ -900,9 +900,9 @@
 
     move/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->initComposingBuffer()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     const/16 v19, -0x5
 
@@ -910,7 +910,7 @@
 
     move/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->processReCaptureForXT9(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->processReCaptureForXT9(I)V
 
     move-object/from16 v0, p0
 
@@ -960,7 +960,7 @@
 
     :cond_7
     :goto_4
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->setComposingText()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingText()V
 
     move-object/from16 v0, p0
 
@@ -1046,9 +1046,9 @@
 
     move/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->initComposingBuffer()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     const/16 v19, 0x43
 
@@ -1056,12 +1056,12 @@
 
     move/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->onKeyDownUpHandle(I)V
 
     goto :goto_4
 
     :cond_a
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isEnableAutoCorrection()Z
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isEnableAutoCorrection()Z
 
     move-result v19
 
@@ -1141,7 +1141,7 @@
 
     move-object/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     move-object/from16 v0, p0
 
@@ -1170,7 +1170,7 @@
 
     move-object/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     move-object/from16 v0, p0
 
@@ -1231,7 +1231,7 @@
 
     move-result-object v4
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->resetPredictionWord()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetPredictionWord()V
 
     if-eqz v9, :cond_11
 
@@ -1246,7 +1246,7 @@
     :cond_f
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->getDeleteCount()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getDeleteCount()I
 
     move-result v19
 
@@ -1272,7 +1272,7 @@
 
     if-eqz v8, :cond_0
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->getLastWordDividerIndex()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getLastWordDividerIndex()I
 
     move-result v19
 
@@ -1287,7 +1287,7 @@
     goto/16 :goto_0
 
     :cond_10
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->initWordDividerIndexList()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initWordDividerIndexList()V
 
     const/16 v19, 0x43
 
@@ -1295,7 +1295,7 @@
 
     move/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->onKeyDownUpHandle(I)V
 
     goto/16 :goto_0
 
@@ -1462,12 +1462,12 @@
 
     move/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->onKeyDownUpHandle(I)V
 
     goto/16 :goto_0
 
     :cond_14
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposingWithoutInit()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposingWithoutInit()V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
@@ -1507,7 +1507,7 @@
 
     if-eqz v8, :cond_0
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->getLastWordDividerIndex()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getLastWordDividerIndex()I
 
     move-result v19
 
@@ -1522,7 +1522,7 @@
     goto/16 :goto_0
 
     :cond_17
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->initWordDividerIndexList()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initWordDividerIndexList()V
 
     const/16 v19, 0x43
 
@@ -1530,7 +1530,7 @@
 
     move/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->onKeyDownUpHandle(I)V
 
     move-object/from16 v0, p0
 
@@ -1540,7 +1540,7 @@
 
     if-eqz v19, :cond_18
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isRecapture()Z
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isRecapture()Z
 
     move-result v19
 
@@ -1569,7 +1569,7 @@
 
     move/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     goto/16 :goto_0
 .end method
@@ -1589,7 +1589,7 @@
 
     iput-boolean v6, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mIsPredictionOn:Z
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     iget-object v6, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -1601,13 +1601,13 @@
 
     iget-object v6, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
 
     move-result v3
 
     iget-object v6, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget v6, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mLastKeyCode:I
 
@@ -1670,13 +1670,13 @@
 
     invoke-interface {v4, v5}, Lcom/diotek/ime/framework/engine/InputEngineManager;->getCharSequence(Ljava/lang/StringBuilder;)I
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isThaiAcceptable(Z)Z
+    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isThaiAcceptable(Z)Z
 
     move-result v4
 
     if-eqz v4, :cond_3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isLaoAcceptable()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isLaoAcceptable()Z
 
     move-result v4
 
@@ -1686,7 +1686,7 @@
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
     :cond_4
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingText()V
 
     iget-boolean v4, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mIsPredictionOn:Z
 
@@ -1725,9 +1725,9 @@
     goto :goto_0
 
     :cond_6
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     iget-object v4, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -1740,7 +1740,7 @@
 
     const/16 v5, 0x5dc
 
-    invoke-virtual {p0, v4, v5}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
+    invoke-virtual {p0, v4, v5}, Lcom/diotek/ime/framework/input/AbstractInputModule;->startTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;I)V
 
     goto :goto_2
 .end method
@@ -1836,7 +1836,7 @@
     invoke-static {v4, v5}, Lcom/diotek/ime/framework/input/Telex/Telex;->join(Ljava/lang/StringBuilder;C)Ljava/lang/StringBuilder;
 
     :goto_1
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingText()V
 
     :goto_2
     iget-object v4, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -1950,7 +1950,7 @@
 
     move-result v4
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->toUpperCaseOfTurkish(I)I
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/AbstractInputModule;->toUpperCaseOfTurkish(I)I
 
     move-result v4
 
@@ -1984,7 +1984,7 @@
 
     move-result v4
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->toUpperCaseOfTurkish(I)I
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/AbstractInputModule;->toUpperCaseOfTurkish(I)I
 
     move-result v4
 
@@ -2056,7 +2056,7 @@
     :goto_0
     iget-object v10, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
+    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isTimerRunning(Lcom/diotek/ime/framework/input/InputModule$Timer;)Z
 
     move-result v10
 
@@ -2064,7 +2064,7 @@
 
     iget-object v10, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget-object v10, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mCandidates:Ljava/util/ArrayList;
 
@@ -2091,9 +2091,9 @@
     :cond_1
     const/4 v10, 0x1
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     :cond_2
     if-eqz v5, :cond_16
@@ -2186,19 +2186,19 @@
 
     invoke-static {v10}, Lcom/diotek/ime/framework/input/ComposingTextManager;->replace(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingText()V
 
     const/4 v10, 0x0
 
     aget v10, v0, v10
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->selectWordInList(I)V
+    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->selectWordInList(I)V
 
     const/4 v10, 0x1
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     iget-object v10, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mAutoSpaceController:Lcom/diotek/ime/framework/input/autospace/AutoSpaceController;
 
@@ -2224,7 +2224,7 @@
 
     move-result-object v10
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v10, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
 
@@ -2281,7 +2281,7 @@
 
     move-result-object v10
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v10, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
 
@@ -2308,7 +2308,7 @@
 
     invoke-virtual {v10}, Lcom/diotek/ime/framework/trace/KeyboardTrace;->clearTraceInfo()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetPredictionWord()V
 
     :cond_6
     :goto_2
@@ -2343,9 +2343,9 @@
 
     const/4 v10, 0x1
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     goto :goto_1
 
@@ -2376,7 +2376,7 @@
 
     invoke-virtual {v10}, Lcom/diotek/ime/framework/trace/KeyboardTrace;->clearTraceInfo()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetPredictionWord()V
 
     goto :goto_2
 
@@ -2399,7 +2399,7 @@
     if-eqz v5, :cond_d
 
     :cond_c
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isAvailablePrediction()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isAvailablePrediction()Z
 
     move-result v10
 
@@ -2436,10 +2436,10 @@
 
     invoke-virtual {v10}, Lcom/diotek/ime/framework/input/autospace/AutoSpaceController;->disableSetUpAutoSpace()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetPredictionWord()V
 
     :cond_f
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isThaiAcceptable()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isThaiAcceptable()Z
 
     move-result v10
 
@@ -2450,7 +2450,7 @@
     if-nez v10, :cond_11
 
     :cond_10
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isLaoAcceptable()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isLaoAcceptable()Z
 
     move-result v10
 
@@ -2472,7 +2472,7 @@
 
     iget-boolean v10, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mIsPredictionOn:Z
 
-    invoke-virtual {p0, p1, v10}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->processVietnameseTone(IZ)V
+    invoke-virtual {p0, p1, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->processVietnameseTone(IZ)V
 
     :cond_13
     iget-boolean v10, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mIsPredictionOn:Z
@@ -2486,7 +2486,7 @@
     if-eqz v5, :cond_21
 
     :cond_14
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isAvailablePrediction()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isAvailablePrediction()Z
 
     move-result v10
 
@@ -2499,7 +2499,7 @@
 
     if-eqz v10, :cond_21
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingText()V
 
     iget-object v10, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -2548,13 +2548,13 @@
 
     invoke-interface {v10}, Lcom/diotek/ime/framework/engine/InputEngineManager;->breakContext()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetPredictionWord()V
 
     const/4 v10, 0x1
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     const/16 v10, 0x40
 
@@ -2581,13 +2581,13 @@
 
     const/4 v10, 0x0
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->selectWordInList(I)V
+    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->selectWordInList(I)V
 
     const/4 v10, 0x1
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     iget-object v10, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mAutoSpaceController:Lcom/diotek/ime/framework/input/autospace/AutoSpaceController;
 
@@ -2605,7 +2605,7 @@
 
     move-result-object v10
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v10, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
 
@@ -2636,7 +2636,7 @@
 
     if-nez v10, :cond_1d
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetPredictionWord()V
 
     goto/16 :goto_2
 
@@ -2645,7 +2645,7 @@
 
     if-eqz v10, :cond_1b
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isRecapture()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isRecapture()Z
 
     move-result v10
 
@@ -2671,7 +2671,7 @@
 
     if-nez v10, :cond_1a
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetPredictionWord()V
 
     goto/16 :goto_2
 
@@ -2694,22 +2694,22 @@
 
     move-result-object v10
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->commitText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitText(Ljava/lang/CharSequence;)V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposingWithoutInit()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposingWithoutInit()V
 
     iget-object v10, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
     invoke-interface {v10}, Lcom/diotek/ime/framework/engine/InputEngineManager;->clearContext()I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetPredictionWord()V
 
     goto/16 :goto_2
 
     :cond_1b
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isZawgyiAcceptable(I)Z
+    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isZawgyiAcceptable(I)Z
 
     move-result v10
 
@@ -2733,7 +2733,7 @@
 
     move-result v10
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isLaoAcceptable(I)Z
+    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isLaoAcceptable(I)Z
 
     move-result v10
 
@@ -2748,17 +2748,17 @@
 
     if-nez v10, :cond_1d
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetPredictionWord()V
 
     goto/16 :goto_2
 
     :cond_1d
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->clearAction()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearAction()V
 
     goto/16 :goto_3
 
     :cond_1e
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isEnableAutoCorrection()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isEnableAutoCorrection()Z
 
     move-result v10
 
@@ -2853,7 +2853,7 @@
 
     if-eqz v10, :cond_23
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isRecapture()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isRecapture()Z
 
     move-result v10
 
@@ -2884,7 +2884,7 @@
     :cond_22
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetPredictionWord()V
 
     goto/16 :goto_2
 
@@ -2937,7 +2937,7 @@
 
     move-result-object v10
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
@@ -2951,7 +2951,7 @@
 .method private processWordSeparator(I[I)V
     .locals 12
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->getXt9Version()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getXt9Version()I
 
     move-result v8
 
@@ -2972,7 +2972,7 @@
 
     if-eqz v2, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     iget-object v8, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mRepository:Lcom/diotek/ime/framework/repository/Repository;
 
@@ -3079,7 +3079,7 @@
 
     iget-object v8, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mBackupCandidate:Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isNeedToAddUDB(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isNeedToAddUDB(Ljava/lang/CharSequence;)V
 
     iget-object v8, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mRepository:Lcom/diotek/ime/framework/repository/Repository;
 
@@ -3094,7 +3094,7 @@
     invoke-interface {v8, v9, v10}, Lcom/diotek/ime/framework/repository/Repository;->setData(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_3
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->selectWordInList(I)V
+    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/AbstractInputModule;->selectWordInList(I)V
 
     :cond_4
     :goto_1
@@ -3152,16 +3152,16 @@
 
     invoke-static {v0}, Lcom/diotek/ime/framework/input/ComposingTextManager;->replace(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingText()V
 
     const/4 v8, 0x1
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     :cond_6
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->sendEnterKeyHandle()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->sendEnterKeyHandle()V
 
     iget-object v8, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -3200,7 +3200,7 @@
 
     iget-object v8, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mBackupCandidate:Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isNeedToAddUDB(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isNeedToAddUDB(Ljava/lang/CharSequence;)V
 
     iget-object v8, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mRepository:Lcom/diotek/ime/framework/repository/Repository;
 
@@ -3219,16 +3219,16 @@
 
     aget v8, v1, v8
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->selectWordInList(I)V
+    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/AbstractInputModule;->selectWordInList(I)V
 
     goto :goto_1
 
     :cond_9
     const/4 v8, 0x1
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     goto :goto_2
 
@@ -3241,7 +3241,7 @@
 
     if-eqz v5, :cond_b
 
-    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->processMultiTapSymbolicKey(I[I)V
+    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->processMultiTapSymbolicKey(I[I)V
 
     goto/16 :goto_0
 
@@ -3256,7 +3256,7 @@
 
     const/4 v8, 0x1
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     const/16 v8, 0x20
 
@@ -3266,7 +3266,7 @@
 
     move-result-object v8
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     :cond_c
     if-eqz v3, :cond_e
@@ -3299,7 +3299,7 @@
 
     move-result-object v8
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     const/16 v8, 0x2e
 
@@ -3335,14 +3335,14 @@
 
     const/4 v8, 0x1
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->doNextWordPrediction(Z)V
+    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/AbstractInputModule;->doNextWordPrediction(Z)V
 
     goto/16 :goto_0
 
     :cond_e
     const/4 v8, 0x1
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
@@ -3386,7 +3386,7 @@
     :cond_10
     const/4 v8, 0x1
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->doNextWordPrediction(Z)V
+    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/AbstractInputModule;->doNextWordPrediction(Z)V
 
     goto/16 :goto_0
 .end method
@@ -3407,7 +3407,7 @@
     return-void
 
     :cond_1
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mRepository:Lcom/diotek/ime/framework/repository/Repository;
 
@@ -3520,7 +3520,7 @@
 
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mBackupCandidate:Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isNeedToAddUDB(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isNeedToAddUDB(Ljava/lang/CharSequence;)V
 
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mRepository:Lcom/diotek/ime/framework/repository/Repository;
 
@@ -3535,7 +3535,7 @@
     invoke-interface {v9, v10, v11}, Lcom/diotek/ime/framework/repository/Repository;->setData(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_3
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->selectWordInList(I)V
+    invoke-virtual {p0, v8}, Lcom/diotek/ime/framework/input/AbstractInputModule;->selectWordInList(I)V
 
     :cond_4
     :goto_1
@@ -3569,7 +3569,7 @@
 
     if-eqz v9, :cond_9
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isEnableAutoCorrection()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isEnableAutoCorrection()Z
 
     move-result v9
 
@@ -3599,16 +3599,16 @@
 
     invoke-static {v0}, Lcom/diotek/ime/framework/input/ComposingTextManager;->replace(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingText()V
 
     const/4 v9, 0x1
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     :cond_6
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->sendEnterKeyHandle()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->sendEnterKeyHandle()V
 
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -3647,7 +3647,7 @@
 
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mBackupCandidate:Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isNeedToAddUDB(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isNeedToAddUDB(Ljava/lang/CharSequence;)V
 
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mRepository:Lcom/diotek/ime/framework/repository/Repository;
 
@@ -3666,16 +3666,16 @@
 
     aget v9, v1, v9
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->selectWordInList(I)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->selectWordInList(I)V
 
     goto/16 :goto_1
 
     :cond_9
     const/4 v9, 0x1
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     goto :goto_2
 
@@ -3686,13 +3686,13 @@
 
     move-result v5
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isRecapture()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isRecapture()Z
 
     move-result v7
 
     if-eqz v5, :cond_b
 
-    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->processMultiTapSymbolicKey(I[I)V
+    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->processMultiTapSymbolicKey(I[I)V
 
     goto/16 :goto_0
 
@@ -3707,7 +3707,7 @@
 
     const/4 v9, 0x1
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     const/16 v9, 0x20
 
@@ -3717,7 +3717,7 @@
 
     move-result-object v9
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     :cond_c
     if-eqz v3, :cond_10
@@ -3785,7 +3785,7 @@
 
     move-result-object v9
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->commitText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitText(Ljava/lang/CharSequence;)V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
@@ -3851,7 +3851,7 @@
 
     if-ne v9, v10, :cond_12
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposingWithoutInit()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposingWithoutInit()V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
@@ -3860,7 +3860,7 @@
     :cond_12
     const/4 v9, 0x1
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
@@ -3873,18 +3873,18 @@
 
     move-result-object v9
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     goto :goto_4
 
     :cond_14
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isEnableAutoCorrection()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isEnableAutoCorrection()Z
 
     move-result v9
 
     if-eqz v9, :cond_15
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->doAutoCorrection(Landroid/view/inputmethod/InputConnection;)V
+    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->doAutoCorrection(Landroid/view/inputmethod/InputConnection;)V
 
     goto :goto_4
 
@@ -3893,7 +3893,7 @@
 
     move-result-object v9
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->commitText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitText(Ljava/lang/CharSequence;)V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
@@ -3914,7 +3914,7 @@
 
     const/4 v9, 0x1
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->doNextWordPrediction(Z)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->doNextWordPrediction(Z)V
 
     goto/16 :goto_0
 
@@ -3978,7 +3978,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -4179,7 +4179,7 @@
     const/4 v5, 0x1
 
     :goto_2
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isEnableAutoCorrection()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isEnableAutoCorrection()Z
 
     move-result v10
 
@@ -4346,13 +4346,13 @@
 
     invoke-static {v10}, Lcom/diotek/ime/framework/input/ComposingTextManager;->append(C)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingText()V
 
     :cond_c
     :goto_5
     const/4 v10, 0x1
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->setPredictionWord(Z)V
+    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setPredictionWord(Z)V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->isEmpty()Z
 
@@ -4370,7 +4370,7 @@
 
     if-ne p1, v10, :cond_d
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->isEnableAutoCorrection()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isEnableAutoCorrection()Z
 
     move-result v10
 
@@ -4448,7 +4448,7 @@
 
     move-result-object v10
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v10, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
 
@@ -4527,7 +4527,7 @@
 
     invoke-virtual {v10, p1, v6}, Lcom/diotek/ime/framework/input/autospace/AutoSpaceController;->setUpAutoSpace(IZ)V
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->setBeforeTraceInput(Z)V
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setBeforeTraceInput(Z)V
 
     goto/16 :goto_4
 
@@ -4584,7 +4584,7 @@
 
     if-eqz v10, :cond_1a
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->getXt9Version()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getXt9Version()I
 
     move-result v10
 
@@ -4697,13 +4697,13 @@
 
     move-result-object v10
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v10}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     :cond_20
     invoke-direct {p0, p1, p2}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->processSingleTap(I[I)V
 
     :goto_8
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->autoPeriod(I)V
+    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->autoPeriod(I)V
 
     goto/16 :goto_6
 
@@ -4728,7 +4728,7 @@
 
     const/4 v5, 0x0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     iget-object v3, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -4865,7 +4865,7 @@
 
     if-nez v3, :cond_6
 
-    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->processMultiTapSymbolicKey(I[I)V
+    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->processMultiTapSymbolicKey(I[I)V
 
     goto :goto_0
 
@@ -4904,14 +4904,14 @@
 
     move-result-object v3
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v3}, Lcom/diotek/ime/framework/input/AbstractInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     goto :goto_0
 
     :cond_8
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 

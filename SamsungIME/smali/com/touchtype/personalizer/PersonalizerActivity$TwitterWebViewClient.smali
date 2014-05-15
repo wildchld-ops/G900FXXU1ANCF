@@ -85,7 +85,7 @@
 
     invoke-direct {v4, p0, v1}, Lcom/touchtype/personalizer/PersonalizerActivity$TwitterWebViewClient$1;-><init>(Lcom/touchtype/personalizer/PersonalizerActivity$TwitterWebViewClient;Ljava/lang/String;)V
 
-    invoke-virtual {v4}, Lcom/touchtype/personalizer/PersonalizerActivity$TwitterWebViewClient$1;->start()V
+    invoke-virtual {v4}, Ljava/lang/Thread;->start()V
 
     :cond_0
     :goto_0
@@ -129,7 +129,7 @@
     :cond_2
     iget-object v4, p0, Lcom/touchtype/personalizer/PersonalizerActivity$TwitterWebViewClient;->this$0:Lcom/touchtype/personalizer/PersonalizerActivity;
 
-    invoke-virtual {v4}, Lcom/touchtype/personalizer/PersonalizerActivity;->finish()V
+    invoke-virtual {v4}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 .end method

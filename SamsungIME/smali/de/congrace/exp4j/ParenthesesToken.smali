@@ -25,11 +25,11 @@
 
     check-cast v0, Lde/congrace/exp4j/ParenthesesToken;
 
-    invoke-virtual {v0}, Lde/congrace/exp4j/ParenthesesToken;->getValue()Ljava/lang/String;
+    invoke-virtual {v0}, Lde/congrace/exp4j/Token;->getValue()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lde/congrace/exp4j/ParenthesesToken;->getValue()Ljava/lang/String;
+    invoke-virtual {p0}, Lde/congrace/exp4j/Token;->getValue()Ljava/lang/String;
 
     move-result-object v2
 
@@ -49,7 +49,7 @@
 .method public hashCode()I
     .locals 1
 
-    invoke-virtual {p0}, Lde/congrace/exp4j/ParenthesesToken;->getValue()Ljava/lang/String;
+    invoke-virtual {p0}, Lde/congrace/exp4j/Token;->getValue()Ljava/lang/String;
 
     move-result-object v0
 
@@ -63,7 +63,7 @@
 .method isOpen()Z
     .locals 2
 
-    invoke-virtual {p0}, Lde/congrace/exp4j/ParenthesesToken;->getValue()Ljava/lang/String;
+    invoke-virtual {p0}, Lde/congrace/exp4j/Token;->getValue()Ljava/lang/String;
 
     move-result-object v0
 
@@ -75,7 +75,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-virtual {p0}, Lde/congrace/exp4j/ParenthesesToken;->getValue()Ljava/lang/String;
+    invoke-virtual {p0}, Lde/congrace/exp4j/Token;->getValue()Ljava/lang/String;
 
     move-result-object v0
 
@@ -87,7 +87,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-virtual {p0}, Lde/congrace/exp4j/ParenthesesToken;->getValue()Ljava/lang/String;
+    invoke-virtual {p0}, Lde/congrace/exp4j/Token;->getValue()Ljava/lang/String;
 
     move-result-object v0
 

@@ -3,8 +3,8 @@
 .source "FalseFileFilter.java"
 
 # interfaces
-.implements Lorg/apache/commons/io/filefilter/IOFileFilter;
 .implements Ljava/io/Serializable;
+.implements Lorg/apache/commons/io/filefilter/IOFileFilter;
 
 
 # static fields
@@ -33,7 +33,7 @@
 .method protected constructor <init>()V
     .locals 0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method

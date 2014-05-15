@@ -135,7 +135,7 @@
 
     sget-object v0, Lcom/nuance/connect/service/manager/AddonManager;->MESSAGES_HANDLED:[Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AddonManager;->setMessagesHandled([Lcom/nuance/connect/internal/common/InternalMessages;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->setMessagesHandled([Lcom/nuance/connect/internal/common/InternalMessages;)V
 
     iget-object v0, p0, Lcom/nuance/connect/service/manager/AbstractCommandManager;->validCommands:Lcom/nuance/connect/service/manager/AbstractCommandManager$ValidCommands;
 
@@ -296,7 +296,7 @@
 
     sget-object v4, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->USER:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v3, v4, v2}, Lcom/nuance/connect/service/manager/AddonManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v3, v4, v2}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v1
 
@@ -312,7 +312,7 @@
 
     iput-object v3, v1, Lcom/nuance/connect/service/comm/Command;->transactionId:Ljava/lang/String;
 
-    invoke-virtual {p0, v1}, Lcom/nuance/connect/service/manager/AddonManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     goto :goto_0
 .end method
@@ -349,7 +349,7 @@
     :try_start_0
     iget-object v3, p0, Lcom/nuance/connect/service/manager/AbstractCommandManager;->client:Lcom/nuance/connect/service/ConnectClient;
 
-    invoke-virtual {v3}, Lcom/nuance/connect/service/ConnectClient;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v3}, Landroid/content/ContextWrapper;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v3
 
@@ -682,7 +682,7 @@
 
     sget-object v2, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->USER:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v1, v2}, Lcom/nuance/connect/service/manager/AddonManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v1, v2}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -712,7 +712,7 @@
 
     iput-boolean v4, v0, Lcom/nuance/connect/service/comm/Command;->allowDuplicateOfCommand:Z
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AddonManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     return-void
 .end method
@@ -861,13 +861,13 @@
 
     sget-object v4, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->USER:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v3, v4, v2}, Lcom/nuance/connect/service/manager/AddonManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v3, v4, v2}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
     iput-object p1, v0, Lcom/nuance/connect/service/comm/Command;->identifier:Ljava/lang/String;
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AddonManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     new-instance v1, Landroid/os/Bundle;
 
@@ -907,7 +907,7 @@
 
     sget-object v4, Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;->STARTED:Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;
 
-    invoke-virtual {v3, v4}, Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v4}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v3
 
@@ -989,11 +989,11 @@
 
     sget-object v4, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->BACKGROUND:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v3, v4, v2}, Lcom/nuance/connect/service/manager/AddonManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v3, v4, v2}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/nuance/connect/service/manager/AddonManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     goto :goto_0
 .end method
@@ -1408,7 +1408,7 @@
 
     sget-object v14, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_COMMAND_ADDON_CHECK:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v14}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v14}, Ljava/lang/Enum;->ordinal()I
 
     move-result v14
 
@@ -1442,7 +1442,7 @@
 
     iget-object v14, v0, Lcom/nuance/connect/service/manager/AbstractCommandManager;->client:Lcom/nuance/connect/service/ConnectClient;
 
-    invoke-virtual {v14, v10}, Lcom/nuance/connect/service/ConnectClient;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {v14, v10}, Landroid/content/ContextWrapper;->startActivity(Landroid/content/Intent;)V
 
     goto/16 :goto_0
 
@@ -1484,7 +1484,7 @@
     :try_start_0
     iget-object v2, p0, Lcom/nuance/connect/service/manager/AbstractCommandManager;->client:Lcom/nuance/connect/service/ConnectClient;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/service/ConnectClient;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v2}, Landroid/content/ContextWrapper;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v2
 
@@ -1690,7 +1690,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v0}, Lorg/json/JSONException;->getLocalizedMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getLocalizedMessage()Ljava/lang/String;
 
     move-result-object v4
 
@@ -2031,7 +2031,7 @@
     invoke-direct {p0, v1}, Lcom/nuance/connect/service/manager/AddonManager;->fetchAddon(Ljava/lang/String;)V
 
     :cond_2
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AddonManager;->managerStartComplete()V
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->managerStartComplete()V
 
     goto :goto_0
 .end method
@@ -2169,7 +2169,7 @@
 
     sget-object v6, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_GET_TEXT_RESOURCE:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v6}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v6}, Ljava/lang/Enum;->ordinal()I
 
     move-result v7
 
@@ -2194,7 +2194,7 @@
 
     sget-object v6, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_GET_IMAGE_RESOURCE:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v6}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v6}, Ljava/lang/Enum;->ordinal()I
 
     move-result v7
 
@@ -2228,7 +2228,7 @@
     goto :goto_1
 
     :cond_2
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AddonManager;->managerStartComplete()V
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->managerStartComplete()V
 
     return-void
 .end method
@@ -2545,7 +2545,7 @@
 
     sget-object v3, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->USER:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v2, v3, v1}, Lcom/nuance/connect/service/manager/AddonManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v2, v3, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -2561,7 +2561,7 @@
 
     iput-object p1, v0, Lcom/nuance/connect/service/comm/Command;->identifier:Ljava/lang/String;
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AddonManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     goto :goto_0
 .end method
@@ -2892,7 +2892,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
 
     move-result v4
 
@@ -3206,7 +3206,7 @@
 .method public start()V
     .locals 1
 
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AddonManager;->managerStartComplete()V
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->managerStartComplete()V
 
     iget-object v0, p0, Lcom/nuance/connect/service/manager/AddonManager;->addonList:Lcom/nuance/connect/util/InstallMetadata;
 

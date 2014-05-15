@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/setting/HelpIntegration$4;->this$0:Lcom/diotek/ime/implement/setting/HelpIntegration;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -41,7 +41,7 @@
 
     const v4, 0x7f080064
 
-    invoke-virtual {v3, v4}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v3, v4}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -51,7 +51,7 @@
 
     const v4, 0x7f080061
 
-    invoke-virtual {v3, v4}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v3, v4}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
@@ -61,7 +61,7 @@
 
     const v4, 0x7f080063
 
-    invoke-virtual {v3, v4}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v3, v4}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 

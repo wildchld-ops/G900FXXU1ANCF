@@ -46,7 +46,7 @@
 .method public constructor <init>(Lcom/visionobjects/textwidget/h/i;)V
     .locals 2
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
@@ -60,7 +60,7 @@
 
     new-instance v0, Landroid/widget/Scroller;
 
-    invoke-virtual {p1}, Lcom/visionobjects/textwidget/h/i;->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -163,7 +163,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/a;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
@@ -175,7 +175,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/visionobjects/textwidget/h/b;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v1
 
@@ -199,7 +199,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lcom/visionobjects/textwidget/h/b;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     return-void
 .end method
@@ -240,7 +240,7 @@
 
     iget-object v2, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v2}, Lcom/visionobjects/textwidget/h/i;->getWidth()I
+    invoke-virtual {v2}, Landroid/view/View;->getWidth()I
 
     move-result v2
 
@@ -276,7 +276,7 @@
 
     iget-object v1, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v1}, Lcom/visionobjects/textwidget/h/i;->getWidth()I
+    invoke-virtual {v1}, Landroid/view/View;->getWidth()I
 
     move-result v1
 
@@ -323,7 +323,7 @@
 
     iget-object v1, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v1}, Lcom/visionobjects/textwidget/h/i;->getScrollX()I
+    invoke-virtual {v1}, Landroid/view/View;->getScrollX()I
 
     iget v1, p0, Lcom/visionobjects/textwidget/c/m;->k:F
 
@@ -352,7 +352,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/a;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
@@ -370,11 +370,11 @@
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/visionobjects/textwidget/h/a;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/i;->getHeight()I
+    invoke-virtual {v0}, Landroid/view/View;->getHeight()I
 
     invoke-direct {p0}, Lcom/visionobjects/textwidget/c/m;->w()V
 
@@ -400,7 +400,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/i;->getScrollX()I
+    invoke-virtual {v0}, Landroid/view/View;->getScrollX()I
 
     move-result v0
 
@@ -432,7 +432,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Landroid/widget/FrameLayout;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, p1}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     :goto_0
     return-void
@@ -444,7 +444,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Landroid/widget/FrameLayout;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, p1}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     goto :goto_0
 .end method
@@ -470,7 +470,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/visionobjects/textwidget/h/b;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     :goto_0
     return-void
@@ -484,7 +484,7 @@
 
     const/16 v1, 0x8
 
-    invoke-virtual {v0, v1}, Lcom/visionobjects/textwidget/h/b;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     goto :goto_0
 .end method
@@ -520,7 +520,7 @@
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/b;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
@@ -540,11 +540,11 @@
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lcom/visionobjects/textwidget/h/b;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/i;->getHeight()I
+    invoke-virtual {v0}, Landroid/view/View;->getHeight()I
 
     invoke-direct {p0}, Lcom/visionobjects/textwidget/c/m;->w()V
 
@@ -602,7 +602,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/visionobjects/textwidget/h/d;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     :goto_0
     return-void
@@ -616,7 +616,7 @@
 
     const/16 v1, 0x8
 
-    invoke-virtual {v0, v1}, Lcom/visionobjects/textwidget/h/d;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     goto :goto_0
 .end method
@@ -658,13 +658,13 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/i;->getScrollX()I
+    invoke-virtual {v0}, Landroid/view/View;->getScrollX()I
 
     move-result v0
 
     iget-object v1, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v1}, Lcom/visionobjects/textwidget/h/i;->getWidth()I
+    invoke-virtual {v1}, Landroid/view/View;->getWidth()I
 
     move-result v1
 
@@ -724,13 +724,13 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/i;->getScrollX()I
+    invoke-virtual {v0}, Landroid/view/View;->getScrollX()I
 
     move-result v0
 
     iget-object v1, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v1}, Lcom/visionobjects/textwidget/h/i;->getWidth()I
+    invoke-virtual {v1}, Landroid/view/View;->getWidth()I
 
     move-result v1
 
@@ -765,7 +765,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/i;->getScrollX()I
+    invoke-virtual {v0}, Landroid/view/View;->getScrollX()I
 
     move-result v0
 
@@ -801,7 +801,7 @@
     :cond_2
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/i;->getWidth()I
+    invoke-virtual {v0}, Landroid/view/View;->getWidth()I
 
     move-result v0
 
@@ -859,7 +859,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/i;->getWidth()I
+    invoke-virtual {v0}, Landroid/view/View;->getWidth()I
 
     move-result v0
 
@@ -885,13 +885,13 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/i;->getScrollX()I
+    invoke-virtual {v0}, Landroid/view/View;->getScrollX()I
 
     move-result v0
 
     iget-object v1, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v1}, Lcom/visionobjects/textwidget/h/i;->getWidth()I
+    invoke-virtual {v1}, Landroid/view/View;->getWidth()I
 
     move-result v1
 
@@ -905,7 +905,7 @@
     :cond_0
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/i;->getScrollX()I
+    invoke-virtual {v0}, Landroid/view/View;->getScrollX()I
 
     move-result v0
 
@@ -931,7 +931,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/i;->getScrollX()I
+    invoke-virtual {v0}, Landroid/view/View;->getScrollX()I
 
     move-result v0
 
@@ -943,13 +943,13 @@
     :cond_0
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/i;->getScrollX()I
+    invoke-virtual {v0}, Landroid/view/View;->getScrollX()I
 
     move-result v0
 
     iget-object v1, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v1}, Lcom/visionobjects/textwidget/h/i;->getWidth()I
+    invoke-virtual {v1}, Landroid/view/View;->getWidth()I
 
     move-result v1
 
@@ -995,7 +995,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v1, v2}, Lcom/visionobjects/textwidget/h/i;->scrollTo(II)V
+    invoke-virtual {v0, v1, v2}, Landroid/widget/HorizontalScrollView;->scrollTo(II)V
 
     goto :goto_0
 .end method
@@ -1005,7 +1005,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/i;->getScrollX()I
+    invoke-virtual {v0}, Landroid/view/View;->getScrollX()I
 
     move-result v0
 
@@ -1035,7 +1035,7 @@
     :cond_0
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/i;->getScrollX()I
+    invoke-virtual {v0}, Landroid/view/View;->getScrollX()I
 
     move-result v0
 
@@ -1067,7 +1067,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0, p0}, Lcom/visionobjects/textwidget/h/i;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, p0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     goto :goto_0
 .end method
@@ -1155,7 +1155,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/i;->getScrollX()I
+    invoke-virtual {v0}, Landroid/view/View;->getScrollX()I
 
     move-result v0
 
@@ -1175,7 +1175,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v1, v0, v2}, Lcom/visionobjects/textwidget/h/i;->scrollTo(II)V
+    invoke-virtual {v1, v0, v2}, Landroid/widget/HorizontalScrollView;->scrollTo(II)V
 
     return-void
 .end method
@@ -1231,7 +1231,7 @@
 
     iget-object v1, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v1}, Lcom/visionobjects/textwidget/h/i;->getScrollX()I
+    invoke-virtual {v1}, Landroid/view/View;->getScrollX()I
 
     move-result v1
 
@@ -1251,7 +1251,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0, p0}, Lcom/visionobjects/textwidget/h/i;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, p0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     return-void
 .end method
@@ -1261,7 +1261,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0, p0}, Lcom/visionobjects/textwidget/h/i;->removeCallbacks(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, p0}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->b:Landroid/widget/Scroller;
 
@@ -1311,7 +1311,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/i;->getScrollX()I
+    invoke-virtual {v0}, Landroid/view/View;->getScrollX()I
 
     move-result v0
 
@@ -1341,7 +1341,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0}, Lcom/visionobjects/textwidget/h/i;->getScrollX()I
+    invoke-virtual {v0}, Landroid/view/View;->getScrollX()I
 
     move-result v0
 
@@ -1411,7 +1411,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v1, v2}, Lcom/visionobjects/textwidget/h/i;->scrollTo(II)V
+    invoke-virtual {v0, v1, v2}, Landroid/widget/HorizontalScrollView;->scrollTo(II)V
 
     invoke-virtual {p0}, Lcom/visionobjects/textwidget/c/m;->m()Z
 
@@ -1421,7 +1421,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/m;->a:Lcom/visionobjects/textwidget/h/i;
 
-    invoke-virtual {v0, p0}, Lcom/visionobjects/textwidget/h/i;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, p0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     :cond_0
     iget-boolean v0, p0, Lcom/visionobjects/textwidget/c/m;->j:Z

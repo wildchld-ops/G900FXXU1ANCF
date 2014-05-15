@@ -45,7 +45,7 @@
 
     invoke-direct {v1, p0, p1}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference$4$2;-><init>(Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference$4;Z)V
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->runOnUiThread(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Landroid/app/Activity;->runOnUiThread(Ljava/lang/Runnable;)V
 
     return-void
 .end method
@@ -64,7 +64,7 @@
 
     invoke-direct {v1, p0, p1, p2}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference$4$1;-><init>(Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference$4;II)V
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->runOnUiThread(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Landroid/app/Activity;->runOnUiThread(Ljava/lang/Runnable;)V
 
     return-void
 .end method

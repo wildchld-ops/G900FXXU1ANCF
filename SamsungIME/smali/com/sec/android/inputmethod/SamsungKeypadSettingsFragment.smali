@@ -561,7 +561,7 @@
 
     const-string v1, "com.sec.android.inputmethod_preferences"
 
-    invoke-virtual {v0, v1, v2}, Landroid/app/Activity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual {v0, v1, v2}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v10
 
@@ -625,7 +625,7 @@
 
     if-eqz v8, :cond_0
 
-    invoke-virtual {p1, v8}, Landroid/preference/PreferenceCategory;->addPreference(Landroid/preference/Preference;)Z
+    invoke-virtual {p1, v8}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
     invoke-virtual {v8}, Landroid/preference/ListPreference;->getEntry()Ljava/lang/CharSequence;
 
@@ -635,7 +635,7 @@
 
     iget-object v0, p0, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->onInputMethodPreferenceChangeListener:Landroid/preference/Preference$OnPreferenceChangeListener;
 
-    invoke-virtual {v8, v0}, Landroid/preference/ListPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
+    invoke-virtual {v8, v0}, Landroid/preference/Preference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
     :cond_0
     :goto_0
@@ -724,7 +724,7 @@
     invoke-virtual {v9, v0}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
     :cond_3
-    invoke-virtual {p1, v9}, Landroid/preference/PreferenceCategory;->addPreference(Landroid/preference/Preference;)Z
+    invoke-virtual {p1, v9}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
     goto :goto_0
 .end method
@@ -738,7 +738,7 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {v1, v2, v3}, Landroid/app/Activity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual {v1, v2, v3}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v11
 
@@ -829,13 +829,13 @@
 
     invoke-virtual {v10, v0}, Landroid/preference/Preference;->setOrder(I)V
 
-    invoke-virtual {p1, v10}, Landroid/preference/PreferenceCategory;->addPreference(Landroid/preference/Preference;)Z
+    invoke-virtual {p1, v10}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
     :cond_2
     :goto_1
     if-eqz v9, :cond_3
 
-    invoke-virtual {p1, v9}, Landroid/preference/PreferenceCategory;->addPreference(Landroid/preference/Preference;)Z
+    invoke-virtual {p1, v9}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
     invoke-virtual {v9}, Landroid/preference/ListPreference;->getEntry()Ljava/lang/CharSequence;
 
@@ -845,7 +845,7 @@
 
     iget-object v1, p0, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->onInputMethodPreferenceChangeListener:Landroid/preference/Preference$OnPreferenceChangeListener;
 
-    invoke-virtual {v9, v1}, Landroid/preference/ListPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
+    invoke-virtual {v9, v1}, Landroid/preference/Preference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
     :cond_3
     return-void
@@ -1485,23 +1485,23 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p1}, Landroid/preference/ListPreference;->setKey(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Landroid/preference/Preference;->setKey(Ljava/lang/String;)V
 
-    invoke-virtual {v0, p3}, Landroid/preference/ListPreference;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, p3}, Landroid/preference/Preference;->setTitle(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {v0, p3}, Landroid/preference/ListPreference;->setDialogTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, p3}, Landroid/preference/DialogPreference;->setDialogTitle(Ljava/lang/CharSequence;)V
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Landroid/preference/ListPreference;->setPersistent(Z)V
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->setPersistent(Z)V
 
-    invoke-virtual {v0, p4}, Landroid/preference/ListPreference;->setDefaultValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, p4}, Landroid/preference/Preference;->setDefaultValue(Ljava/lang/Object;)V
 
     invoke-virtual {v0, p5}, Landroid/preference/ListPreference;->setEntries(I)V
 
     invoke-virtual {v0, p6}, Landroid/preference/ListPreference;->setEntryValues(I)V
 
-    invoke-virtual {v0, p2}, Landroid/preference/ListPreference;->setOrder(I)V
+    invoke-virtual {v0, p2}, Landroid/preference/Preference;->setOrder(I)V
 
     :cond_0
     return-object v0
@@ -1541,7 +1541,7 @@
 
     move-object/from16 v1, v18
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v9
 
@@ -1566,7 +1566,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-virtual {v9}, Landroid/preference/PreferenceCategory;->removeAll()V
+    invoke-virtual {v9}, Landroid/preference/PreferenceGroup;->removeAll()V
 
     move-object/from16 v0, p0
 
@@ -1578,7 +1578,7 @@
 
     const/16 v20, 0x0
 
-    invoke-virtual/range {v18 .. v20}, Landroid/app/Activity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual/range {v18 .. v20}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v13
 
@@ -1874,7 +1874,7 @@
 
     invoke-virtual {v14, v0}, Landroid/preference/Preference;->setIcon(I)V
 
-    invoke-virtual {v9, v14}, Landroid/preference/PreferenceCategory;->addPreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v9, v14}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
     goto/16 :goto_1
 
@@ -1942,7 +1942,7 @@
 
     const/4 v13, 0x0
 
-    invoke-virtual {v11, v12, v13}, Landroid/app/Activity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual {v11, v12, v13}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v9
 
@@ -2282,11 +2282,11 @@
     if-nez v11, :cond_8
 
     :cond_7
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->getActivity()Landroid/app/Activity;
+    invoke-virtual {p0}, Landroid/app/Fragment;->getActivity()Landroid/app/Activity;
 
     move-result-object v11
 
-    invoke-virtual {v11}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v11}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v11
 
@@ -2436,11 +2436,11 @@
     if-eqz v4, :cond_0
 
     :try_start_0
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->getActivity()Landroid/app/Activity;
+    invoke-virtual {p0}, Landroid/app/Fragment;->getActivity()Landroid/app/Activity;
 
     move-result-object v4
 
-    invoke-virtual {v4}, Landroid/app/Activity;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v4}, Landroid/content/ContextWrapper;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v2
 
@@ -2467,7 +2467,7 @@
     :catch_0
     move-exception v0
 
-    invoke-virtual {v0}, Landroid/content/pm/PackageManager$NameNotFoundException;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 .end method
@@ -2537,7 +2537,7 @@
 
     const-string v1, "HELP_INTEGRATION"
 
-    invoke-virtual {p0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -2578,7 +2578,7 @@
 
     const-string v4, "SETTINGS_DEFAULT_PREDICTION_ON"
 
-    invoke-virtual {p0, v4}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v4}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v2
 
@@ -2586,7 +2586,7 @@
 
     const-string v4, "SETTINGS_SMART_TYPING"
 
-    invoke-virtual {p0, v4}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v4}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -2594,11 +2594,11 @@
 
     if-eqz v1, :cond_2
 
-    invoke-virtual {v1, v2}, Landroid/preference/PreferenceCategory;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v1, v2}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     const-string v4, "SETTINGS_DEFAULT_AUTO_CORRECTION"
 
-    invoke-virtual {p0, v4}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v4}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v2
 
@@ -2609,11 +2609,11 @@
     invoke-virtual {v2, v4}, Landroid/preference/Preference;->setDependency(Ljava/lang/String;)V
 
     :cond_0
-    invoke-virtual {v1, v2}, Landroid/preference/PreferenceCategory;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v1, v2}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     const-string v4, "SETTINGS_DEFAULT_AUTO_SPACING"
 
-    invoke-virtual {p0, v4}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v4}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -2621,7 +2621,7 @@
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {v1, v0}, Landroid/preference/PreferenceCategory;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v1, v0}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_1
     iget-boolean v4, p0, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->mIsKorMode:Z
@@ -2636,7 +2636,7 @@
 
     const-string v4, "SETTINGS_DEFAULT_SPACE_LANGUAGE_CHANGE"
 
-    invoke-virtual {p0, v4}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v4}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -2644,12 +2644,12 @@
 
     if-eqz v0, :cond_2
 
-    invoke-virtual {v1, v0}, Landroid/preference/PreferenceCategory;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v1, v0}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_2
     const-string v4, "SETTINGS_SMART_TYPING"
 
-    invoke-virtual {p0, v4}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v4}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -2657,7 +2657,7 @@
 
     const-string v4, "settings_keyboard_swipe"
 
-    invoke-virtual {p0, v4}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v4}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v2
 
@@ -2665,12 +2665,12 @@
 
     if-eqz v2, :cond_3
 
-    invoke-virtual {v1, v2}, Landroid/preference/PreferenceCategory;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v1, v2}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_3
     const-string v4, "SETTINGS_SHORTCUT_PHRASE"
 
-    invoke-virtual {p0, v4}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v4}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v2
 
@@ -2678,12 +2678,12 @@
 
     if-eqz v2, :cond_4
 
-    invoke-virtual {v1, v2}, Landroid/preference/PreferenceCategory;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v1, v2}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_4
     const-string v4, "settings_key_tap_feedback"
 
-    invoke-virtual {p0, v4}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v4}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -2691,7 +2691,7 @@
 
     const-string v4, "SETTINGS_DEFAULT_HOLD_DELAY"
 
-    invoke-virtual {p0, v4}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v4}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v2
 
@@ -2699,7 +2699,7 @@
 
     if-eqz v2, :cond_5
 
-    invoke-virtual {v1, v2}, Landroid/preference/PreferenceCategory;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v1, v2}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_5
     return-void
@@ -2714,7 +2714,7 @@
 
     const-string v4, "com.sec.android.inputmethod_preferences"
 
-    invoke-virtual {v3, v4, v5}, Landroid/app/Activity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual {v3, v4, v5}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v1
 
@@ -2728,7 +2728,7 @@
 
     const-string v3, "settings_keyboard_swipe"
 
-    invoke-virtual {p0, v3}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v3}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -2752,7 +2752,7 @@
 
     const-string v3, "SETTINGS_DEFAULT_AUTO_CORRECTION"
 
-    invoke-virtual {p0, v3}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v3}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -2767,7 +2767,7 @@
     :cond_1
     const-string v3, "SETTINGS_DEFAULT_AUTO_SPACING"
 
-    invoke-virtual {p0, v3}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v3}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -2821,7 +2821,7 @@
     :cond_6
     const-string v3, "SETTINGS_DEFAULT_AUTO_CORRECTION"
 
-    invoke-virtual {p0, v3}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v3}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -2834,7 +2834,7 @@
     :cond_7
     const-string v3, "SETTINGS_DEFAULT_AUTO_SPACING"
 
-    invoke-virtual {p0, v3}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v3}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -2860,7 +2860,7 @@
 
     iget-object v1, p0, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v1}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual {v1}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v1
 
@@ -2907,7 +2907,7 @@
 
     iget-object v1, p0, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v1}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v1}, Landroid/app/Dialog;->show()V
 
     :cond_1
     return-void
@@ -2918,7 +2918,7 @@
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 34
 
-    invoke-virtual/range {p0 .. p0}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->getActivity()Landroid/app/Activity;
+    invoke-virtual/range {p0 .. p0}, Landroid/app/Fragment;->getActivity()Landroid/app/Activity;
 
     move-result-object v30
 
@@ -3017,7 +3017,7 @@
 
     const/16 v32, 0x0
 
-    invoke-virtual/range {v30 .. v32}, Landroid/app/Activity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual/range {v30 .. v32}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v22
 
@@ -3221,7 +3221,7 @@
 
     move/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->addPreferencesFromResource(I)V
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->addPreferencesFromResource(I)V
 
     :goto_0
     move-object/from16 v0, p0
@@ -3309,7 +3309,7 @@
 
     move/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->setHasOptionsMenu(Z)V
+    invoke-virtual {v0, v1}, Landroid/app/Fragment;->setHasOptionsMenu(Z)V
 
     :cond_5
     move-object/from16 v0, p0
@@ -3347,7 +3347,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v17
 
@@ -3401,7 +3401,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v17
 
@@ -3424,7 +3424,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v17
 
@@ -3503,7 +3503,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v17
 
@@ -3528,7 +3528,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v17
 
@@ -3561,7 +3561,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v17
 
@@ -3581,7 +3581,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v25
 
@@ -3599,7 +3599,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Landroid/preference/SwitchPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
     :cond_e
     const-string v30, "SETTINGS_DEFAULT_HWR_ON"
@@ -3608,7 +3608,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v17
 
@@ -3620,7 +3620,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v18
 
@@ -3632,7 +3632,7 @@
 
     move-object/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Landroid/preference/PreferenceCategory;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_f
     invoke-static {}, Lcom/sec/android/app/CscFeature;->getInstance()Lcom/sec/android/app/CscFeature;
@@ -3660,7 +3660,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -3668,7 +3668,7 @@
 
     if-eqz v5, :cond_11
 
-    invoke-virtual/range {p0 .. p0}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual/range {p0 .. p0}, Landroid/preference/PreferenceFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v19
 
@@ -3676,7 +3676,7 @@
 
     move-object/from16 v0, v19
 
-    invoke-virtual {v0, v5}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v5}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_11
     move-object/from16 v0, p0
@@ -3693,7 +3693,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v17
 
@@ -3705,7 +3705,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v18
 
@@ -3717,7 +3717,7 @@
 
     move-object/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Landroid/preference/PreferenceCategory;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_12
     const-string v30, "HELP_INTEGRATION"
@@ -3726,7 +3726,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v17
 
@@ -3736,7 +3736,7 @@
 
     move-object/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Landroid/preference/PreferenceCategory;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_13
     :goto_3
@@ -3760,7 +3760,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -3778,7 +3778,7 @@
 
     move-object/from16 v0, v30
 
-    invoke-virtual {v5, v0}, Landroid/preference/CheckBoxPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
+    invoke-virtual {v5, v0}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
     :cond_14
     :goto_4
@@ -3788,7 +3788,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -3802,7 +3802,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v18
 
@@ -3812,7 +3812,7 @@
 
     move-object/from16 v0, v18
 
-    invoke-virtual {v0, v5}, Landroid/preference/PreferenceCategory;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v5}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_15
     const-string v30, "SETTINGS_DEFAULT_ONE_HAND"
@@ -3821,7 +3821,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -3829,7 +3829,7 @@
 
     if-eqz v5, :cond_16
 
-    invoke-virtual/range {p0 .. p0}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual/range {p0 .. p0}, Landroid/preference/PreferenceFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v19
 
@@ -3837,7 +3837,7 @@
 
     move-object/from16 v0, v19
 
-    invoke-virtual {v0, v5}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v5}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_16
     move-object/from16 v0, p0
@@ -3860,7 +3860,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -3868,7 +3868,7 @@
 
     if-eqz v5, :cond_17
 
-    invoke-virtual/range {p0 .. p0}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual/range {p0 .. p0}, Landroid/preference/PreferenceFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v19
 
@@ -3876,7 +3876,7 @@
 
     move-object/from16 v0, v19
 
-    invoke-virtual {v0, v5}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v5}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_17
     move-object/from16 v0, p0
@@ -3907,7 +3907,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v14
 
@@ -3931,7 +3931,7 @@
 
     move-object/from16 v0, v30
 
-    invoke-virtual {v14, v0}, Landroid/preference/ListPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
+    invoke-virtual {v14, v0}, Landroid/preference/Preference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
     :cond_18
     :goto_5
@@ -3941,7 +3941,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v14
 
@@ -3965,7 +3965,7 @@
 
     move-object/from16 v0, v30
 
-    invoke-virtual {v14, v0}, Landroid/preference/ListPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
+    invoke-virtual {v14, v0}, Landroid/preference/Preference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
     :cond_19
     const-string v30, "SETTINGS_DEFAULT_NUMBER_AND_SYMBOLS_KEYPAD_TYPE"
@@ -3974,7 +3974,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v14
 
@@ -4004,7 +4004,7 @@
 
     move-object/from16 v0, v30
 
-    invoke-virtual {v14, v0}, Landroid/preference/ListPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
+    invoke-virtual {v14, v0}, Landroid/preference/Preference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
     :cond_1a
     :goto_6
@@ -4022,7 +4022,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v14
 
@@ -4046,7 +4046,7 @@
 
     move-object/from16 v0, v30
 
-    invoke-virtual {v14, v0}, Landroid/preference/ListPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
+    invoke-virtual {v14, v0}, Landroid/preference/Preference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
     :cond_1b
     move-object/from16 v0, p0
@@ -4063,7 +4063,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -4081,7 +4081,7 @@
 
     move-object/from16 v0, v30
 
-    invoke-virtual {v5, v0}, Landroid/preference/CheckBoxPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
+    invoke-virtual {v5, v0}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
     :cond_1c
     const-string v30, "SETTINGS_DEFAULT_KEYPAD_POINTING"
@@ -4090,7 +4090,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -4106,7 +4106,7 @@
 
     move-object/from16 v0, v30
 
-    invoke-virtual {v5, v0}, Landroid/preference/CheckBoxPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
+    invoke-virtual {v5, v0}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
     :cond_1d
     const-string v30, "SETTINGS_DEFAULT_TRACE"
@@ -4115,7 +4115,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -4137,7 +4137,7 @@
 
     if-ne v0, v1, :cond_2c
 
-    invoke-virtual/range {p0 .. p0}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual/range {p0 .. p0}, Landroid/preference/PreferenceFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v19
 
@@ -4145,7 +4145,7 @@
 
     move-object/from16 v0, v19
 
-    invoke-virtual {v0, v5}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v5}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_1e
     :goto_7
@@ -4155,7 +4155,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -4171,7 +4171,7 @@
 
     move-object/from16 v0, v30
 
-    invoke-virtual {v5, v0}, Landroid/preference/CheckBoxPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
+    invoke-virtual {v5, v0}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
     :cond_1f
     const-string v30, "settings_keyboard_swipe_cursor_control"
@@ -4180,7 +4180,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v20
 
@@ -4192,7 +4192,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v20
 
@@ -4237,7 +4237,7 @@
 
     const/16 v32, 0x0
 
-    invoke-virtual/range {v30 .. v32}, Landroid/app/Activity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual/range {v30 .. v32}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v22
 
@@ -4340,7 +4340,7 @@
 
     move/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->addPreferencesFromResource(I)V
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->addPreferencesFromResource(I)V
 
     goto/16 :goto_0
 
@@ -4361,7 +4361,7 @@
 
     move/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->addPreferencesFromResource(I)V
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->addPreferencesFromResource(I)V
 
     goto/16 :goto_0
 
@@ -4380,7 +4380,7 @@
 
     move/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->addPreferencesFromResource(I)V
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->addPreferencesFromResource(I)V
 
     goto/16 :goto_0
 
@@ -4397,7 +4397,7 @@
 
     move/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->addPreferencesFromResource(I)V
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->addPreferencesFromResource(I)V
 
     goto/16 :goto_0
 
@@ -4408,7 +4408,7 @@
 
     move/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->addPreferencesFromResource(I)V
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->addPreferencesFromResource(I)V
 
     goto/16 :goto_0
 
@@ -4424,7 +4424,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v16
 
@@ -4432,7 +4432,7 @@
 
     if-eqz v16, :cond_b
 
-    invoke-virtual/range {v16 .. v17}, Landroid/preference/PreferenceCategory;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual/range {v16 .. v17}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     goto/16 :goto_2
 
@@ -4443,7 +4443,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v17
 
@@ -4455,7 +4455,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v18
 
@@ -4467,7 +4467,7 @@
 
     move-object/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Landroid/preference/PreferenceCategory;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     goto/16 :goto_3
 
@@ -4478,7 +4478,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -4492,7 +4492,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v18
 
@@ -4502,7 +4502,7 @@
 
     move-object/from16 v0, v18
 
-    invoke-virtual {v0, v5}, Landroid/preference/PreferenceCategory;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v5}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     goto/16 :goto_4
 
@@ -4513,7 +4513,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v14
 
@@ -4521,7 +4521,7 @@
 
     if-eqz v14, :cond_18
 
-    invoke-virtual/range {p0 .. p0}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual/range {p0 .. p0}, Landroid/preference/PreferenceFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v19
 
@@ -4529,14 +4529,14 @@
 
     move-object/from16 v0, v19
 
-    invoke-virtual {v0, v14}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v14}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     goto/16 :goto_5
 
     :cond_2b
     if-eqz v14, :cond_1a
 
-    invoke-virtual/range {p0 .. p0}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual/range {p0 .. p0}, Landroid/preference/PreferenceFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v19
 
@@ -4544,7 +4544,7 @@
 
     move-object/from16 v0, v19
 
-    invoke-virtual {v0, v14}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v14}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     goto/16 :goto_6
 
@@ -4557,7 +4557,7 @@
 
     move-object/from16 v0, v30
 
-    invoke-virtual {v5, v0}, Landroid/preference/CheckBoxPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
+    invoke-virtual {v5, v0}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
     goto/16 :goto_7
 
@@ -4613,7 +4613,7 @@
 
     move/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->setEnabled(Z)V
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->setEnabled(Z)V
 
     :cond_30
     :goto_b
@@ -4623,7 +4623,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v29
 
@@ -4652,7 +4652,7 @@
     if-nez v30, :cond_32
 
     :cond_31
-    invoke-virtual/range {p0 .. p0}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual/range {p0 .. p0}, Landroid/preference/PreferenceFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v19
 
@@ -4662,7 +4662,7 @@
 
     move-object/from16 v1, v29
 
-    invoke-virtual {v0, v1}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_32
     new-instance v30, Landroid/app/AlertDialog$Builder;
@@ -4943,7 +4943,7 @@
 
     move-object/from16 v30, v0
 
-    invoke-virtual/range {v30 .. v30}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual/range {v30 .. v30}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v4
 
@@ -4992,7 +4992,7 @@
 
     move/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->setEnabled(Z)V
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->setEnabled(Z)V
 
     const/high16 v30, 0x7a68
 
@@ -5006,7 +5006,7 @@
 
     move-object/from16 v1, v30
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->setDependency(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->setDependency(Ljava/lang/String;)V
 
     goto/16 :goto_b
 .end method
@@ -5016,11 +5016,11 @@
 
     const/4 v4, 0x0
 
-    invoke-super {p0, p1, p2}, Landroid/preference/PreferenceFragment;->onCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V
+    invoke-super {p0, p1, p2}, Landroid/app/Fragment;->onCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V
 
     iget-object v2, p0, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->settingActivity:Landroid/app/Activity;
 
-    invoke-virtual {v2}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v2}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -5074,7 +5074,7 @@
 
     sparse-switch v2, :sswitch_data_0
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceFragment;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    invoke-super {p0, p1}, Landroid/app/Fragment;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
 
     move-result v1
 
@@ -5093,7 +5093,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {p0, v0}, Landroid/app/Fragment;->startActivity(Landroid/content/Intent;)V
 
     goto :goto_0
 
@@ -5111,11 +5111,11 @@
 
     const/4 v4, 0x0
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceFragment;->onPrepareOptionsMenu(Landroid/view/Menu;)V
+    invoke-super {p0, p1}, Landroid/app/Fragment;->onPrepareOptionsMenu(Landroid/view/Menu;)V
 
     iget-object v2, p0, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->settingActivity:Landroid/app/Activity;
 
-    invoke-virtual {v2}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v2}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -5147,7 +5147,7 @@
 .method public onResume()V
     .locals 45
 
-    invoke-super/range {p0 .. p0}, Landroid/preference/PreferenceFragment;->onResume()V
+    invoke-super/range {p0 .. p0}, Landroid/app/Fragment;->onResume()V
 
     invoke-static {}, Lcom/diotek/ime/framework/common/InputManagerImpl;->getInstance()Lcom/diotek/ime/framework/common/InputManager;
 
@@ -5271,7 +5271,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v13
 
@@ -5281,7 +5281,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v14
 
@@ -5291,13 +5291,13 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v12
 
     check-cast v12, Landroid/preference/PreferenceGroup;
 
-    invoke-virtual/range {p0 .. p0}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual/range {p0 .. p0}, Landroid/preference/PreferenceFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v25
 
@@ -5307,21 +5307,21 @@
 
     move-object/from16 v0, v25
 
-    invoke-virtual {v0, v13}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v13}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_2
     if-eqz v14, :cond_3
 
     move-object/from16 v0, v25
 
-    invoke-virtual {v0, v14}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v14}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_3
     if-eqz v12, :cond_4
 
     move-object/from16 v0, v25
 
-    invoke-virtual {v0, v12}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v12}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_4
     move-object/from16 v0, p0
@@ -5338,7 +5338,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -5358,7 +5358,7 @@
 
     move/from16 v0, v39
 
-    invoke-virtual {v5, v0}, Landroid/preference/CheckBoxPreference;->setEnabled(Z)V
+    invoke-virtual {v5, v0}, Landroid/preference/Preference;->setEnabled(Z)V
 
     :cond_5
     const/16 v16, 0x0
@@ -5375,7 +5375,7 @@
 
     const/16 v41, 0x0
 
-    invoke-virtual/range {v39 .. v41}, Landroid/app/Activity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual/range {v39 .. v41}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v28
 
@@ -5401,7 +5401,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v24
 
@@ -5567,7 +5567,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v24
 
@@ -5613,7 +5613,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v24
 
@@ -5649,7 +5649,7 @@
 
     move/from16 v1, v16
 
-    invoke-virtual {v0, v1}, Landroid/preference/SwitchPreference;->setChecked(Z)V
+    invoke-virtual {v0, v1}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     :cond_c
     if-eqz v24, :cond_d
@@ -5681,7 +5681,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v24
 
@@ -5717,7 +5717,7 @@
 
     move/from16 v1, v16
 
-    invoke-virtual {v0, v1}, Landroid/preference/SwitchPreference;->setChecked(Z)V
+    invoke-virtual {v0, v1}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     :cond_e
     const-string v39, "SETTINGS_DEFAULT_AUTO_CAPS"
@@ -5726,7 +5726,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -5750,7 +5750,7 @@
 
     move/from16 v0, v16
 
-    invoke-virtual {v5, v0}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v5, v0}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     :cond_f
     const-string v39, "SETTINGS_DEFAULT_AUTO_SPACING"
@@ -5759,7 +5759,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -5805,7 +5805,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v23
 
@@ -5815,7 +5815,7 @@
 
     move-object/from16 v0, v23
 
-    invoke-virtual {v0, v5}, Landroid/preference/PreferenceCategory;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v5}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_10
     :goto_4
@@ -5825,7 +5825,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v24
 
@@ -5835,7 +5835,7 @@
 
     move-object/from16 v0, v39
 
-    invoke-virtual {v5, v0}, Landroid/preference/CheckBoxPreference;->setDependency(Ljava/lang/String;)V
+    invoke-virtual {v5, v0}, Landroid/preference/Preference;->setDependency(Ljava/lang/String;)V
 
     :cond_11
     const-string v39, "SETTINGS_DEFAULT_PREDICTION_ON"
@@ -5854,7 +5854,7 @@
 
     move/from16 v0, v16
 
-    invoke-virtual {v5, v0}, Landroid/preference/CheckBoxPreference;->setEnabled(Z)V
+    invoke-virtual {v5, v0}, Landroid/preference/Preference;->setEnabled(Z)V
 
     :cond_12
     const-string v39, "SETTINGS_DEFAULT_AUTO_PERIOD"
@@ -5863,7 +5863,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -5887,7 +5887,7 @@
 
     move/from16 v0, v16
 
-    invoke-virtual {v5, v0}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v5, v0}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     :cond_13
     const-string v39, "SETTINGS_DEFAULT_USE_PREVIEW"
@@ -5896,7 +5896,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -5920,7 +5920,7 @@
 
     move/from16 v0, v16
 
-    invoke-virtual {v5, v0}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v5, v0}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     :cond_14
     const-string v39, "SETTINGS_DEFAULT_PEN_DETECTION"
@@ -5929,7 +5929,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -5953,7 +5953,7 @@
 
     move/from16 v0, v16
 
-    invoke-virtual {v5, v0}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v5, v0}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     :cond_15
     const-string v39, "settings_keyboard_swipe_continuous_input"
@@ -5962,7 +5962,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v26
 
@@ -6139,7 +6139,7 @@
 
     move/from16 v1, v16
 
-    invoke-virtual {v0, v1}, Landroid/preference/SwitchPreference;->setChecked(Z)V
+    invoke-virtual {v0, v1}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     goto/16 :goto_3
 
@@ -6184,7 +6184,7 @@
 
     move/from16 v0, v16
 
-    invoke-virtual {v5, v0}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v5, v0}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     goto/16 :goto_4
 
@@ -6242,7 +6242,7 @@
 
     move/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->setEnabled(Z)V
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->setEnabled(Z)V
 
     :cond_21
     :goto_8
@@ -6252,7 +6252,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v10
 
@@ -6438,7 +6438,7 @@
 
     move-object/from16 v0, v39
 
-    invoke-virtual {v10, v0}, Landroid/preference/ListPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
+    invoke-virtual {v10, v0}, Landroid/preference/Preference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
     :cond_24
     invoke-direct/range {p0 .. p0}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->setSummaryForPredictiveText()V
@@ -6449,7 +6449,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -6463,7 +6463,7 @@
 
     move-object/from16 v39, v0
 
-    invoke-virtual/range {v39 .. v39}, Landroid/app/Activity;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual/range {v39 .. v39}, Landroid/content/ContextWrapper;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v39
 
@@ -6488,7 +6488,7 @@
     :goto_b
     move/from16 v0, v16
 
-    invoke-virtual {v5, v0}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v5, v0}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     move-object/from16 v0, p0
 
@@ -6498,7 +6498,7 @@
 
     move-object/from16 v0, v39
 
-    invoke-virtual {v5, v0}, Landroid/preference/CheckBoxPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
+    invoke-virtual {v5, v0}, Landroid/preference/Preference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
     :cond_25
     const-string v39, "SETTINGS_DEFAULT_SUPPORT_KEY_SOUND"
@@ -6507,7 +6507,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -6521,7 +6521,7 @@
 
     move-object/from16 v39, v0
 
-    invoke-virtual/range {v39 .. v39}, Landroid/app/Activity;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual/range {v39 .. v39}, Landroid/content/ContextWrapper;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v39
 
@@ -6551,7 +6551,7 @@
 
     const/16 v41, 0x0
 
-    invoke-virtual/range {v39 .. v41}, Landroid/app/Activity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual/range {v39 .. v41}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v28
 
@@ -6579,7 +6579,7 @@
     :goto_c
     move/from16 v0, v16
 
-    invoke-virtual {v5, v0}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v5, v0}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     move-object/from16 v0, p0
 
@@ -6589,7 +6589,7 @@
 
     move-object/from16 v0, v39
 
-    invoke-virtual {v5, v0}, Landroid/preference/CheckBoxPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
+    invoke-virtual {v5, v0}, Landroid/preference/Preference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
     :cond_27
     move-object/from16 v0, p0
@@ -6610,7 +6610,7 @@
 
     const/16 v41, 0x0
 
-    invoke-virtual/range {v39 .. v41}, Landroid/app/Activity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual/range {v39 .. v41}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v28
 
@@ -6639,7 +6639,7 @@
 
     move-object/from16 v39, v0
 
-    invoke-virtual/range {v39 .. v39}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual/range {v39 .. v39}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v39
 
@@ -6655,13 +6655,13 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v24
 
     if-eqz v24, :cond_29
 
-    invoke-virtual/range {p0 .. p0}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual/range {p0 .. p0}, Landroid/preference/PreferenceFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v25
 
@@ -6671,7 +6671,7 @@
 
     move-object/from16 v1, v24
 
-    invoke-virtual {v0, v1}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_29
     move-object/from16 v0, p0
@@ -6726,7 +6726,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v5
 
@@ -6736,7 +6736,7 @@
 
     move/from16 v0, v38
 
-    invoke-virtual {v5, v0}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v5, v0}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     :cond_2a
     const-string v39, "SETTINGS_DEFAULT_AUTO_CORRECTION"
@@ -6745,7 +6745,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v3
 
@@ -6761,7 +6761,7 @@
 
     check-cast v4, Landroid/preference/SwitchPreference;
 
-    invoke-virtual {v4}, Landroid/preference/SwitchPreference;->isChecked()Z
+    invoke-virtual {v4}, Landroid/preference/TwoStatePreference;->isChecked()Z
 
     move-result v15
 
@@ -6777,7 +6777,7 @@
 
     move/from16 v0, v39
 
-    invoke-virtual {v4, v0}, Landroid/preference/SwitchPreference;->setChecked(Z)V
+    invoke-virtual {v4, v0}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     :cond_2b
     const-string v39, "SETTINGS_SHORTCUT_PHRASE"
@@ -6786,7 +6786,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v33
 
@@ -6804,7 +6804,7 @@
 
     check-cast v34, Landroid/preference/SwitchPreference;
 
-    invoke-virtual/range {v34 .. v34}, Landroid/preference/SwitchPreference;->isChecked()Z
+    invoke-virtual/range {v34 .. v34}, Landroid/preference/TwoStatePreference;->isChecked()Z
 
     move-result v15
 
@@ -6816,7 +6816,7 @@
 
     move/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Landroid/preference/SwitchPreference;->setChecked(Z)V
+    invoke-virtual {v0, v1}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     :cond_2c
     :goto_d
@@ -6836,13 +6836,13 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v27
 
     if-eqz v27, :cond_2e
 
-    invoke-virtual/range {p0 .. p0}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual/range {p0 .. p0}, Landroid/preference/PreferenceFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v25
 
@@ -6866,14 +6866,14 @@
 
     move-object/from16 v0, v25
 
-    invoke-virtual {v0, v3}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v3}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_2d
     move-object/from16 v0, v25
 
     move-object/from16 v1, v27
 
-    invoke-virtual {v0, v1}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_2e
     const-string v39, "SETTINGS_DEFAULT_TRACE"
@@ -6882,13 +6882,13 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v27
 
     if-eqz v27, :cond_2f
 
-    invoke-virtual/range {p0 .. p0}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual/range {p0 .. p0}, Landroid/preference/PreferenceFragment;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v25
 
@@ -6898,7 +6898,7 @@
 
     move-object/from16 v1, v27
 
-    invoke-virtual {v0, v1}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_2f
     return-void
@@ -6970,7 +6970,7 @@
 
     move/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->setEnabled(Z)V
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->setEnabled(Z)V
 
     :goto_e
     const-string v39, "settings_keyboard_swipe_none"
@@ -6979,7 +6979,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->setDependency(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->setDependency(Ljava/lang/String;)V
 
     goto/16 :goto_8
 
@@ -6990,7 +6990,7 @@
 
     move/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->setEnabled(Z)V
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->setEnabled(Z)V
 
     goto :goto_e
 
@@ -7001,7 +7001,7 @@
 
     move/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->setEnabled(Z)V
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->setEnabled(Z)V
 
     const-string v39, "SETTINGS_DEFAULT_PREDICTION_ON"
 
@@ -7009,7 +7009,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v24
 
@@ -7021,7 +7021,7 @@
 
     move-object/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/KeyboardSwipeSettingsPreference;->setDependency(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Landroid/preference/Preference;->setDependency(Ljava/lang/String;)V
 
     goto/16 :goto_8
 
@@ -7218,7 +7218,7 @@
 
     move-object/from16 v39, v0
 
-    invoke-virtual/range {v39 .. v39}, Landroid/app/Activity;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual/range {v39 .. v39}, Landroid/content/ContextWrapper;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v39
 
@@ -7254,7 +7254,7 @@
 
     move/from16 v1, v39
 
-    invoke-virtual {v0, v1}, Landroid/preference/SwitchPreference;->setChecked(Z)V
+    invoke-virtual {v0, v1}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     goto/16 :goto_d
 .end method
@@ -7284,7 +7284,7 @@
 
     iget-object v12, p0, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v12}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual {v12}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v12
 
@@ -7379,7 +7379,7 @@
 
     check-cast v6, Landroid/widget/ImageView;
 
-    invoke-virtual {v6}, Landroid/widget/ImageView;->getBackground()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v6}, Landroid/view/View;->getBackground()Landroid/graphics/drawable/Drawable;
 
     move-result-object v12
 
@@ -7393,7 +7393,7 @@
 
     check-cast v5, Landroid/widget/ImageView;
 
-    invoke-virtual {v5}, Landroid/widget/ImageView;->getBackground()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v5}, Landroid/view/View;->getBackground()Landroid/graphics/drawable/Drawable;
 
     move-result-object v12
 
@@ -7421,13 +7421,13 @@
 
     const/4 v12, 0x0
 
-    invoke-virtual {v1, v12}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v1, v12}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     new-instance v12, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment$38;
 
     invoke-direct {v12, p0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment$38;-><init>(Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;Landroid/widget/CheckBox;)V
 
-    invoke-virtual {v1, v12}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v1, v12}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_2
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
@@ -7438,7 +7438,7 @@
 
     iget-object v12, p0, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v12}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v12}, Landroid/app/Dialog;->show()V
 
     new-instance v4, Landroid/os/Handler;
 
@@ -7472,7 +7472,7 @@
 
     iget-object v7, p0, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v7}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual {v7}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v7
 
@@ -7560,13 +7560,13 @@
 
     iget-boolean v7, p0, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->mIsCheckDontShowPredictiveTextGuide:Z
 
-    invoke-virtual {v1, v7}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v1, v7}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     new-instance v7, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment$40;
 
     invoke-direct {v7, p0, v1}, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment$40;-><init>(Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;Landroid/widget/CheckBox;)V
 
-    invoke-virtual {v1, v7}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v1, v7}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_2
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
@@ -7577,7 +7577,7 @@
 
     iget-object v7, p0, Lcom/sec/android/inputmethod/SamsungKeypadSettingsFragment;->mAlertDialog:Landroid/app/AlertDialog;
 
-    invoke-virtual {v7}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v7}, Landroid/app/Dialog;->show()V
 
     :cond_3
     return-void

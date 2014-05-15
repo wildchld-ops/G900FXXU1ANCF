@@ -147,7 +147,7 @@
 
     const/4 v7, 0x0
 
-    invoke-virtual/range {v0 .. v7}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment$ResourceManagerQueryAsyncHandler;->startQuery(ILjava/lang/Object;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual/range {v0 .. v7}, Landroid/content/AsyncQueryHandler;->startQuery(ILjava/lang/Object;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Landroid/database/sqlite/SQLiteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -170,7 +170,7 @@
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 13
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;->getActivity()Landroid/app/Activity;
+    invoke-virtual {p0}, Landroid/app/Fragment;->getActivity()Landroid/app/Activity;
 
     move-result-object v10
 
@@ -182,7 +182,7 @@
 
     iget-object v10, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;->settingActivity:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;
 
-    invoke-virtual {v10}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getIntent()Landroid/content/Intent;
+    invoke-virtual {v10}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v5
 
@@ -207,11 +207,11 @@
 
     const v10, 0x7f030092
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;->addPreferencesFromResource(I)V
+    invoke-virtual {p0, v10}, Landroid/preference/PreferenceFragment;->addPreferencesFromResource(I)V
 
     const-string v10, "select_swiftkey_language_list"
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v10}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v10
 
@@ -263,7 +263,7 @@
 
     iget-object v10, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;->settingActivity:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;
 
-    invoke-virtual {v10}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getWindow()Landroid/view/Window;
+    invoke-virtual {v10}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object v10
 
@@ -292,7 +292,7 @@
 
     const-string v10, "SETTINGS_DEFAULT_USE_SYSTEM_LANGUAGE"
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v10}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v2
 
@@ -306,12 +306,12 @@
 
     iget-object v10, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;->mainScreen:Landroid/preference/PreferenceScreen;
 
-    invoke-virtual {v10, v2}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v10, v2}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_3
     iget-object v10, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;->settingActivity:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;
 
-    invoke-virtual {v10}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {v10}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -342,11 +342,11 @@
 
     iget-object v10, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;->settingActivity:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;
 
-    invoke-virtual {v10, v8}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+    invoke-virtual {v10, v8}, Landroid/content/ContextWrapper;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
 
     iget-object v10, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;->settingActivity:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;
 
-    invoke-virtual {v10}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v10}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v10
 
@@ -372,7 +372,7 @@
     invoke-static {v10}, Lcom/visionobjects/resourcemanager/VOLanguagePackManager;->getLanguagePackManager(Landroid/content/Context;)Lcom/visionobjects/resourcemanager/VOLanguagePackManager;
 
     :cond_6
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;->getPreferenceManager()Landroid/preference/PreferenceManager;
+    invoke-virtual {p0}, Landroid/preference/PreferenceFragment;->getPreferenceManager()Landroid/preference/PreferenceManager;
 
     move-result-object v10
 
@@ -427,7 +427,7 @@
     :try_start_0
     iget-object v10, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;->settingActivity:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;
 
-    invoke-virtual {v10}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v10}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v10
 
@@ -508,7 +508,7 @@
 
     iget-object v2, v0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;->mainScreen:Landroid/preference/PreferenceScreen;
 
-    invoke-virtual {v2}, Landroid/preference/PreferenceScreen;->removeAll()V
+    invoke-virtual {v2}, Landroid/preference/PreferenceGroup;->removeAll()V
 
     :cond_0
     if-eqz p1, :cond_1
@@ -517,14 +517,14 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v2}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;->addPreferencesFromResource(I)V
+    invoke-virtual {v0, v2}, Landroid/preference/PreferenceFragment;->addPreferencesFromResource(I)V
 
     :cond_1
     const-string v2, "select_swiftkey_language_list"
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v2}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v2}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v2
 
@@ -559,7 +559,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v2}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v2}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v11
 
@@ -579,7 +579,7 @@
 
     iget-object v2, v0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;->mainScreen:Landroid/preference/PreferenceScreen;
 
-    invoke-virtual {v2, v11}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v2, v11}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_2
     :goto_1
@@ -990,7 +990,7 @@
 
     add-int/lit8 v2, v19, 0x1
 
-    invoke-virtual {v1, v2}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->setOrder(I)V
+    invoke-virtual {v1, v2}, Landroid/preference/Preference;->setOrder(I)V
 
     :cond_e
     :goto_4
@@ -1014,7 +1014,7 @@
 
     iget-object v2, v0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;->mainScreen:Landroid/preference/PreferenceScreen;
 
-    invoke-virtual {v2, v1}, Landroid/preference/PreferenceScreen;->addPreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v2, v1}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
     :cond_f
     if-eqz v16, :cond_10
@@ -1023,7 +1023,7 @@
 
     const-string v2, "SETTINGS_DEFAULT_USE_SYSTEM_LANGUAGE"
 
-    invoke-virtual {v1, v2}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->setDependency(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Landroid/preference/Preference;->setDependency(Ljava/lang/String;)V
 
     :cond_10
     move-object/from16 v0, p0
@@ -1048,9 +1048,9 @@
 
     move-result-object v2
 
-    invoke-virtual {v11, v2}, Landroid/preference/CheckBoxPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
+    invoke-virtual {v11, v2}, Landroid/preference/Preference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
-    invoke-virtual {v11}, Landroid/preference/CheckBoxPreference;->isChecked()Z
+    invoke-virtual {v11}, Landroid/preference/TwoStatePreference;->isChecked()Z
 
     move-result v5
 
@@ -1095,7 +1095,7 @@
 
     add-int/lit16 v2, v0, 0x3e8
 
-    invoke-virtual {v1, v2}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagePreference;->setOrder(I)V
+    invoke-virtual {v1, v2}, Landroid/preference/Preference;->setOrder(I)V
 
     goto :goto_4
 

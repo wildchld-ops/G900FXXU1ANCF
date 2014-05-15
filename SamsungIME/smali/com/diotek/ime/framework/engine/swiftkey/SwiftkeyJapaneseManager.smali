@@ -402,7 +402,7 @@
 .method public buildPredictionListener(Lcom/touchtype_fluency/Sequence;)V
     .locals 4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyJapaneseManager;->clearReservePredictions()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->clearReservePredictions()V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->mInputBuffer:Ljava/lang/StringBuilder;
 
@@ -554,7 +554,7 @@
     :goto_0
     iget-object v1, p0, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->mTouchHistory:Lcom/touchtype_fluency/TouchHistory;
 
-    invoke-virtual {p0, p1, v1, p3}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyJapaneseManager;->buildPredictionsInternal(Lcom/touchtype_fluency/Sequence;Lcom/touchtype_fluency/TouchHistory;I)Lcom/touchtype_fluency/Predictions;
+    invoke-virtual {p0, p1, v1, p3}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->buildPredictionsInternal(Lcom/touchtype_fluency/Sequence;Lcom/touchtype_fluency/TouchHistory;I)Lcom/touchtype_fluency/Predictions;
 
     move-result-object v1
 
@@ -608,7 +608,7 @@
 
     iget v2, p0, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->mCandidateWordNumber:I
 
-    invoke-virtual {p0, p1, v1, v2}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyJapaneseManager;->buildPredictionsInternal(Lcom/touchtype_fluency/Sequence;Lcom/touchtype_fluency/TouchHistory;I)Lcom/touchtype_fluency/Predictions;
+    invoke-virtual {p0, p1, v1, v2}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->buildPredictionsInternal(Lcom/touchtype_fluency/Sequence;Lcom/touchtype_fluency/TouchHistory;I)Lcom/touchtype_fluency/Predictions;
 
     move-result-object v1
 
@@ -711,7 +711,7 @@
 
     move-result-object v8
 
-    invoke-virtual {p0, p4, v3, v8}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyJapaneseManager;->setCurrentInputType(Lcom/touchtype_fluency/util/LanguagePackManager;Lcom/touchtype_fluency/util/LanguagePack;Ljava/lang/String;)V
+    invoke-virtual {p0, p4, v3, v8}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->setCurrentInputType(Lcom/touchtype_fluency/util/LanguagePackManager;Lcom/touchtype_fluency/util/LanguagePack;Ljava/lang/String;)V
 
     move-object v2, v3
 
@@ -728,7 +728,7 @@
 
     move-result-object v5
 
-    invoke-virtual {p0, v5, v5, p4, p5}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyJapaneseManager;->replaceLanguageModel(Ljava/util/List;Ljava/util/List;Lcom/touchtype_fluency/util/LanguagePackManager;Lcom/touchtype_fluency/util/CompletionListener;)V
+    invoke-virtual {p0, v5, v5, p4, p5}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->replaceLanguageModel(Ljava/util/List;Ljava/util/List;Lcom/touchtype_fluency/util/LanguagePackManager;Lcom/touchtype_fluency/util/CompletionListener;)V
 
     if-eqz p2, :cond_4
 
@@ -985,7 +985,7 @@
 
     add-int/lit8 v4, v4, -0x1
 
-    invoke-virtual {p0, v3, v4}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyJapaneseManager;->SafeSequenceRemove(Lcom/touchtype_fluency/Sequence;I)Ljava/lang/String;
+    invoke-virtual {p0, v3, v4}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->SafeSequenceRemove(Lcom/touchtype_fluency/Sequence;I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1007,7 +1007,7 @@
 
     add-int/lit8 v4, v4, -0x1
 
-    invoke-virtual {p0, v3, v4}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyJapaneseManager;->SafeSequenceRemove(Lcom/touchtype_fluency/Sequence;I)Ljava/lang/String;
+    invoke-virtual {p0, v3, v4}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->SafeSequenceRemove(Lcom/touchtype_fluency/Sequence;I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -1068,7 +1068,7 @@
 
     if-lez v1, :cond_1
 
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyJapaneseManager;->tokenizerSplit(Ljava/lang/String;)Lcom/touchtype_fluency/Sequence;
+    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->tokenizerSplit(Ljava/lang/String;)Lcom/touchtype_fluency/Sequence;
 
     move-result-object v0
 
@@ -1596,7 +1596,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v4}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyJapaneseManager;->getKeyModelHashCodeEx(Ljava/util/HashMap;)I
+    invoke-virtual {v0, v4}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->getKeyModelHashCodeEx(Ljava/util/HashMap;)I
 
     move-result v15
 
@@ -1604,7 +1604,7 @@
 
     move/from16 v1, p4
 
-    invoke-virtual {v0, v1, v15}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyJapaneseManager;->loadCurrentKeyPressModelFileName(II)Ljava/lang/String;
+    invoke-virtual {v0, v1, v15}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->loadCurrentKeyPressModelFileName(II)Ljava/lang/String;
 
     move-result-object v15
 
@@ -1624,7 +1624,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v5}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyJapaneseManager;->shouldLoadKeyPressModel(Ljava/lang/String;)Z
+    invoke-virtual {v0, v5}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->shouldLoadKeyPressModel(Ljava/lang/String;)Z
 
     move-result v14
 
@@ -1642,11 +1642,11 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v14, v15}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyJapaneseManager;->setCacheSequenceAndTouchHistory(Lcom/touchtype_fluency/Sequence;Lcom/touchtype_fluency/TouchHistory;)V
+    invoke-virtual {v0, v14, v15}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->setCacheSequenceAndTouchHistory(Lcom/touchtype_fluency/Sequence;Lcom/touchtype_fluency/TouchHistory;)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyJapaneseManager;->clearTouchHistoryRepository()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->clearTouchHistoryRepository()V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyJapaneseManager;->cancelPreviewFlow()Z
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->cancelPreviewFlow()Z
 
     const/4 v14, 0x1
 
@@ -1684,7 +1684,7 @@
 
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyJapaneseManager;->setDynamicModelsEnabled(Z)V
+    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->setDynamicModelsEnabled(Z)V
 
     invoke-super {p0, p1, p2, p3}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->loadLanguageModel(Ljava/util/List;Lcom/touchtype_fluency/util/LanguagePackManager;Lcom/touchtype_fluency/util/LoadProgressListener;)V
 
@@ -1718,7 +1718,7 @@
 .method public setTouchHistory(Lcom/touchtype_fluency/TouchHistory;Ljava/lang/String;)V
     .locals 0
 
-    invoke-virtual {p0, p2}, Lcom/diotek/ime/framework/engine/swiftkey/SwiftkeyJapaneseManager;->setTouchHistory(Ljava/lang/String;)V
+    invoke-virtual {p0, p2}, Lcom/diotek/ime/framework/engine/swiftkey/AbstractSwiftkeyManager;->setTouchHistory(Ljava/lang/String;)V
 
     return-void
 .end method

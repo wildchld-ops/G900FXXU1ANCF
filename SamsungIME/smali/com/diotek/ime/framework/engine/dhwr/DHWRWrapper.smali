@@ -736,7 +736,7 @@
     :catch_0
     move-exception v2
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/engine/dhwr/CannotSetStringOnHereException;->printStackTrace()V
+    invoke-virtual {v2}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_1
 
@@ -1982,7 +1982,7 @@
 
     :goto_4
     :try_start_4
-    invoke-virtual {v9}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v9}, Ljava/lang/Throwable;->printStackTrace()V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_2
 
@@ -2030,14 +2030,14 @@
     :catch_2
     move-exception v9
 
-    invoke-virtual {v9}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v9}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_5
 
     :catch_3
     move-exception v9
 
-    invoke-virtual {v9}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v9}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_5
 
@@ -2068,7 +2068,7 @@
     :catch_4
     move-exception v9
 
-    invoke-virtual {v9}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v9}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_7
 
@@ -2899,7 +2899,7 @@
 
     invoke-direct {v0, p0}, Lcom/diotek/ime/framework/engine/dhwr/DHWRWrapper$1;-><init>(Lcom/diotek/ime/framework/engine/dhwr/DHWRWrapper;)V
 
-    invoke-virtual {v0}, Lcom/diotek/ime/framework/engine/dhwr/DHWRWrapper$1;->start()V
+    invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
     return-void
 .end method
@@ -3792,7 +3792,7 @@
 
     move-result-object v16
 
-    invoke-virtual {v4}, Ljava/lang/Exception;->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
 
     move-result-object v17
 
@@ -4473,7 +4473,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
 
     move-result-object v6
 

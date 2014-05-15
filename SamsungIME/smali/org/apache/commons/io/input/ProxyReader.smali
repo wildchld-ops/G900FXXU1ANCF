@@ -22,7 +22,7 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lorg/apache/commons/io/input/ProxyReader;->in:Ljava/io/Reader;
+    iget-object v0, p0, Ljava/io/FilterReader;->in:Ljava/io/Reader;
 
     invoke-virtual {v0}, Ljava/io/Reader;->close()V
 
@@ -40,7 +40,7 @@
     monitor-enter p0
 
     :try_start_0
-    iget-object v0, p0, Lorg/apache/commons/io/input/ProxyReader;->in:Ljava/io/Reader;
+    iget-object v0, p0, Ljava/io/FilterReader;->in:Ljava/io/Reader;
 
     invoke-virtual {v0, p1}, Ljava/io/Reader;->mark(I)V
     :try_end_0
@@ -61,7 +61,7 @@
 .method public markSupported()Z
     .locals 1
 
-    iget-object v0, p0, Lorg/apache/commons/io/input/ProxyReader;->in:Ljava/io/Reader;
+    iget-object v0, p0, Ljava/io/FilterReader;->in:Ljava/io/Reader;
 
     invoke-virtual {v0}, Ljava/io/Reader;->markSupported()Z
 
@@ -78,7 +78,7 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lorg/apache/commons/io/input/ProxyReader;->in:Ljava/io/Reader;
+    iget-object v0, p0, Ljava/io/FilterReader;->in:Ljava/io/Reader;
 
     invoke-virtual {v0}, Ljava/io/Reader;->read()I
 
@@ -95,7 +95,7 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lorg/apache/commons/io/input/ProxyReader;->in:Ljava/io/Reader;
+    iget-object v0, p0, Ljava/io/FilterReader;->in:Ljava/io/Reader;
 
     invoke-virtual {v0, p1}, Ljava/io/Reader;->read([C)I
 
@@ -112,7 +112,7 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lorg/apache/commons/io/input/ProxyReader;->in:Ljava/io/Reader;
+    iget-object v0, p0, Ljava/io/FilterReader;->in:Ljava/io/Reader;
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/io/Reader;->read([CII)I
 
@@ -129,7 +129,7 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lorg/apache/commons/io/input/ProxyReader;->in:Ljava/io/Reader;
+    iget-object v0, p0, Ljava/io/FilterReader;->in:Ljava/io/Reader;
 
     invoke-virtual {v0}, Ljava/io/Reader;->ready()Z
 
@@ -149,7 +149,7 @@
     monitor-enter p0
 
     :try_start_0
-    iget-object v0, p0, Lorg/apache/commons/io/input/ProxyReader;->in:Ljava/io/Reader;
+    iget-object v0, p0, Ljava/io/FilterReader;->in:Ljava/io/Reader;
 
     invoke-virtual {v0}, Ljava/io/Reader;->reset()V
     :try_end_0
@@ -175,7 +175,7 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lorg/apache/commons/io/input/ProxyReader;->in:Ljava/io/Reader;
+    iget-object v0, p0, Ljava/io/FilterReader;->in:Ljava/io/Reader;
 
     invoke-virtual {v0, p1, p2}, Ljava/io/Reader;->skip(J)J
 

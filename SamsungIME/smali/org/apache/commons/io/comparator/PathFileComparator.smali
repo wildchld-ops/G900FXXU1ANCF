@@ -3,8 +3,8 @@
 .source "PathFileComparator.java"
 
 # interfaces
-.implements Ljava/util/Comparator;
 .implements Ljava/io/Serializable;
+.implements Ljava/util/Comparator;
 
 
 # static fields
@@ -81,7 +81,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     sget-object v0, Lorg/apache/commons/io/IOCase;->SENSITIVE:Lorg/apache/commons/io/IOCase;
 
@@ -93,7 +93,7 @@
 .method public constructor <init>(Lorg/apache/commons/io/IOCase;)V
     .locals 0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     if-nez p1, :cond_0
 

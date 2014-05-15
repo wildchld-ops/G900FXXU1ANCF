@@ -100,7 +100,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput v0, p0, Lcom/touchtype/personalizer/PersonalizationRequest;->mPollCount:I
 
@@ -145,7 +145,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput v0, p0, Lcom/touchtype/personalizer/PersonalizationRequest;->mPollCount:I
 
@@ -933,15 +933,15 @@
 
     const/4 v9, 0x0
 
-    invoke-virtual {v2, v9}, Ljavax/net/ssl/HttpsURLConnection;->setInstanceFollowRedirects(Z)V
+    invoke-virtual {v2, v9}, Ljava/net/HttpURLConnection;->setInstanceFollowRedirects(Z)V
 
     const-string v9, "POST"
 
-    invoke-virtual {v2, v9}, Ljavax/net/ssl/HttpsURLConnection;->setRequestMethod(Ljava/lang/String;)V
+    invoke-virtual {v2, v9}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
     const/4 v9, 0x1
 
-    invoke-virtual {v2, v9}, Ljavax/net/ssl/HttpsURLConnection;->setDoOutput(Z)V
+    invoke-virtual {v2, v9}, Ljava/net/URLConnection;->setDoOutput(Z)V
 
     iget-object v9, p0, Lcom/touchtype/personalizer/PersonalizationRequest;->mParams:Ljava/lang/String;
 
@@ -1013,7 +1013,7 @@
 
     new-instance v8, Ljava/io/OutputStreamWriter;
 
-    invoke-virtual {v2}, Ljavax/net/ssl/HttpsURLConnection;->getOutputStream()Ljava/io/OutputStream;
+    invoke-virtual {v2}, Ljava/net/URLConnection;->getOutputStream()Ljava/io/OutputStream;
 
     move-result-object v9
 
@@ -1021,11 +1021,11 @@
 
     iget-object v9, p0, Lcom/touchtype/personalizer/PersonalizationRequest;->mParams:Ljava/lang/String;
 
-    invoke-virtual {v8, v9}, Ljava/io/OutputStreamWriter;->write(Ljava/lang/String;)V
+    invoke-virtual {v8, v9}, Ljava/io/Writer;->write(Ljava/lang/String;)V
 
     invoke-virtual {v8}, Ljava/io/OutputStreamWriter;->close()V
 
-    invoke-virtual {v2}, Ljavax/net/ssl/HttpsURLConnection;->getResponseCode()I
+    invoke-virtual {v2}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     move-result v6
 
@@ -1108,7 +1108,7 @@
 
     new-instance v9, Ljava/io/InputStreamReader;
 
-    invoke-virtual {v2}, Ljavax/net/ssl/HttpsURLConnection;->getInputStream()Ljava/io/InputStream;
+    invoke-virtual {v2}, Ljava/net/URLConnection;->getInputStream()Ljava/io/InputStream;
 
     move-result-object v10
 
@@ -1187,7 +1187,7 @@
     :catch_0
     move-exception v0
 
-    invoke-virtual {v0}, Lorg/json/JSONException;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_3
 
@@ -1262,7 +1262,7 @@
 
     invoke-direct {v2, p0, v0, p1}, Lcom/touchtype/personalizer/PersonalizationRequest$2;-><init>(Lcom/touchtype/personalizer/PersonalizationRequest;Ljava/lang/String;Lcom/touchtype/personalizer/PersonalizationListener;)V
 
-    invoke-virtual {v2}, Lcom/touchtype/personalizer/PersonalizationRequest$2;->start()V
+    invoke-virtual {v2}, Ljava/lang/Thread;->start()V
 
     return-void
 .end method

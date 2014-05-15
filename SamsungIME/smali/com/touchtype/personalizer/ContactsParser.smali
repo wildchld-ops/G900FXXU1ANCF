@@ -48,7 +48,7 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/touchtype_fluency/util/SwiftKeySession;)V
     .locals 2
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Lcom/touchtype/personalizer/ContactsParser$1;
 

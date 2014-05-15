@@ -31,7 +31,7 @@
 
     iput-object p2, p0, Lcom/touchtype/personalizer/PersonalizerService$RunPersonalizer$1;->val$this$0:Lcom/touchtype/personalizer/PersonalizerService;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method

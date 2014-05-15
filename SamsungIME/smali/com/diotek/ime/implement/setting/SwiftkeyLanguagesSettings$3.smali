@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings$3;->this$0:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -45,7 +45,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings$3;->this$0:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;
 
-    invoke-virtual {v0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->finish()V
+    invoke-virtual {v0}, Landroid/app/Activity;->finish()V
 
     :cond_0
     const/4 v0, 0x0

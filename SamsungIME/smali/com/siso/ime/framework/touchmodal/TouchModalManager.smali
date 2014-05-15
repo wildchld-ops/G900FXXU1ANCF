@@ -121,7 +121,7 @@
 
     iput-object v0, p0, Lcom/siso/ime/framework/touchmodal/TouchModalManager;->isGridReady:Ljava/util/concurrent/atomic/AtomicInteger;
 
-    invoke-virtual {p0}, Lcom/siso/ime/framework/touchmodal/TouchModalManager;->start()V
+    invoke-virtual {p0}, Ljava/lang/Thread;->start()V
 
     return-void
 .end method
@@ -645,7 +645,7 @@
 
     const/16 v0, 0xa
 
-    invoke-virtual {p0, v0}, Lcom/siso/ime/framework/touchmodal/TouchModalManager;->setPriority(I)V
+    invoke-virtual {p0, v0}, Ljava/lang/Thread;->setPriority(I)V
 
     invoke-static {}, Landroid/os/Looper;->prepare()V
 

@@ -45,7 +45,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lcom/diotek/ime/framework/input/HwrInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {v2, v3}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget-object v2, p0, Lcom/diotek/ime/framework/input/HwrInputModule$3;->this$0:Lcom/diotek/ime/framework/input/HwrInputModule;
 
@@ -56,7 +56,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lcom/diotek/ime/framework/input/HwrInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {v2, v3}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget-object v2, p0, Lcom/diotek/ime/framework/input/HwrInputModule$3;->this$0:Lcom/diotek/ime/framework/input/HwrInputModule;
 
@@ -182,7 +182,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/framework/input/HwrInputModule$3;->this$0:Lcom/diotek/ime/framework/input/HwrInputModule;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/input/HwrInputModule;->getCurrentLanguageID()I
+    invoke-virtual {v2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getCurrentLanguageID()I
 
     move-result v2
 
@@ -205,7 +205,7 @@
     :cond_4
     iget-object v2, p0, Lcom/diotek/ime/framework/input/HwrInputModule$3;->this$0:Lcom/diotek/ime/framework/input/HwrInputModule;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/input/HwrInputModule;->isThaiAcceptable()Z
+    invoke-virtual {v2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isThaiAcceptable()Z
 
     move-result v2
 
@@ -216,7 +216,7 @@
     :cond_5
     iget-object v2, p0, Lcom/diotek/ime/framework/input/HwrInputModule$3;->this$0:Lcom/diotek/ime/framework/input/HwrInputModule;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/framework/input/HwrInputModule;->setComposingText()V
+    invoke-virtual {v2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingText()V
 
     iget-object v2, p0, Lcom/diotek/ime/framework/input/HwrInputModule$3;->this$0:Lcom/diotek/ime/framework/input/HwrInputModule;
 

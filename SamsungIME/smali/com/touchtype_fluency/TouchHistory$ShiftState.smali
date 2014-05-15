@@ -104,7 +104,7 @@
 
     sget-object v0, Lcom/touchtype_fluency/TouchHistory$ShiftState;->$VALUES:[Lcom/touchtype_fluency/TouchHistory$ShiftState;
 
-    invoke-virtual {v0}, [Lcom/touchtype_fluency/TouchHistory$ShiftState;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 

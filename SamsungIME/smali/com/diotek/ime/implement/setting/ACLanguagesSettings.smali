@@ -212,7 +212,7 @@
 
     const/4 v1, 0x1
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->startActivityForResult(Landroid/content/Intent;I)V
+    invoke-virtual {p0, v0, v1}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
 
     return-void
 .end method
@@ -415,7 +415,7 @@
 
     iget-object v4, v2, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->enableCheckBox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v4}, Landroid/widget/CheckBox;->isChecked()Z
+    invoke-virtual {v4}, Landroid/widget/CompoundButton;->isChecked()Z
 
     move-result v4
 
@@ -495,7 +495,7 @@
 
     const v2, 0x7f0d01d9
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v3
 
@@ -529,7 +529,7 @@
 
     const v2, 0x7f0d01da
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v3
 
@@ -560,7 +560,7 @@
     :cond_1
     const v2, 0x7f0d01db
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v3
 
@@ -879,7 +879,7 @@
 
     iget-object v6, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->mainScreen:Landroid/preference/PreferenceScreen;
 
-    invoke-virtual {v6, p2}, Landroid/preference/PreferenceScreen;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v6, p2}, Landroid/preference/PreferenceGroup;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -1247,7 +1247,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v12, v13}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual {v0, v12, v13}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v10
 
@@ -1712,11 +1712,11 @@
 
     const v4, 0x7f0300a5
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->addPreferencesFromResource(I)V
+    invoke-virtual {p0, v4}, Landroid/preference/PreferenceActivity;->addPreferencesFromResource(I)V
 
     const-string v4, "select_language_list"
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v4}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v4
 
@@ -1821,7 +1821,7 @@
 
     const-string v4, "downloaded"
 
-    invoke-virtual {p0, v4, v5}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual {p0, v4, v5}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v4
 
@@ -1829,7 +1829,7 @@
 
     const-string v4, "downloadable"
 
-    invoke-virtual {p0, v4, v5}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual {p0, v4, v5}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v4
 
@@ -1837,7 +1837,7 @@
 
     const-string v4, "updateable"
 
-    invoke-virtual {p0, v4, v5}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual {p0, v4, v5}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v4
 
@@ -1943,7 +1943,7 @@
 
     move-result-object v3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -1991,7 +1991,7 @@
 
     const/4 v3, 0x0
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onCreateOptionsMenu(Landroid/view/Menu;)Z
 
     invoke-direct {p0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getLanguageList()V
 
@@ -2071,7 +2071,7 @@
 
     sparse-switch v2, :sswitch_data_0
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
 
     move-result v1
 
@@ -2079,7 +2079,7 @@
     return v1
 
     :sswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
@@ -2092,7 +2092,7 @@
 
     const v0, 0x7f0d01d8
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v0}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v2
 
@@ -2142,7 +2142,7 @@
 
     const/4 v3, 0x0
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onPrepareOptionsMenu(Landroid/view/Menu;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onPrepareOptionsMenu(Landroid/view/Menu;)Z
 
     invoke-direct {p0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getLanguageList()V
 
@@ -2206,7 +2206,7 @@
 .method public onRestart()V
     .locals 0
 
-    invoke-super {p0}, Landroid/preference/PreferenceActivity;->onRestart()V
+    invoke-super {p0}, Landroid/app/Activity;->onRestart()V
 
     return-void
 .end method
@@ -2214,7 +2214,7 @@
 .method public onResume()V
     .locals 0
 
-    invoke-super {p0}, Landroid/preference/PreferenceActivity;->onResume()V
+    invoke-super {p0}, Landroid/app/Activity;->onResume()V
 
     invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->rebuildLanguageList()V
 
@@ -2238,7 +2238,7 @@
 
     move-object/from16 v18, v0
 
-    invoke-virtual/range {v18 .. v18}, Landroid/preference/PreferenceScreen;->removeAll()V
+    invoke-virtual/range {v18 .. v18}, Landroid/preference/PreferenceGroup;->removeAll()V
 
     const v18, 0x7f0300a5
 
@@ -2246,7 +2246,7 @@
 
     move/from16 v1, v18
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->addPreferencesFromResource(I)V
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceActivity;->addPreferencesFromResource(I)V
 
     const-string v18, "select_language_list"
 
@@ -2254,7 +2254,7 @@
 
     move-object/from16 v1, v18
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v0, v1}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v18
 
@@ -2288,7 +2288,7 @@
 
     const/4 v4, 0x0
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getPreferenceManager()Landroid/preference/PreferenceManager;
+    invoke-virtual/range {p0 .. p0}, Landroid/preference/PreferenceActivity;->getPreferenceManager()Landroid/preference/PreferenceManager;
 
     move-result-object v18
 
@@ -2505,7 +2505,7 @@
 
     invoke-virtual {v0, v10, v15}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {v15, v10}, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->setKey(Ljava/lang/String;)V
+    invoke-virtual {v15, v10}, Landroid/preference/Preference;->setKey(Ljava/lang/String;)V
 
     add-int/lit8 v7, v8, 0x1
 
@@ -2513,7 +2513,7 @@
 
     move/from16 v0, v18
 
-    invoke-virtual {v15, v0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->setOrder(I)V
+    invoke-virtual {v15, v0}, Landroid/preference/Preference;->setOrder(I)V
 
     move-object/from16 v0, p0
 
@@ -2523,7 +2523,7 @@
 
     move-object/from16 v0, v18
 
-    invoke-virtual {v0, v15}, Landroid/preference/PreferenceScreen;->addPreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, v15}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
     const-string v18, "fr"
 
@@ -2958,7 +2958,7 @@
 
     const-string v8, "layout_inflater"
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v6
 
@@ -2972,7 +2972,7 @@
 
     invoke-virtual {v0, v5}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v8
 
@@ -2998,7 +2998,7 @@
 
     if-eqz v8, :cond_1
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v10}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v8
 
@@ -3037,14 +3037,14 @@
 
     invoke-direct {v8, p0, v4}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings$3;-><init>(Lcom/diotek/ime/implement/setting/ACLanguagesSettings;Landroid/widget/CheckBox;)V
 
-    invoke-virtual {v4, v8}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v4, v8}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_0
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v3}, Landroid/app/Dialog;->show()V
 
     return-void
 
@@ -3053,7 +3053,7 @@
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v10}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v9
 
@@ -3073,7 +3073,7 @@
 
     const v9, 0x7f0d01e9
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v9}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v9
 
@@ -3111,13 +3111,13 @@
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/ACLanguagesSettings;->mainScreen:Landroid/preference/PreferenceScreen;
 
-    invoke-virtual {v2, p1}, Landroid/preference/PreferenceScreen;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v2, p1}, Landroid/preference/PreferenceGroup;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
     check-cast v1, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;
 
-    invoke-virtual {v1}, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->getOrder()I
+    invoke-virtual {v1}, Landroid/preference/Preference;->getOrder()I
 
     move-result v0
 
@@ -3133,7 +3133,7 @@
 
     :cond_0
     :goto_0
-    invoke-virtual {v1, v0}, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->setOrder(I)V
+    invoke-virtual {v1, v0}, Landroid/preference/Preference;->setOrder(I)V
 
     iget-object v2, v1, Lcom/diotek/ime/implement/setting/ACLanguagesSettingsPreference;->selfView:Landroid/view/View;
 

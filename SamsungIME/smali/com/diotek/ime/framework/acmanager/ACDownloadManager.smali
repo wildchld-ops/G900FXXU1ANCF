@@ -169,7 +169,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object v1, p0, Lcom/diotek/ime/framework/acmanager/ACDownloadManager;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -424,7 +424,7 @@
     :catch_0
     move-exception v0
 
-    invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_0
     new-instance v3, Ljava/io/File;
@@ -491,7 +491,7 @@
     :catch_1
     move-exception v0
 
-    invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :cond_2
     return-void
@@ -1864,14 +1864,14 @@
     :catch_0
     move-exception v7
 
-    invoke-virtual {v7}, Lcom/nuance/swypeconnect/ac/ACException;->printStackTrace()V
+    invoke-virtual {v7}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 
     :catch_1
     move-exception v7
 
-    invoke-virtual {v7}, Ljava/lang/NullPointerException;->printStackTrace()V
+    invoke-virtual {v7}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 .end method
@@ -1895,7 +1895,7 @@
     :catch_0
     move-exception v0
 
-    invoke-virtual {v0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     goto :goto_0
 .end method
@@ -1964,7 +1964,7 @@
     :catch_0
     move-exception v0
 
-    invoke-virtual {v0}, Lcom/nuance/swypeconnect/ac/ACException;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 .end method
@@ -2056,7 +2056,7 @@
     :catch_0
     move-exception v1
 
-    invoke-virtual {v1}, Lcom/nuance/swypeconnect/ac/ACException;->printStackTrace()V
+    invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_1
 .end method
@@ -2246,7 +2246,7 @@
 
     :goto_1
     :try_start_2
-    invoke-virtual {v9, v6}, Ljava/util/zip/ZipInputStream;->read([B)I
+    invoke-virtual {v9, v6}, Ljava/io/InputStream;->read([B)I
 
     move-result v2
 
@@ -3168,7 +3168,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/acmanager/ACDownloadManager;->mProgressbarThread:Lcom/diotek/ime/framework/acmanager/ACDownloadManager$ProgressBarThread;
 
-    invoke-virtual {v0}, Lcom/diotek/ime/framework/acmanager/ACDownloadManager$ProgressBarThread;->start()V
+    invoke-virtual {v0}, Ljava/lang/Thread;->start()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -3309,14 +3309,14 @@
     :catch_0
     move-exception v8
 
-    invoke-virtual {v8}, Lcom/nuance/swypeconnect/ac/ACException;->printStackTrace()V
+    invoke-virtual {v8}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_1
 
     :catch_1
     move-exception v10
 
-    invoke-virtual {v10}, Ljava/lang/NullPointerException;->printStackTrace()V
+    invoke-virtual {v10}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_1
 

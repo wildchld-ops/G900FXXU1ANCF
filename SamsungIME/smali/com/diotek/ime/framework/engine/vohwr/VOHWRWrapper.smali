@@ -4,13 +4,13 @@
 
 # interfaces
 .implements Lcom/visionobjects/textwidget/TextWidgetApi$OnConfigureListener;
-.implements Lcom/visionobjects/textwidget/TextWidgetApi$OnRecognitionListener;
 .implements Lcom/visionobjects/textwidget/TextWidgetApi$OnCursorHandleDragListener;
-.implements Lcom/visionobjects/textwidget/TextWidgetApi$OnInsertHandleDragListener;
-.implements Lcom/visionobjects/textwidget/TextWidgetApi$OnInsertHandleClickedListener;
 .implements Lcom/visionobjects/textwidget/TextWidgetApi$OnGestureListener;
-.implements Lcom/visionobjects/textwidget/TextWidgetApi$OnTextChangedListener;
+.implements Lcom/visionobjects/textwidget/TextWidgetApi$OnInsertHandleClickedListener;
+.implements Lcom/visionobjects/textwidget/TextWidgetApi$OnInsertHandleDragListener;
+.implements Lcom/visionobjects/textwidget/TextWidgetApi$OnRecognitionListener;
 .implements Lcom/visionobjects/textwidget/TextWidgetApi$OnSelectionChangedListener;
+.implements Lcom/visionobjects/textwidget/TextWidgetApi$OnTextChangedListener;
 .implements Lcom/visionobjects/textwidget/TextWidgetApi$OnUserScrollListener;
 
 
@@ -2173,7 +2173,7 @@
 
     move-result-object v9
 
-    invoke-virtual {v4}, Ljava/lang/StringIndexOutOfBoundsException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v10
 
@@ -3139,7 +3139,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/engine/vohwr/VOHWRWrapper;->mSequence:Lcom/touchtype_fluency/Sequence;
 
-    invoke-virtual {v1, v0}, Lcom/touchtype_fluency/Sequence;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v0}, Ljava/util/AbstractList;->add(Ljava/lang/Object;)Z
 
     const/4 v1, 0x0
 
@@ -3532,7 +3532,7 @@
 
     const v3, 0x7f080021
 
-    invoke-virtual {v2, v3}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
@@ -6009,7 +6009,7 @@
     :cond_1
     iget-object v1, p0, Lcom/diotek/ime/framework/engine/vohwr/VOHWRWrapper;->mSequence:Lcom/touchtype_fluency/Sequence;
 
-    invoke-virtual {v1}, Lcom/touchtype_fluency/Sequence;->isEmpty()Z
+    invoke-virtual {v1}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v1
 

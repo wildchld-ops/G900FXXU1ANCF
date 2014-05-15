@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/nuance/connect/location/SwypeLocationManager$1;->this$0:Lcom/nuance/connect/location/SwypeLocationManager;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method

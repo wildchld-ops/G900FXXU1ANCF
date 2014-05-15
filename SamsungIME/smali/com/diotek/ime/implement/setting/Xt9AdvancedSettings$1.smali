@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings$1;->this$0:Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -43,13 +43,13 @@
 
     const-string v2, "SETTINGS_DEFAULT_TRACE"
 
-    invoke-virtual {v1, v2}, Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v1, v2}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
     check-cast v0, Landroid/preference/CheckBoxPreference;
 
-    invoke-virtual {v0, v3}, Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+    invoke-virtual {v0, v3}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     invoke-static {v3}, Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings;->access$002(Z)Z
 

@@ -152,7 +152,7 @@
 
     sget-object v0, Lcom/nuance/connect/internal/AppSettings$Key;->$VALUES:[Lcom/nuance/connect/internal/AppSettings$Key;
 
-    invoke-virtual {v0}, [Lcom/nuance/connect/internal/AppSettings$Key;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 

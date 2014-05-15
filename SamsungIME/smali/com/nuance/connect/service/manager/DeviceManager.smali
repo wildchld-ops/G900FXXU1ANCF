@@ -258,7 +258,7 @@
 
     sget-object v0, Lcom/nuance/connect/service/manager/DeviceManager;->MESSAGES_HANDLED:[Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/DeviceManager;->setMessagesHandled([Lcom/nuance/connect/internal/common/InternalMessages;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->setMessagesHandled([Lcom/nuance/connect/internal/common/InternalMessages;)V
 
     iget-object v0, p0, Lcom/nuance/connect/service/manager/AbstractCommandManager;->validCommands:Lcom/nuance/connect/service/manager/AbstractCommandManager$ValidCommands;
 
@@ -465,11 +465,11 @@
 
     sget-object v0, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_COMMAND_DEVICE_ACK:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v0}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
 
     move-result v0
 
-    invoke-virtual {p0, p1, v0}, Lcom/nuance/connect/service/manager/DeviceManager;->preProcessResponse(Lcom/nuance/connect/service/comm/Response;I)Z
+    invoke-virtual {p0, p1, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->preProcessResponse(Lcom/nuance/connect/service/comm/Response;I)Z
 
     move-result v0
 
@@ -530,13 +530,13 @@
 
     aput-object v2, v0, v1
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/DeviceManager;->removePreferences([Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->removePreferences([Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/nuance/connect/service/manager/AbstractCommandManager;->client:Lcom/nuance/connect/service/ConnectClient;
 
     sget-object v1, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_COMMAND_DEVICE_REGISTER:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/DeviceManager;->calcMessageSendDelay()J
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->calcMessageSendDelay()J
 
     move-result-wide v2
 
@@ -609,7 +609,7 @@
 
     invoke-virtual {v0, v1}, Lcom/nuance/connect/service/ConnectClient;->postMessage(Lcom/nuance/connect/internal/common/InternalMessages;)V
 
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/DeviceManager;->managerStartComplete()V
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->managerStartComplete()V
 
     goto/16 :goto_0
 
@@ -633,11 +633,11 @@
 
     sget-object v0, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_COMMAND_DEVICE_REGISTER:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v0}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
 
     move-result v0
 
-    invoke-virtual {p0, p1, v0}, Lcom/nuance/connect/service/manager/DeviceManager;->preProcessResponse(Lcom/nuance/connect/service/comm/Response;I)Z
+    invoke-virtual {p0, p1, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->preProcessResponse(Lcom/nuance/connect/service/comm/Response;I)Z
 
     move-result v0
 
@@ -728,7 +728,7 @@
 
     aput-object v2, v0, v1
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/DeviceManager;->removePreferences([Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->removePreferences([Ljava/lang/String;)V
 
     iget v0, p0, Lcom/nuance/connect/service/manager/AbstractCommandManager;->lastCommandRetryCount:I
 
@@ -738,7 +738,7 @@
 
     sget-object v1, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_COMMAND_DEVICE_REGISTER:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/DeviceManager;->calcMessageSendDelay()J
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->calcMessageSendDelay()J
 
     move-result-wide v2
 
@@ -1287,11 +1287,11 @@
 
     sget-object v0, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_COMMAND_DEVICE_GET_SWYPER:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v0}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
 
     move-result v0
 
-    invoke-virtual {p0, p1, v0}, Lcom/nuance/connect/service/manager/DeviceManager;->preProcessResponse(Lcom/nuance/connect/service/comm/Response;I)Z
+    invoke-virtual {p0, p1, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->preProcessResponse(Lcom/nuance/connect/service/comm/Response;I)Z
 
     move-result v0
 
@@ -1346,11 +1346,11 @@
 
     sget-object v3, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_COMMAND_DEVICE_UPDATE:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v3}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v3}, Ljava/lang/Enum;->ordinal()I
 
     move-result v3
 
-    invoke-virtual {p0, p1, v3}, Lcom/nuance/connect/service/manager/DeviceManager;->preProcessResponse(Lcom/nuance/connect/service/comm/Response;I)Z
+    invoke-virtual {p0, p1, v3}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->preProcessResponse(Lcom/nuance/connect/service/comm/Response;I)Z
 
     move-result v3
 
@@ -1395,7 +1395,7 @@
 
     sget-object v4, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_COMMAND_DEVICE_UPDATE:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/DeviceManager;->calcMessageSendDelay()J
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->calcMessageSendDelay()J
 
     move-result-wide v5
 
@@ -1480,11 +1480,11 @@
 
     sget-object v0, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_COMMAND_DEVICE_VALIDATE:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v0}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
 
     move-result v0
 
-    invoke-virtual {p0, p1, v0}, Lcom/nuance/connect/service/manager/DeviceManager;->preProcessResponse(Lcom/nuance/connect/service/comm/Response;I)Z
+    invoke-virtual {p0, p1, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->preProcessResponse(Lcom/nuance/connect/service/comm/Response;I)Z
 
     move-result v0
 
@@ -1529,7 +1529,7 @@
 
     sget-object v1, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_COMMAND_DEVICE_VALIDATE:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/DeviceManager;->calcMessageSendDelay()J
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->calcMessageSendDelay()J
 
     move-result-wide v2
 
@@ -1687,28 +1687,28 @@
     :cond_1
     const-string v0, "DEVICE_ACK_ID"
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/DeviceManager;->removePreference(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->removePreference(Ljava/lang/String;)V
 
     goto :goto_0
 
     :cond_2
     const-string v0, "DEVICE_TRANSID"
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/DeviceManager;->removePreference(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->removePreference(Ljava/lang/String;)V
 
     goto :goto_1
 
     :cond_3
     const-string v0, "TEMP_SWYPER_ID"
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/DeviceManager;->removePreference(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->removePreference(Ljava/lang/String;)V
 
     goto :goto_2
 
     :cond_4
     const-string v0, "SWYPER_ID"
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/DeviceManager;->removePreference(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->removePreference(Ljava/lang/String;)V
 
     goto :goto_3
 .end method
@@ -1921,7 +1921,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v3}, Ljava/lang/Enum;->ordinal()I
 
     move-result v3
 
@@ -2190,11 +2190,11 @@
 
     sget-object v0, Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;->STARTED:Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;
 
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/DeviceManager;->getManagerStartState()Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->getManagerStartState()Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager$ManagerState;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -2299,7 +2299,7 @@
 
     sget-object v5, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_COMMAND_DEVICE_REGISTER:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/DeviceManager;->calcDefaultMilliDelay()J
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->calcDefaultMilliDelay()J
 
     move-result-wide v6
 
@@ -2341,7 +2341,7 @@
 
     sget-object v5, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->CRITICAL:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v4, v5, v2}, Lcom/nuance/connect/service/manager/DeviceManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v4, v5, v2}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -2351,7 +2351,7 @@
 
     iput-boolean v6, v0, Lcom/nuance/connect/service/comm/Command;->needDevice:Z
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/DeviceManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     goto :goto_0
 .end method
@@ -2385,7 +2385,7 @@
 
     sget-object v3, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->CRITICAL:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v2, v3, v1}, Lcom/nuance/connect/service/manager/DeviceManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v2, v3, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -2399,7 +2399,7 @@
 
     iput-boolean v4, v0, Lcom/nuance/connect/service/comm/Command;->requireDevice:Z
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/DeviceManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     :goto_0
     return-void
@@ -2437,7 +2437,7 @@
 
     aput-object v4, v2, v3
 
-    invoke-virtual {p0, v2}, Lcom/nuance/connect/service/manager/DeviceManager;->removePreferences([Ljava/lang/String;)V
+    invoke-virtual {p0, v2}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->removePreferences([Ljava/lang/String;)V
 
     iput-object v5, p0, Lcom/nuance/connect/service/manager/DeviceManager;->preAckDeviceId:Ljava/lang/String;
 
@@ -2461,11 +2461,11 @@
 
     sget-object v2, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->CRITICAL:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v1, v2}, Lcom/nuance/connect/service/manager/DeviceManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v1, v2}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/DeviceManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     return-void
 .end method
@@ -2477,7 +2477,7 @@
 
     sget-object v2, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->CRITICAL:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v1, v2}, Lcom/nuance/connect/service/manager/DeviceManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v1, v2}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -2489,7 +2489,7 @@
 
     iput-boolean v1, v0, Lcom/nuance/connect/service/comm/Command;->requireDevice:Z
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/DeviceManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     return-void
 .end method
@@ -2563,7 +2563,7 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/nuance/connect/service/ConnectClient;->sendMessageToHost(Lcom/nuance/connect/internal/common/InternalMessages;Ljava/lang/Object;)V
 
-    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/DeviceManager;->managerStartComplete()V
+    invoke-virtual {p0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->managerStartComplete()V
 
     goto :goto_0
 
@@ -2741,7 +2741,7 @@
 
     sget-object v10, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->BACKGROUND:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v9, v10, v4}, Lcom/nuance/connect/service/manager/DeviceManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v9, v10, v4}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v1
 
@@ -2753,7 +2753,7 @@
 
     iput-boolean v9, v1, Lcom/nuance/connect/service/comm/Command;->requireDevice:Z
 
-    invoke-virtual {p0, v1}, Lcom/nuance/connect/service/manager/DeviceManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     goto :goto_0
 .end method
@@ -2775,7 +2775,7 @@
 
     sget-object v3, Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;->BACKGROUND:Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;
 
-    invoke-virtual {p0, v2, v3, v1}, Lcom/nuance/connect/service/manager/DeviceManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
+    invoke-virtual {p0, v2, v3, v1}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->createCommand(Ljava/lang/String;Lcom/nuance/connect/service/comm/Command$REQUEST_TYPE;Ljava/util/HashMap;)Lcom/nuance/connect/service/comm/Command;
 
     move-result-object v0
 
@@ -2787,7 +2787,7 @@
 
     iput-object v2, v0, Lcom/nuance/connect/service/comm/Command;->transactionId:Ljava/lang/String;
 
-    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/DeviceManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
+    invoke-virtual {p0, v0}, Lcom/nuance/connect/service/manager/AbstractCommandManager;->sendCommand(Lcom/nuance/connect/service/comm/Command;)V
 
     return-void
 .end method

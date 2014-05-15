@@ -30,7 +30,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/framework/language/ContextAwareLanguageManager$PreferredLanguage;->this$0:Lcom/diotek/ime/framework/language/ContextAwareLanguageManager;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput v0, p0, Lcom/diotek/ime/framework/language/ContextAwareLanguageManager$PreferredLanguage;->languageID:I
 

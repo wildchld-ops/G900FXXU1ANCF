@@ -21,9 +21,9 @@
 
     const v7, 0x7f030046
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/implement/setting/AdvancedSettings;->addPreferencesFromResource(I)V
+    invoke-virtual {p0, v7}, Landroid/preference/PreferenceActivity;->addPreferencesFromResource(I)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/AdvancedSettings;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -77,7 +77,7 @@
 
     const-string v7, "SETTINGS_DEFAULT_AUTO_SPACING"
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/implement/setting/AdvancedSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v7}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -85,13 +85,13 @@
 
     if-eqz v1, :cond_2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/AdvancedSettings;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+    invoke-virtual {p0}, Landroid/preference/PreferenceActivity;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v5
 
     if-eqz v5, :cond_2
 
-    invoke-virtual {v5, v1}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
+    invoke-virtual {v5, v1}, Landroid/preference/PreferenceGroup;->removePreference(Landroid/preference/Preference;)Z
 
     :cond_2
     return-void
@@ -106,7 +106,7 @@
 
     packed-switch v0, :pswitch_data_0
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
 
     move-result v0
 
@@ -114,7 +114,7 @@
     return v0
 
     :pswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/AdvancedSettings;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     const/4 v0, 0x1
 

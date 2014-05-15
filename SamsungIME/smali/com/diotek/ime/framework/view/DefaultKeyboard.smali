@@ -295,7 +295,7 @@
 
     iput-object v13, v0, Lcom/diotek/ime/framework/view/DefaultKeyboard;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v5
 
@@ -501,7 +501,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v13}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->setTotalWidth(I)V
+    invoke-virtual {v0, v13}, Lcom/diotek/ime/framework/view/Keyboard;->setTotalWidth(I)V
 
     :cond_2
     add-int/lit8 v1, v1, 0x1
@@ -709,7 +709,7 @@
 
     iput-object v0, p0, Lcom/diotek/ime/framework/view/DefaultKeyboard;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v8
 
@@ -894,7 +894,7 @@
 
     iput-object v0, p0, Lcom/diotek/ime/framework/view/DefaultKeyboard;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v8
 
@@ -1097,7 +1097,7 @@
 
     iput-object v1, p0, Lcom/diotek/ime/framework/view/DefaultKeyboard;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v9
 
@@ -1384,7 +1384,7 @@
 
     iput-object v1, p0, Lcom/diotek/ime/framework/view/DefaultKeyboard;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v9
 
@@ -1595,7 +1595,7 @@
 .method public getKey(I)Lcom/diotek/ime/framework/view/Keyboard$Key;
     .locals 4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v1
 

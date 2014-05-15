@@ -50,9 +50,9 @@
 .method protected onClick()V
     .locals 2
 
-    invoke-super {p0}, Landroid/preference/CheckBoxPreference;->onClick()V
+    invoke-super {p0}, Landroid/preference/TwoStatePreference;->onClick()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/spellcheckservice/SpellCheckerPreference;->isChecked()Z
+    invoke-virtual {p0}, Landroid/preference/TwoStatePreference;->isChecked()Z
 
     move-result v0
 
@@ -111,7 +111,7 @@
     return-void
 
     :cond_1
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/spellcheckservice/SpellCheckerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v2
 

@@ -33,7 +33,7 @@
 
     const/16 v1, 0xa
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput v1, p0, Lcom/diotek/ime/framework/input/shortcutphrase/ShortcutPhraseController;->LAST_PHRASE_INDEX:I
 

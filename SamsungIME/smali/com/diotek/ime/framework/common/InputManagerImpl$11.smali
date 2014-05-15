@@ -71,7 +71,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->requestHideSelf(I)V
+    invoke-virtual {v0, v1}, Landroid/inputmethodservice/InputMethodService;->requestHideSelf(I)V
 
     :cond_1
     return-void

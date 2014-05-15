@@ -83,7 +83,7 @@
 .method public onCreate()V
     .locals 0
 
-    invoke-super {p0}, Landroid/service/textservice/SpellCheckerService;->onCreate()V
+    invoke-super {p0}, Landroid/app/Service;->onCreate()V
 
     return-void
 .end method

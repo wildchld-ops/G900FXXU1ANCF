@@ -141,7 +141,7 @@
 
     if-eqz v1, :cond_3
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v6
 
@@ -155,7 +155,7 @@
 
     invoke-direct {v8, p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout$1;-><init>(Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;)V
 
-    invoke-virtual {v6, v8}, Landroid/widget/Button;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {v6, v8}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     iget-object v6, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mFirstButton:Landroid/widget/Button;
 
@@ -165,7 +165,7 @@
 
     iget-object v6, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mFirstButton:Landroid/widget/Button;
 
-    invoke-virtual {v6}, Landroid/widget/Button;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v6}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v5
 
@@ -191,7 +191,7 @@
 
     iget-object v6, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mFirstButton:Landroid/widget/Button;
 
-    invoke-virtual {v6, v5}, Landroid/widget/Button;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v6, v5}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     :cond_1
     iget-object v6, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mFirstButton:Landroid/widget/Button;
@@ -200,7 +200,7 @@
 
     move-result-object v8
 
-    invoke-virtual {v6, v8}, Landroid/widget/Button;->setTypeface(Landroid/graphics/Typeface;)V
+    invoke-virtual {v6, v8}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
 
     iget-object v6, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mFirstButton:Landroid/widget/Button;
 
@@ -221,7 +221,7 @@
 
     int-to-float v8, v2
 
-    invoke-virtual {v6, v7, v8}, Landroid/widget/Button;->setTextSize(IF)V
+    invoke-virtual {v6, v7, v8}, Landroid/widget/TextView;->setTextSize(IF)V
 
     iget-object v6, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mFirstButton:Landroid/widget/Button;
 
@@ -233,7 +233,7 @@
 
     iget-object v6, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mFirstButton:Landroid/widget/Button;
 
-    invoke-virtual {v6, v0}, Landroid/widget/Button;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v6, v0}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     :cond_3
     invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->getSecondButtonId()I
@@ -242,7 +242,7 @@
 
     if-eqz v4, :cond_6
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v6
 
@@ -258,7 +258,7 @@
 
     iget-object v6, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mSecondButton:Landroid/widget/Button;
 
-    invoke-virtual {v6}, Landroid/widget/Button;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v6}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v5
 
@@ -284,7 +284,7 @@
 
     iget-object v6, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mSecondButton:Landroid/widget/Button;
 
-    invoke-virtual {v6, v5}, Landroid/widget/Button;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v6, v5}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     :cond_4
     iget-object v6, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mSecondButton:Landroid/widget/Button;
@@ -293,7 +293,7 @@
 
     move-result-object v8
 
-    invoke-virtual {v6, v8}, Landroid/widget/Button;->setTypeface(Landroid/graphics/Typeface;)V
+    invoke-virtual {v6, v8}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
 
     iget-object v6, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mSecondButton:Landroid/widget/Button;
 
@@ -314,7 +314,7 @@
 
     int-to-float v8, v2
 
-    invoke-virtual {v6, v7, v8}, Landroid/widget/Button;->setTextSize(IF)V
+    invoke-virtual {v6, v7, v8}, Landroid/widget/TextView;->setTextSize(IF)V
 
     iget-object v6, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mSecondButton:Landroid/widget/Button;
 
@@ -326,7 +326,7 @@
 
     iget-object v6, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mSecondButton:Landroid/widget/Button;
 
-    invoke-virtual {v6, v0}, Landroid/widget/Button;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v6, v0}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     :cond_6
     return-void
@@ -356,13 +356,13 @@
 
     const/4 v8, 0x0
 
-    invoke-virtual {p1}, Landroid/widget/Button;->getTextSize()F
+    invoke-virtual {p1}, Landroid/widget/TextView;->getTextSize()F
 
     move-result v6
 
     float-to-int v1, v6
 
-    invoke-virtual {p1}, Landroid/widget/Button;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
 
     move-result-object v0
 
@@ -381,7 +381,7 @@
     return v2
 
     :cond_1
-    invoke-virtual {p1}, Landroid/widget/Button;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v3
 
@@ -413,7 +413,7 @@
 
     move-result v5
 
-    invoke-virtual {p1}, Landroid/widget/Button;->getTextSize()F
+    invoke-virtual {p1}, Landroid/widget/TextView;->getTextSize()F
 
     move-result v6
 
@@ -553,29 +553,29 @@
 
     new-instance v0, Landroid/graphics/Rect;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     move-result v4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     move-result v5
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->getWidth()I
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result v6
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->getPaddingRight()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingRight()I
 
     move-result v7
 
     sub-int/2addr v6, v7
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v7
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->getPaddingBottom()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingBottom()I
 
     move-result v8
 
@@ -625,7 +625,7 @@
 
     int-to-float v5, v1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->getY()F
+    invoke-virtual {p0}, Landroid/view/View;->getY()F
 
     move-result v6
 
@@ -641,7 +641,7 @@
 
     float-to-int v2, v4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->getX()F
+    invoke-virtual {p0}, Landroid/view/View;->getX()F
 
     move-result v4
 
@@ -691,7 +691,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-super {p0, p1}, Landroid/widget/LinearLayout;->onHoverEvent(Landroid/view/MotionEvent;)Z
+    invoke-super {p0, p1}, Landroid/view/View;->onHoverEvent(Landroid/view/MotionEvent;)Z
 
     move-result v3
 
@@ -739,30 +739,30 @@
     :cond_2
     if-eqz p1, :cond_3
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->setVisibility(I)V
+    invoke-virtual {p0, v1}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mFirstButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v2}, Landroid/widget/Button;->setEnabled(Z)V
+    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setEnabled(Z)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mSecondButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v2}, Landroid/widget/Button;->setEnabled(Z)V
+    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setEnabled(Z)V
 
     goto :goto_0
 
     :cond_3
     const/16 v0, 0x8
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->setVisibility(I)V
+    invoke-virtual {p0, v0}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mFirstButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setEnabled(Z)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setEnabled(Z)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mSecondButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setEnabled(Z)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setEnabled(Z)V
 
     goto :goto_0
 .end method
@@ -805,54 +805,54 @@
 
     const/16 v0, 0x8
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->setVisibility(I)V
+    invoke-virtual {p0, v0}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mFirstButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setEnabled(Z)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setEnabled(Z)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mSecondButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setEnabled(Z)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setEnabled(Z)V
 
     goto :goto_0
 
     :pswitch_0
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->setVisibility(I)V
+    invoke-virtual {p0, v1}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mFirstButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v2}, Landroid/widget/Button;->setEnabled(Z)V
+    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setEnabled(Z)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mSecondButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v2}, Landroid/widget/Button;->setEnabled(Z)V
+    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setEnabled(Z)V
 
     goto :goto_0
 
     :pswitch_1
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->setVisibility(I)V
+    invoke-virtual {p0, v1}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mFirstButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v2}, Landroid/widget/Button;->setEnabled(Z)V
+    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setEnabled(Z)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mSecondButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setEnabled(Z)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setEnabled(Z)V
 
     goto :goto_0
 
     :pswitch_2
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->setVisibility(I)V
+    invoke-virtual {p0, v1}, Landroid/view/View;->setVisibility(I)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mFirstButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setEnabled(Z)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setEnabled(Z)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mSecondButton:Landroid/widget/Button;
 
-    invoke-virtual {v0, v2}, Landroid/widget/Button;->setEnabled(Z)V
+    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setEnabled(Z)V
 
     goto :goto_0
 

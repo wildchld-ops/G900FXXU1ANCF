@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/nuance/swypeconnect/ac/ACManager$1;->this$0:Lcom/nuance/swypeconnect/ac/ACManager;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -39,7 +39,7 @@
 
     sget-object v0, Lcom/nuance/connect/host/service/HostInterface$HostService;->HOST_BUILD_SETTINGS:Lcom/nuance/connect/host/service/HostInterface$HostService;
 
-    invoke-virtual {v0, p1}, Lcom/nuance/connect/host/service/HostInterface$HostService;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 

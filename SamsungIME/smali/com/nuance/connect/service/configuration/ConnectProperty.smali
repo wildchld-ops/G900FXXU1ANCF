@@ -50,7 +50,7 @@
 .method protected constructor <init>(Lcom/nuance/connect/service/ConnectClient;Ljava/lang/String;IZLjava/lang/Object;)V
     .locals 2
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     sget-object v0, Lcom/nuance/connect/util/Logger$LoggerType;->DEVELOPER:Lcom/nuance/connect/util/Logger$LoggerType;
 
@@ -100,7 +100,7 @@
 .method protected constructor <init>(Lcom/nuance/connect/service/ConnectClient;Ljava/lang/String;IZLjava/lang/Object;I)V
     .locals 2
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     sget-object v0, Lcom/nuance/connect/util/Logger$LoggerType;->DEVELOPER:Lcom/nuance/connect/util/Logger$LoggerType;
 
@@ -568,7 +568,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v3
 
@@ -753,7 +753,7 @@
 
     sget-object v1, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->SERVER:Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;
 
-    invoke-virtual {p2, v1}, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -821,7 +821,7 @@
 
     sget-object v2, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->DEFAULT:Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;
 
-    invoke-virtual {v1, v2}, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -834,7 +834,7 @@
     :cond_4
     sget-object v1, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->BUILD:Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;
 
-    invoke-virtual {p2, v1}, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -844,7 +844,7 @@
 
     sget-object v2, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->CONFIG:Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;
 
-    invoke-virtual {v1, v2}, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -857,7 +857,7 @@
     :cond_5
     sget-object v1, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->CONFIG:Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;
 
-    invoke-virtual {p2, v1}, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -895,7 +895,7 @@
 
     sget-object v1, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->SERVER:Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;
 
-    invoke-virtual {p2, v1}, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -959,7 +959,7 @@
 
     sget-object v2, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->DEFAULT:Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;
 
-    invoke-virtual {v1, v2}, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -972,7 +972,7 @@
     :cond_4
     sget-object v1, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->BUILD:Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;
 
-    invoke-virtual {p2, v1}, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -982,7 +982,7 @@
 
     sget-object v2, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->CONFIG:Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;
 
-    invoke-virtual {v1, v2}, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -995,7 +995,7 @@
     :cond_5
     sget-object v1, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->CONFIG:Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;
 
-    invoke-virtual {p2, v1}, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1033,7 +1033,7 @@
 
     sget-object v1, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->SERVER:Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;
 
-    invoke-virtual {p2, v1}, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1101,7 +1101,7 @@
 
     sget-object v2, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->DEFAULT:Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;
 
-    invoke-virtual {v1, v2}, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1114,7 +1114,7 @@
     :cond_4
     sget-object v1, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->BUILD:Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;
 
-    invoke-virtual {p2, v1}, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1124,7 +1124,7 @@
 
     sget-object v2, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->CONFIG:Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;
 
-    invoke-virtual {v1, v2}, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1137,7 +1137,7 @@
     :cond_5
     sget-object v1, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->CONFIG:Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;
 
-    invoke-virtual {p2, v1}, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1281,7 +1281,7 @@
 
     sget-object v1, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->DEFAULT:Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;
 
-    invoke-virtual {v0, v1}, Lcom/nuance/connect/service/configuration/ConnectProperty$ConfigurationType;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/Enum;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 

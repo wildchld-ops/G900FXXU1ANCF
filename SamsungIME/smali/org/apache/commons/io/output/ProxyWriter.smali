@@ -22,7 +22,7 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lorg/apache/commons/io/output/ProxyWriter;->out:Ljava/io/Writer;
+    iget-object v0, p0, Ljava/io/FilterWriter;->out:Ljava/io/Writer;
 
     invoke-virtual {v0}, Ljava/io/Writer;->close()V
 
@@ -37,7 +37,7 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lorg/apache/commons/io/output/ProxyWriter;->out:Ljava/io/Writer;
+    iget-object v0, p0, Ljava/io/FilterWriter;->out:Ljava/io/Writer;
 
     invoke-virtual {v0}, Ljava/io/Writer;->flush()V
 
@@ -52,7 +52,7 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lorg/apache/commons/io/output/ProxyWriter;->out:Ljava/io/Writer;
+    iget-object v0, p0, Ljava/io/FilterWriter;->out:Ljava/io/Writer;
 
     invoke-virtual {v0, p1}, Ljava/io/Writer;->write(I)V
 
@@ -67,7 +67,7 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lorg/apache/commons/io/output/ProxyWriter;->out:Ljava/io/Writer;
+    iget-object v0, p0, Ljava/io/FilterWriter;->out:Ljava/io/Writer;
 
     invoke-virtual {v0, p1}, Ljava/io/Writer;->write(Ljava/lang/String;)V
 
@@ -82,7 +82,7 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lorg/apache/commons/io/output/ProxyWriter;->out:Ljava/io/Writer;
+    iget-object v0, p0, Ljava/io/FilterWriter;->out:Ljava/io/Writer;
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/io/Writer;->write(Ljava/lang/String;II)V
 
@@ -97,7 +97,7 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lorg/apache/commons/io/output/ProxyWriter;->out:Ljava/io/Writer;
+    iget-object v0, p0, Ljava/io/FilterWriter;->out:Ljava/io/Writer;
 
     invoke-virtual {v0, p1}, Ljava/io/Writer;->write([C)V
 
@@ -112,7 +112,7 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lorg/apache/commons/io/output/ProxyWriter;->out:Ljava/io/Writer;
+    iget-object v0, p0, Ljava/io/FilterWriter;->out:Ljava/io/Writer;
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/io/Writer;->write([CII)V
 

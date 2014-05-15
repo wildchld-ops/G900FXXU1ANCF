@@ -65,7 +65,7 @@
 
     const/4 v4, 0x4
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     sget-object v0, Lcom/visionobjects/textwidget/g/a;->a:Ljava/util/HashMap;
 

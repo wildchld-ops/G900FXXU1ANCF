@@ -72,7 +72,7 @@
 
     const-string v11, "com.sec.android.inputmethod_preferences"
 
-    invoke-virtual {p0, v11, v14}, Lcom/diotek/ime/implement/setting/Tutorial;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual {p0, v11, v14}, Landroid/content/ContextWrapper;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v9
 
@@ -152,7 +152,7 @@
 
     const v11, 0x7f030072
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->setContentView(I)V
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->setContentView(I)V
 
     :goto_1
     iget-object v11, p0, Lcom/diotek/ime/implement/setting/Tutorial;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -172,7 +172,7 @@
     :cond_0
     const v11, 0x7f0800a4
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -185,7 +185,7 @@
     :cond_1
     const v11, 0x7f080065
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v11
 
@@ -197,7 +197,7 @@
 
     const/4 v12, 0x1
 
-    invoke-virtual {v11, v12}, Landroid/widget/EditText;->setLongClickable(Z)V
+    invoke-virtual {v11, v12}, Landroid/view/View;->setLongClickable(Z)V
 
     iget-object v11, p0, Lcom/diotek/ime/implement/setting/Tutorial;->mTutorialEditText:Landroid/widget/EditText;
 
@@ -205,7 +205,7 @@
 
     invoke-direct {v12, p0}, Lcom/diotek/ime/implement/setting/Tutorial$1;-><init>(Lcom/diotek/ime/implement/setting/Tutorial;)V
 
-    invoke-virtual {v11, v12}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v11, v12}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     iget-object v11, p0, Lcom/diotek/ime/implement/setting/Tutorial;->mTutorialEditText:Landroid/widget/EditText;
 
@@ -213,11 +213,11 @@
 
     invoke-direct {v12, p0}, Lcom/diotek/ime/implement/setting/Tutorial$2;-><init>(Lcom/diotek/ime/implement/setting/Tutorial;)V
 
-    invoke-virtual {v11, v12}, Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
+    invoke-virtual {v11, v12}, Landroid/widget/TextView;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
     const v11, 0x7f0800a3
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v10
 
@@ -232,7 +232,7 @@
     invoke-virtual {v10, v11}, Landroid/widget/TextView;->setText(I)V
 
     :cond_2
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Tutorial;->getWindow()Landroid/view/Window;
+    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object v11
 
@@ -337,7 +337,7 @@
     :cond_4
     const v11, 0x7f030074
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->setContentView(I)V
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->setContentView(I)V
 
     goto/16 :goto_1
 
@@ -354,14 +354,14 @@
 
     const v11, 0x7f030071
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->setContentView(I)V
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->setContentView(I)V
 
     goto/16 :goto_1
 
     :cond_6
     const v11, 0x7f030070
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->setContentView(I)V
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->setContentView(I)V
 
     goto/16 :goto_1
 
@@ -376,14 +376,14 @@
 
     const v11, 0x7f030073
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->setContentView(I)V
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->setContentView(I)V
 
     goto/16 :goto_1
 
     :cond_8
     const v11, 0x7f030075
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->setContentView(I)V
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->setContentView(I)V
 
     goto/16 :goto_1
 
@@ -422,14 +422,14 @@
 
     const v11, 0x7f030078
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->setContentView(I)V
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->setContentView(I)V
 
     goto/16 :goto_1
 
     :cond_a
     const v11, 0x7f03007d
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->setContentView(I)V
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->setContentView(I)V
 
     goto/16 :goto_1
 
@@ -446,14 +446,14 @@
 
     const v11, 0x7f030079
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->setContentView(I)V
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->setContentView(I)V
 
     goto/16 :goto_1
 
     :cond_c
     const v11, 0x7f03007e
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->setContentView(I)V
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->setContentView(I)V
 
     goto/16 :goto_1
 
@@ -468,14 +468,14 @@
 
     const v11, 0x7f03007a
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->setContentView(I)V
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->setContentView(I)V
 
     goto/16 :goto_1
 
     :cond_e
     const v11, 0x7f03007f
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->setContentView(I)V
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->setContentView(I)V
 
     goto/16 :goto_1
 
@@ -500,14 +500,14 @@
 
     const v11, 0x7f030077
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->setContentView(I)V
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->setContentView(I)V
 
     goto/16 :goto_1
 
     :cond_10
     const v11, 0x7f03007c
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->setContentView(I)V
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->setContentView(I)V
 
     goto/16 :goto_1
 
@@ -524,14 +524,14 @@
 
     const v11, 0x7f030076
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->setContentView(I)V
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->setContentView(I)V
 
     goto/16 :goto_1
 
     :cond_12
     const v11, 0x7f03006f
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->setContentView(I)V
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->setContentView(I)V
 
     goto/16 :goto_1
 
@@ -546,14 +546,14 @@
 
     const v11, 0x7f03007b
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->setContentView(I)V
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->setContentView(I)V
 
     goto/16 :goto_1
 
     :cond_14
     const v11, 0x7f030080
 
-    invoke-virtual {p0, v11}, Lcom/diotek/ime/implement/setting/Tutorial;->setContentView(I)V
+    invoke-virtual {p0, v11}, Landroid/app/Activity;->setContentView(I)V
 
     goto/16 :goto_1
 .end method
@@ -569,7 +569,7 @@
 
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Tutorial;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -579,9 +579,9 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/Tutorial;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Tutorial;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -614,7 +614,7 @@
     return v0
 
     :pswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Tutorial;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     const/4 v0, 0x1
 

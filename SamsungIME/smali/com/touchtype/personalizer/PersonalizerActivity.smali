@@ -210,9 +210,9 @@
 
     const/4 v0, 0x2
 
-    invoke-virtual {p0, v0}, Lcom/touchtype/personalizer/PersonalizerActivity;->setResult(I)V
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->setResult(I)V
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerActivity;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     return-void
 .end method
@@ -234,9 +234,9 @@
 
     const/4 v1, -0x1
 
-    invoke-virtual {p0, v1, v0}, Lcom/touchtype/personalizer/PersonalizerActivity;->setResult(ILandroid/content/Intent;)V
+    invoke-virtual {p0, v1, v0}, Landroid/app/Activity;->setResult(ILandroid/content/Intent;)V
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerActivity;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     return-void
 .end method
@@ -303,9 +303,9 @@
 
     invoke-direct {v0}, Landroid/content/Intent;-><init>()V
 
-    invoke-virtual {p0, v5, v0}, Lcom/touchtype/personalizer/PersonalizerActivity;->setResult(ILandroid/content/Intent;)V
+    invoke-virtual {p0, v5, v0}, Landroid/app/Activity;->setResult(ILandroid/content/Intent;)V
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerActivity;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
@@ -314,9 +314,9 @@
 
     invoke-direct {v1}, Landroid/content/Intent;-><init>()V
 
-    invoke-virtual {p0, v5, v1}, Lcom/touchtype/personalizer/PersonalizerActivity;->setResult(ILandroid/content/Intent;)V
+    invoke-virtual {p0, v5, v1}, Landroid/app/Activity;->setResult(ILandroid/content/Intent;)V
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerActivity;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
@@ -325,9 +325,9 @@
 
     invoke-direct {v2}, Landroid/content/Intent;-><init>()V
 
-    invoke-virtual {p0, v5, v2}, Lcom/touchtype/personalizer/PersonalizerActivity;->setResult(ILandroid/content/Intent;)V
+    invoke-virtual {p0, v5, v2}, Landroid/app/Activity;->setResult(ILandroid/content/Intent;)V
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerActivity;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
@@ -349,7 +349,7 @@
 .method private startFacebook(Landroid/content/Intent;)V
     .locals 8
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerActivity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v4
 
@@ -438,7 +438,7 @@
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerActivity;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v6
 
@@ -477,7 +477,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerActivity;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 .end method
@@ -527,13 +527,13 @@
 
     iget-object v0, p0, Lcom/touchtype/personalizer/PersonalizerActivity;->webView:Landroid/webkit/WebView;
 
-    invoke-virtual {v0}, Landroid/webkit/WebView;->requestFocus()Z
+    invoke-virtual {v0}, Landroid/view/View;->requestFocus()Z
 
     new-instance v0, Lcom/touchtype/personalizer/PersonalizerActivity$1;
 
     invoke-direct {v0, p0}, Lcom/touchtype/personalizer/PersonalizerActivity$1;-><init>(Lcom/touchtype/personalizer/PersonalizerActivity;)V
 
-    invoke-virtual {p0, v0}, Lcom/touchtype/personalizer/PersonalizerActivity;->runOnUiThread(Ljava/lang/Runnable;)V
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->runOnUiThread(Ljava/lang/Runnable;)V
 
     return-void
 .end method
@@ -577,7 +577,7 @@
 
     iget-object v0, p0, Lcom/touchtype/personalizer/PersonalizerActivity;->webView:Landroid/webkit/WebView;
 
-    invoke-virtual {v0}, Landroid/webkit/WebView;->requestFocus()Z
+    invoke-virtual {v0}, Landroid/view/View;->requestFocus()Z
 
     return-void
 .end method
@@ -613,7 +613,7 @@
 
     iget-object v0, p0, Lcom/touchtype/personalizer/PersonalizerActivity;->webView:Landroid/webkit/WebView;
 
-    invoke-virtual {v0}, Landroid/webkit/WebView;->requestFocus()Z
+    invoke-virtual {v0}, Landroid/view/View;->requestFocus()Z
 
     return-void
 .end method
@@ -649,7 +649,7 @@
 
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerActivity;->getWindow()Landroid/view/Window;
+    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object v1
 
@@ -657,11 +657,11 @@
 
     const v1, 0x7f0300a3
 
-    invoke-virtual {p0, v1}, Lcom/touchtype/personalizer/PersonalizerActivity;->setContentView(I)V
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->setContentView(I)V
 
     const v1, 0x7f0800cd
 
-    invoke-virtual {p0, v1}, Lcom/touchtype/personalizer/PersonalizerActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -671,15 +671,15 @@
 
     const v1, 0x7f0d01ef
 
-    invoke-virtual {p0, v1}, Lcom/touchtype/personalizer/PersonalizerActivity;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/touchtype/personalizer/PersonalizerActivity;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
     const v1, 0x7f0800ce
 
-    invoke-virtual {p0, v1}, Lcom/touchtype/personalizer/PersonalizerActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -687,7 +687,7 @@
 
     iput-object v1, p0, Lcom/touchtype/personalizer/PersonalizerActivity;->mProgressBar:Landroid/widget/ProgressBar;
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerActivity;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -695,7 +695,7 @@
 
     iget-object v1, p0, Lcom/touchtype/personalizer/PersonalizerActivity;->webView:Landroid/webkit/WebView;
 
-    invoke-virtual {v1}, Landroid/webkit/WebView;->clearAnimation()V
+    invoke-virtual {v1}, Landroid/view/View;->clearAnimation()V
 
     iget-object v1, p0, Lcom/touchtype/personalizer/PersonalizerActivity;->webView:Landroid/webkit/WebView;
 
@@ -715,7 +715,7 @@
 
     invoke-virtual {v1}, Landroid/webkit/WebView;->freeMemory()V
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerActivity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v1
 

@@ -371,7 +371,7 @@
     iput-object v0, p0, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->mPreferenceFragment:Lcom/touchtype/personalizer/PersonalizerSettingsFragment;
 
     :cond_0
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->getFragmentManager()Landroid/app/FragmentManager;
+    invoke-virtual {p0}, Landroid/app/Activity;->getFragmentManager()Landroid/app/FragmentManager;
 
     move-result-object v0
 
@@ -409,7 +409,7 @@
 
     packed-switch v0, :pswitch_data_0
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
 
     move-result v0
 
@@ -417,7 +417,7 @@
     return v0
 
     :pswitch_0
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerSettingsActivity;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     const/4 v0, 0x1
 

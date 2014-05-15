@@ -19,7 +19,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput v0, p0, Lcom/visionobjects/a/a;->a:F
 
@@ -37,7 +37,7 @@
 .method public constructor <init>(FFFJ)V
     .locals 0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput p1, p0, Lcom/visionobjects/a/a;->a:F
 

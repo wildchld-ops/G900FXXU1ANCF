@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions$1;->this$0:Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -71,7 +71,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2, p3}, Lcom/diotek/ime/implement/setting/adapter/DoubleArrayAdapter;->getItem(I)Ljava/lang/Object;
+    invoke-virtual {v2, p3}, Landroid/widget/ArrayAdapter;->getItem(I)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -85,7 +85,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions$1;->this$0:Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;
 
-    invoke-virtual {v2, v1}, Lcom/diotek/ime/implement/setting/Xt9AutoSubstitutions;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {v2, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     return-void
 .end method

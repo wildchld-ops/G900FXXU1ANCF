@@ -373,7 +373,7 @@
 
     move-result v1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
@@ -408,7 +408,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->mDeleteDlg:Landroid/app/AlertDialog;
 
-    invoke-virtual {v2}, Landroid/app/AlertDialog;->isShowing()Z
+    invoke-virtual {v2}, Landroid/app/Dialog;->isShowing()Z
 
     move-result v2
 
@@ -453,7 +453,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -484,7 +484,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->mDeleteDlg:Landroid/app/AlertDialog;
 
-    invoke-virtual {v2}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v2}, Landroid/app/Dialog;->show()V
 
     goto :goto_1
 .end method
@@ -547,7 +547,7 @@
 
     invoke-interface {v1}, Landroid/view/Menu;->clear()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->getMenuInflater()Landroid/view/MenuInflater;
+    invoke-virtual {p0}, Landroid/app/Activity;->getMenuInflater()Landroid/view/MenuInflater;
 
     move-result-object v0
 
@@ -614,13 +614,13 @@
     :cond_0
     const v8, 0x7f03008a
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->setContentView(I)V
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->setContentView(I)V
 
     const-string v8, ""
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -633,7 +633,7 @@
 
     const v8, 0x7f0800b1
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v8
 
@@ -641,7 +641,7 @@
 
     iput-object v8, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->mSelectallview:Landroid/widget/ListView;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v8
 
@@ -683,7 +683,7 @@
 
     move-result-object v9
 
-    invoke-virtual {v8, v9}, Landroid/widget/ListView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {v8, v9}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     iget-object v8, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->mSelectallview:Landroid/widget/ListView;
 
@@ -691,7 +691,7 @@
 
     move-result-object v9
 
-    invoke-virtual {v8, v9}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
+    invoke-virtual {v8, v9}, Landroid/widget/AdapterView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
     iget-object v8, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -889,7 +889,7 @@
 
     const v8, 0x7f0800b2
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v8
 
@@ -903,7 +903,7 @@
 
     invoke-direct {v9, p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel$1;-><init>(Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;)V
 
-    invoke-virtual {v8, v9}, Lcom/diotek/ime/implement/setting/adapter/CheckboxArrayAdapter;->sort(Ljava/util/Comparator;)V
+    invoke-virtual {v8, v9}, Landroid/widget/ArrayAdapter;->sort(Ljava/util/Comparator;)V
 
     iget-object v8, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->mDisplayView:Landroid/widget/ListView;
 
@@ -913,13 +913,13 @@
 
     iget-object v8, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->mDisplayView:Landroid/widget/ListView;
 
-    invoke-virtual {v8, v11}, Landroid/widget/ListView;->setClickable(Z)V
+    invoke-virtual {v8, v11}, Landroid/view/View;->setClickable(Z)V
 
     iget-object v8, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->mDisplayView:Landroid/widget/ListView;
 
     const/4 v9, 0x2
 
-    invoke-virtual {v8, v9}, Landroid/widget/ListView;->setChoiceMode(I)V
+    invoke-virtual {v8, v9}, Landroid/widget/AbsListView;->setChoiceMode(I)V
 
     iget-object v8, p0, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->mDisplayView:Landroid/widget/ListView;
 
@@ -927,7 +927,7 @@
 
     move-result-object v9
 
-    invoke-virtual {v8, v9}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
+    invoke-virtual {v8, v9}, Landroid/widget/AdapterView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
     return-void
 .end method
@@ -939,7 +939,7 @@
 
     invoke-interface {p1}, Landroid/view/Menu;->clear()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->getMenuInflater()Landroid/view/MenuInflater;
+    invoke-virtual {p0}, Landroid/app/Activity;->getMenuInflater()Landroid/view/MenuInflater;
 
     move-result-object v0
 
@@ -995,7 +995,7 @@
     return v0
 
     :sswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
@@ -1005,7 +1005,7 @@
     goto :goto_0
 
     :sswitch_2
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9MyWordsDel;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 

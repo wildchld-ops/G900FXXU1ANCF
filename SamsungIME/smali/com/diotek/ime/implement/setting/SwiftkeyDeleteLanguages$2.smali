@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages$2;->this$0:Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -74,7 +74,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lcom/diotek/ime/implement/setting/adapter/CheckboxArrayAdapter;->notifyDataSetChanged()V
+    invoke-virtual {v4}, Landroid/widget/ArrayAdapter;->notifyDataSetChanged()V
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages$2;->this$0:Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;
 
@@ -95,7 +95,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v4}, Landroid/widget/ListView;->getChildCount()I
+    invoke-virtual {v4}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v4
 
@@ -108,7 +108,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v4, v2}, Landroid/widget/ListView;->getChildAt(I)Landroid/view/View;
+    invoke-virtual {v4, v2}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v4
 
@@ -127,7 +127,7 @@
 
     move-result v4
 
-    invoke-virtual {v1, v4}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v1, v4}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     add-int/lit8 v2, v2, 0x1
 
@@ -231,7 +231,7 @@
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages$2;->this$0:Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;
 
-    invoke-virtual {v4}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {v4}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -239,7 +239,7 @@
 
     iget-object v4, p0, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages$2;->this$0:Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;
 
-    invoke-virtual {v4}, Lcom/diotek/ime/implement/setting/SwiftkeyDeleteLanguages;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v4}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v4
 

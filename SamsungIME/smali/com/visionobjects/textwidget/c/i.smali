@@ -75,7 +75,7 @@
 .method public constructor <init>(Ljava/lang/String;Landroid/widget/ImageView;)V
     .locals 3
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Lcom/visionobjects/textwidget/c/j;
 
@@ -99,7 +99,7 @@
 
     iput-object p2, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
-    invoke-virtual {p2}, Landroid/widget/ImageView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p2}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -115,13 +115,13 @@
 
     iput v0, p0, Lcom/visionobjects/textwidget/c/i;->e:F
 
-    invoke-virtual {p2, p0}, Landroid/widget/ImageView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {p2, p0}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     const/16 v0, 0xfa0
 
     iput v0, p0, Lcom/visionobjects/textwidget/c/i;->j:I
 
-    invoke-virtual {p2}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
+    invoke-virtual {p2}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -247,7 +247,7 @@
     :goto_0
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
-    invoke-virtual {v0}, Landroid/widget/ImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
@@ -267,7 +267,7 @@
 
     iget-object v1, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
-    invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     return-void
 
@@ -306,7 +306,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
-    invoke-virtual {v0}, Landroid/widget/ImageView;->clearAnimation()V
+    invoke-virtual {v0}, Landroid/view/View;->clearAnimation()V
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
@@ -342,7 +342,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
-    invoke-virtual {v0}, Landroid/widget/ImageView;->clearAnimation()V
+    invoke-virtual {v0}, Landroid/view/View;->clearAnimation()V
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
@@ -350,7 +350,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
-    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setPressed(Z)V
+    invoke-virtual {v0, v4}, Landroid/view/View;->setPressed(Z)V
 
     goto :goto_0
 
@@ -361,7 +361,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
-    invoke-virtual {v0}, Landroid/widget/ImageView;->clearAnimation()V
+    invoke-virtual {v0}, Landroid/view/View;->clearAnimation()V
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
@@ -371,7 +371,7 @@
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setPressed(Z)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setPressed(Z)V
 
     goto :goto_0
 
@@ -380,7 +380,7 @@
 
     iget-object v1, p0, Lcom/visionobjects/textwidget/c/i;->k:Landroid/view/animation/Animation;
 
-    invoke-virtual {v0, v1}, Landroid/widget/ImageView;->startAnimation(Landroid/view/animation/Animation;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->startAnimation(Landroid/view/animation/Animation;)V
 
     goto :goto_0
 
@@ -745,7 +745,7 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
-    invoke-virtual {v0}, Landroid/widget/ImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
@@ -866,13 +866,13 @@
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
-    invoke-virtual {v0}, Landroid/widget/ImageView;->getLeft()I
+    invoke-virtual {v0}, Landroid/view/View;->getLeft()I
 
     move-result v0
 
     iget-object v1, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
-    invoke-virtual {v1}, Landroid/widget/ImageView;->getRight()I
+    invoke-virtual {v1}, Landroid/view/View;->getRight()I
 
     move-result v1
 
@@ -892,7 +892,7 @@
 
     const-wide/16 v2, 0xc8
 
-    invoke-virtual {v1, v2, v3}, Landroid/view/animation/TranslateAnimation;->setDuration(J)V
+    invoke-virtual {v1, v2, v3}, Landroid/view/animation/Animation;->setDuration(J)V
 
     new-instance v0, Landroid/view/animation/OvershootInterpolator;
 
@@ -900,15 +900,15 @@
 
     invoke-direct {v0, v2}, Landroid/view/animation/OvershootInterpolator;-><init>(F)V
 
-    invoke-virtual {v1, v0}, Landroid/view/animation/TranslateAnimation;->setInterpolator(Landroid/view/animation/Interpolator;)V
+    invoke-virtual {v1, v0}, Landroid/view/animation/Animation;->setInterpolator(Landroid/view/animation/Interpolator;)V
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
-    invoke-virtual {v0}, Landroid/widget/ImageView;->clearAnimation()V
+    invoke-virtual {v0}, Landroid/view/View;->clearAnimation()V
 
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
-    invoke-virtual {v0, v1}, Landroid/widget/ImageView;->startAnimation(Landroid/view/animation/Animation;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->startAnimation(Landroid/view/animation/Animation;)V
 
     return-void
 .end method
@@ -948,7 +948,7 @@
     :cond_0
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
-    invoke-virtual {v0}, Landroid/widget/ImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
@@ -958,7 +958,7 @@
 
     iget-object v1, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
-    invoke-virtual {v1, v0}, Landroid/widget/ImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     return-void
 .end method
@@ -990,7 +990,7 @@
 
     move-result v0
 
-    invoke-virtual {v1, v0}, Landroid/widget/ImageView;->offsetLeftAndRight(I)V
+    invoke-virtual {v1, v0}, Landroid/view/View;->offsetLeftAndRight(I)V
 
     :cond_0
     return-void
@@ -1081,7 +1081,7 @@
     :pswitch_0
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
-    invoke-virtual {v0}, Landroid/widget/ImageView;->getLeft()I
+    invoke-virtual {v0}, Landroid/view/View;->getLeft()I
 
     move-result v0
 
@@ -1113,7 +1113,7 @@
     :pswitch_1
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
-    invoke-virtual {v0}, Landroid/widget/ImageView;->getLeft()I
+    invoke-virtual {v0}, Landroid/view/View;->getLeft()I
 
     move-result v0
 
@@ -1162,7 +1162,7 @@
     :pswitch_2
     iget-object v0, p0, Lcom/visionobjects/textwidget/c/i;->b:Landroid/widget/ImageView;
 
-    invoke-virtual {v0}, Landroid/widget/ImageView;->getLeft()I
+    invoke-virtual {v0}, Landroid/view/View;->getLeft()I
 
     move-result v0
 

@@ -288,7 +288,7 @@
 
     move-object/from16 v24, v0
 
-    invoke-virtual/range {v24 .. v24}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getWidth()I
+    invoke-virtual/range {v24 .. v24}, Landroid/view/View;->getWidth()I
 
     move-result v24
 
@@ -300,7 +300,7 @@
 
     move-object/from16 v24, v0
 
-    invoke-virtual/range {v24 .. v24}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual/range {v24 .. v24}, Landroid/view/View;->getHeight()I
 
     move-result v24
 

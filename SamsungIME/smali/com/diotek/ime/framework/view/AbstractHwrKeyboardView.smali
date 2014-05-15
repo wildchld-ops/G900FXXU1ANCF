@@ -463,7 +463,7 @@
 
     iget-object v4, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->mKeyboard:Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {v4}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v4}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v2
 
@@ -514,7 +514,7 @@
 
     const/high16 v0, 0x43fa
 
-    invoke-virtual {p1}, Landroid/inputmethodservice/InputMethodService;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Landroid/content/ContextWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -1118,7 +1118,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->mHwrRectArea:Landroid/graphics/Rect;
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->invalidate(Landroid/graphics/Rect;)V
+    invoke-virtual {p0, v0}, Landroid/view/View;->invalidate(Landroid/graphics/Rect;)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->mHwrActionListener:Lcom/diotek/ime/framework/view/event/HwrActionListener;
 
@@ -1261,7 +1261,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->mHwrRectArea:Landroid/graphics/Rect;
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->invalidate(Landroid/graphics/Rect;)V
+    invoke-virtual {p0, v0}, Landroid/view/View;->invalidate(Landroid/graphics/Rect;)V
 
     iget v0, p0, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->mStrokeCount:I
 
@@ -1645,7 +1645,7 @@
     :cond_6
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v11}, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->invalidate(Landroid/graphics/Rect;)V
+    invoke-virtual {v0, v11}, Landroid/view/View;->invalidate(Landroid/graphics/Rect;)V
 
     :cond_7
     move-object/from16 v0, p0
@@ -1772,7 +1772,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->mHwrRectArea:Landroid/graphics/Rect;
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->invalidate(Landroid/graphics/Rect;)V
+    invoke-virtual {p0, v0}, Landroid/view/View;->invalidate(Landroid/graphics/Rect;)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->mHwrActionListener:Lcom/diotek/ime/framework/view/event/HwrActionListener;
 
@@ -1828,7 +1828,7 @@
 
     const/16 v1, 0xa
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->invalidateKeyWithKeyCode(I)V
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->invalidateKeyWithKeyCode(I)V
 
     :cond_0
     return-void

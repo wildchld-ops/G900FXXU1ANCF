@@ -34,7 +34,7 @@
 .method constructor <init>(Lcom/touchtype_fluency/util/d;)V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     invoke-static {}, Ljava/text/Collator;->getInstance()Ljava/text/Collator;
 

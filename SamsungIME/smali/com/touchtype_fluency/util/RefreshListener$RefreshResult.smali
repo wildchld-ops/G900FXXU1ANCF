@@ -151,7 +151,7 @@
 
     sget-object v0, Lcom/touchtype_fluency/util/RefreshListener$RefreshResult;->a:[Lcom/touchtype_fluency/util/RefreshListener$RefreshResult;
 
-    invoke-virtual {v0}, [Lcom/touchtype_fluency/util/RefreshListener$RefreshResult;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 

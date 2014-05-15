@@ -35,7 +35,7 @@
 
     iput-object p1, p0, Lcom/touchtype/personalizer/PersonalizerService$DeleteRemoteRunner;->this$0:Lcom/touchtype/personalizer/PersonalizerService;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p2, p0, Lcom/touchtype/personalizer/PersonalizerService$DeleteRemoteRunner;->mService:Ljava/lang/String;
 
@@ -87,7 +87,7 @@
 
     iget-object v5, p0, Lcom/touchtype/personalizer/PersonalizerService$DeleteRemoteRunner;->this$0:Lcom/touchtype/personalizer/PersonalizerService;
 
-    invoke-virtual {v5}, Lcom/touchtype/personalizer/PersonalizerService;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v5}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v5
 

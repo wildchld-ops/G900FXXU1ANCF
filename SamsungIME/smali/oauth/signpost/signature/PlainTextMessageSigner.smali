@@ -34,7 +34,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {p0}, Loauth/signpost/signature/PlainTextMessageSigner;->getConsumerSecret()Ljava/lang/String;
+    invoke-virtual {p0}, Loauth/signpost/signature/OAuthMessageSigner;->getConsumerSecret()Ljava/lang/String;
 
     move-result-object v1
 
@@ -52,7 +52,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0}, Loauth/signpost/signature/PlainTextMessageSigner;->getTokenSecret()Ljava/lang/String;
+    invoke-virtual {p0}, Loauth/signpost/signature/OAuthMessageSigner;->getTokenSecret()Ljava/lang/String;
 
     move-result-object v1
 

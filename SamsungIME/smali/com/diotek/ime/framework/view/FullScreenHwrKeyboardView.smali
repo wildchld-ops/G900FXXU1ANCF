@@ -182,7 +182,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1}, Lcom/diotek/ime/framework/view/FullScreenHwrPanelView;->getHeight()I
+    invoke-virtual {p1}, Landroid/view/View;->getHeight()I
 
     move-result v2
 
@@ -196,7 +196,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1}, Lcom/diotek/ime/framework/view/FullScreenHwrPanelView;->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
     move-result v2
 
@@ -260,7 +260,7 @@
 .method public invalidateHwrBackgound()V
     .locals 1
 
-    invoke-super {p0}, Lcom/diotek/ime/implement/view/HwrKeyboardView;->invalidateHwrBackgound()V
+    invoke-super {p0}, Lcom/diotek/ime/framework/view/AbstractHwrKeyboardView;->invalidateHwrBackgound()V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/view/FullScreenHwrKeyboardView;->mFullScreenHwrPanelView:Lcom/diotek/ime/framework/view/FullScreenHwrPanelView;
 
@@ -287,7 +287,7 @@
 .method protected onWindowVisibilityChanged(I)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/diotek/ime/implement/view/HwrKeyboardView;->onWindowVisibilityChanged(I)V
+    invoke-super {p0, p1}, Landroid/view/View;->onWindowVisibilityChanged(I)V
 
     if-nez p1, :cond_0
 
@@ -333,7 +333,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/FullScreenHwrKeyboardView;->isShown()Z
+    invoke-virtual {p0}, Landroid/view/View;->isShown()Z
 
     move-result v0
 

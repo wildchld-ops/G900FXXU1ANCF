@@ -39,7 +39,7 @@
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {p0}, Loauth/signpost/signature/HmacSha1MessageSigner;->getConsumerSecret()Ljava/lang/String;
+    invoke-virtual {p0}, Loauth/signpost/signature/OAuthMessageSigner;->getConsumerSecret()Ljava/lang/String;
 
     move-result-object v8
 
@@ -57,7 +57,7 @@
 
     move-result-object v7
 
-    invoke-virtual {p0}, Loauth/signpost/signature/HmacSha1MessageSigner;->getTokenSecret()Ljava/lang/String;
+    invoke-virtual {p0}, Loauth/signpost/signature/OAuthMessageSigner;->getTokenSecret()Ljava/lang/String;
 
     move-result-object v8
 
@@ -115,7 +115,7 @@
 
     move-result-object v7
 
-    invoke-virtual {p0, v7}, Loauth/signpost/signature/HmacSha1MessageSigner;->base64Encode([B)Ljava/lang/String;
+    invoke-virtual {p0, v7}, Loauth/signpost/signature/OAuthMessageSigner;->base64Encode([B)Ljava/lang/String;
 
     move-result-object v7
 

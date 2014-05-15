@@ -164,7 +164,7 @@
     invoke-direct {p0, v0}, Lcom/diotek/ime/implement/setting/TapAndHoldDelayCustom;->updateLongPressTimeOut(I)V
 
     :cond_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldDelayCustom;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     return-void
 .end method
@@ -188,9 +188,9 @@
 
     const v0, 0x7f03009d
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/TapAndHoldDelayCustom;->setContentView(I)V
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->setContentView(I)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldDelayCustom;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -238,7 +238,7 @@
     :cond_1
     const v0, 0x7f0800c0
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/TapAndHoldDelayCustom;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -248,7 +248,7 @@
 
     const v0, 0x7f0800c2
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/TapAndHoldDelayCustom;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -258,11 +258,11 @@
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/TapAndHoldDelayCustom;->mcancelBtn:Landroid/widget/Button;
 
-    invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     const v0, 0x7f0800c3
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/TapAndHoldDelayCustom;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -272,7 +272,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/TapAndHoldDelayCustom;->mSaveBtn:Landroid/widget/Button;
 
-    invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/TapAndHoldDelayCustom;->mHandler:Landroid/os/Handler;
 
@@ -316,7 +316,7 @@
     return v0
 
     :pswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/TapAndHoldDelayCustom;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     const/4 v0, 0x1
 

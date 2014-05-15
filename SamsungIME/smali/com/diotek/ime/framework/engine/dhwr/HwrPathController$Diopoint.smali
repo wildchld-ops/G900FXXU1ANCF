@@ -68,7 +68,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Ljava/util/ArrayList;
 
@@ -124,7 +124,7 @@
 
     const/4 v9, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v6, Ljava/util/ArrayList;
 
@@ -288,7 +288,7 @@
 
     const/4 v7, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v6, Ljava/util/ArrayList;
 
@@ -505,7 +505,7 @@
 
     const/4 v6, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v5, Ljava/util/ArrayList;
 
@@ -1271,7 +1271,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {v0}, [[F->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -1409,7 +1409,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {v0}, [[F->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v3
 

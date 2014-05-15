@@ -23,7 +23,7 @@
 
     const-string v0, "AudioAndHapticVibratorFeedback"
 
-    invoke-virtual {p0, v0}, Lcom/sec/android/inputmethod/AudioAndHapticVibratorFeedback;->setName(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V
 
     return-void
 .end method

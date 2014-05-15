@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/implement/setting/Tutorial$1;->this$0:Lcom/diotek/ime/implement/setting/Tutorial;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -41,7 +41,7 @@
 
     const v4, 0x7f080065
 
-    invoke-virtual {v3, v4}, Lcom/diotek/ime/implement/setting/Tutorial;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v3, v4}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -51,7 +51,7 @@
 
     const-string v4, "input_method"
 
-    invoke-virtual {v3, v4}, Lcom/diotek/ime/implement/setting/Tutorial;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v3, v4}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -61,7 +61,7 @@
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/Tutorial$1;->this$0:Lcom/diotek/ime/implement/setting/Tutorial;
 
-    invoke-virtual {v3}, Lcom/diotek/ime/implement/setting/Tutorial;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {v3}, Landroid/content/ContextWrapper;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v3
 
@@ -79,7 +79,7 @@
 
     if-nez v3, :cond_0
 
-    invoke-virtual {v0}, Landroid/widget/EditText;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v0}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v3
 

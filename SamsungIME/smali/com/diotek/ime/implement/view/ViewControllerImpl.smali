@@ -14958,7 +14958,7 @@
     goto/16 :goto_0
 
     :cond_6
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/view/ViewControllerImpl;->getLengthOfSpellText()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractViewController;->getLengthOfSpellText()I
 
     move-result v17
 
@@ -20377,7 +20377,7 @@
     goto/16 :goto_0
 
     :cond_6
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/view/ViewControllerImpl;->getLengthOfSpellText()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/AbstractViewController;->getLengthOfSpellText()I
 
     move-result v17
 
@@ -30446,7 +30446,7 @@
 
     const/4 v4, 0x0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/view/ViewControllerImpl;->isEnableOneHandKeypad()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractViewController;->isEnableOneHandKeypad()Z
 
     move-result v0
 
@@ -32304,7 +32304,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v1
 
@@ -32328,7 +32328,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v1
 
@@ -32339,7 +32339,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v1
 
@@ -32351,7 +32351,7 @@
 
     const v0, 0x7f08001e
 
-    invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -32365,7 +32365,7 @@
 
     const v0, 0x7f080018
 
-    invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -32381,7 +32381,7 @@
 
     const v0, 0x7f080019
 
-    invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -32393,7 +32393,7 @@
     :cond_0
     const v0, 0x7f08001c
 
-    invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -32407,7 +32407,7 @@
 
     const v0, 0x7f08001e
 
-    invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -32423,7 +32423,7 @@
 
     const v0, 0x7f08001a
 
-    invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -32435,7 +32435,7 @@
     :cond_0
     const v0, 0x7f08001d
 
-    invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -32457,7 +32457,7 @@
 
     const v0, 0x7f080005
 
-    invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -32646,7 +32646,7 @@
 
     move-result v2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/view/ViewControllerImpl;->isEnableOneHandKeypad()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractViewController;->isEnableOneHandKeypad()Z
 
     move-result v5
 
@@ -33625,11 +33625,11 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     const v1, 0x7f020670
 
-    invoke-virtual {v0, v1}, Landroid/widget/EditText;->setBackgroundResource(I)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/AbstractViewController;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -33643,9 +33643,9 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Landroid/widget/EditText;->setTextColor(I)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    invoke-virtual {v0, v3}, Landroid/widget/EditText;->setCursorVisible(Z)V
+    invoke-virtual {v0, v3}, Landroid/widget/TextView;->setCursorVisible(Z)V
 
     iget-object v1, p0, Lcom/diotek/ime/implement/view/ViewControllerImpl;->mToast:Landroid/widget/Toast;
 
@@ -33745,7 +33745,7 @@
 
     invoke-interface {v1, v2, v0}, Lcom/diotek/ime/framework/repository/Repository;->setData(Ljava/lang/String;I)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/view/ViewControllerImpl;->updateKeyboard()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/AbstractViewController;->updateKeyboard()V
 
     return-void
 .end method

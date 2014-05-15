@@ -30,6 +30,8 @@
     <integer name="qwerty_emoticon_icon_count_lastest">28</integer>
     <integer name="preference_setting_layout_weight_middle">1</integer>
     <integer name="preference_setting_layout_weight_side">0</integer>
+    <item type="integer" name="APKTOOL_DUMMY_0022">false</item>
+    <item type="integer" name="APKTOOL_DUMMY_0023">false</item>
     <integer name="config_preview_show_delay">0</integer>
     <integer name="config_preview_dismiss_delay">0</integer>
     <integer name="config_preview_repeatablekey_dismiss_delay">100</integer>
@@ -44,6 +46,4 @@
     <integer name="config_animated_preview_dismiss_delay">50</integer>
     <integer name="config_default_preview_dismiss_delay">100</integer>
     <integer name="config_fastTyping_threshold_time">120</integer>
-    <item type="integer" name="APKTOOL_DUMMY_0022">false</item>
-    <item type="integer" name="APKTOOL_DUMMY_0023">false</item>
 </resources>

@@ -91,7 +91,7 @@
 .method private setEntries(Ljava/lang/String;II)V
     .locals 9
 
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, p1}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v3
 
@@ -105,7 +105,7 @@
 
     check-cast v2, Landroid/preference/ListPreference;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
 
@@ -113,7 +113,7 @@
 
     move-result-object v4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
 
@@ -217,10 +217,10 @@
 
     const v3, 0x7f03009c
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings;->addPreferencesFromResource(I)V
+    invoke-virtual {p0, v3}, Landroid/preference/PreferenceActivity;->addPreferencesFromResource(I)V
 
     :goto_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -237,7 +237,7 @@
 
     const-string v3, "SETTINGS_DEFAULT_TRACE"
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v3}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v1
 
@@ -259,12 +259,12 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {v1, v3}, Landroid/preference/CheckBoxPreference;->setEnabled(Z)V
+    invoke-virtual {v1, v3}, Landroid/preference/Preference;->setEnabled(Z)V
 
     :cond_2
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings;->onUseTraceClickListener:Landroid/preference/Preference$OnPreferenceClickListener;
 
-    invoke-virtual {v1, v3}, Landroid/preference/CheckBoxPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
+    invoke-virtual {v1, v3}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
     :cond_3
     new-instance v3, Landroid/app/AlertDialog$Builder;
@@ -361,7 +361,7 @@
     :cond_5
     const v3, 0x7f030082
 
-    invoke-virtual {p0, v3}, Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings;->addPreferencesFromResource(I)V
+    invoke-virtual {p0, v3}, Landroid/preference/PreferenceActivity;->addPreferencesFromResource(I)V
 
     goto/16 :goto_0
 .end method
@@ -375,7 +375,7 @@
 
     packed-switch v0, :pswitch_data_0
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
 
     move-result v0
 
@@ -383,7 +383,7 @@
     return v0
 
     :pswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/Xt9AdvancedSettings;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     const/4 v0, 0x1
 

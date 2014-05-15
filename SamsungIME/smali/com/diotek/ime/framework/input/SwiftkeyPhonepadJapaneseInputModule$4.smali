@@ -34,133 +34,133 @@
 
     const-string v1, "\u3041"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u3044"
 
     const-string v1, "\u3043"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u3046"
 
     const-string v1, "\u3045"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u3048"
 
     const-string v1, "\u3047"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u304a"
 
     const-string v1, "\u3049"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u3041"
 
     const-string v1, "\u3042"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u3043"
 
     const-string v1, "\u3044"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u3045"
 
     const-string v1, "\u3046"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u3047"
 
     const-string v1, "\u3048"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u3049"
 
     const-string v1, "\u304a"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u30f4"
 
     const-string v1, "\u3045"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u3064"
 
     const-string v1, "\u3063"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u3063"
 
     const-string v1, "\u3064"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u3065"
 
     const-string v1, "\u3063"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u3084"
 
     const-string v1, "\u3083"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u3086"
 
     const-string v1, "\u3085"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u3088"
 
     const-string v1, "\u3087"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u3083"
 
     const-string v1, "\u3084"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u3085"
 
     const-string v1, "\u3086"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u3087"
 
     const-string v1, "\u3088"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u308f"
 
     const-string v1, "\u308e"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     const-string v0, "\u308e"
 
     const-string v1, "\u308f"
 
-    invoke-virtual {p0, v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule$4;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method

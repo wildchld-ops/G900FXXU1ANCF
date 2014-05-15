@@ -41,7 +41,7 @@
 
     const/4 v6, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     invoke-static {}, Lcom/diotek/ime/framework/repository/FastRepository$KeyIntFR;->values()[Lcom/diotek/ime/framework/repository/FastRepository$KeyIntFR;
 

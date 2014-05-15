@@ -97,7 +97,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput v1, p0, Lcom/diotek/ime/framework/repository/PropertyItems;->mPreviewShowDelay:I
 

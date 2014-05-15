@@ -323,13 +323,13 @@
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onEvaluateFullscreenMode()Z
+    invoke-virtual {v3}, Landroid/inputmethodservice/InputMethodService;->onEvaluateFullscreenMode()Z
 
     move-result v4
 
     if-eqz v4, :cond_0
 
-    invoke-virtual {v3}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->getWindow()Landroid/app/Dialog;
+    invoke-virtual {v3}, Landroid/inputmethodservice/InputMethodService;->getWindow()Landroid/app/Dialog;
 
     move-result-object v4
 
@@ -365,7 +365,7 @@
     :cond_0
     const/high16 v4, 0x4040
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v5
 
@@ -386,7 +386,7 @@
     :catch_0
     move-exception v0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateView;->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v2
 
@@ -445,7 +445,7 @@
 
     iput-boolean v1, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateView;->mIsSupportOneHanded:Z
 
-    invoke-virtual {p0, v1, v1, v1, v1}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateView;->setPadding(IIII)V
+    invoke-virtual {p0, v1, v1, v1, v1}, Landroid/view/View;->setPadding(IIII)V
 
     return-void
 .end method
@@ -552,13 +552,13 @@
 
     if-eqz v0, :cond_4
 
-    invoke-virtual {v0}, Landroid/widget/LinearLayout;->getChildCount()I
+    invoke-virtual {v0}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v6
 
     if-lez v6, :cond_4
 
-    invoke-virtual {v0}, Landroid/widget/LinearLayout;->getVisibility()I
+    invoke-virtual {v0}, Landroid/view/View;->getVisibility()I
 
     move-result v6
 
@@ -671,7 +671,7 @@
 
     move-result-object v6
 
-    invoke-virtual {v4, v6}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v4, v6}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     :cond_7
     iget-object v4, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateView;->mExpandButtonLayout:Landroid/view/View;
@@ -888,7 +888,7 @@
 
     iget-object v4, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateView;->mExpandCandidateLayout:Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;
 
-    invoke-virtual {v4}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->getPaddingTop()I
+    invoke-virtual {v4}, Landroid/view/View;->getPaddingTop()I
 
     move-result v4
 
@@ -896,7 +896,7 @@
 
     iget-object v4, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateView;->mExpandCandidateLayout:Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;
 
-    invoke-virtual {v4}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateExpandLayout;->getPaddingBottom()I
+    invoke-virtual {v4}, Landroid/view/View;->getPaddingBottom()I
 
     move-result v4
 
@@ -1281,7 +1281,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
@@ -1301,7 +1301,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 

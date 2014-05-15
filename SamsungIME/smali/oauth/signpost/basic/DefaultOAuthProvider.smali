@@ -60,13 +60,13 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Ljava/net/HttpURLConnection;->setAllowUserInteraction(Z)V
+    invoke-virtual {v0, v1}, Ljava/net/URLConnection;->setAllowUserInteraction(Z)V
 
     const-string v1, "Content-Length"
 
     const-string v2, "0"
 
-    invoke-virtual {v0, v1, v2}, Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v1, Loauth/signpost/basic/HttpURLConnectionRequestAdapter;
 
@@ -89,7 +89,7 @@
 
     check-cast v0, Ljava/net/HttpURLConnection;
 
-    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->connect()V
+    invoke-virtual {v0}, Ljava/net/URLConnection;->connect()V
 
     new-instance v1, Loauth/signpost/basic/HttpURLConnectionResponseAdapter;
 

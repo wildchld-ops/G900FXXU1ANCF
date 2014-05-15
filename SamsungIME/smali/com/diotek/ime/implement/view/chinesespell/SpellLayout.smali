@@ -64,7 +64,7 @@
 .method protected getSpellViewTextSize()F
     .locals 2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/view/chinesespell/SpellLayout;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -82,7 +82,7 @@
 .method protected getTextColor()I
     .locals 2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/view/chinesespell/SpellLayout;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 

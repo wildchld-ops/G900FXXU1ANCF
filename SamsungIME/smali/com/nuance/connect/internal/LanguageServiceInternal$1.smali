@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/nuance/connect/internal/LanguageServiceInternal$1;->this$0:Lcom/nuance/connect/internal/LanguageServiceInternal;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -70,7 +70,7 @@
 
     aget-object v2, v2, v0
 
-    invoke-virtual {v2}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v2
 
@@ -99,7 +99,7 @@
 
     move-result-object v18
 
-    invoke-virtual/range {v18 .. v18}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual/range {v18 .. v18}, Ljava/lang/Enum;->ordinal()I
 
     move-result v18
 
@@ -340,7 +340,7 @@
 
     move-result-object v18
 
-    invoke-virtual {v7}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+    invoke-virtual {v7}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v19
 
@@ -354,7 +354,7 @@
 
     invoke-interface/range {v17 .. v18}, Lcom/nuance/connect/util/Logger$Log;->e(Ljava/lang/Object;)V
 
-    invoke-virtual {v7}, Ljava/lang/Exception;->printStackTrace()V
+    invoke-virtual {v7}, Ljava/lang/Throwable;->printStackTrace()V
 
     move-object/from16 v0, p0
 

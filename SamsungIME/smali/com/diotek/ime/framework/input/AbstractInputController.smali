@@ -105,7 +105,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object v1, p0, Lcom/diotek/ime/framework/input/AbstractInputController;->mRepository:Lcom/diotek/ime/framework/repository/Repository;
 
@@ -1968,7 +1968,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/input/AbstractInputController;->mAudioAndHapticVibratorFeedback:Lcom/sec/android/inputmethod/AudioAndHapticVibratorFeedback;
 
-    invoke-virtual {v0}, Lcom/sec/android/inputmethod/AudioAndHapticVibratorFeedback;->start()V
+    invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
     :cond_0
     return-void

@@ -29,7 +29,7 @@
 
     iput-object p1, p0, Lcom/touchtype/personalizer/PersonalizerSettingsActivity$PersonalizerServiceConnection;->this$0:Lcom/touchtype/personalizer/PersonalizerSettingsActivity;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 

@@ -28,7 +28,7 @@
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     invoke-static {}, Lcom/diotek/dhwr/DHWR;->CreateInkObject()J
 
@@ -42,7 +42,7 @@
 .method public constructor <init>(J)V
     .locals 0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-wide p1, p0, Lcom/diotek/dhwr/DHWR$Ink;->mId:J
 

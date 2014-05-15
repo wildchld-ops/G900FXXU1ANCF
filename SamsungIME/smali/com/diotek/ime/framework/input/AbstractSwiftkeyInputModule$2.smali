@@ -57,7 +57,7 @@
 
     iget-object v2, v2, Lcom/diotek/ime/framework/input/AbstractInputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {v1, v2}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule$2;->this$0:Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;
 
@@ -97,11 +97,11 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v1, v2}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->finishComposing(Z)V
+    invoke-virtual {v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule$2;->this$0:Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;
 
-    invoke-virtual {v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->initComposingBuffer()V
+    invoke-virtual {v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule$2;->this$0:Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;
 

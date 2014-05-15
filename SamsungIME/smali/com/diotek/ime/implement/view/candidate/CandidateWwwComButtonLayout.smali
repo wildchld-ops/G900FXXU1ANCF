@@ -397,7 +397,7 @@
 
     const-string v1, "button_at"
 
-    invoke-virtual {v0}, Landroid/widget/Button;->getTag()Ljava/lang/Object;
+    invoke-virtual {v0}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -411,13 +411,13 @@
 
     invoke-direct {v1, p0}, Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout$1;-><init>(Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout;)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     new-instance v1, Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout$2;
 
     invoke-direct {v1, p0}, Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout$2;-><init>(Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout;)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
 
     :cond_0
     :goto_0
@@ -426,7 +426,7 @@
     :cond_1
     const-string v1, "button_www_dot"
 
-    invoke-virtual {v0}, Landroid/widget/Button;->getTag()Ljava/lang/Object;
+    invoke-virtual {v0}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -440,20 +440,20 @@
 
     invoke-direct {v1, p0}, Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout$3;-><init>(Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout;)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     new-instance v1, Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout$4;
 
     invoke-direct {v1, p0}, Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout$4;-><init>(Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout;)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
 
     goto :goto_0
 
     :cond_2
     const-string v1, "button_dot_com"
 
-    invoke-virtual {v0}, Landroid/widget/Button;->getTag()Ljava/lang/Object;
+    invoke-virtual {v0}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object v2
 
@@ -467,13 +467,13 @@
 
     invoke-direct {v1, p0}, Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout$5;-><init>(Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout;)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     new-instance v1, Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout$6;
 
     invoke-direct {v1, p0}, Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout$6;-><init>(Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout;)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/candidate/AbstractCandidateCustomButtonLayout;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -487,14 +487,14 @@
 
     invoke-direct {v1, p0}, Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout$7;-><init>(Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout;)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
     :cond_3
     new-instance v1, Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout$8;
 
     invoke-direct {v1, p0}, Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout$8;-><init>(Lcom/diotek/ime/implement/view/candidate/CandidateWwwComButtonLayout;)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnHoverListener(Landroid/view/View$OnHoverListener;)V
 
     goto :goto_0
 .end method

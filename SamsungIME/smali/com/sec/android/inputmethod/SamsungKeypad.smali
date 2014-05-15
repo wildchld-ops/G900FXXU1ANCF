@@ -108,13 +108,13 @@
 .method private forceShowSip()V
     .locals 4
 
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/SamsungKeypad;->isInputViewShown()Z
+    invoke-virtual {p0}, Landroid/inputmethodservice/InputMethodService;->isInputViewShown()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/SamsungKeypad;->getCurrentInputEditorInfo()Landroid/view/inputmethod/EditorInfo;
+    invoke-virtual {p0}, Landroid/inputmethodservice/InputMethodService;->getCurrentInputEditorInfo()Landroid/view/inputmethod/EditorInfo;
 
     move-result-object v0
 
@@ -126,13 +126,13 @@
 
     const-string v1, "input_method"
 
-    invoke-virtual {p0, v1}, Lcom/sec/android/inputmethod/SamsungKeypad;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v1}, Landroid/content/ContextWrapper;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Landroid/view/inputmethod/InputMethodManager;
 
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/SamsungKeypad;->getWindow()Landroid/app/Dialog;
+    invoke-virtual {p0}, Landroid/inputmethodservice/InputMethodService;->getWindow()Landroid/app/Dialog;
 
     move-result-object v2
 
@@ -163,7 +163,7 @@
 .method public onAppPrivateCommand(Ljava/lang/String;Landroid/os/Bundle;)V
     .locals 1
 
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onAppPrivateCommand(Ljava/lang/String;Landroid/os/Bundle;)V
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onAppPrivateCommand(Ljava/lang/String;Landroid/os/Bundle;)V
 
     iget-object v0, p0, Lcom/sec/android/inputmethod/SamsungKeypad;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -180,7 +180,7 @@
 .method public onBindInput()V
     .locals 0
 
-    invoke-super {p0}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onBindInput()V
+    invoke-super {p0}, Landroid/inputmethodservice/InputMethodService;->onBindInput()V
 
     return-void
 .end method
@@ -188,7 +188,7 @@
 .method public onComputeInsets(Landroid/inputmethodservice/InputMethodService$Insets;)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onComputeInsets(Landroid/inputmethodservice/InputMethodService$Insets;)V
+    invoke-super {p0, p1}, Landroid/inputmethodservice/InputMethodService;->onComputeInsets(Landroid/inputmethodservice/InputMethodService$Insets;)V
 
     iget-object v0, p0, Lcom/sec/android/inputmethod/SamsungKeypad;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -213,14 +213,14 @@
 
     if-eqz v0, :cond_0
 
-    invoke-super {p0, p1}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+    invoke-super {p0, p1}, Landroid/inputmethodservice/InputMethodService;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
     :cond_0
     iget-object v1, p0, Lcom/sec/android/inputmethod/SamsungKeypad;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
     invoke-interface {v1, p1}, Lcom/diotek/ime/framework/common/InputManager;->afterConfigrationChanged(Landroid/content/res/Configuration;)V
 
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/SamsungKeypad;->isInputViewShown()Z
+    invoke-virtual {p0}, Landroid/inputmethodservice/InputMethodService;->isInputViewShown()Z
 
     move-result v1
 
@@ -327,7 +327,7 @@
 
     iput-object v3, p0, Lcom/sec/android/inputmethod/SamsungKeypad;->mRemoteControllerManager:Lcom/diotek/ime/framework/input/remoteController/RemoteControllerManager;
 
-    invoke-super {p0}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onCreate()V
+    invoke-super {p0}, Landroid/inputmethodservice/InputMethodService;->onCreate()V
 
     return-void
 
@@ -443,7 +443,7 @@
     goto :goto_2
 
     :cond_5
-    invoke-super {p0}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onCreateCandidatesView()Landroid/view/View;
+    invoke-super {p0}, Landroid/inputmethodservice/InputMethodService;->onCreateCandidatesView()Landroid/view/View;
 
     move-result-object v1
 
@@ -467,7 +467,7 @@
 .method public onCurrentInputMethodSubtypeChanged(Landroid/view/inputmethod/InputMethodSubtype;)V
     .locals 0
 
-    invoke-super {p0, p1}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onCurrentInputMethodSubtypeChanged(Landroid/view/inputmethod/InputMethodSubtype;)V
+    invoke-super {p0, p1}, Landroid/inputmethodservice/InputMethodService;->onCurrentInputMethodSubtypeChanged(Landroid/view/inputmethod/InputMethodSubtype;)V
 
     return-void
 .end method
@@ -475,7 +475,7 @@
 .method public onDestroy()V
     .locals 1
 
-    invoke-super {p0}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onDestroy()V
+    invoke-super {p0}, Landroid/inputmethodservice/InputMethodService;->onDestroy()V
 
     iget-object v0, p0, Lcom/sec/android/inputmethod/SamsungKeypad;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -487,7 +487,7 @@
 .method public onDisplayCompletions([Landroid/view/inputmethod/CompletionInfo;)V
     .locals 2
 
-    invoke-super {p0, p1}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onDisplayCompletions([Landroid/view/inputmethod/CompletionInfo;)V
+    invoke-super {p0, p1}, Landroid/inputmethodservice/InputMethodService;->onDisplayCompletions([Landroid/view/inputmethod/CompletionInfo;)V
 
     iget-object v0, p0, Lcom/sec/android/inputmethod/SamsungKeypad;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -536,7 +536,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-super {p0}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onEvaluateFullscreenMode()Z
+    invoke-super {p0}, Landroid/inputmethodservice/InputMethodService;->onEvaluateFullscreenMode()Z
 
     move-result v0
 
@@ -549,7 +549,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-super {p0}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onEvaluateFullscreenMode()Z
+    invoke-super {p0}, Landroid/inputmethodservice/InputMethodService;->onEvaluateFullscreenMode()Z
 
     move-result v0
 
@@ -573,7 +573,7 @@
 
     invoke-interface {v0}, Lcom/diotek/ime/framework/common/InputManager;->finishInput()V
 
-    invoke-super {p0}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onFinishInput()V
+    invoke-super {p0}, Landroid/inputmethodservice/InputMethodService;->onFinishInput()V
 
     return-void
 .end method
@@ -581,7 +581,7 @@
 .method public onFinishInputView(Z)V
     .locals 1
 
-    invoke-super {p0, p1}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onFinishInputView(Z)V
+    invoke-super {p0, p1}, Landroid/inputmethodservice/InputMethodService;->onFinishInputView(Z)V
 
     iget-object v0, p0, Lcom/sec/android/inputmethod/SamsungKeypad;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -668,7 +668,7 @@
     if-nez v8, :cond_2
 
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v7
 
@@ -683,11 +683,11 @@
 
     invoke-static {v8}, Lcom/diotek/ime/framework/repository/InputStatus;->setFlagHwKeyInput(Z)V
 
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/SamsungKeypad;->getCurrentInputEditorInfo()Landroid/view/inputmethod/EditorInfo;
+    invoke-virtual {p0}, Landroid/inputmethodservice/InputMethodService;->getCurrentInputEditorInfo()Landroid/view/inputmethod/EditorInfo;
 
     move-result-object v2
 
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/SamsungKeypad;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v8
 
@@ -890,7 +890,7 @@
 
     if-ne v8, v9, :cond_11
 
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v7
 
@@ -905,7 +905,7 @@
 
     if-eqz v8, :cond_7
 
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/SamsungKeypad;->isInputViewShown()Z
+    invoke-virtual {p0}, Landroid/inputmethodservice/InputMethodService;->isInputViewShown()Z
 
     move-result v8
 
@@ -1000,7 +1000,7 @@
 
     if-nez v8, :cond_14
 
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v7
 
@@ -1025,7 +1025,7 @@
 
     if-eq v8, v9, :cond_15
 
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v7
 
@@ -1094,7 +1094,7 @@
 
     if-eqz v8, :cond_18
 
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v7
 
@@ -1149,7 +1149,7 @@
     iput v8, p0, Lcom/sec/android/inputmethod/SamsungKeypad;->leftaltstate:I
 
     :cond_1b
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v7
 
@@ -1210,7 +1210,7 @@
 
     if-nez v8, :cond_21
 
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v7
 
@@ -1231,7 +1231,7 @@
 
     if-gt p1, v8, :cond_22
 
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v7
 
@@ -1307,7 +1307,7 @@
     if-ne p1, v8, :cond_26
 
     :cond_25
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v7
 
@@ -1383,13 +1383,13 @@
 
     if-nez v8, :cond_2f
 
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/SamsungKeypad;->isInputViewShown()Z
+    invoke-virtual {p0}, Landroid/inputmethodservice/InputMethodService;->isInputViewShown()Z
 
     move-result v8
 
     if-nez v8, :cond_2f
 
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v7
 
@@ -1512,7 +1512,7 @@
     if-gt p1, v8, :cond_2e
 
     :cond_2d
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v7
 
@@ -1572,7 +1572,7 @@
 
     invoke-interface {v8, p1, p2}, Lcom/diotek/ime/framework/common/InputManager;->onKeyDownBeforeCallingSuperMethod(ILandroid/view/KeyEvent;)V
 
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v7
 
@@ -1653,7 +1653,7 @@
     if-nez v1, :cond_2
 
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyLongPress(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyLongPress(ILandroid/view/KeyEvent;)Z
 
     move-result v0
 
@@ -1666,7 +1666,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyLongPress(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyLongPress(ILandroid/view/KeyEvent;)Z
 
     move-result v0
 
@@ -1676,7 +1676,7 @@
 .method public onKeyMultiple(IILandroid/view/KeyEvent;)Z
     .locals 1
 
-    invoke-super {p0, p1, p2, p3}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyMultiple(IILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2, p3}, Landroid/inputmethodservice/InputMethodService;->onKeyMultiple(IILandroid/view/KeyEvent;)Z
 
     move-result v0
 
@@ -1765,7 +1765,7 @@
     if-nez v4, :cond_2
 
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyUp(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyUp(ILandroid/view/KeyEvent;)Z
 
     move-result v2
 
@@ -1780,7 +1780,7 @@
 
     iput-boolean v7, p0, Lcom/sec/android/inputmethod/SamsungKeypad;->mIsLongPress:Z
 
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyUp(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyUp(ILandroid/view/KeyEvent;)Z
 
     move-result v2
 
@@ -1806,14 +1806,14 @@
 
     invoke-interface {v3}, Lcom/diotek/ime/framework/common/InputManager;->postPredictionWordMessage()V
 
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyUp(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyUp(ILandroid/view/KeyEvent;)Z
 
     move-result v2
 
     goto :goto_0
 
     :cond_5
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/SamsungKeypad;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v4
 
@@ -1837,7 +1837,7 @@
 
     if-eq v4, v5, :cond_6
 
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyUp(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyUp(ILandroid/view/KeyEvent;)Z
 
     move-result v2
 
@@ -1848,20 +1848,20 @@
 
     if-nez v4, :cond_7
 
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/SamsungKeypad;->isInputViewShown()Z
+    invoke-virtual {p0}, Landroid/inputmethodservice/InputMethodService;->isInputViewShown()Z
 
     move-result v4
 
     if-nez v4, :cond_7
 
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyUp(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyUp(ILandroid/view/KeyEvent;)Z
 
     move-result v2
 
     goto :goto_0
 
     :cond_7
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/SamsungKeypad;->getCurrentInputEditorInfo()Landroid/view/inputmethod/EditorInfo;
+    invoke-virtual {p0}, Landroid/inputmethodservice/InputMethodService;->getCurrentInputEditorInfo()Landroid/view/inputmethod/EditorInfo;
 
     move-result-object v1
 
@@ -1966,7 +1966,7 @@
     goto/16 :goto_0
 
     :cond_c
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onKeyUp(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onKeyUp(ILandroid/view/KeyEvent;)Z
 
     move-result v2
 
@@ -2009,7 +2009,7 @@
 
     iput v0, p0, Lcom/sec/android/inputmethod/SamsungKeypad;->leftaltstate:I
 
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onStartInput(Landroid/view/inputmethod/EditorInfo;Z)V
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onStartInput(Landroid/view/inputmethod/EditorInfo;Z)V
 
     iget-object v0, p0, Lcom/sec/android/inputmethod/SamsungKeypad;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -2031,7 +2031,7 @@
 
     invoke-static {v5, v6}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-super {p0, p1, p2}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onStartInputView(Landroid/view/inputmethod/EditorInfo;Z)V
+    invoke-super {p0, p1, p2}, Landroid/inputmethodservice/InputMethodService;->onStartInputView(Landroid/view/inputmethod/EditorInfo;Z)V
 
     invoke-static {}, Lcom/sec/android/app/CscFeature;->getInstance()Lcom/sec/android/app/CscFeature;
 
@@ -2281,7 +2281,7 @@
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_0
-    invoke-super/range {p0 .. p6}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onUpdateSelection(IIIIII)V
+    invoke-super/range {p0 .. p6}, Landroid/inputmethodservice/InputMethodService;->onUpdateSelection(IIIIII)V
 
     iget-object v0, p0, Lcom/sec/android/inputmethod/SamsungKeypad;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -2316,7 +2316,7 @@
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_0
-    invoke-super {p0, p1}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onViewClicked(Z)V
+    invoke-super {p0, p1}, Landroid/inputmethodservice/InputMethodService;->onViewClicked(Z)V
 
     iget-object v0, p0, Lcom/sec/android/inputmethod/SamsungKeypad;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -2349,13 +2349,13 @@
 
     move-result v0
 
-    invoke-virtual {p0, v0}, Lcom/sec/android/inputmethod/SamsungKeypad;->setIsMovable(Z)V
+    invoke-virtual {p0, v0}, Landroid/inputmethodservice/InputMethodService;->setIsMovable(Z)V
 
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/sec/android/inputmethod/SamsungKeypad;->mIsShowSIP:Z
 
-    invoke-super {p0}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onWindowHidden()V
+    invoke-super {p0}, Landroid/inputmethodservice/InputMethodService;->onWindowHidden()V
 
     return-void
 .end method
@@ -2379,13 +2379,13 @@
 
     move-result v0
 
-    invoke-virtual {p0, v0}, Lcom/sec/android/inputmethod/SamsungKeypad;->setIsMovable(Z)V
+    invoke-virtual {p0, v0}, Landroid/inputmethodservice/InputMethodService;->setIsMovable(Z)V
 
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/sec/android/inputmethod/SamsungKeypad;->mIsShowSIP:Z
 
-    invoke-super {p0}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->onWindowShown()V
+    invoke-super {p0}, Landroid/inputmethodservice/InputMethodService;->onWindowShown()V
 
     return-void
 .end method
@@ -2399,7 +2399,7 @@
 
     iput-boolean v4, p0, Lcom/sec/android/inputmethod/SamsungKeypad;->mIsConfigurationChanged:Z
 
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/SamsungKeypad;->getWindow()Landroid/app/Dialog;
+    invoke-virtual {p0}, Landroid/inputmethodservice/InputMethodService;->getWindow()Landroid/app/Dialog;
 
     move-result-object v3
 
@@ -2486,7 +2486,7 @@
 
     const/high16 v3, 0x4040
 
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/SamsungKeypad;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v5
 
@@ -2512,7 +2512,7 @@
 
     iget-object v5, p0, Lcom/sec/android/inputmethod/SamsungKeypad;->mKeyPreviewBackingView:Landroid/view/View;
 
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/SamsungKeypad;->isFullscreenMode()Z
+    invoke-virtual {p0}, Landroid/inputmethodservice/InputMethodService;->isFullscreenMode()Z
 
     move-result v3
 
@@ -2535,7 +2535,7 @@
 .method public setCandidatesViewShown(Z)V
     .locals 0
 
-    invoke-super {p0, p1}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->setCandidatesViewShown(Z)V
+    invoke-super {p0, p1}, Landroid/inputmethodservice/InputMethodService;->setCandidatesViewShown(Z)V
 
     return-void
 .end method
@@ -2543,7 +2543,7 @@
 .method public updateFullscreenMode()V
     .locals 2
 
-    invoke-super {p0}, Lcom/diotek/ime/framework/common/AbstractInputMethod;->updateFullscreenMode()V
+    invoke-super {p0}, Landroid/inputmethodservice/InputMethodService;->updateFullscreenMode()V
 
     iget-object v0, p0, Lcom/sec/android/inputmethod/SamsungKeypad;->mKeyPreviewBackingView:Landroid/view/View;
 
@@ -2555,7 +2555,7 @@
     :cond_0
     iget-object v1, p0, Lcom/sec/android/inputmethod/SamsungKeypad;->mKeyPreviewBackingView:Landroid/view/View;
 
-    invoke-virtual {p0}, Lcom/sec/android/inputmethod/SamsungKeypad;->isFullscreenMode()Z
+    invoke-virtual {p0}, Landroid/inputmethodservice/InputMethodService;->isFullscreenMode()Z
 
     move-result v0
 

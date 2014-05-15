@@ -111,19 +111,19 @@
 
     sget-object v2, Landroid/graphics/Paint$Align;->CENTER:Landroid/graphics/Paint$Align;
 
-    invoke-virtual {v1, v2}, Landroid/text/TextPaint;->setTextAlign(Landroid/graphics/Paint$Align;)V
+    invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setTextAlign(Landroid/graphics/Paint$Align;)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/ArrowKeyPreviewDrawable;->mTextPaint:Landroid/text/TextPaint;
 
     const/16 v2, 0xff
 
-    invoke-virtual {v1, v2}, Landroid/text/TextPaint;->setAlpha(I)V
+    invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setAlpha(I)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/ArrowKeyPreviewDrawable;->mTextPaint:Landroid/text/TextPaint;
 
     const/4 v2, 0x1
 
-    invoke-virtual {v1, v2}, Landroid/text/TextPaint;->setAntiAlias(Z)V
+    invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     new-instance v1, Landroid/graphics/Rect;
 
@@ -133,7 +133,7 @@
 
     iget-object v1, p0, Lcom/diotek/ime/framework/view/ArrowKeyPreviewDrawable;->mPadding:Landroid/graphics/Rect;
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/view/ArrowKeyPreviewDrawable;->getPadding(Landroid/graphics/Rect;)Z
+    invoke-virtual {p0, v1}, Landroid/graphics/drawable/Drawable;->getPadding(Landroid/graphics/Rect;)Z
 
     iget v1, p0, Lcom/diotek/ime/framework/view/ArrowKeyPreviewDrawable;->mHeight:I
 

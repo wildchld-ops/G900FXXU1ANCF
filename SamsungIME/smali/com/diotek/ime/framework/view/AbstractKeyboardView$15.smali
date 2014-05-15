@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView$15;->this$0:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -106,7 +106,7 @@
 
     iget-object v5, p0, Lcom/diotek/ime/framework/view/AbstractKeyboardView$15;->this$0:Lcom/diotek/ime/framework/view/AbstractKeyboardView;
 
-    invoke-virtual {v5}, Lcom/diotek/ime/framework/view/AbstractKeyboardView;->getHeight()I
+    invoke-virtual {v5}, Landroid/view/View;->getHeight()I
 
     move-result v5
 

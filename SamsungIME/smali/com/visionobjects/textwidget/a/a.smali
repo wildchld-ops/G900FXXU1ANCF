@@ -42,7 +42,7 @@
 
     iput p5, p0, Lcom/visionobjects/textwidget/a/a;->d:F
 
-    invoke-virtual {p0, p0}, Lcom/visionobjects/textwidget/a/a;->setAnimationListener(Landroid/view/animation/Animation$AnimationListener;)V
+    invoke-virtual {p0, p0}, Landroid/view/animation/Animation;->setAnimationListener(Landroid/view/animation/Animation$AnimationListener;)V
 
     return-void
 .end method

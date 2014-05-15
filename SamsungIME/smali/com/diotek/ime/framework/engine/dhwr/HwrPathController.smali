@@ -75,7 +75,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput v0, p0, Lcom/diotek/ime/framework/engine/dhwr/HwrPathController;->mSeqID:I
 
@@ -2107,7 +2107,7 @@
 
     check-cast v0, [[F
 
-    invoke-virtual {v0}, [[F->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v2
 

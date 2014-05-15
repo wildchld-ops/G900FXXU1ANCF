@@ -190,7 +190,7 @@
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/adapter/CheckboxArrayAdapter;->cb:Landroid/widget/CheckBox;
 
-    invoke-virtual {v3, v5}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v3, v5}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     :cond_1
     :goto_0
@@ -205,7 +205,7 @@
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/adapter/CheckboxArrayAdapter;->cb:Landroid/widget/CheckBox;
 
-    invoke-virtual {v3, v6}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v3, v6}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     goto :goto_0
 
@@ -230,14 +230,14 @@
 
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/adapter/CheckboxArrayAdapter;->cb:Landroid/widget/CheckBox;
 
-    invoke-virtual {v3, v5}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v3, v5}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     goto :goto_0
 
     :cond_4
     iget-object v3, p0, Lcom/diotek/ime/implement/setting/adapter/CheckboxArrayAdapter;->cb:Landroid/widget/CheckBox;
 
-    invoke-virtual {v3, v6}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v3, v6}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     goto :goto_0
 .end method

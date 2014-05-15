@@ -68,7 +68,7 @@
 
     aput-object v3, v1, v2
 
-    invoke-virtual {p1}, Lcom/diotek/ime/framework/spellcheckservice/SamsungIMESpellCheckerService;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p1}, Landroid/content/ContextWrapper;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v0
 
@@ -190,7 +190,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v0}, Ljava/lang/InterruptedException;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
 
     move-result-object v5
 

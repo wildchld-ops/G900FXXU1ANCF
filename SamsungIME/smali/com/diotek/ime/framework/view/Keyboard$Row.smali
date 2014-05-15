@@ -49,7 +49,7 @@
 
     const/4 v4, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v1, Ljava/util/ArrayList;
 
@@ -169,7 +169,7 @@
 .method public constructor <init>(Lcom/diotek/ime/framework/view/Keyboard;)V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Ljava/util/ArrayList;
 

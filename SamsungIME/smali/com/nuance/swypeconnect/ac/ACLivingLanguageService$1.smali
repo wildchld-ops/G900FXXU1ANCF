@@ -33,7 +33,7 @@
 
     iput-object p2, p0, Lcom/nuance/swypeconnect/ac/ACLivingLanguageService$1;->val$callback:Lcom/nuance/swypeconnect/ac/ACLivingLanguageService$ACLivingLanguageCallback;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 

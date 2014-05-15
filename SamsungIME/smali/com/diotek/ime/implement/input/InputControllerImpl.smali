@@ -632,7 +632,7 @@
 
     if-eq v0, v1, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->updateInputModule()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->updateInputModule()V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/AbstractInputController;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -766,7 +766,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onText(Ljava/lang/CharSequence;)V
 
     :cond_0
     :goto_0
@@ -1026,7 +1026,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {p0, v2, v1, v1}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputEngine(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
+    invoke-virtual {p0, v2, v1, v1}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputEngine(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
 
     goto :goto_0
 
@@ -1037,7 +1037,7 @@
 
     const/4 v2, 0x6
 
-    invoke-virtual {p0, v2, v1, v1}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputEngine(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
+    invoke-virtual {p0, v2, v1, v1}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputEngine(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
 
     goto :goto_0
 
@@ -1695,7 +1695,7 @@
 
     if-eqz v5, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->predictionWordStartInputViewContinue()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->predictionWordStartInputViewContinue()Z
 
     goto :goto_0
 
@@ -1901,7 +1901,7 @@
 
     if-eqz v5, :cond_1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->predictionWordStartInputViewContinue()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->predictionWordStartInputViewContinue()Z
 
     :cond_1
     invoke-static {}, Lcom/diotek/ime/framework/sidesync/SideSyncManager;->getInstance()Lcom/diotek/ime/framework/sidesync/SideSyncManager;
@@ -2043,7 +2043,7 @@
 
     invoke-virtual {p0, p1}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setFullWidthMode(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->updatePredictionSettingAndEngine()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->updatePredictionSettingAndEngine()V
 
     return-void
 .end method
@@ -2077,7 +2077,7 @@
 
     if-eqz v5, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setAvailableHWRLanguage()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->setAvailableHWRLanguage()V
 
     :cond_0
     iget-object v5, p0, Lcom/diotek/ime/framework/input/AbstractInputController;->mInputModeManager:Lcom/diotek/ime/framework/inputmode/InputModeManager;
@@ -2366,7 +2366,7 @@
 
     if-eqz v7, :cond_3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->predictionWord()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->predictionWord()Z
 
     :cond_3
     :goto_1
@@ -2384,7 +2384,7 @@
 
     if-eqz v7, :cond_4
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->predictionWordStartInputViewContinue()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->predictionWordStartInputViewContinue()Z
 
     :cond_4
     iget-object v7, p0, Lcom/diotek/ime/framework/input/AbstractInputController;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -2642,7 +2642,7 @@
 
     if-eqz v7, :cond_1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->predictionWordStartInputViewContinue()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->predictionWordStartInputViewContinue()Z
 
     :cond_1
     iget-object v7, p0, Lcom/diotek/ime/framework/input/AbstractInputController;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -2778,7 +2778,7 @@
 
     if-eqz v7, :cond_9
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->predictionWord()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->predictionWord()Z
 
     :cond_9
     iput-boolean v10, p0, Lcom/diotek/ime/implement/input/InputControllerImpl;->mHandwritingHasBeenUsed:Z
@@ -2937,7 +2937,7 @@
 
     if-eqz v5, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->predictionWord()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->predictionWord()Z
 
     :cond_0
     iput-boolean v8, p0, Lcom/diotek/ime/implement/input/InputControllerImpl;->mHandwritingHasBeenUsed:Z
@@ -2954,7 +2954,7 @@
 
     if-eqz v5, :cond_1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->predictionWordStartInputViewContinue()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->predictionWordStartInputViewContinue()Z
 
     :cond_1
     invoke-static {}, Lcom/diotek/ime/framework/sidesync/SideSyncManager;->getInstance()Lcom/diotek/ime/framework/sidesync/SideSyncManager;
@@ -4547,7 +4547,7 @@
     if-eqz v2, :cond_1
 
     :cond_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->updateInputModule()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->updateInputModule()V
 
     iget-object v2, p0, Lcom/diotek/ime/framework/input/AbstractInputController;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -4615,7 +4615,7 @@
 
     const/4 v6, 0x7
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/implement/input/InputControllerImpl;->createInputEngineArray(I)Z
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/AbstractInputController;->createInputEngineArray(I)Z
 
     const-string v2, "VOHWRPANEL"
 
@@ -4647,7 +4647,7 @@
     :goto_0
     const/4 v6, 0x4
 
-    invoke-virtual {p0, v6, v3, v3}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputEngine(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
+    invoke-virtual {p0, v6, v3, v3}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputEngine(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
 
     iget-object v6, p0, Lcom/diotek/ime/framework/input/AbstractInputController;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -4665,7 +4665,7 @@
 
     if-eqz v6, :cond_3
 
-    invoke-virtual {p0, v9, v4, v3}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputEngine(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
+    invoke-virtual {p0, v9, v4, v3}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputEngine(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
 
     :cond_1
     :goto_1
@@ -4687,7 +4687,7 @@
     goto :goto_0
 
     :cond_3
-    invoke-virtual {p0, v9, v4, v4}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputEngineWithoutInit(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
+    invoke-virtual {p0, v9, v4, v4}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputEngineWithoutInit(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
 
     goto :goto_1
 
@@ -4700,9 +4700,9 @@
 
     if-eqz v6, :cond_1
 
-    invoke-virtual {p0, v8, v0, v3}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputEngine(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
+    invoke-virtual {p0, v8, v0, v3}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputEngine(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
 
-    invoke-virtual {p0, v7, v0, v3}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputEngine(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
+    invoke-virtual {p0, v7, v0, v3}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputEngine(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
 
     goto :goto_1
 
@@ -4717,7 +4717,7 @@
 
     const/4 v6, 0x1
 
-    invoke-virtual {p0, v6, v1, v1}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputEngine(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
+    invoke-virtual {p0, v6, v1, v1}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputEngine(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
 
     const/4 v0, 0x0
 
@@ -4733,11 +4733,11 @@
 
     invoke-direct {v0}, Lcom/diotek/ime/framework/engine/dhwr/DHWRWrapper;-><init>()V
 
-    invoke-virtual {p0, v8, v0, v1}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputEngine(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
+    invoke-virtual {p0, v8, v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputEngine(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
 
     if-eqz v5, :cond_1
 
-    invoke-virtual {p0, v7, v0, v5}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputEngine(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
+    invoke-virtual {p0, v7, v0, v5}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputEngine(ILcom/diotek/ime/framework/engine/InputEngine;Lcom/diotek/ime/framework/engine/InputEngine;)Z
 
     goto :goto_1
 .end method
@@ -4749,7 +4749,7 @@
 
     const/16 v1, 0x1b
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/input/InputControllerImpl;->createInputModuleArray(I)Z
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/AbstractInputController;->createInputModuleArray(I)Z
 
     new-instance v1, Landroid/text/SpannableStringBuilder;
 
@@ -4767,7 +4767,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/16 v1, 0xb
 
@@ -4775,7 +4775,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyKoreanInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/16 v1, 0xc
 
@@ -4783,7 +4783,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyChineseInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/16 v1, 0x10
 
@@ -4791,7 +4791,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyIndianInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/16 v1, 0x19
 
@@ -4799,7 +4799,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyJapaneseInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/16 v1, 0xd
 
@@ -4807,7 +4807,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadLatinInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/16 v1, 0xe
 
@@ -4815,7 +4815,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadKoreanInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/16 v1, 0xf
 
@@ -4823,7 +4823,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadChineseInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/16 v1, 0x1a
 
@@ -4831,7 +4831,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/SwiftkeyPhonepadJapaneseInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/16 v1, 0x11
 
@@ -4839,7 +4839,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/SwiftkeyHwPhonepadLatinInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/16 v1, 0x12
 
@@ -4847,7 +4847,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/SwiftkeyHwPhonepadKoreanInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     :goto_0
     const/4 v1, 0x3
@@ -4856,7 +4856,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/HwrInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/4 v1, 0x4
 
@@ -4864,7 +4864,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/CompleteHwrInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     return-void
 
@@ -4881,7 +4881,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/QwertyLatinInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/4 v1, 0x1
 
@@ -4889,7 +4889,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/QwertyKoreanInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/4 v1, 0x2
 
@@ -4897,7 +4897,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/QwertyChineseInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/16 v1, 0x9
 
@@ -4905,13 +4905,13 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/QwertyIndianInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     new-instance v1, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;
 
     invoke-direct {v1}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;-><init>()V
 
-    invoke-virtual {p0, v3, v1}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v3, v1}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/4 v1, 0x7
 
@@ -4919,7 +4919,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/PhonepadLatinInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/16 v1, 0x8
 
@@ -4927,7 +4927,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/PhonepadChineseInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     goto :goto_0
 
@@ -4938,7 +4938,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyLatinInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/16 v1, 0x14
 
@@ -4946,7 +4946,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyKoreanInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/16 v1, 0x15
 
@@ -4954,7 +4954,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyChineseInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/16 v1, 0x18
 
@@ -4962,13 +4962,13 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/xt9/Xt9QwertyIndianInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     new-instance v1, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;
 
     invoke-direct {v1}, Lcom/diotek/ime/framework/input/PhonepadKoreanInputModule;-><init>()V
 
-    invoke-virtual {p0, v3, v1}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v3, v1}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/16 v1, 0x16
 
@@ -4976,7 +4976,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadLatinInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     const/16 v1, 0x17
 
@@ -4984,7 +4984,7 @@
 
     invoke-direct {v2}, Lcom/diotek/ime/framework/input/xt9/Xt9PhonepadChineseInputModule;-><init>()V
 
-    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
+    invoke-virtual {p0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->setInputModule(ILcom/diotek/ime/framework/input/InputModule;)Z
 
     goto/16 :goto_0
 .end method
@@ -5406,7 +5406,7 @@
 
     move/from16 v1, v42
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setProdictionWord(Z)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputController;->setProdictionWord(Z)V
 
     move-object/from16 v0, p0
 
@@ -5544,7 +5544,7 @@
 
     move/from16 v1, v42
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setProdictionWord(Z)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputController;->setProdictionWord(Z)V
 
     move-object/from16 v0, p0
 
@@ -5681,7 +5681,7 @@
 
     invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/IndianInputModule;->setIndianLanguageHbScript(I)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->handleIndianLangToggle()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->handleIndianLangToggle()V
 
     goto/16 :goto_1
 
@@ -5800,7 +5800,7 @@
     invoke-static/range {v42 .. v42}, Lcom/diotek/ime/framework/repository/IndianInputStatus;->setToggleIndianConsonantAvailable(Z)V
 
     :cond_10
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->handleIndianLangToggle()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->handleIndianLangToggle()V
 
     goto/16 :goto_1
 
@@ -5852,7 +5852,7 @@
     :goto_7
     invoke-static/range {v42 .. v42}, Lcom/diotek/ime/framework/repository/IndianInputStatus;->setToggleIndianConsonantLongpressAvailable(Z)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->handleIndianLangToggle()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->handleIndianLangToggle()V
 
     goto/16 :goto_1
 
@@ -5882,7 +5882,7 @@
 
     invoke-static/range {v42 .. v42}, Lcom/diotek/ime/framework/repository/IndianInputStatus;->setVowelRowShifted(Z)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->handleIndianVowelRowState()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->handleIndianVowelRowState()V
 
     goto/16 :goto_1
 
@@ -5940,7 +5940,7 @@
 
     invoke-static/range {v42 .. v42}, Lcom/diotek/ime/framework/repository/IndianInputStatus;->setVowelRowShifted(Z)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->handleIndianVowelRowState()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->handleIndianVowelRowState()V
 
     goto/16 :goto_1
 
@@ -6086,7 +6086,7 @@
 
     move/from16 v1, v42
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/input/InputControllerImpl;->VOHWRInitByCursorMove(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputController;->VOHWRInitByCursorMove(I)V
 
     goto/16 :goto_1
 
@@ -6144,7 +6144,7 @@
 
     if-nez v42, :cond_18
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->commitAndResetForHwr()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->commitAndResetForHwr()V
 
     :cond_18
     move-object/from16 v0, p0
@@ -6218,7 +6218,7 @@
 
     if-nez v42, :cond_1b
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->commitAndResetForHwr()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->commitAndResetForHwr()V
 
     :cond_1b
     move-object/from16 v0, p0
@@ -6308,7 +6308,7 @@
     :cond_1e
     if-nez v37, :cond_1f
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->commitAndResetForHwr()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->commitAndResetForHwr()V
 
     :cond_1f
     move-object/from16 v0, p0
@@ -6373,7 +6373,7 @@
 
     if-nez v42, :cond_21
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->commitAndResetForHwr()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->commitAndResetForHwr()V
 
     :cond_21
     move-object/from16 v0, p0
@@ -6426,7 +6426,7 @@
 
     invoke-interface/range {v42 .. v42}, Lcom/diotek/ime/framework/common/InputManager;->updateKeyboardView()V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->updateInputModule()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->updateInputModule()V
 
     move-object/from16 v0, p0
 
@@ -6460,7 +6460,7 @@
     goto/16 :goto_1
 
     :sswitch_12
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->handleShiftLong()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->handleShiftLong()V
 
     goto/16 :goto_1
 
@@ -6750,7 +6750,7 @@
     invoke-virtual/range {v42 .. v43}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->setQickCangjieMode(Z)V
 
     :goto_a
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->updateInputModule()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->updateInputModule()V
 
     move-object/from16 v0, p0
 
@@ -6820,7 +6820,7 @@
 
     invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/inputmode/InputModeManager;->setChineseStrokeModeOn(Z)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->updateInputModule()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->updateInputModule()V
 
     move-object/from16 v0, p0
 
@@ -6838,7 +6838,7 @@
 
     if-eqz v42, :cond_0
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->predictionWord()Z
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->predictionWord()Z
 
     goto/16 :goto_1
 
@@ -7692,7 +7692,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -7715,7 +7715,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -7750,7 +7750,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -7773,7 +7773,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -7808,7 +7808,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -7831,7 +7831,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -7866,7 +7866,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -7889,7 +7889,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -7924,7 +7924,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -7947,7 +7947,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8049,7 +8049,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8078,7 +8078,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8101,7 +8101,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8128,7 +8128,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8153,7 +8153,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8182,7 +8182,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8205,7 +8205,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8248,7 +8248,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8275,7 +8275,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8298,7 +8298,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8385,7 +8385,7 @@
 
     move-object/from16 v1, v42
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputController;->onText(Ljava/lang/CharSequence;)V
 
     goto/16 :goto_1
 
@@ -8408,7 +8408,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8437,7 +8437,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8460,7 +8460,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8487,7 +8487,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8512,7 +8512,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8541,7 +8541,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8597,7 +8597,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8634,7 +8634,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8675,7 +8675,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8722,7 +8722,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8745,7 +8745,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8774,7 +8774,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8809,7 +8809,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8824,7 +8824,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8872,7 +8872,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -8895,7 +8895,7 @@
 
     move-object/from16 v2, v43
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/implement/input/InputControllerImpl;->onKey(I[I)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputController;->onKey(I[I)V
 
     goto/16 :goto_1
 
@@ -9013,7 +9013,7 @@
 
     move/from16 v1, v42
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/input/InputControllerImpl;->updateAcuteAccentState(Z)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputController;->updateAcuteAccentState(Z)V
 
     goto/16 :goto_1
 
@@ -9228,7 +9228,7 @@
 
     if-eqz v42, :cond_63
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->updateInputModule()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->updateInputModule()V
 
     move-object/from16 v0, p0
 
@@ -9379,7 +9379,7 @@
 
     if-eqz v4, :cond_0
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->getSuggestionActiveIndex()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->getSuggestionActiveIndex()I
 
     move-result v42
 
@@ -9389,7 +9389,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v13}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setSuggestionActiveIndex(I)V
+    invoke-virtual {v0, v13}, Lcom/diotek/ime/framework/input/AbstractInputController;->setSuggestionActiveIndex(I)V
 
     move-object/from16 v0, p0
 
@@ -9530,7 +9530,7 @@
 
     move/from16 v1, v26
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setSuggestionActiveIndex(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputController;->setSuggestionActiveIndex(I)V
 
     move-object/from16 v0, p0
 
@@ -9637,7 +9637,7 @@
 
     if-eqz v9, :cond_0
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->getSuggestionActiveIndex()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->getSuggestionActiveIndex()I
 
     move-result v42
 
@@ -9738,7 +9738,7 @@
 
     move/from16 v1, v42
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setSuggestionActiveIndex(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputController;->setSuggestionActiveIndex(I)V
 
     move-object/from16 v0, p0
 
@@ -9759,7 +9759,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v13}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setSuggestionActiveIndex(I)V
+    invoke-virtual {v0, v13}, Lcom/diotek/ime/framework/input/AbstractInputController;->setSuggestionActiveIndex(I)V
 
     move-object/from16 v0, p0
 
@@ -10016,7 +10016,7 @@
 
     move/from16 v1, v42
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setSuggestionActiveIndex(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputController;->setSuggestionActiveIndex(I)V
 
     move-object/from16 v0, p0
 
@@ -10249,7 +10249,7 @@
 
     move/from16 v1, v42
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setSuggestionActiveIndex(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputController;->setSuggestionActiveIndex(I)V
 
     move-object/from16 v0, p0
 
@@ -10346,7 +10346,7 @@
 
     move/from16 v1, v42
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/implement/input/InputControllerImpl;->setSuggestionActiveIndex(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputController;->setSuggestionActiveIndex(I)V
 
     move-object/from16 v0, p0
 
@@ -11242,7 +11242,7 @@
 
     if-eqz v6, :cond_5
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/input/InputControllerImpl;->isMultiTapRnunnig()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputController;->isMultiTapRnunnig()Z
 
     move-result v6
 

@@ -3,8 +3,8 @@
 .source "SingleCommandTransaction.java"
 
 # interfaces
-.implements Lcom/nuance/connect/service/comm/Transaction;
 .implements Lcom/nuance/connect/service/comm/ResponseCallback;
+.implements Lcom/nuance/connect/service/comm/Transaction;
 
 
 # instance fields
@@ -23,7 +23,7 @@
 .method constructor <init>(Lcom/nuance/connect/service/comm/Command;)V
     .locals 2
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/nuance/connect/service/comm/SingleCommandTransaction;->c:Lcom/nuance/connect/service/comm/Command;
 

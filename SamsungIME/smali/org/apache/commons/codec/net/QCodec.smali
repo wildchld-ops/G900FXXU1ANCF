@@ -3,8 +3,8 @@
 .source "QCodec.java"
 
 # interfaces
-.implements Lorg/apache/commons/codec/StringEncoder;
 .implements Lorg/apache/commons/codec/StringDecoder;
+.implements Lorg/apache/commons/codec/StringEncoder;
 
 
 # static fields

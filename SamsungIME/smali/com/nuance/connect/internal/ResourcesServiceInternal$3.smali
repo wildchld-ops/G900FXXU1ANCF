@@ -43,7 +43,7 @@
 
     iput-object p5, p0, Lcom/nuance/connect/internal/ResourcesServiceInternal$3;->val$id:Ljava/lang/String;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method

@@ -81,7 +81,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -384,7 +384,7 @@
 
     const/16 v4, 0xb
 
-    invoke-virtual {v0, v4}, Ljava/util/GregorianCalendar;->get(I)I
+    invoke-virtual {v0, v4}, Ljava/util/Calendar;->get(I)I
 
     move-result v12
 
@@ -401,19 +401,19 @@
     :cond_0
     const/4 v4, 0x1
 
-    invoke-virtual {v0, v4}, Ljava/util/GregorianCalendar;->get(I)I
+    invoke-virtual {v0, v4}, Ljava/util/Calendar;->get(I)I
 
     move-result v1
 
     const/4 v4, 0x2
 
-    invoke-virtual {v0, v4}, Ljava/util/GregorianCalendar;->get(I)I
+    invoke-virtual {v0, v4}, Ljava/util/Calendar;->get(I)I
 
     move-result v2
 
     const/4 v4, 0x5
 
-    invoke-virtual {v0, v4}, Ljava/util/GregorianCalendar;->get(I)I
+    invoke-virtual {v0, v4}, Ljava/util/Calendar;->get(I)I
 
     move-result v3
 
@@ -445,11 +445,11 @@
 
     move-result v6
 
-    invoke-virtual/range {v0 .. v6}, Ljava/util/GregorianCalendar;->set(IIIIII)V
+    invoke-virtual/range {v0 .. v6}, Ljava/util/Calendar;->set(IIIIII)V
 
     const/4 v5, 0x1
 
-    invoke-virtual {v0}, Ljava/util/GregorianCalendar;->getTimeInMillis()J
+    invoke-virtual {v0}, Ljava/util/Calendar;->getTimeInMillis()J
 
     move-result-wide v6
 

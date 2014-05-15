@@ -226,7 +226,7 @@
 
     invoke-virtual {v0, p0, v1}, Landroid/content/Intent;->setClass(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
     return-void
 .end method
@@ -435,7 +435,7 @@
 
     const/4 v4, 0x0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v6
 
@@ -521,7 +521,7 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v4
 
@@ -531,7 +531,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v4
 
@@ -592,7 +592,7 @@
 
     if-lez v2, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v2
 
@@ -611,7 +611,7 @@
 
     invoke-direct {v1, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -622,7 +622,7 @@
     return-void
 
     :cond_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v2
 
@@ -686,7 +686,7 @@
     return-void
 
     :cond_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -700,7 +700,7 @@
 
     if-eqz v3, :cond_1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -734,7 +734,7 @@
 
     if-eqz v3, :cond_2
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -755,7 +755,7 @@
     goto :goto_1
 
     :cond_2
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -807,7 +807,7 @@
 
     const v1, 0x7f0d01d9
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v2
 
@@ -841,7 +841,7 @@
 
     const v1, 0x7f0d01da
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v2
 
@@ -872,7 +872,7 @@
     :cond_1
     const v1, 0x7f0d01db
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v2
 
@@ -906,7 +906,7 @@
 
     const v0, 0x7f0d01d2
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v0}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v1
 
@@ -944,7 +944,7 @@
 
     invoke-virtual {v0, v2}, Lcom/touchtype_fluency/util/LanguagePackManager;->refresh(Lcom/touchtype_fluency/util/RefreshListener;)V
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v2
 
@@ -1008,7 +1008,7 @@
 
     sput v1, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->mPointerX:I
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
 
     move-result v1
 
@@ -1024,7 +1024,7 @@
 
     invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -1044,7 +1044,7 @@
 
     iput-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->mSwiftkeyLanguagesSettingsFragment:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getFragmentManager()Landroid/app/FragmentManager;
+    invoke-virtual {p0}, Landroid/app/Activity;->getFragmentManager()Landroid/app/FragmentManager;
 
     move-result-object v0
 
@@ -1078,7 +1078,7 @@
 
     const/4 v4, 0x0
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onCreateOptionsMenu(Landroid/view/Menu;)Z
 
     invoke-interface {p1}, Landroid/view/Menu;->clear()V
 
@@ -1136,7 +1136,7 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v3
 
@@ -1160,7 +1160,7 @@
 
     if-nez v3, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v3
 
@@ -1182,7 +1182,7 @@
     sput-boolean v2, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->isDialogShownState:Z
 
     :cond_1
-    invoke-super {p0, p1, p2}, Landroid/preference/PreferenceActivity;->onKeyUp(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Landroid/app/Activity;->onKeyUp(ILandroid/view/KeyEvent;)Z
 
     move-result v2
 
@@ -1219,7 +1219,7 @@
 
     sparse-switch v3, :sswitch_data_0
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
 
     move-result v2
 
@@ -1227,7 +1227,7 @@
     return v2
 
     :sswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v3
 
@@ -1251,7 +1251,7 @@
 
     if-nez v3, :cond_0
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v3
 
@@ -1274,7 +1274,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     goto :goto_0
 
@@ -1301,7 +1301,7 @@
 
     invoke-direct {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->sendSupportLanguage()V
 
-    invoke-super {p0}, Landroid/preference/PreferenceActivity;->onPause()V
+    invoke-super {p0}, Landroid/app/Activity;->onPause()V
 
     return-void
 .end method
@@ -1317,7 +1317,7 @@
 
     const/4 v4, 0x0
 
-    invoke-super {p0, p1}, Landroid/preference/PreferenceActivity;->onPrepareOptionsMenu(Landroid/view/Menu;)Z
+    invoke-super {p0, p1}, Landroid/app/Activity;->onPrepareOptionsMenu(Landroid/view/Menu;)Z
 
     invoke-interface {p1}, Landroid/view/Menu;->clear()V
 
@@ -1373,7 +1373,7 @@
 .method public onRestart()V
     .locals 0
 
-    invoke-super {p0}, Landroid/preference/PreferenceActivity;->onRestart()V
+    invoke-super {p0}, Landroid/app/Activity;->onRestart()V
 
     invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->rebuildLanguageList()V
 
@@ -1401,13 +1401,13 @@
 
     const-string v1, "SETTINGS_DEFAULT_USE_SYSTEM_LANGUAGE"
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v1}, Landroid/preference/PreferenceActivity;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
     check-cast v0, Landroid/preference/CheckBoxPreference;
 
-    invoke-virtual {v0}, Landroid/preference/CheckBoxPreference;->isChecked()Z
+    invoke-virtual {v0}, Landroid/preference/TwoStatePreference;->isChecked()Z
 
     move-result v1
 
@@ -1426,7 +1426,7 @@
     invoke-interface {v1}, Lcom/diotek/ime/framework/common/InputManager;->initLanguageSettingsWithSystemLocale()Z
 
     :cond_0
-    invoke-super {p0}, Landroid/preference/PreferenceActivity;->onResume()V
+    invoke-super {p0}, Landroid/app/Activity;->onResume()V
 
     return-void
 .end method
@@ -1436,7 +1436,7 @@
 
     iget-object v0, p0, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->mSwiftkeyLanguagesSettingsFragment:Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;
 
-    invoke-virtual {v0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettingsFragment;->getActivity()Landroid/app/Activity;
+    invoke-virtual {v0}, Landroid/app/Fragment;->getActivity()Landroid/app/Activity;
 
     move-result-object v0
 
@@ -1492,7 +1492,7 @@
 
     const-string v9, "layout_inflater"
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v9}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v6
 
@@ -1506,7 +1506,7 @@
 
     invoke-virtual {v0, v5}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v9
 
@@ -1536,7 +1536,7 @@
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {p0, v12}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v12}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v10
 
@@ -1556,7 +1556,7 @@
 
     const v10, 0x7f0d01e9
 
-    invoke-virtual {p0, v10}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v10}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v10
 
@@ -1623,27 +1623,27 @@
 
     move-result v9
 
-    invoke-virtual {v4, v9}, Landroid/widget/CheckBox;->setChecked(Z)V
+    invoke-virtual {v4, v9}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     new-instance v9, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings$9;
 
     invoke-direct {v9, p0, v4}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings$9;-><init>(Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;Landroid/widget/CheckBox;)V
 
-    invoke-virtual {v4, v9}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v4, v9}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_1
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Landroid/app/AlertDialog;->show()V
+    invoke-virtual {v3}, Landroid/app/Dialog;->show()V
 
     sput-boolean v11, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->isDialogShownState:Z
 
     goto/16 :goto_0
 
     :cond_2
-    invoke-virtual {p0, v12}, Lcom/diotek/ime/implement/setting/SwiftkeyLanguagesSettings;->getText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v12}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v9
 

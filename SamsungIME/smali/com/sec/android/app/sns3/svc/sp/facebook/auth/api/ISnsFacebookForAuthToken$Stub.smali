@@ -37,7 +37,7 @@
 
     const-string v0, "com.sec.android.app.sns3.svc.sp.facebook.auth.api.ISnsFacebookForAuthToken"
 
-    invoke-virtual {p0, p0, v0}, Lcom/sec/android/app/sns3/svc/sp/facebook/auth/api/ISnsFacebookForAuthToken$Stub;->attachInterface(Landroid/os/IInterface;Ljava/lang/String;)V
+    invoke-virtual {p0, p0, v0}, Landroid/os/Binder;->attachInterface(Landroid/os/IInterface;Ljava/lang/String;)V
 
     return-void
 .end method

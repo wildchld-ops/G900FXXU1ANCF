@@ -13,7 +13,7 @@
 .method public constructor <init>(Lcom/touchtype_fluency/Sequence;[Lcom/touchtype_fluency/TermPosition;)V
     .locals 0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/touchtype_fluency/SequenceTermMap;->seq:Lcom/touchtype_fluency/Sequence;
 

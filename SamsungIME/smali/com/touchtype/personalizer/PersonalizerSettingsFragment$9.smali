@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment$9;->this$0:Lcom/touchtype/personalizer/PersonalizerSettingsFragment;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -60,19 +60,19 @@
 
     const-string v4, "SETTINGS_USE_STANDARD_DATA"
 
-    invoke-virtual {v3, v4}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v3, v4}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
     check-cast v0, Landroid/preference/CheckBoxPreference;
 
-    invoke-virtual {v0, p2}, Landroid/preference/CheckBoxPreference;->setEnabled(Z)V
+    invoke-virtual {v0, p2}, Landroid/preference/Preference;->setEnabled(Z)V
 
     iget-object v3, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment$9;->this$0:Lcom/touchtype/personalizer/PersonalizerSettingsFragment;
 
     const-string v4, "SETTINGS_DEFAULT_USE_LIVE_LANGUAGE"
 
-    invoke-virtual {v3, v4}, Lcom/touchtype/personalizer/PersonalizerSettingsFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {v3, v4}, Landroid/preference/PreferenceFragment;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
@@ -80,7 +80,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0, p2}, Landroid/preference/CheckBoxPreference;->setEnabled(Z)V
+    invoke-virtual {v0, p2}, Landroid/preference/Preference;->setEnabled(Z)V
 
     :cond_0
     iget-object v3, p0, Lcom/touchtype/personalizer/PersonalizerSettingsFragment$9;->this$0:Lcom/touchtype/personalizer/PersonalizerSettingsFragment;

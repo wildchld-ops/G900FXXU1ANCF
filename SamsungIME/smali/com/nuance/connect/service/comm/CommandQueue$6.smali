@@ -27,7 +27,7 @@
 
     iput-object p1, p0, Lcom/nuance/connect/service/comm/CommandQueue$6;->this$0:Lcom/nuance/connect/service/comm/CommandQueue;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -363,7 +363,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v5, v1}, Lcom/nuance/connect/service/ConnectClient;->sendBroadcast(Landroid/content/Intent;)V
+    invoke-virtual {v5, v1}, Landroid/content/ContextWrapper;->sendBroadcast(Landroid/content/Intent;)V
 
     iget-object v5, p0, Lcom/nuance/connect/service/comm/CommandQueue$6;->this$0:Lcom/nuance/connect/service/comm/CommandQueue;
 
@@ -411,7 +411,7 @@
 
     const/4 v3, 0x1
 
-    invoke-virtual {v2, v3}, Lcom/nuance/connect/service/comm/CommandQueue$MessageHandler;->obtainMessage(I)Landroid/os/Message;
+    invoke-virtual {v2, v3}, Landroid/os/Handler;->obtainMessage(I)Landroid/os/Message;
 
     move-result-object v1
 
@@ -445,7 +445,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v2, v1}, Lcom/nuance/connect/service/comm/CommandQueue$MessageHandler;->sendMessage(Landroid/os/Message;)Z
+    invoke-virtual {v2, v1}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
     iget-object v2, p0, Lcom/nuance/connect/service/comm/CommandQueue$6;->this$0:Lcom/nuance/connect/service/comm/CommandQueue;
 
@@ -568,7 +568,7 @@
 
     sget-object v2, Lcom/nuance/connect/internal/common/InternalMessages;->MESSAGE_COMMAND_DEVICE_VALIDATE:Lcom/nuance/connect/internal/common/InternalMessages;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/internal/common/InternalMessages;->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     move-result v2
 

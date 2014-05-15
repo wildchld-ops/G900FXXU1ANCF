@@ -27,7 +27,7 @@
 .method protected constructor <init>(JZ)V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
@@ -153,7 +153,7 @@
     :catch_0
     move-exception v1
 
-    invoke-virtual {v1}, Ljava/io/UnsupportedEncodingException;->printStackTrace()V
+    invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 .end method
@@ -182,7 +182,7 @@
     :catch_0
     move-exception v1
 
-    invoke-virtual {v1}, Ljava/io/UnsupportedEncodingException;->printStackTrace()V
+    invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 .end method
@@ -211,7 +211,7 @@
     :catch_0
     move-exception v1
 
-    invoke-virtual {v1}, Ljava/io/UnsupportedEncodingException;->printStackTrace()V
+    invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 .end method
@@ -399,7 +399,7 @@
     :catch_0
     move-exception v0
 
-    invoke-virtual {v0}, Ljava/io/UnsupportedEncodingException;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     const/4 v0, 0x0
 
@@ -530,7 +530,7 @@
     :catch_0
     move-exception v0
 
-    invoke-virtual {v0}, Ljava/io/UnsupportedEncodingException;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     move-object v2, v1
 
@@ -539,7 +539,7 @@
     :catch_1
     move-exception v0
 
-    invoke-virtual {v0}, Ljava/io/UnsupportedEncodingException;->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     move-object v0, v1
 
@@ -634,7 +634,7 @@
     :catch_0
     move-exception v1
 
-    invoke-virtual {v1}, Ljava/io/UnsupportedEncodingException;->printStackTrace()V
+    invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_0
 .end method

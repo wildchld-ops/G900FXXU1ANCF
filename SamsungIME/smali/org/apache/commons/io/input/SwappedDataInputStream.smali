@@ -153,7 +153,7 @@
 
     add-int v1, p2, v3
 
-    invoke-virtual {p0, p1, v1, v2}, Lorg/apache/commons/io/input/SwappedDataInputStream;->read([BII)I
+    invoke-virtual {p0, p1, v1, v2}, Lorg/apache/commons/io/input/ProxyInputStream;->read([BII)I
 
     move-result v0
 

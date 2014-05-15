@@ -255,7 +255,7 @@
     new-array v10, v0, [Lcom/diotek/ime/framework/view/Keyboard$Key;
 
     :try_start_0
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/tracker/ProximityKeyDetector;->getKeys()[Lcom/diotek/ime/framework/view/Keyboard$Key;
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/tracker/KeyDetector;->getKeys()[Lcom/diotek/ime/framework/view/Keyboard$Key;
     :try_end_0
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -535,7 +535,7 @@
 
     move-object/from16 v20, v0
 
-    invoke-virtual/range {v20 .. v20}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual/range {v20 .. v20}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v20
 
@@ -736,7 +736,7 @@
 .method public getKeyIndexAndNearbyCodes(IIZ)I
     .locals 16
 
-    invoke-virtual/range {p0 .. p1}, Lcom/diotek/ime/framework/view/tracker/ProximityKeyDetector;->getTouchX(I)I
+    invoke-virtual/range {p0 .. p1}, Lcom/diotek/ime/framework/view/tracker/KeyDetector;->getTouchX(I)I
 
     move-result v2
 
@@ -744,7 +744,7 @@
 
     move/from16 v1, p2
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/tracker/ProximityKeyDetector;->getTouchY(I)I
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/view/tracker/KeyDetector;->getTouchY(I)I
 
     move-result v3
 
@@ -814,7 +814,7 @@
 
     iget-object v4, v0, Lcom/diotek/ime/framework/view/tracker/KeyDetector;->mKeyboard:Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {v4}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v4}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v13
 
@@ -860,7 +860,7 @@
     new-array v12, v4, [Lcom/diotek/ime/framework/view/Keyboard$Key;
 
     :try_start_0
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/tracker/ProximityKeyDetector;->getKeys()[Lcom/diotek/ime/framework/view/Keyboard$Key;
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/tracker/KeyDetector;->getKeys()[Lcom/diotek/ime/framework/view/Keyboard$Key;
     :try_end_0
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_2
 
@@ -1077,7 +1077,7 @@
     new-array v12, v4, [Lcom/diotek/ime/framework/view/Keyboard$Key;
 
     :try_start_1
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/tracker/ProximityKeyDetector;->getKeys()[Lcom/diotek/ime/framework/view/Keyboard$Key;
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/tracker/KeyDetector;->getKeys()[Lcom/diotek/ime/framework/view/Keyboard$Key;
     :try_end_1
     .catch Ljava/lang/IllegalStateException; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -1157,7 +1157,7 @@
 
     iget-object v4, v0, Lcom/diotek/ime/framework/view/tracker/KeyDetector;->mKeyboard:Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {v4}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v4}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v4
 
@@ -1240,7 +1240,7 @@
     new-array v12, v4, [Lcom/diotek/ime/framework/view/Keyboard$Key;
 
     :try_start_2
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/tracker/ProximityKeyDetector;->getKeys()[Lcom/diotek/ime/framework/view/Keyboard$Key;
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/view/tracker/KeyDetector;->getKeys()[Lcom/diotek/ime/framework/view/Keyboard$Key;
     :try_end_2
     .catch Ljava/lang/IllegalStateException; {:try_start_2 .. :try_end_2} :catch_1
 
@@ -1301,7 +1301,7 @@
 
     iget-object v4, v0, Lcom/diotek/ime/framework/view/tracker/KeyDetector;->mKeyboard:Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {v4}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v4}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v4
 
@@ -1325,7 +1325,7 @@
 
     iget-object v4, v0, Lcom/diotek/ime/framework/view/tracker/KeyDetector;->mKeyboard:Lcom/diotek/ime/framework/view/DefaultKeyboard;
 
-    invoke-virtual {v4}, Lcom/diotek/ime/framework/view/DefaultKeyboard;->getKeys()Ljava/util/List;
+    invoke-virtual {v4}, Lcom/diotek/ime/framework/view/Keyboard;->getKeys()Ljava/util/List;
 
     move-result-object v4
 

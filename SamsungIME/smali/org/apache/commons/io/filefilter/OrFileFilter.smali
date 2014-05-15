@@ -3,8 +3,8 @@
 .source "OrFileFilter.java"
 
 # interfaces
-.implements Lorg/apache/commons/io/filefilter/ConditionalFileFilter;
 .implements Ljava/io/Serializable;
+.implements Lorg/apache/commons/io/filefilter/ConditionalFileFilter;
 
 
 # instance fields

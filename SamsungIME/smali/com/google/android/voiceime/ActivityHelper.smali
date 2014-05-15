@@ -91,7 +91,7 @@
 
     invoke-virtual {v0, p0, p1}, Lcom/google/android/voiceime/ServiceBridge;->notifyResult(Landroid/content/Context;Ljava/lang/String;)V
 
-    invoke-virtual {p0}, Lcom/google/android/voiceime/ActivityHelper;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     return-void
 .end method
@@ -212,7 +212,7 @@
     :cond_0
     const/4 v2, 0x1
 
-    invoke-virtual {p0, v0, v2}, Lcom/google/android/voiceime/ActivityHelper;->startActivityForResult(Landroid/content/Intent;I)V
+    invoke-virtual {p0, v0, v2}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
 
     return-void
 .end method

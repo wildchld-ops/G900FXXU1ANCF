@@ -3,8 +3,8 @@
 .source "HttpParameters.java"
 
 # interfaces
-.implements Ljava/util/Map;
 .implements Ljava/io/Serializable;
+.implements Ljava/util/Map;
 
 
 # annotations
@@ -43,7 +43,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Ljava/util/TreeMap;
 
@@ -83,7 +83,7 @@
 
     iget-object v2, p0, Loauth/signpost/http/HttpParameters;->wrappedMap:Ljava/util/TreeMap;
 
-    invoke-virtual {v2}, Ljava/util/TreeMap;->values()Ljava/util/Collection;
+    invoke-virtual {v2}, Ljava/util/AbstractMap;->values()Ljava/util/Collection;
 
     move-result-object v2
 
@@ -602,7 +602,7 @@
 
     iget-object v0, p0, Loauth/signpost/http/HttpParameters;->wrappedMap:Ljava/util/TreeMap;
 
-    invoke-virtual {v0, p1}, Ljava/util/TreeMap;->putAll(Ljava/util/Map;)V
+    invoke-virtual {v0, p1}, Ljava/util/AbstractMap;->putAll(Ljava/util/Map;)V
 
     return-void
 .end method
@@ -661,7 +661,7 @@
     :cond_0
     iget-object v2, p0, Loauth/signpost/http/HttpParameters;->wrappedMap:Ljava/util/TreeMap;
 
-    invoke-virtual {v2, p1}, Ljava/util/TreeMap;->putAll(Ljava/util/Map;)V
+    invoke-virtual {v2, p1}, Ljava/util/AbstractMap;->putAll(Ljava/util/Map;)V
 
     :cond_1
     return-void
@@ -867,7 +867,7 @@
 
     iget-object v0, p0, Loauth/signpost/http/HttpParameters;->wrappedMap:Ljava/util/TreeMap;
 
-    invoke-virtual {v0}, Ljava/util/TreeMap;->values()Ljava/util/Collection;
+    invoke-virtual {v0}, Ljava/util/AbstractMap;->values()Ljava/util/Collection;
 
     move-result-object v0
 

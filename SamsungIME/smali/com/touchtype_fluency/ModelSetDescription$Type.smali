@@ -104,7 +104,7 @@
 
     sget-object v0, Lcom/touchtype_fluency/ModelSetDescription$Type;->$VALUES:[Lcom/touchtype_fluency/ModelSetDescription$Type;
 
-    invoke-virtual {v0}, [Lcom/touchtype_fluency/ModelSetDescription$Type;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 

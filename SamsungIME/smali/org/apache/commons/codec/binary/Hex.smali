@@ -3,8 +3,8 @@
 .source "Hex.java"
 
 # interfaces
-.implements Lorg/apache/commons/codec/BinaryEncoder;
 .implements Lorg/apache/commons/codec/BinaryDecoder;
+.implements Lorg/apache/commons/codec/BinaryEncoder;
 
 
 # static fields

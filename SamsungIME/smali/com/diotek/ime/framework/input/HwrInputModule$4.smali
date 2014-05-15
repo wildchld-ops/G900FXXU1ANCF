@@ -49,7 +49,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lcom/diotek/ime/framework/input/HwrInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget-object v1, p0, Lcom/diotek/ime/framework/input/HwrInputModule$4;->this$0:Lcom/diotek/ime/framework/input/HwrInputModule;
 

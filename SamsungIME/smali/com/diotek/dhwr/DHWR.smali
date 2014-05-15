@@ -735,7 +735,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -1532,7 +1532,7 @@
     :catch_4
     move-exception v10
 
-    invoke-virtual {v10}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v10}, Ljava/lang/Throwable;->printStackTrace()V
 
     move-object/from16 v19, v20
 
@@ -1583,7 +1583,7 @@
     :catch_6
     move-exception v10
 
-    invoke-virtual {v10}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v10}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto/16 :goto_3
 
@@ -1605,7 +1605,7 @@
     :catch_7
     move-exception v10
 
-    invoke-virtual {v10}, Ljava/io/IOException;->printStackTrace()V
+    invoke-virtual {v10}, Ljava/lang/Throwable;->printStackTrace()V
 
     goto :goto_a
 
@@ -1773,7 +1773,7 @@
 .method public static final Recognize(Lcom/diotek/dhwr/DHWR$Ink;Lcom/diotek/dhwr/DHWR$Result;)I
     .locals 25
 
-    invoke-virtual/range {p1 .. p1}, Lcom/diotek/dhwr/DHWR$Result;->clear()V
+    invoke-virtual/range {p1 .. p1}, Ljava/util/ArrayList;->clear()V
 
     invoke-static {}, Lcom/diotek/dhwr/DHWR;->CreateResultObject()J
 
@@ -2014,7 +2014,7 @@
 
     if-nez v21, :cond_2
 
-    invoke-virtual {v14, v2}, Lcom/diotek/dhwr/DHWR$Line;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v14, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     :cond_2
     add-int/lit8 v12, v12, 0x1
@@ -2022,7 +2022,7 @@
     goto/16 :goto_1
 
     :cond_3
-    invoke-virtual {v14}, Lcom/diotek/dhwr/DHWR$Line;->isEmpty()Z
+    invoke-virtual {v14}, Ljava/util/ArrayList;->isEmpty()Z
 
     move-result v21
 
@@ -2030,7 +2030,7 @@
 
     move-object/from16 v0, p1
 
-    invoke-virtual {v0, v14}, Lcom/diotek/dhwr/DHWR$Result;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v14}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     :cond_4
     add-int/lit8 v9, v9, 0x1
@@ -2074,7 +2074,7 @@
 
     sget-object v10, Lcom/diotek/dhwr/DHWR;->mResult:Lcom/diotek/dhwr/DHWR$Result;
 
-    invoke-virtual {v10}, Lcom/diotek/dhwr/DHWR$Result;->size()I
+    invoke-virtual {v10}, Ljava/util/ArrayList;->size()I
 
     move-result v10
 
@@ -2090,7 +2090,7 @@
 
     const/4 v11, 0x0
 
-    invoke-virtual {v10, v11}, Lcom/diotek/dhwr/DHWR$Result;->get(I)Ljava/lang/Object;
+    invoke-virtual {v10, v11}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v6
 
@@ -2099,13 +2099,13 @@
     const/4 v2, 0x0
 
     :goto_0
-    invoke-virtual {v6}, Lcom/diotek/dhwr/DHWR$Line;->size()I
+    invoke-virtual {v6}, Ljava/util/ArrayList;->size()I
 
     move-result v10
 
     if-ge v2, v10, :cond_0
 
-    invoke-virtual {v6, v2}, Lcom/diotek/dhwr/DHWR$Line;->get(I)Ljava/lang/Object;
+    invoke-virtual {v6, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 

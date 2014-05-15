@@ -141,7 +141,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object v0, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -1955,7 +1955,7 @@
 
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mWordDividerIndexList:Ljava/util/LinkedList;
 
-    invoke-virtual {v9}, Ljava/util/LinkedList;->isEmpty()Z
+    invoke-virtual {v9}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v9
 
@@ -2095,7 +2095,7 @@
 
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mWordDividerIndexList:Ljava/util/LinkedList;
 
-    invoke-virtual {v9}, Ljava/util/LinkedList;->isEmpty()Z
+    invoke-virtual {v9}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v9
 
@@ -2296,7 +2296,7 @@
     :cond_2
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mWordDividerIndexList:Ljava/util/LinkedList;
 
-    invoke-virtual {v9}, Ljava/util/LinkedList;->isEmpty()Z
+    invoke-virtual {v9}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v9
 
@@ -2434,7 +2434,7 @@
 
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mWordDividerIndexList:Ljava/util/LinkedList;
 
-    invoke-virtual {v9}, Ljava/util/LinkedList;->isEmpty()Z
+    invoke-virtual {v9}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     move-result v9
 
@@ -5446,7 +5446,7 @@
 
     if-eqz v7, :cond_5
 
-    invoke-virtual {v7}, Lcom/diotek/ime/framework/view/PopupKeyboardView;->isShown()Z
+    invoke-virtual {v7}, Landroid/view/View;->isShown()Z
 
     move-result v11
 

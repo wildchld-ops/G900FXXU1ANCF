@@ -46,7 +46,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-string v0, ""
 
@@ -64,7 +64,7 @@
 .method public constructor <init>(Lcom/visionobjects/resourcemanager/Version;)V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iget-object v0, p1, Lcom/visionobjects/resourcemanager/Version;->mString:Ljava/lang/String;
 
@@ -84,7 +84,7 @@
 
     const/4 v9, -0x1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     if-nez p1, :cond_1
 

@@ -2688,7 +2688,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0, p3}, Lcom/touchtype_fluency/util/j;->a(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-virtual {p0, v0, p3}, Lcom/touchtype_fluency/util/h;->a(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v0
 

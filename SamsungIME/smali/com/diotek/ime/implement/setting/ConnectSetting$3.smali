@@ -31,7 +31,7 @@
 
     iput-object p2, p0, Lcom/diotek/ime/implement/setting/ConnectSetting$3;->val$chkbox:Landroid/widget/CheckBox;
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -43,7 +43,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/ConnectSetting$3;->this$0:Lcom/diotek/ime/implement/setting/ConnectSetting;
 
-    invoke-virtual {v2}, Lcom/diotek/ime/implement/setting/ConnectSetting;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v2}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -57,7 +57,7 @@
 
     iget-object v2, p0, Lcom/diotek/ime/implement/setting/ConnectSetting$3;->val$chkbox:Landroid/widget/CheckBox;
 
-    invoke-virtual {v2}, Landroid/widget/CheckBox;->isChecked()Z
+    invoke-virtual {v2}, Landroid/widget/CompoundButton;->isChecked()Z
 
     move-result v2
 

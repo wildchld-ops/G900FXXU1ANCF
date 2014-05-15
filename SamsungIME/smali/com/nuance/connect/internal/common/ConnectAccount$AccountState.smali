@@ -136,7 +136,7 @@
 
     sget-object v0, Lcom/nuance/connect/internal/common/ConnectAccount$AccountState;->$VALUES:[Lcom/nuance/connect/internal/common/ConnectAccount$AccountState;
 
-    invoke-virtual {v0}, [Lcom/nuance/connect/internal/common/ConnectAccount$AccountState;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 

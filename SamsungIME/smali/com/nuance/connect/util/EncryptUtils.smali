@@ -33,7 +33,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -271,7 +271,7 @@
 
     move-result-object v7
 
-    invoke-virtual {v3}, Ljava/security/InvalidKeyException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v8
 
@@ -306,7 +306,7 @@
 
     move-result-object v7
 
-    invoke-virtual {v3}, Ljava/security/NoSuchAlgorithmException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v8
 
@@ -337,7 +337,7 @@
 
     move-result-object v7
 
-    invoke-virtual {v3}, Ljavax/crypto/NoSuchPaddingException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v8
 
@@ -368,7 +368,7 @@
 
     move-result-object v7
 
-    invoke-virtual {v3}, Ljavax/crypto/IllegalBlockSizeException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v8
 
@@ -399,7 +399,7 @@
 
     move-result-object v7
 
-    invoke-virtual {v3}, Ljavax/crypto/BadPaddingException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v8
 
@@ -430,7 +430,7 @@
 
     move-result-object v7
 
-    invoke-virtual {v3}, Ljava/lang/IllegalArgumentException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v8
 
@@ -523,7 +523,7 @@
 
     move-result-object v9
 
-    invoke-virtual {v2}, Ljava/security/InvalidKeyException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v10
 
@@ -557,7 +557,7 @@
 
     move-result-object v9
 
-    invoke-virtual {v2}, Ljava/security/NoSuchAlgorithmException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v10
 
@@ -588,7 +588,7 @@
 
     move-result-object v9
 
-    invoke-virtual {v2}, Ljava/security/spec/InvalidKeySpecException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v10
 
@@ -619,7 +619,7 @@
 
     move-result-object v9
 
-    invoke-virtual {v2}, Ljavax/crypto/NoSuchPaddingException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v10
 
@@ -650,7 +650,7 @@
 
     move-result-object v9
 
-    invoke-virtual {v2}, Ljavax/crypto/IllegalBlockSizeException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v10
 
@@ -681,7 +681,7 @@
 
     move-result-object v9
 
-    invoke-virtual {v2}, Ljavax/crypto/BadPaddingException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v10
 
@@ -712,7 +712,7 @@
 
     move-result-object v9
 
-    invoke-virtual {v2}, Ljava/lang/IllegalArgumentException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v10
 
@@ -951,7 +951,7 @@
 
     new-array v0, v5, [B
 
-    invoke-virtual {v2, v0}, Ljava/io/FileInputStream;->read([B)I
+    invoke-virtual {v2, v0}, Ljava/io/InputStream;->read([B)I
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
     .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_5
@@ -1202,7 +1202,7 @@
 
     move-result-object v21
 
-    invoke-virtual {v8}, Ljava/lang/SecurityException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v22
 
@@ -1277,7 +1277,7 @@
     :goto_2
     move-object/from16 v0, v18
 
-    invoke-virtual {v0, v5}, Ljava/io/BufferedInputStream;->read([B)I
+    invoke-virtual {v0, v5}, Ljava/io/InputStream;->read([B)I
 
     move-result v4
 
@@ -1319,7 +1319,7 @@
 
     move-result-object v21
 
-    invoke-virtual {v8}, Ljava/security/NoSuchAlgorithmException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v22
 
@@ -1539,7 +1539,7 @@
 
     move-result-object v21
 
-    invoke-virtual {v8}, Ljava/io/FileNotFoundException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v22
 
@@ -1591,7 +1591,7 @@
 
     move-result-object v21
 
-    invoke-virtual {v8}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v22
 
@@ -1643,7 +1643,7 @@
 
     move-result-object v21
 
-    invoke-virtual {v8}, Ljava/lang/OutOfMemoryError;->getMessage()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v22
 
@@ -1695,7 +1695,7 @@
 
     move-result-object v21
 
-    invoke-virtual {v8}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v22
 
@@ -1968,7 +1968,7 @@
 
     move-result-object v7
 
-    invoke-virtual {v2}, Ljava/lang/OutOfMemoryError;->getMessage()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v8
 
@@ -2039,7 +2039,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v5
 
@@ -2122,7 +2122,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v5
 
@@ -2195,7 +2195,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v5
 

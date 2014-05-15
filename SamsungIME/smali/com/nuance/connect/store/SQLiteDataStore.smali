@@ -84,7 +84,7 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
     .locals 2
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Ljava/util/HashMap;
 
@@ -196,7 +196,7 @@
 
     iget-object v2, p0, Lcom/nuance/connect/store/SQLiteDataStore;->opener:Lcom/nuance/connect/store/SQLiteDataStore$SQLiteDataStoreOpenHelper;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/store/SQLiteDataStore$SQLiteDataStoreOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v2}, Landroid/database/sqlite/SQLiteOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v2
 
@@ -222,7 +222,7 @@
     :cond_2
     iget-object v2, p0, Lcom/nuance/connect/store/SQLiteDataStore;->opener:Lcom/nuance/connect/store/SQLiteDataStore$SQLiteDataStoreOpenHelper;
 
-    invoke-virtual {v2}, Lcom/nuance/connect/store/SQLiteDataStore$SQLiteDataStoreOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v2}, Landroid/database/sqlite/SQLiteOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v2
 
@@ -248,7 +248,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v0}, Landroid/database/SQLException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v4
 
@@ -279,7 +279,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v0}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v4
 
@@ -324,7 +324,7 @@
 
     iget-object v0, p0, Lcom/nuance/connect/store/SQLiteDataStore;->database:Landroid/database/sqlite/SQLiteDatabase;
 
-    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->close()V
+    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteClosable;->close()V
 
     :cond_0
     invoke-virtual {p0}, Lcom/nuance/connect/store/SQLiteDataStore;->destroyHandler()V
@@ -387,7 +387,7 @@
 
     iget-object v0, p0, Lcom/nuance/connect/store/SQLiteDataStore;->handlerThread:Landroid/os/HandlerThread;
 
-    invoke-virtual {v0}, Landroid/os/HandlerThread;->isAlive()Z
+    invoke-virtual {v0}, Ljava/lang/Thread;->isAlive()Z
 
     move-result v0
 
@@ -404,7 +404,7 @@
 
     iget-object v0, p0, Lcom/nuance/connect/store/SQLiteDataStore;->handlerThread:Landroid/os/HandlerThread;
 
-    invoke-virtual {v0}, Landroid/os/HandlerThread;->start()V
+    invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
     iget-object v0, p0, Lcom/nuance/connect/store/SQLiteDataStore;->handlerThread:Landroid/os/HandlerThread;
 
@@ -619,7 +619,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v9}, Landroid/database/SQLException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v9}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v2
 
@@ -814,7 +814,7 @@
 
     move-result-object v6
 
-    invoke-virtual {v0}, Landroid/database/SQLException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v7
 
@@ -948,7 +948,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1}, Landroid/database/sqlite/SQLiteException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v4
 
@@ -986,7 +986,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1}, Landroid/database/SQLException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v4
 
@@ -1134,7 +1134,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v1}, Landroid/database/sqlite/SQLiteException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v5
 
@@ -1172,7 +1172,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v1}, Landroid/database/SQLException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v5
 
@@ -1390,7 +1390,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v9}, Landroid/database/SQLException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v9}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v2
 

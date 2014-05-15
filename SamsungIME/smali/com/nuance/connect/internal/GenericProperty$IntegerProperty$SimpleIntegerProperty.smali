@@ -31,11 +31,11 @@
 .method constructor <init>(Ljava/lang/Integer;Lcom/nuance/connect/internal/Property$Source;)V
     .locals 1
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/nuance/connect/internal/GenericProperty$IntegerProperty$SimpleIntegerProperty;->value:Ljava/lang/Integer;
 
-    invoke-virtual {p2}, Lcom/nuance/connect/internal/Property$Source;->name()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object v0
 

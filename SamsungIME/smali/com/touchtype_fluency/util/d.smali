@@ -21,7 +21,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     :try_start_0
     new-instance v0, Lorg/json/JSONTokener;
@@ -98,7 +98,7 @@
 
     iget-object v0, p0, Lcom/touchtype_fluency/util/d;->a:Ljava/util/Vector;
 
-    invoke-virtual {v0}, Ljava/util/Vector;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/AbstractList;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
@@ -143,7 +143,7 @@
 
     iget-object v0, p0, Lcom/touchtype_fluency/util/d;->a:Ljava/util/Vector;
 
-    invoke-virtual {v0}, Ljava/util/Vector;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/AbstractList;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
 
@@ -194,7 +194,7 @@
 
     iget-object v0, p0, Lcom/touchtype_fluency/util/d;->a:Ljava/util/Vector;
 
-    invoke-virtual {v0}, Ljava/util/Vector;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/AbstractList;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
 
@@ -234,7 +234,7 @@
 
     iget-object v0, p1, Lcom/touchtype_fluency/util/d;->a:Ljava/util/Vector;
 
-    invoke-virtual {v0}, Ljava/util/Vector;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/AbstractList;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
@@ -321,7 +321,7 @@
 
     iget-object v0, p0, Lcom/touchtype_fluency/util/d;->a:Ljava/util/Vector;
 
-    invoke-virtual {v0}, Ljava/util/Vector;->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/AbstractList;->iterator()Ljava/util/Iterator;
 
     move-result-object v2
 

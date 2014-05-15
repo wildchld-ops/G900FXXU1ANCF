@@ -151,7 +151,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0, v2, p1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->checkAcceptableThai(Ljava/lang/String;I)Z
+    invoke-virtual {p0, v2, p1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->checkAcceptableThai(Ljava/lang/String;I)Z
 
     move-result v2
 
@@ -171,7 +171,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0, v2, p1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->checkAcceptableThai(Ljava/lang/String;I)Z
+    invoke-virtual {p0, v2, p1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->checkAcceptableThai(Ljava/lang/String;I)Z
 
     move-result v2
 
@@ -202,7 +202,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0, v2, p1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->checkAcceptableThai(Ljava/lang/String;I)Z
+    invoke-virtual {p0, v2, p1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->checkAcceptableThai(Ljava/lang/String;I)Z
 
     move-result v2
 
@@ -216,7 +216,7 @@
     :cond_3
     const-string v2, ""
 
-    invoke-virtual {p0, v2, p1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->checkAcceptableThai(Ljava/lang/String;I)Z
+    invoke-virtual {p0, v2, p1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->checkAcceptableThai(Ljava/lang/String;I)Z
 
     move-result v2
 
@@ -230,7 +230,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     goto :goto_0
 .end method
@@ -313,7 +313,7 @@
 
     move-object/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     const-string v9, ""
 
@@ -334,7 +334,7 @@
     if-eqz v17, :cond_4
 
     :try_start_0
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->isEnableAutoCorrection()Z
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isEnableAutoCorrection()Z
 
     move-result v17
 
@@ -448,15 +448,15 @@
     :goto_3
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v9}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->setDeleteCount(Ljava/lang/String;)V
+    invoke-virtual {v0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setDeleteCount(Ljava/lang/String;)V
 
     const/16 v16, 0x0
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->resetPredictionWord()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetPredictionWord()V
 
     const/4 v13, 0x0
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->getDeleteCount()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getDeleteCount()I
 
     move-result v17
 
@@ -545,9 +545,9 @@
 
     move/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->initComposingBuffer()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     const/16 v17, 0x43
 
@@ -555,7 +555,7 @@
 
     move/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->onKeyDownUpHandle(I)V
 
     const/16 v17, 0x0
 
@@ -563,7 +563,7 @@
 
     move/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
 
     goto/16 :goto_0
 
@@ -697,7 +697,7 @@
 
     move-object/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     move-object/from16 v0, p0
 
@@ -736,7 +736,7 @@
 
     move/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
 
     goto/16 :goto_0
 
@@ -751,9 +751,9 @@
 
     invoke-static {v0, v11}, Lcom/diotek/ime/framework/input/ComposingTextManager;->delete(II)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->convertComposingIToUpperCase()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->convertComposingIToUpperCase()V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->setComposingText()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingText()V
 
     move-object/from16 v0, p0
 
@@ -763,7 +763,7 @@
 
     invoke-virtual/range {v17 .. v17}, Lcom/diotek/ime/framework/input/swiftkey/SwiftkeyKeyLearningManager;->deleteLastTouchPoint()V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->updateSuggestionDelay()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->updateSuggestionDelay()V
 
     goto/16 :goto_0
 
@@ -806,7 +806,7 @@
 
     move-object/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     move-object/from16 v0, p0
 
@@ -853,7 +853,7 @@
 
     move/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
 
     goto/16 :goto_0
 
@@ -875,10 +875,10 @@
 
     move/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->setPredictionWord(Z)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setPredictionWord(Z)V
 
     :cond_12
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->getDeleteCount()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getDeleteCount()I
 
     move-result v17
 
@@ -904,7 +904,7 @@
 
     if-eqz v6, :cond_15
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->getLastWordDividerIndex()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getLastWordDividerIndex()I
 
     move-result v17
 
@@ -922,12 +922,12 @@
 
     move/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
 
     goto/16 :goto_0
 
     :cond_13
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->initWordDividerIndexList()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initWordDividerIndexList()V
 
     invoke-static {}, Lcom/diotek/ime/framework/repository/PackageStatus;->getPackageName()Lcom/diotek/ime/framework/repository/PackageStatus$PACKAGE_NAME;
 
@@ -967,7 +967,7 @@
 
     :cond_14
     :goto_5
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->finishComposingWithoutInit()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposingWithoutInit()V
 
     :cond_15
     const/16 v17, 0x0
@@ -976,9 +976,9 @@
 
     move/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->postUpdateSequence(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->postUpdateSequence(I)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->updateSuggestionDelay()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->updateSuggestionDelay()V
 
     goto/16 :goto_0
 
@@ -1008,7 +1008,7 @@
 
     move/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->onKeyDownUpHandle(I)V
 
     goto :goto_5
 
@@ -1050,7 +1050,7 @@
     :cond_19
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->getDeleteCount()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getDeleteCount()I
 
     move-result v17
 
@@ -1076,7 +1076,7 @@
 
     if-eqz v6, :cond_0
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->getLastWordDividerIndex()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getLastWordDividerIndex()I
 
     move-result v17
 
@@ -1091,7 +1091,7 @@
     goto/16 :goto_0
 
     :cond_1a
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->initWordDividerIndexList()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initWordDividerIndexList()V
 
     const/16 v17, 0x43
 
@@ -1099,7 +1099,7 @@
 
     move/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->onKeyDownUpHandle(I)V
 
     goto/16 :goto_0
 
@@ -1110,9 +1110,9 @@
 
     move/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->initComposingBuffer()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     move-object/from16 v0, p0
 
@@ -1199,7 +1199,7 @@
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
     :cond_1c
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->getDeleteCount()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getDeleteCount()I
 
     move-result v17
 
@@ -1225,7 +1225,7 @@
 
     if-eqz v6, :cond_0
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->getLastWordDividerIndex()I
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getLastWordDividerIndex()I
 
     move-result v17
 
@@ -1240,7 +1240,7 @@
     goto/16 :goto_0
 
     :cond_1d
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->initWordDividerIndexList()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initWordDividerIndexList()V
 
     const/16 v17, 0x43
 
@@ -1248,7 +1248,7 @@
 
     move/from16 v1, v17
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->onKeyDownUpHandle(I)V
 
     goto/16 :goto_0
 .end method
@@ -1288,11 +1288,11 @@
     const-string v0, ""
 
     :cond_2
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->setDeleteCount(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setDeleteCount(Ljava/lang/String;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->resetPredictionWord()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetPredictionWord()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->getDeleteCount()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getDeleteCount()I
 
     move-result v2
 
@@ -1310,7 +1310,7 @@
 
     if-eqz v1, :cond_3
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->getFirstWordDividerIndex()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getFirstWordDividerIndex()I
 
     move-result v2
 
@@ -1340,16 +1340,16 @@
 
     const/16 v2, 0x96
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
+    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
 
     goto :goto_0
 
     :cond_4
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->initWordDividerIndexList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initWordDividerIndexList()V
 
     const/16 v2, 0x70
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->onKeyDownUpHandle(I)V
+    invoke-virtual {p0, v2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->onKeyDownUpHandle(I)V
 
     goto :goto_1
 .end method
@@ -1483,7 +1483,7 @@
 
     move/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->selectWordInList(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->selectWordInList(I)V
 
     const/16 v19, 0x1
 
@@ -1491,7 +1491,7 @@
 
     move/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     move-object/from16 v0, p0
 
@@ -1529,7 +1529,7 @@
 
     move-object/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     move-object/from16 v0, p0
 
@@ -1617,7 +1617,7 @@
 
     move-object/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     move-object/from16 v0, p0
 
@@ -1660,9 +1660,9 @@
 
     invoke-virtual/range {v19 .. v19}, Lcom/diotek/ime/framework/trace/KeyboardTrace;->clearTraceInfo()V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->resetPredictionWord()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetPredictionWord()V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->cancelPreviewTrace()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->cancelPreviewTrace()V
 
     goto/16 :goto_0
 
@@ -1759,7 +1759,7 @@
 
     invoke-virtual/range {v19 .. v19}, Lcom/diotek/ime/framework/trace/KeyboardTrace;->clearTraceInfo()V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->resetPredictionWord()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetPredictionWord()V
 
     const/16 v19, 0x0
 
@@ -1767,11 +1767,11 @@
 
     move-object/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->updateSequence(Ljava/lang/StringBuilder;)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->updateSequence(Ljava/lang/StringBuilder;)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->updateSuggestionDelay()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->updateSuggestionDelay()V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->cancelPreviewTrace()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->cancelPreviewTrace()V
 
     goto/16 :goto_0
 
@@ -1812,7 +1812,7 @@
 
     invoke-virtual/range {v19 .. v19}, Lcom/diotek/ime/framework/input/autospace/AutoSpaceController;->disableSetUpAutoSpace()V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->resetPredictionWord()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetPredictionWord()V
 
     :cond_9
     const/4 v14, 0x1
@@ -1844,7 +1844,7 @@
 
     move/from16 v2, v19
 
-    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->processVietnameseTone(IZ)V
+    invoke-virtual {v0, v1, v2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->processVietnameseTone(IZ)V
 
     :cond_a
     move-object/from16 v0, p0
@@ -1871,7 +1871,7 @@
 
     if-nez v19, :cond_2a
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->convertComposingIToUpperCase()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->convertComposingIToUpperCase()V
 
     if-eqz v12, :cond_28
 
@@ -1887,7 +1887,7 @@
 
     move/from16 v2, v20
 
-    invoke-virtual {v0, v6, v1, v2}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->makeComposingText(Landroid/view/inputmethod/InputConnection;IZ)V
+    invoke-virtual {v0, v6, v1, v2}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->makeComposingText(Landroid/view/inputmethod/InputConnection;IZ)V
 
     move-object/from16 v0, p0
 
@@ -1907,7 +1907,7 @@
     goto/16 :goto_0
 
     :cond_b
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->cancelPreviewTrace()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->cancelPreviewTrace()V
 
     move-object/from16 v0, p0
 
@@ -1953,7 +1953,7 @@
 
     invoke-virtual/range {v19 .. v19}, Lcom/diotek/ime/framework/trace/KeyboardTrace;->clearTraceInfo()V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->resetPredictionWord()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetPredictionWord()V
 
     goto/16 :goto_0
 
@@ -1988,7 +1988,7 @@
 
     invoke-interface/range {v19 .. v19}, Lcom/diotek/ime/framework/engine/InputEngineManager;->breakContext()V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->resetPredictionWord()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->resetPredictionWord()V
 
     const/16 v19, 0x1
 
@@ -1996,9 +1996,9 @@
 
     move/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->clearCandidateList()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     const/16 v19, 0x40
 
@@ -2043,7 +2043,7 @@
 
     move/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->selectWordInList(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->selectWordInList(I)V
 
     const/16 v19, 0x1
 
@@ -2051,7 +2051,7 @@
 
     move/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     move-object/from16 v0, p0
 
@@ -2085,7 +2085,7 @@
 
     move-object/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     move-object/from16 v0, p0
 
@@ -2135,7 +2135,7 @@
 
     if-eqz v19, :cond_f
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->setVietnameseTelexComposing()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setVietnameseTelexComposing()V
 
     :cond_f
     move-object/from16 v0, p0
@@ -2180,7 +2180,7 @@
 
     if-eqz v18, :cond_1b
 
-    invoke-virtual/range {p0 .. p1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->toUpperCaseOfTurkish(I)I
+    invoke-virtual/range {p0 .. p1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->toUpperCaseOfTurkish(I)I
 
     move-result p1
 
@@ -2228,11 +2228,11 @@
 
     move-object/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v5}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->updateSequence(Ljava/lang/StringBuilder;)V
+    invoke-virtual {v0, v5}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->updateSequence(Ljava/lang/StringBuilder;)V
 
     :cond_10
     :goto_7
@@ -2394,7 +2394,7 @@
     invoke-virtual/range {v19 .. v21}, Lcom/diotek/ime/framework/input/swiftkey/SwiftkeyKeyLearningManager;->addTouchPoint(Ljava/lang/StringBuilder;Landroid/graphics/PointF;)V
 
     :cond_13
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->clearAction()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearAction()V
 
     goto/16 :goto_2
 
@@ -2628,7 +2628,7 @@
 
     if-eqz v19, :cond_1e
 
-    invoke-virtual/range {p0 .. p1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->toUpperCaseOfTurkish(I)I
+    invoke-virtual/range {p0 .. p1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->toUpperCaseOfTurkish(I)I
 
     move-result p1
 
@@ -2704,7 +2704,7 @@
 
     move-object/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     const/16 v19, 0x96
 
@@ -2712,7 +2712,7 @@
 
     move/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
 
     goto/16 :goto_7
 
@@ -2767,7 +2767,7 @@
 
     move-object/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     const/16 v19, 0x96
 
@@ -2775,7 +2775,7 @@
 
     move/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
 
     goto/16 :goto_7
 
@@ -2975,12 +2975,12 @@
     goto/16 :goto_8
 
     :cond_28
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->setComposingText()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingText()V
 
     goto/16 :goto_3
 
     :cond_29
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->updateSuggestionDelay()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->updateSuggestionDelay()V
 
     goto/16 :goto_0
 
@@ -3043,7 +3043,7 @@
 
     if-eqz v19, :cond_2d
 
-    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->setComposingText()V
+    invoke-virtual/range {p0 .. p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingText()V
 
     goto/16 :goto_0
 
@@ -3056,7 +3056,7 @@
 
     move-object/from16 v1, v19
 
-    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
@@ -3095,7 +3095,7 @@
     return-void
 
     :cond_1
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     iget-object v6, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -3111,7 +3111,7 @@
 
     int-to-char v6, p1
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->isEnableAutoCorrection(C)Z
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isEnableAutoCorrection(C)Z
 
     move-result v6
 
@@ -3152,7 +3152,7 @@
 
     if-nez v6, :cond_6
 
-    invoke-virtual {p0, v1, v0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->doAutoCorrection(Landroid/view/inputmethod/InputConnection;[I)V
+    invoke-virtual {p0, v1, v0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->doAutoCorrection(Landroid/view/inputmethod/InputConnection;[I)V
 
     :cond_2
     :goto_2
@@ -3171,13 +3171,13 @@
 
     if-ne p1, v6, :cond_9
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->sendEnterKeyHandle()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->sendEnterKeyHandle()V
 
     iget-boolean v4, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mIsPredictionOn:Z
 
     if-eqz v4, :cond_4
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
 
     :cond_4
     iget-boolean v4, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mIsPredictionOn:Z
@@ -3192,7 +3192,7 @@
 
     if-ne v4, v9, :cond_0
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
 
     goto :goto_0
 
@@ -3254,7 +3254,7 @@
 
     invoke-virtual {v6}, Lcom/diotek/ime/framework/input/swiftkey/SwiftkeyKeyLearningManager;->clearTouchPoints()V
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     sget-object v6, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->mCommitHistory:Ljava/lang/StringBuilder;
 
@@ -3312,7 +3312,7 @@
 
     if-eqz v3, :cond_a
 
-    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->processMultiTapSymbolicKey(I[I)V
+    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->processMultiTapSymbolicKey(I[I)V
 
     goto/16 :goto_0
 
@@ -3325,7 +3325,7 @@
 
     if-eqz v6, :cond_b
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     invoke-static {v10}, Lcom/diotek/ime/framework/input/ComposingTextManager;->replace(C)V
 
@@ -3333,10 +3333,10 @@
 
     move-result-object v6
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     :cond_b
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
     int-to-char v4, p1
 
@@ -3356,7 +3356,7 @@
 
     move-result-object v4
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v4, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mAutoSpaceController:Lcom/diotek/ime/framework/input/autospace/AutoSpaceController;
 
@@ -3367,7 +3367,7 @@
 
     if-eqz v4, :cond_c
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
 
     :cond_c
     iget-boolean v4, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mIsPredictionOn:Z
@@ -3382,7 +3382,7 @@
 
     if-ne v4, v9, :cond_0
 
-    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
+    invoke-virtual {p0, v5}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
 
     goto/16 :goto_0
 
@@ -3391,7 +3391,7 @@
 
     move-result-object v4
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     goto :goto_4
 .end method
@@ -3418,7 +3418,7 @@
 
     invoke-interface {v3, p1}, Lcom/diotek/ime/framework/engine/InputEngineManager;->getSuggestion(Ljava/util/ArrayList;)I
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->isEnableAutoCorrection()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isEnableAutoCorrection()Z
 
     move-result v3
 
@@ -3436,7 +3436,7 @@
 
     invoke-interface {v3, v1}, Lcom/diotek/ime/framework/engine/InputEngineManager;->getCurrentInputBuffer(Ljava/lang/StringBuilder;)V
 
-    invoke-virtual {p0, p1, v1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->addCurrentTextToCandidate(Ljava/util/ArrayList;Ljava/lang/StringBuilder;)V
+    invoke-virtual {p0, p1, v1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->addCurrentTextToCandidate(Ljava/util/ArrayList;Ljava/lang/StringBuilder;)V
 
     iget-object v3, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -3559,13 +3559,13 @@
 
     iget-object v0, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mMultitap:Lcom/diotek/ime/framework/input/InputModule$Timer;
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
+    invoke-virtual {p0, v0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->stopTimer(Lcom/diotek/ime/framework/input/InputModule$Timer;)V
 
     iget-object v0, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
     invoke-interface {v0}, Lcom/diotek/ime/framework/engine/InputEngineManager;->clearContext()I
 
-    invoke-super {p0}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->closing()V
+    invoke-super {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->closing()V
 
     return-void
 .end method
@@ -3589,7 +3589,7 @@
 
     const/4 v9, 0x1
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->setPredictionWord(Z)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setPredictionWord(Z)V
 
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mInputModeManager:Lcom/diotek/ime/framework/inputmode/InputModeManager;
 
@@ -3599,7 +3599,7 @@
 
     if-nez v9, :cond_1
 
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->getSecondaryChar(I)I
+    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->getSecondaryChar(I)I
 
     move-result p1
 
@@ -3804,7 +3804,7 @@
 
     invoke-static {v9}, Lcom/diotek/ime/framework/input/ComposingTextManager;->append(C)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingText()V
 
     :cond_6
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
@@ -3857,7 +3857,7 @@
 
     move-result-object v9
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
 
@@ -3886,7 +3886,7 @@
 
     const/4 v9, 0x0
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->updateSequence(Ljava/lang/StringBuilder;)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->updateSequence(Ljava/lang/StringBuilder;)V
 
     :cond_a
     :goto_5
@@ -3900,7 +3900,7 @@
 
     :cond_b
     :goto_6
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->setVerbatimToEngine()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->setVerbatimToEngine()V
 
     iput p1, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mLastKeyCode:I
 
@@ -3977,7 +3977,7 @@
 
     move-result-object v9
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     goto :goto_5
 
@@ -4012,7 +4012,7 @@
 
     move-result-object v9
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-boolean v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mIsPredictionOn:Z
 
@@ -4020,13 +4020,13 @@
 
     const/4 v9, 0x0
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->updateSequence(Ljava/lang/StringBuilder;)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->updateSequence(Ljava/lang/StringBuilder;)V
 
     :cond_14
     invoke-direct {p0, p1, p2}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->processSingleTap(I[I)V
 
     :goto_7
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->autoPeriod(I)V
+    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->autoPeriod(I)V
 
     goto :goto_6
 
@@ -4175,7 +4175,7 @@
 
     const/4 v9, 0x1
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->setPredictionWord(Z)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setPredictionWord(Z)V
 
     :cond_4
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
@@ -4220,11 +4220,11 @@
 
     move-result-object v9
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->replaceSpaceToSymbol(Ljava/lang/StringBuilder;)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->replaceSpaceToSymbol(Ljava/lang/StringBuilder;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingText()V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->isEnableAutoCorrection()Z
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->isEnableAutoCorrection()Z
 
     move-result v9
 
@@ -4232,7 +4232,7 @@
 
     if-nez v8, :cond_f
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->getIndexOfInputBuffer()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getIndexOfInputBuffer()I
 
     move-result v9
 
@@ -4253,10 +4253,10 @@
     :cond_6
     iput p1, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mPickSuggestionIndex:I
 
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->selectWordInList(I)V
+    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->selectWordInList(I)V
 
     :goto_3
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     if-eqz p2, :cond_10
 
@@ -4291,7 +4291,7 @@
 
     move-result-object v9
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     iget-object v9, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mShiftStateController:Lcom/diotek/ime/framework/common/ShiftStateController;
 
@@ -4308,11 +4308,11 @@
     :cond_7
     const/4 v9, 0x0
 
-    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->doNextWordPrediction(Z)V
+    invoke-virtual {p0, v9}, Lcom/diotek/ime/framework/input/AbstractInputModule;->doNextWordPrediction(Z)V
 
     invoke-interface {v4}, Landroid/view/inputmethod/InputConnection;->endBatchEdit()Z
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->setVerbatimToEngine()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->setVerbatimToEngine()V
 
     const/4 v9, 0x0
 
@@ -4370,7 +4370,7 @@
     goto :goto_3
 
     :cond_b
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->getIndexOfInputBuffer()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getIndexOfInputBuffer()I
 
     move-result v9
 
@@ -4380,7 +4380,7 @@
 
     if-ne p1, v9, :cond_d
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->getIndexOfInputBuffer()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getIndexOfInputBuffer()I
 
     move-result p1
 
@@ -4388,7 +4388,7 @@
     :goto_5
     iput p1, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mPickSuggestionIndex:I
 
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->selectWordInList(I)V
+    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->selectWordInList(I)V
 
     goto :goto_3
 
@@ -4397,7 +4397,7 @@
 
     if-le p1, v9, :cond_c
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->getIndexOfInputBuffer()I
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->getIndexOfInputBuffer()I
 
     move-result v9
 
@@ -4410,14 +4410,14 @@
     :cond_e
     iput p1, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mPickSuggestionIndex:I
 
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->selectWordInList(I)V
+    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->selectWordInList(I)V
 
     goto/16 :goto_3
 
     :cond_f
     iput p1, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mPickSuggestionIndex:I
 
-    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->selectWordInList(I)V
+    invoke-virtual {p0, p1}, Lcom/diotek/ime/framework/input/AbstractInputModule;->selectWordInList(I)V
 
     goto/16 :goto_3
 
@@ -4444,7 +4444,7 @@
 
     invoke-interface {v4}, Lcom/diotek/ime/framework/engine/InputEngineManager;->cancelTrace()Z
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->clearCandidateList()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->clearCandidateList()V
 
     iget-object v4, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mEngineManager:Lcom/diotek/ime/framework/engine/InputEngineManager;
 
@@ -4517,7 +4517,7 @@
 
     if-eqz v4, :cond_6
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->updateSuggestionDelay()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->updateSuggestionDelay()V
 
     :cond_6
     iget-object v4, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
@@ -4538,7 +4538,7 @@
 
     if-nez v4, :cond_7
 
-    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->processMultiTapSymbolicKey(I[I)V
+    invoke-virtual {p0, p1, p2}, Lcom/diotek/ime/framework/input/AbstractInputModule;->processMultiTapSymbolicKey(I[I)V
 
     goto :goto_0
 
@@ -4565,7 +4565,7 @@
 
     if-eqz v4, :cond_8
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->setVietnameseTelexComposing()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setVietnameseTelexComposing()V
 
     :cond_8
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->composingText()Ljava/lang/StringBuilder;
@@ -4576,7 +4576,7 @@
 
     invoke-static {v4, v5}, Lcom/diotek/ime/framework/input/Telex/Telex;->join(Ljava/lang/StringBuilder;C)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingText()V
 
     :cond_9
     :goto_1
@@ -4588,7 +4588,7 @@
 
     invoke-interface {v4, v6}, Lcom/diotek/ime/framework/common/InputManager;->setIsPendingUpdateCandidateView(Z)V
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
 
     :cond_a
     iget-boolean v4, p0, Lcom/diotek/ime/framework/input/AbstractInputModule;->mIsPredictionOn:Z
@@ -4605,7 +4605,7 @@
 
     if-ne v4, v5, :cond_0
 
-    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
+    invoke-virtual {p0, v6}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->postUpdateSequenceAndSuggestionDelay(I)V
 
     goto/16 :goto_0
 
@@ -4693,7 +4693,7 @@
 
     invoke-static {v4}, Lcom/diotek/ime/framework/input/ComposingTextManager;->append(C)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->setComposingText()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->setComposingText()V
 
     goto :goto_1
 
@@ -4713,14 +4713,14 @@
 
     move-result-object v4
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     goto/16 :goto_1
 
     :cond_10
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->finishComposing(Z)V
+    invoke-virtual {p0, v7}, Lcom/diotek/ime/framework/input/AbstractInputModule;->finishComposing(Z)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->initComposingBuffer()V
+    invoke-virtual {p0}, Lcom/diotek/ime/framework/input/AbstractInputModule;->initComposingBuffer()V
 
     invoke-static {}, Lcom/diotek/ime/framework/input/ComposingTextManager;->clear()V
 
@@ -4743,7 +4743,7 @@
 
     move-result-object v4
 
-    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/SwiftkeyQwertyLatinInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v4}, Lcom/diotek/ime/framework/input/AbstractSwiftkeyInputModule;->commitTextAndInitComposing(Ljava/lang/CharSequence;)V
 
     goto/16 :goto_1
 .end method

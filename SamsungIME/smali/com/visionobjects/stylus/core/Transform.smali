@@ -41,7 +41,7 @@
 .method protected constructor <init>(JZ)V
     .locals 0
 
-    invoke-direct/range {p0 .. p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-boolean p3, p0, Lcom/visionobjects/stylus/core/Transform;->a:Z
 

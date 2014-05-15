@@ -240,7 +240,7 @@
 
     const v0, 0x7f080080
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -250,7 +250,7 @@
 
     const v0, 0x7f080081
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -260,7 +260,7 @@
 
     const v0, 0x7f080082
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -270,7 +270,7 @@
 
     const v0, 0x7f080084
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -280,7 +280,7 @@
 
     const v0, 0x7f080083
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -290,7 +290,7 @@
 
     const v0, 0x7f080085
 
-    invoke-virtual {p0, v0}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -371,7 +371,7 @@
     :cond_2
     const v7, 0x7f080077
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v7}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -446,7 +446,7 @@
     :cond_5
     const v7, 0x7f080078
 
-    invoke-virtual {p0, v7}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v7}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v5
 
@@ -531,7 +531,7 @@
 
     const v8, 0x7f080070
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v6
 
@@ -641,7 +641,7 @@
 
     const v8, 0x7f08007a
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
@@ -649,11 +649,11 @@
 
     if-eqz v3, :cond_6
 
-    invoke-virtual {v3, v10}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v3, v10}, Landroid/view/View;->setVisibility(I)V
 
     const v8, 0x7f080099
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v5
 
@@ -661,12 +661,12 @@
 
     if-eqz v5, :cond_5
 
-    invoke-virtual {v5, v10}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-virtual {v5, v10}, Landroid/view/View;->setVisibility(I)V
 
     :cond_5
     const v8, 0x7f08007b
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
@@ -674,7 +674,7 @@
 
     if-eqz v4, :cond_6
 
-    invoke-virtual {v4, v10}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-virtual {v4, v10}, Landroid/view/View;->setVisibility(I)V
 
     :cond_6
     return-void
@@ -687,17 +687,17 @@
 
     const v2, 0x7f080065
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v2}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/EditText;
 
-    invoke-virtual {v0}, Landroid/widget/EditText;->clearFocus()V
+    invoke-virtual {v0}, Landroid/view/View;->clearFocus()V
 
     const-string v2, "input_method"
 
-    invoke-virtual {p0, v2}, Lcom/diotek/ime/implement/setting/HelpIntegration;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v2}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -705,7 +705,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {v0}, Landroid/widget/EditText;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v0}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v2
 
@@ -746,7 +746,7 @@
 
     const v8, 0x7f03004a
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/HelpIntegration;->setContentView(I)V
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->setContentView(I)V
 
     iget-object v8, p0, Lcom/diotek/ime/implement/setting/HelpIntegration;->mInputManager:Lcom/diotek/ime/framework/common/InputManager;
 
@@ -765,7 +765,7 @@
     :cond_0
     const v8, 0x7f0800a4
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -778,7 +778,7 @@
     :cond_1
     const v8, 0x7f080065
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v8
 
@@ -790,7 +790,7 @@
 
     const/4 v9, 0x1
 
-    invoke-virtual {v8, v9}, Landroid/widget/EditText;->setLongClickable(Z)V
+    invoke-virtual {v8, v9}, Landroid/view/View;->setLongClickable(Z)V
 
     iget-object v8, p0, Lcom/diotek/ime/implement/setting/HelpIntegration;->mTutorialEditText:Landroid/widget/EditText;
 
@@ -798,7 +798,7 @@
 
     invoke-direct {v9, p0}, Lcom/diotek/ime/implement/setting/HelpIntegration$1;-><init>(Lcom/diotek/ime/implement/setting/HelpIntegration;)V
 
-    invoke-virtual {v8, v9}, Landroid/widget/EditText;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
+    invoke-virtual {v8, v9}, Landroid/view/View;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
 
     iget-object v8, p0, Lcom/diotek/ime/implement/setting/HelpIntegration;->mTutorialEditText:Landroid/widget/EditText;
 
@@ -806,11 +806,11 @@
 
     invoke-direct {v9, p0}, Lcom/diotek/ime/implement/setting/HelpIntegration$2;-><init>(Lcom/diotek/ime/implement/setting/HelpIntegration;)V
 
-    invoke-virtual {v8, v9}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v8, v9}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     const v8, 0x7f080064
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
@@ -822,12 +822,12 @@
 
     invoke-direct {v8, p0}, Lcom/diotek/ime/implement/setting/HelpIntegration$3;-><init>(Lcom/diotek/ime/implement/setting/HelpIntegration;)V
 
-    invoke-virtual {v4, v8}, Landroid/widget/LinearLayout;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {v4, v8}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     :cond_2
     const v8, 0x7f0800a3
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v7
 
@@ -844,7 +844,7 @@
     :cond_3
     const v8, 0x7f080062
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
@@ -856,12 +856,12 @@
 
     invoke-direct {v8, p0}, Lcom/diotek/ime/implement/setting/HelpIntegration$4;-><init>(Lcom/diotek/ime/implement/setting/HelpIntegration;)V
 
-    invoke-virtual {v3, v8}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v3, v8}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_4
     const v8, 0x7f080067
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v2
 
@@ -873,12 +873,12 @@
 
     invoke-direct {v8, p0}, Lcom/diotek/ime/implement/setting/HelpIntegration$5;-><init>(Lcom/diotek/ime/implement/setting/HelpIntegration;)V
 
-    invoke-virtual {v2, v8}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v2, v8}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_5
     const v8, 0x7f08007d
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
@@ -890,12 +890,12 @@
 
     invoke-direct {v8, p0}, Lcom/diotek/ime/implement/setting/HelpIntegration$6;-><init>(Lcom/diotek/ime/implement/setting/HelpIntegration;)V
 
-    invoke-virtual {v1, v8}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v1, v8}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_6
     const v8, 0x7f080087
 
-    invoke-virtual {p0, v8}, Lcom/diotek/ime/implement/setting/HelpIntegration;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v8}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     move-result-object v5
 
@@ -907,10 +907,10 @@
 
     invoke-direct {v8, p0}, Lcom/diotek/ime/implement/setting/HelpIntegration$7;-><init>(Lcom/diotek/ime/implement/setting/HelpIntegration;)V
 
-    invoke-virtual {v5, v8}, Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v5, v8}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_7
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/HelpIntegration;->getWindow()Landroid/view/Window;
+    invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object v8
 
@@ -932,7 +932,7 @@
 
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/HelpIntegration;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -942,9 +942,9 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lcom/diotek/ime/implement/setting/HelpIntegration;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v1}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
 
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/HelpIntegration;->getActionBar()Landroid/app/ActionBar;
+    invoke-virtual {p0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v0
 
@@ -989,7 +989,7 @@
     return v0
 
     :pswitch_0
-    invoke-virtual {p0}, Lcom/diotek/ime/implement/setting/HelpIntegration;->finish()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
 
     const/4 v0, 0x1
 
@@ -1026,30 +1026,30 @@
 
     const/16 v1, 0x8
 
-    invoke-virtual {p1, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
 
     const v1, 0x7f0207fa
 
-    invoke-virtual {p2, v1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
+    invoke-virtual {p2, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
     const v1, 0x7f0209ca
 
-    invoke-virtual {p3, v1}, Landroid/widget/ImageView;->setBackgroundResource(I)V
+    invoke-virtual {p3, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
     :cond_0
     :goto_0
     return v0
 
     :cond_1
-    invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
 
     const v0, 0x7f0207fb
 
-    invoke-virtual {p2, v0}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
+    invoke-virtual {p2, v0}, Landroid/view/View;->setBackgroundResource(I)V
 
     const v0, 0x7f0209c9
 
-    invoke-virtual {p3, v0}, Landroid/widget/ImageView;->setBackgroundResource(I)V
+    invoke-virtual {p3, v0}, Landroid/view/View;->setBackgroundResource(I)V
 
     const/4 v0, 0x1
 

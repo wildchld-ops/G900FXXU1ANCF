@@ -23,7 +23,7 @@
 
     sget-object v0, Lcom/touchtype/personalizer/PersonalizerService;->PERSONALIZERS:Ljava/util/HashMap;
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getKey()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getKey()Ljava/lang/String;
 
     move-result-object v1
 
@@ -57,7 +57,7 @@
 
     sget-object v0, Lcom/touchtype/personalizer/PersonalizerService;->PERSONALIZERS:Ljava/util/HashMap;
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getKey()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getKey()Ljava/lang/String;
 
     move-result-object v1
 
@@ -89,7 +89,7 @@
 .method private init(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 1
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getSummary()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getSummary()Ljava/lang/CharSequence;
 
     move-result-object v0
 
@@ -127,7 +127,7 @@
 
     iget-object v1, p0, Lcom/touchtype/personalizer/PersonalizerPreference;->mPersonalizer:Lcom/touchtype/personalizer/Personalizer;
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -139,7 +139,7 @@
     return-void
 
     :pswitch_1
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -149,7 +149,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -166,7 +166,7 @@
     :cond_1
     new-instance v0, Lcom/touchtype/personalizer/service/FacebookPersonalizer;
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -179,7 +179,7 @@
     goto :goto_0
 
     :pswitch_2
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -189,7 +189,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -206,7 +206,7 @@
     :cond_2
     new-instance v0, Lcom/touchtype/personalizer/service/WeiboPersonalizer;
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -223,7 +223,7 @@
     goto :goto_0
 
     :pswitch_3
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -233,7 +233,7 @@
 
     if-nez v0, :cond_3
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -250,7 +250,7 @@
     :cond_3
     new-instance v0, Lcom/touchtype/personalizer/service/GmailPersonalizer;
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -263,7 +263,7 @@
     goto/16 :goto_0
 
     :pswitch_4
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -273,7 +273,7 @@
 
     if-nez v0, :cond_4
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -290,7 +290,7 @@
     :cond_4
     new-instance v0, Lcom/touchtype/personalizer/service/TwitterPersonalizer;
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -305,7 +305,7 @@
     :pswitch_5
     new-instance v0, Lcom/touchtype/personalizer/service/SmsPersonalizer;
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -320,7 +320,7 @@
     :pswitch_6
     new-instance v0, Lcom/touchtype/personalizer/service/ContactsPersonalizer;
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -333,7 +333,7 @@
     goto/16 :goto_0
 
     :pswitch_7
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -343,7 +343,7 @@
 
     if-nez v0, :cond_5
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -360,7 +360,7 @@
     :cond_5
     new-instance v0, Lcom/touchtype/personalizer/service/DeleteRemotePersonalizer;
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -392,7 +392,7 @@
 
     const/4 v0, 0x0
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -402,7 +402,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -438,7 +438,7 @@
 .method public getPreferenceKey()Ljava/lang/String;
     .locals 1
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getKey()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getKey()Ljava/lang/String;
 
     move-result-object v0
 
@@ -479,7 +479,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v3
 
@@ -503,7 +503,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0}, Lcom/touchtype/personalizer/PersonalizerPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/preference/Preference;->getContext()Landroid/content/Context;
 
     move-result-object v3
 
@@ -530,7 +530,7 @@
     if-eqz p1, :cond_0
 
     :goto_0
-    invoke-virtual {p0, p1}, Lcom/touchtype/personalizer/PersonalizerPreference;->setSummary(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p1}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
     return-void
 
