@@ -1567,8 +1567,6 @@
 
     iget-object v12, p0, Lcom/android/settings/LockScreenSettings;->mShortCameraWidget:Landroid/preference/SwitchPreferenceScreen;
 
-    invoke-virtual {v9, v12}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
-
     :cond_3
     const-string v9, "lock_screen_clock_or_myprofile"
 

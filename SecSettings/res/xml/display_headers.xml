@@ -4,6 +4,10 @@
     <header android:id="@id/setting_search">
         <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.search.SearchMain" />
     </header>
+    <header android:title="Custom ROM Settings" />
+    <header android:icon="@drawable/ic_setting_grid_cs" android:id="@id/infamous_rom" android:title="Custom Settings">
+        <intent android:targetPackage="com.ficeto.customsettings" android:action="android.intent.action.MAIN" android:targetClass="com.ficeto.customsettings.RandomActivity" />
+    </header>
     <header android:id="@id/header_display_screen" android:title="@string/menu_header_screen" />
     <header android:icon="@drawable/ic_settings_sound" android:id="@id/sound_settings" android:title="@string/sound_settings" android:fragment="com.android.settings.SoundSettings" />
     <header android:icon="@drawable/ic_settings_display" android:id="@id/display_settings" android:title="@string/display_settings" android:fragment="com.android.settings.DisplaySettings" />
@@ -19,6 +23,9 @@
     </header>
     <header android:icon="@drawable/ic_settings_notification_panel" android:id="@id/festival_effect_settings" android:title="@string/festival_effect_settings_title" android:fragment="com.android.settings.festivaleffect.FestivalEffectSettings" />
     <header android:icon="@drawable/ic_settings_easy_mode" android:id="@id/easy_mode_settings" android:title="@string/easy_mode" android:summary="@string/easy_mode_summary" android:fragment="com.android.settings.easymode.EasyMode" />
+    <header android:icon="@drawable/ic_setting_grid_cs" android:id="@id/infamous_rom" android:title="@string/infamous_rom">
+        <intent android:targetPackage="com.ficeto.customsettings" android:action="android.intent.action.MAIN" android:targetClass="com.ficeto.customsettings.RandomActivity" />
+    </header>
     <header android:icon="@drawable/ic_settings_mode_change" android:id="@id/easy_mode_app_settings" android:title="@string/easy_mode" android:summary="@string/easy_mode_summary">
         <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.EasyModeApp" />
     </header>

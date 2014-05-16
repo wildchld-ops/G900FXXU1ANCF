@@ -40,6 +40,8 @@
 
 .field final mChargingPath:Landroid/graphics/Path;
 
+.field mChartcolor:I
+
 .field mDurationString:Ljava/lang/String;
 
 .field mDurationStringWidth:I
@@ -279,6 +281,8 @@
 
     iput-object v0, v1, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->mBatWarnPath:Landroid/graphics/Path;
 
+    invoke-virtual/range {p0 .. p0}, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->color_signals()V
+
     new-instance v19, Landroid/graphics/Path;
 
     invoke-direct/range {v19 .. v19}, Landroid/graphics/Path;-><init>()V
@@ -345,15 +349,13 @@
 
     move-object/from16 v19, v0
 
-    const/16 v20, 0xff
+    move-object/from16 v0, p0
 
-    const/16 v21, 0x80
+    iget v0, v0, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->mChartcolor:I
 
-    const/16 v22, 0x80
+    move/from16 v20, v0
 
-    const/16 v23, 0x80
-
-    invoke-virtual/range {v19 .. v23}, Landroid/graphics/Paint;->setARGB(IIII)V
+    invoke-virtual/range {v19 .. v20}, Landroid/graphics/Paint;->setColor(I)V
 
     move-object/from16 v0, p0
 
@@ -371,15 +373,13 @@
 
     move-object/from16 v19, v0
 
-    const/16 v20, 0x80
+    move-object/from16 v0, p0
 
-    const/16 v21, 0x0
+    iget v0, v0, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->mChartcolor:I
 
-    const/16 v22, 0xff
+    move/from16 v20, v0
 
-    const/16 v23, 0x0
-
-    invoke-virtual/range {v19 .. v23}, Landroid/graphics/Paint;->setARGB(IIII)V
+    invoke-virtual/range {v19 .. v20}, Landroid/graphics/Paint;->setColor(I)V
 
     move-object/from16 v0, p0
 
@@ -397,15 +397,13 @@
 
     move-object/from16 v19, v0
 
-    const/16 v20, 0x80
+    move-object/from16 v0, p0
 
-    const/16 v21, 0xff
+    iget v0, v0, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->mChartcolor:I
 
-    const/16 v22, 0xff
+    move/from16 v20, v0
 
-    const/16 v23, 0x0
-
-    invoke-virtual/range {v19 .. v23}, Landroid/graphics/Paint;->setARGB(IIII)V
+    invoke-virtual/range {v19 .. v20}, Landroid/graphics/Paint;->setColor(I)V
 
     move-object/from16 v0, p0
 
@@ -423,15 +421,13 @@
 
     move-object/from16 v19, v0
 
-    const/16 v20, 0xc0
+    move-object/from16 v0, p0
 
-    const/16 v21, 0xff
+    iget v0, v0, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->mChartcolor:I
 
-    const/16 v22, 0x0
+    move/from16 v20, v0
 
-    const/16 v23, 0x0
-
-    invoke-virtual/range {v19 .. v23}, Landroid/graphics/Paint;->setARGB(IIII)V
+    invoke-virtual/range {v19 .. v20}, Landroid/graphics/Paint;->setColor(I)V
 
     move-object/from16 v0, p0
 
@@ -449,15 +445,13 @@
 
     move-object/from16 v19, v0
 
-    const/16 v20, 0xff
+    move-object/from16 v0, p0
 
-    const/16 v21, 0x0
+    iget v0, v0, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->mChartcolor:I
 
-    const/16 v22, 0x80
+    move/from16 v20, v0
 
-    const/16 v23, 0x0
-
-    invoke-virtual/range {v19 .. v23}, Landroid/graphics/Paint;->setARGB(IIII)V
+    invoke-virtual/range {v19 .. v20}, Landroid/graphics/Paint;->setColor(I)V
 
     move-object/from16 v0, p0
 
@@ -896,6 +890,8 @@
 
     goto :goto_4
 
+    nop
+
     :array_0
     .array-data 0x4
         0x0t 0x0t 0x0t 0x0t
@@ -937,6 +933,71 @@
 
 
 # virtual methods
+.method color_signals()V
+    .locals 5
+
+    invoke-virtual {p0}, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "link_batt_chart"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_0
+
+    invoke-virtual {p0}, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_color"
+
+    const v3, -0x6a6a6a
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->mChartcolor:I
+
+    return-void
+
+    :cond_0
+    invoke-virtual {p0}, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "batt_chart_color"
+
+    const v3, -0x6a6a6a
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->mChartcolor:I
+
+    return-void
+.end method
+
 .method protected drawableStateChanged()V
     .locals 1
 
@@ -2071,73 +2132,49 @@
 
     iget-object v2, v0, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->mScreenOnPaint:Landroid/graphics/Paint;
 
-    const/16 v3, 0xff
+    move-object/from16 v0, p0
 
-    const/16 v4, 0x20
+    iget v0, v0, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->mChartcolor:I
 
-    const/16 v37, 0x40
+    move/from16 v3, v0
 
-    const/16 v38, 0xff
-
-    move/from16 v0, v37
-
-    move/from16 v1, v38
-
-    invoke-virtual {v2, v3, v4, v0, v1}, Landroid/graphics/Paint;->setARGB(IIII)V
+    invoke-virtual/range {v2 .. v3}, Landroid/graphics/Paint;->setColor(I)V
 
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->mGpsOnPaint:Landroid/graphics/Paint;
 
-    const/16 v3, 0xff
+    move-object/from16 v0, p0
 
-    const/16 v4, 0x20
+    iget v0, v0, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->mChartcolor:I
 
-    const/16 v37, 0x40
+    move/from16 v3, v0
 
-    const/16 v38, 0xff
-
-    move/from16 v0, v37
-
-    move/from16 v1, v38
-
-    invoke-virtual {v2, v3, v4, v0, v1}, Landroid/graphics/Paint;->setARGB(IIII)V
+    invoke-virtual/range {v2 .. v3}, Landroid/graphics/Paint;->setColor(I)V
 
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->mWifiRunningPaint:Landroid/graphics/Paint;
 
-    const/16 v3, 0xff
+    move-object/from16 v0, p0
 
-    const/16 v4, 0x20
+    iget v0, v0, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->mChartcolor:I
 
-    const/16 v37, 0x40
+    move/from16 v3, v0
 
-    const/16 v38, 0xff
-
-    move/from16 v0, v37
-
-    move/from16 v1, v38
-
-    invoke-virtual {v2, v3, v4, v0, v1}, Landroid/graphics/Paint;->setARGB(IIII)V
+    invoke-virtual/range {v2 .. v3}, Landroid/graphics/Paint;->setColor(I)V
 
     move-object/from16 v0, p0
 
     iget-object v2, v0, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->mWakeLockPaint:Landroid/graphics/Paint;
 
-    const/16 v3, 0xff
+    move-object/from16 v0, p0
 
-    const/16 v4, 0x20
+    iget v0, v0, Lcom/android/settings/fuelgauge/BatteryHistoryChart;->mChartcolor:I
 
-    const/16 v37, 0x40
+    move/from16 v3, v0
 
-    const/16 v38, 0xff
-
-    move/from16 v0, v37
-
-    move/from16 v1, v38
-
-    invoke-virtual {v2, v3, v4, v0, v1}, Landroid/graphics/Paint;->setARGB(IIII)V
+    invoke-virtual/range {v2 .. v3}, Landroid/graphics/Paint;->setColor(I)V
 
     :goto_1
     move-object/from16 v0, p0

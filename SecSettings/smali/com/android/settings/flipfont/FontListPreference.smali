@@ -1194,6 +1194,8 @@
 
     const/4 v1, 0x0
 
+    goto :goto_1
+
     sget-boolean v0, Lcom/android/settings/flipfont/FontListPreference;->DEBUG:Z
 
     if-eqz v0, :cond_0
@@ -2017,7 +2019,9 @@
 
     iget-boolean v1, p0, Lcom/android/settings/flipfont/FontListPreference;->mCheckBadFont:Z
 
-    if-eqz v1, :cond_8
+    const/4 v0, 0x0
+
+    if-eqz v0, :cond_8
 
     invoke-virtual {p0, v0}, Lcom/android/settings/flipfont/FontListPreference;->badFontDialog(Ljava/lang/String;)V
 
@@ -2436,7 +2440,9 @@
 
     move-result v2
 
-    if-eqz v2, :cond_2
+    const/4 v0, 0x0
+
+    if-eqz v0, :cond_2
 
     move-object/from16 v0, p0
 
@@ -3523,7 +3529,7 @@
 
     const-string v2, "CMCC"
 
-    const-string v3, ""
+    const-string v3, "SPR"
 
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 

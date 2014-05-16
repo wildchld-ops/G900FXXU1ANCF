@@ -48,6 +48,8 @@
 
 .field private final mBluetoothEnabler:Lcom/android/settings/bluetooth/BluetoothEnabler;
 
+.field private mColor:I
+
 .field private mContext:Landroid/content/Context;
 
 .field private mDMREnabler:Lcom/android/settings/dmr/DMREnabler;
@@ -1050,7 +1052,7 @@
 .end method
 
 .method private updateCommonHeaderView(Landroid/preference/PreferenceActivity$Header;Lcom/android/settings/Settings$HeaderAdapter$HeaderViewHolder;)V
-    .locals 7
+    .locals 8
 
     const-wide/32 v5, 0x7f0b068b
 
@@ -1107,6 +1109,12 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
+    invoke-virtual {p0}, Lcom/android/settings/Settings$HeaderAdapter;->color_stuff()V
+
+    iget v7, p0, Lcom/android/settings/Settings$HeaderAdapter;->mColor:I
+
+    invoke-virtual {v0, v7}, Landroid/widget/TextView;->setTextColor(I)V
+
     iget-wide v0, p1, Landroid/preference/PreferenceActivity$Header;->id:J
 
     const-wide/32 v2, 0x7f0b06ae
@@ -1155,6 +1163,12 @@
     iget-object v1, p2, Lcom/android/settings/Settings$HeaderAdapter$HeaderViewHolder;->summary:Landroid/widget/TextView;
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {p0}, Lcom/android/settings/Settings$HeaderAdapter;->color_stuff()V
+
+    iget v7, p0, Lcom/android/settings/Settings$HeaderAdapter;->mColor:I
+
+    invoke-virtual {v1, v7}, Landroid/widget/TextView;->setTextColor(I)V
 
     const-string v0, "VZW"
 
@@ -1238,6 +1252,12 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
+    invoke-virtual {p0}, Lcom/android/settings/Settings$HeaderAdapter;->color_stuff()V
+
+    iget v7, p0, Lcom/android/settings/Settings$HeaderAdapter;->mColor:I
+
+    invoke-virtual {v1, v7}, Landroid/widget/TextView;->setTextColor(I)V
+
     iget-object v1, p2, Lcom/android/settings/Settings$HeaderAdapter$HeaderViewHolder;->summary:Landroid/widget/TextView;
 
     invoke-virtual {p0}, Lcom/android/settings/Settings$HeaderAdapter;->getContext()Landroid/content/Context;
@@ -1257,6 +1277,12 @@
     move-result-object v0
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {p0}, Lcom/android/settings/Settings$HeaderAdapter;->color_stuff()V
+
+    iget v7, p0, Lcom/android/settings/Settings$HeaderAdapter;->mColor:I
+
+    invoke-virtual {v1, v7}, Landroid/widget/TextView;->setTextColor(I)V
 
     :cond_4
     return-void
@@ -1283,6 +1309,12 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
+    invoke-virtual {p0}, Lcom/android/settings/Settings$HeaderAdapter;->color_stuff()V
+
+    iget v7, p0, Lcom/android/settings/Settings$HeaderAdapter;->mColor:I
+
+    invoke-virtual {v0, v7}, Landroid/widget/TextView;->setTextColor(I)V
+
     goto :goto_1
 
     :cond_7
@@ -1301,6 +1333,65 @@
     const/4 v0, 0x0
 
     return v0
+.end method
+
+.method color_stuff()V
+    .locals 5
+
+    iget-object v1, p0, Lcom/android/settings/Settings$HeaderAdapter;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "link_text"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_0
+
+    iget-object v1, p0, Lcom/android/settings/Settings$HeaderAdapter;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/settings/Settings$HeaderAdapter;->mColor:I
+
+    return-void
+
+    :cond_0
+    iget-object v1, p0, Lcom/android/settings/Settings$HeaderAdapter;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_header_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/settings/Settings$HeaderAdapter;->mColor:I
+
+    return-void
 .end method
 
 .method public getItemViewType(I)I
@@ -1332,7 +1423,7 @@
 .end method
 
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
-    .locals 9
+    .locals 10
 
     invoke-virtual {p0, p1}, Lcom/android/settings/Settings$HeaderAdapter;->getItem(I)Ljava/lang/Object;
 
@@ -1942,6 +2033,12 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
+    invoke-virtual {p0}, Lcom/android/settings/Settings$HeaderAdapter;->color_stuff()V
+
+    iget v9, p0, Lcom/android/settings/Settings$HeaderAdapter;->mColor:I
+
+    invoke-virtual {v1, v9}, Landroid/widget/TextView;->setTextColor(I)V
+
     goto/16 :goto_2
 
     :pswitch_9
@@ -2018,6 +2115,12 @@
     move-result-object v3
 
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {p0}, Lcom/android/settings/Settings$HeaderAdapter;->color_stuff()V
+
+    iget v9, p0, Lcom/android/settings/Settings$HeaderAdapter;->mColor:I
+
+    invoke-virtual {v1, v9}, Landroid/widget/TextView;->setTextColor(I)V
 
     invoke-virtual {p0}, Lcom/android/settings/Settings$HeaderAdapter;->getContext()Landroid/content/Context;
 
@@ -2129,6 +2232,12 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
+    invoke-virtual {p0}, Lcom/android/settings/Settings$HeaderAdapter;->color_stuff()V
+
+    iget v9, p0, Lcom/android/settings/Settings$HeaderAdapter;->mColor:I
+
+    invoke-virtual {v1, v9}, Landroid/widget/TextView;->setTextColor(I)V
+
     invoke-virtual {p0}, Lcom/android/settings/Settings$HeaderAdapter;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -2156,6 +2265,12 @@
     iget-object v2, v4, Lcom/android/settings/Settings$HeaderAdapter$HeaderViewHolder;->summary:Landroid/widget/TextView;
 
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    invoke-virtual {p0}, Lcom/android/settings/Settings$HeaderAdapter;->color_stuff()V
+
+    iget v9, p0, Lcom/android/settings/Settings$HeaderAdapter;->mColor:I
+
+    invoke-virtual {v2, v9}, Landroid/widget/TextView;->setTextColor(I)V
 
     :goto_6
     iget-wide v1, v0, Landroid/preference/PreferenceActivity$Header;->id:J

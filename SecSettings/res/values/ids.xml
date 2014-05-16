@@ -1861,4 +1861,6 @@
     <item type="id" name="vpn_create">false</item>
     <item type="id" name="vpn_lockdown">false</item>
     <item type="id" name="wifi_wps">false</item>
+    <item type="id" name="infamous_rom">false</item>
+    <item type="id" name="appops_settings">false</item>
 </resources>
