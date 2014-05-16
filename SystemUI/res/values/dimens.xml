@@ -124,7 +124,7 @@
     <dimen name="quick_setting_button_status_padding_left">2.0dip</dimen>
     <dimen name="quick_setting_button_status_padding_right">2.0dip</dimen>
     <dimen name="quick_setting_button_status_padding_bottom">3.0dip</dimen>
-    <dimen name="quick_setting_button_gap">0.0dip</dimen>
+    <dimen name="quick_setting_button_gap">1.0dip</dimen>
     <dimen name="jpb_quick_setting_button_gap">1.0dip</dimen>
     <dimen name="quick_setting_button_hotizontal_gap">0.0dip</dimen>
     <dimen name="quick_setting_button_vertival_gap">0.0dip</dimen>
@@ -148,11 +148,11 @@
     <dimen name="toggle_slider_brightness_icon_margin_left">12.0dip</dimen>
     <dimen name="toggle_slider_brightness_icon_margin_right">0.0dip</dimen>
     <dimen name="toggle_slider_checkbox_margin_right">0.0dip</dimen>
-    <dimen name="jbp_quick_setting_button_height">92.0dip</dimen>
-    <dimen name="jbp_quick_setting_button_image_height">46.0dip</dimen>
+    <dimen name="jbp_quick_setting_button_height">106.0dip</dimen>
+    <dimen name="jbp_quick_setting_button_image_height">56.0dip</dimen>
     <dimen name="jbp_quick_setting_button_margin_top">2.0dip</dimen>
     <dimen name="jbp_quick_setting_button_status_padding_bottom">2.0dip</dimen>
-    <dimen name="button_holder_width">56.0dip</dimen>
+    <dimen name="button_holder_width">40.0dip</dimen>
     <dimen name="button_holder_margin_top">5.0dip</dimen>
     <dimen name="button_holder_margin_bottom">4.0dip</dimen>
     <dimen name="button_holder_margin_left">0.0dip</dimen>

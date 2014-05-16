@@ -13,6 +13,7 @@
     <public type="attr" name="decayTime" id="0x7f01000a" />
     <public type="attr" name="ampmSmall" id="0x7f01000b" />
     <public type="attr" name="orientation" id="0x7f01000c" />
+    <public type="attr" name="viewLocation" id="0x7f01000d" />
     <public type="drawable" name="dessert_android" id="0x7f02000c" />
     <public type="drawable" name="dessert_cupcake" id="0x7f02000d" />
     <public type="drawable" name="dessert_dandroid" id="0x7f02000e" />
@@ -47,6 +48,7 @@
     <public type="drawable" name="ic_notify_clear" id="0x7f020028" />
     <public type="drawable" name="ic_notify_quicksettings" id="0x7f02002c" />
     <public type="drawable" name="ic_notify_settings" id="0x7f02002e" />
+    <public type="drawable" name="APKTOOL_DUMMY_0030" id="0x7f020030" />
     <public type="drawable" name="ic_qs_battery" id="0x7f020031" />
     <public type="drawable" name="ic_qs_brightness_icon_right" id="0x7f020044" />
     <public type="drawable" name="ic_volume_panel_settings_button_bg" id="0x7f020057" />
@@ -55,6 +57,7 @@
     <public type="drawable" name="jbp_ic_notify_quicksettings" id="0x7f02005c" />
     <public type="drawable" name="jbp_ic_notify_settings" id="0x7f02005e" />
     <public type="drawable" name="jbp_tw_quick_panel_quick_setting_button_bg" id="0x7f020061" />
+    <public type="drawable" name="APKTOOL_DUMMY_0065" id="0x7f020065" />
     <public type="drawable" name="navbar_search_outerring" id="0x7f020069" />
     <public type="drawable" name="notification_list_shadow" id="0x7f02006b" />
     <public type="drawable" name="notification_row_legacy_bg" id="0x7f02006d" />
@@ -65,19 +68,25 @@
     <public type="drawable" name="quick_panel_list_ic_close_focused" id="0x7f020072" />
     <public type="drawable" name="quick_panel_list_ic_close_normal" id="0x7f020073" />
     <public type="drawable" name="quick_panel_list_ic_close_pressed" id="0x7f020074" />
+    <public type="drawable" name="APKTOOL_DUMMY_0075" id="0x7f020075" />
     <public type="drawable" name="recents_thumbnail_fg" id="0x7f020077" />
     <public type="drawable" name="recents_thumbnail_no_press" id="0x7f020078" />
     <public type="drawable" name="security_indicator_tile_bg" id="0x7f02007c" />
     <public type="drawable" name="stat_notify_power_sharing_end" id="0x7f020082" />
+    <public type="drawable" name="APKTOOL_DUMMY_0086" id="0x7f020086" />
     <public type="drawable" name="stat_sys_battery" id="0x7f02008c" />
     <public type="drawable" name="stat_sys_battery_charge" id="0x7f020095" />
     <public type="drawable" name="stat_sys_data_activity_spr" id="0x7f0200a2" />
     <public type="drawable" name="stat_sys_data_activity_spr_lte" id="0x7f0200b1" />
+    <public type="drawable" name="APKTOOL_DUMMY_00c2" id="0x7f0200c2" />
+    <public type="drawable" name="APKTOOL_DUMMY_00c4" id="0x7f0200c4" />
     <public type="drawable" name="stat_sys_data_in_att" id="0x7f0200ea" />
     <public type="drawable" name="stat_sys_data_inandout_att" id="0x7f0200ee" />
     <public type="drawable" name="stat_sys_data_out_att" id="0x7f020104" />
     <public type="drawable" name="stat_sys_gps_acquiring_anim" id="0x7f02010c" />
     <public type="drawable" name="stat_sys_location_acquiring_anim_usa" id="0x7f02010d" />
+    <public type="drawable" name="APKTOOL_DUMMY_0111" id="0x7f020111" />
+    <public type="drawable" name="APKTOOL_DUMMY_0117" id="0x7f020117" />
     <public type="drawable" name="stat_sys_roaming_cdma_flash" id="0x7f02011a" />
     <public type="drawable" name="stat_sys_roaming_home_cdma_flash" id="0x7f02011b" />
     <public type="drawable" name="status_bar_close" id="0x7f020153" />
@@ -89,19 +98,45 @@
     <public type="drawable" name="system_bar_notification_header_bg" id="0x7f02015b" />
     <public type="drawable" name="system_bar_ticker_background" id="0x7f02015c" />
     <public type="drawable" name="ticker_background" id="0x7f02015d" />
+    <public type="drawable" name="APKTOOL_DUMMY_015f" id="0x7f02015f" />
     <public type="drawable" name="tw_btn_check_holo_light" id="0x7f020165" />
     <public type="drawable" name="tw_clear_button_bg" id="0x7f020169" />
     <public type="drawable" name="tw_close_handle_bg" id="0x7f02016d" />
+    <public type="drawable" name="APKTOOL_DUMMY_0176" id="0x7f020176" />
     <public type="drawable" name="tw_notification_row_bg" id="0x7f020177" />
     <public type="drawable" name="tw_preference_list_section_divider_holo_dark" id="0x7f020178" />
+    <public type="drawable" name="APKTOOL_DUMMY_01a5" id="0x7f0201a5" />
+    <public type="drawable" name="APKTOOL_DUMMY_01a6" id="0x7f0201a6" />
+    <public type="drawable" name="APKTOOL_DUMMY_01a7" id="0x7f0201a7" />
     <public type="drawable" name="tw_quick_panel_icon_quick_connect_dim" id="0x7f0201c4" />
     <public type="drawable" name="tw_quick_panel_icon_quick_connect_off" id="0x7f0201c5" />
     <public type="drawable" name="tw_quick_panel_icon_quick_connect_on" id="0x7f0201c6" />
+    <public type="drawable" name="APKTOOL_DUMMY_01ee" id="0x7f0201ee" />
+    <public type="drawable" name="APKTOOL_DUMMY_01ef" id="0x7f0201ef" />
+    <public type="drawable" name="APKTOOL_DUMMY_01f0" id="0x7f0201f0" />
     <public type="drawable" name="tw_quick_panel_quick_setting_button_bg" id="0x7f020209" />
     <public type="drawable" name="tw_quick_panel_quick_setting_button_round_bg" id="0x7f02020d" />
     <public type="drawable" name="tw_quick_panel_quick_setting_button_round_bg_normal" id="0x7f020210" />
     <public type="drawable" name="tw_quick_panel_sfinder_qconnect_button" id="0x7f020214" />
     <public type="drawable" name="tw_quick_panel_sfinder_qconnect_button_text_color" id="0x7f02021a" />
+    <public type="drawable" name="APKTOOL_DUMMY_021b" id="0x7f02021b" />
+    <public type="drawable" name="APKTOOL_DUMMY_021c" id="0x7f02021c" />
+    <public type="drawable" name="APKTOOL_DUMMY_0220" id="0x7f020220" />
+    <public type="drawable" name="APKTOOL_DUMMY_0221" id="0x7f020221" />
+    <public type="drawable" name="APKTOOL_DUMMY_0226" id="0x7f020226" />
+    <public type="drawable" name="APKTOOL_DUMMY_0227" id="0x7f020227" />
+    <public type="drawable" name="APKTOOL_DUMMY_0228" id="0x7f020228" />
+    <public type="drawable" name="APKTOOL_DUMMY_0229" id="0x7f020229" />
+    <public type="drawable" name="APKTOOL_DUMMY_022a" id="0x7f02022a" />
+    <public type="drawable" name="APKTOOL_DUMMY_022b" id="0x7f02022b" />
+    <public type="drawable" name="APKTOOL_DUMMY_022c" id="0x7f02022c" />
+    <public type="drawable" name="APKTOOL_DUMMY_022d" id="0x7f02022d" />
+    <public type="drawable" name="APKTOOL_DUMMY_022e" id="0x7f02022e" />
+    <public type="drawable" name="APKTOOL_DUMMY_022f" id="0x7f02022f" />
+    <public type="drawable" name="APKTOOL_DUMMY_0230" id="0x7f020230" />
+    <public type="drawable" name="APKTOOL_DUMMY_0231" id="0x7f020231" />
+    <public type="drawable" name="APKTOOL_DUMMY_0232" id="0x7f020232" />
+    <public type="drawable" name="APKTOOL_DUMMY_0233" id="0x7f020233" />
     <public type="drawable" name="tw_recent_menukey_helpbutton" id="0x7f02023c" />
     <public type="drawable" name="tw_recent_panel_button_forphone" id="0x7f02023d" />
     <public type="drawable" name="tw_recent_panel_ic_delete_holo_dark" id="0x7f02023e" />
@@ -132,6 +167,12 @@
     <public type="drawable" name="jbp_notification_header_bg" id="0x7f02026e" />
     <public type="drawable" name="quick_setting_button_divider_bg" id="0x7f02026f" />
     <public type="drawable" name="recents_item_button_background" id="0x7f020270" />
+    <public type="drawable" name="APKTOOL_DUMMY_0271" id="0x7f020271" />
+    <public type="drawable" name="tw_stat_sys_battery" id="0x7f020273" />
+    <public type="drawable" name="tw_stat_sys_battery_charge" id="0x7f020280" />
+    <public type="drawable" name="tw_stat_sys_battery_not_charge" id="0x7f02028a" />
+    <public type="drawable" name="tw_stat_sys_battery_red" id="0x7f020294" />
+    <public type="drawable" name="tw_stat_sys_battery_usb_not_charge" id="0x7f020295" />
     <public type="drawable" name="battery_low_battery_holo_light" id="0x7f020008" />
     <public type="drawable" name="bottom_divider_glow" id="0x7f02000a" />
     <public type="drawable" name="notification_bottom_line" id="0x7f02006a" />
@@ -140,6 +181,40 @@
     <public type="drawable" name="tw_recent_app_bg_shadow" id="0x7f020237" />
     <public type="drawable" name="stat_notify_battery_cooling_down" id="0x7f02007e" />
     <public type="drawable" name="stat_notify_safe_mode" id="0x7f020084" />
+    <public type="drawable" name="ic_sysbar_recent" id="0x7f020055" />
+    <public type="drawable" name="tw_stat_sys_battery_incompatible_vzw" id="0x7f020259" />
+    <public type="drawable" name="tw_null_icon" id="0x7f020272" />
+    <public type="drawable" name="tw_stat_sys_battery_10" id="0x7f020274" />
+    <public type="drawable" name="tw_stat_sys_battery_100" id="0x7f020275" />
+    <public type="drawable" name="tw_stat_sys_battery_10_red" id="0x7f020276" />
+    <public type="drawable" name="tw_stat_sys_battery_20" id="0x7f020277" />
+    <public type="drawable" name="tw_stat_sys_battery_20_red" id="0x7f020278" />
+    <public type="drawable" name="tw_stat_sys_battery_34" id="0x7f020279" />
+    <public type="drawable" name="tw_stat_sys_battery_4" id="0x7f02027a" />
+    <public type="drawable" name="tw_stat_sys_battery_49" id="0x7f02027b" />
+    <public type="drawable" name="tw_stat_sys_battery_4_red" id="0x7f02027c" />
+    <public type="drawable" name="tw_stat_sys_battery_64" id="0x7f02027d" />
+    <public type="drawable" name="tw_stat_sys_battery_79" id="0x7f02027e" />
+    <public type="drawable" name="tw_stat_sys_battery_94" id="0x7f02027f" />
+    <public type="drawable" name="tw_stat_sys_battery_charge_10" id="0x7f020281" />
+    <public type="drawable" name="tw_stat_sys_battery_charge_100" id="0x7f020282" />
+    <public type="drawable" name="tw_stat_sys_battery_charge_20" id="0x7f020283" />
+    <public type="drawable" name="tw_stat_sys_battery_charge_34" id="0x7f020284" />
+    <public type="drawable" name="tw_stat_sys_battery_charge_4" id="0x7f020285" />
+    <public type="drawable" name="tw_stat_sys_battery_charge_49" id="0x7f020286" />
+    <public type="drawable" name="tw_stat_sys_battery_charge_64" id="0x7f020287" />
+    <public type="drawable" name="tw_stat_sys_battery_charge_79" id="0x7f020288" />
+    <public type="drawable" name="tw_stat_sys_battery_charge_94" id="0x7f020289" />
+    <public type="drawable" name="tw_stat_sys_battery_not_charge_10" id="0x7f02028b" />
+    <public type="drawable" name="tw_stat_sys_battery_not_charge_100" id="0x7f02028c" />
+    <public type="drawable" name="tw_stat_sys_battery_not_charge_20" id="0x7f02028d" />
+    <public type="drawable" name="tw_stat_sys_battery_not_charge_34" id="0x7f02028e" />
+    <public type="drawable" name="tw_stat_sys_battery_not_charge_4" id="0x7f02028f" />
+    <public type="drawable" name="tw_stat_sys_battery_not_charge_49" id="0x7f020290" />
+    <public type="drawable" name="tw_stat_sys_battery_not_charge_64" id="0x7f020291" />
+    <public type="drawable" name="tw_stat_sys_battery_not_charge_79" id="0x7f020292" />
+    <public type="drawable" name="tw_stat_sys_battery_not_charge_94" id="0x7f020293" />
+    <public type="drawable" name="ic_sysbar_lock" id="0x7f020297" />
     <public type="drawable" name="battery_low_battery" id="0x7f020007" />
     <public type="drawable" name="heads_up_window_bg" id="0x7f02001e" />
     <public type="drawable" name="help_popup_picker_b_c" id="0x7f02001f" />
@@ -188,7 +263,6 @@
     <public type="drawable" name="ic_sysbar_lights_out_dot_small" id="0x7f020052" />
     <public type="drawable" name="ic_sysbar_menu" id="0x7f020053" />
     <public type="drawable" name="ic_sysbar_menu_land" id="0x7f020054" />
-    <public type="drawable" name="ic_sysbar_recent" id="0x7f020055" />
     <public type="drawable" name="ic_sysbar_recent_land" id="0x7f020056" />
     <public type="drawable" name="jbp_ic_notify_edit_normal" id="0x7f02005a" />
     <public type="drawable" name="jbp_ic_notify_open_normal" id="0x7f02005b" />
@@ -602,43 +676,19 @@
     <public type="drawable" name="tw_stat_sys_6_level_signal_4" id="0x7f020256" />
     <public type="drawable" name="tw_stat_sys_6_level_signal_5" id="0x7f020257" />
     <public type="drawable" name="tw_stat_sys_6_level_signal_6" id="0x7f020258" />
-    <public type="drawable" name="tw_stat_sys_battery_incompatible_vzw" id="0x7f020259" />
     <public type="drawable" name="tw_stat_sys_signal_null" id="0x7f02025a" />
-    <public type="drawable" name="APKTOOL_DUMMY_0030" id="0x7f020030" />
-    <public type="drawable" name="APKTOOL_DUMMY_0065" id="0x7f020065" />
-    <public type="drawable" name="APKTOOL_DUMMY_0075" id="0x7f020075" />
-    <public type="drawable" name="APKTOOL_DUMMY_0086" id="0x7f020086" />
-    <public type="drawable" name="APKTOOL_DUMMY_00c2" id="0x7f0200c2" />
-    <public type="drawable" name="APKTOOL_DUMMY_00c4" id="0x7f0200c4" />
-    <public type="drawable" name="APKTOOL_DUMMY_0111" id="0x7f020111" />
-    <public type="drawable" name="APKTOOL_DUMMY_0117" id="0x7f020117" />
-    <public type="drawable" name="APKTOOL_DUMMY_015f" id="0x7f02015f" />
-    <public type="drawable" name="APKTOOL_DUMMY_0176" id="0x7f020176" />
-    <public type="drawable" name="APKTOOL_DUMMY_01a5" id="0x7f0201a5" />
-    <public type="drawable" name="APKTOOL_DUMMY_01a6" id="0x7f0201a6" />
-    <public type="drawable" name="APKTOOL_DUMMY_01a7" id="0x7f0201a7" />
-    <public type="drawable" name="APKTOOL_DUMMY_01ee" id="0x7f0201ee" />
-    <public type="drawable" name="APKTOOL_DUMMY_01ef" id="0x7f0201ef" />
-    <public type="drawable" name="APKTOOL_DUMMY_01f0" id="0x7f0201f0" />
-    <public type="drawable" name="APKTOOL_DUMMY_021b" id="0x7f02021b" />
-    <public type="drawable" name="APKTOOL_DUMMY_021c" id="0x7f02021c" />
-    <public type="drawable" name="APKTOOL_DUMMY_0220" id="0x7f020220" />
-    <public type="drawable" name="APKTOOL_DUMMY_0221" id="0x7f020221" />
-    <public type="drawable" name="APKTOOL_DUMMY_0226" id="0x7f020226" />
-    <public type="drawable" name="APKTOOL_DUMMY_0227" id="0x7f020227" />
-    <public type="drawable" name="APKTOOL_DUMMY_0228" id="0x7f020228" />
-    <public type="drawable" name="APKTOOL_DUMMY_0229" id="0x7f020229" />
-    <public type="drawable" name="APKTOOL_DUMMY_022a" id="0x7f02022a" />
-    <public type="drawable" name="APKTOOL_DUMMY_022b" id="0x7f02022b" />
-    <public type="drawable" name="APKTOOL_DUMMY_022c" id="0x7f02022c" />
-    <public type="drawable" name="APKTOOL_DUMMY_022d" id="0x7f02022d" />
-    <public type="drawable" name="APKTOOL_DUMMY_022e" id="0x7f02022e" />
-    <public type="drawable" name="APKTOOL_DUMMY_022f" id="0x7f02022f" />
-    <public type="drawable" name="APKTOOL_DUMMY_0230" id="0x7f020230" />
-    <public type="drawable" name="APKTOOL_DUMMY_0231" id="0x7f020231" />
-    <public type="drawable" name="APKTOOL_DUMMY_0232" id="0x7f020232" />
-    <public type="drawable" name="APKTOOL_DUMMY_0233" id="0x7f020233" />
-    <public type="drawable" name="APKTOOL_DUMMY_0271" id="0x7f020271" />
+    <public type="drawable" name="infamous" id="0x7f020296" />
+    <public type="drawable" name="tw_quick_panel_icon_battery" id="0x7f020298" />
+    <public type="drawable" name="tw_quick_panel_icon_camera" id="0x7f020299" />
+    <public type="drawable" name="tw_quick_panel_icon_cs" id="0x7f02029a" />
+    <public type="drawable" name="tw_quick_panel_icon_flashlight_off" id="0x7f02029b" />
+    <public type="drawable" name="tw_quick_panel_icon_flashlight_on" id="0x7f02029c" />
+    <public type="drawable" name="tw_quick_panel_icon_power" id="0x7f02029d" />
+    <public type="drawable" name="tw_quick_panel_icon_battery_round" id="0x7f02029e" />
+    <public type="drawable" name="tw_quick_panel_icon_camera_round" id="0x7f02029f" />
+    <public type="drawable" name="tw_quick_panel_icon_cs_round" id="0x7f0202a0" />
+    <public type="drawable" name="tw_quick_panel_icon_flashlight_on_round" id="0x7f0202a1" />
+    <public type="drawable" name="tw_quick_panel_icon_power_round" id="0x7f0202a2" />
     <public type="mipmap" name="ic_launcher_dreams" id="0x7f030000" />
     <public type="layout" name="abnormal_charging" id="0x7f040000" />
     <public type="layout" name="background_black_screen" id="0x7f040001" />
@@ -959,6 +1009,21 @@
     <public type="id" name="recent_remove_item" id="0x7f0800ea" />
     <public type="id" name="notification_inspect_item" id="0x7f0800eb" />
     <public type="id" name="recent_inspect_item" id="0x7f0800ec" />
+    <public type="id" name="cpu" id="0x7f0800ed" />
+    <public type="id" name="traffic" id="0x7f0800ee" />
+    <public type="id" name="clear_btn" id="0x7f0800ef" />
+    <public type="id" name="center_clock_layout" id="0x7f0800f0" />
+    <public type="id" name="center_clock" id="0x7f0800f1" />
+    <public type="id" name="notification_wallpaper" id="0x7f0800f2" />
+    <public type="id" name="statusbar_wallpaper" id="0x7f0800f3" />
+    <public type="id" name="infamous" id="0x7f0800f4" />
+    <public type="id" name="toggle_holder" id="0x7f0800f5" />
+    <public type="id" name="slider_holder" id="0x7f0800f6" />
+    <public type="id" name="scroll_holder" id="0x7f0800f7" />
+    <public type="id" name="tickeridone" id="0x7f0800f8" />
+    <public type="id" name="tickeridtwo" id="0x7f0800f9" />
+    <public type="id" name="btn_image_bg" id="0x7f0800fa" />
+    <public type="id" name="closenew" id="0x7f0800fb" />
     <public type="color" name="system_bar_background_opaque" id="0x7f090000" />
     <public type="color" name="system_bar_background_semi_transparent" id="0x7f090001" />
     <public type="color" name="notification_panel_solid_background" id="0x7f090002" />
@@ -1520,6 +1585,17 @@
     <public type="string" name="recent_menukey_press_description" id="0x7f0b0204" />
     <public type="string" name="recent_menukey_press_description_vzw" id="0x7f0b0205" />
     <public type="string" name="recent_menukey_help_button" id="0x7f0b0206" />
+    <public type="string" name="cpu_ide" id="0x7f0b0211" />
+    <public type="string" name="quickpanel_flashlight_text" id="0x7f0b0212" />
+    <public type="string" name="quickpanel_cs_text" id="0x7f0b0213" />
+    <public type="string" name="quickpanel_camera_text" id="0x7f0b0214" />
+    <public type="string" name="quickpanel_battery_text" id="0x7f0b0215" />
+    <public type="string" name="quickpanel_Power_Off" id="0x7f0b0216" />
+    <public type="string" name="quickpanel_flashlight_content_description" id="0x7f0b0217" />
+    <public type="string" name="quickpanel_cs_content_description" id="0x7f0b0218" />
+    <public type="string" name="quickpanel_battery_content_description" id="0x7f0b0219" />
+    <public type="string" name="quickpanel_camera_content_description" id="0x7f0b021a" />
+    <public type="string" name="quickpanel_poweroff_content_description" id="0x7f0b021b" />
     <public type="string" name="toast_rotation_locked" id="0x7f0b0207" />
     <public type="string" name="romaing_title" id="0x7f0b020d" />
     <public type="string" name="voice_and_data_roamaing" id="0x7f0b020e" />
@@ -1819,6 +1895,7 @@
     <public type="style" name="TextAppearance.StatusBar.PhoneTicker" id="0x7f0f001f" />
     <public type="style" name="TutorialPopupStyle" id="0x7f0f0020" />
     <public type="style" name="Overheating" id="0x7f0f0021" />
+    <public type="style" name="TextAppearance.StatusBar.Traffic" id="0x7f0f0022" />
     <public type="menu" name="em_recent_popup_menu" id="0x7f100000" />
     <public type="menu" name="notification_popup_menu" id="0x7f100001" />
     <public type="menu" name="recent_popup_menu" id="0x7f100002" />

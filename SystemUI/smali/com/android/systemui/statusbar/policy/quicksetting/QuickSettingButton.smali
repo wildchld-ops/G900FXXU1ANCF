@@ -59,7 +59,15 @@
 
 .field private mBtnText:Landroid/widget/TextView;
 
+.field private mColorDIM:I
+
+.field private mColorOFF:I
+
+.field private mColorON:I
+
 .field private mContentTextID:I
+
+.field protected mContext:Landroid/content/Context;
 
 .field private mDeviceProvisioned:Z
 
@@ -89,7 +97,13 @@
 
 .field private mText:Ljava/lang/String;
 
+.field private mTextColor:I
+
 .field private mTextID:I
+
+.field private mbgcolorone:I
+
+.field private mbgcolortwo:I
 
 
 # direct methods
@@ -442,6 +456,10 @@
     iget v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mTextID:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
+
+    iget v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mTextColor:I
+
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnText:Landroid/widget/TextView;
 
@@ -837,6 +855,290 @@
     goto :goto_0
 .end method
 
+.method color_dim()V
+    .locals 5
+
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnImage:Landroid/widget/ImageView;
+
+    invoke-virtual {v1}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "link_toggle_dim"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_0
+
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnImage:Landroid/widget/ImageView;
+
+    invoke-virtual {v1}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_color"
+
+    const v3, -0x4d06ff
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorDIM:I
+
+    return-void
+
+    :cond_0
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnImage:Landroid/widget/ImageView;
+
+    invoke-virtual {v1}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "toggle_color_dim"
+
+    const v3, -0x4d06ff
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorDIM:I
+
+    return-void
+.end method
+
+.method color_off()V
+    .locals 5
+
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnImage:Landroid/widget/ImageView;
+
+    invoke-virtual {v1}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "link_toggle_off"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_0
+
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnImage:Landroid/widget/ImageView;
+
+    invoke-virtual {v1}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_color"
+
+    const v3, -0x4d06ff
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorOFF:I
+
+    return-void
+
+    :cond_0
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnImage:Landroid/widget/ImageView;
+
+    invoke-virtual {v1}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "toggle_color_off"
+
+    const v3, -0x4d06ff
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorOFF:I
+
+    return-void
+.end method
+
+.method color_on()V
+    .locals 5
+
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnImage:Landroid/widget/ImageView;
+
+    invoke-virtual {v1}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "link_toggle_on"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_0
+
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnImage:Landroid/widget/ImageView;
+
+    invoke-virtual {v1}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_color"
+
+    const v3, -0x5314ff
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorON:I
+
+    return-void
+
+    :cond_0
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnImage:Landroid/widget/ImageView;
+
+    invoke-virtual {v1}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "toggle_color_on"
+
+    const v3, -0x5314ff
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorON:I
+
+    return-void
+.end method
+
+.method color_text()V
+    .locals 5
+
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnImage:Landroid/widget/ImageView;
+
+    invoke-virtual {v1}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "link_toggle_text"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_0
+
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnImage:Landroid/widget/ImageView;
+
+    invoke-virtual {v1}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_color"
+
+    const v3, -0xa0a0a
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mTextColor:I
+
+    return-void
+
+    :cond_0
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnImage:Landroid/widget/ImageView;
+
+    invoke-virtual {v1}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "toggle_text_color"
+
+    const v3, -0xa0a0a
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mTextColor:I
+
+    return-void
+.end method
+
 .method public doNext()V
     .locals 0
 
@@ -903,6 +1205,10 @@
     iget v8, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mTextID:I
 
     invoke-virtual {v7, v8}, Landroid/widget/TextView;->setText(I)V
+
+    iget v2, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mTextColor:I
+
+    invoke-virtual {v7, v2}, Landroid/widget/TextView;->setTextColor(I)V
 
     invoke-direct {p0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->checkContentDescription()V
 
@@ -1167,6 +1473,10 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
+    iget v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorDIM:I
+
+    invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setColorFilter(I)V
+
     const/4 v0, 0x1
 
     invoke-virtual {p0, v0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->setFocusable(Z)V
@@ -1175,11 +1485,11 @@
 .end method
 
 .method public initLayout(IIIIIII)V
-    .locals 2
+    .locals 7
 
     sget-boolean v0, Lcom/android/systemui/statusbar/Feature;->mUseJellyBeanGUI:Z
 
-    if-eqz v0, :cond_0
+    if-eqz v0, :cond_5
 
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mContext:Landroid/content/Context;
 
@@ -1248,43 +1558,260 @@
 
     invoke-virtual {p0, v0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->setFocusable(Z)V
 
-    sget-boolean v0, Lcom/android/systemui/statusbar/Feature;->mUseJellyBeanGUI:Z
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mContext:Landroid/content/Context;
 
-    if-eqz v0, :cond_1
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
-    const v0, 0x7f020061
+    move-result-object v1
 
-    invoke-virtual {p0, v0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->setBackgroundResource(I)V
+    const-string v2, "toggle_gradient"
 
-    :goto_1
-    return-void
+    const v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v5
+
+    const-string v2, "toggle_bg_color"
+
+    const v3, -0xff9a87
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v4
+
+    iput v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mbgcolorone:I
+
+    const-string v2, "toggle_bg_color2"
+
+    const v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v4
+
+    iput v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mbgcolortwo:I
+
+    if-eqz v5, :cond_4
+
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "toggle_gradient_type"
+
+    const v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v5
+
+    const v1, 0x0
+
+    if-eq v5, v1, :cond_0
+
+    const v1, 0x1
+
+    if-eq v5, v1, :cond_1
+
+    const v1, 0x2
+
+    if-eq v5, v1, :cond_2
+
+    const v1, 0x3
+
+    if-eq v5, v1, :cond_3
 
     :cond_0
+    new-instance v0, Landroid/graphics/drawable/GradientDrawable;
+
+    sget-object v3, Landroid/graphics/drawable/GradientDrawable$Orientation;->TOP_BOTTOM:Landroid/graphics/drawable/GradientDrawable$Orientation;
+
+    const/4 v4, 0x2
+
+    new-array v4, v4, [I
+
+    const/4 v5, 0x0
+
+    iget v6, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mbgcolorone:I
+
+    aput v6, v4, v5
+
+    const/4 v5, 0x1
+
+    iget v6, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mbgcolortwo:I
+
+    aput v6, v4, v5
+
+    invoke-direct {v0, v3, v4}, Landroid/graphics/drawable/GradientDrawable;-><init>(Landroid/graphics/drawable/GradientDrawable$Orientation;[I)V
+
+    const/4 v3, 0x0
+
+    invoke-virtual {v0, v3}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadius(F)V
+
+    const/4 v3, 0x1
+
+    invoke-virtual {v0, v3}, Landroid/graphics/drawable/GradientDrawable;->setGradientType(I)V
+
+    const v3, 0x43250000
+
+    invoke-virtual {v0, v3}, Landroid/graphics/drawable/GradientDrawable;->setGradientRadius(F)V
+
+    invoke-virtual {p0, v0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->setBackground(Landroid/graphics/drawable/Drawable;)V
+
+    goto :goto_1
+
+    :cond_1
+    new-instance v0, Landroid/graphics/drawable/GradientDrawable;
+
+    sget-object v3, Landroid/graphics/drawable/GradientDrawable$Orientation;->TOP_BOTTOM:Landroid/graphics/drawable/GradientDrawable$Orientation;
+
+    const/4 v4, 0x2
+
+    new-array v4, v4, [I
+
+    const/4 v5, 0x0
+
+    iget v6, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mbgcolorone:I
+
+    aput v6, v4, v5
+
+    const/4 v5, 0x1
+
+    iget v6, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mbgcolortwo:I
+
+    aput v6, v4, v5
+
+    invoke-direct {v0, v3, v4}, Landroid/graphics/drawable/GradientDrawable;-><init>(Landroid/graphics/drawable/GradientDrawable$Orientation;[I)V
+
+    const/4 v3, 0x0
+
+    invoke-virtual {v0, v3}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadius(F)V
+
+    invoke-virtual {p0, v0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->setBackground(Landroid/graphics/drawable/Drawable;)V
+
+    goto :goto_1
+
+    :cond_2
+    new-instance v0, Landroid/graphics/drawable/GradientDrawable;
+
+    sget-object v3, Landroid/graphics/drawable/GradientDrawable$Orientation;->TOP_BOTTOM:Landroid/graphics/drawable/GradientDrawable$Orientation;
+
+    const/4 v4, 0x3
+
+    new-array v4, v4, [I
+
+    const/4 v5, 0x0
+
+    iget v6, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mbgcolorone:I
+
+    aput v6, v4, v5
+
+    const/4 v5, 0x1
+
+    iget v6, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mbgcolortwo:I
+
+    aput v6, v4, v5
+
+    const/4 v5, 0x2
+
+    iget v6, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mbgcolorone:I
+
+    aput v6, v4, v5
+
+    invoke-direct {v0, v3, v4}, Landroid/graphics/drawable/GradientDrawable;-><init>(Landroid/graphics/drawable/GradientDrawable$Orientation;[I)V
+
+    const/4 v3, 0x0
+
+    invoke-virtual {v0, v3}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadius(F)V
+
+    invoke-virtual {p0, v0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->setBackground(Landroid/graphics/drawable/Drawable;)V
+
+    goto :goto_1
+
+    :cond_3
+    new-instance v0, Landroid/graphics/drawable/GradientDrawable;
+
+    sget-object v3, Landroid/graphics/drawable/GradientDrawable$Orientation;->LEFT_RIGHT:Landroid/graphics/drawable/GradientDrawable$Orientation;
+
+    const/4 v4, 0x3
+
+    new-array v4, v4, [I
+
+    const/4 v5, 0x0
+
+    iget v6, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mbgcolorone:I
+
+    aput v6, v4, v5
+
+    const/4 v5, 0x1
+
+    iget v6, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mbgcolortwo:I
+
+    aput v6, v4, v5
+
+    const/4 v5, 0x2
+
+    iget v6, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mbgcolorone:I
+
+    aput v6, v4, v5
+
+    invoke-direct {v0, v3, v4}, Landroid/graphics/drawable/GradientDrawable;-><init>(Landroid/graphics/drawable/GradientDrawable$Orientation;[I)V
+
+    const/4 v3, 0x0
+
+    invoke-virtual {v0, v3}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadius(F)V
+
+    const v3, 0x43250000
+
+    invoke-virtual {v0, v3}, Landroid/graphics/drawable/GradientDrawable;->setGradientRadius(F)V
+
+    invoke-virtual {p0, v0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->setBackground(Landroid/graphics/drawable/Drawable;)V
+
+    goto :goto_1
+
+    :cond_4
+    iget v6, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mbgcolorone:I
+
+    invoke-virtual {p0, v6}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->setBackgroundColor(I)V
+
+    :goto_1
+    invoke-virtual {p0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->set_toggles()V
+
+    invoke-virtual {p0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->color_on()V
+
+    invoke-virtual {p0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->color_off()V
+
+    invoke-virtual {p0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->color_text()V
+
+    invoke-virtual {p0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->color_dim()V
+
+    :goto_2
+    return-void
+
+    :cond_5
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mContext:Landroid/content/Context;
 
     const v1, 0x7f040023
 
     invoke-static {v0, v1, p0}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
-    goto :goto_0
+    goto/16 :goto_0
 
-    :cond_1
     sget-boolean v0, Lcom/android/systemui/statusbar/Feature;->mIsMacchiato:Z
 
-    if-eqz v0, :cond_2
+    if-eqz v0, :cond_6
 
     const v0, -0xfa893f
 
-    invoke-virtual {p0, v0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->setBackgroundColor(I)V
+    goto :goto_2
 
-    goto :goto_1
-
-    :cond_2
+    :cond_6
     const v0, 0x7f02020b
 
-    invoke-virtual {p0, v0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->setBackgroundResource(I)V
-
-    goto :goto_1
+    goto :goto_2
 .end method
 
 .method protected isDeviceProvisioned()Z
@@ -1505,15 +2032,11 @@
 
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnImage:Landroid/widget/ImageView;
 
-    invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setBackgroundResource(I)V
-
     :goto_0
     return-void
 
     :cond_0
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnImage:Landroid/widget/ImageView;
-
-    invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
     goto :goto_0
 
@@ -1546,14 +2069,10 @@
 
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnImage:Landroid/widget/ImageView;
 
-    invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setBackgroundResource(I)V
-
     goto :goto_0
 
     :cond_4
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnImage:Landroid/widget/ImageView;
-
-    invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
     goto :goto_0
 .end method
@@ -1678,7 +2197,7 @@
 .end method
 
 .method public setActivateStatus(I)V
-    .locals 4
+    .locals 5
 
     const v3, 0x7f020207
 
@@ -1695,6 +2214,10 @@
     iget v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mTextID:I
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
+
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mTextColor:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setTextColor(I)V
 
     invoke-direct {p0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->checkContentDescription()V
 
@@ -1714,6 +2237,10 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mTextColor:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setTextColor(I)V
+
     goto :goto_0
 
     :pswitch_0
@@ -1727,11 +2254,19 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorON:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
+
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnLED:Landroid/widget/ImageView;
 
     iget v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mOnIconID:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
+
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorON:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
 
     goto :goto_1
 
@@ -1742,6 +2277,10 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorON:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
+
     sget-boolean v0, Lcom/android/systemui/statusbar/Feature;->mUseJellyBeanGUI:Z
 
     if-eqz v0, :cond_0
@@ -1749,6 +2288,10 @@
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnLED:Landroid/widget/ImageView;
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
+
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorON:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
 
     goto :goto_1
 
@@ -1763,11 +2306,19 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorON:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
+
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnImage:Landroid/widget/ImageView;
 
     iget v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mOnIconID2:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
+
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorON:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
 
     goto :goto_1
 
@@ -1778,6 +2329,10 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorON:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
+
     sget-boolean v0, Lcom/android/systemui/statusbar/Feature;->mUseJellyBeanGUI:Z
 
     if-eqz v0, :cond_0
@@ -1785,6 +2340,10 @@
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnLED:Landroid/widget/ImageView;
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setImageResource(I)V
+
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorON:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
 
     goto :goto_1
 
@@ -1799,13 +2358,21 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorDIM:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
+
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnLED:Landroid/widget/ImageView;
 
     iget v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mDimIconID:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    goto :goto_1
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorDIM:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
+
+    goto/16 :goto_1
 
     :cond_4
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnImage:Landroid/widget/ImageView;
@@ -1813,6 +2380,10 @@
     iget v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mDimIconID:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
+
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorDIM:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
 
     sget-boolean v0, Lcom/android/systemui/statusbar/Feature;->mUseJellyBeanGUI:Z
 
@@ -1824,7 +2395,11 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    goto :goto_1
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorDIM:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
+
+    goto/16 :goto_1
 
     :pswitch_3
     iget-boolean v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mIsRoundButtonUX:Z
@@ -1837,11 +2412,19 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorOFF:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
+
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnLED:Landroid/widget/ImageView;
 
     iget v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mOffIconID:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
+
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorOFF:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
 
     goto/16 :goto_1
 
@@ -1852,6 +2435,10 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorOFF:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
+
     sget-boolean v0, Lcom/android/systemui/statusbar/Feature;->mUseJellyBeanGUI:Z
 
     if-eqz v0, :cond_0
@@ -1859,6 +2446,10 @@
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnLED:Landroid/widget/ImageView;
 
     invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setImageResource(I)V
+
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorON:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
 
     goto/16 :goto_1
 
@@ -1877,12 +2468,20 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorON:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
+
     :goto_2
     iget-object v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnImage:Landroid/widget/ImageView;
 
     iget v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mOffIconID2:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
+
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorOFF:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
 
     goto/16 :goto_1
 
@@ -1893,6 +2492,10 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorOFF:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
+
     goto :goto_2
 
     :cond_7
@@ -1901,6 +2504,10 @@
     iget v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mOffIconID2:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
+
+    iget v4, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mColorOFF:I
+
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setColorFilter(I)V
 
     sget-boolean v0, Lcom/android/systemui/statusbar/Feature;->mUseJellyBeanGUI:Z
 
@@ -2007,6 +2614,132 @@
     iput p1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mTextID:I
 
     iput-object p2, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mText:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method set_toggles()V
+    .locals 5
+
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnText:Landroid/widget/TextView;
+
+    invoke-virtual {v1}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "toggle_text"
+
+    const v3, 0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x0
+
+    if-ne v1, v4, :cond_0
+
+    const v3, 0x8
+
+    iget-object v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnText:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v3}, Landroid/widget/TextView;->setVisibility(I)V
+
+    goto :goto_0
+
+    :cond_0
+    const v3, 0x1
+
+    iget-object v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnText:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v3}, Landroid/widget/TextView;->setVisibility(I)V
+
+    goto :goto_0
+
+    :goto_0
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnText:Landroid/widget/TextView;
+
+    invoke-virtual {v1}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "s5_circles"
+
+    const v3, 0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x0
+
+    if-ne v1, v4, :cond_1
+
+    const v3, 0x8
+
+    const v0, 0x7f0800fa
+
+    invoke-virtual {p0, v0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/ImageView;
+
+    invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    goto :goto_1
+
+    :cond_1
+    const v3, 0x1
+
+    const v0, 0x7f0800fa
+
+    invoke-virtual {p0, v0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/ImageView;
+
+    invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    goto :goto_1
+
+    :goto_1
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->mBtnText:Landroid/widget/TextView;
+
+    invoke-virtual {v1}, Landroid/widget/ImageView;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "s5_circle_color"
+
+    const v3, -0x100
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const v0, 0x7f0800fa
+
+    invoke-virtual {p0, v0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/ImageView;
+
+    invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setColorFilter(I)V
 
     return-void
 .end method

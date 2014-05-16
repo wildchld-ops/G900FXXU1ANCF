@@ -1212,7 +1212,19 @@
 .end method
 
 .method notifyFullBatteryNotification()V
-    .locals 12
+    .locals 14
+
+    new-instance v12, Ljava/io/File;
+
+    const-string v13, "/sdcard/tweak/full_charge_notification_on"
+
+    invoke-direct {v12, v13}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v12}, Ljava/io/File;->exists()Z
+
+    move-result v12
+
+    if-eqz v12, :cond_4
 
     const/4 v11, 0x0
 
@@ -1368,10 +1380,25 @@
     invoke-virtual {v0, v8, v9}, Landroid/os/PowerManager$WakeLock;->acquire(J)V
 
     goto/16 :goto_0
+
+    :cond_4
+    return-void
 .end method
 
 .method playSound(I)V
-    .locals 12
+    .locals 14
+
+    new-instance v12, Ljava/io/File;
+
+    const-string v13, "/sdcard/tweak/usb_connect_sound"
+
+    invoke-direct {v12, v13}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v12}, Ljava/io/File;->exists()Z
+
+    move-result v12
+
+    if-eqz v12, :cond_5
 
     const/4 v11, 0x2
 
@@ -1606,7 +1633,7 @@
     goto :goto_2
 
     :cond_4
-    if-ne v10, v4, :cond_6
+    if-ne v10, v4, :cond_7
 
     packed-switch p1, :pswitch_data_1
 
@@ -1617,7 +1644,7 @@
 
     invoke-direct {v6}, Landroid/os/SystemVibrator;-><init>()V
 
-    if-eqz v6, :cond_5
+    if-eqz v6, :cond_6
 
     invoke-virtual {v6, v3}, Landroid/os/SystemVibrator;->vibrateImmVibe(I)V
 
@@ -1630,6 +1657,9 @@
 
     goto/16 :goto_0
 
+    :cond_5
+    return-void
+
     :pswitch_4
     const/16 v3, 0xa
 
@@ -1640,7 +1670,7 @@
 
     goto :goto_3
 
-    :cond_5
+    :cond_6
     const-string v7, "PowerUI"
 
     const-string v8, "playSound : fail to new SystemVibrator"
@@ -1649,8 +1679,8 @@
 
     goto :goto_4
 
-    :cond_6
-    if-nez v4, :cond_7
+    :cond_7
+    if-nez v4, :cond_8
 
     const-string v7, "PowerUI"
 
@@ -1660,7 +1690,7 @@
 
     goto/16 :goto_0
 
-    :cond_7
+    :cond_8
     const-string v7, "PowerUI"
 
     const-string v8, "unknown RINGER_MODE"
@@ -2442,6 +2472,18 @@
 .method showLowBatteryWarning()V
     .locals 21
 
+    new-instance v0, Ljava/io/File;
+
+    const-string v1, "/sdcard/tweak/low_battery_popup_on"
+
+    invoke-direct {v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0}, Ljava/io/File;->exists()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_f
+
     const-string v18, "PowerUI"
 
     new-instance v19, Ljava/lang/StringBuilder;
@@ -3126,6 +3168,9 @@
     invoke-virtual {v13, v0, v1}, Landroid/os/PowerManager$WakeLock;->acquire(J)V
 
     goto/16 :goto_2
+
+    :cond_f
+    return-void
 .end method
 
 .method showOverheatShutdownNotice()V

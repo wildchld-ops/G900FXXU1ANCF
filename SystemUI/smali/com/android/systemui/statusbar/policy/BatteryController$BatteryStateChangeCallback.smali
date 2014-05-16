@@ -15,5 +15,5 @@
 
 
 # virtual methods
-.method public abstract onBatteryLevelChanged(IZ)V
+.method public abstract onBatteryLevelChanged(IZI)V
 .end method

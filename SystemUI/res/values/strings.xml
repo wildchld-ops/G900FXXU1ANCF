@@ -617,4 +617,15 @@ After the tablet cools down, performance will Automatically go back to normal."<
     <string name="recent_menukey_press_description">Press and hold the recent key to view the menu.</string>
     <string name="recent_menukey_press_description_vzw">The menu key has been replaced by the recent key to allow you to quickly change between the applications you used most recently. Tap Help for more information.</string>
     <string name="recent_menukey_help_button">Help</string>
+    <string name="cpu_ide">idle</string>
+    <string name="quickpanel_flashlight_text">Torch</string>
+    <string name="quickpanel_cs_text">ROM Control</string>
+    <string name="quickpanel_camera_text">Camera</string>
+    <string name="quickpanel_battery_text">Battery Stats</string>
+    <string name="quickpanel_Power_Off">Power Off</string>
+    <string name="quickpanel_flashlight_content_description">Torch</string>
+    <string name="quickpanel_cs_content_description">ROM Control</string>
+    <string name="quickpanel_battery_content_description">Battery</string>
+    <string name="quickpanel_camera_content_description">Camera</string>
+    <string name="quickpanel_poweroff_content_description">Power Off</string>
 </resources>

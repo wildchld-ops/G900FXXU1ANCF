@@ -146,4 +146,10 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">true</item>
     </style>
+    <style name="TextAppearance.StatusBar.Traffic" parent="@style/TextAppearance.StatusBar.Clock">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffa6a6a6</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
 </resources>

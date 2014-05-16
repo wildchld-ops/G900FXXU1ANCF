@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/tw_stat_sys_battery_4" android:maxLevel="4" />
+    <item android:drawable="@drawable/tw_stat_sys_battery_10" android:maxLevel="10" />
+    <item android:drawable="@drawable/tw_stat_sys_battery_20" android:maxLevel="20" />
+    <item android:drawable="@drawable/tw_stat_sys_battery_34" android:maxLevel="34" />
+    <item android:drawable="@drawable/tw_stat_sys_battery_49" android:maxLevel="49" />
+    <item android:drawable="@drawable/tw_stat_sys_battery_64" android:maxLevel="64" />
+    <item android:drawable="@drawable/tw_stat_sys_battery_79" android:maxLevel="79" />
+    <item android:drawable="@drawable/tw_stat_sys_battery_94" android:maxLevel="94" />
+    <item android:drawable="@drawable/tw_stat_sys_battery_100" android:maxLevel="100" />
+</level-list>

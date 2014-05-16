@@ -49,6 +49,8 @@
 
 .field private mMobileRoamingId:I
 
+.field private mMobileState:I
+
 .field private mMobileStrengthId:I
 
 .field mMobileType:Landroid/widget/ImageView;
@@ -81,6 +83,8 @@
 
 .field mSeparateMobileGroup:Landroid/view/ViewGroup;
 
+.field private mSignalColor:I
+
 .field mSpacer:Landroid/view/View;
 
 .field mWifi:Landroid/widget/ImageView;
@@ -89,9 +93,13 @@
 
 .field private mWifiActivityId:I
 
+.field private mWifiColor:I
+
 .field private mWifiDescription:Ljava/lang/String;
 
 .field mWifiGroup:Landroid/view/ViewGroup;
+
+.field private mWifiState:I
 
 .field private mWifiStrengthId:I
 
@@ -162,11 +170,13 @@
 
     iput-boolean v0, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mBtTetherState:Z
 
+    invoke-virtual {p0, p1}, Lcom/android/systemui/statusbar/SignalClusterView;->color_signals(Landroid/content/Context;)V
+
     return-void
 .end method
 
 .method private apply()V
-    .locals 11
+    .locals 13
 
     const/4 v10, 0x4
 
@@ -228,11 +238,27 @@
 
     invoke-virtual {v4, v7}, Landroid/widget/ImageView;->setImageResource(I)V
 
+    iget v11, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mWifiColor:I
+
+    sget-object v12, Landroid/graphics/PorterDuff$Mode;->MULTIPLY:Landroid/graphics/PorterDuff$Mode;
+
+    invoke-virtual {v4, v11, v12}, Landroid/widget/ImageView;->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
+
     iget-object v4, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mWifiActivity:Landroid/widget/ImageView;
 
     iget v7, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mWifiActivityId:I
 
     invoke-virtual {v4, v7}, Landroid/widget/ImageView;->setImageResource(I)V
+
+    iget v11, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mWifiColor:I
+
+    sget-object v12, Landroid/graphics/PorterDuff$Mode;->MULTIPLY:Landroid/graphics/PorterDuff$Mode;
+
+    invoke-virtual {v4, v11, v12}, Landroid/widget/ImageView;->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
+
+    iget v12, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mWifiState:I
+
+    invoke-virtual {v4, v12}, Landroid/widget/ImageView;->setVisibility(I)V
 
     iget-object v4, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mWifiGroup:Landroid/view/ViewGroup;
 
@@ -285,11 +311,23 @@
 
     invoke-virtual {v4, v7}, Landroid/widget/ImageView;->setImageResource(I)V
 
+    iget v11, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mSignalColor:I
+
+    sget-object v12, Landroid/graphics/PorterDuff$Mode;->MULTIPLY:Landroid/graphics/PorterDuff$Mode;
+
+    invoke-virtual {v4, v11, v12}, Landroid/widget/ImageView;->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
+
     iget-object v4, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mMobileType:Landroid/widget/ImageView;
 
     iget v7, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mMobileTypeId:I
 
     invoke-virtual {v4, v7}, Landroid/widget/ImageView;->setImageResource(I)V
+
+    iget v11, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mSignalColor:I
+
+    sget-object v12, Landroid/graphics/PorterDuff$Mode;->MULTIPLY:Landroid/graphics/PorterDuff$Mode;
+
+    invoke-virtual {v4, v11, v12}, Landroid/widget/ImageView;->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
 
     iget-object v4, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mMobileGroup:Landroid/view/ViewGroup;
 
@@ -345,7 +383,17 @@
 
     iget v7, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mMobileActivityId:I
 
-    invoke-virtual {v4, v7}, Landroid/widget/ImageView;->setBackgroundResource(I)V
+    invoke-virtual {v4, v7}, Landroid/widget/ImageView;->setImageResource(I)V
+
+    iget v11, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mWifiColor:I
+
+    sget-object v12, Landroid/graphics/PorterDuff$Mode;->MULTIPLY:Landroid/graphics/PorterDuff$Mode;
+
+    invoke-virtual {v4, v11, v12}, Landroid/widget/ImageView;->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
+
+    iget v12, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mMobileState:I
+
+    invoke-virtual {v4, v12}, Landroid/widget/ImageView;->setVisibility(I)V
 
     :try_start_1
     iget-object v4, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mMobileActivity:Landroid/widget/ImageView;
@@ -374,6 +422,12 @@
     iget v7, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mAirplaneIconId:I
 
     invoke-virtual {v4, v7}, Landroid/widget/ImageView;->setImageResource(I)V
+
+    iget v11, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mWifiColor:I
+
+    sget-object v12, Landroid/graphics/PorterDuff$Mode;->MULTIPLY:Landroid/graphics/PorterDuff$Mode;
+
+    invoke-virtual {v4, v11, v12}, Landroid/widget/ImageView;->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
 
     :goto_6
     iget-boolean v4, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mWifiVisible:Z
@@ -841,6 +895,163 @@
 
 
 # virtual methods
+.method color_signals(Landroid/content/Context;)V
+    .locals 5
+
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "signal_inout"
+
+    const/4 v3, 0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x0
+
+    if-ne v1, v4, :cond_0
+
+    const v4, 0x8
+
+    iput v4, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mMobileState:I
+
+    goto :goto_0
+
+    :cond_0
+    const v4, 0x1
+
+    iput v4, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mMobileState:I
+
+    :goto_0
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "wifi_inout"
+
+    const/4 v3, 0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x0
+
+    if-ne v1, v4, :cond_1
+
+    const v4, 0x8
+
+    iput v4, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mWifiState:I
+
+    goto :goto_1
+
+    :cond_1
+    const v4, 0x1
+
+    iput v4, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mWifiState:I
+
+    :goto_1
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "link_wifi"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_2
+
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mWifiColor:I
+
+    :goto_2
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "link_signal"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_3
+
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mSignalColor:I
+
+    return-void
+
+    :cond_2
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "wifi_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mWifiColor:I
+
+    goto :goto_2
+
+    :cond_3
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "signal_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/systemui/statusbar/SignalClusterView;->mSignalColor:I
+
+    return-void
+.end method
+
 .method public dispatchPopulateAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)Z
     .locals 2
 

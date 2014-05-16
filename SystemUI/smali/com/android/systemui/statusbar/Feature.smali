@@ -442,7 +442,7 @@
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 4
+    .locals 6
 
     const/4 v2, 0x1
 

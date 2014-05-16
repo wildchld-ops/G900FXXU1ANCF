@@ -235,4 +235,19 @@
     <item type="id" name="recent_remove_item">false</item>
     <item type="id" name="notification_inspect_item">false</item>
     <item type="id" name="recent_inspect_item">false</item>
+    <item type="id" name="cpu">false</item>
+    <item type="id" name="traffic">false</item>
+    <item type="id" name="clear_btn">false</item>
+    <item type="id" name="center_clock_layout">false</item>
+    <item type="id" name="center_clock">false</item>
+    <item type="id" name="notification_wallpaper">false</item>
+    <item type="id" name="statusbar_wallpaper">false</item>
+    <item type="id" name="infamous">false</item>
+    <item type="id" name="toggle_holder">false</item>
+    <item type="id" name="slider_holder">false</item>
+    <item type="id" name="scroll_holder">false</item>
+    <item type="id" name="tickeridone">false</item>
+    <item type="id" name="tickeridtwo">false</item>
+    <item type="id" name="btn_image_bg">false</item>
+    <item type="id" name="closenew">false</item>
 </resources>

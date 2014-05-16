@@ -1026,6 +1026,22 @@
 
     :cond_0
     :goto_1
+    iget-object v4, p0, Lcom/android/systemui/SystemUI;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v4}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v4
+
+    const-string v5, "noti_item_bg_color"
+
+    const v6, 0x0
+
+    invoke-static {v4, v5, v6}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v4
+
+    invoke-virtual {p2, v4}, Landroid/view/View;->setBackgroundColor(I)V
+
     return-void
 
     :catch_0

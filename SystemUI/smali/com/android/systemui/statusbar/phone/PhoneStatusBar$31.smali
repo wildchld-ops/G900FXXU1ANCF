@@ -645,8 +645,5 @@
 
     iget-object v9, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBar$31;->this$0:Lcom/android/systemui/statusbar/phone/PhoneStatusBar;
 
-    #calls: Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->showHideQConnectLayout()V
-    invoke-static {v9}, Lcom/android/systemui/statusbar/phone/PhoneStatusBar;->access$1400(Lcom/android/systemui/statusbar/phone/PhoneStatusBar;)V
-
     goto/16 :goto_0
 .end method

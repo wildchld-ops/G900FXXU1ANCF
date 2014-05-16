@@ -1036,7 +1036,7 @@
 .end method
 
 .method private updateButtonInfo()V
-    .locals 8
+    .locals 11
 
     iget-object v5, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->mContext:Landroid/content/Context;
 
@@ -1141,6 +1141,20 @@
 
     move-result v5
 
+    iget-object v8, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v8}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v8
+
+    const-string v9, "toggle_type_key"
+
+    const/4 v10, 0x5
+
+    invoke-static {v8, v9, v10}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v5
+
     iput v5, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->mColumnNumber:I
 
     sget-boolean v5, Lcom/android/systemui/statusbar/Feature;->mUseJellyBeanGUI:Z
@@ -1200,7 +1214,7 @@
 
     sget-boolean v5, Lcom/android/systemui/statusbar/Feature;->mUseJellyBeanGUI:Z
 
-    if-eqz v5, :cond_4
+    if-eqz v5, :cond_5
 
     const v5, 0x7f0d0094
 
@@ -1279,6 +1293,27 @@
     goto/16 :goto_2
 
     :cond_3
+    iget-object v8, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v8}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v8
+
+    const-string v9, "toggle_gap"
+
+    const/4 v10, 0x1
+
+    invoke-static {v8, v9, v10}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v5
+
+    if-nez v5, :cond_4
+
+    const v5, 0x0
+
+    goto :goto_5
+
+    :cond_4
     const v5, 0x7f0d007c
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimension(I)F
@@ -1287,11 +1322,14 @@
 
     float-to-int v5, v5
 
+    goto :goto_5
+
+    :goto_5
     iput v5, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->mButtonGap:I
 
-    goto :goto_3
+    goto/16 :goto_3
 
-    :cond_4
+    :cond_5
     const v5, 0x7f0d0070
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDimension(I)F
@@ -1430,7 +1468,7 @@
 
     move-result v7
 
-    if-nez v7, :cond_2
+    if-nez v7, :cond_3
 
     :cond_0
     const-string v7, "STATUSBAR-QuickSettingPanel"
@@ -1441,9 +1479,36 @@
 
     :cond_1
     :goto_0
-    return-void
+    iget-object v1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->mContext:Landroid/content/Context;
+
+    invoke-virtual {v1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "toggle_position_key"
+
+    const/4 v3, 0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v4
+
+    const v6, 0x2
+
+    const v5, 0x1
+
+    if-lt v4, v6, :cond_2
+
+    if-ne v5, p1, :cond_2
+
+    const v5, 0x8
 
     :cond_2
+    invoke-virtual {p0, v5}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->setVisibility(I)V
+
+    return-void
+
+    :cond_3
     iput-boolean p1, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->mSingleLine:Z
 
     invoke-direct {p0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->updateButtonInfo()V
@@ -1454,7 +1519,7 @@
 
     iget v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->mButtonCorrectionWidth:I
 
-    if-eqz p1, :cond_7
+    if-eqz p1, :cond_8
 
     iget-object v7, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->mQuickSettingButton:Ljava/util/ArrayList;
 
@@ -1467,7 +1532,7 @@
     move v1, v0
 
     :goto_1
-    if-ge v3, v5, :cond_6
+    if-ge v3, v5, :cond_7
 
     iget-object v7, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->mQuickSettingButton:Ljava/util/ArrayList;
 
@@ -1475,11 +1540,11 @@
 
     move-result-object v7
 
-    if-eqz v7, :cond_4
+    if-eqz v7, :cond_5
 
     iget v7, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->mVisibleButtonNum:I
 
-    if-ge v3, v7, :cond_4
+    if-ge v3, v7, :cond_5
 
     invoke-direct {p0, v3, v4}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->makeDividerVisible(II)V
 
@@ -1493,7 +1558,7 @@
 
     add-int/lit8 v0, v1, -0x1
 
-    if-lez v1, :cond_3
+    if-lez v1, :cond_4
 
     iget v7, v6, Landroid/view/ViewGroup$LayoutParams;->width:I
 
@@ -1545,19 +1610,19 @@
 
     goto :goto_1
 
-    :cond_3
+    :cond_4
     iget v2, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->mButtonCorrectionWidth:I
 
     goto :goto_2
 
-    :cond_4
+    :cond_5
     iget-object v7, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->mQuickSettingButton:Ljava/util/ArrayList;
 
     invoke-virtual {v7, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v7
 
-    if-eqz v7, :cond_5
+    if-eqz v7, :cond_6
 
     iget-object v7, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->mQuickSettingButton:Ljava/util/ArrayList;
 
@@ -1571,17 +1636,17 @@
 
     invoke-virtual {v7, v8}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->setVisibility(I)V
 
-    :cond_5
+    :cond_6
     move v0, v1
 
     goto :goto_3
 
-    :cond_6
+    :cond_7
     move v0, v1
 
-    goto :goto_0
+    goto/16 :goto_0
 
-    :cond_7
+    :cond_8
     iget-object v7, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->mQuickSettingButton:Ljava/util/ArrayList;
 
     invoke-virtual {v7}, Ljava/util/ArrayList;->size()I
@@ -1599,7 +1664,7 @@
 
     move-result-object v7
 
-    if-eqz v7, :cond_8
+    if-eqz v7, :cond_9
 
     invoke-direct {p0, v3, v4}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->makeDividerVisible(II)V
 
@@ -1615,7 +1680,7 @@
 
     rem-int v7, v4, v7
 
-    if-nez v7, :cond_a
+    if-nez v7, :cond_b
 
     iget v0, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->mButtonCorrectionWidth:I
 
@@ -1626,7 +1691,7 @@
     :goto_5
     add-int/lit8 v0, v1, -0x1
 
-    if-lez v1, :cond_9
+    if-lez v1, :cond_a
 
     iget v7, v6, Landroid/view/ViewGroup$LayoutParams;->width:I
 
@@ -1687,20 +1752,28 @@
 
     invoke-virtual {v7, v11}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingButton;->setVisibility(I)V
 
-    :cond_8
+    :cond_9
     add-int/lit8 v3, v3, 0x1
 
     goto :goto_4
 
-    :cond_9
+    :cond_a
     iget v2, p0, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->mButtonCorrectionWidth:I
 
     goto :goto_6
 
-    :cond_a
+    :cond_b
     move v1, v0
 
     goto :goto_5
+.end method
+
+.method public update_stock()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/android/systemui/statusbar/policy/quicksetting/QuickSettingPanel;->refreshView()V
+
+    return-void
 .end method
 
 .method public userSwitched(I)V
