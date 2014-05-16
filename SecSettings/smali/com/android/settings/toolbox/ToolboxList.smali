@@ -120,7 +120,7 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    const/4 v0, 0x5
+    const v0, 0xa
 
     sput v0, Lcom/android/settings/toolbox/ToolboxList;->MAX_TOOLBOX_APPS:I
 

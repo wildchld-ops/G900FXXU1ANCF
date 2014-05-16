@@ -583,7 +583,7 @@
     :try_start_a
     invoke-virtual {v9}, Ljava/io/BufferedOutputStream;->flush()V
 
-    invoke-virtual {v5}, Ljava/io/FileOutputStream;->flush()V
+    invoke-virtual {v5}, Ljava/io/OutputStream;->flush()V
     :try_end_a
     .catchall {:try_start_a .. :try_end_a} :catchall_2
     .catch Ljava/io/FileNotFoundException; {:try_start_a .. :try_end_a} :catch_0

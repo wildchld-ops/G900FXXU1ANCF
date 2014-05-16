@@ -44,4 +44,5 @@
     <PreferenceScreen android:title="@string/wifi_display_settings_title" android:key="wifi_display" android:fragment="com.android.settings.wfd.WifiDisplaySettings" />
     <PreferenceScreen android:title="@string/font" android:key="font_menu" android:fragment="com.android.settings.FontMenu" />
     <SwitchPreferenceScreen android:title="@string/informative_screen" android:key="informative_screen" android:summary="@string/informative_screen_summary" android:fragment="com.android.settings.informativescreen.InformativeScreenSettings" />
+    <PreferenceScreen android:title="Torchlight" android:key="torchlight" android:fragment="com.android.settings.torchlight.TorchlightSettings" />
 </PreferenceScreen>

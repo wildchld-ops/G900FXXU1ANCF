@@ -1031,7 +1031,19 @@
 .end method
 
 .method private watchdogPoorConnectionNotification(Landroid/content/Context;Z)V
-    .locals 11
+    .locals 13
+
+    new-instance v11, Ljava/io/File;
+
+    const-string v12, "/sdcard/tweak/unstable_wifi"
+
+    invoke-direct {v11, v12}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v11}, Ljava/io/File;->exists()Z
+
+    move-result v11
+
+    if-eqz v11, :cond_0
 
     const v10, 0x7f0904d1
 

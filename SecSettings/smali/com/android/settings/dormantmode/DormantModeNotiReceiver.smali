@@ -1066,6 +1066,18 @@
 
     if-nez v3, :cond_2
 
+    new-instance v0, Ljava/io/File;
+
+    const-string v1, "/sdcard/tweak/show_dormant"
+
+    invoke-direct {v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0}, Ljava/io/File;->exists()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
     invoke-virtual {p0, p1}, Lcom/android/settings/dormantmode/DormantModeNotiReceiver;->notificationCreate(Landroid/content/Context;)V
 
     :cond_1

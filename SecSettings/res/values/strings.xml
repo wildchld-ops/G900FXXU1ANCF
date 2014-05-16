@@ -6986,4 +6986,10 @@ Calling"</string>
     <string name="bluetooth_disconnect_hfdeviceprofile">%1$s will be disconnected from phone audio.</string>
     <string name="bluetooth_hfdevice_profile_summary_connected">Connected to phone audio</string>
     <string name="bluetooth_hfdevice_profile_summary_use_for">Use Handsfree Device Role</string>
+    <string name="infamous_rom">Custom ROM Settings</string>
+    <string name="notification_camera">Camera</string>
+    <string name="notification_flashlight">Flashlight</string>
+    <string name="notification_cs">ROM Control</string>
+    <string name="notification_power">Power Off</string>
+    <string name="notification_battery">Battery</string>
 </resources>

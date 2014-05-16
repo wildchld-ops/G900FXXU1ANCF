@@ -202,6 +202,8 @@
 
 .field private mBatteryPresent:Z
 
+.field private mColor:I
+
 .field mConnectionTabView:Landroid/view/View;
 
 .field private mCurrentHeader:Landroid/preference/PreferenceActivity$Header;
@@ -6871,6 +6873,59 @@
 
 
 # virtual methods
+.method color_stuff(Landroid/content/Context;)V
+    .locals 5
+
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "link_text"
+
+    const/4 v3, 0x0
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    const/4 v4, 0x1
+
+    if-ne v1, v4, :cond_0
+
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/settings/Settings;->mColor:I
+
+    return-void
+
+    :cond_0
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "theme_header_color"
+
+    const v3, -0x1
+
+    invoke-static {v1, v2, v3}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
+
+    move-result v1
+
+    iput v1, p0, Lcom/android/settings/Settings;->mColor:I
+
+    return-void
+.end method
+
 .method public dispatchKeyEvent(Landroid/view/KeyEvent;)Z
     .locals 2
 
@@ -8262,7 +8317,7 @@
 .end method
 
 .method protected onCreate(Landroid/os/Bundle;)V
-    .locals 10
+    .locals 11
 
     const v9, 0x7f04000b
 
@@ -8894,6 +8949,12 @@
 
     invoke-virtual {v0, v6}, Landroid/widget/TextView;->setText(I)V
 
+    invoke-virtual {p0, p0}, Lcom/android/settings/Settings;->color_stuff(Landroid/content/Context;)V
+
+    iget v10, p0, Lcom/android/settings/Settings;->mColor:I
+
+    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setTextColor(I)V
+
     iget-object v0, p0, Lcom/android/settings/Settings;->mConnectionTabView:Landroid/view/View;
 
     invoke-virtual {v0, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -8935,6 +8996,12 @@
     const v6, 0x7f091818
 
     invoke-virtual {v0, v6}, Landroid/widget/TextView;->setText(I)V
+
+    invoke-virtual {p0, p0}, Lcom/android/settings/Settings;->color_stuff(Landroid/content/Context;)V
+
+    iget v10, p0, Lcom/android/settings/Settings;->mColor:I
+
+    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setTextColor(I)V
 
     iget-object v0, p0, Lcom/android/settings/Settings;->mDisplayTabView:Landroid/view/View;
 
@@ -8978,6 +9045,12 @@
 
     invoke-virtual {v0, v6}, Landroid/widget/TextView;->setText(I)V
 
+    invoke-virtual {p0, p0}, Lcom/android/settings/Settings;->color_stuff(Landroid/content/Context;)V
+
+    iget v10, p0, Lcom/android/settings/Settings;->mColor:I
+
+    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setTextColor(I)V
+
     iget-object v0, p0, Lcom/android/settings/Settings;->mInputTabView:Landroid/view/View;
 
     invoke-virtual {v0, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -9019,6 +9092,12 @@
     const v6, 0x7f09181a
 
     invoke-virtual {v0, v6}, Landroid/widget/TextView;->setText(I)V
+
+    invoke-virtual {p0, p0}, Lcom/android/settings/Settings;->color_stuff(Landroid/content/Context;)V
+
+    iget v10, p0, Lcom/android/settings/Settings;->mColor:I
+
+    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setTextColor(I)V
 
     iget-object v0, p0, Lcom/android/settings/Settings;->mGeneralTabView:Landroid/view/View;
 
@@ -9652,6 +9731,12 @@
 
     invoke-virtual {v0, v6}, Landroid/widget/TextView;->setText(I)V
 
+    invoke-virtual {p0, p0}, Lcom/android/settings/Settings;->color_stuff(Landroid/content/Context;)V
+
+    iget v10, p0, Lcom/android/settings/Settings;->mColor:I
+
+    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setTextColor(I)V
+
     iget-object v0, p0, Lcom/android/settings/Settings;->mConnectionTabView:Landroid/view/View;
 
     invoke-virtual {v0, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -9693,6 +9778,12 @@
     const v6, 0x7f09027b
 
     invoke-virtual {v0, v6}, Landroid/widget/TextView;->setText(I)V
+
+    invoke-virtual {p0, p0}, Lcom/android/settings/Settings;->color_stuff(Landroid/content/Context;)V
+
+    iget v10, p0, Lcom/android/settings/Settings;->mColor:I
+
+    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setTextColor(I)V
 
     iget-object v0, p0, Lcom/android/settings/Settings;->mDeviceTabView:Landroid/view/View;
 
@@ -9736,6 +9827,12 @@
 
     invoke-virtual {v0, v6}, Landroid/widget/TextView;->setText(I)V
 
+    invoke-virtual {p0, p0}, Lcom/android/settings/Settings;->color_stuff(Landroid/content/Context;)V
+
+    iget v10, p0, Lcom/android/settings/Settings;->mColor:I
+
+    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setTextColor(I)V
+
     iget-object v0, p0, Lcom/android/settings/Settings;->mAccountTabView:Landroid/view/View;
 
     invoke-virtual {v0, v8}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -9777,6 +9874,12 @@
     const v6, 0x7f090395
 
     invoke-virtual {v0, v6}, Landroid/widget/TextView;->setText(I)V
+
+    invoke-virtual {p0, p0}, Lcom/android/settings/Settings;->color_stuff(Landroid/content/Context;)V
+
+    iget v10, p0, Lcom/android/settings/Settings;->mColor:I
+
+    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setTextColor(I)V
 
     iget-object v0, p0, Lcom/android/settings/Settings;->mMoreTabView:Landroid/view/View;
 

@@ -273,6 +273,8 @@
 
     const/4 v1, 0x0
 
+    goto :goto_1
+
     sget-boolean v0, Lcom/android/settings/flipfont/FontListActivity;->DEBUG:Z
 
     if-eqz v0, :cond_0

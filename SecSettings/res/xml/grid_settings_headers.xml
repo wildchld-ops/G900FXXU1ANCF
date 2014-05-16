@@ -80,6 +80,9 @@
     <header android:icon="@drawable/grid_ic_settings_block" android:id="@id/block_settings" android:title="@string/block_settings_title" android:fragment="com.android.settings.BlockSettings" />
     <header android:icon="@drawable/ic_setting_grid_guestlounge" android:id="@id/user_settings" android:title="@string/user_settings_title" android:fragment="com.android.settings.users.UserSettings" />
     <header android:icon="@drawable/ic_setting_grid_fingerprints" android:id="@id/fingerprint_settings" android:title="@string/fingerprint_scanner" android:summary="@string/menu_summary_fingerprints" android:fragment="com.android.settings.fingerprint.FingerprintSettings" />
+    <header android:icon="@drawable/ic_setting_grid_cs" android:id="@id/infamous_rom" android:title="@string/infamous_rom">
+        <intent android:targetPackage="com.ficeto.customsettings" android:action="android.intent.action.MAIN" android:targetClass="com.ficeto.customsettings.RandomActivity" />
+    </header>
     <header android:icon="@drawable/ic_setting_grid_opencamera" android:id="@id/launch_camera" android:title="@string/launch_camera_title" android:fragment="com.android.settings.launchcamera.LaunchCameraSettings" />
     <header android:icon="@drawable/grid_ic_settings_active_key" android:id="@id/active_key_settings" android:title="@string/active_key_title" android:fragment="com.android.settings.activekey.ActiveKeySettings" />
     <header android:id="@id/motion_section" android:title="@string/motion_title" />
@@ -120,6 +123,7 @@
     <header android:icon="@drawable/ic_setting_grid_applicationpermissions" android:id="@id/application_function_control" android:title="@string/application_function_control">
         <intent android:targetPackage="com.sec.android.app.capabilitymanager" android:targetClass="com.sec.android.app.cm.ui.CMApplicationListActivity" />
     </header>
+    <header android:icon="@drawable/ic_setting_grid_accounts" android:id="@id/appops_settings" android:title="@string/app_ops_settings" android:fragment="com.android.settings.applications.AppOpsSummary" />
     <header android:icon="@drawable/ic_setting_grid_defaultapplications" android:id="@id/launch_application_settings" android:title="@string/launch_application_settings" android:fragment="com.android.settings.LaunchApplication" />
     <header android:icon="@drawable/ic_setting_grid_splanner" android:id="@id/calendar_settings" android:title="@string/finger_air_view_help_information_priview_splanner_title_calendar">
         <intent android:action="com.sec.android.intent.calendar.setting" />

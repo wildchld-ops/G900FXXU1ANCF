@@ -43,4 +43,5 @@
     <ListPreference android:persistent="false" android:entries="@array/key_backlight_entries" android:title="@string/key_backlight" android:key="key_backlight" android:widgetLayout="@layout/round_more_icon" android:entryValues="@array/key_backlight_values" />
     <CheckBoxPreference android:persistent="false" android:title="@string/notification_pulse_title" android:key="notification_pulse" android:widgetLayout="@touchwiz:layout/preference_widget_twcheckbox" />
     <PreferenceScreen android:title="@string/wifi_display_settings_title" android:key="wifi_display" android:fragment="com.android.settings.wfd.WifiDisplaySettings" />
+    <PreferenceScreen android:title="Torchlight" android:key="torchlight" android:fragment="com.android.settings.torchlight.TorchlightSettings" />
 </PreferenceScreen>

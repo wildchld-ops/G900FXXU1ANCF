@@ -17,6 +17,9 @@
     <header android:icon="@drawable/ic_settings_easy_mode" android:id="@id/home_screen_mode_settings" android:title="@string/mode_change_title">
         <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.Settings$EasyModeSettingsActivity" />
     </header>
+    <header android:icon="@drawable/ic_setting_grid_cs" android:id="@id/infamous_rom" android:title="@string/infamous_rom">
+        <intent android:targetPackage="com.ficeto.customsettings" android:action="android.intent.action.MAIN" android:targetClass="com.ficeto.customsettings.RandomActivity" />
+    </header>
     <header android:icon="@drawable/ic_settings_launch_camera" android:id="@id/launch_camera" android:title="@string/launch_camera_title" android:fragment="com.android.settings.launchcamera.LaunchCameraSettings" />
     <header android:icon="@drawable/ic_settings_call_setting" android:id="@id/call_settings" android:title="@string/call_settings">
         <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallFeaturesSetting" />
